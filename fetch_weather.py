@@ -1,47 +1,66 @@
 import requests
-import pandas as pd
+import mysql.connector
+from mysql.connector import Error
 
-def get_agricultural_weather(lat, lon):
-    print(f"Fetching weather data for Coordinates: {lat}, {lon}...\n")
+# --- DATABASE CONNECTION DETAILS ---
+DB_CONFIG = {
+    'host': 'localhost',
+    'user': 'root',
+    'password': '12231691223178',
+    'database': 'FarmYieldSystem'
+}
+
+def save_weather_to_db(farmer_id, temp, rain, humidity, soil_moisture):
+    try:
+        connection = mysql.connector.connect(**DB_CONFIG)
+        if connection.is_connected():
+            cursor = connection.cursor()
+            
+            # SQL Insert Query
+            insert_query = """
+            INSERT INTO WeatherData (farmer_id, temperature_c, rainfall_mm, humidity_pct, soil_moisture)
+            VALUES (%s, %s, %s, %s, %s)
+            """
+            
+            # Handle the Open-Meteo 'None' soil moisture issue gracefully
+            if soil_moisture is None:
+                soil_moisture = 0.0 
+                
+            record = (farmer_id, temp, rain, humidity, soil_moisture)
+            cursor.execute(insert_query, record)
+            connection.commit()
+            
+            print(f"✅ Successfully saved weather data to the database for Farmer ID: {farmer_id}")
+            
+    except Error as e:
+        print(f"❌ Failed to insert record into MySQL table: {e}")
+    finally:
+        if connection.is_connected():
+            cursor.close()
+            connection.close()
+
+def get_agricultural_weather(lat, lon, farmer_id):
+    print(f"Fetching weather data for Coordinates: {lat}, {lon}...")
     
-    # Open-Meteo API endpoint for historical and current weather
-    # We are pulling temperature, rain, and soil moisture
     url = f"https://api.open-meteo.com/v1/forecast?latitude={lat}&longitude={lon}&current=temperature_2m,relative_humidity_2m,rain&hourly=soil_moisture_0_to_7cm&timezone=auto"
-    
     response = requests.get(url)
     
     if response.status_code == 200:
         data = response.json()
         
-        # Extracting the current data
-        current = data['current']
-        temp = current['temperature_2m']
-        rain = current['rain']
-        humidity = current['relative_humidity_2m']
-        
-        # Extracting soil moisture (taking the most recent hourly data)
+        temp = data['current']['temperature_2m']
+        rain = data['current']['rain']
+        humidity = data['current']['relative_humidity_2m']
         soil_moisture = data['hourly']['soil_moisture_0_to_7cm'][0]
         
-        print("--- Live Farm Weather Data ---")
-        print(f"Temperature: {temp}°C")
-        print(f"Rainfall: {rain} mm")
-        print(f"Humidity: {humidity}%")
-        print(f"Surface Soil Moisture: {soil_moisture} m³/m³")
-        print("------------------------------")
+        print(f"Temp: {temp}°C | Rain: {rain}mm | Humidity: {humidity}% | Soil: {soil_moisture}")
         
-        return {
-            "temperature": temp,
-            "rain": rain,
-            "humidity": humidity,
-            "soil_moisture": soil_moisture
-        }
+        # Save to database
+        save_weather_to_db(farmer_id, temp, rain, humidity, soil_moisture)
+        
     else:
-        print("Failed to fetch data. Check your connection or coordinates.")
-        return None
+        print("❌ Failed to fetch data from API.")
 
 if __name__ == "__main__":
-    # Test coordinates (Example: Radaur, Yamunanagar - near your institute)
-    test_lat = 30.0289
-    test_lon = 77.1462
-    
-    weather_data = get_agricultural_weather(test_lat, test_lon)
+    # Test coordinates (Using Farmer ID 1 we just created)
+    get_agricultural_weather(30.0289, 77.1462, 1)
