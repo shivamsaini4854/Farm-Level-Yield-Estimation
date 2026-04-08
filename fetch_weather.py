@@ -53,14 +53,12 @@ def get_agricultural_weather(lat, lon, farmer_id):
         humidity = data['current']['relative_humidity_2m']
         soil_moisture = data['hourly']['soil_moisture_0_to_7cm'][0]
         
-        print(f"Temp: {temp}°C | Rain: {rain}mm | Humidity: {humidity}% | Soil: {soil_moisture}")
-        
         # Save to database
         save_weather_to_db(farmer_id, temp, rain, humidity, soil_moisture)
         
+        # NEW: Return the data so Flask can use it!
+        return {"temp": temp, "rain": rain, "humidity": humidity, "soil": soil_moisture}
+        
     else:
         print("❌ Failed to fetch data from API.")
-
-if __name__ == "__main__":
-    # Test coordinates (Using Farmer ID 1 we just created)
-    get_agricultural_weather(30.0289, 77.1462, 1)
+        return None

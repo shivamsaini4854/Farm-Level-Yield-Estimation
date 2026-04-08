@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farm Yield Dashboard</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f4f9f4; color: #333; text-align: center; padding-top: 50px; }
+        h1 { color: #2e8b57; }
+        .btn { padding: 10px 20px; font-size: 16px; background-color: #2e8b57; color: white; border: none; border-radius: 5px; cursor: pointer; margin-top: 20px;}
+        .btn:hover { background-color: #246b43; }
+        .data-card { background: white; padding: 20px; border-radius: 10px; width: 300px; margin: 30px auto; box-shadow: 0 4px 8px rgba(0,0,0,0.1); text-align: left; border-left: 5px solid #2e8b57;}
+    </style>
+</head>
+<body>
+    <h1>Farm-Level Yield Estimation System</h1>
+    <p>Welcome to the dashboard. Click the button to fetch live data for Farmer ID: 1.</p>
+
+    <form method="POST">
+        <button type="submit" class="btn">Fetch Live Weather</button>
+    </form>
+
+    {% if weather %}
+    <div class="data-card">
+        <h3>Live Sensor Data</h3>
+        <p><strong>Temperature:</strong> {{ weather.temp }} °C</p>
+        <p><strong>Rainfall:</strong> {{ weather.rain }} mm</p>
+        <p><strong>Humidity:</strong> {{ weather.humidity }} %</p>
+        <p><strong>Soil Moisture:</strong> {{ weather.soil }}</p>
+        <p style="color: green; font-size: 12px; margin-top: 15px;">✓ Successfully logged to MySQL database</p>
+    </div>
+    {% endif %}
+
+</body>
+</html>
