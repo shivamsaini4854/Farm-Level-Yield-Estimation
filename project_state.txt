@@ -1,0 +1,22 @@
+*** PROJECT CHECKPOINT ***
+Project: Farm-Level Yield Estimation System (B.Tech Project)
+Team Members: Shivam and Sumeet.
+
+# TECH STACK & ARCHITECTURE
+- Frontend: HTML/CSS/JS (Jinja templating) [cite: 2, 3]
+- Backend: Python Flask (app.py) [cite: 2, 3]
+- Database: Local MySQL (Database: FarmYieldSystem) [cite: 2]
+- Data APIs: Open-Meteo (Weather) and Google Earth Engine (Sentinel-2 NDVI) [cite: 2]
+- Version Control: Git / GitHub [cite: 2, 5]
+
+# CURRENT STATE (April 8, 2026)
+1. Database: Fully initialized with 'Farmers' table using specific columns: farm_location_lat and farm_location_long. [cite: 2]
+2. Weather Pipeline: Live Open-Meteo integration fetching data and logging to MySQL. [cite: 4]
+3. Satellite Pipeline: Google Earth Engine authenticated (Project: madd-1eddf) and integrated via fetch_satellite.py. [cite: 6, 7]
+4. Backend Integration: Flask route /api/fetch_ndvi/1 successfully handles GEE requests.
+5. Critical Fixes: Applied float() conversion to coordinates in app.py to ensure GEE compatibility.
+6. Frontend Success: AJAX logic in index.html verified; NDVI score (0.3531) displays correctly on the UI.
+
+# NEXT IMMEDIATE TASKS
+- Implement SQL 'INSERT' within the NDVI route to log satellite scores to the WeatherData table.
+- Develop a visual health indicator (e.g., color-coded gauge) for the NDVI output.

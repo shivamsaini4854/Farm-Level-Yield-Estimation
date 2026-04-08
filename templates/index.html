@@ -30,6 +30,42 @@
         <p style="color: green; font-size: 12px; margin-top: 15px;">✓ Successfully logged to MySQL database</p>
     </div>
     {% endif %}
-
+    <div class="data-card" style="margin-top: 20px;">
+        <h3>Satellite Vegetation Data</h3>
+        <p>Sentinel-2 NDVI Analysis</p>
+        <button id="fetch-ndvi-btn" class="btn" style="background-color: #27ae60;">Analyze Farm Health</button>
+        <div style="margin-top: 15px;">
+            <strong>Latest NDVI Score: </strong> 
+            <span id="ndvi-display" style="font-weight: bold; color: #7f8c8d;">Not analyzed yet</span>
+        </div>
+    </div>
+    <script>
+        document.getElementById('fetch-ndvi-btn').addEventListener('click', function() {
+            const displaySpan = document.getElementById('ndvi-display');
+            
+            displaySpan.innerText = "Connecting to Satellite...";
+            displaySpan.style.color = "#2980b9";
+    
+            // Calls your new Flask route
+            fetch('/api/fetch_ndvi/1')
+                .then(response => {
+                    if (!response.ok) throw new Error('Network response was not ok');
+                    return response.json();
+                })
+                .then(data => {
+                    if (data.status === "success") {
+                        displaySpan.innerText = data.ndvi;
+                        displaySpan.style.color = "#27ae60"; // Green for success
+                    } else {
+                        displaySpan.innerText = "Error: " + data.error;
+                        displaySpan.style.color = "#c0392b";
+                    }
+                })
+                .catch(error => {
+                    displaySpan.innerText = "Server Unreachable";
+                    displaySpan.style.color = "#c0392b";
+                });
+        });
+    </script>
 </body>
 </html>
