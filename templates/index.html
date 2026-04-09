@@ -34,28 +34,49 @@
         <h3>Satellite Vegetation Data</h3>
         <p>Sentinel-2 NDVI Analysis</p>
         <button id="fetch-ndvi-btn" class="btn" style="background-color: #27ae60;">Analyze Farm Health</button>
-        <div style="margin-top: 15px;">
-            <strong>Latest NDVI Score: </strong> 
-            <span id="ndvi-display" style="font-weight: bold; color: #7f8c8d;">Not analyzed yet</span>
+        
+        <div style="margin-top: 20px;">
+            <div id="gauge-label" style="font-size: 14px; font-weight: bold; margin-bottom: 5px;">Crop Health: Not analyzed</div>
+            <div style="width: 100%; background-color: #e0e0e0; border-radius: 10px; height: 20px; overflow: hidden; border: 1px solid #ccc;">
+                <div id="ndvi-fill" style="width: 0%; height: 100%; transition: width 0.8s ease-in-out, background-color 0.5s;"></div>
+            </div>
+            <div style="margin-top: 8px;">
+                <strong>Latest NDVI Score: </strong> 
+                <span id="ndvi-display" style="font-weight: bold; color: #7f8c8d;">-</span>
+            </div>
         </div>
     </div>
     <script>
         document.getElementById('fetch-ndvi-btn').addEventListener('click', function() {
             const displaySpan = document.getElementById('ndvi-display');
+            const fill = document.getElementById('ndvi-fill');
+            const label = document.getElementById('gauge-label');
             
             displaySpan.innerText = "Connecting to Satellite...";
             displaySpan.style.color = "#2980b9";
     
-            // Calls your new Flask route
             fetch('/api/fetch_ndvi/1')
-                .then(response => {
-                    if (!response.ok) throw new Error('Network response was not ok');
-                    return response.json();
-                })
+                .then(response => response.json())
                 .then(data => {
-                    if (data.status === "success") {
-                        displaySpan.innerText = data.ndvi;
-                        displaySpan.style.color = "#27ae60"; // Green for success
+                    if (data.status === "success" || data.status === "partial_success") {
+                        const ndvi = data.ndvi;
+                        displaySpan.innerText = ndvi;
+                        
+                        // Logic for Gauge Movement and Colors
+                        let percentage = Math.min(Math.max(ndvi * 100, 0), 100);
+                        fill.style.width = percentage + "%";
+    
+                        if (ndvi < 0.2) {
+                            fill.style.backgroundColor = "#e74c3c"; // Red
+                            label.innerText = "Crop Health: Poor / Bare Soil";
+                        } else if (ndvi < 0.4) {
+                            fill.style.backgroundColor = "#f1c40f"; // Yellow
+                            label.innerText = "Crop Health: Moderate / Low Growth";
+                        } else {
+                            fill.style.backgroundColor = "#2ecc71"; // Green
+                            label.innerText = "Crop Health: Excellent";
+                        }
+                        displaySpan.style.color = "#27ae60";
                     } else {
                         displaySpan.innerText = "Error: " + data.error;
                         displaySpan.style.color = "#c0392b";

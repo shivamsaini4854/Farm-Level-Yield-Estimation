@@ -20,3 +20,29 @@ Team Members: Shivam and Sumeet.
 # NEXT IMMEDIATE TASKS
 - Implement SQL 'INSERT' within the NDVI route to log satellite scores to the WeatherData table.
 - Develop a visual health indicator (e.g., color-coded gauge) for the NDVI output.
+
+# FARM YIELD PREDICTION PROJECT - STATUS REPORT (April 9, 2026)
+# Student: Udit Dhiman | B.Tech CSE (3rd Year)
+
+## 1. PROJECT CONTEXT
+- Target Location: Saharanpur, Uttar Pradesh, India
+- Coordinates: (30.0289, 77.1462)
+- Focus Crop: Sugarcane (Kharif Season)
+- Dashboard Status: Flask App running on localhost:5000
+
+## 2. RECENT ACHIEVEMENTS
+- ENVIRONMENT: Fixed 'venv' activation and PowerShell execution policies.
+- DATA SOURCE: Registered on data.gov.in and set 'DATAGOVINDIA_API_KEY' as a System Environment Variable.
+- HISTORICAL DATA: Manually cleaned and verified 'saharanpur_sugarcane_yield.csv' (2015-2023).
+- BASELINE MODEL: Successfully ran 'merge_data.py' producing a 2026 estimate of 74.57 T/Ha.
+
+## 3. CURRENT METRICS
+- Live NDVI Score: 0.3531 (Moderate Health)
+- Historical Peak Yield: 84.48 T/Ha (2022-23)
+- Current Predicted Yield: 74.57 T/Ha
+
+## 4. NEXT STEPS (To-Do for Tomorrow)
+- [ ] Integration: Import the 'merge_data' logic into 'app.py' to show the prediction on the web UI.
+- [ ] Visualization: Add a Plotly or Chart.js graph to the dashboard showing the 2015-2023 yield trend.
+- [ ] Weather Sync: Link the historical yield years with historical rainfall from Open-Meteo for Semester 7 training preparation.
+- [ ] Documentation: Update the Semester 6 training report with the new government data findings.
