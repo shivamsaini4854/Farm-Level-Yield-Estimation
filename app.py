@@ -2,11 +2,34 @@ from flask import Flask, render_template, request, jsonify
 import mysql.connector
 import datetime
 import pandas as pd
+import os                     # <-- NEW: Needed for .env
+from dotenv import load_dotenv # <-- NEW: Needed for .env
 
 from fetch_weather import get_agricultural_weather
 from fetch_satellite import get_ndvi
 
+# Load the hidden passwords from the .env file BEFORE starting the app
+load_dotenv()
+
 app = Flask(__name__)
+
+# --- CONNECT TO THE CLOUD DATABASE ---
+try:
+    db_connection = mysql.connector.connect(
+        host=os.getenv("DB_HOST"),
+        port=os.getenv("DB_PORT"),
+        user=os.getenv("DB_USER"),
+        password=os.getenv("DB_PASSWORD"),
+        database=os.getenv("DB_NAME"),
+        ssl_ca="isrgrootx1.pem",        # <-- Make sure this exactly matches the file you downloaded!
+        ssl_verify_cert=True,           
+        ssl_verify_identity=True        
+    )
+    print("✅ Successfully connected to the Cloud Database!")
+except Exception as e:
+    print(f"❌ Database connection failed: {e}")
+
+
 # --- MULTI-CROP BASELINE DICTIONARY (Average Yield in T/Ha for North India) ---
 CROP_BASELINES = {
     "Sugarcane": 84.48,  
@@ -14,6 +37,8 @@ CROP_BASELINES = {
     "Rice": 4.0,         
     "Maize": 3.2         
 }
+
+# ... (Keep the rest of your @app.route code exactly the same below this!)
 # This is the primary route that loads the UI and handles live weather updates
 @app.route('/', methods=['GET', 'POST'])
 def home():
