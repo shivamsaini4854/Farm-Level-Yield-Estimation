@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Farm Yield Dashboard</title>
@@ -13,20 +15,39 @@
     </style>
 </head>
 <body>
-    <h1>Farm-Level Yield Estimation System</h1>
-    <p>Welcome to the dashboard. Click the button to fetch live data for Farmer ID: 1.</p>
+    <div class="data-card" style="width: 80%; max-width: 600px;">
+        <h3>Select Your Farm Location</h3>
+        <p style="font-size: 14px; color: #666;">Type your location or click the map to drop a pin.</p>
+        
+        <div style="display: flex; gap: 10px; margin-bottom: 10px;">
+            <input type="text" id="location-search" placeholder="Type a village, district, or city..." style="flex: 1; padding: 10px; border-radius: 5px; border: 1px solid #ccc;">
+            <button type="button" id="search-btn" class="btn" style="margin-top: 0; padding: 10px 15px;">Search</button>
+        </div>
+        
+        <div id="farm-map" style="height: 350px; width: 100%; border-radius: 8px; border: 2px solid #2e8b57; margin-bottom: 15px;"></div>
 
-    <form method="POST">
-        <button type="submit" class="btn">Fetch Live Weather</button>
-    </form>
+        <form method="POST">
+            <input type="hidden" name="latitude" id="lat-input" required>
+            <input type="hidden" name="longitude" id="lon-input" required>
+            
+            <select id="crop-select" name="crop" class="btn w-100" style="background-color: white; color: #333; border: 1px solid #ccc; margin-bottom: 10px; text-align: center;">
+                <option value="Sugarcane">Sugarcane</option>
+                <option value="Wheat">Wheat</option>
+                <option value="Rice">Rice</option>
+                <option value="Maize">Maize</option>
+            </select>
+            
+            <button type="submit" class="btn w-100">Fetch Farm Weather</button>
+        </form>
+    </div>
 
     {% if weather %}
     <div class="data-card">
         <h3>Live Sensor Data</h3>
-        <p><strong>Temperature:</strong> {{ weather.temp }} °C</p>
-        <p><strong>Rainfall:</strong> {{ weather.rain }} mm</p>
+        <p><strong>Temperature:</strong> {{ weather.temperature }} °C</p>
+        <p><strong>Rainfall:</strong> {{ weather.rainfall }} mm</p>
         <p><strong>Humidity:</strong> {{ weather.humidity }} %</p>
-        <p><strong>Soil Moisture:</strong> {{ weather.soil }}</p>
+        <p><strong>Soil Moisture:</strong> {{ weather.soil_moisture }} %</p>
         <p style="color: green; font-size: 12px; margin-top: 15px;">✓ Successfully logged to MySQL database</p>
     </div>
     {% endif %}
@@ -34,6 +55,14 @@
         <h3>Satellite Vegetation Data</h3>
         <p>Sentinel-2 NDVI Analysis</p>
         <button id="fetch-ndvi-btn" class="btn" style="background-color: #27ae60;">Analyze Farm Health</button>
+
+        <div class="data-card" style="margin-top: 20px; border-left: 5px solid #2ecc71; padding: 15px; background: #f9f9f9; border-radius: 8px;">
+            <h3 style="margin: 0; color: #333;">Estimated Yield Prediction</h3>
+            <p id="baseline-label" style="font-size: 0.8rem; color: #666; margin: 5px 0;">Based on Regional Baseline</p>
+            <div id="prediction-val" style="font-size: 2.2rem; font-weight: bold; color: #27ae60;">
+                -- T/Ha
+            </div>
+        </div>
         
         <div style="margin-top: 20px;">
             <div id="gauge-label" style="font-size: 14px; font-weight: bold; margin-bottom: 5px;">Crop Health: Not analyzed</div>
@@ -47,46 +76,198 @@
         </div>
     </div>
     <script>
-        document.getElementById('fetch-ndvi-btn').addEventListener('click', function() {
-            const displaySpan = document.getElementById('ndvi-display');
-            const fill = document.getElementById('ndvi-fill');
-            const label = document.getElementById('gauge-label');
+        // --- INTERACTIVE MAP LOGIC ---
+    // Center map on North India (roughly between Punjab/Haryana/UP)
+    var map = L.map('farm-map').setView([30.1, 76.5], 7); 
+
+// Load the free OpenStreetMap tiles
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '© OpenStreetMap contributors'
+}).addTo(map);
+
+var currentPin;
+
+// --- NEW: MEMORY LOGIC ---
+// If the page just reloaded after fetching weather, Jinja will trigger this block
+{% if submitted_lat and submitted_lon %}
+    var savedLat = {{ submitted_lat }};
+    var savedLon = {{ submitted_lon }};
+    
+    // 1. Move the map back to where they searched
+    map.setView([savedLat, savedLon], 13);
+    
+    // 2. Re-drop the pin
+    currentPin = L.marker([savedLat, savedLon]).addTo(map)
+        .bindPopup("Saved Farm Location")
+        .openPopup();
+        
+    // 3. Put the coordinates BACK into the hidden inputs so the Satellite button works!
+    document.getElementById('lat-input').value = savedLat;
+    document.getElementById('lon-input').value = savedLon;
+{% endif %}
+// ---------------
+
+// When the farmer clicks the map...
+map.on('click', function(e) {
+    var lat = e.latlng.lat;
+    var lng = e.latlng.lng;
+
+    // Remove the old pin if they click somewhere else
+    if (currentPin) {
+        map.removeLayer(currentPin);
+    }
+
+    // Drop a new pin
+    currentPin = L.marker([lat, lng]).addTo(map)
+        .bindPopup("Selected Farm Location")
+        .openPopup();
+
+    // Secretly save these exact coordinates into our HTML form
+    document.getElementById('lat-input').value = lat;
+    document.getElementById('lon-input').value = lng;
+});
+document.getElementById('fetch-ndvi-btn').addEventListener('click', function() {
+    // Grab coordinates from the hidden map inputs AND the crop right when clicked
+    const lat = document.getElementById('lat-input').value;
+    const lon = document.getElementById('lon-input').value;
+    const selectedCrop = document.getElementById('crop-select').value; // <-- MOVED HERE
+
+    // Safety check
+    if (!lat || !lon) {
+        alert("Please drop a pin on the map or search for a location first!");
+        return;
+    }
+    // Call the free OpenStreetMap Geocoding API
+    fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${query}`)
+        .then(response => response.json())
+        .then(data => {
+            if (data.length > 0) {
+                // Get the coordinates of the first search result
+                var lat = parseFloat(data[0].lat);
+                var lng = parseFloat(data[0].lon);
+
+                // Fly the map to the searched location and zoom in!
+                map.flyTo([lat, lng], 13); // 13 is a good zoom level for cities/villages
+
+                // Remove the old pin if there is one
+                if (currentPin) {
+                    map.removeLayer(currentPin);
+                }
+
+                // Drop a new pin at the searched location
+                currentPin = L.marker([lat, lng]).addTo(map)
+                    .bindPopup("Searched: " + data[0].display_name)
+                    .openPopup();
+
+                // Secretly save these exact coordinates into our HTML form for the Python backend
+                document.getElementById('lat-input').value = lat;
+                document.getElementById('lon-input').value = lng;
+            } else {
+                alert("Location not found. Try adding the state, like 'Ambala, Haryana'.");
+            }
+        })
+        .catch(err => console.error("Search error:", err));
+});
+// --- SEARCH BAR LOGIC ---
+document.getElementById('search-btn').addEventListener('click', function() {
+    var query = document.getElementById('location-search').value;
+    if (!query) return; // Do nothing if the box is empty
+
+    // Call the free OpenStreetMap Geocoding API
+    fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${query}`)
+        .then(response => response.json())
+        .then(data => {
+            if (data.length > 0) {
+                // Get the coordinates of the first search result
+                var lat = parseFloat(data[0].lat);
+                var lng = parseFloat(data[0].lon);
+
+                // Fly the map to the searched location and zoom in
+                map.flyTo([lat, lng], 13); 
+
+                // Remove the old pin if there is one
+                if (currentPin) {
+                    map.removeLayer(currentPin);
+                }
+
+                // Drop a new pin at the searched location
+                currentPin = L.marker([lat, lng]).addTo(map)
+                    .bindPopup("Searched: " + data[0].display_name)
+                    .openPopup();
+
+                // Secretly save these exact coordinates into our HTML form
+                document.getElementById('lat-input').value = lat;
+                document.getElementById('lon-input').value = lng;
+            } else {
+                alert("Location not found. Try adding the state, like 'Ambala, Haryana'.");
+            }
+        })
+        .catch(err => console.error("Search error:", err));
+});
+
+// --- SATELLITE & CROP PREDICTION LOGIC ---
+document.getElementById('fetch-ndvi-btn').addEventListener('click', function() {
+    // Grab coordinates from the hidden map inputs AND the crop right when clicked
+    const lat = document.getElementById('lat-input').value;
+    const lon = document.getElementById('lon-input').value;
+    const selectedCrop = document.getElementById('crop-select').value; 
+
+    // Safety check
+    if (!lat || !lon) {
+        alert("Please drop a pin on the map or search for a location first!");
+        return;
+    }
+
+    const displaySpan = document.getElementById('ndvi-display');
+    const fill = document.getElementById('ndvi-fill');
+    const label = document.getElementById('gauge-label');
+    
+    displaySpan.innerText = "Scanning Satellite Data...";
+    displaySpan.style.color = "#2980b9";
+
+    // Send POST request with the new coordinates and the specific crop!
+    fetch('/api/fetch_ndvi', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ lat: lat, lon: lon, crop: selectedCrop }) 
+    })
+    .then(response => response.json())               
+    .then(data => {
+        if (data.status === "success" || data.status === "partial_success") {
+            const ndvi = data.ndvi;
+            displaySpan.innerText = ndvi;
+            document.getElementById('prediction-val').innerText = data.prediction + " T/Ha";
             
-            displaySpan.innerText = "Connecting to Satellite...";
-            displaySpan.style.color = "#2980b9";
-    
-            fetch('/api/fetch_ndvi/1')
-                .then(response => response.json())
-                .then(data => {
-                    if (data.status === "success" || data.status === "partial_success") {
-                        const ndvi = data.ndvi;
-                        displaySpan.innerText = ndvi;
-                        
-                        // Logic for Gauge Movement and Colors
-                        let percentage = Math.min(Math.max(ndvi * 100, 0), 100);
-                        fill.style.width = percentage + "%";
-    
-                        if (ndvi < 0.2) {
-                            fill.style.backgroundColor = "#e74c3c"; // Red
-                            label.innerText = "Crop Health: Poor / Bare Soil";
-                        } else if (ndvi < 0.4) {
-                            fill.style.backgroundColor = "#f1c40f"; // Yellow
-                            label.innerText = "Crop Health: Moderate / Low Growth";
-                        } else {
-                            fill.style.backgroundColor = "#2ecc71"; // Green
-                            label.innerText = "Crop Health: Excellent";
-                        }
-                        displaySpan.style.color = "#27ae60";
-                    } else {
-                        displaySpan.innerText = "Error: " + data.error;
-                        displaySpan.style.color = "#c0392b";
-                    }
-                })
-                .catch(error => {
-                    displaySpan.innerText = "Server Unreachable";
-                    displaySpan.style.color = "#c0392b";
-                });
-        });
+            // --- HERE IS THE FIX: The text updates in the correct place! ---
+            document.getElementById('baseline-label').innerText = "Based on North India " + selectedCrop + " Baseline";
+            
+            // Logic for Gauge Movement and Colors
+            let percentage = Math.min(Math.max(ndvi * 100, 0), 100);
+            fill.style.width = percentage + "%";
+
+            if (ndvi < 0.2) {
+                fill.style.backgroundColor = "#e74c3c"; 
+                label.innerText = "Crop Health: Poor / Bare Soil";
+            } else if (ndvi < 0.4) {
+                fill.style.backgroundColor = "#f1c40f"; 
+                label.innerText = "Crop Health: Moderate / Low Growth";
+            } else {
+                fill.style.backgroundColor = "#2ecc71"; 
+                label.innerText = "Crop Health: Excellent";
+            }
+            displaySpan.style.color = "#27ae60";
+        } else {
+            displaySpan.innerText = "Error: " + data.error;
+            displaySpan.style.color = "#c0392b";
+        }
+    })
+    .catch(error => {
+        displaySpan.innerText = "Server Unreachable";
+        displaySpan.style.color = "#c0392b";
+    });
+});
     </script>
 </body>
 </html>

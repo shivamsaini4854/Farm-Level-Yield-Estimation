@@ -21,6 +21,8 @@ Team Members: Shivam and Sumeet.
 - Implement SQL 'INSERT' within the NDVI route to log satellite scores to the WeatherData table.
 - Develop a visual health indicator (e.g., color-coded gauge) for the NDVI output.
 
+
+=============================================================================
 # FARM YIELD PREDICTION PROJECT - STATUS REPORT (April 9, 2026)
 # Student: Udit Dhiman | B.Tech CSE (3rd Year)
 
@@ -46,3 +48,41 @@ Team Members: Shivam and Sumeet.
 - [ ] Visualization: Add a Plotly or Chart.js graph to the dashboard showing the 2015-2023 yield trend.
 - [ ] Weather Sync: Link the historical yield years with historical rainfall from Open-Meteo for Semester 7 training preparation.
 - [ ] Documentation: Update the Semester 6 training report with the new government data findings.
+
+
+=============================================================================
+FARM YIELD ESTIMATION PROJECT - SAVE STATE
+Date: April 10, 2026
+Team: Shivam & Sumeet
+Current Phase: Semester 6 (Foundation, Data, & Baseline ML)
+=============================================================================
+
+[COMPLETED TODAY]
+1. Frontend (index.html):
+   - Integrated Leaflet.js interactive map.
+   - Added OpenStreetMap Nominatim API for live search bar.
+   - Implemented Jinja logic to persist map state (pin memory) on page reload.
+   - Added dynamic UI updates to reflect the selected crop.
+
+2. Backend (app.py):
+   - Built dynamic coordinate routing for Open-Meteo (Weather API).
+   - Upgraded Earth Engine satellite route to accept dynamic lat/lon/crop data.
+   - Replaced static CSV read with a dynamic CROP_BASELINES dictionary (Heuristic Model).
+
+[CURRENT CODEBASE STATUS]
+- app.py: Stable & Functional.
+- index.html: Stable & Functional.
+- fetch_weather.py: Stable.
+- fetch_satellite.py: Stable.
+
+[NEXT STEPS FOR TOMORROW]
+1. Data Gathering: Secure historical CSV datasets for North India crops (Wheat, Rice, Sugarcane) containing weather/NDVI and final yield weights.
+2. EDA (Exploratory Data Analysis): Clean the historical data using Pandas.
+3. Machine Learning (train_model.py): 
+   - Write the script to train a Random Forest Regressor on the historical data.
+   - Export the trained model as 'model.pkl'.
+4. Integration: Delete the CROP_BASELINES dictionary in app.py and hook up the live API inputs to the new ML model for true predictive capability.
+
+=============================================================================
+STATUS: Ready to pivot from Software Engineering to Data Science.
+=============================================================================
