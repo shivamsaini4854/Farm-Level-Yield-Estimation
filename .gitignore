@@ -1,7 +1,8 @@
 # Ignore the virtual environment
 venv/
 __pycache__/
-
+.vscode/
+isrgrootx1.pem/
 # Ignore environment variables or secret keys (for later)
 .env
 

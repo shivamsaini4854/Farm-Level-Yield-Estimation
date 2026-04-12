@@ -36,6 +36,35 @@ def get_ndvi(lon, lat, start_date, end_date):
         print(f"Earth Engine Error: {e}")
         return None
 
+def get_soil_moisture(lon, lat, start_date, end_date):
+    """
+    Fetches NASA SMAP satellite data for a specific point to get Surface Soil Moisture.
+    """
+    try:
+        # Define the point of interest
+        point = ee.Geometry.Point([lon, lat])
+        
+        # Load NASA SMAP Soil Moisture data
+        collection = ee.ImageCollection("NASA_USDA/SMAP_SM40000_V2_04_28") \
+            .filterBounds(point) \
+            .filterDate(start_date, end_date)
+        
+        # Create a single composite image using the mean of the collection
+        image = collection.mean()
+        
+        # Extract the Surface Soil Moisture (ssm) band
+        sm_value = image.reduceRegion(
+            reducer=ee.Reducer.mean(),
+            geometry=point,
+            scale=10000 # SMAP resolution is roughly 10km per pixel
+        ).getInfo()
+        
+        return sm_value.get('ssm')
+        
+    except ee.EEException as e:
+        print(f"Earth Engine Error: {e}")
+        return None
+
 if __name__ == "__main__":
     # Test Coordinates for Farmer ID: 1
     test_lon = 77.14620000 
