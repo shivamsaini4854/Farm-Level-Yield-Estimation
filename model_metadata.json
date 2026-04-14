@@ -1,0 +1,370 @@
+{
+  "model_name": "Gradient Boosting",
+  "feature_columns": [
+    "temp_mean_c",
+    "temp_max_c",
+    "temp_min_c",
+    "rainfall_mm",
+    "humidity_pct",
+    "wind_speed_ms",
+    "solar_radiation_mj",
+    "soil_moisture_root",
+    "soil_moisture_surface",
+    "season_days",
+    "temp_range_c",
+    "soil_moisture_composite",
+    "gdd_proxy",
+    "heat_stress",
+    "aridity_index",
+    "ndvi_season_mean",
+    "ndvi_available",
+    "season_days",
+    "crop_Arhar/Tur",
+    "crop_Bajra",
+    "crop_Dry chillies",
+    "crop_Gram",
+    "crop_Groundnut",
+    "crop_Jowar",
+    "crop_Maize",
+    "crop_Moong(Green Gram)",
+    "crop_Onion",
+    "crop_Potato",
+    "crop_Rapeseed &Mustard",
+    "crop_Rice",
+    "crop_Soyabean",
+    "crop_Sugarcane",
+    "crop_Urad",
+    "crop_Wheat",
+    "season_Autumn",
+    "season_Kharif",
+    "season_Rabi",
+    "season_Summer",
+    "season_Whole Year",
+    "season_Winter",
+    "area_ha"
+  ],
+  "weather_features": [
+    "temp_mean_c",
+    "temp_max_c",
+    "temp_min_c",
+    "rainfall_mm",
+    "humidity_pct",
+    "wind_speed_ms",
+    "solar_radiation_mj",
+    "soil_moisture_root",
+    "soil_moisture_surface",
+    "season_days"
+  ],
+  "crops": [
+    "Rice",
+    "Maize",
+    "Moong(Green Gram)",
+    "Urad",
+    "Groundnut",
+    "Wheat",
+    "Rapeseed &Mustard",
+    "Sugarcane",
+    "Arhar/Tur",
+    "Potato",
+    "Onion",
+    "Gram",
+    "Jowar",
+    "Dry chillies",
+    "Bajra",
+    "Soyabean"
+  ],
+  "target": "yield_t_ha",
+  "uses_scaler": false,
+  "test_years": [
+    2018,
+    2019,
+    2020
+  ],
+  "train_years": [
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017
+  ],
+  "metrics": {
+    "Ridge": {
+      "overall_mae": 2.9773,
+      "overall_rmse": 7.0267,
+      "overall_r2": 0.789,
+      "per_crop": {
+        "Rice": {
+          "mae": 1.3575,
+          "r2": -2.6963,
+          "n": 2150
+        },
+        "Maize": {
+          "mae": 1.3133,
+          "r2": -0.1316,
+          "n": 2104
+        },
+        "Moong(Green Gram)": {
+          "mae": 0.9731,
+          "r2": -18.5679,
+          "n": 1715
+        },
+        "Urad": {
+          "mae": 0.9384,
+          "r2": -16.2882,
+          "n": 1628
+        },
+        "Groundnut": {
+          "mae": 1.0466,
+          "r2": -1.6877,
+          "n": 1301
+        },
+        "Wheat": {
+          "mae": 1.271,
+          "r2": -0.7174,
+          "n": 1028
+        },
+        "Rapeseed &Mustard": {
+          "mae": 0.8388,
+          "r2": -3.2427,
+          "n": 1052
+        },
+        "Sugarcane": {
+          "mae": 22.9869,
+          "r2": 0.0098,
+          "n": 1009
+        },
+        "Arhar/Tur": {
+          "mae": 0.8836,
+          "r2": -6.5259,
+          "n": 1109
+        },
+        "Potato": {
+          "mae": 6.7282,
+          "r2": 0.0069,
+          "n": 1156
+        },
+        "Onion": {
+          "mae": 6.8509,
+          "r2": -0.1788,
+          "n": 1219
+        },
+        "Gram": {
+          "mae": 0.9519,
+          "r2": -7.1442,
+          "n": 990
+        },
+        "Jowar": {
+          "mae": 0.9867,
+          "r2": -4.8153,
+          "n": 966
+        },
+        "Dry chillies": {
+          "mae": 2.2875,
+          "r2": -2.5155,
+          "n": 745
+        },
+        "Bajra": {
+          "mae": 1.8292,
+          "r2": -0.1457,
+          "n": 881
+        },
+        "Soyabean": {
+          "mae": 0.8639,
+          "r2": -5.6364,
+          "n": 576
+        }
+      }
+    },
+    "Random Forest": {
+      "overall_mae": 1.8208,
+      "overall_rmse": 5.0538,
+      "overall_r2": 0.8908,
+      "per_crop": {
+        "Rice": {
+          "mae": 0.6498,
+          "r2": 0.271,
+          "n": 2150
+        },
+        "Maize": {
+          "mae": 0.9736,
+          "r2": 0.2342,
+          "n": 2104
+        },
+        "Moong(Green Gram)": {
+          "mae": 0.2091,
+          "r2": 0.0645,
+          "n": 1715
+        },
+        "Urad": {
+          "mae": 0.2305,
+          "r2": -0.0622,
+          "n": 1628
+        },
+        "Groundnut": {
+          "mae": 0.5102,
+          "r2": 0.215,
+          "n": 1301
+        },
+        "Wheat": {
+          "mae": 0.6637,
+          "r2": 0.5008,
+          "n": 1028
+        },
+        "Rapeseed &Mustard": {
+          "mae": 0.3289,
+          "r2": 0.3272,
+          "n": 1052
+        },
+        "Sugarcane": {
+          "mae": 15.7656,
+          "r2": 0.4632,
+          "n": 1009
+        },
+        "Arhar/Tur": {
+          "mae": 0.3053,
+          "r2": -0.149,
+          "n": 1109
+        },
+        "Potato": {
+          "mae": 4.5931,
+          "r2": 0.476,
+          "n": 1156
+        },
+        "Onion": {
+          "mae": 4.6352,
+          "r2": 0.447,
+          "n": 1219
+        },
+        "Gram": {
+          "mae": 0.4064,
+          "r2": -7.154,
+          "n": 990
+        },
+        "Jowar": {
+          "mae": 0.5485,
+          "r2": -2.3288,
+          "n": 966
+        },
+        "Dry chillies": {
+          "mae": 1.0112,
+          "r2": 0.3627,
+          "n": 745
+        },
+        "Bajra": {
+          "mae": 0.8709,
+          "r2": 0.7656,
+          "n": 881
+        },
+        "Soyabean": {
+          "mae": 0.364,
+          "r2": -0.1795,
+          "n": 576
+        }
+      }
+    },
+    "Gradient Boosting": {
+      "overall_mae": 1.8144,
+      "overall_rmse": 4.8341,
+      "overall_r2": 0.9001,
+      "per_crop": {
+        "Rice": {
+          "mae": 0.8241,
+          "r2": -0.2521,
+          "n": 2150
+        },
+        "Maize": {
+          "mae": 1.0543,
+          "r2": 0.0965,
+          "n": 2104
+        },
+        "Moong(Green Gram)": {
+          "mae": 0.2238,
+          "r2": 0.0244,
+          "n": 1715
+        },
+        "Urad": {
+          "mae": 0.2454,
+          "r2": -0.1447,
+          "n": 1628
+        },
+        "Groundnut": {
+          "mae": 0.5798,
+          "r2": -0.0177,
+          "n": 1301
+        },
+        "Wheat": {
+          "mae": 0.7601,
+          "r2": 0.3825,
+          "n": 1028
+        },
+        "Rapeseed &Mustard": {
+          "mae": 0.3324,
+          "r2": 0.3435,
+          "n": 1052
+        },
+        "Sugarcane": {
+          "mae": 14.4372,
+          "r2": 0.5309,
+          "n": 1009
+        },
+        "Arhar/Tur": {
+          "mae": 0.3201,
+          "r2": 0.0099,
+          "n": 1109
+        },
+        "Potato": {
+          "mae": 4.6028,
+          "r2": 0.4911,
+          "n": 1156
+        },
+        "Onion": {
+          "mae": 4.9975,
+          "r2": 0.3519,
+          "n": 1219
+        },
+        "Gram": {
+          "mae": 0.3203,
+          "r2": -0.2016,
+          "n": 990
+        },
+        "Jowar": {
+          "mae": 0.4148,
+          "r2": -0.1027,
+          "n": 966
+        },
+        "Dry chillies": {
+          "mae": 1.1744,
+          "r2": 0.0943,
+          "n": 745
+        },
+        "Bajra": {
+          "mae": 0.9231,
+          "r2": 0.779,
+          "n": 881
+        },
+        "Soyabean": {
+          "mae": 0.3726,
+          "r2": -0.5309,
+          "n": 576
+        }
+      }
+    }
+  },
+  "ndvi_note": "NDVI is included as a training feature. Pre-2000 rows and states outside NDVI batch have NDVI imputed with crop-season median. ndvi_available flag (0/1) indicates whether real NDVI was used for that row."
+}

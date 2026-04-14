@@ -1,0 +1,2838 @@
+State,District,Crop,Season,year,ndvi_season_mean,ndvi_months_available
+Telangana,ADILABAD,Arhar/Tur,Kharif,2013,0.4278,12
+Telangana,ADILABAD,Arhar/Tur,Rabi,2013,0.295,12
+Telangana,ADILABAD,Bajra,Rabi,2013,0.295,12
+Telangana,ADILABAD,Dry chillies,Kharif,2013,0.4278,12
+Telangana,ADILABAD,Dry chillies,Rabi,2013,0.295,12
+Telangana,ADILABAD,Gram,Rabi,2013,0.295,12
+Telangana,ADILABAD,Groundnut,Kharif,2013,0.4278,12
+Telangana,ADILABAD,Groundnut,Rabi,2013,0.295,12
+Telangana,ADILABAD,Jowar,Kharif,2013,0.4278,12
+Telangana,ADILABAD,Jowar,Rabi,2013,0.295,12
+Telangana,ADILABAD,Maize,Kharif,2013,0.4278,12
+Telangana,ADILABAD,Maize,Rabi,2013,0.295,12
+Telangana,ADILABAD,Moong(Green Gram),Kharif,2013,0.4278,12
+Telangana,ADILABAD,Moong(Green Gram),Rabi,2013,0.295,12
+Telangana,ADILABAD,Onion,Rabi,2013,0.295,12
+Telangana,ADILABAD,Rapeseed &Mustard,Rabi,2013,0.295,12
+Telangana,ADILABAD,Rice,Kharif,2013,0.4278,12
+Telangana,ADILABAD,Rice,Rabi,2013,0.295,12
+Telangana,ADILABAD,Soyabean,Kharif,2013,0.4278,12
+Telangana,ADILABAD,Sugarcane,Kharif,2013,0.4278,12
+Telangana,ADILABAD,Urad,Kharif,2013,0.4278,12
+Telangana,ADILABAD,Urad,Rabi,2013,0.295,12
+Telangana,ADILABAD,Wheat,Rabi,2013,0.295,12
+Telangana,KARIMNAGAR,Arhar/Tur,Kharif,2013,0.3124,12
+Telangana,KARIMNAGAR,Arhar/Tur,Rabi,2013,0.2453,12
+Telangana,KARIMNAGAR,Bajra,Rabi,2013,0.2453,12
+Telangana,KARIMNAGAR,Dry chillies,Kharif,2013,0.3124,12
+Telangana,KARIMNAGAR,Dry chillies,Rabi,2013,0.2453,12
+Telangana,KARIMNAGAR,Gram,Kharif,2013,0.3124,12
+Telangana,KARIMNAGAR,Gram,Rabi,2013,0.2453,12
+Telangana,KARIMNAGAR,Groundnut,Kharif,2013,0.3124,12
+Telangana,KARIMNAGAR,Groundnut,Rabi,2013,0.2453,12
+Telangana,KARIMNAGAR,Jowar,Rabi,2013,0.2453,12
+Telangana,KARIMNAGAR,Maize,Kharif,2013,0.3124,12
+Telangana,KARIMNAGAR,Maize,Rabi,2013,0.2453,12
+Telangana,KARIMNAGAR,Moong(Green Gram),Kharif,2013,0.3124,12
+Telangana,KARIMNAGAR,Moong(Green Gram),Rabi,2013,0.2453,12
+Telangana,KARIMNAGAR,Onion,Rabi,2013,0.2453,12
+Telangana,KARIMNAGAR,Rapeseed &Mustard,Rabi,2013,0.2453,12
+Telangana,KARIMNAGAR,Rice,Kharif,2013,0.3124,12
+Telangana,KARIMNAGAR,Rice,Rabi,2013,0.2453,12
+Telangana,KARIMNAGAR,Soyabean,Kharif,2013,0.3124,12
+Telangana,KARIMNAGAR,Sugarcane,Kharif,2013,0.3124,12
+Telangana,KARIMNAGAR,Urad,Kharif,2013,0.3124,12
+Telangana,KARIMNAGAR,Urad,Rabi,2013,0.2453,12
+Telangana,KHAMMAM,Arhar/Tur,Kharif,2013,0.3976,12
+Telangana,KHAMMAM,Arhar/Tur,Rabi,2013,0.321,12
+Telangana,KHAMMAM,Bajra,Kharif,2013,0.3976,12
+Telangana,KHAMMAM,Bajra,Rabi,2013,0.321,12
+Telangana,KHAMMAM,Dry chillies,Kharif,2013,0.3976,12
+Telangana,KHAMMAM,Dry chillies,Rabi,2013,0.321,12
+Telangana,KHAMMAM,Gram,Rabi,2013,0.321,12
+Telangana,KHAMMAM,Groundnut,Kharif,2013,0.3976,12
+Telangana,KHAMMAM,Groundnut,Rabi,2013,0.321,12
+Telangana,KHAMMAM,Jowar,Rabi,2013,0.321,12
+Telangana,KHAMMAM,Maize,Kharif,2013,0.3976,12
+Telangana,KHAMMAM,Maize,Rabi,2013,0.321,12
+Telangana,KHAMMAM,Moong(Green Gram),Kharif,2013,0.3976,12
+Telangana,KHAMMAM,Moong(Green Gram),Rabi,2013,0.321,12
+Telangana,KHAMMAM,Onion,Kharif,2013,0.3976,12
+Telangana,KHAMMAM,Rapeseed &Mustard,Rabi,2013,0.321,12
+Telangana,KHAMMAM,Rice,Kharif,2013,0.3976,12
+Telangana,KHAMMAM,Rice,Rabi,2013,0.321,12
+Telangana,KHAMMAM,Soyabean,Kharif,2013,0.3976,12
+Telangana,KHAMMAM,Sugarcane,Kharif,2013,0.3976,12
+Telangana,KHAMMAM,Urad,Kharif,2013,0.3976,12
+Telangana,KHAMMAM,Urad,Rabi,2013,0.321,12
+Telangana,MAHBUBNAGAR,Arhar/Tur,Kharif,2013,0.4039,12
+Telangana,MAHBUBNAGAR,Bajra,Kharif,2013,0.4039,12
+Telangana,MAHBUBNAGAR,Dry chillies,Kharif,2013,0.4039,12
+Telangana,MAHBUBNAGAR,Dry chillies,Rabi,2013,0.234,12
+Telangana,MAHBUBNAGAR,Gram,Rabi,2013,0.234,12
+Telangana,MAHBUBNAGAR,Groundnut,Kharif,2013,0.4039,12
+Telangana,MAHBUBNAGAR,Groundnut,Rabi,2013,0.234,12
+Telangana,MAHBUBNAGAR,Jowar,Kharif,2013,0.4039,12
+Telangana,MAHBUBNAGAR,Jowar,Rabi,2013,0.234,12
+Telangana,MAHBUBNAGAR,Maize,Kharif,2013,0.4039,12
+Telangana,MAHBUBNAGAR,Maize,Rabi,2013,0.234,12
+Telangana,MAHBUBNAGAR,Moong(Green Gram),Kharif,2013,0.4039,12
+Telangana,MAHBUBNAGAR,Moong(Green Gram),Rabi,2013,0.234,12
+Telangana,MAHBUBNAGAR,Onion,Kharif,2013,0.4039,12
+Telangana,MAHBUBNAGAR,Onion,Rabi,2013,0.234,12
+Telangana,MAHBUBNAGAR,Potato,Whole Year,2013,0.3218,12
+Telangana,MAHBUBNAGAR,Rice,Kharif,2013,0.4039,12
+Telangana,MAHBUBNAGAR,Rice,Rabi,2013,0.234,12
+Telangana,MAHBUBNAGAR,Sugarcane,Kharif,2013,0.4039,12
+Telangana,MAHBUBNAGAR,Urad,Kharif,2013,0.4039,12
+Telangana,MAHBUBNAGAR,Urad,Rabi,2013,0.234,12
+Telangana,MAHBUBNAGAR,Wheat,Rabi,2013,0.234,12
+Telangana,MEDAK,Arhar/Tur,Kharif,2013,0.5614,12
+Telangana,MEDAK,Arhar/Tur,Rabi,2013,0.4092,12
+Telangana,MEDAK,Bajra,Kharif,2013,0.5614,12
+Telangana,MEDAK,Dry chillies,Kharif,2013,0.5614,12
+Telangana,MEDAK,Gram,Rabi,2013,0.4092,12
+Telangana,MEDAK,Groundnut,Kharif,2013,0.5614,12
+Telangana,MEDAK,Groundnut,Rabi,2013,0.4092,12
+Telangana,MEDAK,Jowar,Kharif,2013,0.5614,12
+Telangana,MEDAK,Jowar,Rabi,2013,0.4092,12
+Telangana,MEDAK,Maize,Kharif,2013,0.5614,12
+Telangana,MEDAK,Maize,Rabi,2013,0.4092,12
+Telangana,MEDAK,Moong(Green Gram),Kharif,2013,0.5614,12
+Telangana,MEDAK,Moong(Green Gram),Rabi,2013,0.4092,12
+Telangana,MEDAK,Onion,Kharif,2013,0.5614,12
+Telangana,MEDAK,Onion,Rabi,2013,0.4092,12
+Telangana,MEDAK,Potato,Whole Year,2013,0.4757,12
+Telangana,MEDAK,Rapeseed &Mustard,Rabi,2013,0.4092,12
+Telangana,MEDAK,Rice,Kharif,2013,0.5614,12
+Telangana,MEDAK,Rice,Rabi,2013,0.4092,12
+Telangana,MEDAK,Soyabean,Kharif,2013,0.5614,12
+Telangana,MEDAK,Sugarcane,Kharif,2013,0.5614,12
+Telangana,MEDAK,Urad,Kharif,2013,0.5614,12
+Telangana,MEDAK,Wheat,Rabi,2013,0.4092,12
+Telangana,NALGONDA,Arhar/Tur,Kharif,2013,0.4228,12
+Telangana,NALGONDA,Arhar/Tur,Rabi,2013,0.3096,12
+Telangana,NALGONDA,Bajra,Kharif,2013,0.4228,12
+Telangana,NALGONDA,Bajra,Rabi,2013,0.3096,12
+Telangana,NALGONDA,Dry chillies,Kharif,2013,0.4228,12
+Telangana,NALGONDA,Dry chillies,Rabi,2013,0.3096,12
+Telangana,NALGONDA,Gram,Rabi,2013,0.3096,12
+Telangana,NALGONDA,Groundnut,Kharif,2013,0.4228,12
+Telangana,NALGONDA,Groundnut,Rabi,2013,0.3096,12
+Telangana,NALGONDA,Jowar,Kharif,2013,0.4228,12
+Telangana,NALGONDA,Jowar,Rabi,2013,0.3096,12
+Telangana,NALGONDA,Maize,Kharif,2013,0.4228,12
+Telangana,NALGONDA,Maize,Rabi,2013,0.3096,12
+Telangana,NALGONDA,Moong(Green Gram),Kharif,2013,0.4228,12
+Telangana,NALGONDA,Moong(Green Gram),Rabi,2013,0.3096,12
+Telangana,NALGONDA,Onion,Rabi,2013,0.3096,12
+Telangana,NALGONDA,Rice,Kharif,2013,0.4228,12
+Telangana,NALGONDA,Rice,Rabi,2013,0.3096,12
+Telangana,NALGONDA,Soyabean,Kharif,2013,0.4228,12
+Telangana,NALGONDA,Sugarcane,Kharif,2013,0.4228,12
+Telangana,NALGONDA,Urad,Rabi,2013,0.3096,12
+Telangana,NIZAMABAD,Arhar/Tur,Kharif,2013,0.2738,12
+Telangana,NIZAMABAD,Bajra,Rabi,2013,0.2276,12
+Telangana,NIZAMABAD,Dry chillies,Kharif,2013,0.2738,12
+Telangana,NIZAMABAD,Dry chillies,Rabi,2013,0.2276,12
+Telangana,NIZAMABAD,Gram,Rabi,2013,0.2276,12
+Telangana,NIZAMABAD,Groundnut,Rabi,2013,0.2276,12
+Telangana,NIZAMABAD,Jowar,Kharif,2013,0.2738,12
+Telangana,NIZAMABAD,Jowar,Rabi,2013,0.2276,12
+Telangana,NIZAMABAD,Maize,Kharif,2013,0.2738,12
+Telangana,NIZAMABAD,Maize,Rabi,2013,0.2276,12
+Telangana,NIZAMABAD,Moong(Green Gram),Kharif,2013,0.2738,12
+Telangana,NIZAMABAD,Moong(Green Gram),Rabi,2013,0.2276,12
+Telangana,NIZAMABAD,Onion,Kharif,2013,0.2738,12
+Telangana,NIZAMABAD,Onion,Rabi,2013,0.2276,12
+Telangana,NIZAMABAD,Rapeseed &Mustard,Rabi,2013,0.2276,12
+Telangana,NIZAMABAD,Rice,Kharif,2013,0.2738,12
+Telangana,NIZAMABAD,Rice,Rabi,2013,0.2276,12
+Telangana,NIZAMABAD,Soyabean,Kharif,2013,0.2738,12
+Telangana,NIZAMABAD,Sugarcane,Kharif,2013,0.2738,12
+Telangana,NIZAMABAD,Urad,Kharif,2013,0.2738,12
+Telangana,NIZAMABAD,Urad,Rabi,2013,0.2276,12
+Telangana,NIZAMABAD,Wheat,Rabi,2013,0.2276,12
+Telangana,RANGAREDDI,Arhar/Tur,Kharif,2013,0.5866,12
+Telangana,RANGAREDDI,Bajra,Kharif,2013,0.5866,12
+Telangana,RANGAREDDI,Bajra,Rabi,2013,0.3547,12
+Telangana,RANGAREDDI,Dry chillies,Kharif,2013,0.5866,12
+Telangana,RANGAREDDI,Dry chillies,Rabi,2013,0.3547,12
+Telangana,RANGAREDDI,Gram,Rabi,2013,0.3547,12
+Telangana,RANGAREDDI,Groundnut,Kharif,2013,0.5866,12
+Telangana,RANGAREDDI,Groundnut,Rabi,2013,0.3547,12
+Telangana,RANGAREDDI,Jowar,Kharif,2013,0.5866,12
+Telangana,RANGAREDDI,Jowar,Rabi,2013,0.3547,12
+Telangana,RANGAREDDI,Maize,Kharif,2013,0.5866,12
+Telangana,RANGAREDDI,Maize,Rabi,2013,0.3547,12
+Telangana,RANGAREDDI,Moong(Green Gram),Kharif,2013,0.5866,12
+Telangana,RANGAREDDI,Onion,Kharif,2013,0.5866,12
+Telangana,RANGAREDDI,Onion,Rabi,2013,0.3547,12
+Telangana,RANGAREDDI,Potato,Whole Year,2013,0.4694,12
+Telangana,RANGAREDDI,Rice,Kharif,2013,0.5866,12
+Telangana,RANGAREDDI,Rice,Rabi,2013,0.3547,12
+Telangana,RANGAREDDI,Soyabean,Kharif,2013,0.5866,12
+Telangana,RANGAREDDI,Soyabean,Rabi,2013,0.3547,12
+Telangana,RANGAREDDI,Sugarcane,Kharif,2013,0.5866,12
+Telangana,RANGAREDDI,Urad,Kharif,2013,0.5866,12
+Telangana,RANGAREDDI,Wheat,Rabi,2013,0.3547,12
+Telangana,WARANGAL,Arhar/Tur,Kharif,2013,0.4798,12
+Telangana,WARANGAL,Arhar/Tur,Rabi,2013,0.3304,12
+Telangana,WARANGAL,Dry chillies,Kharif,2013,0.4798,12
+Telangana,WARANGAL,Dry chillies,Rabi,2013,0.3304,12
+Telangana,WARANGAL,Gram,Rabi,2013,0.3304,12
+Telangana,WARANGAL,Groundnut,Kharif,2013,0.4798,12
+Telangana,WARANGAL,Groundnut,Rabi,2013,0.3304,12
+Telangana,WARANGAL,Jowar,Kharif,2013,0.4798,12
+Telangana,WARANGAL,Jowar,Rabi,2013,0.3304,12
+Telangana,WARANGAL,Maize,Kharif,2013,0.4798,12
+Telangana,WARANGAL,Maize,Rabi,2013,0.3304,12
+Telangana,WARANGAL,Moong(Green Gram),Kharif,2013,0.4798,12
+Telangana,WARANGAL,Moong(Green Gram),Rabi,2013,0.3304,12
+Telangana,WARANGAL,Onion,Kharif,2013,0.4798,12
+Telangana,WARANGAL,Onion,Rabi,2013,0.3304,12
+Telangana,WARANGAL,Rice,Kharif,2013,0.4798,12
+Telangana,WARANGAL,Rice,Rabi,2013,0.3304,12
+Telangana,WARANGAL,Soyabean,Kharif,2013,0.4798,12
+Telangana,WARANGAL,Soyabean,Rabi,2013,0.3304,12
+Telangana,WARANGAL,Sugarcane,Kharif,2013,0.4798,12
+Telangana,WARANGAL,Urad,Kharif,2013,0.4798,12
+Telangana,WARANGAL,Urad,Rabi,2013,0.3304,12
+Telangana,ADILABAD,Arhar/Tur,Kharif,2014,0.3876,12
+Telangana,ADILABAD,Arhar/Tur,Rabi,2014,0.3108,12
+Telangana,ADILABAD,Bajra,Rabi,2014,0.3108,12
+Telangana,ADILABAD,Dry chillies,Kharif,2014,0.3876,12
+Telangana,ADILABAD,Dry chillies,Rabi,2014,0.3108,12
+Telangana,ADILABAD,Gram,Rabi,2014,0.3108,12
+Telangana,ADILABAD,Groundnut,Rabi,2014,0.3108,12
+Telangana,ADILABAD,Jowar,Kharif,2014,0.3876,12
+Telangana,ADILABAD,Jowar,Rabi,2014,0.3108,12
+Telangana,ADILABAD,Maize,Kharif,2014,0.3876,12
+Telangana,ADILABAD,Maize,Rabi,2014,0.3108,12
+Telangana,ADILABAD,Moong(Green Gram),Kharif,2014,0.3876,12
+Telangana,ADILABAD,Moong(Green Gram),Rabi,2014,0.3108,12
+Telangana,ADILABAD,Onion,Kharif,2014,0.3876,12
+Telangana,ADILABAD,Onion,Rabi,2014,0.3108,12
+Telangana,ADILABAD,Rapeseed &Mustard,Rabi,2014,0.3108,12
+Telangana,ADILABAD,Rice,Kharif,2014,0.3876,12
+Telangana,ADILABAD,Rice,Rabi,2014,0.3108,12
+Telangana,ADILABAD,Soyabean,Kharif,2014,0.3876,12
+Telangana,ADILABAD,Sugarcane,Kharif,2014,0.3876,12
+Telangana,ADILABAD,Urad,Kharif,2014,0.3876,12
+Telangana,ADILABAD,Urad,Rabi,2014,0.3108,12
+Telangana,ADILABAD,Wheat,Rabi,2014,0.3108,12
+Telangana,KARIMNAGAR,Arhar/Tur,Kharif,2014,0.3196,12
+Telangana,KARIMNAGAR,Arhar/Tur,Rabi,2014,0.2395,12
+Telangana,KARIMNAGAR,Bajra,Rabi,2014,0.2395,12
+Telangana,KARIMNAGAR,Dry chillies,Kharif,2014,0.3196,12
+Telangana,KARIMNAGAR,Dry chillies,Rabi,2014,0.2395,12
+Telangana,KARIMNAGAR,Gram,Rabi,2014,0.2395,12
+Telangana,KARIMNAGAR,Groundnut,Kharif,2014,0.3196,12
+Telangana,KARIMNAGAR,Groundnut,Rabi,2014,0.2395,12
+Telangana,KARIMNAGAR,Jowar,Kharif,2014,0.3196,12
+Telangana,KARIMNAGAR,Jowar,Rabi,2014,0.2395,12
+Telangana,KARIMNAGAR,Maize,Kharif,2014,0.3196,12
+Telangana,KARIMNAGAR,Maize,Rabi,2014,0.2395,12
+Telangana,KARIMNAGAR,Moong(Green Gram),Kharif,2014,0.3196,12
+Telangana,KARIMNAGAR,Moong(Green Gram),Rabi,2014,0.2395,12
+Telangana,KARIMNAGAR,Onion,Kharif,2014,0.3196,12
+Telangana,KARIMNAGAR,Onion,Rabi,2014,0.2395,12
+Telangana,KARIMNAGAR,Rapeseed &Mustard,Rabi,2014,0.2395,12
+Telangana,KARIMNAGAR,Rice,Kharif,2014,0.3196,12
+Telangana,KARIMNAGAR,Rice,Rabi,2014,0.2395,12
+Telangana,KARIMNAGAR,Soyabean,Kharif,2014,0.3196,12
+Telangana,KARIMNAGAR,Sugarcane,Kharif,2014,0.3196,12
+Telangana,KARIMNAGAR,Urad,Kharif,2014,0.3196,12
+Telangana,KARIMNAGAR,Urad,Rabi,2014,0.2395,12
+Telangana,KHAMMAM,Arhar/Tur,Kharif,2014,0.3776,12
+Telangana,KHAMMAM,Arhar/Tur,Rabi,2014,0.3089,12
+Telangana,KHAMMAM,Dry chillies,Kharif,2014,0.3776,12
+Telangana,KHAMMAM,Dry chillies,Rabi,2014,0.3089,12
+Telangana,KHAMMAM,Gram,Rabi,2014,0.3089,12
+Telangana,KHAMMAM,Groundnut,Kharif,2014,0.3776,12
+Telangana,KHAMMAM,Groundnut,Rabi,2014,0.3089,12
+Telangana,KHAMMAM,Jowar,Kharif,2014,0.3776,12
+Telangana,KHAMMAM,Jowar,Rabi,2014,0.3089,12
+Telangana,KHAMMAM,Maize,Kharif,2014,0.3776,12
+Telangana,KHAMMAM,Maize,Rabi,2014,0.3089,12
+Telangana,KHAMMAM,Moong(Green Gram),Kharif,2014,0.3776,12
+Telangana,KHAMMAM,Moong(Green Gram),Rabi,2014,0.3089,12
+Telangana,KHAMMAM,Onion,Kharif,2014,0.3776,12
+Telangana,KHAMMAM,Onion,Rabi,2014,0.3089,12
+Telangana,KHAMMAM,Rice,Kharif,2014,0.3776,12
+Telangana,KHAMMAM,Rice,Rabi,2014,0.3089,12
+Telangana,KHAMMAM,Sugarcane,Kharif,2014,0.3776,12
+Telangana,KHAMMAM,Urad,Kharif,2014,0.3776,12
+Telangana,KHAMMAM,Urad,Rabi,2014,0.3089,12
+Telangana,MAHBUBNAGAR,Arhar/Tur,Kharif,2014,0.3884,12
+Telangana,MAHBUBNAGAR,Bajra,Kharif,2014,0.3884,12
+Telangana,MAHBUBNAGAR,Dry chillies,Kharif,2014,0.3884,12
+Telangana,MAHBUBNAGAR,Dry chillies,Rabi,2014,0.2431,12
+Telangana,MAHBUBNAGAR,Gram,Rabi,2014,0.2431,12
+Telangana,MAHBUBNAGAR,Groundnut,Kharif,2014,0.3884,12
+Telangana,MAHBUBNAGAR,Groundnut,Rabi,2014,0.2431,12
+Telangana,MAHBUBNAGAR,Jowar,Kharif,2014,0.3884,12
+Telangana,MAHBUBNAGAR,Jowar,Rabi,2014,0.2431,12
+Telangana,MAHBUBNAGAR,Maize,Kharif,2014,0.3884,12
+Telangana,MAHBUBNAGAR,Maize,Rabi,2014,0.2431,12
+Telangana,MAHBUBNAGAR,Moong(Green Gram),Kharif,2014,0.3884,12
+Telangana,MAHBUBNAGAR,Moong(Green Gram),Rabi,2014,0.2431,12
+Telangana,MAHBUBNAGAR,Onion,Kharif,2014,0.3884,12
+Telangana,MAHBUBNAGAR,Onion,Rabi,2014,0.2431,12
+Telangana,MAHBUBNAGAR,Potato,Rabi,2014,0.2431,12
+Telangana,MAHBUBNAGAR,Rice,Kharif,2014,0.3884,12
+Telangana,MAHBUBNAGAR,Rice,Rabi,2014,0.2431,12
+Telangana,MAHBUBNAGAR,Soyabean,Kharif,2014,0.3884,12
+Telangana,MAHBUBNAGAR,Sugarcane,Kharif,2014,0.3884,12
+Telangana,MAHBUBNAGAR,Urad,Kharif,2014,0.3884,12
+Telangana,MAHBUBNAGAR,Urad,Rabi,2014,0.2431,12
+Telangana,MAHBUBNAGAR,Wheat,Rabi,2014,0.2431,12
+Telangana,MEDAK,Arhar/Tur,Kharif,2014,0.546,12
+Telangana,MEDAK,Arhar/Tur,Rabi,2014,0.4462,12
+Telangana,MEDAK,Bajra,Kharif,2014,0.546,12
+Telangana,MEDAK,Bajra,Rabi,2014,0.4462,12
+Telangana,MEDAK,Dry chillies,Kharif,2014,0.546,12
+Telangana,MEDAK,Gram,Rabi,2014,0.4462,12
+Telangana,MEDAK,Groundnut,Kharif,2014,0.546,12
+Telangana,MEDAK,Groundnut,Rabi,2014,0.4462,12
+Telangana,MEDAK,Jowar,Kharif,2014,0.546,12
+Telangana,MEDAK,Jowar,Rabi,2014,0.4462,12
+Telangana,MEDAK,Maize,Kharif,2014,0.546,12
+Telangana,MEDAK,Maize,Rabi,2014,0.4462,12
+Telangana,MEDAK,Moong(Green Gram),Kharif,2014,0.546,12
+Telangana,MEDAK,Moong(Green Gram),Rabi,2014,0.4462,12
+Telangana,MEDAK,Onion,Kharif,2014,0.546,12
+Telangana,MEDAK,Onion,Rabi,2014,0.4462,12
+Telangana,MEDAK,Potato,Rabi,2014,0.4462,12
+Telangana,MEDAK,Rice,Kharif,2014,0.546,12
+Telangana,MEDAK,Rice,Rabi,2014,0.4462,12
+Telangana,MEDAK,Soyabean,Kharif,2014,0.546,12
+Telangana,MEDAK,Sugarcane,Kharif,2014,0.546,12
+Telangana,MEDAK,Urad,Kharif,2014,0.546,12
+Telangana,MEDAK,Urad,Rabi,2014,0.4462,12
+Telangana,MEDAK,Wheat,Rabi,2014,0.4462,12
+Telangana,NALGONDA,Arhar/Tur,Kharif,2014,0.3748,12
+Telangana,NALGONDA,Arhar/Tur,Rabi,2014,0.3115,12
+Telangana,NALGONDA,Bajra,Kharif,2014,0.3748,12
+Telangana,NALGONDA,Dry chillies,Kharif,2014,0.3748,12
+Telangana,NALGONDA,Dry chillies,Rabi,2014,0.3115,12
+Telangana,NALGONDA,Gram,Rabi,2014,0.3115,12
+Telangana,NALGONDA,Groundnut,Kharif,2014,0.3748,12
+Telangana,NALGONDA,Groundnut,Rabi,2014,0.3115,12
+Telangana,NALGONDA,Jowar,Kharif,2014,0.3748,12
+Telangana,NALGONDA,Jowar,Rabi,2014,0.3115,12
+Telangana,NALGONDA,Maize,Kharif,2014,0.3748,12
+Telangana,NALGONDA,Maize,Rabi,2014,0.3115,12
+Telangana,NALGONDA,Moong(Green Gram),Kharif,2014,0.3748,12
+Telangana,NALGONDA,Moong(Green Gram),Rabi,2014,0.3115,12
+Telangana,NALGONDA,Onion,Rabi,2014,0.3115,12
+Telangana,NALGONDA,Rice,Kharif,2014,0.3748,12
+Telangana,NALGONDA,Rice,Rabi,2014,0.3115,12
+Telangana,NALGONDA,Sugarcane,Kharif,2014,0.3748,12
+Telangana,NALGONDA,Urad,Rabi,2014,0.3115,12
+Telangana,NIZAMABAD,Arhar/Tur,Kharif,2014,0.272,12
+Telangana,NIZAMABAD,Bajra,Rabi,2014,0.2071,12
+Telangana,NIZAMABAD,Dry chillies,Kharif,2014,0.272,12
+Telangana,NIZAMABAD,Dry chillies,Rabi,2014,0.2071,12
+Telangana,NIZAMABAD,Gram,Rabi,2014,0.2071,12
+Telangana,NIZAMABAD,Groundnut,Kharif,2014,0.272,12
+Telangana,NIZAMABAD,Groundnut,Rabi,2014,0.2071,12
+Telangana,NIZAMABAD,Jowar,Kharif,2014,0.272,12
+Telangana,NIZAMABAD,Jowar,Rabi,2014,0.2071,12
+Telangana,NIZAMABAD,Maize,Kharif,2014,0.272,12
+Telangana,NIZAMABAD,Maize,Rabi,2014,0.2071,12
+Telangana,NIZAMABAD,Moong(Green Gram),Kharif,2014,0.272,12
+Telangana,NIZAMABAD,Moong(Green Gram),Rabi,2014,0.2071,12
+Telangana,NIZAMABAD,Onion,Kharif,2014,0.272,12
+Telangana,NIZAMABAD,Onion,Rabi,2014,0.2071,12
+Telangana,NIZAMABAD,Rapeseed &Mustard,Rabi,2014,0.2071,12
+Telangana,NIZAMABAD,Rice,Kharif,2014,0.272,12
+Telangana,NIZAMABAD,Rice,Rabi,2014,0.2071,12
+Telangana,NIZAMABAD,Soyabean,Kharif,2014,0.272,12
+Telangana,NIZAMABAD,Soyabean,Rabi,2014,0.2071,12
+Telangana,NIZAMABAD,Sugarcane,Kharif,2014,0.272,12
+Telangana,NIZAMABAD,Urad,Kharif,2014,0.272,12
+Telangana,NIZAMABAD,Urad,Rabi,2014,0.2071,12
+Telangana,NIZAMABAD,Wheat,Rabi,2014,0.2071,12
+Telangana,RANGAREDDI,Arhar/Tur,Kharif,2014,0.5017,12
+Telangana,RANGAREDDI,Arhar/Tur,Rabi,2014,0.4534,12
+Telangana,RANGAREDDI,Bajra,Kharif,2014,0.5017,12
+Telangana,RANGAREDDI,Bajra,Rabi,2014,0.4534,12
+Telangana,RANGAREDDI,Dry chillies,Kharif,2014,0.5017,12
+Telangana,RANGAREDDI,Dry chillies,Rabi,2014,0.4534,12
+Telangana,RANGAREDDI,Gram,Rabi,2014,0.4534,12
+Telangana,RANGAREDDI,Groundnut,Kharif,2014,0.5017,12
+Telangana,RANGAREDDI,Groundnut,Rabi,2014,0.4534,12
+Telangana,RANGAREDDI,Jowar,Kharif,2014,0.5017,12
+Telangana,RANGAREDDI,Jowar,Rabi,2014,0.4534,12
+Telangana,RANGAREDDI,Maize,Kharif,2014,0.5017,12
+Telangana,RANGAREDDI,Maize,Rabi,2014,0.4534,12
+Telangana,RANGAREDDI,Moong(Green Gram),Kharif,2014,0.5017,12
+Telangana,RANGAREDDI,Onion,Kharif,2014,0.5017,12
+Telangana,RANGAREDDI,Onion,Rabi,2014,0.4534,12
+Telangana,RANGAREDDI,Potato,Kharif,2014,0.5017,12
+Telangana,RANGAREDDI,Potato,Rabi,2014,0.4534,12
+Telangana,RANGAREDDI,Rice,Kharif,2014,0.5017,12
+Telangana,RANGAREDDI,Rice,Rabi,2014,0.4534,12
+Telangana,RANGAREDDI,Soyabean,Kharif,2014,0.5017,12
+Telangana,RANGAREDDI,Sugarcane,Kharif,2014,0.5017,12
+Telangana,RANGAREDDI,Urad,Kharif,2014,0.5017,12
+Telangana,RANGAREDDI,Wheat,Rabi,2014,0.4534,12
+Telangana,WARANGAL,Arhar/Tur,Kharif,2014,0.4262,12
+Telangana,WARANGAL,Arhar/Tur,Rabi,2014,0.351,12
+Telangana,WARANGAL,Bajra,Kharif,2014,0.4262,12
+Telangana,WARANGAL,Bajra,Rabi,2014,0.351,12
+Telangana,WARANGAL,Dry chillies,Kharif,2014,0.4262,12
+Telangana,WARANGAL,Dry chillies,Rabi,2014,0.351,12
+Telangana,WARANGAL,Gram,Rabi,2014,0.351,12
+Telangana,WARANGAL,Groundnut,Kharif,2014,0.4262,12
+Telangana,WARANGAL,Groundnut,Rabi,2014,0.351,12
+Telangana,WARANGAL,Jowar,Kharif,2014,0.4262,12
+Telangana,WARANGAL,Jowar,Rabi,2014,0.351,12
+Telangana,WARANGAL,Maize,Kharif,2014,0.4262,12
+Telangana,WARANGAL,Maize,Rabi,2014,0.351,12
+Telangana,WARANGAL,Moong(Green Gram),Kharif,2014,0.4262,12
+Telangana,WARANGAL,Moong(Green Gram),Rabi,2014,0.351,12
+Telangana,WARANGAL,Onion,Rabi,2014,0.351,12
+Telangana,WARANGAL,Rice,Kharif,2014,0.4262,12
+Telangana,WARANGAL,Rice,Rabi,2014,0.351,12
+Telangana,WARANGAL,Soyabean,Kharif,2014,0.4262,12
+Telangana,WARANGAL,Soyabean,Rabi,2014,0.351,12
+Telangana,WARANGAL,Urad,Kharif,2014,0.4262,12
+Telangana,WARANGAL,Urad,Rabi,2014,0.351,12
+Telangana,ADILABAD,Arhar/Tur,Kharif,2015,0.4068,12
+Telangana,ADILABAD,Arhar/Tur,Rabi,2015,0.3153,12
+Telangana,ADILABAD,Bajra,Rabi,2015,0.3153,12
+Telangana,ADILABAD,Dry chillies,Kharif,2015,0.4068,12
+Telangana,ADILABAD,Dry chillies,Rabi,2015,0.3153,12
+Telangana,ADILABAD,Gram,Rabi,2015,0.3153,12
+Telangana,ADILABAD,Groundnut,Rabi,2015,0.3153,12
+Telangana,ADILABAD,Jowar,Kharif,2015,0.4068,12
+Telangana,ADILABAD,Jowar,Rabi,2015,0.3153,12
+Telangana,ADILABAD,Maize,Kharif,2015,0.4068,12
+Telangana,ADILABAD,Maize,Rabi,2015,0.3153,12
+Telangana,ADILABAD,Moong(Green Gram),Kharif,2015,0.4068,12
+Telangana,ADILABAD,Moong(Green Gram),Rabi,2015,0.3153,12
+Telangana,ADILABAD,Onion,Kharif,2015,0.4068,12
+Telangana,ADILABAD,Onion,Rabi,2015,0.3153,12
+Telangana,ADILABAD,Rapeseed &Mustard,Rabi,2015,0.3153,12
+Telangana,ADILABAD,Rice,Kharif,2015,0.4068,12
+Telangana,ADILABAD,Rice,Rabi,2015,0.3153,12
+Telangana,ADILABAD,Soyabean,Kharif,2015,0.4068,12
+Telangana,ADILABAD,Sugarcane,Kharif,2015,0.4068,12
+Telangana,ADILABAD,Urad,Kharif,2015,0.4068,12
+Telangana,ADILABAD,Urad,Rabi,2015,0.3153,12
+Telangana,ADILABAD,Wheat,Rabi,2015,0.3153,12
+Telangana,KARIMNAGAR,Arhar/Tur,Kharif,2015,0.2993,12
+Telangana,KARIMNAGAR,Arhar/Tur,Rabi,2015,0.2387,12
+Telangana,KARIMNAGAR,Bajra,Rabi,2015,0.2387,12
+Telangana,KARIMNAGAR,Dry chillies,Kharif,2015,0.2993,12
+Telangana,KARIMNAGAR,Dry chillies,Rabi,2015,0.2387,12
+Telangana,KARIMNAGAR,Gram,Rabi,2015,0.2387,12
+Telangana,KARIMNAGAR,Groundnut,Rabi,2015,0.2387,12
+Telangana,KARIMNAGAR,Jowar,Rabi,2015,0.2387,12
+Telangana,KARIMNAGAR,Maize,Kharif,2015,0.2993,12
+Telangana,KARIMNAGAR,Maize,Rabi,2015,0.2387,12
+Telangana,KARIMNAGAR,Moong(Green Gram),Kharif,2015,0.2993,12
+Telangana,KARIMNAGAR,Moong(Green Gram),Rabi,2015,0.2387,12
+Telangana,KARIMNAGAR,Onion,Kharif,2015,0.2993,12
+Telangana,KARIMNAGAR,Onion,Rabi,2015,0.2387,12
+Telangana,KARIMNAGAR,Rapeseed &Mustard,Rabi,2015,0.2387,12
+Telangana,KARIMNAGAR,Rice,Kharif,2015,0.2993,12
+Telangana,KARIMNAGAR,Rice,Rabi,2015,0.2387,12
+Telangana,KARIMNAGAR,Soyabean,Kharif,2015,0.2993,12
+Telangana,KARIMNAGAR,Sugarcane,Kharif,2015,0.2993,12
+Telangana,KARIMNAGAR,Urad,Kharif,2015,0.2993,12
+Telangana,KARIMNAGAR,Urad,Rabi,2015,0.2387,12
+Telangana,KHAMMAM,Arhar/Tur,Kharif,2015,0.3743,12
+Telangana,KHAMMAM,Arhar/Tur,Rabi,2015,0.3017,12
+Telangana,KHAMMAM,Dry chillies,Kharif,2015,0.3743,12
+Telangana,KHAMMAM,Dry chillies,Rabi,2015,0.3017,12
+Telangana,KHAMMAM,Gram,Rabi,2015,0.3017,12
+Telangana,KHAMMAM,Groundnut,Kharif,2015,0.3743,12
+Telangana,KHAMMAM,Groundnut,Rabi,2015,0.3017,12
+Telangana,KHAMMAM,Jowar,Rabi,2015,0.3017,12
+Telangana,KHAMMAM,Maize,Kharif,2015,0.3743,12
+Telangana,KHAMMAM,Maize,Rabi,2015,0.3017,12
+Telangana,KHAMMAM,Moong(Green Gram),Kharif,2015,0.3743,12
+Telangana,KHAMMAM,Moong(Green Gram),Rabi,2015,0.3017,12
+Telangana,KHAMMAM,Onion,Kharif,2015,0.3743,12
+Telangana,KHAMMAM,Onion,Rabi,2015,0.3017,12
+Telangana,KHAMMAM,Rice,Kharif,2015,0.3743,12
+Telangana,KHAMMAM,Rice,Rabi,2015,0.3017,12
+Telangana,KHAMMAM,Sugarcane,Kharif,2015,0.3743,12
+Telangana,KHAMMAM,Urad,Kharif,2015,0.3743,12
+Telangana,KHAMMAM,Urad,Rabi,2015,0.3017,12
+Telangana,MAHBUBNAGAR,Arhar/Tur,Kharif,2015,0.3316,12
+Telangana,MAHBUBNAGAR,Arhar/Tur,Rabi,2015,0.2299,12
+Telangana,MAHBUBNAGAR,Bajra,Kharif,2015,0.3316,12
+Telangana,MAHBUBNAGAR,Dry chillies,Kharif,2015,0.3316,12
+Telangana,MAHBUBNAGAR,Dry chillies,Rabi,2015,0.2299,12
+Telangana,MAHBUBNAGAR,Gram,Rabi,2015,0.2299,12
+Telangana,MAHBUBNAGAR,Groundnut,Kharif,2015,0.3316,12
+Telangana,MAHBUBNAGAR,Groundnut,Rabi,2015,0.2299,12
+Telangana,MAHBUBNAGAR,Jowar,Kharif,2015,0.3316,12
+Telangana,MAHBUBNAGAR,Jowar,Rabi,2015,0.2299,12
+Telangana,MAHBUBNAGAR,Maize,Kharif,2015,0.3316,12
+Telangana,MAHBUBNAGAR,Maize,Rabi,2015,0.2299,12
+Telangana,MAHBUBNAGAR,Moong(Green Gram),Kharif,2015,0.3316,12
+Telangana,MAHBUBNAGAR,Moong(Green Gram),Rabi,2015,0.2299,12
+Telangana,MAHBUBNAGAR,Onion,Kharif,2015,0.3316,12
+Telangana,MAHBUBNAGAR,Onion,Rabi,2015,0.2299,12
+Telangana,MAHBUBNAGAR,Rice,Kharif,2015,0.3316,12
+Telangana,MAHBUBNAGAR,Rice,Rabi,2015,0.2299,12
+Telangana,MAHBUBNAGAR,Sugarcane,Kharif,2015,0.3316,12
+Telangana,MAHBUBNAGAR,Urad,Kharif,2015,0.3316,12
+Telangana,MAHBUBNAGAR,Urad,Rabi,2015,0.2299,12
+Telangana,MEDAK,Arhar/Tur,Kharif,2015,0.5805,12
+Telangana,MEDAK,Bajra,Kharif,2015,0.5805,12
+Telangana,MEDAK,Dry chillies,Kharif,2015,0.5805,12
+Telangana,MEDAK,Dry chillies,Rabi,2015,0.3898,12
+Telangana,MEDAK,Gram,Rabi,2015,0.3898,12
+Telangana,MEDAK,Groundnut,Kharif,2015,0.5805,12
+Telangana,MEDAK,Groundnut,Rabi,2015,0.3898,12
+Telangana,MEDAK,Jowar,Kharif,2015,0.5805,12
+Telangana,MEDAK,Jowar,Rabi,2015,0.3898,12
+Telangana,MEDAK,Maize,Kharif,2015,0.5805,12
+Telangana,MEDAK,Maize,Rabi,2015,0.3898,12
+Telangana,MEDAK,Moong(Green Gram),Kharif,2015,0.5805,12
+Telangana,MEDAK,Moong(Green Gram),Rabi,2015,0.3898,12
+Telangana,MEDAK,Onion,Kharif,2015,0.5805,12
+Telangana,MEDAK,Onion,Rabi,2015,0.3898,12
+Telangana,MEDAK,Potato,Rabi,2015,0.3898,12
+Telangana,MEDAK,Rice,Kharif,2015,0.5805,12
+Telangana,MEDAK,Rice,Rabi,2015,0.3898,12
+Telangana,MEDAK,Soyabean,Kharif,2015,0.5805,12
+Telangana,MEDAK,Sugarcane,Kharif,2015,0.5805,12
+Telangana,MEDAK,Urad,Kharif,2015,0.5805,12
+Telangana,MEDAK,Urad,Rabi,2015,0.3898,12
+Telangana,MEDAK,Wheat,Rabi,2015,0.3898,12
+Telangana,NALGONDA,Arhar/Tur,Kharif,2015,0.384,12
+Telangana,NALGONDA,Arhar/Tur,Rabi,2015,0.2894,12
+Telangana,NALGONDA,Bajra,Kharif,2015,0.384,12
+Telangana,NALGONDA,Bajra,Rabi,2015,0.2894,12
+Telangana,NALGONDA,Dry chillies,Kharif,2015,0.384,12
+Telangana,NALGONDA,Dry chillies,Rabi,2015,0.2894,12
+Telangana,NALGONDA,Gram,Rabi,2015,0.2894,12
+Telangana,NALGONDA,Groundnut,Kharif,2015,0.384,12
+Telangana,NALGONDA,Groundnut,Rabi,2015,0.2894,12
+Telangana,NALGONDA,Jowar,Kharif,2015,0.384,12
+Telangana,NALGONDA,Jowar,Rabi,2015,0.2894,12
+Telangana,NALGONDA,Maize,Kharif,2015,0.384,12
+Telangana,NALGONDA,Maize,Rabi,2015,0.2894,12
+Telangana,NALGONDA,Moong(Green Gram),Kharif,2015,0.384,12
+Telangana,NALGONDA,Moong(Green Gram),Rabi,2015,0.2894,12
+Telangana,NALGONDA,Onion,Rabi,2015,0.2894,12
+Telangana,NALGONDA,Rice,Kharif,2015,0.384,12
+Telangana,NALGONDA,Rice,Rabi,2015,0.2894,12
+Telangana,NALGONDA,Sugarcane,Kharif,2015,0.384,12
+Telangana,NALGONDA,Urad,Rabi,2015,0.2894,12
+Telangana,NIZAMABAD,Arhar/Tur,Kharif,2015,0.2748,12
+Telangana,NIZAMABAD,Arhar/Tur,Rabi,2015,0.1962,12
+Telangana,NIZAMABAD,Bajra,Rabi,2015,0.1962,12
+Telangana,NIZAMABAD,Dry chillies,Kharif,2015,0.2748,12
+Telangana,NIZAMABAD,Dry chillies,Rabi,2015,0.1962,12
+Telangana,NIZAMABAD,Gram,Rabi,2015,0.1962,12
+Telangana,NIZAMABAD,Groundnut,Rabi,2015,0.1962,12
+Telangana,NIZAMABAD,Jowar,Kharif,2015,0.2748,12
+Telangana,NIZAMABAD,Jowar,Rabi,2015,0.1962,12
+Telangana,NIZAMABAD,Maize,Kharif,2015,0.2748,12
+Telangana,NIZAMABAD,Maize,Rabi,2015,0.1962,12
+Telangana,NIZAMABAD,Moong(Green Gram),Kharif,2015,0.2748,12
+Telangana,NIZAMABAD,Moong(Green Gram),Rabi,2015,0.1962,12
+Telangana,NIZAMABAD,Onion,Kharif,2015,0.2748,12
+Telangana,NIZAMABAD,Onion,Rabi,2015,0.1962,12
+Telangana,NIZAMABAD,Rapeseed &Mustard,Rabi,2015,0.1962,12
+Telangana,NIZAMABAD,Rice,Kharif,2015,0.2748,12
+Telangana,NIZAMABAD,Rice,Rabi,2015,0.1962,12
+Telangana,NIZAMABAD,Soyabean,Kharif,2015,0.2748,12
+Telangana,NIZAMABAD,Soyabean,Rabi,2015,0.1962,12
+Telangana,NIZAMABAD,Sugarcane,Kharif,2015,0.2748,12
+Telangana,NIZAMABAD,Urad,Kharif,2015,0.2748,12
+Telangana,NIZAMABAD,Urad,Rabi,2015,0.1962,12
+Telangana,NIZAMABAD,Wheat,Rabi,2015,0.1962,12
+Telangana,RANGAREDDI,Arhar/Tur,Kharif,2015,0.4711,12
+Telangana,RANGAREDDI,Arhar/Tur,Rabi,2015,0.3953,12
+Telangana,RANGAREDDI,Bajra,Kharif,2015,0.4711,12
+Telangana,RANGAREDDI,Dry chillies,Kharif,2015,0.4711,12
+Telangana,RANGAREDDI,Dry chillies,Rabi,2015,0.3953,12
+Telangana,RANGAREDDI,Gram,Rabi,2015,0.3953,12
+Telangana,RANGAREDDI,Groundnut,Kharif,2015,0.4711,12
+Telangana,RANGAREDDI,Groundnut,Rabi,2015,0.3953,12
+Telangana,RANGAREDDI,Jowar,Kharif,2015,0.4711,12
+Telangana,RANGAREDDI,Jowar,Rabi,2015,0.3953,12
+Telangana,RANGAREDDI,Maize,Kharif,2015,0.4711,12
+Telangana,RANGAREDDI,Maize,Rabi,2015,0.3953,12
+Telangana,RANGAREDDI,Moong(Green Gram),Kharif,2015,0.4711,12
+Telangana,RANGAREDDI,Moong(Green Gram),Rabi,2015,0.3953,12
+Telangana,RANGAREDDI,Onion,Kharif,2015,0.4711,12
+Telangana,RANGAREDDI,Onion,Rabi,2015,0.3953,12
+Telangana,RANGAREDDI,Potato,Rabi,2015,0.3953,12
+Telangana,RANGAREDDI,Rice,Kharif,2015,0.4711,12
+Telangana,RANGAREDDI,Rice,Rabi,2015,0.3953,12
+Telangana,RANGAREDDI,Soyabean,Kharif,2015,0.4711,12
+Telangana,RANGAREDDI,Sugarcane,Kharif,2015,0.4711,12
+Telangana,RANGAREDDI,Urad,Kharif,2015,0.4711,12
+Telangana,RANGAREDDI,Urad,Rabi,2015,0.3953,12
+Telangana,RANGAREDDI,Wheat,Rabi,2015,0.3953,12
+Telangana,WARANGAL,Arhar/Tur,Kharif,2015,0.4359,12
+Telangana,WARANGAL,Arhar/Tur,Rabi,2015,0.3648,12
+Telangana,WARANGAL,Bajra,Kharif,2015,0.4359,12
+Telangana,WARANGAL,Bajra,Rabi,2015,0.3648,12
+Telangana,WARANGAL,Dry chillies,Kharif,2015,0.4359,12
+Telangana,WARANGAL,Dry chillies,Rabi,2015,0.3648,12
+Telangana,WARANGAL,Gram,Rabi,2015,0.3648,12
+Telangana,WARANGAL,Groundnut,Kharif,2015,0.4359,12
+Telangana,WARANGAL,Groundnut,Rabi,2015,0.3648,12
+Telangana,WARANGAL,Jowar,Kharif,2015,0.4359,12
+Telangana,WARANGAL,Jowar,Rabi,2015,0.3648,12
+Telangana,WARANGAL,Maize,Kharif,2015,0.4359,12
+Telangana,WARANGAL,Maize,Rabi,2015,0.3648,12
+Telangana,WARANGAL,Moong(Green Gram),Kharif,2015,0.4359,12
+Telangana,WARANGAL,Moong(Green Gram),Rabi,2015,0.3648,12
+Telangana,WARANGAL,Onion,Kharif,2015,0.4359,12
+Telangana,WARANGAL,Onion,Rabi,2015,0.3648,12
+Telangana,WARANGAL,Rice,Kharif,2015,0.4359,12
+Telangana,WARANGAL,Rice,Rabi,2015,0.3648,12
+Telangana,WARANGAL,Soyabean,Kharif,2015,0.4359,12
+Telangana,WARANGAL,Soyabean,Rabi,2015,0.3648,12
+Telangana,WARANGAL,Sugarcane,Kharif,2015,0.4359,12
+Telangana,WARANGAL,Urad,Kharif,2015,0.4359,12
+Telangana,WARANGAL,Urad,Rabi,2015,0.3648,12
+Telangana,ADILABAD,Arhar/Tur,Kharif,2016,0.4042,12
+Telangana,ADILABAD,Arhar/Tur,Rabi,2016,0.2658,12
+Telangana,ADILABAD,Dry chillies,Kharif,2016,0.4042,12
+Telangana,ADILABAD,Dry chillies,Rabi,2016,0.2658,12
+Telangana,ADILABAD,Gram,Rabi,2016,0.2658,12
+Telangana,ADILABAD,Groundnut,Rabi,2016,0.2658,12
+Telangana,ADILABAD,Jowar,Kharif,2016,0.4042,12
+Telangana,ADILABAD,Jowar,Rabi,2016,0.2658,12
+Telangana,ADILABAD,Maize,Kharif,2016,0.4042,12
+Telangana,ADILABAD,Maize,Rabi,2016,0.2658,12
+Telangana,ADILABAD,Moong(Green Gram),Kharif,2016,0.4042,12
+Telangana,ADILABAD,Moong(Green Gram),Rabi,2016,0.2658,12
+Telangana,ADILABAD,Onion,Kharif,2016,0.4042,12
+Telangana,ADILABAD,Onion,Rabi,2016,0.2658,12
+Telangana,ADILABAD,Potato,Rabi,2016,0.2658,12
+Telangana,ADILABAD,Rice,Kharif,2016,0.4042,12
+Telangana,ADILABAD,Rice,Rabi,2016,0.2658,12
+Telangana,ADILABAD,Soyabean,Kharif,2016,0.4042,12
+Telangana,ADILABAD,Sugarcane,Kharif,2016,0.4042,12
+Telangana,ADILABAD,Urad,Kharif,2016,0.4042,12
+Telangana,ADILABAD,Wheat,Rabi,2016,0.2658,12
+Telangana,BHADRADRI,Arhar/Tur,Kharif,2016,0.591,12
+Telangana,BHADRADRI,Arhar/Tur,Rabi,2016,0.4358,12
+Telangana,BHADRADRI,Bajra,Rabi,2016,0.4358,12
+Telangana,BHADRADRI,Dry chillies,Kharif,2016,0.591,12
+Telangana,BHADRADRI,Dry chillies,Rabi,2016,0.4358,12
+Telangana,BHADRADRI,Groundnut,Kharif,2016,0.591,12
+Telangana,BHADRADRI,Groundnut,Rabi,2016,0.4358,12
+Telangana,BHADRADRI,Jowar,Kharif,2016,0.591,12
+Telangana,BHADRADRI,Jowar,Rabi,2016,0.4358,12
+Telangana,BHADRADRI,Maize,Kharif,2016,0.591,12
+Telangana,BHADRADRI,Maize,Rabi,2016,0.4358,12
+Telangana,BHADRADRI,Moong(Green Gram),Kharif,2016,0.591,12
+Telangana,BHADRADRI,Moong(Green Gram),Rabi,2016,0.4358,12
+Telangana,BHADRADRI,Onion,Rabi,2016,0.4358,12
+Telangana,BHADRADRI,Rice,Kharif,2016,0.591,12
+Telangana,BHADRADRI,Rice,Rabi,2016,0.4358,12
+Telangana,BHADRADRI,Soyabean,Kharif,2016,0.591,12
+Telangana,BHADRADRI,Sugarcane,Kharif,2016,0.591,12
+Telangana,BHADRADRI,Urad,Kharif,2016,0.591,12
+Telangana,BHADRADRI,Urad,Rabi,2016,0.4358,12
+Telangana,HANUMAKONDA,Arhar/Tur,Kharif,2016,0.4276,12
+Telangana,HANUMAKONDA,Arhar/Tur,Rabi,2016,0.3488,12
+Telangana,HANUMAKONDA,Dry chillies,Kharif,2016,0.4276,12
+Telangana,HANUMAKONDA,Dry chillies,Rabi,2016,0.3488,12
+Telangana,HANUMAKONDA,Gram,Rabi,2016,0.3488,12
+Telangana,HANUMAKONDA,Groundnut,Kharif,2016,0.4276,12
+Telangana,HANUMAKONDA,Groundnut,Rabi,2016,0.3488,12
+Telangana,HANUMAKONDA,Maize,Kharif,2016,0.4276,12
+Telangana,HANUMAKONDA,Maize,Rabi,2016,0.3488,12
+Telangana,HANUMAKONDA,Moong(Green Gram),Kharif,2016,0.4276,12
+Telangana,HANUMAKONDA,Moong(Green Gram),Rabi,2016,0.3488,12
+Telangana,HANUMAKONDA,Onion,Rabi,2016,0.3488,12
+Telangana,HANUMAKONDA,Rice,Kharif,2016,0.4276,12
+Telangana,HANUMAKONDA,Rice,Rabi,2016,0.3488,12
+Telangana,HANUMAKONDA,Soyabean,Kharif,2016,0.4276,12
+Telangana,HANUMAKONDA,Urad,Kharif,2016,0.4276,12
+Telangana,HANUMAKONDA,Urad,Rabi,2016,0.3488,12
+Telangana,JANGOAN,Arhar/Tur,Kharif,2016,0.4889,12
+Telangana,JANGOAN,Arhar/Tur,Rabi,2016,0.2922,12
+Telangana,JANGOAN,Dry chillies,Kharif,2016,0.4889,12
+Telangana,JANGOAN,Dry chillies,Rabi,2016,0.2922,12
+Telangana,JANGOAN,Gram,Rabi,2016,0.2922,12
+Telangana,JANGOAN,Groundnut,Kharif,2016,0.4889,12
+Telangana,JANGOAN,Groundnut,Rabi,2016,0.2922,12
+Telangana,JANGOAN,Jowar,Kharif,2016,0.4889,12
+Telangana,JANGOAN,Jowar,Rabi,2016,0.2922,12
+Telangana,JANGOAN,Maize,Kharif,2016,0.4889,12
+Telangana,JANGOAN,Maize,Rabi,2016,0.2922,12
+Telangana,JANGOAN,Moong(Green Gram),Kharif,2016,0.4889,12
+Telangana,JANGOAN,Moong(Green Gram),Rabi,2016,0.2922,12
+Telangana,JANGOAN,Onion,Rabi,2016,0.2922,12
+Telangana,JANGOAN,Rice,Kharif,2016,0.4889,12
+Telangana,JANGOAN,Rice,Rabi,2016,0.2922,12
+Telangana,JANGOAN,Soyabean,Kharif,2016,0.4889,12
+Telangana,JANGOAN,Urad,Rabi,2016,0.2922,12
+Telangana,JAYASHANKAR,Arhar/Tur,Kharif,2016,0.5222,12
+Telangana,JAYASHANKAR,Arhar/Tur,Rabi,2016,0.5008,12
+Telangana,JAYASHANKAR,Dry chillies,Kharif,2016,0.5222,12
+Telangana,JAYASHANKAR,Dry chillies,Rabi,2016,0.5008,12
+Telangana,JAYASHANKAR,Gram,Rabi,2016,0.5008,12
+Telangana,JAYASHANKAR,Groundnut,Kharif,2016,0.5222,12
+Telangana,JAYASHANKAR,Groundnut,Rabi,2016,0.5008,12
+Telangana,JAYASHANKAR,Jowar,Rabi,2016,0.5008,12
+Telangana,JAYASHANKAR,Maize,Kharif,2016,0.5222,12
+Telangana,JAYASHANKAR,Maize,Rabi,2016,0.5008,12
+Telangana,JAYASHANKAR,Moong(Green Gram),Kharif,2016,0.5222,12
+Telangana,JAYASHANKAR,Moong(Green Gram),Rabi,2016,0.5008,12
+Telangana,JAYASHANKAR,Onion,Rabi,2016,0.5008,12
+Telangana,JAYASHANKAR,Rice,Kharif,2016,0.5222,12
+Telangana,JAYASHANKAR,Rice,Rabi,2016,0.5008,12
+Telangana,JAYASHANKAR,Soyabean,Kharif,2016,0.5222,12
+Telangana,JAYASHANKAR,Sugarcane,Kharif,2016,0.5222,12
+Telangana,JAYASHANKAR,Urad,Kharif,2016,0.5222,12
+Telangana,JAYASHANKAR,Urad,Rabi,2016,0.5008,12
+Telangana,JOGULAMBA,Arhar/Tur,Kharif,2016,0.5417,12
+Telangana,JOGULAMBA,Bajra,Kharif,2016,0.5417,12
+Telangana,JOGULAMBA,Bajra,Rabi,2016,0.2837,12
+Telangana,JOGULAMBA,Dry chillies,Kharif,2016,0.5417,12
+Telangana,JOGULAMBA,Dry chillies,Rabi,2016,0.2837,12
+Telangana,JOGULAMBA,Gram,Rabi,2016,0.2837,12
+Telangana,JOGULAMBA,Groundnut,Kharif,2016,0.5417,12
+Telangana,JOGULAMBA,Groundnut,Rabi,2016,0.2837,12
+Telangana,JOGULAMBA,Jowar,Kharif,2016,0.5417,12
+Telangana,JOGULAMBA,Jowar,Rabi,2016,0.2837,12
+Telangana,JOGULAMBA,Maize,Kharif,2016,0.5417,12
+Telangana,JOGULAMBA,Maize,Rabi,2016,0.2837,12
+Telangana,JOGULAMBA,Moong(Green Gram),Kharif,2016,0.5417,12
+Telangana,JOGULAMBA,Moong(Green Gram),Rabi,2016,0.2837,12
+Telangana,JOGULAMBA,Onion,Kharif,2016,0.5417,12
+Telangana,JOGULAMBA,Onion,Rabi,2016,0.2837,12
+Telangana,JOGULAMBA,Rice,Kharif,2016,0.5417,12
+Telangana,JOGULAMBA,Rice,Rabi,2016,0.2837,12
+Telangana,JOGULAMBA,Soyabean,Kharif,2016,0.5417,12
+Telangana,JOGULAMBA,Sugarcane,Kharif,2016,0.5417,12
+Telangana,JOGULAMBA,Urad,Kharif,2016,0.5417,12
+Telangana,JOGULAMBA,Urad,Rabi,2016,0.2837,12
+Telangana,KAMAREDDY,Arhar/Tur,Kharif,2016,0.3587,12
+Telangana,KAMAREDDY,Dry chillies,Kharif,2016,0.3587,12
+Telangana,KAMAREDDY,Dry chillies,Rabi,2016,0.2241,12
+Telangana,KAMAREDDY,Gram,Rabi,2016,0.2241,12
+Telangana,KAMAREDDY,Groundnut,Rabi,2016,0.2241,12
+Telangana,KAMAREDDY,Jowar,Kharif,2016,0.3587,12
+Telangana,KAMAREDDY,Jowar,Rabi,2016,0.2241,12
+Telangana,KAMAREDDY,Maize,Kharif,2016,0.3587,12
+Telangana,KAMAREDDY,Maize,Rabi,2016,0.2241,12
+Telangana,KAMAREDDY,Moong(Green Gram),Kharif,2016,0.3587,12
+Telangana,KAMAREDDY,Moong(Green Gram),Rabi,2016,0.2241,12
+Telangana,KAMAREDDY,Onion,Kharif,2016,0.3587,12
+Telangana,KAMAREDDY,Onion,Rabi,2016,0.2241,12
+Telangana,KAMAREDDY,Rice,Kharif,2016,0.3587,12
+Telangana,KAMAREDDY,Rice,Rabi,2016,0.2241,12
+Telangana,KAMAREDDY,Soyabean,Kharif,2016,0.3587,12
+Telangana,KAMAREDDY,Soyabean,Rabi,2016,0.2241,12
+Telangana,KAMAREDDY,Sugarcane,Kharif,2016,0.3587,12
+Telangana,KAMAREDDY,Urad,Kharif,2016,0.3587,12
+Telangana,KAMAREDDY,Urad,Rabi,2016,0.2241,12
+Telangana,KAMAREDDY,Wheat,Rabi,2016,0.2241,12
+Telangana,KARIMNAGAR,Arhar/Tur,Kharif,2016,0.302,12
+Telangana,KARIMNAGAR,Dry chillies,Kharif,2016,0.302,12
+Telangana,KARIMNAGAR,Gram,Rabi,2016,0.2228,12
+Telangana,KARIMNAGAR,Groundnut,Kharif,2016,0.302,12
+Telangana,KARIMNAGAR,Groundnut,Rabi,2016,0.2228,12
+Telangana,KARIMNAGAR,Maize,Kharif,2016,0.302,12
+Telangana,KARIMNAGAR,Maize,Rabi,2016,0.2228,12
+Telangana,KARIMNAGAR,Moong(Green Gram),Kharif,2016,0.302,12
+Telangana,KARIMNAGAR,Moong(Green Gram),Rabi,2016,0.2228,12
+Telangana,KARIMNAGAR,Onion,Rabi,2016,0.2228,12
+Telangana,KARIMNAGAR,Rice,Kharif,2016,0.302,12
+Telangana,KARIMNAGAR,Rice,Rabi,2016,0.2228,12
+Telangana,KARIMNAGAR,Soyabean,Kharif,2016,0.302,12
+Telangana,KARIMNAGAR,Urad,Kharif,2016,0.302,12
+Telangana,KARIMNAGAR,Urad,Rabi,2016,0.2228,12
+Telangana,KHAMMAM,Arhar/Tur,Kharif,2016,0.3819,12
+Telangana,KHAMMAM,Arhar/Tur,Rabi,2016,0.2847,12
+Telangana,KHAMMAM,Bajra,Kharif,2016,0.3819,12
+Telangana,KHAMMAM,Dry chillies,Kharif,2016,0.3819,12
+Telangana,KHAMMAM,Dry chillies,Rabi,2016,0.2847,12
+Telangana,KHAMMAM,Gram,Rabi,2016,0.2847,12
+Telangana,KHAMMAM,Groundnut,Kharif,2016,0.3819,12
+Telangana,KHAMMAM,Groundnut,Rabi,2016,0.2847,12
+Telangana,KHAMMAM,Jowar,Rabi,2016,0.2847,12
+Telangana,KHAMMAM,Maize,Kharif,2016,0.3819,12
+Telangana,KHAMMAM,Maize,Rabi,2016,0.2847,12
+Telangana,KHAMMAM,Moong(Green Gram),Kharif,2016,0.3819,12
+Telangana,KHAMMAM,Moong(Green Gram),Rabi,2016,0.2847,12
+Telangana,KHAMMAM,Onion,Rabi,2016,0.2847,12
+Telangana,KHAMMAM,Rice,Kharif,2016,0.3819,12
+Telangana,KHAMMAM,Rice,Rabi,2016,0.2847,12
+Telangana,KHAMMAM,Soyabean,Kharif,2016,0.3819,12
+Telangana,KHAMMAM,Sugarcane,Kharif,2016,0.3819,12
+Telangana,KHAMMAM,Urad,Kharif,2016,0.3819,12
+Telangana,KHAMMAM,Urad,Rabi,2016,0.2847,12
+Telangana,KOMARAM BHEEM ASIFABAD,Arhar/Tur,Kharif,2016,0.4512,12
+Telangana,KOMARAM BHEEM ASIFABAD,Arhar/Tur,Rabi,2016,0.3431,12
+Telangana,KOMARAM BHEEM ASIFABAD,Dry chillies,Kharif,2016,0.4512,12
+Telangana,KOMARAM BHEEM ASIFABAD,Gram,Rabi,2016,0.3431,12
+Telangana,KOMARAM BHEEM ASIFABAD,Groundnut,Rabi,2016,0.3431,12
+Telangana,KOMARAM BHEEM ASIFABAD,Jowar,Kharif,2016,0.4512,12
+Telangana,KOMARAM BHEEM ASIFABAD,Jowar,Rabi,2016,0.3431,12
+Telangana,KOMARAM BHEEM ASIFABAD,Maize,Kharif,2016,0.4512,12
+Telangana,KOMARAM BHEEM ASIFABAD,Maize,Rabi,2016,0.3431,12
+Telangana,KOMARAM BHEEM ASIFABAD,Moong(Green Gram),Kharif,2016,0.4512,12
+Telangana,KOMARAM BHEEM ASIFABAD,Moong(Green Gram),Rabi,2016,0.3431,12
+Telangana,KOMARAM BHEEM ASIFABAD,Onion,Kharif,2016,0.4512,12
+Telangana,KOMARAM BHEEM ASIFABAD,Onion,Rabi,2016,0.3431,12
+Telangana,KOMARAM BHEEM ASIFABAD,Rice,Kharif,2016,0.4512,12
+Telangana,KOMARAM BHEEM ASIFABAD,Rice,Rabi,2016,0.3431,12
+Telangana,KOMARAM BHEEM ASIFABAD,Soyabean,Kharif,2016,0.4512,12
+Telangana,KOMARAM BHEEM ASIFABAD,Sugarcane,Kharif,2016,0.4512,12
+Telangana,KOMARAM BHEEM ASIFABAD,Urad,Kharif,2016,0.4512,12
+Telangana,KOMARAM BHEEM ASIFABAD,Urad,Rabi,2016,0.3431,12
+Telangana,KOMARAM BHEEM ASIFABAD,Wheat,Rabi,2016,0.3431,12
+Telangana,MAHABUBABAD,Arhar/Tur,Kharif,2016,0.5228,12
+Telangana,MAHABUBABAD,Arhar/Tur,Rabi,2016,0.4467,12
+Telangana,MAHABUBABAD,Dry chillies,Kharif,2016,0.5228,12
+Telangana,MAHABUBABAD,Dry chillies,Rabi,2016,0.4467,12
+Telangana,MAHABUBABAD,Gram,Rabi,2016,0.4467,12
+Telangana,MAHABUBABAD,Groundnut,Kharif,2016,0.5228,12
+Telangana,MAHABUBABAD,Groundnut,Rabi,2016,0.4467,12
+Telangana,MAHABUBABAD,Jowar,Rabi,2016,0.4467,12
+Telangana,MAHABUBABAD,Maize,Kharif,2016,0.5228,12
+Telangana,MAHABUBABAD,Maize,Rabi,2016,0.4467,12
+Telangana,MAHABUBABAD,Moong(Green Gram),Kharif,2016,0.5228,12
+Telangana,MAHABUBABAD,Moong(Green Gram),Rabi,2016,0.4467,12
+Telangana,MAHABUBABAD,Onion,Kharif,2016,0.5228,12
+Telangana,MAHABUBABAD,Onion,Rabi,2016,0.4467,12
+Telangana,MAHABUBABAD,Rice,Kharif,2016,0.5228,12
+Telangana,MAHABUBABAD,Rice,Rabi,2016,0.4467,12
+Telangana,MAHABUBABAD,Soyabean,Kharif,2016,0.5228,12
+Telangana,MAHABUBABAD,Sugarcane,Kharif,2016,0.5228,12
+Telangana,MAHABUBABAD,Urad,Kharif,2016,0.5228,12
+Telangana,MAHABUBABAD,Urad,Rabi,2016,0.4467,12
+Telangana,MAHBUBNAGAR,Arhar/Tur,Kharif,2016,0.4186,12
+Telangana,MAHBUBNAGAR,Bajra,Kharif,2016,0.4186,12
+Telangana,MAHBUBNAGAR,Dry chillies,Kharif,2016,0.4186,12
+Telangana,MAHBUBNAGAR,Dry chillies,Rabi,2016,0.2132,12
+Telangana,MAHBUBNAGAR,Gram,Rabi,2016,0.2132,12
+Telangana,MAHBUBNAGAR,Groundnut,Kharif,2016,0.4186,12
+Telangana,MAHBUBNAGAR,Groundnut,Rabi,2016,0.2132,12
+Telangana,MAHBUBNAGAR,Jowar,Kharif,2016,0.4186,12
+Telangana,MAHBUBNAGAR,Jowar,Rabi,2016,0.2132,12
+Telangana,MAHBUBNAGAR,Maize,Kharif,2016,0.4186,12
+Telangana,MAHBUBNAGAR,Maize,Rabi,2016,0.2132,12
+Telangana,MAHBUBNAGAR,Moong(Green Gram),Kharif,2016,0.4186,12
+Telangana,MAHBUBNAGAR,Moong(Green Gram),Rabi,2016,0.2132,12
+Telangana,MAHBUBNAGAR,Onion,Kharif,2016,0.4186,12
+Telangana,MAHBUBNAGAR,Onion,Rabi,2016,0.2132,12
+Telangana,MAHBUBNAGAR,Rice,Kharif,2016,0.4186,12
+Telangana,MAHBUBNAGAR,Rice,Rabi,2016,0.2132,12
+Telangana,MAHBUBNAGAR,Soyabean,Kharif,2016,0.4186,12
+Telangana,MAHBUBNAGAR,Sugarcane,Kharif,2016,0.4186,12
+Telangana,MAHBUBNAGAR,Urad,Kharif,2016,0.4186,12
+Telangana,MANCHERIAL,Arhar/Tur,Kharif,2016,0.4481,12
+Telangana,MANCHERIAL,Arhar/Tur,Rabi,2016,0.3164,12
+Telangana,MANCHERIAL,Dry chillies,Kharif,2016,0.4481,12
+Telangana,MANCHERIAL,Gram,Rabi,2016,0.3164,12
+Telangana,MANCHERIAL,Groundnut,Kharif,2016,0.4481,12
+Telangana,MANCHERIAL,Groundnut,Rabi,2016,0.3164,12
+Telangana,MANCHERIAL,Jowar,Rabi,2016,0.3164,12
+Telangana,MANCHERIAL,Maize,Kharif,2016,0.4481,12
+Telangana,MANCHERIAL,Maize,Rabi,2016,0.3164,12
+Telangana,MANCHERIAL,Moong(Green Gram),Kharif,2016,0.4481,12
+Telangana,MANCHERIAL,Moong(Green Gram),Rabi,2016,0.3164,12
+Telangana,MANCHERIAL,Onion,Rabi,2016,0.3164,12
+Telangana,MANCHERIAL,Rice,Kharif,2016,0.4481,12
+Telangana,MANCHERIAL,Rice,Rabi,2016,0.3164,12
+Telangana,MANCHERIAL,Soyabean,Kharif,2016,0.4481,12
+Telangana,MANCHERIAL,Urad,Kharif,2016,0.4481,12
+Telangana,MANCHERIAL,Urad,Rabi,2016,0.3164,12
+Telangana,MANCHERIAL,Wheat,Rabi,2016,0.3164,12
+Telangana,MEDAK,Arhar/Tur,Kharif,2016,0.5492,12
+Telangana,MEDAK,Arhar/Tur,Rabi,2016,0.3362,12
+Telangana,MEDAK,Bajra,Rabi,2016,0.3362,12
+Telangana,MEDAK,Dry chillies,Kharif,2016,0.5492,12
+Telangana,MEDAK,Dry chillies,Rabi,2016,0.3362,12
+Telangana,MEDAK,Gram,Rabi,2016,0.3362,12
+Telangana,MEDAK,Groundnut,Kharif,2016,0.5492,12
+Telangana,MEDAK,Groundnut,Rabi,2016,0.3362,12
+Telangana,MEDAK,Jowar,Kharif,2016,0.5492,12
+Telangana,MEDAK,Jowar,Rabi,2016,0.3362,12
+Telangana,MEDAK,Maize,Kharif,2016,0.5492,12
+Telangana,MEDAK,Maize,Rabi,2016,0.3362,12
+Telangana,MEDAK,Moong(Green Gram),Kharif,2016,0.5492,12
+Telangana,MEDAK,Moong(Green Gram),Rabi,2016,0.3362,12
+Telangana,MEDAK,Onion,Kharif,2016,0.5492,12
+Telangana,MEDAK,Onion,Rabi,2016,0.3362,12
+Telangana,MEDAK,Potato,Kharif,2016,0.5492,12
+Telangana,MEDAK,Potato,Rabi,2016,0.3362,12
+Telangana,MEDAK,Rice,Kharif,2016,0.5492,12
+Telangana,MEDAK,Rice,Rabi,2016,0.3362,12
+Telangana,MEDAK,Soyabean,Kharif,2016,0.5492,12
+Telangana,MEDAK,Sugarcane,Kharif,2016,0.5492,12
+Telangana,MEDAK,Urad,Kharif,2016,0.5492,12
+Telangana,MEDAK,Urad,Rabi,2016,0.3362,12
+Telangana,MEDAK,Wheat,Rabi,2016,0.3362,12
+Telangana,MEDCHAL MALKAJGIRI,Arhar/Tur,Kharif,2016,0.4602,12
+Telangana,MEDCHAL MALKAJGIRI,Dry chillies,Kharif,2016,0.4602,12
+Telangana,MEDCHAL MALKAJGIRI,Gram,Rabi,2016,0.2745,12
+Telangana,MEDCHAL MALKAJGIRI,Jowar,Kharif,2016,0.4602,12
+Telangana,MEDCHAL MALKAJGIRI,Jowar,Rabi,2016,0.2745,12
+Telangana,MEDCHAL MALKAJGIRI,Maize,Kharif,2016,0.4602,12
+Telangana,MEDCHAL MALKAJGIRI,Maize,Rabi,2016,0.2745,12
+Telangana,MEDCHAL MALKAJGIRI,Moong(Green Gram),Kharif,2016,0.4602,12
+Telangana,MEDCHAL MALKAJGIRI,Onion,Rabi,2016,0.2745,12
+Telangana,MEDCHAL MALKAJGIRI,Potato,Rabi,2016,0.2745,12
+Telangana,MEDCHAL MALKAJGIRI,Rice,Kharif,2016,0.4602,12
+Telangana,MEDCHAL MALKAJGIRI,Rice,Rabi,2016,0.2745,12
+Telangana,MEDCHAL MALKAJGIRI,Wheat,Rabi,2016,0.2745,12
+Telangana,NAGARKURNOOL,Arhar/Tur,Kharif,2016,0.477,12
+Telangana,NAGARKURNOOL,Arhar/Tur,Rabi,2016,0.2995,12
+Telangana,NAGARKURNOOL,Bajra,Kharif,2016,0.477,12
+Telangana,NAGARKURNOOL,Dry chillies,Kharif,2016,0.477,12
+Telangana,NAGARKURNOOL,Dry chillies,Rabi,2016,0.2995,12
+Telangana,NAGARKURNOOL,Gram,Rabi,2016,0.2995,12
+Telangana,NAGARKURNOOL,Groundnut,Kharif,2016,0.477,12
+Telangana,NAGARKURNOOL,Groundnut,Rabi,2016,0.2995,12
+Telangana,NAGARKURNOOL,Jowar,Kharif,2016,0.477,12
+Telangana,NAGARKURNOOL,Jowar,Rabi,2016,0.2995,12
+Telangana,NAGARKURNOOL,Maize,Kharif,2016,0.477,12
+Telangana,NAGARKURNOOL,Maize,Rabi,2016,0.2995,12
+Telangana,NAGARKURNOOL,Moong(Green Gram),Kharif,2016,0.477,12
+Telangana,NAGARKURNOOL,Moong(Green Gram),Rabi,2016,0.2995,12
+Telangana,NAGARKURNOOL,Onion,Kharif,2016,0.477,12
+Telangana,NAGARKURNOOL,Onion,Rabi,2016,0.2995,12
+Telangana,NAGARKURNOOL,Potato,Rabi,2016,0.2995,12
+Telangana,NAGARKURNOOL,Rice,Kharif,2016,0.477,12
+Telangana,NAGARKURNOOL,Rice,Rabi,2016,0.2995,12
+Telangana,NAGARKURNOOL,Soyabean,Kharif,2016,0.477,12
+Telangana,NAGARKURNOOL,Urad,Kharif,2016,0.477,12
+Telangana,NAGARKURNOOL,Urad,Rabi,2016,0.2995,12
+Telangana,NALGONDA,Arhar/Tur,Kharif,2016,0.3602,12
+Telangana,NALGONDA,Bajra,Kharif,2016,0.3602,12
+Telangana,NALGONDA,Bajra,Rabi,2016,0.2831,12
+Telangana,NALGONDA,Dry chillies,Kharif,2016,0.3602,12
+Telangana,NALGONDA,Dry chillies,Rabi,2016,0.2831,12
+Telangana,NALGONDA,Gram,Rabi,2016,0.2831,12
+Telangana,NALGONDA,Groundnut,Kharif,2016,0.3602,12
+Telangana,NALGONDA,Groundnut,Rabi,2016,0.2831,12
+Telangana,NALGONDA,Jowar,Kharif,2016,0.3602,12
+Telangana,NALGONDA,Jowar,Rabi,2016,0.2831,12
+Telangana,NALGONDA,Maize,Kharif,2016,0.3602,12
+Telangana,NALGONDA,Maize,Rabi,2016,0.2831,12
+Telangana,NALGONDA,Moong(Green Gram),Kharif,2016,0.3602,12
+Telangana,NALGONDA,Moong(Green Gram),Rabi,2016,0.2831,12
+Telangana,NALGONDA,Rice,Kharif,2016,0.3602,12
+Telangana,NALGONDA,Rice,Rabi,2016,0.2831,12
+Telangana,NALGONDA,Soyabean,Kharif,2016,0.3602,12
+Telangana,NALGONDA,Sugarcane,Kharif,2016,0.3602,12
+Telangana,NALGONDA,Urad,Kharif,2016,0.3602,12
+Telangana,NALGONDA,Urad,Rabi,2016,0.2831,12
+Telangana,NALGONDA,Wheat,Rabi,2016,0.2831,12
+Telangana,NIRMAL,Arhar/Tur,Kharif,2016,0.3513,12
+Telangana,NIRMAL,Arhar/Tur,Rabi,2016,0.2726,12
+Telangana,NIRMAL,Dry chillies,Kharif,2016,0.3513,12
+Telangana,NIRMAL,Gram,Rabi,2016,0.2726,12
+Telangana,NIRMAL,Groundnut,Rabi,2016,0.2726,12
+Telangana,NIRMAL,Jowar,Kharif,2016,0.3513,12
+Telangana,NIRMAL,Jowar,Rabi,2016,0.2726,12
+Telangana,NIRMAL,Maize,Kharif,2016,0.3513,12
+Telangana,NIRMAL,Maize,Rabi,2016,0.2726,12
+Telangana,NIRMAL,Moong(Green Gram),Kharif,2016,0.3513,12
+Telangana,NIRMAL,Moong(Green Gram),Rabi,2016,0.2726,12
+Telangana,NIRMAL,Onion,Kharif,2016,0.3513,12
+Telangana,NIRMAL,Onion,Rabi,2016,0.2726,12
+Telangana,NIRMAL,Rice,Kharif,2016,0.3513,12
+Telangana,NIRMAL,Rice,Rabi,2016,0.2726,12
+Telangana,NIRMAL,Soyabean,Kharif,2016,0.3513,12
+Telangana,NIRMAL,Sugarcane,Kharif,2016,0.3513,12
+Telangana,NIRMAL,Urad,Kharif,2016,0.3513,12
+Telangana,NIRMAL,Urad,Rabi,2016,0.2726,12
+Telangana,NIRMAL,Wheat,Rabi,2016,0.2726,12
+Telangana,NIZAMABAD,Arhar/Tur,Kharif,2016,0.2527,12
+Telangana,NIZAMABAD,Bajra,Kharif,2016,0.2527,12
+Telangana,NIZAMABAD,Bajra,Rabi,2016,0.1753,12
+Telangana,NIZAMABAD,Dry chillies,Kharif,2016,0.2527,12
+Telangana,NIZAMABAD,Dry chillies,Rabi,2016,0.1753,12
+Telangana,NIZAMABAD,Gram,Rabi,2016,0.1753,12
+Telangana,NIZAMABAD,Groundnut,Kharif,2016,0.2527,12
+Telangana,NIZAMABAD,Groundnut,Rabi,2016,0.1753,12
+Telangana,NIZAMABAD,Jowar,Kharif,2016,0.2527,12
+Telangana,NIZAMABAD,Jowar,Rabi,2016,0.1753,12
+Telangana,NIZAMABAD,Maize,Kharif,2016,0.2527,12
+Telangana,NIZAMABAD,Maize,Rabi,2016,0.1753,12
+Telangana,NIZAMABAD,Moong(Green Gram),Kharif,2016,0.2527,12
+Telangana,NIZAMABAD,Moong(Green Gram),Rabi,2016,0.1753,12
+Telangana,NIZAMABAD,Onion,Kharif,2016,0.2527,12
+Telangana,NIZAMABAD,Onion,Rabi,2016,0.1753,12
+Telangana,NIZAMABAD,Rice,Kharif,2016,0.2527,12
+Telangana,NIZAMABAD,Rice,Rabi,2016,0.1753,12
+Telangana,NIZAMABAD,Soyabean,Kharif,2016,0.2527,12
+Telangana,NIZAMABAD,Soyabean,Rabi,2016,0.1753,12
+Telangana,NIZAMABAD,Sugarcane,Kharif,2016,0.2527,12
+Telangana,NIZAMABAD,Urad,Kharif,2016,0.2527,12
+Telangana,NIZAMABAD,Urad,Rabi,2016,0.1753,12
+Telangana,NIZAMABAD,Wheat,Rabi,2016,0.1753,12
+Telangana,PEDDAPALLI,Arhar/Tur,Kharif,2016,0.3988,12
+Telangana,PEDDAPALLI,Arhar/Tur,Rabi,2016,0.2974,12
+Telangana,PEDDAPALLI,Bajra,Rabi,2016,0.2974,12
+Telangana,PEDDAPALLI,Dry chillies,Kharif,2016,0.3988,12
+Telangana,PEDDAPALLI,Dry chillies,Rabi,2016,0.2974,12
+Telangana,PEDDAPALLI,Gram,Rabi,2016,0.2974,12
+Telangana,PEDDAPALLI,Groundnut,Rabi,2016,0.2974,12
+Telangana,PEDDAPALLI,Maize,Kharif,2016,0.3988,12
+Telangana,PEDDAPALLI,Maize,Rabi,2016,0.2974,12
+Telangana,PEDDAPALLI,Moong(Green Gram),Kharif,2016,0.3988,12
+Telangana,PEDDAPALLI,Moong(Green Gram),Rabi,2016,0.2974,12
+Telangana,PEDDAPALLI,Onion,Kharif,2016,0.3988,12
+Telangana,PEDDAPALLI,Rice,Kharif,2016,0.3988,12
+Telangana,PEDDAPALLI,Rice,Rabi,2016,0.2974,12
+Telangana,PEDDAPALLI,Soyabean,Kharif,2016,0.3988,12
+Telangana,PEDDAPALLI,Urad,Kharif,2016,0.3988,12
+Telangana,PEDDAPALLI,Urad,Rabi,2016,0.2974,12
+Telangana,RAJANNA,Arhar/Tur,Kharif,2016,0.4141,12
+Telangana,RAJANNA,Dry chillies,Kharif,2016,0.4141,12
+Telangana,RAJANNA,Gram,Rabi,2016,0.2726,12
+Telangana,RAJANNA,Groundnut,Rabi,2016,0.2726,12
+Telangana,RAJANNA,Maize,Kharif,2016,0.4141,12
+Telangana,RAJANNA,Maize,Rabi,2016,0.2726,12
+Telangana,RAJANNA,Moong(Green Gram),Kharif,2016,0.4141,12
+Telangana,RAJANNA,Moong(Green Gram),Rabi,2016,0.2726,12
+Telangana,RAJANNA,Onion,Rabi,2016,0.2726,12
+Telangana,RAJANNA,Rice,Kharif,2016,0.4141,12
+Telangana,RAJANNA,Rice,Rabi,2016,0.2726,12
+Telangana,RAJANNA,Soyabean,Kharif,2016,0.4141,12
+Telangana,RAJANNA,Urad,Kharif,2016,0.4141,12
+Telangana,RAJANNA,Urad,Rabi,2016,0.2726,12
+Telangana,RANGAREDDI,Arhar/Tur,Kharif,2016,0.511,12
+Telangana,RANGAREDDI,Bajra,Kharif,2016,0.511,12
+Telangana,RANGAREDDI,Bajra,Rabi,2016,0.2888,12
+Telangana,RANGAREDDI,Dry chillies,Kharif,2016,0.511,12
+Telangana,RANGAREDDI,Dry chillies,Rabi,2016,0.2888,12
+Telangana,RANGAREDDI,Gram,Rabi,2016,0.2888,12
+Telangana,RANGAREDDI,Groundnut,Rabi,2016,0.2888,12
+Telangana,RANGAREDDI,Jowar,Kharif,2016,0.511,12
+Telangana,RANGAREDDI,Jowar,Rabi,2016,0.2888,12
+Telangana,RANGAREDDI,Maize,Kharif,2016,0.511,12
+Telangana,RANGAREDDI,Maize,Rabi,2016,0.2888,12
+Telangana,RANGAREDDI,Moong(Green Gram),Kharif,2016,0.511,12
+Telangana,RANGAREDDI,Moong(Green Gram),Rabi,2016,0.2888,12
+Telangana,RANGAREDDI,Onion,Kharif,2016,0.511,12
+Telangana,RANGAREDDI,Onion,Rabi,2016,0.2888,12
+Telangana,RANGAREDDI,Potato,Kharif,2016,0.511,12
+Telangana,RANGAREDDI,Potato,Rabi,2016,0.2888,12
+Telangana,RANGAREDDI,Rice,Kharif,2016,0.511,12
+Telangana,RANGAREDDI,Rice,Rabi,2016,0.2888,12
+Telangana,RANGAREDDI,Soyabean,Kharif,2016,0.511,12
+Telangana,RANGAREDDI,Sugarcane,Kharif,2016,0.511,12
+Telangana,RANGAREDDI,Urad,Kharif,2016,0.511,12
+Telangana,RANGAREDDI,Wheat,Rabi,2016,0.2888,12
+Telangana,SANGAREDDY,Arhar/Tur,Kharif,2016,0.4428,12
+Telangana,SANGAREDDY,Bajra,Kharif,2016,0.4428,12
+Telangana,SANGAREDDY,Dry chillies,Kharif,2016,0.4428,12
+Telangana,SANGAREDDY,Dry chillies,Rabi,2016,0.2888,12
+Telangana,SANGAREDDY,Gram,Rabi,2016,0.2888,12
+Telangana,SANGAREDDY,Groundnut,Kharif,2016,0.4428,12
+Telangana,SANGAREDDY,Groundnut,Rabi,2016,0.2888,12
+Telangana,SANGAREDDY,Jowar,Kharif,2016,0.4428,12
+Telangana,SANGAREDDY,Jowar,Rabi,2016,0.2888,12
+Telangana,SANGAREDDY,Maize,Kharif,2016,0.4428,12
+Telangana,SANGAREDDY,Maize,Rabi,2016,0.2888,12
+Telangana,SANGAREDDY,Moong(Green Gram),Kharif,2016,0.4428,12
+Telangana,SANGAREDDY,Onion,Kharif,2016,0.4428,12
+Telangana,SANGAREDDY,Onion,Rabi,2016,0.2888,12
+Telangana,SANGAREDDY,Potato,Rabi,2016,0.2888,12
+Telangana,SANGAREDDY,Rice,Kharif,2016,0.4428,12
+Telangana,SANGAREDDY,Rice,Rabi,2016,0.2888,12
+Telangana,SANGAREDDY,Soyabean,Kharif,2016,0.4428,12
+Telangana,SANGAREDDY,Sugarcane,Kharif,2016,0.4428,12
+Telangana,SANGAREDDY,Urad,Kharif,2016,0.4428,12
+Telangana,SANGAREDDY,Wheat,Rabi,2016,0.2888,12
+Telangana,SIDDIPET,Arhar/Tur,Kharif,2016,0.4413,12
+Telangana,SIDDIPET,Dry chillies,Kharif,2016,0.4413,12
+Telangana,SIDDIPET,Dry chillies,Rabi,2016,0.2532,12
+Telangana,SIDDIPET,Gram,Rabi,2016,0.2532,12
+Telangana,SIDDIPET,Groundnut,Kharif,2016,0.4413,12
+Telangana,SIDDIPET,Groundnut,Rabi,2016,0.2532,12
+Telangana,SIDDIPET,Jowar,Kharif,2016,0.4413,12
+Telangana,SIDDIPET,Maize,Kharif,2016,0.4413,12
+Telangana,SIDDIPET,Maize,Rabi,2016,0.2532,12
+Telangana,SIDDIPET,Moong(Green Gram),Kharif,2016,0.4413,12
+Telangana,SIDDIPET,Moong(Green Gram),Rabi,2016,0.2532,12
+Telangana,SIDDIPET,Onion,Kharif,2016,0.4413,12
+Telangana,SIDDIPET,Onion,Rabi,2016,0.2532,12
+Telangana,SIDDIPET,Potato,Rabi,2016,0.2532,12
+Telangana,SIDDIPET,Rice,Kharif,2016,0.4413,12
+Telangana,SIDDIPET,Rice,Rabi,2016,0.2532,12
+Telangana,SIDDIPET,Soyabean,Kharif,2016,0.4413,12
+Telangana,SIDDIPET,Urad,Kharif,2016,0.4413,12
+Telangana,SIDDIPET,Urad,Rabi,2016,0.2532,12
+Telangana,SIDDIPET,Wheat,Rabi,2016,0.2532,12
+Telangana,SURYAPET,Arhar/Tur,Kharif,2016,0.3553,12
+Telangana,SURYAPET,Arhar/Tur,Rabi,2016,0.2623,12
+Telangana,SURYAPET,Dry chillies,Kharif,2016,0.3553,12
+Telangana,SURYAPET,Dry chillies,Rabi,2016,0.2623,12
+Telangana,SURYAPET,Gram,Rabi,2016,0.2623,12
+Telangana,SURYAPET,Groundnut,Kharif,2016,0.3553,12
+Telangana,SURYAPET,Groundnut,Rabi,2016,0.2623,12
+Telangana,SURYAPET,Jowar,Rabi,2016,0.2623,12
+Telangana,SURYAPET,Maize,Kharif,2016,0.3553,12
+Telangana,SURYAPET,Maize,Rabi,2016,0.2623,12
+Telangana,SURYAPET,Moong(Green Gram),Kharif,2016,0.3553,12
+Telangana,SURYAPET,Moong(Green Gram),Rabi,2016,0.2623,12
+Telangana,SURYAPET,Rice,Kharif,2016,0.3553,12
+Telangana,SURYAPET,Rice,Rabi,2016,0.2623,12
+Telangana,SURYAPET,Sugarcane,Kharif,2016,0.3553,12
+Telangana,SURYAPET,Urad,Rabi,2016,0.2623,12
+Telangana,VIKARABAD,Arhar/Tur,Kharif,2016,0.5655,12
+Telangana,VIKARABAD,Arhar/Tur,Rabi,2016,0.2578,12
+Telangana,VIKARABAD,Bajra,Kharif,2016,0.5655,12
+Telangana,VIKARABAD,Dry chillies,Kharif,2016,0.5655,12
+Telangana,VIKARABAD,Dry chillies,Rabi,2016,0.2578,12
+Telangana,VIKARABAD,Gram,Rabi,2016,0.2578,12
+Telangana,VIKARABAD,Groundnut,Kharif,2016,0.5655,12
+Telangana,VIKARABAD,Groundnut,Rabi,2016,0.2578,12
+Telangana,VIKARABAD,Jowar,Kharif,2016,0.5655,12
+Telangana,VIKARABAD,Jowar,Rabi,2016,0.2578,12
+Telangana,VIKARABAD,Maize,Kharif,2016,0.5655,12
+Telangana,VIKARABAD,Maize,Rabi,2016,0.2578,12
+Telangana,VIKARABAD,Moong(Green Gram),Kharif,2016,0.5655,12
+Telangana,VIKARABAD,Onion,Kharif,2016,0.5655,12
+Telangana,VIKARABAD,Onion,Rabi,2016,0.2578,12
+Telangana,VIKARABAD,Potato,Rabi,2016,0.2578,12
+Telangana,VIKARABAD,Rice,Kharif,2016,0.5655,12
+Telangana,VIKARABAD,Rice,Rabi,2016,0.2578,12
+Telangana,VIKARABAD,Soyabean,Kharif,2016,0.5655,12
+Telangana,VIKARABAD,Sugarcane,Kharif,2016,0.5655,12
+Telangana,VIKARABAD,Urad,Kharif,2016,0.5655,12
+Telangana,VIKARABAD,Wheat,Rabi,2016,0.2578,12
+Telangana,WANAPARTHY,Arhar/Tur,Kharif,2016,0.4611,12
+Telangana,WANAPARTHY,Arhar/Tur,Rabi,2016,0.2864,12
+Telangana,WANAPARTHY,Dry chillies,Kharif,2016,0.4611,12
+Telangana,WANAPARTHY,Dry chillies,Rabi,2016,0.2864,12
+Telangana,WANAPARTHY,Gram,Rabi,2016,0.2864,12
+Telangana,WANAPARTHY,Groundnut,Kharif,2016,0.4611,12
+Telangana,WANAPARTHY,Groundnut,Rabi,2016,0.2864,12
+Telangana,WANAPARTHY,Jowar,Kharif,2016,0.4611,12
+Telangana,WANAPARTHY,Jowar,Rabi,2016,0.2864,12
+Telangana,WANAPARTHY,Maize,Kharif,2016,0.4611,12
+Telangana,WANAPARTHY,Maize,Rabi,2016,0.2864,12
+Telangana,WANAPARTHY,Moong(Green Gram),Kharif,2016,0.4611,12
+Telangana,WANAPARTHY,Moong(Green Gram),Rabi,2016,0.2864,12
+Telangana,WANAPARTHY,Onion,Kharif,2016,0.4611,12
+Telangana,WANAPARTHY,Onion,Rabi,2016,0.2864,12
+Telangana,WANAPARTHY,Rice,Kharif,2016,0.4611,12
+Telangana,WANAPARTHY,Rice,Rabi,2016,0.2864,12
+Telangana,WANAPARTHY,Soyabean,Kharif,2016,0.4611,12
+Telangana,WANAPARTHY,Sugarcane,Kharif,2016,0.4611,12
+Telangana,WANAPARTHY,Urad,Kharif,2016,0.4611,12
+Telangana,WANAPARTHY,Urad,Rabi,2016,0.2864,12
+Telangana,WARANGAL,Arhar/Tur,Kharif,2016,0.4276,12
+Telangana,WARANGAL,Arhar/Tur,Rabi,2016,0.3488,12
+Telangana,WARANGAL,Dry chillies,Kharif,2016,0.4276,12
+Telangana,WARANGAL,Dry chillies,Rabi,2016,0.3488,12
+Telangana,WARANGAL,Gram,Rabi,2016,0.3488,12
+Telangana,WARANGAL,Groundnut,Kharif,2016,0.4276,12
+Telangana,WARANGAL,Groundnut,Rabi,2016,0.3488,12
+Telangana,WARANGAL,Jowar,Rabi,2016,0.3488,12
+Telangana,WARANGAL,Maize,Kharif,2016,0.4276,12
+Telangana,WARANGAL,Maize,Rabi,2016,0.3488,12
+Telangana,WARANGAL,Moong(Green Gram),Kharif,2016,0.4276,12
+Telangana,WARANGAL,Moong(Green Gram),Rabi,2016,0.3488,12
+Telangana,WARANGAL,Onion,Kharif,2016,0.4276,12
+Telangana,WARANGAL,Onion,Rabi,2016,0.3488,12
+Telangana,WARANGAL,Rice,Kharif,2016,0.4276,12
+Telangana,WARANGAL,Rice,Rabi,2016,0.3488,12
+Telangana,WARANGAL,Soyabean,Kharif,2016,0.4276,12
+Telangana,WARANGAL,Urad,Kharif,2016,0.4276,12
+Telangana,WARANGAL,Urad,Rabi,2016,0.3488,12
+Telangana,YADADRI,Arhar/Tur,Kharif,2016,0.4668,12
+Telangana,YADADRI,Bajra,Kharif,2016,0.4668,12
+Telangana,YADADRI,Dry chillies,Kharif,2016,0.4668,12
+Telangana,YADADRI,Dry chillies,Rabi,2016,0.2635,12
+Telangana,YADADRI,Gram,Rabi,2016,0.2635,12
+Telangana,YADADRI,Groundnut,Kharif,2016,0.4668,12
+Telangana,YADADRI,Groundnut,Rabi,2016,0.2635,12
+Telangana,YADADRI,Jowar,Kharif,2016,0.4668,12
+Telangana,YADADRI,Jowar,Rabi,2016,0.2635,12
+Telangana,YADADRI,Maize,Kharif,2016,0.4668,12
+Telangana,YADADRI,Maize,Rabi,2016,0.2635,12
+Telangana,YADADRI,Moong(Green Gram),Kharif,2016,0.4668,12
+Telangana,YADADRI,Moong(Green Gram),Rabi,2016,0.2635,12
+Telangana,YADADRI,Onion,Rabi,2016,0.2635,12
+Telangana,YADADRI,Potato,Rabi,2016,0.2635,12
+Telangana,YADADRI,Rice,Kharif,2016,0.4668,12
+Telangana,YADADRI,Rice,Rabi,2016,0.2635,12
+Telangana,YADADRI,Soyabean,Kharif,2016,0.4668,12
+Telangana,YADADRI,Sugarcane,Kharif,2016,0.4668,12
+Telangana,YADADRI,Urad,Kharif,2016,0.4668,12
+Telangana,YADADRI,Urad,Rabi,2016,0.2635,12
+Telangana,YADADRI,Wheat,Rabi,2016,0.2635,12
+Telangana,ADILABAD,Arhar/Tur,Kharif,2017,0.4397,12
+Telangana,ADILABAD,Dry chillies,Kharif,2017,0.4397,12
+Telangana,ADILABAD,Dry chillies,Rabi,2017,0.2639,12
+Telangana,ADILABAD,Gram,Rabi,2017,0.2639,12
+Telangana,ADILABAD,Groundnut,Rabi,2017,0.2639,12
+Telangana,ADILABAD,Jowar,Kharif,2017,0.4397,12
+Telangana,ADILABAD,Jowar,Rabi,2017,0.2639,12
+Telangana,ADILABAD,Maize,Kharif,2017,0.4397,12
+Telangana,ADILABAD,Maize,Rabi,2017,0.2639,12
+Telangana,ADILABAD,Moong(Green Gram),Kharif,2017,0.4397,12
+Telangana,ADILABAD,Moong(Green Gram),Rabi,2017,0.2639,12
+Telangana,ADILABAD,Onion,Kharif,2017,0.4397,12
+Telangana,ADILABAD,Onion,Rabi,2017,0.2639,12
+Telangana,ADILABAD,Rice,Kharif,2017,0.4397,12
+Telangana,ADILABAD,Rice,Rabi,2017,0.2639,12
+Telangana,ADILABAD,Soyabean,Kharif,2017,0.4397,12
+Telangana,ADILABAD,Sugarcane,Kharif,2017,0.4397,12
+Telangana,ADILABAD,Urad,Kharif,2017,0.4397,12
+Telangana,ADILABAD,Wheat,Rabi,2017,0.2639,12
+Telangana,BHADRADRI,Arhar/Tur,Kharif,2017,0.6351,12
+Telangana,BHADRADRI,Arhar/Tur,Rabi,2017,0.4741,12
+Telangana,BHADRADRI,Dry chillies,Kharif,2017,0.6351,12
+Telangana,BHADRADRI,Dry chillies,Rabi,2017,0.4741,12
+Telangana,BHADRADRI,Gram,Rabi,2017,0.4741,12
+Telangana,BHADRADRI,Groundnut,Kharif,2017,0.6351,12
+Telangana,BHADRADRI,Groundnut,Rabi,2017,0.4741,12
+Telangana,BHADRADRI,Jowar,Rabi,2017,0.4741,12
+Telangana,BHADRADRI,Maize,Kharif,2017,0.6351,12
+Telangana,BHADRADRI,Maize,Rabi,2017,0.4741,12
+Telangana,BHADRADRI,Moong(Green Gram),Kharif,2017,0.6351,12
+Telangana,BHADRADRI,Moong(Green Gram),Rabi,2017,0.4741,12
+Telangana,BHADRADRI,Onion,Rabi,2017,0.4741,12
+Telangana,BHADRADRI,Rice,Kharif,2017,0.6351,12
+Telangana,BHADRADRI,Rice,Rabi,2017,0.4741,12
+Telangana,BHADRADRI,Soyabean,Kharif,2017,0.6351,12
+Telangana,BHADRADRI,Sugarcane,Kharif,2017,0.6351,12
+Telangana,BHADRADRI,Urad,Kharif,2017,0.6351,12
+Telangana,BHADRADRI,Urad,Rabi,2017,0.4741,12
+Telangana,HANUMAKONDA,Arhar/Tur,Kharif,2017,0.5073,12
+Telangana,HANUMAKONDA,Dry chillies,Kharif,2017,0.5073,12
+Telangana,HANUMAKONDA,Gram,Rabi,2017,0.3325,12
+Telangana,HANUMAKONDA,Groundnut,Kharif,2017,0.5073,12
+Telangana,HANUMAKONDA,Groundnut,Rabi,2017,0.3325,12
+Telangana,HANUMAKONDA,Jowar,Kharif,2017,0.5073,12
+Telangana,HANUMAKONDA,Maize,Kharif,2017,0.5073,12
+Telangana,HANUMAKONDA,Maize,Rabi,2017,0.3325,12
+Telangana,HANUMAKONDA,Moong(Green Gram),Kharif,2017,0.5073,12
+Telangana,HANUMAKONDA,Moong(Green Gram),Rabi,2017,0.3325,12
+Telangana,HANUMAKONDA,Onion,Kharif,2017,0.5073,12
+Telangana,HANUMAKONDA,Onion,Rabi,2017,0.3325,12
+Telangana,HANUMAKONDA,Rice,Kharif,2017,0.5073,12
+Telangana,HANUMAKONDA,Rice,Rabi,2017,0.3325,12
+Telangana,HANUMAKONDA,Soyabean,Kharif,2017,0.5073,12
+Telangana,HANUMAKONDA,Urad,Kharif,2017,0.5073,12
+Telangana,HANUMAKONDA,Urad,Rabi,2017,0.3325,12
+Telangana,JANGOAN,Arhar/Tur,Kharif,2017,0.5945,12
+Telangana,JANGOAN,Arhar/Tur,Rabi,2017,0.3299,12
+Telangana,JANGOAN,Dry chillies,Kharif,2017,0.5945,12
+Telangana,JANGOAN,Dry chillies,Rabi,2017,0.3299,12
+Telangana,JANGOAN,Gram,Rabi,2017,0.3299,12
+Telangana,JANGOAN,Groundnut,Kharif,2017,0.5945,12
+Telangana,JANGOAN,Groundnut,Rabi,2017,0.3299,12
+Telangana,JANGOAN,Jowar,Kharif,2017,0.5945,12
+Telangana,JANGOAN,Jowar,Rabi,2017,0.3299,12
+Telangana,JANGOAN,Maize,Kharif,2017,0.5945,12
+Telangana,JANGOAN,Maize,Rabi,2017,0.3299,12
+Telangana,JANGOAN,Moong(Green Gram),Kharif,2017,0.5945,12
+Telangana,JANGOAN,Moong(Green Gram),Rabi,2017,0.3299,12
+Telangana,JANGOAN,Onion,Rabi,2017,0.3299,12
+Telangana,JANGOAN,Rice,Kharif,2017,0.5945,12
+Telangana,JANGOAN,Rice,Rabi,2017,0.3299,12
+Telangana,JANGOAN,Sugarcane,Kharif,2017,0.5945,12
+Telangana,JANGOAN,Urad,Kharif,2017,0.5945,12
+Telangana,JANGOAN,Urad,Rabi,2017,0.3299,12
+Telangana,JAYASHANKAR,Arhar/Tur,Kharif,2017,0.6136,12
+Telangana,JAYASHANKAR,Arhar/Tur,Rabi,2017,0.556,12
+Telangana,JAYASHANKAR,Bajra,Rabi,2017,0.556,12
+Telangana,JAYASHANKAR,Dry chillies,Kharif,2017,0.6136,12
+Telangana,JAYASHANKAR,Dry chillies,Rabi,2017,0.556,12
+Telangana,JAYASHANKAR,Gram,Rabi,2017,0.556,12
+Telangana,JAYASHANKAR,Groundnut,Kharif,2017,0.6136,12
+Telangana,JAYASHANKAR,Groundnut,Rabi,2017,0.556,12
+Telangana,JAYASHANKAR,Jowar,Rabi,2017,0.556,12
+Telangana,JAYASHANKAR,Maize,Kharif,2017,0.6136,12
+Telangana,JAYASHANKAR,Maize,Rabi,2017,0.556,12
+Telangana,JAYASHANKAR,Moong(Green Gram),Kharif,2017,0.6136,12
+Telangana,JAYASHANKAR,Moong(Green Gram),Rabi,2017,0.556,12
+Telangana,JAYASHANKAR,Onion,Rabi,2017,0.556,12
+Telangana,JAYASHANKAR,Rice,Kharif,2017,0.6136,12
+Telangana,JAYASHANKAR,Rice,Rabi,2017,0.556,12
+Telangana,JAYASHANKAR,Urad,Kharif,2017,0.6136,12
+Telangana,JAYASHANKAR,Urad,Rabi,2017,0.556,12
+Telangana,JOGULAMBA,Arhar/Tur,Kharif,2017,0.5759,12
+Telangana,JOGULAMBA,Arhar/Tur,Rabi,2017,0.3237,12
+Telangana,JOGULAMBA,Bajra,Kharif,2017,0.5759,12
+Telangana,JOGULAMBA,Dry chillies,Kharif,2017,0.5759,12
+Telangana,JOGULAMBA,Gram,Rabi,2017,0.3237,12
+Telangana,JOGULAMBA,Groundnut,Kharif,2017,0.5759,12
+Telangana,JOGULAMBA,Groundnut,Rabi,2017,0.3237,12
+Telangana,JOGULAMBA,Jowar,Kharif,2017,0.5759,12
+Telangana,JOGULAMBA,Jowar,Rabi,2017,0.3237,12
+Telangana,JOGULAMBA,Maize,Kharif,2017,0.5759,12
+Telangana,JOGULAMBA,Maize,Rabi,2017,0.3237,12
+Telangana,JOGULAMBA,Moong(Green Gram),Kharif,2017,0.5759,12
+Telangana,JOGULAMBA,Moong(Green Gram),Rabi,2017,0.3237,12
+Telangana,JOGULAMBA,Onion,Kharif,2017,0.5759,12
+Telangana,JOGULAMBA,Onion,Rabi,2017,0.3237,12
+Telangana,JOGULAMBA,Rice,Kharif,2017,0.5759,12
+Telangana,JOGULAMBA,Rice,Rabi,2017,0.3237,12
+Telangana,JOGULAMBA,Sugarcane,Kharif,2017,0.5759,12
+Telangana,JOGULAMBA,Urad,Kharif,2017,0.5759,12
+Telangana,JOGULAMBA,Urad,Rabi,2017,0.3237,12
+Telangana,KAMAREDDY,Arhar/Tur,Kharif,2017,0.4316,12
+Telangana,KAMAREDDY,Dry chillies,Kharif,2017,0.4316,12
+Telangana,KAMAREDDY,Dry chillies,Rabi,2017,0.2462,12
+Telangana,KAMAREDDY,Gram,Rabi,2017,0.2462,12
+Telangana,KAMAREDDY,Groundnut,Rabi,2017,0.2462,12
+Telangana,KAMAREDDY,Jowar,Kharif,2017,0.4316,12
+Telangana,KAMAREDDY,Jowar,Rabi,2017,0.2462,12
+Telangana,KAMAREDDY,Maize,Kharif,2017,0.4316,12
+Telangana,KAMAREDDY,Maize,Rabi,2017,0.2462,12
+Telangana,KAMAREDDY,Moong(Green Gram),Kharif,2017,0.4316,12
+Telangana,KAMAREDDY,Moong(Green Gram),Rabi,2017,0.2462,12
+Telangana,KAMAREDDY,Onion,Kharif,2017,0.4316,12
+Telangana,KAMAREDDY,Onion,Rabi,2017,0.2462,12
+Telangana,KAMAREDDY,Rice,Kharif,2017,0.4316,12
+Telangana,KAMAREDDY,Rice,Rabi,2017,0.2462,12
+Telangana,KAMAREDDY,Soyabean,Kharif,2017,0.4316,12
+Telangana,KAMAREDDY,Sugarcane,Kharif,2017,0.4316,12
+Telangana,KAMAREDDY,Urad,Kharif,2017,0.4316,12
+Telangana,KAMAREDDY,Urad,Rabi,2017,0.2462,12
+Telangana,KAMAREDDY,Wheat,Rabi,2017,0.2462,12
+Telangana,KARIMNAGAR,Arhar/Tur,Kharif,2017,0.3078,12
+Telangana,KARIMNAGAR,Dry chillies,Kharif,2017,0.3078,12
+Telangana,KARIMNAGAR,Gram,Rabi,2017,0.2363,12
+Telangana,KARIMNAGAR,Groundnut,Kharif,2017,0.3078,12
+Telangana,KARIMNAGAR,Groundnut,Rabi,2017,0.2363,12
+Telangana,KARIMNAGAR,Maize,Kharif,2017,0.3078,12
+Telangana,KARIMNAGAR,Maize,Rabi,2017,0.2363,12
+Telangana,KARIMNAGAR,Moong(Green Gram),Kharif,2017,0.3078,12
+Telangana,KARIMNAGAR,Moong(Green Gram),Rabi,2017,0.2363,12
+Telangana,KARIMNAGAR,Onion,Kharif,2017,0.3078,12
+Telangana,KARIMNAGAR,Onion,Rabi,2017,0.2363,12
+Telangana,KARIMNAGAR,Rice,Kharif,2017,0.3078,12
+Telangana,KARIMNAGAR,Rice,Rabi,2017,0.2363,12
+Telangana,KARIMNAGAR,Soyabean,Kharif,2017,0.3078,12
+Telangana,KARIMNAGAR,Urad,Kharif,2017,0.3078,12
+Telangana,KARIMNAGAR,Urad,Rabi,2017,0.2363,12
+Telangana,KHAMMAM,Arhar/Tur,Kharif,2017,0.3878,12
+Telangana,KHAMMAM,Arhar/Tur,Rabi,2017,0.2859,12
+Telangana,KHAMMAM,Dry chillies,Kharif,2017,0.3878,12
+Telangana,KHAMMAM,Dry chillies,Rabi,2017,0.2859,12
+Telangana,KHAMMAM,Gram,Rabi,2017,0.2859,12
+Telangana,KHAMMAM,Groundnut,Kharif,2017,0.3878,12
+Telangana,KHAMMAM,Groundnut,Rabi,2017,0.2859,12
+Telangana,KHAMMAM,Jowar,Kharif,2017,0.3878,12
+Telangana,KHAMMAM,Jowar,Rabi,2017,0.2859,12
+Telangana,KHAMMAM,Maize,Kharif,2017,0.3878,12
+Telangana,KHAMMAM,Maize,Rabi,2017,0.2859,12
+Telangana,KHAMMAM,Moong(Green Gram),Kharif,2017,0.3878,12
+Telangana,KHAMMAM,Moong(Green Gram),Rabi,2017,0.2859,12
+Telangana,KHAMMAM,Onion,Rabi,2017,0.2859,12
+Telangana,KHAMMAM,Rice,Kharif,2017,0.3878,12
+Telangana,KHAMMAM,Rice,Rabi,2017,0.2859,12
+Telangana,KHAMMAM,Soyabean,Kharif,2017,0.3878,12
+Telangana,KHAMMAM,Sugarcane,Kharif,2017,0.3878,12
+Telangana,KHAMMAM,Urad,Kharif,2017,0.3878,12
+Telangana,KHAMMAM,Urad,Rabi,2017,0.2859,12
+Telangana,KOMARAM BHEEM ASIFABAD,Arhar/Tur,Kharif,2017,0.4984,12
+Telangana,KOMARAM BHEEM ASIFABAD,Arhar/Tur,Rabi,2017,0.3225,12
+Telangana,KOMARAM BHEEM ASIFABAD,Dry chillies,Kharif,2017,0.4984,12
+Telangana,KOMARAM BHEEM ASIFABAD,Gram,Rabi,2017,0.3225,12
+Telangana,KOMARAM BHEEM ASIFABAD,Jowar,Kharif,2017,0.4984,12
+Telangana,KOMARAM BHEEM ASIFABAD,Jowar,Rabi,2017,0.3225,12
+Telangana,KOMARAM BHEEM ASIFABAD,Maize,Kharif,2017,0.4984,12
+Telangana,KOMARAM BHEEM ASIFABAD,Maize,Rabi,2017,0.3225,12
+Telangana,KOMARAM BHEEM ASIFABAD,Moong(Green Gram),Kharif,2017,0.4984,12
+Telangana,KOMARAM BHEEM ASIFABAD,Moong(Green Gram),Rabi,2017,0.3225,12
+Telangana,KOMARAM BHEEM ASIFABAD,Onion,Kharif,2017,0.4984,12
+Telangana,KOMARAM BHEEM ASIFABAD,Onion,Rabi,2017,0.3225,12
+Telangana,KOMARAM BHEEM ASIFABAD,Rice,Kharif,2017,0.4984,12
+Telangana,KOMARAM BHEEM ASIFABAD,Rice,Rabi,2017,0.3225,12
+Telangana,KOMARAM BHEEM ASIFABAD,Soyabean,Kharif,2017,0.4984,12
+Telangana,KOMARAM BHEEM ASIFABAD,Urad,Kharif,2017,0.4984,12
+Telangana,KOMARAM BHEEM ASIFABAD,Urad,Rabi,2017,0.3225,12
+Telangana,KOMARAM BHEEM ASIFABAD,Wheat,Rabi,2017,0.3225,12
+Telangana,MAHABUBABAD,Arhar/Tur,Kharif,2017,0.548,12
+Telangana,MAHABUBABAD,Arhar/Tur,Rabi,2017,0.4105,12
+Telangana,MAHABUBABAD,Bajra,Rabi,2017,0.4105,12
+Telangana,MAHABUBABAD,Dry chillies,Kharif,2017,0.548,12
+Telangana,MAHABUBABAD,Dry chillies,Rabi,2017,0.4105,12
+Telangana,MAHABUBABAD,Gram,Rabi,2017,0.4105,12
+Telangana,MAHABUBABAD,Groundnut,Kharif,2017,0.548,12
+Telangana,MAHABUBABAD,Groundnut,Rabi,2017,0.4105,12
+Telangana,MAHABUBABAD,Jowar,Kharif,2017,0.548,12
+Telangana,MAHABUBABAD,Jowar,Rabi,2017,0.4105,12
+Telangana,MAHABUBABAD,Maize,Kharif,2017,0.548,12
+Telangana,MAHABUBABAD,Maize,Rabi,2017,0.4105,12
+Telangana,MAHABUBABAD,Moong(Green Gram),Kharif,2017,0.548,12
+Telangana,MAHABUBABAD,Moong(Green Gram),Rabi,2017,0.4105,12
+Telangana,MAHABUBABAD,Onion,Kharif,2017,0.548,12
+Telangana,MAHABUBABAD,Onion,Rabi,2017,0.4105,12
+Telangana,MAHABUBABAD,Rice,Kharif,2017,0.548,12
+Telangana,MAHABUBABAD,Rice,Rabi,2017,0.4105,12
+Telangana,MAHABUBABAD,Soyabean,Kharif,2017,0.548,12
+Telangana,MAHABUBABAD,Sugarcane,Kharif,2017,0.548,12
+Telangana,MAHABUBABAD,Urad,Kharif,2017,0.548,12
+Telangana,MAHABUBABAD,Urad,Rabi,2017,0.4105,12
+Telangana,MAHBUBNAGAR,Arhar/Tur,Kharif,2017,0.3653,12
+Telangana,MAHBUBNAGAR,Dry chillies,Kharif,2017,0.3653,12
+Telangana,MAHBUBNAGAR,Dry chillies,Rabi,2017,0.2401,12
+Telangana,MAHBUBNAGAR,Gram,Rabi,2017,0.2401,12
+Telangana,MAHBUBNAGAR,Groundnut,Kharif,2017,0.3653,12
+Telangana,MAHBUBNAGAR,Groundnut,Rabi,2017,0.2401,12
+Telangana,MAHBUBNAGAR,Jowar,Kharif,2017,0.3653,12
+Telangana,MAHBUBNAGAR,Jowar,Rabi,2017,0.2401,12
+Telangana,MAHBUBNAGAR,Maize,Kharif,2017,0.3653,12
+Telangana,MAHBUBNAGAR,Maize,Rabi,2017,0.2401,12
+Telangana,MAHBUBNAGAR,Moong(Green Gram),Kharif,2017,0.3653,12
+Telangana,MAHBUBNAGAR,Onion,Kharif,2017,0.3653,12
+Telangana,MAHBUBNAGAR,Onion,Rabi,2017,0.2401,12
+Telangana,MAHBUBNAGAR,Rice,Kharif,2017,0.3653,12
+Telangana,MAHBUBNAGAR,Rice,Rabi,2017,0.2401,12
+Telangana,MAHBUBNAGAR,Soyabean,Kharif,2017,0.3653,12
+Telangana,MAHBUBNAGAR,Sugarcane,Kharif,2017,0.3653,12
+Telangana,MAHBUBNAGAR,Urad,Kharif,2017,0.3653,12
+Telangana,MAHBUBNAGAR,Wheat,Kharif,2017,0.3653,12
+Telangana,MANCHERIAL,Arhar/Tur,Kharif,2017,0.4946,12
+Telangana,MANCHERIAL,Arhar/Tur,Rabi,2017,0.3244,12
+Telangana,MANCHERIAL,Dry chillies,Kharif,2017,0.4946,12
+Telangana,MANCHERIAL,Gram,Rabi,2017,0.3244,12
+Telangana,MANCHERIAL,Groundnut,Kharif,2017,0.4946,12
+Telangana,MANCHERIAL,Groundnut,Rabi,2017,0.3244,12
+Telangana,MANCHERIAL,Jowar,Kharif,2017,0.4946,12
+Telangana,MANCHERIAL,Jowar,Rabi,2017,0.3244,12
+Telangana,MANCHERIAL,Maize,Kharif,2017,0.4946,12
+Telangana,MANCHERIAL,Maize,Rabi,2017,0.3244,12
+Telangana,MANCHERIAL,Moong(Green Gram),Kharif,2017,0.4946,12
+Telangana,MANCHERIAL,Moong(Green Gram),Rabi,2017,0.3244,12
+Telangana,MANCHERIAL,Onion,Rabi,2017,0.3244,12
+Telangana,MANCHERIAL,Rice,Kharif,2017,0.4946,12
+Telangana,MANCHERIAL,Rice,Rabi,2017,0.3244,12
+Telangana,MANCHERIAL,Soyabean,Kharif,2017,0.4946,12
+Telangana,MANCHERIAL,Urad,Kharif,2017,0.4946,12
+Telangana,MANCHERIAL,Urad,Rabi,2017,0.3244,12
+Telangana,MEDAK,Arhar/Tur,Kharif,2017,0.5966,12
+Telangana,MEDAK,Dry chillies,Kharif,2017,0.5966,12
+Telangana,MEDAK,Dry chillies,Rabi,2017,0.4178,12
+Telangana,MEDAK,Gram,Rabi,2017,0.4178,12
+Telangana,MEDAK,Groundnut,Kharif,2017,0.5966,12
+Telangana,MEDAK,Groundnut,Rabi,2017,0.4178,12
+Telangana,MEDAK,Jowar,Kharif,2017,0.5966,12
+Telangana,MEDAK,Jowar,Rabi,2017,0.4178,12
+Telangana,MEDAK,Maize,Kharif,2017,0.5966,12
+Telangana,MEDAK,Maize,Rabi,2017,0.4178,12
+Telangana,MEDAK,Moong(Green Gram),Kharif,2017,0.5966,12
+Telangana,MEDAK,Moong(Green Gram),Rabi,2017,0.4178,12
+Telangana,MEDAK,Onion,Kharif,2017,0.5966,12
+Telangana,MEDAK,Onion,Rabi,2017,0.4178,12
+Telangana,MEDAK,Rice,Kharif,2017,0.5966,12
+Telangana,MEDAK,Rice,Rabi,2017,0.4178,12
+Telangana,MEDAK,Soyabean,Kharif,2017,0.5966,12
+Telangana,MEDAK,Sugarcane,Kharif,2017,0.5966,12
+Telangana,MEDAK,Urad,Kharif,2017,0.5966,12
+Telangana,MEDAK,Urad,Rabi,2017,0.4178,12
+Telangana,MEDAK,Wheat,Rabi,2017,0.4178,12
+Telangana,MEDCHAL MALKAJGIRI,Arhar/Tur,Kharif,2017,0.5154,12
+Telangana,MEDCHAL MALKAJGIRI,Gram,Rabi,2017,0.3019,12
+Telangana,MEDCHAL MALKAJGIRI,Jowar,Kharif,2017,0.5154,12
+Telangana,MEDCHAL MALKAJGIRI,Jowar,Rabi,2017,0.3019,12
+Telangana,MEDCHAL MALKAJGIRI,Maize,Kharif,2017,0.5154,12
+Telangana,MEDCHAL MALKAJGIRI,Maize,Rabi,2017,0.3019,12
+Telangana,MEDCHAL MALKAJGIRI,Moong(Green Gram),Kharif,2017,0.5154,12
+Telangana,MEDCHAL MALKAJGIRI,Onion,Rabi,2017,0.3019,12
+Telangana,MEDCHAL MALKAJGIRI,Rice,Kharif,2017,0.5154,12
+Telangana,MEDCHAL MALKAJGIRI,Rice,Rabi,2017,0.3019,12
+Telangana,MEDCHAL MALKAJGIRI,Soyabean,Kharif,2017,0.5154,12
+Telangana,NAGARKURNOOL,Arhar/Tur,Kharif,2017,0.5436,12
+Telangana,NAGARKURNOOL,Arhar/Tur,Rabi,2017,0.3312,12
+Telangana,NAGARKURNOOL,Bajra,Kharif,2017,0.5436,12
+Telangana,NAGARKURNOOL,Dry chillies,Kharif,2017,0.5436,12
+Telangana,NAGARKURNOOL,Dry chillies,Rabi,2017,0.3312,12
+Telangana,NAGARKURNOOL,Gram,Rabi,2017,0.3312,12
+Telangana,NAGARKURNOOL,Groundnut,Kharif,2017,0.5436,12
+Telangana,NAGARKURNOOL,Groundnut,Rabi,2017,0.3312,12
+Telangana,NAGARKURNOOL,Jowar,Kharif,2017,0.5436,12
+Telangana,NAGARKURNOOL,Jowar,Rabi,2017,0.3312,12
+Telangana,NAGARKURNOOL,Maize,Kharif,2017,0.5436,12
+Telangana,NAGARKURNOOL,Maize,Rabi,2017,0.3312,12
+Telangana,NAGARKURNOOL,Moong(Green Gram),Kharif,2017,0.5436,12
+Telangana,NAGARKURNOOL,Moong(Green Gram),Rabi,2017,0.3312,12
+Telangana,NAGARKURNOOL,Onion,Kharif,2017,0.5436,12
+Telangana,NAGARKURNOOL,Onion,Rabi,2017,0.3312,12
+Telangana,NAGARKURNOOL,Potato,Rabi,2017,0.3312,12
+Telangana,NAGARKURNOOL,Rice,Kharif,2017,0.5436,12
+Telangana,NAGARKURNOOL,Rice,Rabi,2017,0.3312,12
+Telangana,NAGARKURNOOL,Sugarcane,Kharif,2017,0.5436,12
+Telangana,NAGARKURNOOL,Urad,Kharif,2017,0.5436,12
+Telangana,NAGARKURNOOL,Urad,Rabi,2017,0.3312,12
+Telangana,NALGONDA,Arhar/Tur,Kharif,2017,0.394,12
+Telangana,NALGONDA,Bajra,Kharif,2017,0.394,12
+Telangana,NALGONDA,Bajra,Rabi,2017,0.3039,12
+Telangana,NALGONDA,Dry chillies,Kharif,2017,0.394,12
+Telangana,NALGONDA,Dry chillies,Rabi,2017,0.3039,12
+Telangana,NALGONDA,Gram,Rabi,2017,0.3039,12
+Telangana,NALGONDA,Groundnut,Kharif,2017,0.394,12
+Telangana,NALGONDA,Groundnut,Rabi,2017,0.3039,12
+Telangana,NALGONDA,Jowar,Kharif,2017,0.394,12
+Telangana,NALGONDA,Jowar,Rabi,2017,0.3039,12
+Telangana,NALGONDA,Maize,Kharif,2017,0.394,12
+Telangana,NALGONDA,Maize,Rabi,2017,0.3039,12
+Telangana,NALGONDA,Moong(Green Gram),Kharif,2017,0.394,12
+Telangana,NALGONDA,Rice,Kharif,2017,0.394,12
+Telangana,NALGONDA,Rice,Rabi,2017,0.3039,12
+Telangana,NALGONDA,Sugarcane,Kharif,2017,0.394,12
+Telangana,NALGONDA,Urad,Kharif,2017,0.394,12
+Telangana,NALGONDA,Urad,Rabi,2017,0.3039,12
+Telangana,NIRMAL,Arhar/Tur,Kharif,2017,0.4052,12
+Telangana,NIRMAL,Bajra,Rabi,2017,0.2817,12
+Telangana,NIRMAL,Dry chillies,Kharif,2017,0.4052,12
+Telangana,NIRMAL,Dry chillies,Rabi,2017,0.2817,12
+Telangana,NIRMAL,Gram,Rabi,2017,0.2817,12
+Telangana,NIRMAL,Groundnut,Rabi,2017,0.2817,12
+Telangana,NIRMAL,Jowar,Kharif,2017,0.4052,12
+Telangana,NIRMAL,Jowar,Rabi,2017,0.2817,12
+Telangana,NIRMAL,Maize,Kharif,2017,0.4052,12
+Telangana,NIRMAL,Maize,Rabi,2017,0.2817,12
+Telangana,NIRMAL,Moong(Green Gram),Kharif,2017,0.4052,12
+Telangana,NIRMAL,Moong(Green Gram),Rabi,2017,0.2817,12
+Telangana,NIRMAL,Onion,Kharif,2017,0.4052,12
+Telangana,NIRMAL,Onion,Rabi,2017,0.2817,12
+Telangana,NIRMAL,Rice,Kharif,2017,0.4052,12
+Telangana,NIRMAL,Rice,Rabi,2017,0.2817,12
+Telangana,NIRMAL,Soyabean,Kharif,2017,0.4052,12
+Telangana,NIRMAL,Urad,Kharif,2017,0.4052,12
+Telangana,NIRMAL,Urad,Rabi,2017,0.2817,12
+Telangana,NIRMAL,Wheat,Rabi,2017,0.2817,12
+Telangana,NIZAMABAD,Arhar/Tur,Kharif,2017,0.3078,12
+Telangana,NIZAMABAD,Bajra,Rabi,2017,0.193,12
+Telangana,NIZAMABAD,Dry chillies,Kharif,2017,0.3078,12
+Telangana,NIZAMABAD,Dry chillies,Rabi,2017,0.193,12
+Telangana,NIZAMABAD,Gram,Rabi,2017,0.193,12
+Telangana,NIZAMABAD,Groundnut,Kharif,2017,0.3078,12
+Telangana,NIZAMABAD,Groundnut,Rabi,2017,0.193,12
+Telangana,NIZAMABAD,Jowar,Kharif,2017,0.3078,12
+Telangana,NIZAMABAD,Jowar,Rabi,2017,0.193,12
+Telangana,NIZAMABAD,Maize,Kharif,2017,0.3078,12
+Telangana,NIZAMABAD,Maize,Rabi,2017,0.193,12
+Telangana,NIZAMABAD,Moong(Green Gram),Kharif,2017,0.3078,12
+Telangana,NIZAMABAD,Moong(Green Gram),Rabi,2017,0.193,12
+Telangana,NIZAMABAD,Onion,Kharif,2017,0.3078,12
+Telangana,NIZAMABAD,Onion,Rabi,2017,0.193,12
+Telangana,NIZAMABAD,Rice,Kharif,2017,0.3078,12
+Telangana,NIZAMABAD,Rice,Rabi,2017,0.193,12
+Telangana,NIZAMABAD,Soyabean,Kharif,2017,0.3078,12
+Telangana,NIZAMABAD,Sugarcane,Kharif,2017,0.3078,12
+Telangana,NIZAMABAD,Urad,Kharif,2017,0.3078,12
+Telangana,NIZAMABAD,Urad,Rabi,2017,0.193,12
+Telangana,NIZAMABAD,Wheat,Rabi,2017,0.193,12
+Telangana,PEDDAPALLI,Arhar/Tur,Kharif,2017,0.4395,12
+Telangana,PEDDAPALLI,Dry chillies,Kharif,2017,0.4395,12
+Telangana,PEDDAPALLI,Gram,Rabi,2017,0.3135,12
+Telangana,PEDDAPALLI,Groundnut,Rabi,2017,0.3135,12
+Telangana,PEDDAPALLI,Maize,Kharif,2017,0.4395,12
+Telangana,PEDDAPALLI,Maize,Rabi,2017,0.3135,12
+Telangana,PEDDAPALLI,Moong(Green Gram),Kharif,2017,0.4395,12
+Telangana,PEDDAPALLI,Moong(Green Gram),Rabi,2017,0.3135,12
+Telangana,PEDDAPALLI,Onion,Rabi,2017,0.3135,12
+Telangana,PEDDAPALLI,Rice,Kharif,2017,0.4395,12
+Telangana,PEDDAPALLI,Rice,Rabi,2017,0.3135,12
+Telangana,PEDDAPALLI,Urad,Kharif,2017,0.4395,12
+Telangana,RAJANNA,Arhar/Tur,Kharif,2017,0.5307,12
+Telangana,RAJANNA,Dry chillies,Kharif,2017,0.5307,12
+Telangana,RAJANNA,Gram,Rabi,2017,0.3059,12
+Telangana,RAJANNA,Groundnut,Rabi,2017,0.3059,12
+Telangana,RAJANNA,Maize,Kharif,2017,0.5307,12
+Telangana,RAJANNA,Maize,Rabi,2017,0.3059,12
+Telangana,RAJANNA,Moong(Green Gram),Kharif,2017,0.5307,12
+Telangana,RAJANNA,Moong(Green Gram),Rabi,2017,0.3059,12
+Telangana,RAJANNA,Onion,Rabi,2017,0.3059,12
+Telangana,RAJANNA,Rice,Kharif,2017,0.5307,12
+Telangana,RAJANNA,Rice,Rabi,2017,0.3059,12
+Telangana,RAJANNA,Soyabean,Kharif,2017,0.5307,12
+Telangana,RAJANNA,Sugarcane,Kharif,2017,0.5307,12
+Telangana,RAJANNA,Urad,Kharif,2017,0.5307,12
+Telangana,RAJANNA,Urad,Rabi,2017,0.3059,12
+Telangana,RANGAREDDI,Arhar/Tur,Kharif,2017,0.605,12
+Telangana,RANGAREDDI,Bajra,Kharif,2017,0.605,12
+Telangana,RANGAREDDI,Dry chillies,Kharif,2017,0.605,12
+Telangana,RANGAREDDI,Dry chillies,Rabi,2017,0.4122,12
+Telangana,RANGAREDDI,Gram,Kharif,2017,0.605,12
+Telangana,RANGAREDDI,Gram,Rabi,2017,0.4122,12
+Telangana,RANGAREDDI,Groundnut,Rabi,2017,0.4122,12
+Telangana,RANGAREDDI,Jowar,Kharif,2017,0.605,12
+Telangana,RANGAREDDI,Jowar,Rabi,2017,0.4122,12
+Telangana,RANGAREDDI,Maize,Kharif,2017,0.605,12
+Telangana,RANGAREDDI,Maize,Rabi,2017,0.4122,12
+Telangana,RANGAREDDI,Moong(Green Gram),Kharif,2017,0.605,12
+Telangana,RANGAREDDI,Moong(Green Gram),Rabi,2017,0.4122,12
+Telangana,RANGAREDDI,Onion,Kharif,2017,0.605,12
+Telangana,RANGAREDDI,Onion,Rabi,2017,0.4122,12
+Telangana,RANGAREDDI,Potato,Kharif,2017,0.605,12
+Telangana,RANGAREDDI,Potato,Rabi,2017,0.4122,12
+Telangana,RANGAREDDI,Rice,Kharif,2017,0.605,12
+Telangana,RANGAREDDI,Rice,Rabi,2017,0.4122,12
+Telangana,RANGAREDDI,Soyabean,Kharif,2017,0.605,12
+Telangana,RANGAREDDI,Sugarcane,Kharif,2017,0.605,12
+Telangana,RANGAREDDI,Urad,Kharif,2017,0.605,12
+Telangana,RANGAREDDI,Wheat,Kharif,2017,0.605,12
+Telangana,RANGAREDDI,Wheat,Rabi,2017,0.4122,12
+Telangana,SANGAREDDY,Arhar/Tur,Kharif,2017,0.4296,12
+Telangana,SANGAREDDY,Bajra,Kharif,2017,0.4296,12
+Telangana,SANGAREDDY,Bajra,Rabi,2017,0.3054,12
+Telangana,SANGAREDDY,Dry chillies,Kharif,2017,0.4296,12
+Telangana,SANGAREDDY,Gram,Rabi,2017,0.3054,12
+Telangana,SANGAREDDY,Groundnut,Rabi,2017,0.3054,12
+Telangana,SANGAREDDY,Jowar,Kharif,2017,0.4296,12
+Telangana,SANGAREDDY,Jowar,Rabi,2017,0.3054,12
+Telangana,SANGAREDDY,Maize,Kharif,2017,0.4296,12
+Telangana,SANGAREDDY,Maize,Rabi,2017,0.3054,12
+Telangana,SANGAREDDY,Moong(Green Gram),Kharif,2017,0.4296,12
+Telangana,SANGAREDDY,Onion,Kharif,2017,0.4296,12
+Telangana,SANGAREDDY,Onion,Rabi,2017,0.3054,12
+Telangana,SANGAREDDY,Potato,Rabi,2017,0.3054,12
+Telangana,SANGAREDDY,Rice,Kharif,2017,0.4296,12
+Telangana,SANGAREDDY,Rice,Rabi,2017,0.3054,12
+Telangana,SANGAREDDY,Soyabean,Kharif,2017,0.4296,12
+Telangana,SANGAREDDY,Sugarcane,Kharif,2017,0.4296,12
+Telangana,SANGAREDDY,Urad,Kharif,2017,0.4296,12
+Telangana,SANGAREDDY,Wheat,Rabi,2017,0.3054,12
+Telangana,SIDDIPET,Arhar/Tur,Kharif,2017,0.4123,12
+Telangana,SIDDIPET,Dry chillies,Kharif,2017,0.4123,12
+Telangana,SIDDIPET,Gram,Rabi,2017,0.278,12
+Telangana,SIDDIPET,Groundnut,Kharif,2017,0.4123,12
+Telangana,SIDDIPET,Groundnut,Rabi,2017,0.278,12
+Telangana,SIDDIPET,Jowar,Kharif,2017,0.4123,12
+Telangana,SIDDIPET,Maize,Kharif,2017,0.4123,12
+Telangana,SIDDIPET,Maize,Rabi,2017,0.278,12
+Telangana,SIDDIPET,Moong(Green Gram),Kharif,2017,0.4123,12
+Telangana,SIDDIPET,Moong(Green Gram),Rabi,2017,0.278,12
+Telangana,SIDDIPET,Onion,Kharif,2017,0.4123,12
+Telangana,SIDDIPET,Onion,Rabi,2017,0.278,12
+Telangana,SIDDIPET,Potato,Kharif,2017,0.4123,12
+Telangana,SIDDIPET,Potato,Rabi,2017,0.278,12
+Telangana,SIDDIPET,Rice,Kharif,2017,0.4123,12
+Telangana,SIDDIPET,Rice,Rabi,2017,0.278,12
+Telangana,SIDDIPET,Soyabean,Kharif,2017,0.4123,12
+Telangana,SIDDIPET,Sugarcane,Kharif,2017,0.4123,12
+Telangana,SIDDIPET,Urad,Kharif,2017,0.4123,12
+Telangana,SIDDIPET,Urad,Rabi,2017,0.278,12
+Telangana,SIDDIPET,Wheat,Rabi,2017,0.278,12
+Telangana,SURYAPET,Arhar/Tur,Kharif,2017,0.3672,12
+Telangana,SURYAPET,Dry chillies,Kharif,2017,0.3672,12
+Telangana,SURYAPET,Dry chillies,Rabi,2017,0.2823,12
+Telangana,SURYAPET,Gram,Rabi,2017,0.2823,12
+Telangana,SURYAPET,Groundnut,Kharif,2017,0.3672,12
+Telangana,SURYAPET,Groundnut,Rabi,2017,0.2823,12
+Telangana,SURYAPET,Jowar,Rabi,2017,0.2823,12
+Telangana,SURYAPET,Maize,Kharif,2017,0.3672,12
+Telangana,SURYAPET,Maize,Rabi,2017,0.2823,12
+Telangana,SURYAPET,Moong(Green Gram),Kharif,2017,0.3672,12
+Telangana,SURYAPET,Rice,Kharif,2017,0.3672,12
+Telangana,SURYAPET,Rice,Rabi,2017,0.2823,12
+Telangana,SURYAPET,Sugarcane,Kharif,2017,0.3672,12
+Telangana,SURYAPET,Urad,Rabi,2017,0.2823,12
+Telangana,VIKARABAD,Arhar/Tur,Kharif,2017,0.6813,12
+Telangana,VIKARABAD,Arhar/Tur,Rabi,2017,0.3167,12
+Telangana,VIKARABAD,Bajra,Kharif,2017,0.6813,12
+Telangana,VIKARABAD,Dry chillies,Kharif,2017,0.6813,12
+Telangana,VIKARABAD,Gram,Rabi,2017,0.3167,12
+Telangana,VIKARABAD,Groundnut,Kharif,2017,0.6813,12
+Telangana,VIKARABAD,Groundnut,Rabi,2017,0.3167,12
+Telangana,VIKARABAD,Jowar,Kharif,2017,0.6813,12
+Telangana,VIKARABAD,Jowar,Rabi,2017,0.3167,12
+Telangana,VIKARABAD,Maize,Kharif,2017,0.6813,12
+Telangana,VIKARABAD,Maize,Rabi,2017,0.3167,12
+Telangana,VIKARABAD,Moong(Green Gram),Kharif,2017,0.6813,12
+Telangana,VIKARABAD,Onion,Kharif,2017,0.6813,12
+Telangana,VIKARABAD,Onion,Rabi,2017,0.3167,12
+Telangana,VIKARABAD,Potato,Rabi,2017,0.3167,12
+Telangana,VIKARABAD,Rice,Kharif,2017,0.6813,12
+Telangana,VIKARABAD,Rice,Rabi,2017,0.3167,12
+Telangana,VIKARABAD,Soyabean,Kharif,2017,0.6813,12
+Telangana,VIKARABAD,Sugarcane,Kharif,2017,0.6813,12
+Telangana,VIKARABAD,Urad,Kharif,2017,0.6813,12
+Telangana,VIKARABAD,Wheat,Rabi,2017,0.3167,12
+Telangana,WANAPARTHY,Arhar/Tur,Kharif,2017,0.4905,12
+Telangana,WANAPARTHY,Bajra,Kharif,2017,0.4905,12
+Telangana,WANAPARTHY,Dry chillies,Kharif,2017,0.4905,12
+Telangana,WANAPARTHY,Gram,Rabi,2017,0.296,12
+Telangana,WANAPARTHY,Groundnut,Kharif,2017,0.4905,12
+Telangana,WANAPARTHY,Groundnut,Rabi,2017,0.296,12
+Telangana,WANAPARTHY,Jowar,Kharif,2017,0.4905,12
+Telangana,WANAPARTHY,Jowar,Rabi,2017,0.296,12
+Telangana,WANAPARTHY,Maize,Kharif,2017,0.4905,12
+Telangana,WANAPARTHY,Maize,Rabi,2017,0.296,12
+Telangana,WANAPARTHY,Moong(Green Gram),Kharif,2017,0.4905,12
+Telangana,WANAPARTHY,Moong(Green Gram),Rabi,2017,0.296,12
+Telangana,WANAPARTHY,Onion,Kharif,2017,0.4905,12
+Telangana,WANAPARTHY,Onion,Rabi,2017,0.296,12
+Telangana,WANAPARTHY,Rice,Kharif,2017,0.4905,12
+Telangana,WANAPARTHY,Rice,Rabi,2017,0.296,12
+Telangana,WANAPARTHY,Sugarcane,Kharif,2017,0.4905,12
+Telangana,WANAPARTHY,Urad,Kharif,2017,0.4905,12
+Telangana,WANAPARTHY,Urad,Rabi,2017,0.296,12
+Telangana,WARANGAL,Arhar/Tur,Kharif,2017,0.5073,12
+Telangana,WARANGAL,Arhar/Tur,Rabi,2017,0.3325,12
+Telangana,WARANGAL,Dry chillies,Kharif,2017,0.5073,12
+Telangana,WARANGAL,Dry chillies,Rabi,2017,0.3325,12
+Telangana,WARANGAL,Gram,Rabi,2017,0.3325,12
+Telangana,WARANGAL,Groundnut,Kharif,2017,0.5073,12
+Telangana,WARANGAL,Groundnut,Rabi,2017,0.3325,12
+Telangana,WARANGAL,Jowar,Rabi,2017,0.3325,12
+Telangana,WARANGAL,Maize,Kharif,2017,0.5073,12
+Telangana,WARANGAL,Maize,Rabi,2017,0.3325,12
+Telangana,WARANGAL,Moong(Green Gram),Kharif,2017,0.5073,12
+Telangana,WARANGAL,Moong(Green Gram),Rabi,2017,0.3325,12
+Telangana,WARANGAL,Onion,Rabi,2017,0.3325,12
+Telangana,WARANGAL,Rice,Kharif,2017,0.5073,12
+Telangana,WARANGAL,Rice,Rabi,2017,0.3325,12
+Telangana,WARANGAL,Soyabean,Kharif,2017,0.5073,12
+Telangana,WARANGAL,Sugarcane,Kharif,2017,0.5073,12
+Telangana,WARANGAL,Urad,Kharif,2017,0.5073,12
+Telangana,WARANGAL,Urad,Rabi,2017,0.3325,12
+Telangana,YADADRI,Arhar/Tur,Kharif,2017,0.6034,12
+Telangana,YADADRI,Dry chillies,Kharif,2017,0.6034,12
+Telangana,YADADRI,Gram,Rabi,2017,0.3339,12
+Telangana,YADADRI,Groundnut,Kharif,2017,0.6034,12
+Telangana,YADADRI,Groundnut,Rabi,2017,0.3339,12
+Telangana,YADADRI,Jowar,Kharif,2017,0.6034,12
+Telangana,YADADRI,Maize,Kharif,2017,0.6034,12
+Telangana,YADADRI,Maize,Rabi,2017,0.3339,12
+Telangana,YADADRI,Moong(Green Gram),Kharif,2017,0.6034,12
+Telangana,YADADRI,Moong(Green Gram),Rabi,2017,0.3339,12
+Telangana,YADADRI,Onion,Rabi,2017,0.3339,12
+Telangana,YADADRI,Rice,Kharif,2017,0.6034,12
+Telangana,YADADRI,Rice,Rabi,2017,0.3339,12
+Telangana,YADADRI,Soyabean,Kharif,2017,0.6034,12
+Telangana,YADADRI,Sugarcane,Kharif,2017,0.6034,12
+Telangana,YADADRI,Urad,Kharif,2017,0.6034,12
+Telangana,YADADRI,Urad,Rabi,2017,0.3339,12
+Telangana,ADILABAD,Arhar/Tur,Kharif,2018,0.4283,12
+Telangana,ADILABAD,Dry chillies,Kharif,2018,0.4283,12
+Telangana,ADILABAD,Dry chillies,Rabi,2018,0.2718,12
+Telangana,ADILABAD,Gram,Rabi,2018,0.2718,12
+Telangana,ADILABAD,Groundnut,Kharif,2018,0.4283,12
+Telangana,ADILABAD,Groundnut,Rabi,2018,0.2718,12
+Telangana,ADILABAD,Jowar,Kharif,2018,0.4283,12
+Telangana,ADILABAD,Jowar,Rabi,2018,0.2718,12
+Telangana,ADILABAD,Maize,Kharif,2018,0.4283,12
+Telangana,ADILABAD,Maize,Rabi,2018,0.2718,12
+Telangana,ADILABAD,Moong(Green Gram),Kharif,2018,0.4283,12
+Telangana,ADILABAD,Moong(Green Gram),Rabi,2018,0.2718,12
+Telangana,ADILABAD,Onion,Kharif,2018,0.4283,12
+Telangana,ADILABAD,Onion,Rabi,2018,0.2718,12
+Telangana,ADILABAD,Rice,Kharif,2018,0.4283,12
+Telangana,ADILABAD,Rice,Rabi,2018,0.2718,12
+Telangana,ADILABAD,Soyabean,Kharif,2018,0.4283,12
+Telangana,ADILABAD,Sugarcane,Kharif,2018,0.4283,12
+Telangana,ADILABAD,Urad,Kharif,2018,0.4283,12
+Telangana,ADILABAD,Urad,Rabi,2018,0.2718,12
+Telangana,ADILABAD,Wheat,Rabi,2018,0.2718,12
+Telangana,BHADRADRI,Arhar/Tur,Kharif,2018,0.6055,12
+Telangana,BHADRADRI,Arhar/Tur,Rabi,2018,0.4756,12
+Telangana,BHADRADRI,Dry chillies,Kharif,2018,0.6055,12
+Telangana,BHADRADRI,Dry chillies,Rabi,2018,0.4756,12
+Telangana,BHADRADRI,Groundnut,Kharif,2018,0.6055,12
+Telangana,BHADRADRI,Groundnut,Rabi,2018,0.4756,12
+Telangana,BHADRADRI,Jowar,Rabi,2018,0.4756,12
+Telangana,BHADRADRI,Maize,Kharif,2018,0.6055,12
+Telangana,BHADRADRI,Maize,Rabi,2018,0.4756,12
+Telangana,BHADRADRI,Moong(Green Gram),Kharif,2018,0.6055,12
+Telangana,BHADRADRI,Moong(Green Gram),Rabi,2018,0.4756,12
+Telangana,BHADRADRI,Rice,Kharif,2018,0.6055,12
+Telangana,BHADRADRI,Rice,Rabi,2018,0.4756,12
+Telangana,BHADRADRI,Soyabean,Kharif,2018,0.6055,12
+Telangana,BHADRADRI,Sugarcane,Kharif,2018,0.6055,12
+Telangana,BHADRADRI,Urad,Kharif,2018,0.6055,12
+Telangana,BHADRADRI,Urad,Rabi,2018,0.4756,12
+Telangana,HANUMAKONDA,Arhar/Tur,Kharif,2018,0.4045,12
+Telangana,HANUMAKONDA,Dry chillies,Kharif,2018,0.4045,12
+Telangana,HANUMAKONDA,Gram,Rabi,2018,0.3153,12
+Telangana,HANUMAKONDA,Groundnut,Kharif,2018,0.4045,12
+Telangana,HANUMAKONDA,Groundnut,Rabi,2018,0.3153,12
+Telangana,HANUMAKONDA,Maize,Kharif,2018,0.4045,12
+Telangana,HANUMAKONDA,Maize,Rabi,2018,0.3153,12
+Telangana,HANUMAKONDA,Moong(Green Gram),Kharif,2018,0.4045,12
+Telangana,HANUMAKONDA,Moong(Green Gram),Rabi,2018,0.3153,12
+Telangana,HANUMAKONDA,Onion,Kharif,2018,0.4045,12
+Telangana,HANUMAKONDA,Onion,Rabi,2018,0.3153,12
+Telangana,HANUMAKONDA,Rice,Kharif,2018,0.4045,12
+Telangana,HANUMAKONDA,Rice,Rabi,2018,0.3153,12
+Telangana,HANUMAKONDA,Soyabean,Kharif,2018,0.4045,12
+Telangana,HANUMAKONDA,Urad,Rabi,2018,0.3153,12
+Telangana,JANGOAN,Arhar/Tur,Kharif,2018,0.484,12
+Telangana,JANGOAN,Arhar/Tur,Rabi,2018,0.3168,12
+Telangana,JANGOAN,Dry chillies,Kharif,2018,0.484,12
+Telangana,JANGOAN,Gram,Rabi,2018,0.3168,12
+Telangana,JANGOAN,Groundnut,Kharif,2018,0.484,12
+Telangana,JANGOAN,Groundnut,Rabi,2018,0.3168,12
+Telangana,JANGOAN,Jowar,Kharif,2018,0.484,12
+Telangana,JANGOAN,Jowar,Rabi,2018,0.3168,12
+Telangana,JANGOAN,Maize,Kharif,2018,0.484,12
+Telangana,JANGOAN,Maize,Rabi,2018,0.3168,12
+Telangana,JANGOAN,Moong(Green Gram),Kharif,2018,0.484,12
+Telangana,JANGOAN,Moong(Green Gram),Rabi,2018,0.3168,12
+Telangana,JANGOAN,Onion,Rabi,2018,0.3168,12
+Telangana,JANGOAN,Rice,Kharif,2018,0.484,12
+Telangana,JANGOAN,Rice,Rabi,2018,0.3168,12
+Telangana,JANGOAN,Urad,Kharif,2018,0.484,12
+Telangana,JANGOAN,Urad,Rabi,2018,0.3168,12
+Telangana,JAYASHANKAR,Arhar/Tur,Kharif,2018,0.5464,12
+Telangana,JAYASHANKAR,Arhar/Tur,Rabi,2018,0.4855,12
+Telangana,JAYASHANKAR,Dry chillies,Kharif,2018,0.5464,12
+Telangana,JAYASHANKAR,Dry chillies,Rabi,2018,0.4855,12
+Telangana,JAYASHANKAR,Gram,Rabi,2018,0.4855,12
+Telangana,JAYASHANKAR,Groundnut,Kharif,2018,0.5464,12
+Telangana,JAYASHANKAR,Groundnut,Rabi,2018,0.4855,12
+Telangana,JAYASHANKAR,Jowar,Rabi,2018,0.4855,12
+Telangana,JAYASHANKAR,Maize,Kharif,2018,0.5464,12
+Telangana,JAYASHANKAR,Maize,Rabi,2018,0.4855,12
+Telangana,JAYASHANKAR,Moong(Green Gram),Kharif,2018,0.5464,12
+Telangana,JAYASHANKAR,Moong(Green Gram),Rabi,2018,0.4855,12
+Telangana,JAYASHANKAR,Onion,Rabi,2018,0.4855,12
+Telangana,JAYASHANKAR,Rice,Kharif,2018,0.5464,12
+Telangana,JAYASHANKAR,Rice,Rabi,2018,0.4855,12
+Telangana,JAYASHANKAR,Urad,Kharif,2018,0.5464,12
+Telangana,JAYASHANKAR,Urad,Rabi,2018,0.4855,12
+Telangana,JOGULAMBA,Arhar/Tur,Kharif,2018,0.5321,12
+Telangana,JOGULAMBA,Arhar/Tur,Rabi,2018,0.3436,12
+Telangana,JOGULAMBA,Bajra,Kharif,2018,0.5321,12
+Telangana,JOGULAMBA,Dry chillies,Kharif,2018,0.5321,12
+Telangana,JOGULAMBA,Gram,Rabi,2018,0.3436,12
+Telangana,JOGULAMBA,Groundnut,Kharif,2018,0.5321,12
+Telangana,JOGULAMBA,Groundnut,Rabi,2018,0.3436,12
+Telangana,JOGULAMBA,Jowar,Kharif,2018,0.5321,12
+Telangana,JOGULAMBA,Jowar,Rabi,2018,0.3436,12
+Telangana,JOGULAMBA,Maize,Kharif,2018,0.5321,12
+Telangana,JOGULAMBA,Maize,Rabi,2018,0.3436,12
+Telangana,JOGULAMBA,Moong(Green Gram),Rabi,2018,0.3436,12
+Telangana,JOGULAMBA,Onion,Kharif,2018,0.5321,12
+Telangana,JOGULAMBA,Onion,Rabi,2018,0.3436,12
+Telangana,JOGULAMBA,Rice,Kharif,2018,0.5321,12
+Telangana,JOGULAMBA,Rice,Rabi,2018,0.3436,12
+Telangana,JOGULAMBA,Sugarcane,Kharif,2018,0.5321,12
+Telangana,JOGULAMBA,Urad,Kharif,2018,0.5321,12
+Telangana,JOGULAMBA,Urad,Rabi,2018,0.3436,12
+Telangana,KAMAREDDY,Arhar/Tur,Kharif,2018,0.3364,12
+Telangana,KAMAREDDY,Dry chillies,Kharif,2018,0.3364,12
+Telangana,KAMAREDDY,Dry chillies,Rabi,2018,0.2516,12
+Telangana,KAMAREDDY,Gram,Rabi,2018,0.2516,12
+Telangana,KAMAREDDY,Groundnut,Rabi,2018,0.2516,12
+Telangana,KAMAREDDY,Jowar,Kharif,2018,0.3364,12
+Telangana,KAMAREDDY,Jowar,Rabi,2018,0.2516,12
+Telangana,KAMAREDDY,Maize,Kharif,2018,0.3364,12
+Telangana,KAMAREDDY,Maize,Rabi,2018,0.2516,12
+Telangana,KAMAREDDY,Moong(Green Gram),Kharif,2018,0.3364,12
+Telangana,KAMAREDDY,Moong(Green Gram),Rabi,2018,0.2516,12
+Telangana,KAMAREDDY,Onion,Rabi,2018,0.2516,12
+Telangana,KAMAREDDY,Rice,Kharif,2018,0.3364,12
+Telangana,KAMAREDDY,Rice,Rabi,2018,0.2516,12
+Telangana,KAMAREDDY,Soyabean,Kharif,2018,0.3364,12
+Telangana,KAMAREDDY,Sugarcane,Kharif,2018,0.3364,12
+Telangana,KAMAREDDY,Urad,Kharif,2018,0.3364,12
+Telangana,KAMAREDDY,Urad,Rabi,2018,0.2516,12
+Telangana,KAMAREDDY,Wheat,Rabi,2018,0.2516,12
+Telangana,KARIMNAGAR,Arhar/Tur,Kharif,2018,0.3083,12
+Telangana,KARIMNAGAR,Dry chillies,Kharif,2018,0.3083,12
+Telangana,KARIMNAGAR,Gram,Rabi,2018,0.2333,12
+Telangana,KARIMNAGAR,Groundnut,Kharif,2018,0.3083,12
+Telangana,KARIMNAGAR,Groundnut,Rabi,2018,0.2333,12
+Telangana,KARIMNAGAR,Maize,Kharif,2018,0.3083,12
+Telangana,KARIMNAGAR,Maize,Rabi,2018,0.2333,12
+Telangana,KARIMNAGAR,Moong(Green Gram),Kharif,2018,0.3083,12
+Telangana,KARIMNAGAR,Moong(Green Gram),Rabi,2018,0.2333,12
+Telangana,KARIMNAGAR,Onion,Rabi,2018,0.2333,12
+Telangana,KARIMNAGAR,Rice,Kharif,2018,0.3083,12
+Telangana,KARIMNAGAR,Rice,Rabi,2018,0.2333,12
+Telangana,KARIMNAGAR,Soyabean,Kharif,2018,0.3083,12
+Telangana,KARIMNAGAR,Urad,Kharif,2018,0.3083,12
+Telangana,KARIMNAGAR,Urad,Rabi,2018,0.2333,12
+Telangana,KHAMMAM,Arhar/Tur,Kharif,2018,0.3772,12
+Telangana,KHAMMAM,Arhar/Tur,Rabi,2018,0.2974,12
+Telangana,KHAMMAM,Dry chillies,Kharif,2018,0.3772,12
+Telangana,KHAMMAM,Dry chillies,Rabi,2018,0.2974,12
+Telangana,KHAMMAM,Gram,Rabi,2018,0.2974,12
+Telangana,KHAMMAM,Groundnut,Kharif,2018,0.3772,12
+Telangana,KHAMMAM,Groundnut,Rabi,2018,0.2974,12
+Telangana,KHAMMAM,Jowar,Kharif,2018,0.3772,12
+Telangana,KHAMMAM,Jowar,Rabi,2018,0.2974,12
+Telangana,KHAMMAM,Maize,Kharif,2018,0.3772,12
+Telangana,KHAMMAM,Maize,Rabi,2018,0.2974,12
+Telangana,KHAMMAM,Moong(Green Gram),Kharif,2018,0.3772,12
+Telangana,KHAMMAM,Moong(Green Gram),Rabi,2018,0.2974,12
+Telangana,KHAMMAM,Onion,Rabi,2018,0.2974,12
+Telangana,KHAMMAM,Rice,Kharif,2018,0.3772,12
+Telangana,KHAMMAM,Rice,Rabi,2018,0.2974,12
+Telangana,KHAMMAM,Sugarcane,Kharif,2018,0.3772,12
+Telangana,KHAMMAM,Urad,Kharif,2018,0.3772,12
+Telangana,KHAMMAM,Urad,Rabi,2018,0.2974,12
+Telangana,KOMARAM BHEEM ASIFABAD,Arhar/Tur,Kharif,2018,0.4328,12
+Telangana,KOMARAM BHEEM ASIFABAD,Arhar/Tur,Rabi,2018,0.3129,12
+Telangana,KOMARAM BHEEM ASIFABAD,Dry chillies,Kharif,2018,0.4328,12
+Telangana,KOMARAM BHEEM ASIFABAD,Dry chillies,Rabi,2018,0.3129,12
+Telangana,KOMARAM BHEEM ASIFABAD,Gram,Rabi,2018,0.3129,12
+Telangana,KOMARAM BHEEM ASIFABAD,Groundnut,Kharif,2018,0.4328,12
+Telangana,KOMARAM BHEEM ASIFABAD,Jowar,Kharif,2018,0.4328,12
+Telangana,KOMARAM BHEEM ASIFABAD,Jowar,Rabi,2018,0.3129,12
+Telangana,KOMARAM BHEEM ASIFABAD,Maize,Kharif,2018,0.4328,12
+Telangana,KOMARAM BHEEM ASIFABAD,Maize,Rabi,2018,0.3129,12
+Telangana,KOMARAM BHEEM ASIFABAD,Moong(Green Gram),Kharif,2018,0.4328,12
+Telangana,KOMARAM BHEEM ASIFABAD,Moong(Green Gram),Rabi,2018,0.3129,12
+Telangana,KOMARAM BHEEM ASIFABAD,Onion,Kharif,2018,0.4328,12
+Telangana,KOMARAM BHEEM ASIFABAD,Onion,Rabi,2018,0.3129,12
+Telangana,KOMARAM BHEEM ASIFABAD,Rice,Kharif,2018,0.4328,12
+Telangana,KOMARAM BHEEM ASIFABAD,Rice,Rabi,2018,0.3129,12
+Telangana,KOMARAM BHEEM ASIFABAD,Soyabean,Kharif,2018,0.4328,12
+Telangana,KOMARAM BHEEM ASIFABAD,Urad,Kharif,2018,0.4328,12
+Telangana,KOMARAM BHEEM ASIFABAD,Urad,Rabi,2018,0.3129,12
+Telangana,KOMARAM BHEEM ASIFABAD,Wheat,Rabi,2018,0.3129,12
+Telangana,MAHABUBABAD,Arhar/Tur,Kharif,2018,0.4854,12
+Telangana,MAHABUBABAD,Arhar/Tur,Rabi,2018,0.3734,12
+Telangana,MAHABUBABAD,Bajra,Rabi,2018,0.3734,12
+Telangana,MAHABUBABAD,Dry chillies,Kharif,2018,0.4854,12
+Telangana,MAHABUBABAD,Dry chillies,Rabi,2018,0.3734,12
+Telangana,MAHABUBABAD,Groundnut,Kharif,2018,0.4854,12
+Telangana,MAHABUBABAD,Groundnut,Rabi,2018,0.3734,12
+Telangana,MAHABUBABAD,Jowar,Rabi,2018,0.3734,12
+Telangana,MAHABUBABAD,Maize,Kharif,2018,0.4854,12
+Telangana,MAHABUBABAD,Maize,Rabi,2018,0.3734,12
+Telangana,MAHABUBABAD,Moong(Green Gram),Kharif,2018,0.4854,12
+Telangana,MAHABUBABAD,Moong(Green Gram),Rabi,2018,0.3734,12
+Telangana,MAHABUBABAD,Onion,Kharif,2018,0.4854,12
+Telangana,MAHABUBABAD,Onion,Rabi,2018,0.3734,12
+Telangana,MAHABUBABAD,Rice,Kharif,2018,0.4854,12
+Telangana,MAHABUBABAD,Rice,Rabi,2018,0.3734,12
+Telangana,MAHABUBABAD,Soyabean,Kharif,2018,0.4854,12
+Telangana,MAHABUBABAD,Sugarcane,Kharif,2018,0.4854,12
+Telangana,MAHABUBABAD,Urad,Kharif,2018,0.4854,12
+Telangana,MAHABUBABAD,Urad,Rabi,2018,0.3734,12
+Telangana,MAHBUBNAGAR,Arhar/Tur,Kharif,2018,0.3304,12
+Telangana,MAHBUBNAGAR,Arhar/Tur,Rabi,2018,0.2308,12
+Telangana,MAHBUBNAGAR,Dry chillies,Kharif,2018,0.3304,12
+Telangana,MAHBUBNAGAR,Groundnut,Rabi,2018,0.2308,12
+Telangana,MAHBUBNAGAR,Jowar,Kharif,2018,0.3304,12
+Telangana,MAHBUBNAGAR,Maize,Kharif,2018,0.3304,12
+Telangana,MAHBUBNAGAR,Maize,Rabi,2018,0.2308,12
+Telangana,MAHBUBNAGAR,Moong(Green Gram),Kharif,2018,0.3304,12
+Telangana,MAHBUBNAGAR,Onion,Kharif,2018,0.3304,12
+Telangana,MAHBUBNAGAR,Onion,Rabi,2018,0.2308,12
+Telangana,MAHBUBNAGAR,Rice,Kharif,2018,0.3304,12
+Telangana,MAHBUBNAGAR,Rice,Rabi,2018,0.2308,12
+Telangana,MAHBUBNAGAR,Sugarcane,Kharif,2018,0.3304,12
+Telangana,MANCHERIAL,Arhar/Tur,Kharif,2018,0.4239,12
+Telangana,MANCHERIAL,Arhar/Tur,Rabi,2018,0.3055,12
+Telangana,MANCHERIAL,Dry chillies,Kharif,2018,0.4239,12
+Telangana,MANCHERIAL,Gram,Rabi,2018,0.3055,12
+Telangana,MANCHERIAL,Groundnut,Rabi,2018,0.3055,12
+Telangana,MANCHERIAL,Jowar,Kharif,2018,0.4239,12
+Telangana,MANCHERIAL,Jowar,Rabi,2018,0.3055,12
+Telangana,MANCHERIAL,Maize,Kharif,2018,0.4239,12
+Telangana,MANCHERIAL,Maize,Rabi,2018,0.3055,12
+Telangana,MANCHERIAL,Moong(Green Gram),Kharif,2018,0.4239,12
+Telangana,MANCHERIAL,Moong(Green Gram),Rabi,2018,0.3055,12
+Telangana,MANCHERIAL,Onion,Kharif,2018,0.4239,12
+Telangana,MANCHERIAL,Onion,Rabi,2018,0.3055,12
+Telangana,MANCHERIAL,Rice,Kharif,2018,0.4239,12
+Telangana,MANCHERIAL,Rice,Rabi,2018,0.3055,12
+Telangana,MANCHERIAL,Soyabean,Kharif,2018,0.4239,12
+Telangana,MANCHERIAL,Urad,Kharif,2018,0.4239,12
+Telangana,MANCHERIAL,Urad,Rabi,2018,0.3055,12
+Telangana,MEDAK,Arhar/Tur,Kharif,2018,0.5779,12
+Telangana,MEDAK,Bajra,Kharif,2018,0.5779,12
+Telangana,MEDAK,Dry chillies,Kharif,2018,0.5779,12
+Telangana,MEDAK,Dry chillies,Rabi,2018,0.3632,12
+Telangana,MEDAK,Gram,Rabi,2018,0.3632,12
+Telangana,MEDAK,Groundnut,Kharif,2018,0.5779,12
+Telangana,MEDAK,Groundnut,Rabi,2018,0.3632,12
+Telangana,MEDAK,Jowar,Kharif,2018,0.5779,12
+Telangana,MEDAK,Jowar,Rabi,2018,0.3632,12
+Telangana,MEDAK,Maize,Kharif,2018,0.5779,12
+Telangana,MEDAK,Maize,Rabi,2018,0.3632,12
+Telangana,MEDAK,Moong(Green Gram),Kharif,2018,0.5779,12
+Telangana,MEDAK,Moong(Green Gram),Rabi,2018,0.3632,12
+Telangana,MEDAK,Onion,Kharif,2018,0.5779,12
+Telangana,MEDAK,Onion,Rabi,2018,0.3632,12
+Telangana,MEDAK,Potato,Rabi,2018,0.3632,12
+Telangana,MEDAK,Rice,Kharif,2018,0.5779,12
+Telangana,MEDAK,Rice,Rabi,2018,0.3632,12
+Telangana,MEDAK,Soyabean,Kharif,2018,0.5779,12
+Telangana,MEDAK,Sugarcane,Kharif,2018,0.5779,12
+Telangana,MEDAK,Urad,Kharif,2018,0.5779,12
+Telangana,MEDAK,Urad,Rabi,2018,0.3632,12
+Telangana,MEDAK,Wheat,Rabi,2018,0.3632,12
+Telangana,MEDCHAL MALKAJGIRI,Arhar/Tur,Kharif,2018,0.4104,12
+Telangana,MEDCHAL MALKAJGIRI,Gram,Rabi,2018,0.3115,12
+Telangana,MEDCHAL MALKAJGIRI,Jowar,Kharif,2018,0.4104,12
+Telangana,MEDCHAL MALKAJGIRI,Jowar,Rabi,2018,0.3115,12
+Telangana,MEDCHAL MALKAJGIRI,Maize,Kharif,2018,0.4104,12
+Telangana,MEDCHAL MALKAJGIRI,Maize,Rabi,2018,0.3115,12
+Telangana,MEDCHAL MALKAJGIRI,Rice,Kharif,2018,0.4104,12
+Telangana,MEDCHAL MALKAJGIRI,Rice,Rabi,2018,0.3115,12
+Telangana,MULUGU,Arhar/Tur,Kharif,2018,0.6943,12
+Telangana,MULUGU,Arhar/Tur,Rabi,2018,0.4569,12
+Telangana,MULUGU,Dry chillies,Kharif,2018,0.6943,12
+Telangana,MULUGU,Dry chillies,Rabi,2018,0.4569,12
+Telangana,MULUGU,Groundnut,Kharif,2018,0.6943,12
+Telangana,MULUGU,Groundnut,Rabi,2018,0.4569,12
+Telangana,MULUGU,Jowar,Rabi,2018,0.4569,12
+Telangana,MULUGU,Maize,Kharif,2018,0.6943,12
+Telangana,MULUGU,Maize,Rabi,2018,0.4569,12
+Telangana,MULUGU,Moong(Green Gram),Kharif,2018,0.6943,12
+Telangana,MULUGU,Moong(Green Gram),Rabi,2018,0.4569,12
+Telangana,MULUGU,Onion,Rabi,2018,0.4569,12
+Telangana,MULUGU,Rice,Kharif,2018,0.6943,12
+Telangana,MULUGU,Rice,Rabi,2018,0.4569,12
+Telangana,MULUGU,Urad,Rabi,2018,0.4569,12
+Telangana,NAGARKURNOOL,Arhar/Tur,Kharif,2018,0.442,12
+Telangana,NAGARKURNOOL,Arhar/Tur,Rabi,2018,0.3995,12
+Telangana,NAGARKURNOOL,Bajra,Kharif,2018,0.442,12
+Telangana,NAGARKURNOOL,Dry chillies,Kharif,2018,0.442,12
+Telangana,NAGARKURNOOL,Dry chillies,Rabi,2018,0.3995,12
+Telangana,NAGARKURNOOL,Gram,Rabi,2018,0.3995,12
+Telangana,NAGARKURNOOL,Groundnut,Kharif,2018,0.442,12
+Telangana,NAGARKURNOOL,Groundnut,Rabi,2018,0.3995,12
+Telangana,NAGARKURNOOL,Jowar,Kharif,2018,0.442,12
+Telangana,NAGARKURNOOL,Jowar,Rabi,2018,0.3995,12
+Telangana,NAGARKURNOOL,Maize,Kharif,2018,0.442,12
+Telangana,NAGARKURNOOL,Maize,Rabi,2018,0.3995,12
+Telangana,NAGARKURNOOL,Moong(Green Gram),Kharif,2018,0.442,12
+Telangana,NAGARKURNOOL,Moong(Green Gram),Rabi,2018,0.3995,12
+Telangana,NAGARKURNOOL,Onion,Kharif,2018,0.442,12
+Telangana,NAGARKURNOOL,Onion,Rabi,2018,0.3995,12
+Telangana,NAGARKURNOOL,Rice,Kharif,2018,0.442,12
+Telangana,NAGARKURNOOL,Rice,Rabi,2018,0.3995,12
+Telangana,NAGARKURNOOL,Sugarcane,Kharif,2018,0.442,12
+Telangana,NAGARKURNOOL,Urad,Kharif,2018,0.442,12
+Telangana,NAGARKURNOOL,Urad,Rabi,2018,0.3995,12
+Telangana,NALGONDA,Arhar/Tur,Kharif,2018,0.3887,12
+Telangana,NALGONDA,Bajra,Kharif,2018,0.3887,12
+Telangana,NALGONDA,Dry chillies,Kharif,2018,0.3887,12
+Telangana,NALGONDA,Dry chillies,Rabi,2018,0.3034,12
+Telangana,NALGONDA,Gram,Rabi,2018,0.3034,12
+Telangana,NALGONDA,Groundnut,Kharif,2018,0.3887,12
+Telangana,NALGONDA,Groundnut,Rabi,2018,0.3034,12
+Telangana,NALGONDA,Jowar,Kharif,2018,0.3887,12
+Telangana,NALGONDA,Jowar,Rabi,2018,0.3034,12
+Telangana,NALGONDA,Maize,Kharif,2018,0.3887,12
+Telangana,NALGONDA,Maize,Rabi,2018,0.3034,12
+Telangana,NALGONDA,Moong(Green Gram),Kharif,2018,0.3887,12
+Telangana,NALGONDA,Moong(Green Gram),Rabi,2018,0.3034,12
+Telangana,NALGONDA,Rice,Kharif,2018,0.3887,12
+Telangana,NALGONDA,Rice,Rabi,2018,0.3034,12
+Telangana,NALGONDA,Sugarcane,Kharif,2018,0.3887,12
+Telangana,NALGONDA,Urad,Rabi,2018,0.3034,12
+Telangana,NIRMAL,Arhar/Tur,Kharif,2018,0.3816,12
+Telangana,NIRMAL,Bajra,Rabi,2018,0.3038,12
+Telangana,NIRMAL,Dry chillies,Kharif,2018,0.3816,12
+Telangana,NIRMAL,Gram,Rabi,2018,0.3038,12
+Telangana,NIRMAL,Groundnut,Rabi,2018,0.3038,12
+Telangana,NIRMAL,Jowar,Kharif,2018,0.3816,12
+Telangana,NIRMAL,Jowar,Rabi,2018,0.3038,12
+Telangana,NIRMAL,Maize,Kharif,2018,0.3816,12
+Telangana,NIRMAL,Maize,Rabi,2018,0.3038,12
+Telangana,NIRMAL,Moong(Green Gram),Kharif,2018,0.3816,12
+Telangana,NIRMAL,Moong(Green Gram),Rabi,2018,0.3038,12
+Telangana,NIRMAL,Onion,Kharif,2018,0.3816,12
+Telangana,NIRMAL,Onion,Rabi,2018,0.3038,12
+Telangana,NIRMAL,Rice,Kharif,2018,0.3816,12
+Telangana,NIRMAL,Rice,Rabi,2018,0.3038,12
+Telangana,NIRMAL,Soyabean,Kharif,2018,0.3816,12
+Telangana,NIRMAL,Urad,Kharif,2018,0.3816,12
+Telangana,NIRMAL,Urad,Rabi,2018,0.3038,12
+Telangana,NIRMAL,Wheat,Rabi,2018,0.3038,12
+Telangana,NIZAMABAD,Arhar/Tur,Kharif,2018,0.2537,12
+Telangana,NIZAMABAD,Bajra,Rabi,2018,0.2099,12
+Telangana,NIZAMABAD,Dry chillies,Kharif,2018,0.2537,12
+Telangana,NIZAMABAD,Dry chillies,Rabi,2018,0.2099,12
+Telangana,NIZAMABAD,Gram,Rabi,2018,0.2099,12
+Telangana,NIZAMABAD,Groundnut,Kharif,2018,0.2537,12
+Telangana,NIZAMABAD,Groundnut,Rabi,2018,0.2099,12
+Telangana,NIZAMABAD,Jowar,Rabi,2018,0.2099,12
+Telangana,NIZAMABAD,Maize,Kharif,2018,0.2537,12
+Telangana,NIZAMABAD,Maize,Rabi,2018,0.2099,12
+Telangana,NIZAMABAD,Moong(Green Gram),Kharif,2018,0.2537,12
+Telangana,NIZAMABAD,Moong(Green Gram),Rabi,2018,0.2099,12
+Telangana,NIZAMABAD,Onion,Kharif,2018,0.2537,12
+Telangana,NIZAMABAD,Onion,Rabi,2018,0.2099,12
+Telangana,NIZAMABAD,Rice,Kharif,2018,0.2537,12
+Telangana,NIZAMABAD,Rice,Rabi,2018,0.2099,12
+Telangana,NIZAMABAD,Soyabean,Kharif,2018,0.2537,12
+Telangana,NIZAMABAD,Sugarcane,Kharif,2018,0.2537,12
+Telangana,NIZAMABAD,Urad,Kharif,2018,0.2537,12
+Telangana,NIZAMABAD,Urad,Rabi,2018,0.2099,12
+Telangana,NIZAMABAD,Wheat,Rabi,2018,0.2099,12
+Telangana,PEDDAPALLI,Arhar/Tur,Kharif,2018,0.4092,12
+Telangana,PEDDAPALLI,Dry chillies,Kharif,2018,0.4092,12
+Telangana,PEDDAPALLI,Gram,Rabi,2018,0.3054,12
+Telangana,PEDDAPALLI,Groundnut,Rabi,2018,0.3054,12
+Telangana,PEDDAPALLI,Maize,Kharif,2018,0.4092,12
+Telangana,PEDDAPALLI,Maize,Rabi,2018,0.3054,12
+Telangana,PEDDAPALLI,Moong(Green Gram),Kharif,2018,0.4092,12
+Telangana,PEDDAPALLI,Moong(Green Gram),Rabi,2018,0.3054,12
+Telangana,PEDDAPALLI,Onion,Kharif,2018,0.4092,12
+Telangana,PEDDAPALLI,Onion,Rabi,2018,0.3054,12
+Telangana,PEDDAPALLI,Rice,Kharif,2018,0.4092,12
+Telangana,PEDDAPALLI,Rice,Rabi,2018,0.3054,12
+Telangana,PEDDAPALLI,Urad,Kharif,2018,0.4092,12
+Telangana,RAJANNA,Arhar/Tur,Kharif,2018,0.4007,12
+Telangana,RAJANNA,Dry chillies,Kharif,2018,0.4007,12
+Telangana,RAJANNA,Gram,Rabi,2018,0.3004,12
+Telangana,RAJANNA,Groundnut,Rabi,2018,0.3004,12
+Telangana,RAJANNA,Maize,Kharif,2018,0.4007,12
+Telangana,RAJANNA,Maize,Rabi,2018,0.3004,12
+Telangana,RAJANNA,Moong(Green Gram),Kharif,2018,0.4007,12
+Telangana,RAJANNA,Moong(Green Gram),Rabi,2018,0.3004,12
+Telangana,RAJANNA,Onion,Kharif,2018,0.4007,12
+Telangana,RAJANNA,Onion,Rabi,2018,0.3004,12
+Telangana,RAJANNA,Rice,Kharif,2018,0.4007,12
+Telangana,RAJANNA,Rice,Rabi,2018,0.3004,12
+Telangana,RAJANNA,Sugarcane,Kharif,2018,0.4007,12
+Telangana,RAJANNA,Urad,Kharif,2018,0.4007,12
+Telangana,RAJANNA,Urad,Rabi,2018,0.3004,12
+Telangana,RANGAREDDI,Arhar/Tur,Kharif,2018,0.4914,12
+Telangana,RANGAREDDI,Bajra,Kharif,2018,0.4914,12
+Telangana,RANGAREDDI,Bajra,Rabi,2018,0.3725,12
+Telangana,RANGAREDDI,Dry chillies,Kharif,2018,0.4914,12
+Telangana,RANGAREDDI,Dry chillies,Rabi,2018,0.3725,12
+Telangana,RANGAREDDI,Gram,Rabi,2018,0.3725,12
+Telangana,RANGAREDDI,Groundnut,Rabi,2018,0.3725,12
+Telangana,RANGAREDDI,Jowar,Kharif,2018,0.4914,12
+Telangana,RANGAREDDI,Jowar,Rabi,2018,0.3725,12
+Telangana,RANGAREDDI,Maize,Kharif,2018,0.4914,12
+Telangana,RANGAREDDI,Maize,Rabi,2018,0.3725,12
+Telangana,RANGAREDDI,Moong(Green Gram),Kharif,2018,0.4914,12
+Telangana,RANGAREDDI,Onion,Kharif,2018,0.4914,12
+Telangana,RANGAREDDI,Onion,Rabi,2018,0.3725,12
+Telangana,RANGAREDDI,Potato,Rabi,2018,0.3725,12
+Telangana,RANGAREDDI,Rice,Kharif,2018,0.4914,12
+Telangana,RANGAREDDI,Rice,Rabi,2018,0.3725,12
+Telangana,RANGAREDDI,Soyabean,Kharif,2018,0.4914,12
+Telangana,RANGAREDDI,Sugarcane,Kharif,2018,0.4914,12
+Telangana,RANGAREDDI,Urad,Kharif,2018,0.4914,12
+Telangana,RANGAREDDI,Wheat,Rabi,2018,0.3725,12
+Telangana,SANGAREDDY,Arhar/Tur,Kharif,2018,0.4116,12
+Telangana,SANGAREDDY,Bajra,Kharif,2018,0.4116,12
+Telangana,SANGAREDDY,Dry chillies,Kharif,2018,0.4116,12
+Telangana,SANGAREDDY,Dry chillies,Rabi,2018,0.3097,12
+Telangana,SANGAREDDY,Gram,Rabi,2018,0.3097,12
+Telangana,SANGAREDDY,Groundnut,Kharif,2018,0.4116,12
+Telangana,SANGAREDDY,Groundnut,Rabi,2018,0.3097,12
+Telangana,SANGAREDDY,Jowar,Kharif,2018,0.4116,12
+Telangana,SANGAREDDY,Jowar,Rabi,2018,0.3097,12
+Telangana,SANGAREDDY,Maize,Kharif,2018,0.4116,12
+Telangana,SANGAREDDY,Maize,Rabi,2018,0.3097,12
+Telangana,SANGAREDDY,Moong(Green Gram),Kharif,2018,0.4116,12
+Telangana,SANGAREDDY,Onion,Kharif,2018,0.4116,12
+Telangana,SANGAREDDY,Onion,Rabi,2018,0.3097,12
+Telangana,SANGAREDDY,Potato,Rabi,2018,0.3097,12
+Telangana,SANGAREDDY,Rice,Kharif,2018,0.4116,12
+Telangana,SANGAREDDY,Rice,Rabi,2018,0.3097,12
+Telangana,SANGAREDDY,Soyabean,Kharif,2018,0.4116,12
+Telangana,SANGAREDDY,Sugarcane,Kharif,2018,0.4116,12
+Telangana,SANGAREDDY,Urad,Kharif,2018,0.4116,12
+Telangana,SANGAREDDY,Wheat,Rabi,2018,0.3097,12
+Telangana,SIDDIPET,Arhar/Tur,Kharif,2018,0.3997,12
+Telangana,SIDDIPET,Dry chillies,Kharif,2018,0.3997,12
+Telangana,SIDDIPET,Dry chillies,Rabi,2018,0.2685,12
+Telangana,SIDDIPET,Gram,Rabi,2018,0.2685,12
+Telangana,SIDDIPET,Groundnut,Kharif,2018,0.3997,12
+Telangana,SIDDIPET,Groundnut,Rabi,2018,0.2685,12
+Telangana,SIDDIPET,Jowar,Kharif,2018,0.3997,12
+Telangana,SIDDIPET,Maize,Kharif,2018,0.3997,12
+Telangana,SIDDIPET,Maize,Rabi,2018,0.2685,12
+Telangana,SIDDIPET,Moong(Green Gram),Kharif,2018,0.3997,12
+Telangana,SIDDIPET,Moong(Green Gram),Rabi,2018,0.2685,12
+Telangana,SIDDIPET,Onion,Kharif,2018,0.3997,12
+Telangana,SIDDIPET,Onion,Rabi,2018,0.2685,12
+Telangana,SIDDIPET,Potato,Kharif,2018,0.3997,12
+Telangana,SIDDIPET,Potato,Rabi,2018,0.2685,12
+Telangana,SIDDIPET,Rice,Kharif,2018,0.3997,12
+Telangana,SIDDIPET,Rice,Rabi,2018,0.2685,12
+Telangana,SIDDIPET,Soyabean,Kharif,2018,0.3997,12
+Telangana,SIDDIPET,Sugarcane,Kharif,2018,0.3997,12
+Telangana,SIDDIPET,Urad,Kharif,2018,0.3997,12
+Telangana,SIDDIPET,Urad,Rabi,2018,0.2685,12
+Telangana,SIDDIPET,Wheat,Rabi,2018,0.2685,12
+Telangana,SURYAPET,Arhar/Tur,Kharif,2018,0.3411,12
+Telangana,SURYAPET,Dry chillies,Kharif,2018,0.3411,12
+Telangana,SURYAPET,Dry chillies,Rabi,2018,0.2828,12
+Telangana,SURYAPET,Gram,Rabi,2018,0.2828,12
+Telangana,SURYAPET,Groundnut,Kharif,2018,0.3411,12
+Telangana,SURYAPET,Groundnut,Rabi,2018,0.2828,12
+Telangana,SURYAPET,Jowar,Rabi,2018,0.2828,12
+Telangana,SURYAPET,Maize,Kharif,2018,0.3411,12
+Telangana,SURYAPET,Maize,Rabi,2018,0.2828,12
+Telangana,SURYAPET,Moong(Green Gram),Kharif,2018,0.3411,12
+Telangana,SURYAPET,Moong(Green Gram),Rabi,2018,0.2828,12
+Telangana,SURYAPET,Rice,Kharif,2018,0.3411,12
+Telangana,SURYAPET,Rice,Rabi,2018,0.2828,12
+Telangana,SURYAPET,Sugarcane,Kharif,2018,0.3411,12
+Telangana,SURYAPET,Urad,Kharif,2018,0.3411,12
+Telangana,SURYAPET,Urad,Rabi,2018,0.2828,12
+Telangana,VIKARABAD,Arhar/Tur,Kharif,2018,0.4905,12
+Telangana,VIKARABAD,Arhar/Tur,Rabi,2018,0.294,12
+Telangana,VIKARABAD,Bajra,Kharif,2018,0.4905,12
+Telangana,VIKARABAD,Dry chillies,Kharif,2018,0.4905,12
+Telangana,VIKARABAD,Gram,Rabi,2018,0.294,12
+Telangana,VIKARABAD,Groundnut,Kharif,2018,0.4905,12
+Telangana,VIKARABAD,Groundnut,Rabi,2018,0.294,12
+Telangana,VIKARABAD,Jowar,Kharif,2018,0.4905,12
+Telangana,VIKARABAD,Jowar,Rabi,2018,0.294,12
+Telangana,VIKARABAD,Maize,Kharif,2018,0.4905,12
+Telangana,VIKARABAD,Maize,Rabi,2018,0.294,12
+Telangana,VIKARABAD,Moong(Green Gram),Kharif,2018,0.4905,12
+Telangana,VIKARABAD,Onion,Kharif,2018,0.4905,12
+Telangana,VIKARABAD,Onion,Rabi,2018,0.294,12
+Telangana,VIKARABAD,Potato,Rabi,2018,0.294,12
+Telangana,VIKARABAD,Rice,Kharif,2018,0.4905,12
+Telangana,VIKARABAD,Rice,Rabi,2018,0.294,12
+Telangana,VIKARABAD,Soyabean,Kharif,2018,0.4905,12
+Telangana,VIKARABAD,Sugarcane,Kharif,2018,0.4905,12
+Telangana,VIKARABAD,Urad,Kharif,2018,0.4905,12
+Telangana,VIKARABAD,Wheat,Rabi,2018,0.294,12
+Telangana,WANAPARTHY,Arhar/Tur,Kharif,2018,0.4153,12
+Telangana,WANAPARTHY,Dry chillies,Kharif,2018,0.4153,12
+Telangana,WANAPARTHY,Dry chillies,Rabi,2018,0.3122,12
+Telangana,WANAPARTHY,Gram,Rabi,2018,0.3122,12
+Telangana,WANAPARTHY,Groundnut,Kharif,2018,0.4153,12
+Telangana,WANAPARTHY,Groundnut,Rabi,2018,0.3122,12
+Telangana,WANAPARTHY,Jowar,Kharif,2018,0.4153,12
+Telangana,WANAPARTHY,Jowar,Rabi,2018,0.3122,12
+Telangana,WANAPARTHY,Maize,Kharif,2018,0.4153,12
+Telangana,WANAPARTHY,Maize,Rabi,2018,0.3122,12
+Telangana,WANAPARTHY,Moong(Green Gram),Kharif,2018,0.4153,12
+Telangana,WANAPARTHY,Moong(Green Gram),Rabi,2018,0.3122,12
+Telangana,WANAPARTHY,Onion,Kharif,2018,0.4153,12
+Telangana,WANAPARTHY,Onion,Rabi,2018,0.3122,12
+Telangana,WANAPARTHY,Rice,Kharif,2018,0.4153,12
+Telangana,WANAPARTHY,Rice,Rabi,2018,0.3122,12
+Telangana,WANAPARTHY,Sugarcane,Kharif,2018,0.4153,12
+Telangana,WANAPARTHY,Urad,Kharif,2018,0.4153,12
+Telangana,WANAPARTHY,Urad,Rabi,2018,0.3122,12
+Telangana,WARANGAL,Arhar/Tur,Kharif,2018,0.4045,12
+Telangana,WARANGAL,Arhar/Tur,Rabi,2018,0.3153,12
+Telangana,WARANGAL,Bajra,Rabi,2018,0.3153,12
+Telangana,WARANGAL,Dry chillies,Kharif,2018,0.4045,12
+Telangana,WARANGAL,Dry chillies,Rabi,2018,0.3153,12
+Telangana,WARANGAL,Gram,Rabi,2018,0.3153,12
+Telangana,WARANGAL,Groundnut,Kharif,2018,0.4045,12
+Telangana,WARANGAL,Groundnut,Rabi,2018,0.3153,12
+Telangana,WARANGAL,Jowar,Kharif,2018,0.4045,12
+Telangana,WARANGAL,Jowar,Rabi,2018,0.3153,12
+Telangana,WARANGAL,Maize,Kharif,2018,0.4045,12
+Telangana,WARANGAL,Maize,Rabi,2018,0.3153,12
+Telangana,WARANGAL,Moong(Green Gram),Kharif,2018,0.4045,12
+Telangana,WARANGAL,Moong(Green Gram),Rabi,2018,0.3153,12
+Telangana,WARANGAL,Onion,Rabi,2018,0.3153,12
+Telangana,WARANGAL,Rice,Kharif,2018,0.4045,12
+Telangana,WARANGAL,Rice,Rabi,2018,0.3153,12
+Telangana,WARANGAL,Soyabean,Kharif,2018,0.4045,12
+Telangana,WARANGAL,Urad,Kharif,2018,0.4045,12
+Telangana,WARANGAL,Urad,Rabi,2018,0.3153,12
+Telangana,YADADRI,Arhar/Tur,Kharif,2018,0.4979,12
+Telangana,YADADRI,Dry chillies,Kharif,2018,0.4979,12
+Telangana,YADADRI,Gram,Rabi,2018,0.3625,12
+Telangana,YADADRI,Groundnut,Kharif,2018,0.4979,12
+Telangana,YADADRI,Groundnut,Rabi,2018,0.3625,12
+Telangana,YADADRI,Jowar,Kharif,2018,0.4979,12
+Telangana,YADADRI,Jowar,Rabi,2018,0.3625,12
+Telangana,YADADRI,Maize,Kharif,2018,0.4979,12
+Telangana,YADADRI,Maize,Rabi,2018,0.3625,12
+Telangana,YADADRI,Moong(Green Gram),Kharif,2018,0.4979,12
+Telangana,YADADRI,Moong(Green Gram),Rabi,2018,0.3625,12
+Telangana,YADADRI,Rice,Kharif,2018,0.4979,12
+Telangana,YADADRI,Rice,Rabi,2018,0.3625,12
+Telangana,YADADRI,Sugarcane,Kharif,2018,0.4979,12
+Telangana,YADADRI,Urad,Kharif,2018,0.4979,12
+Telangana,YADADRI,Urad,Rabi,2018,0.3625,12
+Telangana,ADILABAD,Arhar/Tur,Kharif,2019,0.4169,12
+Telangana,ADILABAD,Bajra,Kharif,2019,0.4169,12
+Telangana,ADILABAD,Bajra,Rabi,2019,0.2789,12
+Telangana,ADILABAD,Dry chillies,Kharif,2019,0.4169,12
+Telangana,ADILABAD,Dry chillies,Rabi,2019,0.2789,12
+Telangana,ADILABAD,Gram,Rabi,2019,0.2789,12
+Telangana,ADILABAD,Groundnut,Rabi,2019,0.2789,12
+Telangana,ADILABAD,Jowar,Kharif,2019,0.4169,12
+Telangana,ADILABAD,Jowar,Rabi,2019,0.2789,12
+Telangana,ADILABAD,Maize,Kharif,2019,0.4169,12
+Telangana,ADILABAD,Maize,Rabi,2019,0.2789,12
+Telangana,ADILABAD,Moong(Green Gram),Kharif,2019,0.4169,12
+Telangana,ADILABAD,Moong(Green Gram),Rabi,2019,0.2789,12
+Telangana,ADILABAD,Onion,Kharif,2019,0.4169,12
+Telangana,ADILABAD,Onion,Rabi,2019,0.2789,12
+Telangana,ADILABAD,Rice,Kharif,2019,0.4169,12
+Telangana,ADILABAD,Rice,Rabi,2019,0.2789,12
+Telangana,ADILABAD,Soyabean,Kharif,2019,0.4169,12
+Telangana,ADILABAD,Sugarcane,Kharif,2019,0.4169,12
+Telangana,ADILABAD,Urad,Kharif,2019,0.4169,12
+Telangana,ADILABAD,Urad,Rabi,2019,0.2789,12
+Telangana,ADILABAD,Wheat,Rabi,2019,0.2789,12
+Telangana,BHADRADRI,Arhar/Tur,Kharif,2019,0.6061,12
+Telangana,BHADRADRI,Arhar/Tur,Rabi,2019,0.5178,12
+Telangana,BHADRADRI,Dry chillies,Kharif,2019,0.6061,12
+Telangana,BHADRADRI,Dry chillies,Rabi,2019,0.5178,12
+Telangana,BHADRADRI,Groundnut,Kharif,2019,0.6061,12
+Telangana,BHADRADRI,Groundnut,Rabi,2019,0.5178,12
+Telangana,BHADRADRI,Jowar,Kharif,2019,0.6061,12
+Telangana,BHADRADRI,Jowar,Rabi,2019,0.5178,12
+Telangana,BHADRADRI,Maize,Kharif,2019,0.6061,12
+Telangana,BHADRADRI,Maize,Rabi,2019,0.5178,12
+Telangana,BHADRADRI,Moong(Green Gram),Kharif,2019,0.6061,12
+Telangana,BHADRADRI,Moong(Green Gram),Rabi,2019,0.5178,12
+Telangana,BHADRADRI,Rice,Kharif,2019,0.6061,12
+Telangana,BHADRADRI,Rice,Rabi,2019,0.5178,12
+Telangana,BHADRADRI,Sugarcane,Kharif,2019,0.6061,12
+Telangana,BHADRADRI,Urad,Kharif,2019,0.6061,12
+Telangana,BHADRADRI,Urad,Rabi,2019,0.5178,12
+Telangana,HANUMAKONDA,Arhar/Tur,Kharif,2019,0.4295,12
+Telangana,HANUMAKONDA,Dry chillies,Kharif,2019,0.4295,12
+Telangana,HANUMAKONDA,Dry chillies,Rabi,2019,0.3006,12
+Telangana,HANUMAKONDA,Gram,Rabi,2019,0.3006,12
+Telangana,HANUMAKONDA,Groundnut,Kharif,2019,0.4295,12
+Telangana,HANUMAKONDA,Groundnut,Rabi,2019,0.3006,12
+Telangana,HANUMAKONDA,Jowar,Kharif,2019,0.4295,12
+Telangana,HANUMAKONDA,Maize,Kharif,2019,0.4295,12
+Telangana,HANUMAKONDA,Maize,Rabi,2019,0.3006,12
+Telangana,HANUMAKONDA,Moong(Green Gram),Kharif,2019,0.4295,12
+Telangana,HANUMAKONDA,Moong(Green Gram),Rabi,2019,0.3006,12
+Telangana,HANUMAKONDA,Onion,Rabi,2019,0.3006,12
+Telangana,HANUMAKONDA,Rice,Kharif,2019,0.4295,12
+Telangana,HANUMAKONDA,Rice,Rabi,2019,0.3006,12
+Telangana,HANUMAKONDA,Soyabean,Kharif,2019,0.4295,12
+Telangana,HANUMAKONDA,Urad,Kharif,2019,0.4295,12
+Telangana,HANUMAKONDA,Urad,Rabi,2019,0.3006,12
+Telangana,JANGOAN,Arhar/Tur,Kharif,2019,0.5656,12
+Telangana,JANGOAN,Arhar/Tur,Rabi,2019,0.3211,12
+Telangana,JANGOAN,Dry chillies,Kharif,2019,0.5656,12
+Telangana,JANGOAN,Dry chillies,Rabi,2019,0.3211,12
+Telangana,JANGOAN,Gram,Rabi,2019,0.3211,12
+Telangana,JANGOAN,Groundnut,Kharif,2019,0.5656,12
+Telangana,JANGOAN,Groundnut,Rabi,2019,0.3211,12
+Telangana,JANGOAN,Jowar,Kharif,2019,0.5656,12
+Telangana,JANGOAN,Jowar,Rabi,2019,0.3211,12
+Telangana,JANGOAN,Maize,Kharif,2019,0.5656,12
+Telangana,JANGOAN,Maize,Rabi,2019,0.3211,12
+Telangana,JANGOAN,Moong(Green Gram),Kharif,2019,0.5656,12
+Telangana,JANGOAN,Moong(Green Gram),Rabi,2019,0.3211,12
+Telangana,JANGOAN,Onion,Kharif,2019,0.5656,12
+Telangana,JANGOAN,Onion,Rabi,2019,0.3211,12
+Telangana,JANGOAN,Rice,Kharif,2019,0.5656,12
+Telangana,JANGOAN,Rice,Rabi,2019,0.3211,12
+Telangana,JANGOAN,Urad,Kharif,2019,0.5656,12
+Telangana,JANGOAN,Urad,Rabi,2019,0.3211,12
+Telangana,JAYASHANKAR,Arhar/Tur,Kharif,2019,0.613,12
+Telangana,JAYASHANKAR,Arhar/Tur,Rabi,2019,0.5126,12
+Telangana,JAYASHANKAR,Dry chillies,Kharif,2019,0.613,12
+Telangana,JAYASHANKAR,Dry chillies,Rabi,2019,0.5126,12
+Telangana,JAYASHANKAR,Gram,Rabi,2019,0.5126,12
+Telangana,JAYASHANKAR,Groundnut,Kharif,2019,0.613,12
+Telangana,JAYASHANKAR,Groundnut,Rabi,2019,0.5126,12
+Telangana,JAYASHANKAR,Maize,Kharif,2019,0.613,12
+Telangana,JAYASHANKAR,Maize,Rabi,2019,0.5126,12
+Telangana,JAYASHANKAR,Moong(Green Gram),Kharif,2019,0.613,12
+Telangana,JAYASHANKAR,Moong(Green Gram),Rabi,2019,0.5126,12
+Telangana,JAYASHANKAR,Onion,Rabi,2019,0.5126,12
+Telangana,JAYASHANKAR,Rice,Kharif,2019,0.613,12
+Telangana,JAYASHANKAR,Rice,Rabi,2019,0.5126,12
+Telangana,JAYASHANKAR,Urad,Kharif,2019,0.613,12
+Telangana,JAYASHANKAR,Urad,Rabi,2019,0.5126,12
+Telangana,JOGULAMBA,Arhar/Tur,Kharif,2019,0.4762,12
+Telangana,JOGULAMBA,Arhar/Tur,Rabi,2019,0.271,12
+Telangana,JOGULAMBA,Bajra,Kharif,2019,0.4762,12
+Telangana,JOGULAMBA,Bajra,Rabi,2019,0.271,12
+Telangana,JOGULAMBA,Dry chillies,Kharif,2019,0.4762,12
+Telangana,JOGULAMBA,Gram,Rabi,2019,0.271,12
+Telangana,JOGULAMBA,Groundnut,Kharif,2019,0.4762,12
+Telangana,JOGULAMBA,Groundnut,Rabi,2019,0.271,12
+Telangana,JOGULAMBA,Jowar,Kharif,2019,0.4762,12
+Telangana,JOGULAMBA,Jowar,Rabi,2019,0.271,12
+Telangana,JOGULAMBA,Maize,Kharif,2019,0.4762,12
+Telangana,JOGULAMBA,Maize,Rabi,2019,0.271,12
+Telangana,JOGULAMBA,Moong(Green Gram),Rabi,2019,0.271,12
+Telangana,JOGULAMBA,Onion,Kharif,2019,0.4762,12
+Telangana,JOGULAMBA,Onion,Rabi,2019,0.271,12
+Telangana,JOGULAMBA,Rice,Kharif,2019,0.4762,12
+Telangana,JOGULAMBA,Rice,Rabi,2019,0.271,12
+Telangana,JOGULAMBA,Sugarcane,Kharif,2019,0.4762,12
+Telangana,JOGULAMBA,Urad,Kharif,2019,0.4762,12
+Telangana,JOGULAMBA,Urad,Rabi,2019,0.271,12
+Telangana,JOGULAMBA,Wheat,Rabi,2019,0.271,12
+Telangana,KAMAREDDY,Arhar/Tur,Kharif,2019,0.3985,12
+Telangana,KAMAREDDY,Dry chillies,Kharif,2019,0.3985,12
+Telangana,KAMAREDDY,Dry chillies,Rabi,2019,0.2545,12
+Telangana,KAMAREDDY,Gram,Rabi,2019,0.2545,12
+Telangana,KAMAREDDY,Groundnut,Rabi,2019,0.2545,12
+Telangana,KAMAREDDY,Jowar,Kharif,2019,0.3985,12
+Telangana,KAMAREDDY,Jowar,Rabi,2019,0.2545,12
+Telangana,KAMAREDDY,Maize,Kharif,2019,0.3985,12
+Telangana,KAMAREDDY,Maize,Rabi,2019,0.2545,12
+Telangana,KAMAREDDY,Moong(Green Gram),Kharif,2019,0.3985,12
+Telangana,KAMAREDDY,Moong(Green Gram),Rabi,2019,0.2545,12
+Telangana,KAMAREDDY,Onion,Kharif,2019,0.3985,12
+Telangana,KAMAREDDY,Onion,Rabi,2019,0.2545,12
+Telangana,KAMAREDDY,Rice,Kharif,2019,0.3985,12
+Telangana,KAMAREDDY,Rice,Rabi,2019,0.2545,12
+Telangana,KAMAREDDY,Soyabean,Kharif,2019,0.3985,12
+Telangana,KAMAREDDY,Sugarcane,Kharif,2019,0.3985,12
+Telangana,KAMAREDDY,Urad,Kharif,2019,0.3985,12
+Telangana,KAMAREDDY,Urad,Rabi,2019,0.2545,12
+Telangana,KAMAREDDY,Wheat,Rabi,2019,0.2545,12
+Telangana,KARIMNAGAR,Arhar/Tur,Kharif,2019,0.3498,12
+Telangana,KARIMNAGAR,Dry chillies,Kharif,2019,0.3498,12
+Telangana,KARIMNAGAR,Gram,Rabi,2019,0.2373,12
+Telangana,KARIMNAGAR,Groundnut,Kharif,2019,0.3498,12
+Telangana,KARIMNAGAR,Groundnut,Rabi,2019,0.2373,12
+Telangana,KARIMNAGAR,Jowar,Kharif,2019,0.3498,12
+Telangana,KARIMNAGAR,Maize,Kharif,2019,0.3498,12
+Telangana,KARIMNAGAR,Maize,Rabi,2019,0.2373,12
+Telangana,KARIMNAGAR,Moong(Green Gram),Kharif,2019,0.3498,12
+Telangana,KARIMNAGAR,Moong(Green Gram),Rabi,2019,0.2373,12
+Telangana,KARIMNAGAR,Onion,Kharif,2019,0.3498,12
+Telangana,KARIMNAGAR,Onion,Rabi,2019,0.2373,12
+Telangana,KARIMNAGAR,Rice,Kharif,2019,0.3498,12
+Telangana,KARIMNAGAR,Rice,Rabi,2019,0.2373,12
+Telangana,KARIMNAGAR,Urad,Kharif,2019,0.3498,12
+Telangana,KARIMNAGAR,Urad,Rabi,2019,0.2373,12
+Telangana,KHAMMAM,Arhar/Tur,Kharif,2019,0.3775,12
+Telangana,KHAMMAM,Bajra,Rabi,2019,0.3305,12
+Telangana,KHAMMAM,Dry chillies,Kharif,2019,0.3775,12
+Telangana,KHAMMAM,Dry chillies,Rabi,2019,0.3305,12
+Telangana,KHAMMAM,Gram,Rabi,2019,0.3305,12
+Telangana,KHAMMAM,Groundnut,Kharif,2019,0.3775,12
+Telangana,KHAMMAM,Groundnut,Rabi,2019,0.3305,12
+Telangana,KHAMMAM,Jowar,Kharif,2019,0.3775,12
+Telangana,KHAMMAM,Jowar,Rabi,2019,0.3305,12
+Telangana,KHAMMAM,Maize,Kharif,2019,0.3775,12
+Telangana,KHAMMAM,Maize,Rabi,2019,0.3305,12
+Telangana,KHAMMAM,Moong(Green Gram),Kharif,2019,0.3775,12
+Telangana,KHAMMAM,Moong(Green Gram),Rabi,2019,0.3305,12
+Telangana,KHAMMAM,Onion,Rabi,2019,0.3305,12
+Telangana,KHAMMAM,Rice,Kharif,2019,0.3775,12
+Telangana,KHAMMAM,Rice,Rabi,2019,0.3305,12
+Telangana,KHAMMAM,Sugarcane,Kharif,2019,0.3775,12
+Telangana,KHAMMAM,Urad,Kharif,2019,0.3775,12
+Telangana,KHAMMAM,Urad,Rabi,2019,0.3305,12
+Telangana,KOMARAM BHEEM ASIFABAD,Arhar/Tur,Kharif,2019,0.4877,12
+Telangana,KOMARAM BHEEM ASIFABAD,Bajra,Kharif,2019,0.4877,12
+Telangana,KOMARAM BHEEM ASIFABAD,Dry chillies,Kharif,2019,0.4877,12
+Telangana,KOMARAM BHEEM ASIFABAD,Dry chillies,Rabi,2019,0.3381,12
+Telangana,KOMARAM BHEEM ASIFABAD,Gram,Rabi,2019,0.3381,12
+Telangana,KOMARAM BHEEM ASIFABAD,Groundnut,Kharif,2019,0.4877,12
+Telangana,KOMARAM BHEEM ASIFABAD,Groundnut,Rabi,2019,0.3381,12
+Telangana,KOMARAM BHEEM ASIFABAD,Jowar,Kharif,2019,0.4877,12
+Telangana,KOMARAM BHEEM ASIFABAD,Jowar,Rabi,2019,0.3381,12
+Telangana,KOMARAM BHEEM ASIFABAD,Maize,Kharif,2019,0.4877,12
+Telangana,KOMARAM BHEEM ASIFABAD,Maize,Rabi,2019,0.3381,12
+Telangana,KOMARAM BHEEM ASIFABAD,Moong(Green Gram),Kharif,2019,0.4877,12
+Telangana,KOMARAM BHEEM ASIFABAD,Moong(Green Gram),Rabi,2019,0.3381,12
+Telangana,KOMARAM BHEEM ASIFABAD,Onion,Kharif,2019,0.4877,12
+Telangana,KOMARAM BHEEM ASIFABAD,Onion,Rabi,2019,0.3381,12
+Telangana,KOMARAM BHEEM ASIFABAD,Rice,Kharif,2019,0.4877,12
+Telangana,KOMARAM BHEEM ASIFABAD,Rice,Rabi,2019,0.3381,12
+Telangana,KOMARAM BHEEM ASIFABAD,Soyabean,Kharif,2019,0.4877,12
+Telangana,KOMARAM BHEEM ASIFABAD,Urad,Kharif,2019,0.4877,12
+Telangana,KOMARAM BHEEM ASIFABAD,Urad,Rabi,2019,0.3381,12
+Telangana,KOMARAM BHEEM ASIFABAD,Wheat,Rabi,2019,0.3381,12
+Telangana,MAHABUBABAD,Arhar/Tur,Kharif,2019,0.4733,12
+Telangana,MAHABUBABAD,Arhar/Tur,Rabi,2019,0.4519,12
+Telangana,MAHABUBABAD,Dry chillies,Kharif,2019,0.4733,12
+Telangana,MAHABUBABAD,Dry chillies,Rabi,2019,0.4519,12
+Telangana,MAHABUBABAD,Groundnut,Kharif,2019,0.4733,12
+Telangana,MAHABUBABAD,Groundnut,Rabi,2019,0.4519,12
+Telangana,MAHABUBABAD,Jowar,Kharif,2019,0.4733,12
+Telangana,MAHABUBABAD,Jowar,Rabi,2019,0.4519,12
+Telangana,MAHABUBABAD,Maize,Kharif,2019,0.4733,12
+Telangana,MAHABUBABAD,Maize,Rabi,2019,0.4519,12
+Telangana,MAHABUBABAD,Moong(Green Gram),Kharif,2019,0.4733,12
+Telangana,MAHABUBABAD,Moong(Green Gram),Rabi,2019,0.4519,12
+Telangana,MAHABUBABAD,Onion,Kharif,2019,0.4733,12
+Telangana,MAHABUBABAD,Onion,Rabi,2019,0.4519,12
+Telangana,MAHABUBABAD,Rice,Kharif,2019,0.4733,12
+Telangana,MAHABUBABAD,Rice,Rabi,2019,0.4519,12
+Telangana,MAHABUBABAD,Soyabean,Kharif,2019,0.4733,12
+Telangana,MAHABUBABAD,Sugarcane,Kharif,2019,0.4733,12
+Telangana,MAHABUBABAD,Urad,Kharif,2019,0.4733,12
+Telangana,MAHABUBABAD,Urad,Rabi,2019,0.4519,12
+Telangana,MAHBUBNAGAR,Arhar/Tur,Kharif,2019,0.3443,12
+Telangana,MAHBUBNAGAR,Arhar/Tur,Rabi,2019,0.2457,12
+Telangana,MAHBUBNAGAR,Bajra,Kharif,2019,0.3443,12
+Telangana,MAHBUBNAGAR,Dry chillies,Kharif,2019,0.3443,12
+Telangana,MAHBUBNAGAR,Dry chillies,Rabi,2019,0.2457,12
+Telangana,MAHBUBNAGAR,Gram,Rabi,2019,0.2457,12
+Telangana,MAHBUBNAGAR,Groundnut,Kharif,2019,0.3443,12
+Telangana,MAHBUBNAGAR,Groundnut,Rabi,2019,0.2457,12
+Telangana,MAHBUBNAGAR,Jowar,Kharif,2019,0.3443,12
+Telangana,MAHBUBNAGAR,Jowar,Rabi,2019,0.2457,12
+Telangana,MAHBUBNAGAR,Maize,Kharif,2019,0.3443,12
+Telangana,MAHBUBNAGAR,Maize,Rabi,2019,0.2457,12
+Telangana,MAHBUBNAGAR,Moong(Green Gram),Kharif,2019,0.3443,12
+Telangana,MAHBUBNAGAR,Moong(Green Gram),Rabi,2019,0.2457,12
+Telangana,MAHBUBNAGAR,Onion,Kharif,2019,0.3443,12
+Telangana,MAHBUBNAGAR,Onion,Rabi,2019,0.2457,12
+Telangana,MAHBUBNAGAR,Rice,Kharif,2019,0.3443,12
+Telangana,MAHBUBNAGAR,Rice,Rabi,2019,0.2457,12
+Telangana,MAHBUBNAGAR,Soyabean,Kharif,2019,0.3443,12
+Telangana,MAHBUBNAGAR,Sugarcane,Kharif,2019,0.3443,12
+Telangana,MAHBUBNAGAR,Urad,Kharif,2019,0.3443,12
+Telangana,MAHBUBNAGAR,Urad,Rabi,2019,0.2457,12
+Telangana,MANCHERIAL,Arhar/Tur,Kharif,2019,0.4476,12
+Telangana,MANCHERIAL,Arhar/Tur,Rabi,2019,0.3157,12
+Telangana,MANCHERIAL,Dry chillies,Kharif,2019,0.4476,12
+Telangana,MANCHERIAL,Dry chillies,Rabi,2019,0.3157,12
+Telangana,MANCHERIAL,Gram,Rabi,2019,0.3157,12
+Telangana,MANCHERIAL,Groundnut,Rabi,2019,0.3157,12
+Telangana,MANCHERIAL,Jowar,Kharif,2019,0.4476,12
+Telangana,MANCHERIAL,Jowar,Rabi,2019,0.3157,12
+Telangana,MANCHERIAL,Maize,Kharif,2019,0.4476,12
+Telangana,MANCHERIAL,Maize,Rabi,2019,0.3157,12
+Telangana,MANCHERIAL,Moong(Green Gram),Kharif,2019,0.4476,12
+Telangana,MANCHERIAL,Moong(Green Gram),Rabi,2019,0.3157,12
+Telangana,MANCHERIAL,Onion,Kharif,2019,0.4476,12
+Telangana,MANCHERIAL,Onion,Rabi,2019,0.3157,12
+Telangana,MANCHERIAL,Rice,Kharif,2019,0.4476,12
+Telangana,MANCHERIAL,Rice,Rabi,2019,0.3157,12
+Telangana,MANCHERIAL,Soyabean,Kharif,2019,0.4476,12
+Telangana,MANCHERIAL,Urad,Kharif,2019,0.4476,12
+Telangana,MANCHERIAL,Urad,Rabi,2019,0.3157,12
+Telangana,MANCHERIAL,Wheat,Rabi,2019,0.3157,12
+Telangana,MEDAK,Arhar/Tur,Kharif,2019,0.5423,12
+Telangana,MEDAK,Bajra,Kharif,2019,0.5423,12
+Telangana,MEDAK,Bajra,Rabi,2019,0.3614,12
+Telangana,MEDAK,Dry chillies,Kharif,2019,0.5423,12
+Telangana,MEDAK,Gram,Rabi,2019,0.3614,12
+Telangana,MEDAK,Groundnut,Kharif,2019,0.5423,12
+Telangana,MEDAK,Groundnut,Rabi,2019,0.3614,12
+Telangana,MEDAK,Jowar,Kharif,2019,0.5423,12
+Telangana,MEDAK,Jowar,Rabi,2019,0.3614,12
+Telangana,MEDAK,Maize,Kharif,2019,0.5423,12
+Telangana,MEDAK,Maize,Rabi,2019,0.3614,12
+Telangana,MEDAK,Moong(Green Gram),Kharif,2019,0.5423,12
+Telangana,MEDAK,Moong(Green Gram),Rabi,2019,0.3614,12
+Telangana,MEDAK,Onion,Kharif,2019,0.5423,12
+Telangana,MEDAK,Onion,Rabi,2019,0.3614,12
+Telangana,MEDAK,Potato,Rabi,2019,0.3614,12
+Telangana,MEDAK,Rice,Kharif,2019,0.5423,12
+Telangana,MEDAK,Rice,Rabi,2019,0.3614,12
+Telangana,MEDAK,Soyabean,Kharif,2019,0.5423,12
+Telangana,MEDAK,Sugarcane,Kharif,2019,0.5423,12
+Telangana,MEDAK,Urad,Kharif,2019,0.5423,12
+Telangana,MEDAK,Urad,Rabi,2019,0.3614,12
+Telangana,MEDAK,Wheat,Rabi,2019,0.3614,12
+Telangana,MEDCHAL MALKAJGIRI,Arhar/Tur,Kharif,2019,0.3985,12
+Telangana,MEDCHAL MALKAJGIRI,Dry chillies,Rabi,2019,0.308,12
+Telangana,MEDCHAL MALKAJGIRI,Gram,Rabi,2019,0.308,12
+Telangana,MEDCHAL MALKAJGIRI,Jowar,Kharif,2019,0.3985,12
+Telangana,MEDCHAL MALKAJGIRI,Jowar,Rabi,2019,0.308,12
+Telangana,MEDCHAL MALKAJGIRI,Maize,Kharif,2019,0.3985,12
+Telangana,MEDCHAL MALKAJGIRI,Maize,Rabi,2019,0.308,12
+Telangana,MEDCHAL MALKAJGIRI,Moong(Green Gram),Kharif,2019,0.3985,12
+Telangana,MEDCHAL MALKAJGIRI,Onion,Rabi,2019,0.308,12
+Telangana,MEDCHAL MALKAJGIRI,Rice,Kharif,2019,0.3985,12
+Telangana,MEDCHAL MALKAJGIRI,Rice,Rabi,2019,0.308,12
+Telangana,MEDCHAL MALKAJGIRI,Soyabean,Kharif,2019,0.3985,12
+Telangana,MEDCHAL MALKAJGIRI,Sugarcane,Kharif,2019,0.3985,12
+Telangana,MULUGU,Arhar/Tur,Kharif,2019,0.7104,12
+Telangana,MULUGU,Dry chillies,Kharif,2019,0.7104,12
+Telangana,MULUGU,Dry chillies,Rabi,2019,0.4695,12
+Telangana,MULUGU,Gram,Rabi,2019,0.4695,12
+Telangana,MULUGU,Groundnut,Kharif,2019,0.7104,12
+Telangana,MULUGU,Groundnut,Rabi,2019,0.4695,12
+Telangana,MULUGU,Maize,Kharif,2019,0.7104,12
+Telangana,MULUGU,Maize,Rabi,2019,0.4695,12
+Telangana,MULUGU,Moong(Green Gram),Kharif,2019,0.7104,12
+Telangana,MULUGU,Moong(Green Gram),Rabi,2019,0.4695,12
+Telangana,MULUGU,Onion,Rabi,2019,0.4695,12
+Telangana,MULUGU,Rice,Kharif,2019,0.7104,12
+Telangana,MULUGU,Rice,Rabi,2019,0.4695,12
+Telangana,MULUGU,Urad,Rabi,2019,0.4695,12
+Telangana,NAGARKURNOOL,Arhar/Tur,Kharif,2019,0.5,12
+Telangana,NAGARKURNOOL,Arhar/Tur,Rabi,2019,0.4111,12
+Telangana,NAGARKURNOOL,Bajra,Kharif,2019,0.5,12
+Telangana,NAGARKURNOOL,Bajra,Rabi,2019,0.4111,12
+Telangana,NAGARKURNOOL,Dry chillies,Kharif,2019,0.5,12
+Telangana,NAGARKURNOOL,Dry chillies,Rabi,2019,0.4111,12
+Telangana,NAGARKURNOOL,Gram,Rabi,2019,0.4111,12
+Telangana,NAGARKURNOOL,Groundnut,Kharif,2019,0.5,12
+Telangana,NAGARKURNOOL,Groundnut,Rabi,2019,0.4111,12
+Telangana,NAGARKURNOOL,Jowar,Kharif,2019,0.5,12
+Telangana,NAGARKURNOOL,Jowar,Rabi,2019,0.4111,12
+Telangana,NAGARKURNOOL,Maize,Kharif,2019,0.5,12
+Telangana,NAGARKURNOOL,Maize,Rabi,2019,0.4111,12
+Telangana,NAGARKURNOOL,Moong(Green Gram),Kharif,2019,0.5,12
+Telangana,NAGARKURNOOL,Moong(Green Gram),Rabi,2019,0.4111,12
+Telangana,NAGARKURNOOL,Onion,Kharif,2019,0.5,12
+Telangana,NAGARKURNOOL,Onion,Rabi,2019,0.4111,12
+Telangana,NAGARKURNOOL,Rice,Kharif,2019,0.5,12
+Telangana,NAGARKURNOOL,Rice,Rabi,2019,0.4111,12
+Telangana,NAGARKURNOOL,Sugarcane,Kharif,2019,0.5,12
+Telangana,NAGARKURNOOL,Urad,Kharif,2019,0.5,12
+Telangana,NAGARKURNOOL,Urad,Rabi,2019,0.4111,12
+Telangana,NALGONDA,Arhar/Tur,Kharif,2019,0.4176,12
+Telangana,NALGONDA,Bajra,Kharif,2019,0.4176,12
+Telangana,NALGONDA,Bajra,Rabi,2019,0.3068,12
+Telangana,NALGONDA,Dry chillies,Kharif,2019,0.4176,12
+Telangana,NALGONDA,Dry chillies,Rabi,2019,0.3068,12
+Telangana,NALGONDA,Gram,Rabi,2019,0.3068,12
+Telangana,NALGONDA,Groundnut,Kharif,2019,0.4176,12
+Telangana,NALGONDA,Groundnut,Rabi,2019,0.3068,12
+Telangana,NALGONDA,Jowar,Kharif,2019,0.4176,12
+Telangana,NALGONDA,Jowar,Rabi,2019,0.3068,12
+Telangana,NALGONDA,Maize,Kharif,2019,0.4176,12
+Telangana,NALGONDA,Maize,Rabi,2019,0.3068,12
+Telangana,NALGONDA,Moong(Green Gram),Kharif,2019,0.4176,12
+Telangana,NALGONDA,Moong(Green Gram),Rabi,2019,0.3068,12
+Telangana,NALGONDA,Onion,Rabi,2019,0.3068,12
+Telangana,NALGONDA,Rice,Kharif,2019,0.4176,12
+Telangana,NALGONDA,Rice,Rabi,2019,0.3068,12
+Telangana,NALGONDA,Sugarcane,Kharif,2019,0.4176,12
+Telangana,NALGONDA,Urad,Rabi,2019,0.3068,12
+Telangana,NIRMAL,Arhar/Tur,Kharif,2019,0.4115,12
+Telangana,NIRMAL,Bajra,Rabi,2019,0.284,12
+Telangana,NIRMAL,Dry chillies,Kharif,2019,0.4115,12
+Telangana,NIRMAL,Dry chillies,Rabi,2019,0.284,12
+Telangana,NIRMAL,Gram,Rabi,2019,0.284,12
+Telangana,NIRMAL,Groundnut,Rabi,2019,0.284,12
+Telangana,NIRMAL,Jowar,Kharif,2019,0.4115,12
+Telangana,NIRMAL,Jowar,Rabi,2019,0.284,12
+Telangana,NIRMAL,Maize,Kharif,2019,0.4115,12
+Telangana,NIRMAL,Maize,Rabi,2019,0.284,12
+Telangana,NIRMAL,Moong(Green Gram),Kharif,2019,0.4115,12
+Telangana,NIRMAL,Moong(Green Gram),Rabi,2019,0.284,12
+Telangana,NIRMAL,Onion,Kharif,2019,0.4115,12
+Telangana,NIRMAL,Onion,Rabi,2019,0.284,12
+Telangana,NIRMAL,Rice,Kharif,2019,0.4115,12
+Telangana,NIRMAL,Rice,Rabi,2019,0.284,12
+Telangana,NIRMAL,Soyabean,Kharif,2019,0.4115,12
+Telangana,NIRMAL,Urad,Kharif,2019,0.4115,12
+Telangana,NIRMAL,Urad,Rabi,2019,0.284,12
+Telangana,NIRMAL,Wheat,Kharif,2019,0.4115,12
+Telangana,NIRMAL,Wheat,Rabi,2019,0.284,12
+Telangana,NIZAMABAD,Arhar/Tur,Kharif,2019,0.3169,12
+Telangana,NIZAMABAD,Bajra,Kharif,2019,0.3169,12
+Telangana,NIZAMABAD,Bajra,Rabi,2019,0.2037,12
+Telangana,NIZAMABAD,Dry chillies,Kharif,2019,0.3169,12
+Telangana,NIZAMABAD,Dry chillies,Rabi,2019,0.2037,12
+Telangana,NIZAMABAD,Gram,Rabi,2019,0.2037,12
+Telangana,NIZAMABAD,Groundnut,Kharif,2019,0.3169,12
+Telangana,NIZAMABAD,Groundnut,Rabi,2019,0.2037,12
+Telangana,NIZAMABAD,Jowar,Kharif,2019,0.3169,12
+Telangana,NIZAMABAD,Jowar,Rabi,2019,0.2037,12
+Telangana,NIZAMABAD,Maize,Kharif,2019,0.3169,12
+Telangana,NIZAMABAD,Maize,Rabi,2019,0.2037,12
+Telangana,NIZAMABAD,Moong(Green Gram),Kharif,2019,0.3169,12
+Telangana,NIZAMABAD,Moong(Green Gram),Rabi,2019,0.2037,12
+Telangana,NIZAMABAD,Onion,Kharif,2019,0.3169,12
+Telangana,NIZAMABAD,Onion,Rabi,2019,0.2037,12
+Telangana,NIZAMABAD,Rice,Kharif,2019,0.3169,12
+Telangana,NIZAMABAD,Rice,Rabi,2019,0.2037,12
+Telangana,NIZAMABAD,Soyabean,Kharif,2019,0.3169,12
+Telangana,NIZAMABAD,Sugarcane,Kharif,2019,0.3169,12
+Telangana,NIZAMABAD,Urad,Kharif,2019,0.3169,12
+Telangana,NIZAMABAD,Urad,Rabi,2019,0.2037,12
+Telangana,NIZAMABAD,Wheat,Rabi,2019,0.2037,12
+Telangana,PEDDAPALLI,Arhar/Tur,Kharif,2019,0.4393,12
+Telangana,PEDDAPALLI,Dry chillies,Kharif,2019,0.4393,12
+Telangana,PEDDAPALLI,Gram,Rabi,2019,0.3368,12
+Telangana,PEDDAPALLI,Groundnut,Kharif,2019,0.4393,12
+Telangana,PEDDAPALLI,Groundnut,Rabi,2019,0.3368,12
+Telangana,PEDDAPALLI,Jowar,Kharif,2019,0.4393,12
+Telangana,PEDDAPALLI,Jowar,Rabi,2019,0.3368,12
+Telangana,PEDDAPALLI,Maize,Kharif,2019,0.4393,12
+Telangana,PEDDAPALLI,Maize,Rabi,2019,0.3368,12
+Telangana,PEDDAPALLI,Moong(Green Gram),Kharif,2019,0.4393,12
+Telangana,PEDDAPALLI,Moong(Green Gram),Rabi,2019,0.3368,12
+Telangana,PEDDAPALLI,Onion,Rabi,2019,0.3368,12
+Telangana,PEDDAPALLI,Rice,Kharif,2019,0.4393,12
+Telangana,PEDDAPALLI,Rice,Rabi,2019,0.3368,12
+Telangana,PEDDAPALLI,Urad,Rabi,2019,0.3368,12
+Telangana,RAJANNA,Arhar/Tur,Kharif,2019,0.4571,12
+Telangana,RAJANNA,Bajra,Kharif,2019,0.4571,12
+Telangana,RAJANNA,Dry chillies,Kharif,2019,0.4571,12
+Telangana,RAJANNA,Gram,Rabi,2019,0.3126,12
+Telangana,RAJANNA,Groundnut,Rabi,2019,0.3126,12
+Telangana,RAJANNA,Jowar,Kharif,2019,0.4571,12
+Telangana,RAJANNA,Jowar,Rabi,2019,0.3126,12
+Telangana,RAJANNA,Maize,Kharif,2019,0.4571,12
+Telangana,RAJANNA,Maize,Rabi,2019,0.3126,12
+Telangana,RAJANNA,Moong(Green Gram),Kharif,2019,0.4571,12
+Telangana,RAJANNA,Moong(Green Gram),Rabi,2019,0.3126,12
+Telangana,RAJANNA,Onion,Kharif,2019,0.4571,12
+Telangana,RAJANNA,Onion,Rabi,2019,0.3126,12
+Telangana,RAJANNA,Rice,Kharif,2019,0.4571,12
+Telangana,RAJANNA,Rice,Rabi,2019,0.3126,12
+Telangana,RAJANNA,Soyabean,Kharif,2019,0.4571,12
+Telangana,RAJANNA,Sugarcane,Kharif,2019,0.4571,12
+Telangana,RAJANNA,Urad,Kharif,2019,0.4571,12
+Telangana,RAJANNA,Wheat,Rabi,2019,0.3126,12
+Telangana,RANGAREDDI,Arhar/Tur,Kharif,2019,0.5412,12
+Telangana,RANGAREDDI,Bajra,Kharif,2019,0.5412,12
+Telangana,RANGAREDDI,Bajra,Rabi,2019,0.3107,12
+Telangana,RANGAREDDI,Dry chillies,Kharif,2019,0.5412,12
+Telangana,RANGAREDDI,Dry chillies,Rabi,2019,0.3107,12
+Telangana,RANGAREDDI,Gram,Rabi,2019,0.3107,12
+Telangana,RANGAREDDI,Groundnut,Kharif,2019,0.5412,12
+Telangana,RANGAREDDI,Groundnut,Rabi,2019,0.3107,12
+Telangana,RANGAREDDI,Jowar,Kharif,2019,0.5412,12
+Telangana,RANGAREDDI,Jowar,Rabi,2019,0.3107,12
+Telangana,RANGAREDDI,Maize,Kharif,2019,0.5412,12
+Telangana,RANGAREDDI,Maize,Rabi,2019,0.3107,12
+Telangana,RANGAREDDI,Moong(Green Gram),Kharif,2019,0.5412,12
+Telangana,RANGAREDDI,Onion,Kharif,2019,0.5412,12
+Telangana,RANGAREDDI,Onion,Rabi,2019,0.3107,12
+Telangana,RANGAREDDI,Potato,Rabi,2019,0.3107,12
+Telangana,RANGAREDDI,Rice,Kharif,2019,0.5412,12
+Telangana,RANGAREDDI,Rice,Rabi,2019,0.3107,12
+Telangana,RANGAREDDI,Sugarcane,Kharif,2019,0.5412,12
+Telangana,RANGAREDDI,Urad,Kharif,2019,0.5412,12
+Telangana,RANGAREDDI,Wheat,Rabi,2019,0.3107,12
+Telangana,SANGAREDDY,Arhar/Tur,Kharif,2019,0.4529,12
+Telangana,SANGAREDDY,Bajra,Kharif,2019,0.4529,12
+Telangana,SANGAREDDY,Bajra,Rabi,2019,0.3235,12
+Telangana,SANGAREDDY,Dry chillies,Kharif,2019,0.4529,12
+Telangana,SANGAREDDY,Dry chillies,Rabi,2019,0.3235,12
+Telangana,SANGAREDDY,Gram,Rabi,2019,0.3235,12
+Telangana,SANGAREDDY,Groundnut,Kharif,2019,0.4529,12
+Telangana,SANGAREDDY,Groundnut,Rabi,2019,0.3235,12
+Telangana,SANGAREDDY,Jowar,Kharif,2019,0.4529,12
+Telangana,SANGAREDDY,Jowar,Rabi,2019,0.3235,12
+Telangana,SANGAREDDY,Maize,Kharif,2019,0.4529,12
+Telangana,SANGAREDDY,Maize,Rabi,2019,0.3235,12
+Telangana,SANGAREDDY,Moong(Green Gram),Kharif,2019,0.4529,12
+Telangana,SANGAREDDY,Onion,Kharif,2019,0.4529,12
+Telangana,SANGAREDDY,Onion,Rabi,2019,0.3235,12
+Telangana,SANGAREDDY,Potato,Rabi,2019,0.3235,12
+Telangana,SANGAREDDY,Rice,Kharif,2019,0.4529,12
+Telangana,SANGAREDDY,Rice,Rabi,2019,0.3235,12
+Telangana,SANGAREDDY,Soyabean,Kharif,2019,0.4529,12
+Telangana,SANGAREDDY,Sugarcane,Kharif,2019,0.4529,12
+Telangana,SANGAREDDY,Urad,Kharif,2019,0.4529,12
+Telangana,SANGAREDDY,Wheat,Rabi,2019,0.3235,12
+Telangana,SIDDIPET,Arhar/Tur,Kharif,2019,0.4459,12
+Telangana,SIDDIPET,Dry chillies,Kharif,2019,0.4459,12
+Telangana,SIDDIPET,Dry chillies,Rabi,2019,0.3153,12
+Telangana,SIDDIPET,Gram,Rabi,2019,0.3153,12
+Telangana,SIDDIPET,Groundnut,Kharif,2019,0.4459,12
+Telangana,SIDDIPET,Groundnut,Rabi,2019,0.3153,12
+Telangana,SIDDIPET,Jowar,Kharif,2019,0.4459,12
+Telangana,SIDDIPET,Maize,Kharif,2019,0.4459,12
+Telangana,SIDDIPET,Maize,Rabi,2019,0.3153,12
+Telangana,SIDDIPET,Moong(Green Gram),Kharif,2019,0.4459,12
+Telangana,SIDDIPET,Moong(Green Gram),Rabi,2019,0.3153,12
+Telangana,SIDDIPET,Onion,Kharif,2019,0.4459,12
+Telangana,SIDDIPET,Onion,Rabi,2019,0.3153,12
+Telangana,SIDDIPET,Potato,Kharif,2019,0.4459,12
+Telangana,SIDDIPET,Potato,Rabi,2019,0.3153,12
+Telangana,SIDDIPET,Rice,Kharif,2019,0.4459,12
+Telangana,SIDDIPET,Rice,Rabi,2019,0.3153,12
+Telangana,SIDDIPET,Soyabean,Kharif,2019,0.4459,12
+Telangana,SIDDIPET,Sugarcane,Kharif,2019,0.4459,12
+Telangana,SIDDIPET,Urad,Kharif,2019,0.4459,12
+Telangana,SIDDIPET,Urad,Rabi,2019,0.3153,12
+Telangana,SIDDIPET,Wheat,Rabi,2019,0.3153,12
+Telangana,SURYAPET,Arhar/Tur,Kharif,2019,0.398,12
+Telangana,SURYAPET,Arhar/Tur,Rabi,2019,0.2886,12
+Telangana,SURYAPET,Bajra,Kharif,2019,0.398,12
+Telangana,SURYAPET,Dry chillies,Kharif,2019,0.398,12
+Telangana,SURYAPET,Dry chillies,Rabi,2019,0.2886,12
+Telangana,SURYAPET,Gram,Rabi,2019,0.2886,12
+Telangana,SURYAPET,Groundnut,Kharif,2019,0.398,12
+Telangana,SURYAPET,Groundnut,Rabi,2019,0.2886,12
+Telangana,SURYAPET,Jowar,Kharif,2019,0.398,12
+Telangana,SURYAPET,Jowar,Rabi,2019,0.2886,12
+Telangana,SURYAPET,Maize,Kharif,2019,0.398,12
+Telangana,SURYAPET,Maize,Rabi,2019,0.2886,12
+Telangana,SURYAPET,Moong(Green Gram),Kharif,2019,0.398,12
+Telangana,SURYAPET,Moong(Green Gram),Rabi,2019,0.2886,12
+Telangana,SURYAPET,Onion,Kharif,2019,0.398,12
+Telangana,SURYAPET,Rice,Kharif,2019,0.398,12
+Telangana,SURYAPET,Rice,Rabi,2019,0.2886,12
+Telangana,SURYAPET,Sugarcane,Kharif,2019,0.398,12
+Telangana,SURYAPET,Urad,Kharif,2019,0.398,12
+Telangana,SURYAPET,Urad,Rabi,2019,0.2886,12
+Telangana,VIKARABAD,Arhar/Tur,Kharif,2019,0.5775,12
+Telangana,VIKARABAD,Arhar/Tur,Rabi,2019,0.263,12
+Telangana,VIKARABAD,Bajra,Kharif,2019,0.5775,12
+Telangana,VIKARABAD,Dry chillies,Kharif,2019,0.5775,12
+Telangana,VIKARABAD,Gram,Rabi,2019,0.263,12
+Telangana,VIKARABAD,Groundnut,Kharif,2019,0.5775,12
+Telangana,VIKARABAD,Groundnut,Rabi,2019,0.263,12
+Telangana,VIKARABAD,Jowar,Kharif,2019,0.5775,12
+Telangana,VIKARABAD,Jowar,Rabi,2019,0.263,12
+Telangana,VIKARABAD,Maize,Kharif,2019,0.5775,12
+Telangana,VIKARABAD,Maize,Rabi,2019,0.263,12
+Telangana,VIKARABAD,Moong(Green Gram),Kharif,2019,0.5775,12
+Telangana,VIKARABAD,Onion,Kharif,2019,0.5775,12
+Telangana,VIKARABAD,Onion,Rabi,2019,0.263,12
+Telangana,VIKARABAD,Potato,Rabi,2019,0.263,12
+Telangana,VIKARABAD,Rice,Kharif,2019,0.5775,12
+Telangana,VIKARABAD,Rice,Rabi,2019,0.263,12
+Telangana,VIKARABAD,Soyabean,Kharif,2019,0.5775,12
+Telangana,VIKARABAD,Sugarcane,Kharif,2019,0.5775,12
+Telangana,VIKARABAD,Urad,Kharif,2019,0.5775,12
+Telangana,VIKARABAD,Wheat,Rabi,2019,0.263,12
+Telangana,WANAPARTHY,Arhar/Tur,Kharif,2019,0.4714,12
+Telangana,WANAPARTHY,Arhar/Tur,Rabi,2019,0.2842,12
+Telangana,WANAPARTHY,Bajra,Kharif,2019,0.4714,12
+Telangana,WANAPARTHY,Dry chillies,Kharif,2019,0.4714,12
+Telangana,WANAPARTHY,Gram,Rabi,2019,0.2842,12
+Telangana,WANAPARTHY,Groundnut,Kharif,2019,0.4714,12
+Telangana,WANAPARTHY,Groundnut,Rabi,2019,0.2842,12
+Telangana,WANAPARTHY,Jowar,Kharif,2019,0.4714,12
+Telangana,WANAPARTHY,Jowar,Rabi,2019,0.2842,12
+Telangana,WANAPARTHY,Maize,Kharif,2019,0.4714,12
+Telangana,WANAPARTHY,Maize,Rabi,2019,0.2842,12
+Telangana,WANAPARTHY,Moong(Green Gram),Kharif,2019,0.4714,12
+Telangana,WANAPARTHY,Moong(Green Gram),Rabi,2019,0.2842,12
+Telangana,WANAPARTHY,Onion,Kharif,2019,0.4714,12
+Telangana,WANAPARTHY,Onion,Rabi,2019,0.2842,12
+Telangana,WANAPARTHY,Rice,Kharif,2019,0.4714,12
+Telangana,WANAPARTHY,Rice,Rabi,2019,0.2842,12
+Telangana,WANAPARTHY,Sugarcane,Kharif,2019,0.4714,12
+Telangana,WANAPARTHY,Urad,Kharif,2019,0.4714,12
+Telangana,WANAPARTHY,Urad,Rabi,2019,0.2842,12
+Telangana,WARANGAL,Arhar/Tur,Kharif,2019,0.4295,12
+Telangana,WARANGAL,Arhar/Tur,Rabi,2019,0.3006,12
+Telangana,WARANGAL,Bajra,Rabi,2019,0.3006,12
+Telangana,WARANGAL,Dry chillies,Kharif,2019,0.4295,12
+Telangana,WARANGAL,Dry chillies,Rabi,2019,0.3006,12
+Telangana,WARANGAL,Gram,Rabi,2019,0.3006,12
+Telangana,WARANGAL,Groundnut,Kharif,2019,0.4295,12
+Telangana,WARANGAL,Groundnut,Rabi,2019,0.3006,12
+Telangana,WARANGAL,Jowar,Kharif,2019,0.4295,12
+Telangana,WARANGAL,Jowar,Rabi,2019,0.3006,12
+Telangana,WARANGAL,Maize,Kharif,2019,0.4295,12
+Telangana,WARANGAL,Maize,Rabi,2019,0.3006,12
+Telangana,WARANGAL,Moong(Green Gram),Kharif,2019,0.4295,12
+Telangana,WARANGAL,Moong(Green Gram),Rabi,2019,0.3006,12
+Telangana,WARANGAL,Onion,Kharif,2019,0.4295,12
+Telangana,WARANGAL,Onion,Rabi,2019,0.3006,12
+Telangana,WARANGAL,Rice,Kharif,2019,0.4295,12
+Telangana,WARANGAL,Rice,Rabi,2019,0.3006,12
+Telangana,WARANGAL,Soyabean,Kharif,2019,0.4295,12
+Telangana,WARANGAL,Sugarcane,Kharif,2019,0.4295,12
+Telangana,WARANGAL,Urad,Kharif,2019,0.4295,12
+Telangana,WARANGAL,Urad,Rabi,2019,0.3006,12
+Telangana,YADADRI,Arhar/Tur,Kharif,2019,0.5761,12
+Telangana,YADADRI,Bajra,Kharif,2019,0.5761,12
+Telangana,YADADRI,Dry chillies,Kharif,2019,0.5761,12
+Telangana,YADADRI,Dry chillies,Rabi,2019,0.2956,12
+Telangana,YADADRI,Gram,Rabi,2019,0.2956,12
+Telangana,YADADRI,Groundnut,Kharif,2019,0.5761,12
+Telangana,YADADRI,Groundnut,Rabi,2019,0.2956,12
+Telangana,YADADRI,Jowar,Kharif,2019,0.5761,12
+Telangana,YADADRI,Jowar,Rabi,2019,0.2956,12
+Telangana,YADADRI,Maize,Kharif,2019,0.5761,12
+Telangana,YADADRI,Maize,Rabi,2019,0.2956,12
+Telangana,YADADRI,Moong(Green Gram),Kharif,2019,0.5761,12
+Telangana,YADADRI,Moong(Green Gram),Rabi,2019,0.2956,12
+Telangana,YADADRI,Onion,Rabi,2019,0.2956,12
+Telangana,YADADRI,Rice,Kharif,2019,0.5761,12
+Telangana,YADADRI,Rice,Rabi,2019,0.2956,12
+Telangana,YADADRI,Sugarcane,Kharif,2019,0.5761,12
+Telangana,YADADRI,Urad,Kharif,2019,0.5761,12
+Telangana,YADADRI,Urad,Rabi,2019,0.2956,12

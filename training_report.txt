@@ -1,0 +1,71 @@
+Ridge: MAE=2.9773  RMSE=7.0267  R²=0.7890
+  Per-crop breakdown:
+    Rice                      MAE=1.357  R²=-2.696  n=2150
+    Maize                     MAE=1.313  R²=-0.132  n=2104
+    Moong(Green Gram)         MAE=0.973  R²=-18.568  n=1715
+    Urad                      MAE=0.938  R²=-16.288  n=1628
+    Groundnut                 MAE=1.047  R²=-1.688  n=1301
+    Wheat                     MAE=1.271  R²=-0.717  n=1028
+    Rapeseed &Mustard         MAE=0.839  R²=-3.243  n=1052
+    Sugarcane                 MAE=22.987  R²=0.010  n=1009
+    Arhar/Tur                 MAE=0.884  R²=-6.526  n=1109
+    Potato                    MAE=6.728  R²=0.007  n=1156
+    Onion                     MAE=6.851  R²=-0.179  n=1219
+    Gram                      MAE=0.952  R²=-7.144  n=990
+    Jowar                     MAE=0.987  R²=-4.815  n=966
+    Dry chillies              MAE=2.287  R²=-2.516  n=745
+    Bajra                     MAE=1.829  R²=-0.146  n=881
+    Soyabean                  MAE=0.864  R²=-5.636  n=576
+Random Forest: MAE=1.8208  RMSE=5.0538  R²=0.8908
+  Per-crop breakdown:
+    Rice                      MAE=0.650  R²=0.271  n=2150
+    Maize                     MAE=0.974  R²=0.234  n=2104
+    Moong(Green Gram)         MAE=0.209  R²=0.064  n=1715
+    Urad                      MAE=0.231  R²=-0.062  n=1628
+    Groundnut                 MAE=0.510  R²=0.215  n=1301
+    Wheat                     MAE=0.664  R²=0.501  n=1028
+    Rapeseed &Mustard         MAE=0.329  R²=0.327  n=1052
+    Sugarcane                 MAE=15.766  R²=0.463  n=1009
+    Arhar/Tur                 MAE=0.305  R²=-0.149  n=1109
+    Potato                    MAE=4.593  R²=0.476  n=1156
+    Onion                     MAE=4.635  R²=0.447  n=1219
+    Gram                      MAE=0.406  R²=-7.154  n=990
+    Jowar                     MAE=0.549  R²=-2.329  n=966
+    Dry chillies              MAE=1.011  R²=0.363  n=745
+    Bajra                     MAE=0.871  R²=0.766  n=881
+    Soyabean                  MAE=0.364  R²=-0.179  n=576
+Gradient Boosting: MAE=1.8144  RMSE=4.8341  R²=0.9001
+  Per-crop breakdown:
+    Rice                      MAE=0.824  R²=-0.252  n=2150
+    Maize                     MAE=1.054  R²=0.096  n=2104
+    Moong(Green Gram)         MAE=0.224  R²=0.024  n=1715
+    Urad                      MAE=0.245  R²=-0.145  n=1628
+    Groundnut                 MAE=0.580  R²=-0.018  n=1301
+    Wheat                     MAE=0.760  R²=0.383  n=1028
+    Rapeseed &Mustard         MAE=0.332  R²=0.344  n=1052
+    Sugarcane                 MAE=14.437  R²=0.531  n=1009
+    Arhar/Tur                 MAE=0.320  R²=0.010  n=1109
+    Potato                    MAE=4.603  R²=0.491  n=1156
+    Onion                     MAE=4.997  R²=0.352  n=1219
+    Gram                      MAE=0.320  R²=-0.202  n=990
+    Jowar                     MAE=0.415  R²=-0.103  n=966
+    Dry chillies              MAE=1.174  R²=0.094  n=745
+    Bajra                     MAE=0.923  R²=0.779  n=881
+    Soyabean                  MAE=0.373  R²=-0.531  n=576
+
+Top 15 Feature Importances (Random Forest):
+  crop_Sugarcane                      █████████████████████████ 0.4793
+  season_Whole Year                   ███                       0.0639
+  solar_radiation_mj                  ██                        0.0537
+  area_ha                             █                         0.0329
+  gdd_proxy                           █                         0.0318
+  crop_Dry chillies                   █                         0.0317
+  crop_Onion                          █                         0.0279
+  crop_Potato                         █                         0.0273
+  season_days                         █                         0.0243
+  season_days                         █                         0.0238
+  wind_speed_ms                       █                         0.0237
+  humidity_pct                                                  0.0182
+  temp_min_c                                                    0.0155
+  temp_range_c                                                  0.0153
+  ndvi_season_mean                                              0.0127

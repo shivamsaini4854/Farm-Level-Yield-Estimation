@@ -1,88 +1,235 @@
 *** PROJECT CHECKPOINT ***
 Project: Farm-Level Yield Estimation System (B.Tech Project)
-Team Members: Shivam and Sumeet.
-
-# TECH STACK & ARCHITECTURE
-- Frontend: HTML/CSS/JS (Jinja templating) [cite: 2, 3]
-- Backend: Python Flask (app.py) [cite: 2, 3]
-- Database: Local MySQL (Database: FarmYieldSystem) [cite: 2]
-- Data APIs: Open-Meteo (Weather) and Google Earth Engine (Sentinel-2 NDVI) [cite: 2]
-- Version Control: Git / GitHub [cite: 2, 5]
-
-# CURRENT STATE (April 8, 2026)
-1. Database: Fully initialized with 'Farmers' table using specific columns: farm_location_lat and farm_location_long. [cite: 2]
-2. Weather Pipeline: Live Open-Meteo integration fetching data and logging to MySQL. [cite: 4]
-3. Satellite Pipeline: Google Earth Engine authenticated (Project: madd-1eddf) and integrated via fetch_satellite.py. [cite: 6, 7]
-4. Backend Integration: Flask route /api/fetch_ndvi/1 successfully handles GEE requests.
-5. Critical Fixes: Applied float() conversion to coordinates in app.py to ensure GEE compatibility.
-6. Frontend Success: AJAX logic in index.html verified; NDVI score (0.3531) displays correctly on the UI.
-
-# NEXT IMMEDIATE TASKS
-- Implement SQL 'INSERT' within the NDVI route to log satellite scores to the WeatherData table.
-- Develop a visual health indicator (e.g., color-coded gauge) for the NDVI output.
-
+Team Members: Shivam and Sumeet
+Current Phase: Semester 6 (Foundation, Data & Baseline ML) — MENTOR DEMO READY
 
 =============================================================================
-# FARM YIELD PREDICTION PROJECT - STATUS REPORT (April 9, 2026)
-# Student: Udit Dhiman | B.Tech CSE (3rd Year)
-
-## 1. PROJECT CONTEXT
-- Target Location: Saharanpur, Uttar Pradesh, India
-- Coordinates: (30.0289, 77.1462)
-- Focus Crop: Sugarcane (Kharif Season)
-- Dashboard Status: Flask App running on localhost:5000
-
-## 2. RECENT ACHIEVEMENTS
-- ENVIRONMENT: Fixed 'venv' activation and PowerShell execution policies.
-- DATA SOURCE: Registered on data.gov.in and set 'DATAGOVINDIA_API_KEY' as a System Environment Variable.
-- HISTORICAL DATA: Manually cleaned and verified 'saharanpur_sugarcane_yield.csv' (2015-2023).
-- BASELINE MODEL: Successfully ran 'merge_data.py' producing a 2026 estimate of 74.57 T/Ha.
-
-## 3. CURRENT METRICS
-- Live NDVI Score: 0.3531 (Moderate Health)
-- Historical Peak Yield: 84.48 T/Ha (2022-23)
-- Current Predicted Yield: 74.57 T/Ha
-
-## 4. NEXT STEPS (To-Do for Tomorrow)
-- [ ] Integration: Import the 'merge_data' logic into 'app.py' to show the prediction on the web UI.
-- [ ] Visualization: Add a Plotly or Chart.js graph to the dashboard showing the 2015-2023 yield trend.
-- [ ] Weather Sync: Link the historical yield years with historical rainfall from Open-Meteo for Semester 7 training preparation.
-- [ ] Documentation: Update the Semester 6 training report with the new government data findings.
-
-
-=============================================================================
-FARM YIELD ESTIMATION PROJECT - SAVE STATE
-Date: April 10, 2026
-Team: Shivam & Sumeet
-Current Phase: Semester 6 (Foundation, Data, & Baseline ML)
+# TECH STACK & ARCHITECTURE (FINAL AS OF APRIL 14, 2026)
 =============================================================================
 
-[COMPLETED TODAY]
-1. Frontend (index.html):
-   - Integrated Leaflet.js interactive map.
-   - Added OpenStreetMap Nominatim API for live search bar.
-   - Implemented Jinja logic to persist map state (pin memory) on page reload.
-   - Added dynamic UI updates to reflect the selected crop.
-
-2. Backend (app.py):
-   - Built dynamic coordinate routing for Open-Meteo (Weather API).
-   - Upgraded Earth Engine satellite route to accept dynamic lat/lon/crop data.
-   - Replaced static CSV read with a dynamic CROP_BASELINES dictionary (Heuristic Model).
-
-[CURRENT CODEBASE STATUS]
-- app.py: Stable & Functional.
-- index.html: Stable & Functional.
-- fetch_weather.py: Stable.
-- fetch_satellite.py: Stable.
-
-[NEXT STEPS FOR TOMORROW]
-1. Data Gathering: Secure historical CSV datasets for North India crops (Wheat, Rice, Sugarcane) containing weather/NDVI and final yield weights.
-2. EDA (Exploratory Data Analysis): Clean the historical data using Pandas.
-3. Machine Learning (train_model.py): 
-   - Write the script to train a Random Forest Regressor on the historical data.
-   - Export the trained model as 'model.pkl'.
-4. Integration: Delete the CROP_BASELINES dictionary in app.py and hook up the live API inputs to the new ML model for true predictive capability.
+Frontend  : HTML/CSS/JS (Jinja templating) — fully redesigned dark AgriTech UI
+Backend   : Python Flask (app.py)
+Database  : Cloud MySQL via TiDB (connected via .env, ssl_ca=isrgrootx1.pem)
+ML Model  : Gradient Boosting Regressor (scikit-learn) — yield_model.pkl
+Satellite : Google Earth Engine (Project: madd-1eddf) — MODIS + Sentinel-2
+Weather   : NASA POWER API (historical daily, all-India)
+NDVI Live : GEE Sentinel-2 SR Harmonized (last 90 days, 10m resolution)
+Version   : Git / GitHub
 
 =============================================================================
-STATUS: Ready to pivot from Software Engineering to Data Science.
+# SAVE STATE — April 14, 2026
+=============================================================================
+
+## PHASE 1: DATA COLLECTION (COMPLETE)
+
+### Dataset 1 — APY (Area, Production, Yield)
+- Source    : Kaggle (Government of India, district-wise season-wise)
+- Coverage  : All India, 1997–2020, 55 crops, 762 districts, 37 states
+- Filtered  : Top 16 crops selected for training (see crop list below)
+- File      : APY.csv (345k rows raw, 190k rows after crop filter)
+
+### Top 16 Crops Selected for Training:
+  Rice, Maize, Moong(Green Gram), Urad, Groundnut, Wheat,
+  Rapeseed & Mustard, Sugarcane, Arhar/Tur, Potato, Onion,
+  Gram, Jowar, Dry chillies, Bajra, Soyabean
+
+### Dataset 2 — NASA POWER Historical Weather + Soil
+- Source    : NASA POWER API (MERRA-2 reanalysis, no auth required)
+- Coverage  : All India, 730/762 districts fetched, 1997–2019
+- Variables : T2M, T2M_MAX, T2M_MIN, PRECTOTCORR, RH2M, WS2M,
+              ALLSKY_SFC_SW_DWN, GWETROOT (root zone soil), GWETTOP (surface soil)
+- Fetch     : 1 API call per district for full date range (parallel, 4 workers)
+- Duration  : ~38 minutes total fetch time
+- Output    : nasa_power_seasonal.csv (48,048 rows, 33 states, 668 districts)
+- Note      : ET0 parameter returned fully null — dropped from features
+
+### Dataset 3 — MODIS NDVI Historical (via GEE)
+- Source    : MODIS/061/MOD13A3 (monthly, 1km resolution, 2000–2019)
+- Coverage  : Batch 1 (5 states: UP, MP, Karnataka, Bihar, Maharashtra)
+              Batch 2 (12 states: Odisha, Rajasthan, Gujarat, AP, Tamil Nadu,
+              Assam, Chhattisgarh, West Bengal, Haryana, Jharkhand, Punjab, Telangana)
+- Fetch     : Optimized — 1 GEE call per month covers ALL districts simultaneously
+              using ee.FeatureCollection + reduceRegions (95% fewer API calls vs naive approach)
+- Duration  : ~30 min per batch
+- Output    : ndvi_historical_all_india.csv (148,473 rows, 17 states, 540 districts)
+- Note      : Years 1997–1999 have no NDVI (MODIS starts 2000) — handled via imputation
+
+## PHASE 2: DATA MERGING (COMPLETE)
+
+### Merge Pipeline (merge_and_train.py)
+- APY (yield labels) inner-joined with NASA POWER on [State, District, Season, Crop_Year]
+- NDVI left-joined on [State, District, Crop, Season, Crop_Year]
+- Retention: 186,185 / 190,676 rows (97.6%) after APY+NASA merge
+- NDVI coverage: 78.9% of rows (pre-2000 rows + states outside NDVI batches = NaN)
+- After yield outlier capping + null drop: 184,436 clean rows
+- Output: merged_dataset.csv
+
+### Feature Engineering Applied:
+  Raw weather (9 features): temp_mean, temp_max, temp_min, rainfall_mm,
+  humidity_pct, wind_speed_ms, solar_radiation_mj, soil_moisture_root,
+  soil_moisture_surface, season_days
+
+  Engineered (7 features): temp_range_c, soil_moisture_composite,
+  gdd_proxy (Growing Degree Days), heat_stress, aridity_index,
+  ndvi_season_mean, ndvi_available (flag: 1 if real NDVI, 0 if imputed)
+
+  Categorical (25 features): crop dummies (16) + season dummies (4) + area_ha
+  Total: 41 features
+
+## PHASE 3: MODEL TRAINING (COMPLETE)
+
+### Train/Test Split
+- Strategy   : Temporal split (last 3 years = test, NOT random)
+  Train: 1997–2017 (164,807 rows)
+  Test : 2018–2020 (19,629 rows)
+
+### Models Evaluated:
+  Ridge Regression      : MAE=2.977  RMSE=7.027  R²=0.789
+  Random Forest         : MAE=1.821  RMSE=5.054  R²=0.891
+  Gradient Boosting     : MAE=1.814  RMSE=4.834  R²=0.900  ← WINNER
+
+### Best Model: Gradient Boosting Regressor
+  n_estimators=400, learning_rate=0.05, max_depth=6,
+  min_samples_leaf=4, subsample=0.8, random_state=42
+
+### Honest Per-Crop R² (on test set):
+  Wheat          R²=0.567   MAE=0.618 T/Ha   ← good
+  Bajra          R²=0.744   MAE=0.873 T/Ha   ← good
+  Sugarcane      R²=0.519   MAE=14.47 T/Ha   ← good (high scale)
+  Potato         R²=0.502   MAE=4.448 T/Ha   ← acceptable
+  Onion          R²=0.449   MAE=4.537 T/Ha   ← acceptable
+  Dry chillies   R²=0.417   MAE=0.914 T/Ha   ← acceptable
+  Rice           R²=0.274   MAE=0.636 T/Ha   ← weak (monsoon variance)
+  Maize          R²=0.323   MAE=0.933 T/Ha   ← weak
+  Groundnut      R²=0.131   MAE=0.520 T/Ha   ← poor
+  Arhar/Tur      R²=-0.079  MAE=0.330 T/Ha   ← poor (needs soil type feature)
+  Gram           R²=-0.066  MAE=0.327 T/Ha   ← poor
+  Soyabean       R²=-0.011  MAE=0.334 T/Ha   ← poor
+
+  Note: Overall R²=0.90 is inflated by Sugarcane scale dominance.
+  Per-crop R² is the honest benchmark. Pulse crops (Arhar, Gram, Urad)
+  need additional features (soil type, irrigation access) — Semester 7 target.
+
+### Model Artifacts (in project root):
+  yield_model.pkl        — trained Gradient Boosting model
+  scaler.pkl             — StandardScaler (used only if Ridge wins; not needed here)
+  model_metadata.json    — feature column list, crop list, eval metrics
+  merged_dataset.csv     — final training dataset (keep, used for retraining)
+  training_report.txt    — full evaluation log
+
+## PHASE 4: FLASK + FRONTEND INTEGRATION (COMPLETE)
+
+### app.py (fully rewritten)
+- Loads yield_model.pkl, scaler.pkl, model_metadata.json at startup
+- CROP_BASELINES heuristic fully removed
+- New /api/fetch_ndvi route:
+    1. Season status check (active / completed / not_started)
+    2. Fetches live NDVI from GEE Sentinel-2 (last 90 days)
+    3. Fetches season weather from NASA POWER (season start → today)
+    4. Builds 41-feature vector matching training schema exactly
+    5. Runs Gradient Boosting model → yield prediction
+    6. Returns: prediction, ndvi, weather summary, season window, model name
+- Season windows defined per crop:
+    Sugarcane  → Whole Year (Jan–Dec)
+    Wheat/Gram/Mustard/Potato/Onion → Rabi (Oct–Mar)
+    Rice/Maize/Bajra/Jowar/Groundnut/Arhar/Moong/Urad/Soyabean/Chillies → Kharif (Jun–Nov)
+- "not_started" response returned for Kharif crops (season begins June)
+
+### index.html (fully redesigned)
+- Dark precision AgriTech aesthetic (deep earth greens, monospace data readout)
+- Fonts: Syne (display) + Space Mono (data/numbers)
+- Dark CARTO map tiles replacing standard OSM
+- Custom glowing green pin marker
+- 4-column crop selector grid (16 crops)
+- Animated loading states with rotating status messages
+- Result cards: Yield Hero, NDVI gauge, Weather 2x2 grid, Season progress bar
+- Season-not-started state: amber warning card with start date
+- Fully responsive sidebar + full-height map layout
+
+## KNOWN LIMITATIONS (TO STATE IN PRESENTATION)
+
+1. NDVI not in training data directly — historical NDVI fetched at district
+   centroid level. Per-farm NDVI used only at inference time as adjustment signal.
+2. 29 districts missing from NASA POWER fetch due to name mismatches in APY
+   (BADGAM, FIROZEPUR, etc.) — 668/762 = 87.7% coverage, acceptable.
+3. Pulse crop R² is negative — these crops need soil type and irrigation
+   features not available in current dataset. Planned for Semester 7.
+4. NASA POWER has 3-5 day lag — inference weather is always slightly behind.
+   Acceptable for seasonal prediction use case.
+5. archive.open-meteo.com blocked on local network — NASA POWER used instead.
+6. ET0 (evapotranspiration) returned null from NASA POWER — dropped from features.
+
+=============================================================================
+# CURRENT FILE STRUCTURE
+=============================================================================
+
+Farm-Level-Yield-Estimation/
+├── app.py                        ← Main Flask app (ML-integrated, rewritten)
+├── fetch_weather.py              ← Live Open-Meteo weather fetch (unchanged)
+├── fetch_satellite.py            ← GEE NDVI fetch (unchanged)
+├── fetch_soil_smap.py            ← NASA POWER soil blend (unchanged)
+├── fetch_ndvi_historical.py      ← Batch 1 NDVI fetch (5 states)
+├── fetch_ndvi_batch2.py          ← Batch 2 NDVI fetch (12 states) + merge flags
+├── fetch_nasa_power.py           ← All-India NASA POWER historical fetch
+├── merge_and_train.py            ← Full merge + feature engineering + train
+├── yield_model.pkl               ← Trained Gradient Boosting model
+├── scaler.pkl                    ← Fitted StandardScaler
+├── model_metadata.json           ← Feature list + metrics (Flask reads this)
+├── merged_dataset.csv            ← Final 184k-row training dataset
+├── nasa_power_seasonal.csv       ← NASA POWER seasonal aggregates
+├── ndvi_historical_all_india.csv ← MODIS NDVI for 17 states
+├── APY.csv                       ← Source yield dataset (Kaggle)
+├── .env                          ← DB credentials (never commit)
+├── isrgrootx1.pem                ← TiDB SSL cert
+├── nasa_power_raw/               ← Raw per-district daily CSVs (730 files)
+└── templates/
+    └── index.html                ← Dashboard frontend (redesigned)
+
+=============================================================================
+# SEMESTER 7 ROADMAP (NEXT PHASE)
+=============================================================================
+
+1. Expand NDVI coverage to remaining states (Uttarakhand, Himachal Pradesh,
+   Arunachal Pradesh, J&K, Kerala, NE states — currently missing from training)
+
+2. Add soil type features (sandy/loamy/clay) — NBSS&LUP dataset
+   This is the single highest-impact improvement for pulse crop R²
+
+3. Irrigation access flag (ICRISAT district database) — binary feature
+
+4. LSTM / time-series model for crops with sequential NDVI signal
+
+5. XGBoost hyperparameter tuning + Optuna for automated search
+
+6. Log live predictions + farmer feedback to DB for online retraining
+
+7. QGIS spatial visualisation of district-level yield maps
+
+8. REST API versioning + proper auth for multi-user deployment
+
+=============================================================================
+# DEMO INSTRUCTIONS (APRIL 16, 2026)
+=============================================================================
+
+BEST CROPS TO DEMO (season data available right now):
+  Wheat      → Rabi season Oct 2025 – Mar 2026 (completed, full data)
+  Sugarcane  → Whole Year Jan–Apr 2026 (active, ~106 days of data)
+  Potato     → Rabi season (completed)
+  Mustard    → Rabi season (completed)
+
+DO NOT DEMO (Kharif — season starts June 2026):
+  Rice, Maize, Bajra, Jowar, Groundnut, Arhar/Tur, Moong, Urad, Soyabean, Chillies
+  These will show the "Season Not Started" amber card — expected behaviour.
+
+DEMO FLOW:
+  1. Open localhost:5000
+  2. Search "Saharanpur" in the search bar — pin drops automatically
+  3. Select Wheat → click Run Yield Analysis
+  4. Wait ~15-20 sec (NASA POWER + GEE fetch — loading animation shows)
+  5. Results appear: ML yield prediction, NDVI gauge, weather summary, season bar
+  6. Repeat with Sugarcane to show a different crop
+  7. Try selecting Rice → show "Season Not Started" card (explains season awareness)
+
+=============================================================================
+STATUS: MENTOR DEMO READY — April 16, 2026
 =============================================================================

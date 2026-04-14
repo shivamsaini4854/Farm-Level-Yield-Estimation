@@ -1,0 +1,3959 @@
+State,District,Crop,Season,year,ndvi_season_mean,ndvi_months_available
+Jharkhand,BOKARO,Maize,Autumn,2002,0.4232,12
+Jharkhand,BOKARO,Rice,Winter,2002,0.4232,12
+Jharkhand,BOKARO,Wheat,Rabi,2002,0.2988,12
+Jharkhand,CHATRA,Arhar/Tur,Rabi,2002,0.3547,12
+Jharkhand,CHATRA,Gram,Rabi,2002,0.3547,12
+Jharkhand,CHATRA,Maize,Autumn,2002,0.4527,12
+Jharkhand,CHATRA,Rapeseed &Mustard,Rabi,2002,0.3547,12
+Jharkhand,CHATRA,Rice,Winter,2002,0.4527,12
+Jharkhand,CHATRA,Wheat,Rabi,2002,0.3547,12
+Jharkhand,DEOGHAR,Maize,Autumn,2002,0.4011,12
+Jharkhand,DEOGHAR,Rice,Autumn,2002,0.4011,12
+Jharkhand,DEOGHAR,Rice,Winter,2002,0.4011,12
+Jharkhand,DEOGHAR,Wheat,Rabi,2002,0.3071,12
+Jharkhand,DHANBAD,Maize,Autumn,2002,0.401,12
+Jharkhand,DHANBAD,Rice,Winter,2002,0.401,12
+Jharkhand,DHANBAD,Wheat,Rabi,2002,0.341,12
+Jharkhand,DUMKA,Arhar/Tur,Rabi,2002,0.3377,12
+Jharkhand,DUMKA,Maize,Autumn,2002,0.42,12
+Jharkhand,DUMKA,Rapeseed &Mustard,Rabi,2002,0.3377,12
+Jharkhand,DUMKA,Rice,Autumn,2002,0.42,12
+Jharkhand,DUMKA,Rice,Winter,2002,0.42,12
+Jharkhand,DUMKA,Wheat,Rabi,2002,0.3377,12
+Jharkhand,EAST SINGHBUM,Rice,Autumn,2002,0.3029,12
+Jharkhand,EAST SINGHBUM,Rice,Winter,2002,0.3029,12
+Jharkhand,GARHWA,Arhar/Tur,Rabi,2002,0.3259,12
+Jharkhand,GARHWA,Rapeseed &Mustard,Rabi,2002,0.3259,12
+Jharkhand,GARHWA,Rice,Winter,2002,0.3863,12
+Jharkhand,GARHWA,Wheat,Rabi,2002,0.3259,12
+Jharkhand,GIRIDIH,Maize,Autumn,2002,0.4056,12
+Jharkhand,GIRIDIH,Potato,Rabi,2002,0.2795,12
+Jharkhand,GIRIDIH,Rice,Autumn,2002,0.4056,12
+Jharkhand,GIRIDIH,Rice,Winter,2002,0.4056,12
+Jharkhand,GIRIDIH,Wheat,Rabi,2002,0.2795,12
+Jharkhand,GODDA,Arhar/Tur,Rabi,2002,0.3106,12
+Jharkhand,GODDA,Gram,Rabi,2002,0.3106,12
+Jharkhand,GODDA,Maize,Autumn,2002,0.3994,12
+Jharkhand,GODDA,Rapeseed &Mustard,Rabi,2002,0.3106,12
+Jharkhand,GODDA,Rice,Autumn,2002,0.3994,12
+Jharkhand,GODDA,Rice,Winter,2002,0.3994,12
+Jharkhand,GODDA,Wheat,Rabi,2002,0.3106,12
+Jharkhand,GUMLA,Arhar/Tur,Rabi,2002,0.3082,12
+Jharkhand,GUMLA,Gram,Rabi,2002,0.3082,12
+Jharkhand,GUMLA,Maize,Autumn,2002,0.3951,12
+Jharkhand,GUMLA,Potato,Rabi,2002,0.3082,12
+Jharkhand,GUMLA,Potato,Winter,2002,0.3951,12
+Jharkhand,GUMLA,Rapeseed &Mustard,Rabi,2002,0.3082,12
+Jharkhand,GUMLA,Rice,Autumn,2002,0.3951,12
+Jharkhand,GUMLA,Rice,Winter,2002,0.3951,12
+Jharkhand,GUMLA,Wheat,Rabi,2002,0.3082,12
+Jharkhand,HAZARIBAGH,Arhar/Tur,Rabi,2002,0.3181,12
+Jharkhand,HAZARIBAGH,Gram,Rabi,2002,0.3181,12
+Jharkhand,HAZARIBAGH,Maize,Autumn,2002,0.3852,12
+Jharkhand,HAZARIBAGH,Potato,Rabi,2002,0.3181,12
+Jharkhand,HAZARIBAGH,Potato,Winter,2002,0.3852,12
+Jharkhand,HAZARIBAGH,Rice,Autumn,2002,0.3852,12
+Jharkhand,HAZARIBAGH,Rice,Winter,2002,0.3852,12
+Jharkhand,HAZARIBAGH,Wheat,Rabi,2002,0.3181,12
+Jharkhand,KODERMA,Arhar/Tur,Rabi,2002,0.3659,12
+Jharkhand,KODERMA,Rice,Winter,2002,0.4408,12
+Jharkhand,KODERMA,Wheat,Rabi,2002,0.3659,12
+Jharkhand,LOHARDAGA,Arhar/Tur,Rabi,2002,0.3058,12
+Jharkhand,LOHARDAGA,Rice,Autumn,2002,0.4033,12
+Jharkhand,LOHARDAGA,Rice,Winter,2002,0.4033,12
+Jharkhand,LOHARDAGA,Wheat,Rabi,2002,0.3058,12
+Jharkhand,PAKUR,Arhar/Tur,Rabi,2002,0.2871,12
+Jharkhand,PAKUR,Gram,Rabi,2002,0.2871,12
+Jharkhand,PAKUR,Maize,Autumn,2002,0.4074,12
+Jharkhand,PAKUR,Rapeseed &Mustard,Rabi,2002,0.2871,12
+Jharkhand,PAKUR,Rice,Autumn,2002,0.4074,12
+Jharkhand,PAKUR,Rice,Winter,2002,0.4074,12
+Jharkhand,PAKUR,Wheat,Rabi,2002,0.2871,12
+Jharkhand,PALAMU,Arhar/Tur,Rabi,2002,0.246,12
+Jharkhand,PALAMU,Gram,Rabi,2002,0.246,12
+Jharkhand,PALAMU,Maize,Autumn,2002,0.341,12
+Jharkhand,PALAMU,Potato,Rabi,2002,0.246,12
+Jharkhand,PALAMU,Rapeseed &Mustard,Rabi,2002,0.246,12
+Jharkhand,PALAMU,Rice,Autumn,2002,0.341,12
+Jharkhand,PALAMU,Rice,Winter,2002,0.341,12
+Jharkhand,PALAMU,Wheat,Rabi,2002,0.246,12
+Jharkhand,RANCHI,Arhar/Tur,Rabi,2002,0.3124,12
+Jharkhand,RANCHI,Gram,Rabi,2002,0.3124,12
+Jharkhand,RANCHI,Maize,Autumn,2002,0.3844,12
+Jharkhand,RANCHI,Potato,Rabi,2002,0.3124,12
+Jharkhand,RANCHI,Potato,Winter,2002,0.3844,12
+Jharkhand,RANCHI,Rapeseed &Mustard,Rabi,2002,0.3124,12
+Jharkhand,RANCHI,Rice,Autumn,2002,0.3844,12
+Jharkhand,RANCHI,Rice,Winter,2002,0.3844,12
+Jharkhand,RANCHI,Wheat,Rabi,2002,0.3124,12
+Jharkhand,SAHEBGANJ,Gram,Rabi,2002,0.4148,12
+Jharkhand,SAHEBGANJ,Maize,Autumn,2002,0.4277,12
+Jharkhand,SAHEBGANJ,Rapeseed &Mustard,Rabi,2002,0.4148,12
+Jharkhand,SAHEBGANJ,Rice,Winter,2002,0.4277,12
+Jharkhand,SAHEBGANJ,Wheat,Rabi,2002,0.4148,12
+Jharkhand,WEST SINGHBHUM,Arhar/Tur,Rabi,2002,0.3162,12
+Jharkhand,WEST SINGHBHUM,Gram,Rabi,2002,0.3162,12
+Jharkhand,WEST SINGHBHUM,Maize,Autumn,2002,0.43,12
+Jharkhand,WEST SINGHBHUM,Rice,Autumn,2002,0.43,12
+Jharkhand,WEST SINGHBHUM,Rice,Winter,2002,0.43,12
+Jharkhand,BOKARO,Maize,Autumn,2003,0.4554,12
+Jharkhand,BOKARO,Rice,Winter,2003,0.4554,12
+Jharkhand,BOKARO,Wheat,Rabi,2003,0.31,12
+Jharkhand,CHATRA,Arhar/Tur,Kharif,2003,0.5962,12
+Jharkhand,CHATRA,Gram,Rabi,2003,0.3805,12
+Jharkhand,CHATRA,Maize,Autumn,2003,0.4753,12
+Jharkhand,CHATRA,Rapeseed &Mustard,Rabi,2003,0.3805,12
+Jharkhand,CHATRA,Rice,Winter,2003,0.4753,12
+Jharkhand,CHATRA,Wheat,Rabi,2003,0.3805,12
+Jharkhand,DEOGHAR,Maize,Autumn,2003,0.3911,12
+Jharkhand,DEOGHAR,Rice,Autumn,2003,0.3911,12
+Jharkhand,DEOGHAR,Rice,Winter,2003,0.3911,12
+Jharkhand,DEOGHAR,Wheat,Rabi,2003,0.3555,12
+Jharkhand,DHANBAD,Maize,Autumn,2003,0.4151,12
+Jharkhand,DHANBAD,Rice,Winter,2003,0.4151,12
+Jharkhand,DHANBAD,Wheat,Rabi,2003,0.3685,12
+Jharkhand,DUMKA,Arhar/Tur,Kharif,2003,0.5147,12
+Jharkhand,DUMKA,Maize,Autumn,2003,0.4338,12
+Jharkhand,DUMKA,Rapeseed &Mustard,Rabi,2003,0.3293,12
+Jharkhand,DUMKA,Rice,Autumn,2003,0.4338,12
+Jharkhand,DUMKA,Rice,Winter,2003,0.4338,12
+Jharkhand,DUMKA,Wheat,Rabi,2003,0.3293,12
+Jharkhand,EAST SINGHBUM,Maize,Autumn,2003,0.2926,12
+Jharkhand,EAST SINGHBUM,Rice,Autumn,2003,0.2926,12
+Jharkhand,EAST SINGHBUM,Rice,Winter,2003,0.2926,12
+Jharkhand,EAST SINGHBUM,Wheat,Rabi,2003,0.2373,12
+Jharkhand,GARHWA,Arhar/Tur,Kharif,2003,0.4875,12
+Jharkhand,GARHWA,Gram,Rabi,2003,0.3411,12
+Jharkhand,GARHWA,Maize,Autumn,2003,0.4042,12
+Jharkhand,GARHWA,Onion,Whole Year,2003,0.4042,12
+Jharkhand,GARHWA,Rapeseed &Mustard,Rabi,2003,0.3411,12
+Jharkhand,GARHWA,Rice,Autumn,2003,0.4042,12
+Jharkhand,GARHWA,Rice,Winter,2003,0.4042,12
+Jharkhand,GARHWA,Wheat,Rabi,2003,0.3411,12
+Jharkhand,GIRIDIH,Maize,Autumn,2003,0.4236,12
+Jharkhand,GIRIDIH,Onion,Whole Year,2003,0.4236,12
+Jharkhand,GIRIDIH,Potato,Rabi,2003,0.3346,12
+Jharkhand,GIRIDIH,Rice,Autumn,2003,0.4236,12
+Jharkhand,GIRIDIH,Rice,Winter,2003,0.4236,12
+Jharkhand,GIRIDIH,Wheat,Rabi,2003,0.3346,12
+Jharkhand,GODDA,Arhar/Tur,Kharif,2003,0.4625,12
+Jharkhand,GODDA,Gram,Rabi,2003,0.3321,12
+Jharkhand,GODDA,Maize,Autumn,2003,0.3994,12
+Jharkhand,GODDA,Rapeseed &Mustard,Rabi,2003,0.3321,12
+Jharkhand,GODDA,Rice,Autumn,2003,0.3994,12
+Jharkhand,GODDA,Rice,Winter,2003,0.3994,12
+Jharkhand,GODDA,Wheat,Rabi,2003,0.3321,12
+Jharkhand,GUMLA,Arhar/Tur,Kharif,2003,0.5539,12
+Jharkhand,GUMLA,Gram,Rabi,2003,0.3157,12
+Jharkhand,GUMLA,Maize,Autumn,2003,0.4388,12
+Jharkhand,GUMLA,Potato,Rabi,2003,0.3157,12
+Jharkhand,GUMLA,Potato,Winter,2003,0.4388,12
+Jharkhand,GUMLA,Rapeseed &Mustard,Rabi,2003,0.3157,12
+Jharkhand,GUMLA,Rice,Autumn,2003,0.4388,12
+Jharkhand,GUMLA,Rice,Winter,2003,0.4388,12
+Jharkhand,GUMLA,Wheat,Rabi,2003,0.3157,12
+Jharkhand,HAZARIBAGH,Arhar/Tur,Kharif,2003,0.5003,12
+Jharkhand,HAZARIBAGH,Gram,Rabi,2003,0.3021,12
+Jharkhand,HAZARIBAGH,Maize,Autumn,2003,0.4055,12
+Jharkhand,HAZARIBAGH,Onion,Whole Year,2003,0.4055,12
+Jharkhand,HAZARIBAGH,Potato,Rabi,2003,0.3021,12
+Jharkhand,HAZARIBAGH,Potato,Winter,2003,0.4055,12
+Jharkhand,HAZARIBAGH,Rice,Autumn,2003,0.4055,12
+Jharkhand,HAZARIBAGH,Rice,Winter,2003,0.4055,12
+Jharkhand,HAZARIBAGH,Sugarcane,Whole Year,2003,0.4055,12
+Jharkhand,HAZARIBAGH,Wheat,Rabi,2003,0.3021,12
+Jharkhand,JAMTARA,Maize,Autumn,2003,0.4495,12
+Jharkhand,JAMTARA,Potato,Rabi,2003,0.3698,12
+Jharkhand,JAMTARA,Rice,Winter,2003,0.4495,12
+Jharkhand,JAMTARA,Wheat,Rabi,2003,0.3698,12
+Jharkhand,KODERMA,Arhar/Tur,Kharif,2003,0.5375,12
+Jharkhand,KODERMA,Maize,Autumn,2003,0.442,12
+Jharkhand,KODERMA,Rice,Winter,2003,0.442,12
+Jharkhand,KODERMA,Wheat,Rabi,2003,0.3658,12
+Jharkhand,LATEHAR,Arhar/Tur,Kharif,2003,0.567,12
+Jharkhand,LATEHAR,Gram,Rabi,2003,0.3263,12
+Jharkhand,LATEHAR,Maize,Autumn,2003,0.4404,12
+Jharkhand,LATEHAR,Potato,Rabi,2003,0.3263,12
+Jharkhand,LATEHAR,Potato,Winter,2003,0.4404,12
+Jharkhand,LATEHAR,Rapeseed &Mustard,Rabi,2003,0.3263,12
+Jharkhand,LATEHAR,Rice,Autumn,2003,0.4404,12
+Jharkhand,LATEHAR,Rice,Winter,2003,0.4404,12
+Jharkhand,LATEHAR,Wheat,Rabi,2003,0.3263,12
+Jharkhand,LOHARDAGA,Arhar/Tur,Kharif,2003,0.5171,12
+Jharkhand,LOHARDAGA,Maize,Autumn,2003,0.4114,12
+Jharkhand,LOHARDAGA,Rice,Autumn,2003,0.4114,12
+Jharkhand,LOHARDAGA,Rice,Winter,2003,0.4114,12
+Jharkhand,LOHARDAGA,Wheat,Rabi,2003,0.3063,12
+Jharkhand,PAKUR,Arhar/Tur,Kharif,2003,0.5428,12
+Jharkhand,PAKUR,Gram,Rabi,2003,0.3396,12
+Jharkhand,PAKUR,Maize,Autumn,2003,0.4427,12
+Jharkhand,PAKUR,Rapeseed &Mustard,Rabi,2003,0.3396,12
+Jharkhand,PAKUR,Rice,Autumn,2003,0.4427,12
+Jharkhand,PAKUR,Rice,Winter,2003,0.4427,12
+Jharkhand,PAKUR,Wheat,Rabi,2003,0.3396,12
+Jharkhand,PALAMU,Arhar/Tur,Kharif,2003,0.381,12
+Jharkhand,PALAMU,Gram,Rabi,2003,0.2619,12
+Jharkhand,PALAMU,Maize,Autumn,2003,0.3138,12
+Jharkhand,PALAMU,Potato,Rabi,2003,0.2619,12
+Jharkhand,PALAMU,Potato,Winter,2003,0.3138,12
+Jharkhand,PALAMU,Rapeseed &Mustard,Rabi,2003,0.2619,12
+Jharkhand,PALAMU,Rice,Autumn,2003,0.3138,12
+Jharkhand,PALAMU,Rice,Winter,2003,0.3138,12
+Jharkhand,PALAMU,Wheat,Rabi,2003,0.2619,12
+Jharkhand,RANCHI,Arhar/Tur,Kharif,2003,0.4449,12
+Jharkhand,RANCHI,Gram,Rabi,2003,0.3068,12
+Jharkhand,RANCHI,Maize,Autumn,2003,0.3805,12
+Jharkhand,RANCHI,Onion,Whole Year,2003,0.3805,12
+Jharkhand,RANCHI,Potato,Rabi,2003,0.3068,12
+Jharkhand,RANCHI,Potato,Winter,2003,0.3805,12
+Jharkhand,RANCHI,Rapeseed &Mustard,Rabi,2003,0.3068,12
+Jharkhand,RANCHI,Rice,Autumn,2003,0.3805,12
+Jharkhand,RANCHI,Rice,Winter,2003,0.3805,12
+Jharkhand,RANCHI,Wheat,Rabi,2003,0.3068,12
+Jharkhand,SAHEBGANJ,Arhar/Tur,Kharif,2003,0.4548,12
+Jharkhand,SAHEBGANJ,Gram,Rabi,2003,0.4328,12
+Jharkhand,SAHEBGANJ,Maize,Autumn,2003,0.4272,12
+Jharkhand,SAHEBGANJ,Rapeseed &Mustard,Rabi,2003,0.4328,12
+Jharkhand,SAHEBGANJ,Rice,Winter,2003,0.4272,12
+Jharkhand,SAHEBGANJ,Wheat,Rabi,2003,0.4328,12
+Jharkhand,SARAIKELA KHARSAWAN,Arhar/Tur,Kharif,2003,0.4755,12
+Jharkhand,SARAIKELA KHARSAWAN,Maize,Autumn,2003,0.3904,12
+Jharkhand,SARAIKELA KHARSAWAN,Rice,Winter,2003,0.3904,12
+Jharkhand,SARAIKELA KHARSAWAN,Wheat,Rabi,2003,0.3043,12
+Jharkhand,SIMDEGA,Arhar/Tur,Kharif,2003,0.5214,12
+Jharkhand,SIMDEGA,Gram,Rabi,2003,0.2903,12
+Jharkhand,SIMDEGA,Maize,Autumn,2003,0.4031,12
+Jharkhand,SIMDEGA,Potato,Rabi,2003,0.2903,12
+Jharkhand,SIMDEGA,Potato,Winter,2003,0.4031,12
+Jharkhand,SIMDEGA,Rapeseed &Mustard,Rabi,2003,0.2903,12
+Jharkhand,SIMDEGA,Rice,Autumn,2003,0.4031,12
+Jharkhand,SIMDEGA,Rice,Winter,2003,0.4031,12
+Jharkhand,SIMDEGA,Wheat,Rabi,2003,0.2903,12
+Jharkhand,WEST SINGHBHUM,Arhar/Tur,Kharif,2003,0.5536,12
+Jharkhand,WEST SINGHBHUM,Gram,Rabi,2003,0.3278,12
+Jharkhand,WEST SINGHBHUM,Maize,Autumn,2003,0.4452,12
+Jharkhand,WEST SINGHBHUM,Rice,Autumn,2003,0.4452,12
+Jharkhand,WEST SINGHBHUM,Rice,Winter,2003,0.4452,12
+Jharkhand,WEST SINGHBHUM,Wheat,Rabi,2003,0.3278,12
+Jharkhand,BOKARO,Gram,Rabi,2004,0.2959,12
+Jharkhand,BOKARO,Maize,Autumn,2004,0.4368,12
+Jharkhand,BOKARO,Rapeseed &Mustard,Rabi,2004,0.2959,12
+Jharkhand,BOKARO,Rice,Winter,2004,0.4368,12
+Jharkhand,BOKARO,Wheat,Rabi,2004,0.2959,12
+Jharkhand,CHATRA,Arhar/Tur,Rabi,2004,0.3788,12
+Jharkhand,CHATRA,Gram,Rabi,2004,0.3788,12
+Jharkhand,CHATRA,Maize,Autumn,2004,0.4382,12
+Jharkhand,CHATRA,Potato,Winter,2004,0.4382,12
+Jharkhand,CHATRA,Rapeseed &Mustard,Rabi,2004,0.3788,12
+Jharkhand,CHATRA,Rice,Winter,2004,0.4382,12
+Jharkhand,CHATRA,Wheat,Rabi,2004,0.3788,12
+Jharkhand,DEOGHAR,Gram,Rabi,2004,0.3176,12
+Jharkhand,DEOGHAR,Maize,Autumn,2004,0.3859,12
+Jharkhand,DEOGHAR,Rapeseed &Mustard,Rabi,2004,0.3176,12
+Jharkhand,DEOGHAR,Rice,Autumn,2004,0.3859,12
+Jharkhand,DEOGHAR,Rice,Winter,2004,0.3859,12
+Jharkhand,DEOGHAR,Wheat,Rabi,2004,0.3176,12
+Jharkhand,DHANBAD,Gram,Rabi,2004,0.3498,12
+Jharkhand,DHANBAD,Maize,Autumn,2004,0.4233,12
+Jharkhand,DHANBAD,Rice,Winter,2004,0.4233,12
+Jharkhand,DHANBAD,Wheat,Rabi,2004,0.3498,12
+Jharkhand,DUMKA,Arhar/Tur,Rabi,2004,0.309,12
+Jharkhand,DUMKA,Gram,Rabi,2004,0.309,12
+Jharkhand,DUMKA,Maize,Autumn,2004,0.4039,12
+Jharkhand,DUMKA,Potato,Rabi,2004,0.309,12
+Jharkhand,DUMKA,Rapeseed &Mustard,Rabi,2004,0.309,12
+Jharkhand,DUMKA,Rice,Autumn,2004,0.4039,12
+Jharkhand,DUMKA,Rice,Winter,2004,0.4039,12
+Jharkhand,DUMKA,Wheat,Rabi,2004,0.309,12
+Jharkhand,EAST SINGHBUM,Gram,Rabi,2004,0.2425,12
+Jharkhand,EAST SINGHBUM,Maize,Autumn,2004,0.2665,12
+Jharkhand,EAST SINGHBUM,Rapeseed &Mustard,Rabi,2004,0.2425,12
+Jharkhand,EAST SINGHBUM,Rice,Autumn,2004,0.2665,12
+Jharkhand,EAST SINGHBUM,Rice,Winter,2004,0.2665,12
+Jharkhand,EAST SINGHBUM,Wheat,Rabi,2004,0.2425,12
+Jharkhand,GARHWA,Arhar/Tur,Rabi,2004,0.364,12
+Jharkhand,GARHWA,Gram,Rabi,2004,0.364,12
+Jharkhand,GARHWA,Maize,Autumn,2004,0.3657,12
+Jharkhand,GARHWA,Onion,Rabi,2004,0.364,12
+Jharkhand,GARHWA,Rapeseed &Mustard,Rabi,2004,0.364,12
+Jharkhand,GARHWA,Rice,Autumn,2004,0.3657,12
+Jharkhand,GARHWA,Rice,Winter,2004,0.3657,12
+Jharkhand,GARHWA,Wheat,Rabi,2004,0.364,12
+Jharkhand,GIRIDIH,Gram,Rabi,2004,0.3142,12
+Jharkhand,GIRIDIH,Maize,Autumn,2004,0.4063,12
+Jharkhand,GIRIDIH,Onion,Rabi,2004,0.3142,12
+Jharkhand,GIRIDIH,Potato,Rabi,2004,0.3142,12
+Jharkhand,GIRIDIH,Rapeseed &Mustard,Rabi,2004,0.3142,12
+Jharkhand,GIRIDIH,Rice,Autumn,2004,0.4063,12
+Jharkhand,GIRIDIH,Rice,Winter,2004,0.4063,12
+Jharkhand,GIRIDIH,Wheat,Rabi,2004,0.3142,12
+Jharkhand,GODDA,Arhar/Tur,Rabi,2004,0.3247,12
+Jharkhand,GODDA,Gram,Rabi,2004,0.3247,12
+Jharkhand,GODDA,Maize,Autumn,2004,0.398,12
+Jharkhand,GODDA,Rapeseed &Mustard,Rabi,2004,0.3247,12
+Jharkhand,GODDA,Rice,Autumn,2004,0.398,12
+Jharkhand,GODDA,Rice,Winter,2004,0.398,12
+Jharkhand,GODDA,Wheat,Rabi,2004,0.3247,12
+Jharkhand,GUMLA,Arhar/Tur,Rabi,2004,0.3515,12
+Jharkhand,GUMLA,Gram,Rabi,2004,0.3515,12
+Jharkhand,GUMLA,Maize,Autumn,2004,0.4252,12
+Jharkhand,GUMLA,Rapeseed &Mustard,Rabi,2004,0.3515,12
+Jharkhand,GUMLA,Rice,Autumn,2004,0.4252,12
+Jharkhand,GUMLA,Rice,Winter,2004,0.4252,12
+Jharkhand,GUMLA,Wheat,Rabi,2004,0.3515,12
+Jharkhand,HAZARIBAGH,Arhar/Tur,Rabi,2004,0.3188,12
+Jharkhand,HAZARIBAGH,Gram,Rabi,2004,0.3188,12
+Jharkhand,HAZARIBAGH,Maize,Autumn,2004,0.3833,12
+Jharkhand,HAZARIBAGH,Onion,Rabi,2004,0.3188,12
+Jharkhand,HAZARIBAGH,Potato,Rabi,2004,0.3188,12
+Jharkhand,HAZARIBAGH,Potato,Winter,2004,0.3833,12
+Jharkhand,HAZARIBAGH,Rapeseed &Mustard,Rabi,2004,0.3188,12
+Jharkhand,HAZARIBAGH,Rice,Autumn,2004,0.3833,12
+Jharkhand,HAZARIBAGH,Rice,Winter,2004,0.3833,12
+Jharkhand,HAZARIBAGH,Sugarcane,Whole Year,2004,0.3833,12
+Jharkhand,HAZARIBAGH,Wheat,Rabi,2004,0.3188,12
+Jharkhand,JAMTARA,Gram,Rabi,2004,0.347,12
+Jharkhand,JAMTARA,Maize,Autumn,2004,0.434,12
+Jharkhand,JAMTARA,Rapeseed &Mustard,Rabi,2004,0.347,12
+Jharkhand,JAMTARA,Rice,Winter,2004,0.434,12
+Jharkhand,JAMTARA,Wheat,Rabi,2004,0.347,12
+Jharkhand,KODERMA,Arhar/Tur,Rabi,2004,0.3814,12
+Jharkhand,KODERMA,Gram,Rabi,2004,0.3814,12
+Jharkhand,KODERMA,Maize,Autumn,2004,0.4529,12
+Jharkhand,KODERMA,Rapeseed &Mustard,Rabi,2004,0.3814,12
+Jharkhand,KODERMA,Rice,Winter,2004,0.4529,12
+Jharkhand,KODERMA,Wheat,Rabi,2004,0.3814,12
+Jharkhand,LATEHAR,Arhar/Tur,Rabi,2004,0.341,12
+Jharkhand,LATEHAR,Gram,Rabi,2004,0.341,12
+Jharkhand,LATEHAR,Maize,Autumn,2004,0.4117,12
+Jharkhand,LATEHAR,Potato,Rabi,2004,0.341,12
+Jharkhand,LATEHAR,Potato,Winter,2004,0.4117,12
+Jharkhand,LATEHAR,Rapeseed &Mustard,Rabi,2004,0.341,12
+Jharkhand,LATEHAR,Rice,Autumn,2004,0.4117,12
+Jharkhand,LATEHAR,Rice,Winter,2004,0.4117,12
+Jharkhand,LATEHAR,Wheat,Rabi,2004,0.341,12
+Jharkhand,LOHARDAGA,Arhar/Tur,Rabi,2004,0.3474,12
+Jharkhand,LOHARDAGA,Gram,Rabi,2004,0.3474,12
+Jharkhand,LOHARDAGA,Maize,Autumn,2004,0.4172,12
+Jharkhand,LOHARDAGA,Rapeseed &Mustard,Rabi,2004,0.3474,12
+Jharkhand,LOHARDAGA,Rice,Autumn,2004,0.4172,12
+Jharkhand,LOHARDAGA,Rice,Winter,2004,0.4172,12
+Jharkhand,LOHARDAGA,Wheat,Rabi,2004,0.3474,12
+Jharkhand,PAKUR,Arhar/Tur,Rabi,2004,0.3089,12
+Jharkhand,PAKUR,Gram,Rabi,2004,0.3089,12
+Jharkhand,PAKUR,Maize,Autumn,2004,0.409,12
+Jharkhand,PAKUR,Rapeseed &Mustard,Rabi,2004,0.3089,12
+Jharkhand,PAKUR,Rice,Autumn,2004,0.409,12
+Jharkhand,PAKUR,Rice,Winter,2004,0.409,12
+Jharkhand,PAKUR,Wheat,Rabi,2004,0.3089,12
+Jharkhand,PALAMU,Arhar/Tur,Rabi,2004,0.3059,12
+Jharkhand,PALAMU,Gram,Rabi,2004,0.3059,12
+Jharkhand,PALAMU,Maize,Autumn,2004,0.328,12
+Jharkhand,PALAMU,Onion,Rabi,2004,0.3059,12
+Jharkhand,PALAMU,Potato,Rabi,2004,0.3059,12
+Jharkhand,PALAMU,Rapeseed &Mustard,Rabi,2004,0.3059,12
+Jharkhand,PALAMU,Rice,Winter,2004,0.328,12
+Jharkhand,PALAMU,Wheat,Rabi,2004,0.3059,12
+Jharkhand,RANCHI,Arhar/Tur,Rabi,2004,0.3185,12
+Jharkhand,RANCHI,Gram,Rabi,2004,0.3185,12
+Jharkhand,RANCHI,Maize,Autumn,2004,0.372,12
+Jharkhand,RANCHI,Onion,Rabi,2004,0.3185,12
+Jharkhand,RANCHI,Potato,Rabi,2004,0.3185,12
+Jharkhand,RANCHI,Potato,Winter,2004,0.372,12
+Jharkhand,RANCHI,Rapeseed &Mustard,Rabi,2004,0.3185,12
+Jharkhand,RANCHI,Rice,Autumn,2004,0.372,12
+Jharkhand,RANCHI,Rice,Winter,2004,0.372,12
+Jharkhand,RANCHI,Wheat,Rabi,2004,0.3185,12
+Jharkhand,SAHEBGANJ,Arhar/Tur,Rabi,2004,0.4085,12
+Jharkhand,SAHEBGANJ,Gram,Rabi,2004,0.4085,12
+Jharkhand,SAHEBGANJ,Maize,Autumn,2004,0.3828,12
+Jharkhand,SAHEBGANJ,Rapeseed &Mustard,Rabi,2004,0.4085,12
+Jharkhand,SAHEBGANJ,Rice,Winter,2004,0.3828,12
+Jharkhand,SAHEBGANJ,Wheat,Rabi,2004,0.4085,12
+Jharkhand,SARAIKELA KHARSAWAN,Arhar/Tur,Rabi,2004,0.2987,12
+Jharkhand,SARAIKELA KHARSAWAN,Gram,Rabi,2004,0.2987,12
+Jharkhand,SARAIKELA KHARSAWAN,Maize,Autumn,2004,0.3568,12
+Jharkhand,SARAIKELA KHARSAWAN,Rapeseed &Mustard,Rabi,2004,0.2987,12
+Jharkhand,SARAIKELA KHARSAWAN,Rice,Autumn,2004,0.3568,12
+Jharkhand,SARAIKELA KHARSAWAN,Rice,Winter,2004,0.3568,12
+Jharkhand,SARAIKELA KHARSAWAN,Wheat,Rabi,2004,0.2987,12
+Jharkhand,SIMDEGA,Arhar/Tur,Rabi,2004,0.3128,12
+Jharkhand,SIMDEGA,Gram,Rabi,2004,0.3128,12
+Jharkhand,SIMDEGA,Maize,Autumn,2004,0.3936,12
+Jharkhand,SIMDEGA,Rapeseed &Mustard,Rabi,2004,0.3128,12
+Jharkhand,SIMDEGA,Rice,Autumn,2004,0.3936,12
+Jharkhand,SIMDEGA,Rice,Winter,2004,0.3936,12
+Jharkhand,SIMDEGA,Wheat,Rabi,2004,0.3128,12
+Jharkhand,WEST SINGHBHUM,Arhar/Tur,Rabi,2004,0.3611,12
+Jharkhand,WEST SINGHBHUM,Gram,Rabi,2004,0.3611,12
+Jharkhand,WEST SINGHBHUM,Maize,Autumn,2004,0.4559,12
+Jharkhand,WEST SINGHBHUM,Rapeseed &Mustard,Rabi,2004,0.3611,12
+Jharkhand,WEST SINGHBHUM,Rice,Autumn,2004,0.4559,12
+Jharkhand,WEST SINGHBHUM,Rice,Winter,2004,0.4559,12
+Jharkhand,WEST SINGHBHUM,Wheat,Rabi,2004,0.3611,12
+Jharkhand,BOKARO,Gram,Rabi,2005,0.3318,12
+Jharkhand,BOKARO,Maize,Autumn,2005,0.4571,12
+Jharkhand,BOKARO,Potato,Rabi,2005,0.3318,12
+Jharkhand,BOKARO,Rapeseed &Mustard,Rabi,2005,0.3318,12
+Jharkhand,BOKARO,Rice,Winter,2005,0.4571,12
+Jharkhand,BOKARO,Wheat,Rabi,2005,0.3318,12
+Jharkhand,CHATRA,Arhar/Tur,Rabi,2005,0.3687,12
+Jharkhand,CHATRA,Gram,Rabi,2005,0.3687,12
+Jharkhand,CHATRA,Maize,Autumn,2005,0.456,12
+Jharkhand,CHATRA,Potato,Rabi,2005,0.3687,12
+Jharkhand,CHATRA,Potato,Winter,2005,0.456,12
+Jharkhand,CHATRA,Rapeseed &Mustard,Rabi,2005,0.3687,12
+Jharkhand,CHATRA,Rice,Winter,2005,0.456,12
+Jharkhand,CHATRA,Wheat,Rabi,2005,0.3687,12
+Jharkhand,DEOGHAR,Gram,Rabi,2005,0.3073,12
+Jharkhand,DEOGHAR,Maize,Autumn,2005,0.3947,12
+Jharkhand,DEOGHAR,Potato,Rabi,2005,0.3073,12
+Jharkhand,DEOGHAR,Rapeseed &Mustard,Rabi,2005,0.3073,12
+Jharkhand,DEOGHAR,Rice,Autumn,2005,0.3947,12
+Jharkhand,DEOGHAR,Rice,Winter,2005,0.3947,12
+Jharkhand,DEOGHAR,Wheat,Rabi,2005,0.3073,12
+Jharkhand,DHANBAD,Maize,Autumn,2005,0.4161,12
+Jharkhand,DHANBAD,Rice,Winter,2005,0.4161,12
+Jharkhand,DHANBAD,Wheat,Rabi,2005,0.373,12
+Jharkhand,DUMKA,Arhar/Tur,Rabi,2005,0.3472,12
+Jharkhand,DUMKA,Gram,Rabi,2005,0.3472,12
+Jharkhand,DUMKA,Maize,Autumn,2005,0.4137,12
+Jharkhand,DUMKA,Potato,Rabi,2005,0.3472,12
+Jharkhand,DUMKA,Potato,Winter,2005,0.4137,12
+Jharkhand,DUMKA,Rapeseed &Mustard,Rabi,2005,0.3472,12
+Jharkhand,DUMKA,Rice,Autumn,2005,0.4137,12
+Jharkhand,DUMKA,Rice,Winter,2005,0.4137,12
+Jharkhand,DUMKA,Wheat,Rabi,2005,0.3472,12
+Jharkhand,EAST SINGHBUM,Gram,Rabi,2005,0.2291,12
+Jharkhand,EAST SINGHBUM,Maize,Autumn,2005,0.2864,12
+Jharkhand,EAST SINGHBUM,Rapeseed &Mustard,Rabi,2005,0.2291,12
+Jharkhand,EAST SINGHBUM,Rice,Autumn,2005,0.2864,12
+Jharkhand,EAST SINGHBUM,Rice,Winter,2005,0.2864,12
+Jharkhand,EAST SINGHBUM,Wheat,Rabi,2005,0.2291,12
+Jharkhand,GARHWA,Arhar/Tur,Rabi,2005,0.3187,12
+Jharkhand,GARHWA,Gram,Rabi,2005,0.3187,12
+Jharkhand,GARHWA,Maize,Autumn,2005,0.3691,12
+Jharkhand,GARHWA,Onion,Rabi,2005,0.3187,12
+Jharkhand,GARHWA,Potato,Rabi,2005,0.3187,12
+Jharkhand,GARHWA,Potato,Winter,2005,0.3691,12
+Jharkhand,GARHWA,Rapeseed &Mustard,Rabi,2005,0.3187,12
+Jharkhand,GARHWA,Rice,Autumn,2005,0.3691,12
+Jharkhand,GARHWA,Rice,Winter,2005,0.3691,12
+Jharkhand,GARHWA,Wheat,Rabi,2005,0.3187,12
+Jharkhand,GIRIDIH,Arhar/Tur,Rabi,2005,0.3284,12
+Jharkhand,GIRIDIH,Gram,Rabi,2005,0.3284,12
+Jharkhand,GIRIDIH,Maize,Autumn,2005,0.3929,12
+Jharkhand,GIRIDIH,Onion,Rabi,2005,0.3284,12
+Jharkhand,GIRIDIH,Potato,Rabi,2005,0.3284,12
+Jharkhand,GIRIDIH,Rice,Autumn,2005,0.3929,12
+Jharkhand,GIRIDIH,Rice,Winter,2005,0.3929,12
+Jharkhand,GIRIDIH,Wheat,Rabi,2005,0.3284,12
+Jharkhand,GODDA,Arhar/Tur,Rabi,2005,0.3118,12
+Jharkhand,GODDA,Gram,Rabi,2005,0.3118,12
+Jharkhand,GODDA,Maize,Autumn,2005,0.3847,12
+Jharkhand,GODDA,Potato,Rabi,2005,0.3118,12
+Jharkhand,GODDA,Potato,Winter,2005,0.3847,12
+Jharkhand,GODDA,Rapeseed &Mustard,Rabi,2005,0.3118,12
+Jharkhand,GODDA,Rice,Autumn,2005,0.3847,12
+Jharkhand,GODDA,Rice,Winter,2005,0.3847,12
+Jharkhand,GODDA,Wheat,Rabi,2005,0.3118,12
+Jharkhand,GUMLA,Arhar/Tur,Rabi,2005,0.3349,12
+Jharkhand,GUMLA,Gram,Rabi,2005,0.3349,12
+Jharkhand,GUMLA,Maize,Autumn,2005,0.4134,12
+Jharkhand,GUMLA,Potato,Rabi,2005,0.3349,12
+Jharkhand,GUMLA,Potato,Winter,2005,0.4134,12
+Jharkhand,GUMLA,Rapeseed &Mustard,Rabi,2005,0.3349,12
+Jharkhand,GUMLA,Rice,Autumn,2005,0.4134,12
+Jharkhand,GUMLA,Rice,Winter,2005,0.4134,12
+Jharkhand,GUMLA,Wheat,Rabi,2005,0.3349,12
+Jharkhand,HAZARIBAGH,Arhar/Tur,Rabi,2005,0.3513,12
+Jharkhand,HAZARIBAGH,Gram,Rabi,2005,0.3513,12
+Jharkhand,HAZARIBAGH,Maize,Autumn,2005,0.3692,12
+Jharkhand,HAZARIBAGH,Onion,Rabi,2005,0.3513,12
+Jharkhand,HAZARIBAGH,Potato,Rabi,2005,0.3513,12
+Jharkhand,HAZARIBAGH,Potato,Winter,2005,0.3692,12
+Jharkhand,HAZARIBAGH,Rapeseed &Mustard,Rabi,2005,0.3513,12
+Jharkhand,HAZARIBAGH,Rice,Autumn,2005,0.3692,12
+Jharkhand,HAZARIBAGH,Rice,Winter,2005,0.3692,12
+Jharkhand,HAZARIBAGH,Sugarcane,Whole Year,2005,0.3692,12
+Jharkhand,HAZARIBAGH,Wheat,Rabi,2005,0.3513,12
+Jharkhand,JAMTARA,Gram,Rabi,2005,0.3882,12
+Jharkhand,JAMTARA,Maize,Autumn,2005,0.4392,12
+Jharkhand,JAMTARA,Potato,Rabi,2005,0.3882,12
+Jharkhand,JAMTARA,Potato,Winter,2005,0.4392,12
+Jharkhand,JAMTARA,Rapeseed &Mustard,Rabi,2005,0.3882,12
+Jharkhand,JAMTARA,Rice,Winter,2005,0.4392,12
+Jharkhand,JAMTARA,Wheat,Rabi,2005,0.3882,12
+Jharkhand,KODERMA,Arhar/Tur,Rabi,2005,0.3832,12
+Jharkhand,KODERMA,Gram,Rabi,2005,0.3832,12
+Jharkhand,KODERMA,Maize,Autumn,2005,0.4178,12
+Jharkhand,KODERMA,Potato,Rabi,2005,0.3832,12
+Jharkhand,KODERMA,Potato,Winter,2005,0.4178,12
+Jharkhand,KODERMA,Rapeseed &Mustard,Rabi,2005,0.3832,12
+Jharkhand,KODERMA,Rice,Winter,2005,0.4178,12
+Jharkhand,KODERMA,Wheat,Rabi,2005,0.3832,12
+Jharkhand,LATEHAR,Gram,Rabi,2005,0.3646,12
+Jharkhand,LATEHAR,Maize,Autumn,2005,0.4443,12
+Jharkhand,LATEHAR,Potato,Rabi,2005,0.3646,12
+Jharkhand,LATEHAR,Potato,Winter,2005,0.4443,12
+Jharkhand,LATEHAR,Rapeseed &Mustard,Rabi,2005,0.3646,12
+Jharkhand,LATEHAR,Rice,Autumn,2005,0.4443,12
+Jharkhand,LATEHAR,Rice,Winter,2005,0.4443,12
+Jharkhand,LATEHAR,Wheat,Rabi,2005,0.3646,12
+Jharkhand,LOHARDAGA,Arhar/Tur,Rabi,2005,0.3581,12
+Jharkhand,LOHARDAGA,Gram,Rabi,2005,0.3581,12
+Jharkhand,LOHARDAGA,Maize,Autumn,2005,0.4284,12
+Jharkhand,LOHARDAGA,Onion,Rabi,2005,0.3581,12
+Jharkhand,LOHARDAGA,Potato,Rabi,2005,0.3581,12
+Jharkhand,LOHARDAGA,Potato,Winter,2005,0.4284,12
+Jharkhand,LOHARDAGA,Rapeseed &Mustard,Rabi,2005,0.3581,12
+Jharkhand,LOHARDAGA,Rice,Autumn,2005,0.4284,12
+Jharkhand,LOHARDAGA,Rice,Winter,2005,0.4284,12
+Jharkhand,LOHARDAGA,Wheat,Rabi,2005,0.3581,12
+Jharkhand,PAKUR,Arhar/Tur,Rabi,2005,0.3048,12
+Jharkhand,PAKUR,Gram,Rabi,2005,0.3048,12
+Jharkhand,PAKUR,Maize,Autumn,2005,0.3965,12
+Jharkhand,PAKUR,Rapeseed &Mustard,Rabi,2005,0.3048,12
+Jharkhand,PAKUR,Rice,Autumn,2005,0.3965,12
+Jharkhand,PAKUR,Rice,Winter,2005,0.3965,12
+Jharkhand,PAKUR,Wheat,Rabi,2005,0.3048,12
+Jharkhand,PALAMU,Arhar/Tur,Rabi,2005,0.2689,12
+Jharkhand,PALAMU,Gram,Rabi,2005,0.2689,12
+Jharkhand,PALAMU,Maize,Autumn,2005,0.3275,12
+Jharkhand,PALAMU,Onion,Rabi,2005,0.2689,12
+Jharkhand,PALAMU,Potato,Rabi,2005,0.2689,12
+Jharkhand,PALAMU,Potato,Winter,2005,0.3275,12
+Jharkhand,PALAMU,Rapeseed &Mustard,Rabi,2005,0.2689,12
+Jharkhand,PALAMU,Rice,Winter,2005,0.3275,12
+Jharkhand,PALAMU,Wheat,Rabi,2005,0.2689,12
+Jharkhand,RANCHI,Arhar/Tur,Rabi,2005,0.3305,12
+Jharkhand,RANCHI,Gram,Rabi,2005,0.3305,12
+Jharkhand,RANCHI,Maize,Autumn,2005,0.3821,12
+Jharkhand,RANCHI,Onion,Rabi,2005,0.3305,12
+Jharkhand,RANCHI,Potato,Rabi,2005,0.3305,12
+Jharkhand,RANCHI,Potato,Winter,2005,0.3821,12
+Jharkhand,RANCHI,Rapeseed &Mustard,Rabi,2005,0.3305,12
+Jharkhand,RANCHI,Rice,Autumn,2005,0.3821,12
+Jharkhand,RANCHI,Rice,Winter,2005,0.3821,12
+Jharkhand,RANCHI,Wheat,Rabi,2005,0.3305,12
+Jharkhand,SAHEBGANJ,Arhar/Tur,Rabi,2005,0.406,12
+Jharkhand,SAHEBGANJ,Gram,Rabi,2005,0.406,12
+Jharkhand,SAHEBGANJ,Maize,Autumn,2005,0.3827,12
+Jharkhand,SAHEBGANJ,Rapeseed &Mustard,Rabi,2005,0.406,12
+Jharkhand,SAHEBGANJ,Rice,Winter,2005,0.3827,12
+Jharkhand,SAHEBGANJ,Wheat,Rabi,2005,0.406,12
+Jharkhand,SARAIKELA KHARSAWAN,Gram,Rabi,2005,0.325,12
+Jharkhand,SARAIKELA KHARSAWAN,Maize,Autumn,2005,0.3779,12
+Jharkhand,SARAIKELA KHARSAWAN,Rice,Winter,2005,0.3779,12
+Jharkhand,SARAIKELA KHARSAWAN,Wheat,Rabi,2005,0.325,12
+Jharkhand,SIMDEGA,Gram,Rabi,2005,0.3057,12
+Jharkhand,SIMDEGA,Maize,Autumn,2005,0.378,12
+Jharkhand,SIMDEGA,Rapeseed &Mustard,Rabi,2005,0.3057,12
+Jharkhand,SIMDEGA,Rice,Autumn,2005,0.378,12
+Jharkhand,SIMDEGA,Rice,Winter,2005,0.378,12
+Jharkhand,SIMDEGA,Wheat,Rabi,2005,0.3057,12
+Jharkhand,WEST SINGHBHUM,Arhar/Tur,Rabi,2005,0.3273,12
+Jharkhand,WEST SINGHBHUM,Gram,Rabi,2005,0.3273,12
+Jharkhand,WEST SINGHBHUM,Maize,Autumn,2005,0.4414,12
+Jharkhand,WEST SINGHBHUM,Rice,Autumn,2005,0.4414,12
+Jharkhand,WEST SINGHBHUM,Rice,Winter,2005,0.4414,12
+Jharkhand,WEST SINGHBHUM,Wheat,Rabi,2005,0.3273,12
+Jharkhand,BOKARO,Arhar/Tur,Rabi,2006,0.2896,12
+Jharkhand,BOKARO,Gram,Rabi,2006,0.2896,12
+Jharkhand,BOKARO,Maize,Autumn,2006,0.4466,12
+Jharkhand,BOKARO,Onion,Rabi,2006,0.2896,12
+Jharkhand,BOKARO,Potato,Rabi,2006,0.2896,12
+Jharkhand,BOKARO,Potato,Winter,2006,0.4466,12
+Jharkhand,BOKARO,Rapeseed &Mustard,Rabi,2006,0.2896,12
+Jharkhand,BOKARO,Rice,Autumn,2006,0.4466,12
+Jharkhand,BOKARO,Rice,Winter,2006,0.4466,12
+Jharkhand,BOKARO,Wheat,Rabi,2006,0.2896,12
+Jharkhand,CHATRA,Arhar/Tur,Rabi,2006,0.3031,12
+Jharkhand,CHATRA,Gram,Rabi,2006,0.3031,12
+Jharkhand,CHATRA,Maize,Autumn,2006,0.4391,12
+Jharkhand,CHATRA,Onion,Rabi,2006,0.3031,12
+Jharkhand,CHATRA,Potato,Rabi,2006,0.3031,12
+Jharkhand,CHATRA,Potato,Winter,2006,0.4391,12
+Jharkhand,CHATRA,Rapeseed &Mustard,Rabi,2006,0.3031,12
+Jharkhand,CHATRA,Rice,Autumn,2006,0.4391,12
+Jharkhand,CHATRA,Rice,Winter,2006,0.4391,12
+Jharkhand,CHATRA,Sugarcane,Whole Year,2006,0.4391,12
+Jharkhand,CHATRA,Wheat,Rabi,2006,0.3031,12
+Jharkhand,DEOGHAR,Arhar/Tur,Rabi,2006,0.2817,12
+Jharkhand,DEOGHAR,Gram,Rabi,2006,0.2817,12
+Jharkhand,DEOGHAR,Maize,Autumn,2006,0.3788,12
+Jharkhand,DEOGHAR,Onion,Rabi,2006,0.2817,12
+Jharkhand,DEOGHAR,Potato,Rabi,2006,0.2817,12
+Jharkhand,DEOGHAR,Potato,Winter,2006,0.3788,12
+Jharkhand,DEOGHAR,Rapeseed &Mustard,Rabi,2006,0.2817,12
+Jharkhand,DEOGHAR,Rice,Autumn,2006,0.3788,12
+Jharkhand,DEOGHAR,Rice,Winter,2006,0.3788,12
+Jharkhand,DEOGHAR,Wheat,Rabi,2006,0.2817,12
+Jharkhand,DHANBAD,Arhar/Tur,Rabi,2006,0.3357,12
+Jharkhand,DHANBAD,Gram,Rabi,2006,0.3357,12
+Jharkhand,DHANBAD,Maize,Autumn,2006,0.415,12
+Jharkhand,DHANBAD,Onion,Rabi,2006,0.3357,12
+Jharkhand,DHANBAD,Potato,Rabi,2006,0.3357,12
+Jharkhand,DHANBAD,Potato,Winter,2006,0.415,12
+Jharkhand,DHANBAD,Rice,Autumn,2006,0.415,12
+Jharkhand,DHANBAD,Rice,Winter,2006,0.415,12
+Jharkhand,DHANBAD,Wheat,Rabi,2006,0.3357,12
+Jharkhand,DUMKA,Arhar/Tur,Rabi,2006,0.287,12
+Jharkhand,DUMKA,Gram,Rabi,2006,0.287,12
+Jharkhand,DUMKA,Maize,Autumn,2006,0.3875,12
+Jharkhand,DUMKA,Onion,Rabi,2006,0.287,12
+Jharkhand,DUMKA,Potato,Rabi,2006,0.287,12
+Jharkhand,DUMKA,Potato,Winter,2006,0.3875,12
+Jharkhand,DUMKA,Rapeseed &Mustard,Rabi,2006,0.287,12
+Jharkhand,DUMKA,Rice,Autumn,2006,0.3875,12
+Jharkhand,DUMKA,Rice,Winter,2006,0.3875,12
+Jharkhand,DUMKA,Wheat,Rabi,2006,0.287,12
+Jharkhand,EAST SINGHBUM,Arhar/Tur,Rabi,2006,0.2488,12
+Jharkhand,EAST SINGHBUM,Gram,Rabi,2006,0.2488,12
+Jharkhand,EAST SINGHBUM,Maize,Autumn,2006,0.3004,12
+Jharkhand,EAST SINGHBUM,Onion,Rabi,2006,0.2488,12
+Jharkhand,EAST SINGHBUM,Potato,Rabi,2006,0.2488,12
+Jharkhand,EAST SINGHBUM,Potato,Winter,2006,0.3004,12
+Jharkhand,EAST SINGHBUM,Rapeseed &Mustard,Rabi,2006,0.2488,12
+Jharkhand,EAST SINGHBUM,Rice,Autumn,2006,0.3004,12
+Jharkhand,EAST SINGHBUM,Rice,Winter,2006,0.3004,12
+Jharkhand,EAST SINGHBUM,Wheat,Rabi,2006,0.2488,12
+Jharkhand,GARHWA,Arhar/Tur,Rabi,2006,0.2738,12
+Jharkhand,GARHWA,Gram,Rabi,2006,0.2738,12
+Jharkhand,GARHWA,Maize,Autumn,2006,0.385,12
+Jharkhand,GARHWA,Onion,Rabi,2006,0.2738,12
+Jharkhand,GARHWA,Potato,Rabi,2006,0.2738,12
+Jharkhand,GARHWA,Potato,Winter,2006,0.385,12
+Jharkhand,GARHWA,Rapeseed &Mustard,Rabi,2006,0.2738,12
+Jharkhand,GARHWA,Rice,Autumn,2006,0.385,12
+Jharkhand,GARHWA,Rice,Winter,2006,0.385,12
+Jharkhand,GARHWA,Wheat,Rabi,2006,0.2738,12
+Jharkhand,GIRIDIH,Arhar/Tur,Rabi,2006,0.2755,12
+Jharkhand,GIRIDIH,Gram,Rabi,2006,0.2755,12
+Jharkhand,GIRIDIH,Maize,Autumn,2006,0.3832,12
+Jharkhand,GIRIDIH,Onion,Rabi,2006,0.2755,12
+Jharkhand,GIRIDIH,Potato,Rabi,2006,0.2755,12
+Jharkhand,GIRIDIH,Potato,Winter,2006,0.3832,12
+Jharkhand,GIRIDIH,Rapeseed &Mustard,Rabi,2006,0.2755,12
+Jharkhand,GIRIDIH,Rice,Autumn,2006,0.3832,12
+Jharkhand,GIRIDIH,Rice,Winter,2006,0.3832,12
+Jharkhand,GIRIDIH,Wheat,Rabi,2006,0.2755,12
+Jharkhand,GODDA,Arhar/Tur,Rabi,2006,0.3042,12
+Jharkhand,GODDA,Gram,Rabi,2006,0.3042,12
+Jharkhand,GODDA,Maize,Autumn,2006,0.4,12
+Jharkhand,GODDA,Onion,Rabi,2006,0.3042,12
+Jharkhand,GODDA,Potato,Rabi,2006,0.3042,12
+Jharkhand,GODDA,Potato,Winter,2006,0.4,12
+Jharkhand,GODDA,Rapeseed &Mustard,Rabi,2006,0.3042,12
+Jharkhand,GODDA,Rice,Autumn,2006,0.4,12
+Jharkhand,GODDA,Rice,Winter,2006,0.4,12
+Jharkhand,GODDA,Sugarcane,Whole Year,2006,0.4,12
+Jharkhand,GODDA,Wheat,Rabi,2006,0.3042,12
+Jharkhand,GUMLA,Arhar/Tur,Rabi,2006,0.3246,12
+Jharkhand,GUMLA,Gram,Rabi,2006,0.3246,12
+Jharkhand,GUMLA,Maize,Autumn,2006,0.4247,12
+Jharkhand,GUMLA,Onion,Rabi,2006,0.3246,12
+Jharkhand,GUMLA,Potato,Rabi,2006,0.3246,12
+Jharkhand,GUMLA,Potato,Winter,2006,0.4247,12
+Jharkhand,GUMLA,Rapeseed &Mustard,Rabi,2006,0.3246,12
+Jharkhand,GUMLA,Rice,Autumn,2006,0.4247,12
+Jharkhand,GUMLA,Rice,Winter,2006,0.4247,12
+Jharkhand,GUMLA,Wheat,Rabi,2006,0.3246,12
+Jharkhand,HAZARIBAGH,Arhar/Tur,Rabi,2006,0.2979,12
+Jharkhand,HAZARIBAGH,Gram,Rabi,2006,0.2979,12
+Jharkhand,HAZARIBAGH,Maize,Autumn,2006,0.3757,12
+Jharkhand,HAZARIBAGH,Onion,Rabi,2006,0.2979,12
+Jharkhand,HAZARIBAGH,Potato,Rabi,2006,0.2979,12
+Jharkhand,HAZARIBAGH,Potato,Winter,2006,0.3757,12
+Jharkhand,HAZARIBAGH,Rapeseed &Mustard,Rabi,2006,0.2979,12
+Jharkhand,HAZARIBAGH,Rice,Autumn,2006,0.3757,12
+Jharkhand,HAZARIBAGH,Rice,Winter,2006,0.3757,12
+Jharkhand,HAZARIBAGH,Sugarcane,Whole Year,2006,0.3757,12
+Jharkhand,HAZARIBAGH,Wheat,Rabi,2006,0.2979,12
+Jharkhand,JAMTARA,Arhar/Tur,Rabi,2006,0.326,12
+Jharkhand,JAMTARA,Gram,Rabi,2006,0.326,12
+Jharkhand,JAMTARA,Maize,Autumn,2006,0.4417,12
+Jharkhand,JAMTARA,Onion,Rabi,2006,0.326,12
+Jharkhand,JAMTARA,Potato,Rabi,2006,0.326,12
+Jharkhand,JAMTARA,Potato,Winter,2006,0.4417,12
+Jharkhand,JAMTARA,Rapeseed &Mustard,Rabi,2006,0.326,12
+Jharkhand,JAMTARA,Rice,Autumn,2006,0.4417,12
+Jharkhand,JAMTARA,Rice,Winter,2006,0.4417,12
+Jharkhand,JAMTARA,Wheat,Rabi,2006,0.326,12
+Jharkhand,KODERMA,Arhar/Tur,Rabi,2006,0.3036,12
+Jharkhand,KODERMA,Gram,Rabi,2006,0.3036,12
+Jharkhand,KODERMA,Maize,Autumn,2006,0.4375,12
+Jharkhand,KODERMA,Onion,Rabi,2006,0.3036,12
+Jharkhand,KODERMA,Potato,Rabi,2006,0.3036,12
+Jharkhand,KODERMA,Potato,Winter,2006,0.4375,12
+Jharkhand,KODERMA,Rapeseed &Mustard,Rabi,2006,0.3036,12
+Jharkhand,KODERMA,Rice,Autumn,2006,0.4375,12
+Jharkhand,KODERMA,Rice,Winter,2006,0.4375,12
+Jharkhand,KODERMA,Sugarcane,Whole Year,2006,0.4375,12
+Jharkhand,KODERMA,Wheat,Rabi,2006,0.3036,12
+Jharkhand,LATEHAR,Arhar/Tur,Rabi,2006,0.2891,12
+Jharkhand,LATEHAR,Gram,Rabi,2006,0.2891,12
+Jharkhand,LATEHAR,Maize,Autumn,2006,0.4286,12
+Jharkhand,LATEHAR,Onion,Rabi,2006,0.2891,12
+Jharkhand,LATEHAR,Potato,Rabi,2006,0.2891,12
+Jharkhand,LATEHAR,Potato,Winter,2006,0.4286,12
+Jharkhand,LATEHAR,Rapeseed &Mustard,Rabi,2006,0.2891,12
+Jharkhand,LATEHAR,Rice,Autumn,2006,0.4286,12
+Jharkhand,LATEHAR,Rice,Winter,2006,0.4286,12
+Jharkhand,LATEHAR,Wheat,Rabi,2006,0.2891,12
+Jharkhand,LOHARDAGA,Arhar/Tur,Rabi,2006,0.2771,12
+Jharkhand,LOHARDAGA,Gram,Rabi,2006,0.2771,12
+Jharkhand,LOHARDAGA,Maize,Autumn,2006,0.4139,12
+Jharkhand,LOHARDAGA,Onion,Rabi,2006,0.2771,12
+Jharkhand,LOHARDAGA,Potato,Rabi,2006,0.2771,12
+Jharkhand,LOHARDAGA,Potato,Winter,2006,0.4139,12
+Jharkhand,LOHARDAGA,Rapeseed &Mustard,Rabi,2006,0.2771,12
+Jharkhand,LOHARDAGA,Rice,Autumn,2006,0.4139,12
+Jharkhand,LOHARDAGA,Rice,Winter,2006,0.4139,12
+Jharkhand,LOHARDAGA,Sugarcane,Whole Year,2006,0.4139,12
+Jharkhand,LOHARDAGA,Wheat,Rabi,2006,0.2771,12
+Jharkhand,PAKUR,Arhar/Tur,Rabi,2006,0.2786,12
+Jharkhand,PAKUR,Gram,Rabi,2006,0.2786,12
+Jharkhand,PAKUR,Maize,Autumn,2006,0.4209,12
+Jharkhand,PAKUR,Onion,Rabi,2006,0.2786,12
+Jharkhand,PAKUR,Potato,Rabi,2006,0.2786,12
+Jharkhand,PAKUR,Potato,Winter,2006,0.4209,12
+Jharkhand,PAKUR,Rapeseed &Mustard,Rabi,2006,0.2786,12
+Jharkhand,PAKUR,Rice,Autumn,2006,0.4209,12
+Jharkhand,PAKUR,Rice,Winter,2006,0.4209,12
+Jharkhand,PAKUR,Wheat,Rabi,2006,0.2786,12
+Jharkhand,PALAMU,Arhar/Tur,Rabi,2006,0.2456,12
+Jharkhand,PALAMU,Gram,Rabi,2006,0.2456,12
+Jharkhand,PALAMU,Maize,Autumn,2006,0.3457,12
+Jharkhand,PALAMU,Onion,Rabi,2006,0.2456,12
+Jharkhand,PALAMU,Potato,Rabi,2006,0.2456,12
+Jharkhand,PALAMU,Potato,Winter,2006,0.3457,12
+Jharkhand,PALAMU,Rapeseed &Mustard,Rabi,2006,0.2456,12
+Jharkhand,PALAMU,Rice,Autumn,2006,0.3457,12
+Jharkhand,PALAMU,Rice,Winter,2006,0.3457,12
+Jharkhand,PALAMU,Wheat,Rabi,2006,0.2456,12
+Jharkhand,RANCHI,Arhar/Tur,Rabi,2006,0.2899,12
+Jharkhand,RANCHI,Gram,Rabi,2006,0.2899,12
+Jharkhand,RANCHI,Maize,Autumn,2006,0.4048,12
+Jharkhand,RANCHI,Onion,Rabi,2006,0.2899,12
+Jharkhand,RANCHI,Potato,Rabi,2006,0.2899,12
+Jharkhand,RANCHI,Potato,Winter,2006,0.4048,12
+Jharkhand,RANCHI,Rapeseed &Mustard,Rabi,2006,0.2899,12
+Jharkhand,RANCHI,Rice,Autumn,2006,0.4048,12
+Jharkhand,RANCHI,Rice,Winter,2006,0.4048,12
+Jharkhand,RANCHI,Wheat,Rabi,2006,0.2899,12
+Jharkhand,SAHEBGANJ,Arhar/Tur,Rabi,2006,0.3627,12
+Jharkhand,SAHEBGANJ,Gram,Rabi,2006,0.3627,12
+Jharkhand,SAHEBGANJ,Maize,Autumn,2006,0.4228,12
+Jharkhand,SAHEBGANJ,Onion,Rabi,2006,0.3627,12
+Jharkhand,SAHEBGANJ,Potato,Rabi,2006,0.3627,12
+Jharkhand,SAHEBGANJ,Potato,Winter,2006,0.4228,12
+Jharkhand,SAHEBGANJ,Rapeseed &Mustard,Rabi,2006,0.3627,12
+Jharkhand,SAHEBGANJ,Rice,Autumn,2006,0.4228,12
+Jharkhand,SAHEBGANJ,Rice,Winter,2006,0.4228,12
+Jharkhand,SAHEBGANJ,Wheat,Rabi,2006,0.3627,12
+Jharkhand,SARAIKELA KHARSAWAN,Arhar/Tur,Rabi,2006,0.3239,12
+Jharkhand,SARAIKELA KHARSAWAN,Gram,Rabi,2006,0.3239,12
+Jharkhand,SARAIKELA KHARSAWAN,Maize,Autumn,2006,0.3965,12
+Jharkhand,SARAIKELA KHARSAWAN,Onion,Rabi,2006,0.3239,12
+Jharkhand,SARAIKELA KHARSAWAN,Potato,Rabi,2006,0.3239,12
+Jharkhand,SARAIKELA KHARSAWAN,Potato,Winter,2006,0.3965,12
+Jharkhand,SARAIKELA KHARSAWAN,Rapeseed &Mustard,Rabi,2006,0.3239,12
+Jharkhand,SARAIKELA KHARSAWAN,Rice,Autumn,2006,0.3965,12
+Jharkhand,SARAIKELA KHARSAWAN,Rice,Winter,2006,0.3965,12
+Jharkhand,SARAIKELA KHARSAWAN,Wheat,Rabi,2006,0.3239,12
+Jharkhand,SIMDEGA,Arhar/Tur,Rabi,2006,0.2994,12
+Jharkhand,SIMDEGA,Gram,Rabi,2006,0.2994,12
+Jharkhand,SIMDEGA,Maize,Autumn,2006,0.417,12
+Jharkhand,SIMDEGA,Onion,Rabi,2006,0.2994,12
+Jharkhand,SIMDEGA,Potato,Rabi,2006,0.2994,12
+Jharkhand,SIMDEGA,Potato,Winter,2006,0.417,12
+Jharkhand,SIMDEGA,Rapeseed &Mustard,Rabi,2006,0.2994,12
+Jharkhand,SIMDEGA,Rice,Autumn,2006,0.417,12
+Jharkhand,SIMDEGA,Rice,Winter,2006,0.417,12
+Jharkhand,SIMDEGA,Sugarcane,Whole Year,2006,0.417,12
+Jharkhand,SIMDEGA,Wheat,Rabi,2006,0.2994,12
+Jharkhand,WEST SINGHBHUM,Arhar/Tur,Rabi,2006,0.3393,12
+Jharkhand,WEST SINGHBHUM,Gram,Rabi,2006,0.3393,12
+Jharkhand,WEST SINGHBHUM,Maize,Autumn,2006,0.4579,12
+Jharkhand,WEST SINGHBHUM,Potato,Rabi,2006,0.3393,12
+Jharkhand,WEST SINGHBHUM,Potato,Winter,2006,0.4579,12
+Jharkhand,WEST SINGHBHUM,Rapeseed &Mustard,Rabi,2006,0.3393,12
+Jharkhand,WEST SINGHBHUM,Rice,Autumn,2006,0.4579,12
+Jharkhand,WEST SINGHBHUM,Rice,Winter,2006,0.4579,12
+Jharkhand,WEST SINGHBHUM,Wheat,Rabi,2006,0.3393,12
+Jharkhand,BOKARO,Arhar/Tur,Rabi,2007,0.3204,12
+Jharkhand,BOKARO,Gram,Rabi,2007,0.3204,12
+Jharkhand,BOKARO,Maize,Autumn,2007,0.4521,12
+Jharkhand,BOKARO,Onion,Rabi,2007,0.3204,12
+Jharkhand,BOKARO,Potato,Rabi,2007,0.3204,12
+Jharkhand,BOKARO,Potato,Winter,2007,0.4521,12
+Jharkhand,BOKARO,Rapeseed &Mustard,Rabi,2007,0.3204,12
+Jharkhand,BOKARO,Rice,Autumn,2007,0.4521,12
+Jharkhand,BOKARO,Rice,Winter,2007,0.4521,12
+Jharkhand,BOKARO,Wheat,Rabi,2007,0.3204,12
+Jharkhand,CHATRA,Arhar/Tur,Rabi,2007,0.3808,12
+Jharkhand,CHATRA,Gram,Rabi,2007,0.3808,12
+Jharkhand,CHATRA,Maize,Autumn,2007,0.4526,12
+Jharkhand,CHATRA,Onion,Rabi,2007,0.3808,12
+Jharkhand,CHATRA,Potato,Rabi,2007,0.3808,12
+Jharkhand,CHATRA,Potato,Winter,2007,0.4526,12
+Jharkhand,CHATRA,Rapeseed &Mustard,Rabi,2007,0.3808,12
+Jharkhand,CHATRA,Rice,Autumn,2007,0.4526,12
+Jharkhand,CHATRA,Rice,Winter,2007,0.4526,12
+Jharkhand,CHATRA,Sugarcane,Whole Year,2007,0.4526,12
+Jharkhand,CHATRA,Wheat,Rabi,2007,0.3808,12
+Jharkhand,DEOGHAR,Arhar/Tur,Rabi,2007,0.3233,12
+Jharkhand,DEOGHAR,Gram,Rabi,2007,0.3233,12
+Jharkhand,DEOGHAR,Maize,Autumn,2007,0.3811,12
+Jharkhand,DEOGHAR,Potato,Rabi,2007,0.3233,12
+Jharkhand,DEOGHAR,Potato,Winter,2007,0.3811,12
+Jharkhand,DEOGHAR,Rapeseed &Mustard,Rabi,2007,0.3233,12
+Jharkhand,DEOGHAR,Rice,Autumn,2007,0.3811,12
+Jharkhand,DEOGHAR,Rice,Winter,2007,0.3811,12
+Jharkhand,DEOGHAR,Wheat,Rabi,2007,0.3233,12
+Jharkhand,DHANBAD,Arhar/Tur,Rabi,2007,0.3478,12
+Jharkhand,DHANBAD,Maize,Autumn,2007,0.4293,12
+Jharkhand,DHANBAD,Onion,Rabi,2007,0.3478,12
+Jharkhand,DHANBAD,Potato,Rabi,2007,0.3478,12
+Jharkhand,DHANBAD,Potato,Winter,2007,0.4293,12
+Jharkhand,DHANBAD,Rapeseed &Mustard,Rabi,2007,0.3478,12
+Jharkhand,DHANBAD,Rice,Winter,2007,0.4293,12
+Jharkhand,DHANBAD,Wheat,Rabi,2007,0.3478,12
+Jharkhand,DUMKA,Arhar/Tur,Rabi,2007,0.2986,12
+Jharkhand,DUMKA,Gram,Rabi,2007,0.2986,12
+Jharkhand,DUMKA,Maize,Autumn,2007,0.3945,12
+Jharkhand,DUMKA,Onion,Rabi,2007,0.2986,12
+Jharkhand,DUMKA,Potato,Rabi,2007,0.2986,12
+Jharkhand,DUMKA,Potato,Winter,2007,0.3945,12
+Jharkhand,DUMKA,Rapeseed &Mustard,Rabi,2007,0.2986,12
+Jharkhand,DUMKA,Rice,Autumn,2007,0.3945,12
+Jharkhand,DUMKA,Rice,Winter,2007,0.3945,12
+Jharkhand,DUMKA,Wheat,Rabi,2007,0.2986,12
+Jharkhand,EAST SINGHBUM,Arhar/Tur,Rabi,2007,0.2528,12
+Jharkhand,EAST SINGHBUM,Gram,Rabi,2007,0.2528,12
+Jharkhand,EAST SINGHBUM,Maize,Autumn,2007,0.2861,12
+Jharkhand,EAST SINGHBUM,Onion,Rabi,2007,0.2528,12
+Jharkhand,EAST SINGHBUM,Potato,Rabi,2007,0.2528,12
+Jharkhand,EAST SINGHBUM,Potato,Winter,2007,0.2861,12
+Jharkhand,EAST SINGHBUM,Rapeseed &Mustard,Rabi,2007,0.2528,12
+Jharkhand,EAST SINGHBUM,Rice,Autumn,2007,0.2861,12
+Jharkhand,EAST SINGHBUM,Rice,Winter,2007,0.2861,12
+Jharkhand,EAST SINGHBUM,Wheat,Rabi,2007,0.2528,12
+Jharkhand,GARHWA,Arhar/Tur,Rabi,2007,0.3279,12
+Jharkhand,GARHWA,Gram,Rabi,2007,0.3279,12
+Jharkhand,GARHWA,Maize,Autumn,2007,0.4062,12
+Jharkhand,GARHWA,Onion,Rabi,2007,0.3279,12
+Jharkhand,GARHWA,Potato,Rabi,2007,0.3279,12
+Jharkhand,GARHWA,Potato,Winter,2007,0.4062,12
+Jharkhand,GARHWA,Rapeseed &Mustard,Rabi,2007,0.3279,12
+Jharkhand,GARHWA,Rice,Autumn,2007,0.4062,12
+Jharkhand,GARHWA,Rice,Winter,2007,0.4062,12
+Jharkhand,GARHWA,Sugarcane,Whole Year,2007,0.4062,12
+Jharkhand,GARHWA,Wheat,Rabi,2007,0.3279,12
+Jharkhand,GIRIDIH,Arhar/Tur,Rabi,2007,0.2964,12
+Jharkhand,GIRIDIH,Gram,Rabi,2007,0.2964,12
+Jharkhand,GIRIDIH,Maize,Autumn,2007,0.3981,12
+Jharkhand,GIRIDIH,Onion,Rabi,2007,0.2964,12
+Jharkhand,GIRIDIH,Potato,Rabi,2007,0.2964,12
+Jharkhand,GIRIDIH,Potato,Winter,2007,0.3981,12
+Jharkhand,GIRIDIH,Rice,Autumn,2007,0.3981,12
+Jharkhand,GIRIDIH,Rice,Winter,2007,0.3981,12
+Jharkhand,GIRIDIH,Wheat,Rabi,2007,0.2964,12
+Jharkhand,GODDA,Arhar/Tur,Rabi,2007,0.3281,12
+Jharkhand,GODDA,Gram,Rabi,2007,0.3281,12
+Jharkhand,GODDA,Maize,Autumn,2007,0.4093,12
+Jharkhand,GODDA,Onion,Rabi,2007,0.3281,12
+Jharkhand,GODDA,Potato,Rabi,2007,0.3281,12
+Jharkhand,GODDA,Potato,Winter,2007,0.4093,12
+Jharkhand,GODDA,Rapeseed &Mustard,Rabi,2007,0.3281,12
+Jharkhand,GODDA,Rice,Autumn,2007,0.4093,12
+Jharkhand,GODDA,Rice,Winter,2007,0.4093,12
+Jharkhand,GODDA,Sugarcane,Whole Year,2007,0.4093,12
+Jharkhand,GODDA,Wheat,Rabi,2007,0.3281,12
+Jharkhand,GUMLA,Arhar/Tur,Rabi,2007,0.3196,12
+Jharkhand,GUMLA,Gram,Rabi,2007,0.3196,12
+Jharkhand,GUMLA,Maize,Autumn,2007,0.4282,12
+Jharkhand,GUMLA,Onion,Rabi,2007,0.3196,12
+Jharkhand,GUMLA,Potato,Rabi,2007,0.3196,12
+Jharkhand,GUMLA,Potato,Winter,2007,0.4282,12
+Jharkhand,GUMLA,Rapeseed &Mustard,Rabi,2007,0.3196,12
+Jharkhand,GUMLA,Rice,Autumn,2007,0.4282,12
+Jharkhand,GUMLA,Rice,Winter,2007,0.4282,12
+Jharkhand,GUMLA,Wheat,Rabi,2007,0.3196,12
+Jharkhand,HAZARIBAGH,Arhar/Tur,Rabi,2007,0.302,12
+Jharkhand,HAZARIBAGH,Gram,Rabi,2007,0.302,12
+Jharkhand,HAZARIBAGH,Maize,Autumn,2007,0.4002,12
+Jharkhand,HAZARIBAGH,Onion,Rabi,2007,0.302,12
+Jharkhand,HAZARIBAGH,Potato,Rabi,2007,0.302,12
+Jharkhand,HAZARIBAGH,Potato,Winter,2007,0.4002,12
+Jharkhand,HAZARIBAGH,Rapeseed &Mustard,Rabi,2007,0.302,12
+Jharkhand,HAZARIBAGH,Rice,Autumn,2007,0.4002,12
+Jharkhand,HAZARIBAGH,Rice,Winter,2007,0.4002,12
+Jharkhand,HAZARIBAGH,Sugarcane,Whole Year,2007,0.4002,12
+Jharkhand,HAZARIBAGH,Wheat,Rabi,2007,0.302,12
+Jharkhand,JAMTARA,Arhar/Tur,Rabi,2007,0.3666,12
+Jharkhand,JAMTARA,Gram,Rabi,2007,0.3666,12
+Jharkhand,JAMTARA,Maize,Autumn,2007,0.4609,12
+Jharkhand,JAMTARA,Onion,Rabi,2007,0.3666,12
+Jharkhand,JAMTARA,Potato,Rabi,2007,0.3666,12
+Jharkhand,JAMTARA,Potato,Winter,2007,0.4609,12
+Jharkhand,JAMTARA,Rapeseed &Mustard,Rabi,2007,0.3666,12
+Jharkhand,JAMTARA,Rice,Autumn,2007,0.4609,12
+Jharkhand,JAMTARA,Rice,Winter,2007,0.4609,12
+Jharkhand,JAMTARA,Wheat,Rabi,2007,0.3666,12
+Jharkhand,KODERMA,Arhar/Tur,Rabi,2007,0.351,12
+Jharkhand,KODERMA,Gram,Rabi,2007,0.351,12
+Jharkhand,KODERMA,Maize,Autumn,2007,0.4545,12
+Jharkhand,KODERMA,Onion,Rabi,2007,0.351,12
+Jharkhand,KODERMA,Potato,Rabi,2007,0.351,12
+Jharkhand,KODERMA,Potato,Winter,2007,0.4545,12
+Jharkhand,KODERMA,Rapeseed &Mustard,Rabi,2007,0.351,12
+Jharkhand,KODERMA,Rice,Autumn,2007,0.4545,12
+Jharkhand,KODERMA,Rice,Winter,2007,0.4545,12
+Jharkhand,KODERMA,Sugarcane,Whole Year,2007,0.4545,12
+Jharkhand,KODERMA,Wheat,Rabi,2007,0.351,12
+Jharkhand,LATEHAR,Arhar/Tur,Rabi,2007,0.3241,12
+Jharkhand,LATEHAR,Gram,Rabi,2007,0.3241,12
+Jharkhand,LATEHAR,Maize,Autumn,2007,0.4288,12
+Jharkhand,LATEHAR,Onion,Rabi,2007,0.3241,12
+Jharkhand,LATEHAR,Potato,Rabi,2007,0.3241,12
+Jharkhand,LATEHAR,Potato,Winter,2007,0.4288,12
+Jharkhand,LATEHAR,Rapeseed &Mustard,Rabi,2007,0.3241,12
+Jharkhand,LATEHAR,Rice,Autumn,2007,0.4288,12
+Jharkhand,LATEHAR,Rice,Winter,2007,0.4288,12
+Jharkhand,LATEHAR,Wheat,Rabi,2007,0.3241,12
+Jharkhand,LOHARDAGA,Arhar/Tur,Rabi,2007,0.3324,12
+Jharkhand,LOHARDAGA,Gram,Rabi,2007,0.3324,12
+Jharkhand,LOHARDAGA,Maize,Autumn,2007,0.4194,12
+Jharkhand,LOHARDAGA,Onion,Rabi,2007,0.3324,12
+Jharkhand,LOHARDAGA,Potato,Rabi,2007,0.3324,12
+Jharkhand,LOHARDAGA,Potato,Winter,2007,0.4194,12
+Jharkhand,LOHARDAGA,Rapeseed &Mustard,Rabi,2007,0.3324,12
+Jharkhand,LOHARDAGA,Rice,Autumn,2007,0.4194,12
+Jharkhand,LOHARDAGA,Rice,Winter,2007,0.4194,12
+Jharkhand,LOHARDAGA,Wheat,Rabi,2007,0.3324,12
+Jharkhand,PAKUR,Arhar/Tur,Rabi,2007,0.3408,12
+Jharkhand,PAKUR,Gram,Rabi,2007,0.3408,12
+Jharkhand,PAKUR,Maize,Autumn,2007,0.4329,12
+Jharkhand,PAKUR,Onion,Rabi,2007,0.3408,12
+Jharkhand,PAKUR,Potato,Rabi,2007,0.3408,12
+Jharkhand,PAKUR,Potato,Winter,2007,0.4329,12
+Jharkhand,PAKUR,Rapeseed &Mustard,Rabi,2007,0.3408,12
+Jharkhand,PAKUR,Rice,Autumn,2007,0.4329,12
+Jharkhand,PAKUR,Rice,Winter,2007,0.4329,12
+Jharkhand,PAKUR,Sugarcane,Whole Year,2007,0.4329,12
+Jharkhand,PAKUR,Wheat,Rabi,2007,0.3408,12
+Jharkhand,PALAMU,Arhar/Tur,Rabi,2007,0.2464,12
+Jharkhand,PALAMU,Gram,Rabi,2007,0.2464,12
+Jharkhand,PALAMU,Maize,Autumn,2007,0.366,12
+Jharkhand,PALAMU,Onion,Rabi,2007,0.2464,12
+Jharkhand,PALAMU,Potato,Rabi,2007,0.2464,12
+Jharkhand,PALAMU,Potato,Winter,2007,0.366,12
+Jharkhand,PALAMU,Rapeseed &Mustard,Rabi,2007,0.2464,12
+Jharkhand,PALAMU,Rice,Autumn,2007,0.366,12
+Jharkhand,PALAMU,Rice,Winter,2007,0.366,12
+Jharkhand,PALAMU,Sugarcane,Whole Year,2007,0.366,12
+Jharkhand,PALAMU,Wheat,Rabi,2007,0.2464,12
+Jharkhand,RANCHI,Arhar/Tur,Rabi,2007,0.3055,12
+Jharkhand,RANCHI,Gram,Rabi,2007,0.3055,12
+Jharkhand,RANCHI,Maize,Autumn,2007,0.4073,12
+Jharkhand,RANCHI,Onion,Rabi,2007,0.3055,12
+Jharkhand,RANCHI,Potato,Rabi,2007,0.3055,12
+Jharkhand,RANCHI,Potato,Winter,2007,0.4073,12
+Jharkhand,RANCHI,Rapeseed &Mustard,Rabi,2007,0.3055,12
+Jharkhand,RANCHI,Rice,Autumn,2007,0.4073,12
+Jharkhand,RANCHI,Rice,Winter,2007,0.4073,12
+Jharkhand,RANCHI,Wheat,Rabi,2007,0.3055,12
+Jharkhand,SAHEBGANJ,Arhar/Tur,Rabi,2007,0.3897,12
+Jharkhand,SAHEBGANJ,Gram,Rabi,2007,0.3897,12
+Jharkhand,SAHEBGANJ,Maize,Autumn,2007,0.391,12
+Jharkhand,SAHEBGANJ,Potato,Rabi,2007,0.3897,12
+Jharkhand,SAHEBGANJ,Rapeseed &Mustard,Rabi,2007,0.3897,12
+Jharkhand,SAHEBGANJ,Rice,Autumn,2007,0.391,12
+Jharkhand,SAHEBGANJ,Rice,Winter,2007,0.391,12
+Jharkhand,SAHEBGANJ,Wheat,Rabi,2007,0.3897,12
+Jharkhand,SARAIKELA KHARSAWAN,Arhar/Tur,Rabi,2007,0.3004,12
+Jharkhand,SARAIKELA KHARSAWAN,Gram,Rabi,2007,0.3004,12
+Jharkhand,SARAIKELA KHARSAWAN,Maize,Autumn,2007,0.4353,12
+Jharkhand,SARAIKELA KHARSAWAN,Onion,Rabi,2007,0.3004,12
+Jharkhand,SARAIKELA KHARSAWAN,Potato,Rabi,2007,0.3004,12
+Jharkhand,SARAIKELA KHARSAWAN,Potato,Winter,2007,0.4353,12
+Jharkhand,SARAIKELA KHARSAWAN,Rapeseed &Mustard,Rabi,2007,0.3004,12
+Jharkhand,SARAIKELA KHARSAWAN,Rice,Autumn,2007,0.4353,12
+Jharkhand,SARAIKELA KHARSAWAN,Rice,Winter,2007,0.4353,12
+Jharkhand,SARAIKELA KHARSAWAN,Wheat,Rabi,2007,0.3004,12
+Jharkhand,SIMDEGA,Arhar/Tur,Rabi,2007,0.2996,12
+Jharkhand,SIMDEGA,Gram,Rabi,2007,0.2996,12
+Jharkhand,SIMDEGA,Maize,Autumn,2007,0.4215,12
+Jharkhand,SIMDEGA,Onion,Rabi,2007,0.2996,12
+Jharkhand,SIMDEGA,Potato,Rabi,2007,0.2996,12
+Jharkhand,SIMDEGA,Potato,Winter,2007,0.4215,12
+Jharkhand,SIMDEGA,Rice,Autumn,2007,0.4215,12
+Jharkhand,SIMDEGA,Rice,Winter,2007,0.4215,12
+Jharkhand,SIMDEGA,Wheat,Rabi,2007,0.2996,12
+Jharkhand,WEST SINGHBHUM,Arhar/Tur,Rabi,2007,0.3459,12
+Jharkhand,WEST SINGHBHUM,Gram,Rabi,2007,0.3459,12
+Jharkhand,WEST SINGHBHUM,Maize,Autumn,2007,0.4522,12
+Jharkhand,WEST SINGHBHUM,Potato,Rabi,2007,0.3459,12
+Jharkhand,WEST SINGHBHUM,Potato,Winter,2007,0.4522,12
+Jharkhand,WEST SINGHBHUM,Rapeseed &Mustard,Rabi,2007,0.3459,12
+Jharkhand,WEST SINGHBHUM,Rice,Autumn,2007,0.4522,12
+Jharkhand,WEST SINGHBHUM,Rice,Winter,2007,0.4522,12
+Jharkhand,WEST SINGHBHUM,Wheat,Rabi,2007,0.3459,12
+Jharkhand,BOKARO,Arhar/Tur,Rabi,2008,0.2799,12
+Jharkhand,BOKARO,Gram,Rabi,2008,0.2799,12
+Jharkhand,BOKARO,Maize,Autumn,2008,0.39,12
+Jharkhand,BOKARO,Onion,Rabi,2008,0.2799,12
+Jharkhand,BOKARO,Potato,Rabi,2008,0.2799,12
+Jharkhand,BOKARO,Potato,Winter,2008,0.39,12
+Jharkhand,BOKARO,Rapeseed &Mustard,Rabi,2008,0.2799,12
+Jharkhand,BOKARO,Rice,Autumn,2008,0.39,12
+Jharkhand,BOKARO,Rice,Winter,2008,0.39,12
+Jharkhand,BOKARO,Wheat,Rabi,2008,0.2799,12
+Jharkhand,CHATRA,Arhar/Tur,Rabi,2008,0.3704,12
+Jharkhand,CHATRA,Gram,Rabi,2008,0.3704,12
+Jharkhand,CHATRA,Maize,Autumn,2008,0.4516,12
+Jharkhand,CHATRA,Onion,Rabi,2008,0.3704,12
+Jharkhand,CHATRA,Potato,Rabi,2008,0.3704,12
+Jharkhand,CHATRA,Potato,Winter,2008,0.4516,12
+Jharkhand,CHATRA,Rapeseed &Mustard,Rabi,2008,0.3704,12
+Jharkhand,CHATRA,Rice,Autumn,2008,0.4516,12
+Jharkhand,CHATRA,Rice,Winter,2008,0.4516,12
+Jharkhand,CHATRA,Sugarcane,Whole Year,2008,0.4516,12
+Jharkhand,CHATRA,Wheat,Rabi,2008,0.3704,12
+Jharkhand,DEOGHAR,Arhar/Tur,Rabi,2008,0.2971,12
+Jharkhand,DEOGHAR,Arhar/Tur,Winter,2008,0.3829,12
+Jharkhand,DEOGHAR,Gram,Rabi,2008,0.2971,12
+Jharkhand,DEOGHAR,Maize,Autumn,2008,0.3829,12
+Jharkhand,DEOGHAR,Onion,Rabi,2008,0.2971,12
+Jharkhand,DEOGHAR,Potato,Rabi,2008,0.2971,12
+Jharkhand,DEOGHAR,Potato,Winter,2008,0.3829,12
+Jharkhand,DEOGHAR,Rapeseed &Mustard,Rabi,2008,0.2971,12
+Jharkhand,DEOGHAR,Rice,Autumn,2008,0.3829,12
+Jharkhand,DEOGHAR,Rice,Winter,2008,0.3829,12
+Jharkhand,DEOGHAR,Wheat,Rabi,2008,0.2971,12
+Jharkhand,DHANBAD,Arhar/Tur,Rabi,2008,0.316,12
+Jharkhand,DHANBAD,Arhar/Tur,Winter,2008,0.3968,12
+Jharkhand,DHANBAD,Maize,Autumn,2008,0.3968,12
+Jharkhand,DHANBAD,Onion,Rabi,2008,0.316,12
+Jharkhand,DHANBAD,Potato,Rabi,2008,0.316,12
+Jharkhand,DHANBAD,Potato,Winter,2008,0.3968,12
+Jharkhand,DHANBAD,Rapeseed &Mustard,Rabi,2008,0.316,12
+Jharkhand,DHANBAD,Rice,Winter,2008,0.3968,12
+Jharkhand,DHANBAD,Wheat,Rabi,2008,0.316,12
+Jharkhand,DUMKA,Arhar/Tur,Rabi,2008,0.2901,12
+Jharkhand,DUMKA,Arhar/Tur,Winter,2008,0.3861,12
+Jharkhand,DUMKA,Gram,Rabi,2008,0.2901,12
+Jharkhand,DUMKA,Maize,Autumn,2008,0.3861,12
+Jharkhand,DUMKA,Onion,Rabi,2008,0.2901,12
+Jharkhand,DUMKA,Potato,Rabi,2008,0.2901,12
+Jharkhand,DUMKA,Potato,Winter,2008,0.3861,12
+Jharkhand,DUMKA,Rapeseed &Mustard,Rabi,2008,0.2901,12
+Jharkhand,DUMKA,Rice,Autumn,2008,0.3861,12
+Jharkhand,DUMKA,Rice,Winter,2008,0.3861,12
+Jharkhand,DUMKA,Wheat,Rabi,2008,0.2901,12
+Jharkhand,EAST SINGHBUM,Arhar/Tur,Rabi,2008,0.2239,12
+Jharkhand,EAST SINGHBUM,Gram,Rabi,2008,0.2239,12
+Jharkhand,EAST SINGHBUM,Maize,Autumn,2008,0.2733,12
+Jharkhand,EAST SINGHBUM,Onion,Rabi,2008,0.2239,12
+Jharkhand,EAST SINGHBUM,Potato,Rabi,2008,0.2239,12
+Jharkhand,EAST SINGHBUM,Rapeseed &Mustard,Rabi,2008,0.2239,12
+Jharkhand,EAST SINGHBUM,Rice,Autumn,2008,0.2733,12
+Jharkhand,EAST SINGHBUM,Rice,Winter,2008,0.2733,12
+Jharkhand,EAST SINGHBUM,Wheat,Rabi,2008,0.2239,12
+Jharkhand,GARHWA,Arhar/Tur,Rabi,2008,0.3332,12
+Jharkhand,GARHWA,Gram,Rabi,2008,0.3332,12
+Jharkhand,GARHWA,Maize,Autumn,2008,0.3832,12
+Jharkhand,GARHWA,Onion,Rabi,2008,0.3332,12
+Jharkhand,GARHWA,Potato,Rabi,2008,0.3332,12
+Jharkhand,GARHWA,Potato,Winter,2008,0.3832,12
+Jharkhand,GARHWA,Rapeseed &Mustard,Rabi,2008,0.3332,12
+Jharkhand,GARHWA,Rice,Autumn,2008,0.3832,12
+Jharkhand,GARHWA,Rice,Winter,2008,0.3832,12
+Jharkhand,GARHWA,Sugarcane,Whole Year,2008,0.3832,12
+Jharkhand,GARHWA,Wheat,Rabi,2008,0.3332,12
+Jharkhand,GIRIDIH,Arhar/Tur,Rabi,2008,0.2927,12
+Jharkhand,GIRIDIH,Arhar/Tur,Winter,2008,0.3717,12
+Jharkhand,GIRIDIH,Gram,Rabi,2008,0.2927,12
+Jharkhand,GIRIDIH,Maize,Autumn,2008,0.3717,12
+Jharkhand,GIRIDIH,Onion,Rabi,2008,0.2927,12
+Jharkhand,GIRIDIH,Potato,Rabi,2008,0.2927,12
+Jharkhand,GIRIDIH,Potato,Winter,2008,0.3717,12
+Jharkhand,GIRIDIH,Rapeseed &Mustard,Rabi,2008,0.2927,12
+Jharkhand,GIRIDIH,Rice,Autumn,2008,0.3717,12
+Jharkhand,GIRIDIH,Rice,Winter,2008,0.3717,12
+Jharkhand,GIRIDIH,Wheat,Rabi,2008,0.2927,12
+Jharkhand,GODDA,Arhar/Tur,Rabi,2008,0.3099,12
+Jharkhand,GODDA,Gram,Rabi,2008,0.3099,12
+Jharkhand,GODDA,Maize,Autumn,2008,0.3826,12
+Jharkhand,GODDA,Onion,Rabi,2008,0.3099,12
+Jharkhand,GODDA,Potato,Rabi,2008,0.3099,12
+Jharkhand,GODDA,Potato,Winter,2008,0.3826,12
+Jharkhand,GODDA,Rapeseed &Mustard,Rabi,2008,0.3099,12
+Jharkhand,GODDA,Rice,Autumn,2008,0.3826,12
+Jharkhand,GODDA,Rice,Winter,2008,0.3826,12
+Jharkhand,GODDA,Sugarcane,Whole Year,2008,0.3826,12
+Jharkhand,GODDA,Wheat,Rabi,2008,0.3099,12
+Jharkhand,GUMLA,Arhar/Tur,Rabi,2008,0.3264,12
+Jharkhand,GUMLA,Gram,Rabi,2008,0.3264,12
+Jharkhand,GUMLA,Maize,Autumn,2008,0.4105,12
+Jharkhand,GUMLA,Onion,Rabi,2008,0.3264,12
+Jharkhand,GUMLA,Potato,Rabi,2008,0.3264,12
+Jharkhand,GUMLA,Potato,Winter,2008,0.4105,12
+Jharkhand,GUMLA,Rapeseed &Mustard,Rabi,2008,0.3264,12
+Jharkhand,GUMLA,Rice,Autumn,2008,0.4105,12
+Jharkhand,GUMLA,Rice,Winter,2008,0.4105,12
+Jharkhand,GUMLA,Wheat,Rabi,2008,0.3264,12
+Jharkhand,HAZARIBAGH,Arhar/Tur,Rabi,2008,0.3052,12
+Jharkhand,HAZARIBAGH,Gram,Rabi,2008,0.3052,12
+Jharkhand,HAZARIBAGH,Maize,Autumn,2008,0.3922,12
+Jharkhand,HAZARIBAGH,Onion,Rabi,2008,0.3052,12
+Jharkhand,HAZARIBAGH,Potato,Rabi,2008,0.3052,12
+Jharkhand,HAZARIBAGH,Potato,Winter,2008,0.3922,12
+Jharkhand,HAZARIBAGH,Rapeseed &Mustard,Rabi,2008,0.3052,12
+Jharkhand,HAZARIBAGH,Rice,Autumn,2008,0.3922,12
+Jharkhand,HAZARIBAGH,Rice,Winter,2008,0.3922,12
+Jharkhand,HAZARIBAGH,Sugarcane,Whole Year,2008,0.3922,12
+Jharkhand,HAZARIBAGH,Wheat,Rabi,2008,0.3052,12
+Jharkhand,JAMTARA,Arhar/Tur,Rabi,2008,0.3311,12
+Jharkhand,JAMTARA,Arhar/Tur,Winter,2008,0.4113,12
+Jharkhand,JAMTARA,Gram,Rabi,2008,0.3311,12
+Jharkhand,JAMTARA,Maize,Autumn,2008,0.4113,12
+Jharkhand,JAMTARA,Onion,Rabi,2008,0.3311,12
+Jharkhand,JAMTARA,Potato,Rabi,2008,0.3311,12
+Jharkhand,JAMTARA,Potato,Winter,2008,0.4113,12
+Jharkhand,JAMTARA,Rapeseed &Mustard,Rabi,2008,0.3311,12
+Jharkhand,JAMTARA,Rice,Autumn,2008,0.4113,12
+Jharkhand,JAMTARA,Rice,Winter,2008,0.4113,12
+Jharkhand,JAMTARA,Wheat,Rabi,2008,0.3311,12
+Jharkhand,KHUNTI,Arhar/Tur,Rabi,2008,0.3453,12
+Jharkhand,KHUNTI,Gram,Rabi,2008,0.3453,12
+Jharkhand,KHUNTI,Maize,Autumn,2008,0.4373,12
+Jharkhand,KHUNTI,Onion,Rabi,2008,0.3453,12
+Jharkhand,KHUNTI,Potato,Rabi,2008,0.3453,12
+Jharkhand,KHUNTI,Potato,Winter,2008,0.4373,12
+Jharkhand,KHUNTI,Rapeseed &Mustard,Rabi,2008,0.3453,12
+Jharkhand,KHUNTI,Rice,Autumn,2008,0.4373,12
+Jharkhand,KHUNTI,Rice,Winter,2008,0.4373,12
+Jharkhand,KHUNTI,Wheat,Rabi,2008,0.3453,12
+Jharkhand,KODERMA,Arhar/Tur,Rabi,2008,0.3672,12
+Jharkhand,KODERMA,Gram,Rabi,2008,0.3672,12
+Jharkhand,KODERMA,Maize,Autumn,2008,0.4322,12
+Jharkhand,KODERMA,Onion,Rabi,2008,0.3672,12
+Jharkhand,KODERMA,Potato,Rabi,2008,0.3672,12
+Jharkhand,KODERMA,Potato,Winter,2008,0.4322,12
+Jharkhand,KODERMA,Rapeseed &Mustard,Rabi,2008,0.3672,12
+Jharkhand,KODERMA,Rice,Autumn,2008,0.4322,12
+Jharkhand,KODERMA,Rice,Winter,2008,0.4322,12
+Jharkhand,KODERMA,Wheat,Rabi,2008,0.3672,12
+Jharkhand,LATEHAR,Arhar/Tur,Rabi,2008,0.3023,12
+Jharkhand,LATEHAR,Gram,Rabi,2008,0.3023,12
+Jharkhand,LATEHAR,Maize,Autumn,2008,0.4114,12
+Jharkhand,LATEHAR,Onion,Rabi,2008,0.3023,12
+Jharkhand,LATEHAR,Potato,Rabi,2008,0.3023,12
+Jharkhand,LATEHAR,Potato,Winter,2008,0.4114,12
+Jharkhand,LATEHAR,Rapeseed &Mustard,Rabi,2008,0.3023,12
+Jharkhand,LATEHAR,Rice,Autumn,2008,0.4114,12
+Jharkhand,LATEHAR,Rice,Winter,2008,0.4114,12
+Jharkhand,LATEHAR,Sugarcane,Whole Year,2008,0.4114,12
+Jharkhand,LATEHAR,Wheat,Rabi,2008,0.3023,12
+Jharkhand,LOHARDAGA,Arhar/Tur,Rabi,2008,0.3015,12
+Jharkhand,LOHARDAGA,Gram,Rabi,2008,0.3015,12
+Jharkhand,LOHARDAGA,Maize,Autumn,2008,0.4109,12
+Jharkhand,LOHARDAGA,Onion,Rabi,2008,0.3015,12
+Jharkhand,LOHARDAGA,Potato,Rabi,2008,0.3015,12
+Jharkhand,LOHARDAGA,Potato,Winter,2008,0.4109,12
+Jharkhand,LOHARDAGA,Rapeseed &Mustard,Rabi,2008,0.3015,12
+Jharkhand,LOHARDAGA,Rice,Autumn,2008,0.4109,12
+Jharkhand,LOHARDAGA,Rice,Winter,2008,0.4109,12
+Jharkhand,LOHARDAGA,Wheat,Rabi,2008,0.3015,12
+Jharkhand,PAKUR,Arhar/Tur,Rabi,2008,0.3118,12
+Jharkhand,PAKUR,Gram,Rabi,2008,0.3118,12
+Jharkhand,PAKUR,Maize,Autumn,2008,0.4069,12
+Jharkhand,PAKUR,Onion,Rabi,2008,0.3118,12
+Jharkhand,PAKUR,Potato,Rabi,2008,0.3118,12
+Jharkhand,PAKUR,Potato,Winter,2008,0.4069,12
+Jharkhand,PAKUR,Rapeseed &Mustard,Rabi,2008,0.3118,12
+Jharkhand,PAKUR,Rice,Autumn,2008,0.4069,12
+Jharkhand,PAKUR,Rice,Winter,2008,0.4069,12
+Jharkhand,PAKUR,Sugarcane,Whole Year,2008,0.4069,12
+Jharkhand,PAKUR,Wheat,Rabi,2008,0.3118,12
+Jharkhand,PALAMU,Arhar/Tur,Rabi,2008,0.2475,12
+Jharkhand,PALAMU,Gram,Rabi,2008,0.2475,12
+Jharkhand,PALAMU,Maize,Autumn,2008,0.3113,12
+Jharkhand,PALAMU,Onion,Rabi,2008,0.2475,12
+Jharkhand,PALAMU,Potato,Rabi,2008,0.2475,12
+Jharkhand,PALAMU,Potato,Winter,2008,0.3113,12
+Jharkhand,PALAMU,Rapeseed &Mustard,Rabi,2008,0.2475,12
+Jharkhand,PALAMU,Rice,Autumn,2008,0.3113,12
+Jharkhand,PALAMU,Rice,Winter,2008,0.3113,12
+Jharkhand,PALAMU,Sugarcane,Whole Year,2008,0.3113,12
+Jharkhand,PALAMU,Wheat,Rabi,2008,0.2475,12
+Jharkhand,RAMGARH,Arhar/Tur,Rabi,2008,0.352,12
+Jharkhand,RAMGARH,Gram,Rabi,2008,0.352,12
+Jharkhand,RAMGARH,Maize,Autumn,2008,0.498,12
+Jharkhand,RAMGARH,Onion,Rabi,2008,0.352,12
+Jharkhand,RAMGARH,Potato,Rabi,2008,0.352,12
+Jharkhand,RAMGARH,Potato,Winter,2008,0.498,12
+Jharkhand,RAMGARH,Rapeseed &Mustard,Rabi,2008,0.352,12
+Jharkhand,RAMGARH,Rice,Autumn,2008,0.498,12
+Jharkhand,RAMGARH,Rice,Winter,2008,0.498,12
+Jharkhand,RAMGARH,Wheat,Rabi,2008,0.352,12
+Jharkhand,RANCHI,Arhar/Tur,Rabi,2008,0.3034,12
+Jharkhand,RANCHI,Gram,Rabi,2008,0.3034,12
+Jharkhand,RANCHI,Maize,Autumn,2008,0.347,12
+Jharkhand,RANCHI,Onion,Rabi,2008,0.3034,12
+Jharkhand,RANCHI,Potato,Rabi,2008,0.3034,12
+Jharkhand,RANCHI,Potato,Winter,2008,0.347,12
+Jharkhand,RANCHI,Rapeseed &Mustard,Rabi,2008,0.3034,12
+Jharkhand,RANCHI,Rice,Autumn,2008,0.347,12
+Jharkhand,RANCHI,Rice,Winter,2008,0.347,12
+Jharkhand,RANCHI,Wheat,Rabi,2008,0.3034,12
+Jharkhand,SAHEBGANJ,Arhar/Tur,Rabi,2008,0.3737,12
+Jharkhand,SAHEBGANJ,Gram,Rabi,2008,0.3737,12
+Jharkhand,SAHEBGANJ,Maize,Autumn,2008,0.3666,12
+Jharkhand,SAHEBGANJ,Onion,Rabi,2008,0.3737,12
+Jharkhand,SAHEBGANJ,Potato,Rabi,2008,0.3737,12
+Jharkhand,SAHEBGANJ,Rapeseed &Mustard,Rabi,2008,0.3737,12
+Jharkhand,SAHEBGANJ,Rice,Autumn,2008,0.3666,12
+Jharkhand,SAHEBGANJ,Rice,Winter,2008,0.3666,12
+Jharkhand,SAHEBGANJ,Wheat,Rabi,2008,0.3737,12
+Jharkhand,SARAIKELA KHARSAWAN,Arhar/Tur,Rabi,2008,0.2977,12
+Jharkhand,SARAIKELA KHARSAWAN,Gram,Rabi,2008,0.2977,12
+Jharkhand,SARAIKELA KHARSAWAN,Maize,Autumn,2008,0.3793,12
+Jharkhand,SARAIKELA KHARSAWAN,Onion,Rabi,2008,0.2977,12
+Jharkhand,SARAIKELA KHARSAWAN,Potato,Rabi,2008,0.2977,12
+Jharkhand,SARAIKELA KHARSAWAN,Potato,Winter,2008,0.3793,12
+Jharkhand,SARAIKELA KHARSAWAN,Rapeseed &Mustard,Rabi,2008,0.2977,12
+Jharkhand,SARAIKELA KHARSAWAN,Rice,Autumn,2008,0.3793,12
+Jharkhand,SARAIKELA KHARSAWAN,Rice,Winter,2008,0.3793,12
+Jharkhand,SARAIKELA KHARSAWAN,Wheat,Rabi,2008,0.2977,12
+Jharkhand,SIMDEGA,Arhar/Tur,Rabi,2008,0.2962,12
+Jharkhand,SIMDEGA,Gram,Rabi,2008,0.2962,12
+Jharkhand,SIMDEGA,Maize,Autumn,2008,0.4143,12
+Jharkhand,SIMDEGA,Onion,Rabi,2008,0.2962,12
+Jharkhand,SIMDEGA,Potato,Rabi,2008,0.2962,12
+Jharkhand,SIMDEGA,Potato,Winter,2008,0.4143,12
+Jharkhand,SIMDEGA,Rapeseed &Mustard,Rabi,2008,0.2962,12
+Jharkhand,SIMDEGA,Rice,Autumn,2008,0.4143,12
+Jharkhand,SIMDEGA,Rice,Winter,2008,0.4143,12
+Jharkhand,SIMDEGA,Wheat,Rabi,2008,0.2962,12
+Jharkhand,WEST SINGHBHUM,Arhar/Tur,Rabi,2008,0.3087,12
+Jharkhand,WEST SINGHBHUM,Gram,Rabi,2008,0.3087,12
+Jharkhand,WEST SINGHBHUM,Maize,Autumn,2008,0.4179,12
+Jharkhand,WEST SINGHBHUM,Potato,Rabi,2008,0.3087,12
+Jharkhand,WEST SINGHBHUM,Rapeseed &Mustard,Rabi,2008,0.3087,12
+Jharkhand,WEST SINGHBHUM,Rice,Autumn,2008,0.4179,12
+Jharkhand,WEST SINGHBHUM,Rice,Winter,2008,0.4179,12
+Jharkhand,WEST SINGHBHUM,Wheat,Rabi,2008,0.3087,12
+Jharkhand,BOKARO,Arhar/Tur,Rabi,2009,0.2484,12
+Jharkhand,BOKARO,Gram,Rabi,2009,0.2484,12
+Jharkhand,BOKARO,Maize,Autumn,2009,0.4145,12
+Jharkhand,BOKARO,Onion,Rabi,2009,0.2484,12
+Jharkhand,BOKARO,Potato,Rabi,2009,0.2484,12
+Jharkhand,BOKARO,Potato,Winter,2009,0.4145,12
+Jharkhand,BOKARO,Rapeseed &Mustard,Rabi,2009,0.2484,12
+Jharkhand,BOKARO,Rice,Autumn,2009,0.4145,12
+Jharkhand,BOKARO,Rice,Winter,2009,0.4145,12
+Jharkhand,BOKARO,Wheat,Rabi,2009,0.2484,12
+Jharkhand,CHATRA,Arhar/Tur,Rabi,2009,0.3328,12
+Jharkhand,CHATRA,Gram,Rabi,2009,0.3328,12
+Jharkhand,CHATRA,Maize,Autumn,2009,0.4319,12
+Jharkhand,CHATRA,Onion,Rabi,2009,0.3328,12
+Jharkhand,CHATRA,Potato,Rabi,2009,0.3328,12
+Jharkhand,CHATRA,Potato,Winter,2009,0.4319,12
+Jharkhand,CHATRA,Rapeseed &Mustard,Rabi,2009,0.3328,12
+Jharkhand,CHATRA,Rice,Autumn,2009,0.4319,12
+Jharkhand,CHATRA,Rice,Winter,2009,0.4319,12
+Jharkhand,CHATRA,Sugarcane,Whole Year,2009,0.4319,12
+Jharkhand,CHATRA,Wheat,Rabi,2009,0.3328,12
+Jharkhand,DEOGHAR,Arhar/Tur,Rabi,2009,0.2944,12
+Jharkhand,DEOGHAR,Arhar/Tur,Winter,2009,0.388,12
+Jharkhand,DEOGHAR,Gram,Rabi,2009,0.2944,12
+Jharkhand,DEOGHAR,Maize,Autumn,2009,0.388,12
+Jharkhand,DEOGHAR,Potato,Rabi,2009,0.2944,12
+Jharkhand,DEOGHAR,Potato,Winter,2009,0.388,12
+Jharkhand,DEOGHAR,Rapeseed &Mustard,Rabi,2009,0.2944,12
+Jharkhand,DEOGHAR,Rice,Autumn,2009,0.388,12
+Jharkhand,DEOGHAR,Rice,Winter,2009,0.388,12
+Jharkhand,DEOGHAR,Wheat,Rabi,2009,0.2944,12
+Jharkhand,DHANBAD,Arhar/Tur,Winter,2009,0.3835,12
+Jharkhand,DHANBAD,Gram,Rabi,2009,0.2884,12
+Jharkhand,DHANBAD,Maize,Autumn,2009,0.3835,12
+Jharkhand,DHANBAD,Onion,Rabi,2009,0.2884,12
+Jharkhand,DHANBAD,Potato,Rabi,2009,0.2884,12
+Jharkhand,DHANBAD,Potato,Winter,2009,0.3835,12
+Jharkhand,DHANBAD,Rapeseed &Mustard,Rabi,2009,0.2884,12
+Jharkhand,DHANBAD,Rice,Winter,2009,0.3835,12
+Jharkhand,DHANBAD,Wheat,Rabi,2009,0.2884,12
+Jharkhand,DUMKA,Arhar/Tur,Rabi,2009,0.2831,12
+Jharkhand,DUMKA,Arhar/Tur,Winter,2009,0.4055,12
+Jharkhand,DUMKA,Gram,Rabi,2009,0.2831,12
+Jharkhand,DUMKA,Maize,Autumn,2009,0.4055,12
+Jharkhand,DUMKA,Onion,Rabi,2009,0.2831,12
+Jharkhand,DUMKA,Potato,Rabi,2009,0.2831,12
+Jharkhand,DUMKA,Potato,Winter,2009,0.4055,12
+Jharkhand,DUMKA,Rapeseed &Mustard,Rabi,2009,0.2831,12
+Jharkhand,DUMKA,Rice,Autumn,2009,0.4055,12
+Jharkhand,DUMKA,Rice,Winter,2009,0.4055,12
+Jharkhand,DUMKA,Wheat,Rabi,2009,0.2831,12
+Jharkhand,EAST SINGHBUM,Arhar/Tur,Rabi,2009,0.2101,12
+Jharkhand,EAST SINGHBUM,Gram,Rabi,2009,0.2101,12
+Jharkhand,EAST SINGHBUM,Maize,Autumn,2009,0.268,12
+Jharkhand,EAST SINGHBUM,Onion,Rabi,2009,0.2101,12
+Jharkhand,EAST SINGHBUM,Potato,Rabi,2009,0.2101,12
+Jharkhand,EAST SINGHBUM,Potato,Winter,2009,0.268,12
+Jharkhand,EAST SINGHBUM,Rapeseed &Mustard,Rabi,2009,0.2101,12
+Jharkhand,EAST SINGHBUM,Rice,Autumn,2009,0.268,12
+Jharkhand,EAST SINGHBUM,Rice,Winter,2009,0.268,12
+Jharkhand,EAST SINGHBUM,Wheat,Rabi,2009,0.2101,12
+Jharkhand,GARHWA,Arhar/Tur,Rabi,2009,0.2745,12
+Jharkhand,GARHWA,Gram,Rabi,2009,0.2745,12
+Jharkhand,GARHWA,Maize,Autumn,2009,0.3631,12
+Jharkhand,GARHWA,Onion,Rabi,2009,0.2745,12
+Jharkhand,GARHWA,Potato,Rabi,2009,0.2745,12
+Jharkhand,GARHWA,Potato,Winter,2009,0.3631,12
+Jharkhand,GARHWA,Rapeseed &Mustard,Rabi,2009,0.2745,12
+Jharkhand,GARHWA,Rice,Autumn,2009,0.3631,12
+Jharkhand,GARHWA,Rice,Winter,2009,0.3631,12
+Jharkhand,GARHWA,Sugarcane,Whole Year,2009,0.3631,12
+Jharkhand,GARHWA,Wheat,Rabi,2009,0.2745,12
+Jharkhand,GIRIDIH,Arhar/Tur,Rabi,2009,0.2565,12
+Jharkhand,GIRIDIH,Gram,Rabi,2009,0.2565,12
+Jharkhand,GIRIDIH,Maize,Autumn,2009,0.3476,12
+Jharkhand,GIRIDIH,Onion,Rabi,2009,0.2565,12
+Jharkhand,GIRIDIH,Potato,Rabi,2009,0.2565,12
+Jharkhand,GIRIDIH,Potato,Winter,2009,0.3476,12
+Jharkhand,GIRIDIH,Rapeseed &Mustard,Rabi,2009,0.2565,12
+Jharkhand,GIRIDIH,Rice,Autumn,2009,0.3476,12
+Jharkhand,GIRIDIH,Rice,Winter,2009,0.3476,12
+Jharkhand,GIRIDIH,Wheat,Rabi,2009,0.2565,12
+Jharkhand,GODDA,Arhar/Tur,Rabi,2009,0.3008,12
+Jharkhand,GODDA,Gram,Rabi,2009,0.3008,12
+Jharkhand,GODDA,Maize,Autumn,2009,0.4037,12
+Jharkhand,GODDA,Onion,Rabi,2009,0.3008,12
+Jharkhand,GODDA,Potato,Rabi,2009,0.3008,12
+Jharkhand,GODDA,Potato,Winter,2009,0.4037,12
+Jharkhand,GODDA,Rapeseed &Mustard,Rabi,2009,0.3008,12
+Jharkhand,GODDA,Rice,Autumn,2009,0.4037,12
+Jharkhand,GODDA,Rice,Winter,2009,0.4037,12
+Jharkhand,GODDA,Sugarcane,Whole Year,2009,0.4037,12
+Jharkhand,GODDA,Wheat,Rabi,2009,0.3008,12
+Jharkhand,GUMLA,Arhar/Tur,Rabi,2009,0.2897,12
+Jharkhand,GUMLA,Gram,Rabi,2009,0.2897,12
+Jharkhand,GUMLA,Maize,Autumn,2009,0.4124,12
+Jharkhand,GUMLA,Onion,Rabi,2009,0.2897,12
+Jharkhand,GUMLA,Potato,Rabi,2009,0.2897,12
+Jharkhand,GUMLA,Potato,Winter,2009,0.4124,12
+Jharkhand,GUMLA,Rapeseed &Mustard,Rabi,2009,0.2897,12
+Jharkhand,GUMLA,Rice,Autumn,2009,0.4124,12
+Jharkhand,GUMLA,Rice,Winter,2009,0.4124,12
+Jharkhand,GUMLA,Wheat,Rabi,2009,0.2897,12
+Jharkhand,HAZARIBAGH,Arhar/Tur,Rabi,2009,0.2904,12
+Jharkhand,HAZARIBAGH,Gram,Rabi,2009,0.2904,12
+Jharkhand,HAZARIBAGH,Maize,Autumn,2009,0.3628,12
+Jharkhand,HAZARIBAGH,Onion,Rabi,2009,0.2904,12
+Jharkhand,HAZARIBAGH,Potato,Rabi,2009,0.2904,12
+Jharkhand,HAZARIBAGH,Potato,Winter,2009,0.3628,12
+Jharkhand,HAZARIBAGH,Rapeseed &Mustard,Rabi,2009,0.2904,12
+Jharkhand,HAZARIBAGH,Rice,Autumn,2009,0.3628,12
+Jharkhand,HAZARIBAGH,Rice,Winter,2009,0.3628,12
+Jharkhand,HAZARIBAGH,Sugarcane,Whole Year,2009,0.3628,12
+Jharkhand,HAZARIBAGH,Wheat,Rabi,2009,0.2904,12
+Jharkhand,JAMTARA,Arhar/Tur,Rabi,2009,0.3077,12
+Jharkhand,JAMTARA,Arhar/Tur,Winter,2009,0.4019,12
+Jharkhand,JAMTARA,Gram,Rabi,2009,0.3077,12
+Jharkhand,JAMTARA,Maize,Autumn,2009,0.4019,12
+Jharkhand,JAMTARA,Onion,Rabi,2009,0.3077,12
+Jharkhand,JAMTARA,Potato,Rabi,2009,0.3077,12
+Jharkhand,JAMTARA,Potato,Winter,2009,0.4019,12
+Jharkhand,JAMTARA,Rapeseed &Mustard,Rabi,2009,0.3077,12
+Jharkhand,JAMTARA,Rice,Autumn,2009,0.4019,12
+Jharkhand,JAMTARA,Rice,Winter,2009,0.4019,12
+Jharkhand,JAMTARA,Wheat,Rabi,2009,0.3077,12
+Jharkhand,KHUNTI,Arhar/Tur,Rabi,2009,0.3252,12
+Jharkhand,KHUNTI,Gram,Rabi,2009,0.3252,12
+Jharkhand,KHUNTI,Maize,Autumn,2009,0.4592,12
+Jharkhand,KHUNTI,Onion,Rabi,2009,0.3252,12
+Jharkhand,KHUNTI,Potato,Rabi,2009,0.3252,12
+Jharkhand,KHUNTI,Potato,Winter,2009,0.4592,12
+Jharkhand,KHUNTI,Rapeseed &Mustard,Rabi,2009,0.3252,12
+Jharkhand,KHUNTI,Rice,Autumn,2009,0.4592,12
+Jharkhand,KHUNTI,Rice,Winter,2009,0.4592,12
+Jharkhand,KHUNTI,Wheat,Rabi,2009,0.3252,12
+Jharkhand,KODERMA,Arhar/Tur,Rabi,2009,0.3139,12
+Jharkhand,KODERMA,Gram,Rabi,2009,0.3139,12
+Jharkhand,KODERMA,Maize,Autumn,2009,0.4124,12
+Jharkhand,KODERMA,Onion,Rabi,2009,0.3139,12
+Jharkhand,KODERMA,Potato,Rabi,2009,0.3139,12
+Jharkhand,KODERMA,Potato,Winter,2009,0.4124,12
+Jharkhand,KODERMA,Rapeseed &Mustard,Rabi,2009,0.3139,12
+Jharkhand,KODERMA,Rice,Autumn,2009,0.4124,12
+Jharkhand,KODERMA,Rice,Winter,2009,0.4124,12
+Jharkhand,KODERMA,Sugarcane,Whole Year,2009,0.4124,12
+Jharkhand,KODERMA,Wheat,Rabi,2009,0.3139,12
+Jharkhand,LATEHAR,Arhar/Tur,Rabi,2009,0.2631,12
+Jharkhand,LATEHAR,Gram,Rabi,2009,0.2631,12
+Jharkhand,LATEHAR,Maize,Autumn,2009,0.3678,12
+Jharkhand,LATEHAR,Onion,Rabi,2009,0.2631,12
+Jharkhand,LATEHAR,Potato,Rabi,2009,0.2631,12
+Jharkhand,LATEHAR,Potato,Winter,2009,0.3678,12
+Jharkhand,LATEHAR,Rapeseed &Mustard,Rabi,2009,0.2631,12
+Jharkhand,LATEHAR,Rice,Autumn,2009,0.3678,12
+Jharkhand,LATEHAR,Rice,Winter,2009,0.3678,12
+Jharkhand,LATEHAR,Wheat,Rabi,2009,0.2631,12
+Jharkhand,LOHARDAGA,Arhar/Tur,Rabi,2009,0.285,12
+Jharkhand,LOHARDAGA,Gram,Rabi,2009,0.285,12
+Jharkhand,LOHARDAGA,Maize,Autumn,2009,0.3853,12
+Jharkhand,LOHARDAGA,Onion,Rabi,2009,0.285,12
+Jharkhand,LOHARDAGA,Potato,Rabi,2009,0.285,12
+Jharkhand,LOHARDAGA,Potato,Winter,2009,0.3853,12
+Jharkhand,LOHARDAGA,Rapeseed &Mustard,Rabi,2009,0.285,12
+Jharkhand,LOHARDAGA,Rice,Autumn,2009,0.3853,12
+Jharkhand,LOHARDAGA,Rice,Winter,2009,0.3853,12
+Jharkhand,LOHARDAGA,Sugarcane,Whole Year,2009,0.3853,12
+Jharkhand,LOHARDAGA,Wheat,Rabi,2009,0.285,12
+Jharkhand,PAKUR,Arhar/Tur,Rabi,2009,0.2985,12
+Jharkhand,PAKUR,Gram,Rabi,2009,0.2985,12
+Jharkhand,PAKUR,Maize,Autumn,2009,0.4002,12
+Jharkhand,PAKUR,Onion,Rabi,2009,0.2985,12
+Jharkhand,PAKUR,Potato,Rabi,2009,0.2985,12
+Jharkhand,PAKUR,Potato,Winter,2009,0.4002,12
+Jharkhand,PAKUR,Rapeseed &Mustard,Rabi,2009,0.2985,12
+Jharkhand,PAKUR,Rice,Autumn,2009,0.4002,12
+Jharkhand,PAKUR,Rice,Winter,2009,0.4002,12
+Jharkhand,PAKUR,Sugarcane,Whole Year,2009,0.4002,12
+Jharkhand,PAKUR,Wheat,Rabi,2009,0.2985,12
+Jharkhand,PALAMU,Arhar/Tur,Rabi,2009,0.2363,12
+Jharkhand,PALAMU,Gram,Rabi,2009,0.2363,12
+Jharkhand,PALAMU,Maize,Autumn,2009,0.2919,12
+Jharkhand,PALAMU,Onion,Rabi,2009,0.2363,12
+Jharkhand,PALAMU,Potato,Rabi,2009,0.2363,12
+Jharkhand,PALAMU,Potato,Winter,2009,0.2919,12
+Jharkhand,PALAMU,Rapeseed &Mustard,Rabi,2009,0.2363,12
+Jharkhand,PALAMU,Rice,Autumn,2009,0.2919,12
+Jharkhand,PALAMU,Rice,Winter,2009,0.2919,12
+Jharkhand,PALAMU,Sugarcane,Whole Year,2009,0.2919,12
+Jharkhand,PALAMU,Wheat,Rabi,2009,0.2363,12
+Jharkhand,RAMGARH,Arhar/Tur,Rabi,2009,0.2972,12
+Jharkhand,RAMGARH,Gram,Rabi,2009,0.2972,12
+Jharkhand,RAMGARH,Maize,Autumn,2009,0.4627,12
+Jharkhand,RAMGARH,Onion,Rabi,2009,0.2972,12
+Jharkhand,RAMGARH,Potato,Rabi,2009,0.2972,12
+Jharkhand,RAMGARH,Potato,Winter,2009,0.4627,12
+Jharkhand,RAMGARH,Rapeseed &Mustard,Rabi,2009,0.2972,12
+Jharkhand,RAMGARH,Rice,Autumn,2009,0.4627,12
+Jharkhand,RAMGARH,Rice,Winter,2009,0.4627,12
+Jharkhand,RAMGARH,Wheat,Rabi,2009,0.2972,12
+Jharkhand,RANCHI,Arhar/Tur,Rabi,2009,0.2903,12
+Jharkhand,RANCHI,Gram,Rabi,2009,0.2903,12
+Jharkhand,RANCHI,Maize,Autumn,2009,0.3683,12
+Jharkhand,RANCHI,Onion,Rabi,2009,0.2903,12
+Jharkhand,RANCHI,Potato,Rabi,2009,0.2903,12
+Jharkhand,RANCHI,Potato,Winter,2009,0.3683,12
+Jharkhand,RANCHI,Rapeseed &Mustard,Rabi,2009,0.2903,12
+Jharkhand,RANCHI,Rice,Autumn,2009,0.3683,12
+Jharkhand,RANCHI,Rice,Winter,2009,0.3683,12
+Jharkhand,RANCHI,Wheat,Rabi,2009,0.2903,12
+Jharkhand,SAHEBGANJ,Arhar/Tur,Rabi,2009,0.3401,12
+Jharkhand,SAHEBGANJ,Gram,Rabi,2009,0.3401,12
+Jharkhand,SAHEBGANJ,Maize,Autumn,2009,0.3867,12
+Jharkhand,SAHEBGANJ,Potato,Rabi,2009,0.3401,12
+Jharkhand,SAHEBGANJ,Rapeseed &Mustard,Rabi,2009,0.3401,12
+Jharkhand,SAHEBGANJ,Rice,Autumn,2009,0.3867,12
+Jharkhand,SAHEBGANJ,Rice,Winter,2009,0.3867,12
+Jharkhand,SAHEBGANJ,Wheat,Rabi,2009,0.3401,12
+Jharkhand,SARAIKELA KHARSAWAN,Arhar/Tur,Rabi,2009,0.2115,12
+Jharkhand,SARAIKELA KHARSAWAN,Gram,Rabi,2009,0.2115,12
+Jharkhand,SARAIKELA KHARSAWAN,Maize,Autumn,2009,0.3198,12
+Jharkhand,SARAIKELA KHARSAWAN,Onion,Rabi,2009,0.2115,12
+Jharkhand,SARAIKELA KHARSAWAN,Potato,Rabi,2009,0.2115,12
+Jharkhand,SARAIKELA KHARSAWAN,Potato,Winter,2009,0.3198,12
+Jharkhand,SARAIKELA KHARSAWAN,Rapeseed &Mustard,Rabi,2009,0.2115,12
+Jharkhand,SARAIKELA KHARSAWAN,Rice,Autumn,2009,0.3198,12
+Jharkhand,SARAIKELA KHARSAWAN,Rice,Winter,2009,0.3198,12
+Jharkhand,SARAIKELA KHARSAWAN,Wheat,Rabi,2009,0.2115,12
+Jharkhand,SIMDEGA,Arhar/Tur,Rabi,2009,0.2684,12
+Jharkhand,SIMDEGA,Gram,Rabi,2009,0.2684,12
+Jharkhand,SIMDEGA,Maize,Autumn,2009,0.395,12
+Jharkhand,SIMDEGA,Onion,Rabi,2009,0.2684,12
+Jharkhand,SIMDEGA,Potato,Rabi,2009,0.2684,12
+Jharkhand,SIMDEGA,Potato,Winter,2009,0.395,12
+Jharkhand,SIMDEGA,Rapeseed &Mustard,Rabi,2009,0.2684,12
+Jharkhand,SIMDEGA,Rice,Autumn,2009,0.395,12
+Jharkhand,SIMDEGA,Rice,Winter,2009,0.395,12
+Jharkhand,SIMDEGA,Wheat,Rabi,2009,0.2684,12
+Jharkhand,WEST SINGHBHUM,Arhar/Tur,Rabi,2009,0.2825,12
+Jharkhand,WEST SINGHBHUM,Gram,Rabi,2009,0.2825,12
+Jharkhand,WEST SINGHBHUM,Maize,Autumn,2009,0.4547,12
+Jharkhand,WEST SINGHBHUM,Potato,Rabi,2009,0.2825,12
+Jharkhand,WEST SINGHBHUM,Potato,Winter,2009,0.4547,12
+Jharkhand,WEST SINGHBHUM,Rapeseed &Mustard,Rabi,2009,0.2825,12
+Jharkhand,WEST SINGHBHUM,Rice,Autumn,2009,0.4547,12
+Jharkhand,WEST SINGHBHUM,Rice,Winter,2009,0.4547,12
+Jharkhand,WEST SINGHBHUM,Wheat,Rabi,2009,0.2825,12
+Jharkhand,BOKARO,Arhar/Tur,Rabi,2010,0.2887,12
+Jharkhand,BOKARO,Gram,Rabi,2010,0.2887,12
+Jharkhand,BOKARO,Onion,Rabi,2010,0.2887,12
+Jharkhand,BOKARO,Potato,Rabi,2010,0.2887,12
+Jharkhand,BOKARO,Rapeseed &Mustard,Rabi,2010,0.2887,12
+Jharkhand,BOKARO,Wheat,Rabi,2010,0.2887,12
+Jharkhand,CHATRA,Arhar/Tur,Rabi,2010,0.3344,12
+Jharkhand,CHATRA,Gram,Rabi,2010,0.3344,12
+Jharkhand,CHATRA,Onion,Rabi,2010,0.3344,12
+Jharkhand,CHATRA,Potato,Rabi,2010,0.3344,12
+Jharkhand,CHATRA,Rapeseed &Mustard,Rabi,2010,0.3344,12
+Jharkhand,CHATRA,Wheat,Rabi,2010,0.3344,12
+Jharkhand,DEOGHAR,Arhar/Tur,Rabi,2010,0.301,12
+Jharkhand,DEOGHAR,Gram,Rabi,2010,0.301,12
+Jharkhand,DEOGHAR,Onion,Rabi,2010,0.301,12
+Jharkhand,DEOGHAR,Potato,Rabi,2010,0.301,12
+Jharkhand,DEOGHAR,Rapeseed &Mustard,Rabi,2010,0.301,12
+Jharkhand,DEOGHAR,Wheat,Rabi,2010,0.301,12
+Jharkhand,DHANBAD,Arhar/Tur,Rabi,2010,0.3159,12
+Jharkhand,DHANBAD,Gram,Rabi,2010,0.3159,12
+Jharkhand,DHANBAD,Onion,Rabi,2010,0.3159,12
+Jharkhand,DHANBAD,Potato,Rabi,2010,0.3159,12
+Jharkhand,DHANBAD,Rapeseed &Mustard,Rabi,2010,0.3159,12
+Jharkhand,DHANBAD,Wheat,Rabi,2010,0.3159,12
+Jharkhand,DUMKA,Arhar/Tur,Rabi,2010,0.2549,12
+Jharkhand,DUMKA,Gram,Rabi,2010,0.2549,12
+Jharkhand,DUMKA,Onion,Rabi,2010,0.2549,12
+Jharkhand,DUMKA,Potato,Rabi,2010,0.2549,12
+Jharkhand,DUMKA,Rapeseed &Mustard,Rabi,2010,0.2549,12
+Jharkhand,DUMKA,Wheat,Rabi,2010,0.2549,12
+Jharkhand,EAST SINGHBUM,Arhar/Tur,Rabi,2010,0.2152,12
+Jharkhand,EAST SINGHBUM,Gram,Rabi,2010,0.2152,12
+Jharkhand,EAST SINGHBUM,Onion,Rabi,2010,0.2152,12
+Jharkhand,EAST SINGHBUM,Potato,Rabi,2010,0.2152,12
+Jharkhand,EAST SINGHBUM,Rapeseed &Mustard,Rabi,2010,0.2152,12
+Jharkhand,EAST SINGHBUM,Wheat,Rabi,2010,0.2152,12
+Jharkhand,GARHWA,Arhar/Tur,Rabi,2010,0.3092,12
+Jharkhand,GARHWA,Gram,Rabi,2010,0.3092,12
+Jharkhand,GARHWA,Onion,Rabi,2010,0.3092,12
+Jharkhand,GARHWA,Potato,Rabi,2010,0.3092,12
+Jharkhand,GARHWA,Rapeseed &Mustard,Rabi,2010,0.3092,12
+Jharkhand,GARHWA,Wheat,Rabi,2010,0.3092,12
+Jharkhand,GIRIDIH,Arhar/Tur,Rabi,2010,0.2854,12
+Jharkhand,GIRIDIH,Gram,Rabi,2010,0.2854,12
+Jharkhand,GIRIDIH,Onion,Rabi,2010,0.2854,12
+Jharkhand,GIRIDIH,Potato,Rabi,2010,0.2854,12
+Jharkhand,GIRIDIH,Rapeseed &Mustard,Rabi,2010,0.2854,12
+Jharkhand,GIRIDIH,Wheat,Rabi,2010,0.2854,12
+Jharkhand,GODDA,Arhar/Tur,Rabi,2010,0.2892,12
+Jharkhand,GODDA,Gram,Rabi,2010,0.2892,12
+Jharkhand,GODDA,Onion,Rabi,2010,0.2892,12
+Jharkhand,GODDA,Potato,Rabi,2010,0.2892,12
+Jharkhand,GODDA,Rapeseed &Mustard,Rabi,2010,0.2892,12
+Jharkhand,GODDA,Wheat,Rabi,2010,0.2892,12
+Jharkhand,GUMLA,Arhar/Tur,Rabi,2010,0.3116,12
+Jharkhand,GUMLA,Gram,Rabi,2010,0.3116,12
+Jharkhand,GUMLA,Onion,Rabi,2010,0.3116,12
+Jharkhand,GUMLA,Potato,Rabi,2010,0.3116,12
+Jharkhand,GUMLA,Rapeseed &Mustard,Rabi,2010,0.3116,12
+Jharkhand,GUMLA,Wheat,Rabi,2010,0.3116,12
+Jharkhand,HAZARIBAGH,Arhar/Tur,Rabi,2010,0.288,12
+Jharkhand,HAZARIBAGH,Gram,Rabi,2010,0.288,12
+Jharkhand,HAZARIBAGH,Onion,Rabi,2010,0.288,12
+Jharkhand,HAZARIBAGH,Potato,Rabi,2010,0.288,12
+Jharkhand,HAZARIBAGH,Rapeseed &Mustard,Rabi,2010,0.288,12
+Jharkhand,HAZARIBAGH,Wheat,Rabi,2010,0.288,12
+Jharkhand,JAMTARA,Arhar/Tur,Rabi,2010,0.3233,12
+Jharkhand,JAMTARA,Gram,Rabi,2010,0.3233,12
+Jharkhand,JAMTARA,Onion,Rabi,2010,0.3233,12
+Jharkhand,JAMTARA,Potato,Rabi,2010,0.3233,12
+Jharkhand,JAMTARA,Rapeseed &Mustard,Rabi,2010,0.3233,12
+Jharkhand,JAMTARA,Wheat,Rabi,2010,0.3233,12
+Jharkhand,KHUNTI,Arhar/Tur,Rabi,2010,0.3449,12
+Jharkhand,KHUNTI,Gram,Rabi,2010,0.3449,12
+Jharkhand,KHUNTI,Onion,Rabi,2010,0.3449,12
+Jharkhand,KHUNTI,Potato,Rabi,2010,0.3449,12
+Jharkhand,KHUNTI,Rapeseed &Mustard,Rabi,2010,0.3449,12
+Jharkhand,KHUNTI,Wheat,Rabi,2010,0.3449,12
+Jharkhand,KODERMA,Arhar/Tur,Rabi,2010,0.3353,12
+Jharkhand,KODERMA,Gram,Rabi,2010,0.3353,12
+Jharkhand,KODERMA,Onion,Rabi,2010,0.3353,12
+Jharkhand,KODERMA,Potato,Rabi,2010,0.3353,12
+Jharkhand,KODERMA,Rapeseed &Mustard,Rabi,2010,0.3353,12
+Jharkhand,KODERMA,Wheat,Rabi,2010,0.3353,12
+Jharkhand,LATEHAR,Arhar/Tur,Rabi,2010,0.2966,12
+Jharkhand,LATEHAR,Gram,Rabi,2010,0.2966,12
+Jharkhand,LATEHAR,Onion,Rabi,2010,0.2966,12
+Jharkhand,LATEHAR,Potato,Rabi,2010,0.2966,12
+Jharkhand,LATEHAR,Rapeseed &Mustard,Rabi,2010,0.2966,12
+Jharkhand,LATEHAR,Wheat,Rabi,2010,0.2966,12
+Jharkhand,LOHARDAGA,Arhar/Tur,Rabi,2010,0.3062,12
+Jharkhand,LOHARDAGA,Gram,Rabi,2010,0.3062,12
+Jharkhand,LOHARDAGA,Onion,Rabi,2010,0.3062,12
+Jharkhand,LOHARDAGA,Potato,Rabi,2010,0.3062,12
+Jharkhand,LOHARDAGA,Rapeseed &Mustard,Rabi,2010,0.3062,12
+Jharkhand,LOHARDAGA,Wheat,Rabi,2010,0.3062,12
+Jharkhand,PAKUR,Arhar/Tur,Rabi,2010,0.2749,12
+Jharkhand,PAKUR,Gram,Rabi,2010,0.2749,12
+Jharkhand,PAKUR,Potato,Rabi,2010,0.2749,12
+Jharkhand,PAKUR,Rapeseed &Mustard,Rabi,2010,0.2749,12
+Jharkhand,PAKUR,Wheat,Rabi,2010,0.2749,12
+Jharkhand,PALAMU,Arhar/Tur,Rabi,2010,0.2392,12
+Jharkhand,PALAMU,Gram,Rabi,2010,0.2392,12
+Jharkhand,PALAMU,Onion,Rabi,2010,0.2392,12
+Jharkhand,PALAMU,Potato,Rabi,2010,0.2392,12
+Jharkhand,PALAMU,Rapeseed &Mustard,Rabi,2010,0.2392,12
+Jharkhand,PALAMU,Wheat,Rabi,2010,0.2392,12
+Jharkhand,RAMGARH,Arhar/Tur,Rabi,2010,0.335,12
+Jharkhand,RAMGARH,Gram,Rabi,2010,0.335,12
+Jharkhand,RAMGARH,Onion,Rabi,2010,0.335,12
+Jharkhand,RAMGARH,Potato,Rabi,2010,0.335,12
+Jharkhand,RAMGARH,Rapeseed &Mustard,Rabi,2010,0.335,12
+Jharkhand,RAMGARH,Wheat,Rabi,2010,0.335,12
+Jharkhand,RANCHI,Arhar/Tur,Rabi,2010,0.2909,12
+Jharkhand,RANCHI,Gram,Rabi,2010,0.2909,12
+Jharkhand,RANCHI,Onion,Rabi,2010,0.2909,12
+Jharkhand,RANCHI,Potato,Rabi,2010,0.2909,12
+Jharkhand,RANCHI,Rapeseed &Mustard,Rabi,2010,0.2909,12
+Jharkhand,RANCHI,Wheat,Rabi,2010,0.2909,12
+Jharkhand,SAHEBGANJ,Arhar/Tur,Rabi,2010,0.4086,12
+Jharkhand,SAHEBGANJ,Gram,Rabi,2010,0.4086,12
+Jharkhand,SAHEBGANJ,Onion,Rabi,2010,0.4086,12
+Jharkhand,SAHEBGANJ,Potato,Rabi,2010,0.4086,12
+Jharkhand,SAHEBGANJ,Rapeseed &Mustard,Rabi,2010,0.4086,12
+Jharkhand,SAHEBGANJ,Wheat,Rabi,2010,0.4086,12
+Jharkhand,SARAIKELA KHARSAWAN,Arhar/Tur,Rabi,2010,0.2469,12
+Jharkhand,SARAIKELA KHARSAWAN,Gram,Rabi,2010,0.2469,12
+Jharkhand,SARAIKELA KHARSAWAN,Onion,Rabi,2010,0.2469,12
+Jharkhand,SARAIKELA KHARSAWAN,Potato,Rabi,2010,0.2469,12
+Jharkhand,SARAIKELA KHARSAWAN,Rapeseed &Mustard,Rabi,2010,0.2469,12
+Jharkhand,SARAIKELA KHARSAWAN,Wheat,Rabi,2010,0.2469,12
+Jharkhand,SIMDEGA,Arhar/Tur,Rabi,2010,0.3047,12
+Jharkhand,SIMDEGA,Gram,Rabi,2010,0.3047,12
+Jharkhand,SIMDEGA,Onion,Rabi,2010,0.3047,12
+Jharkhand,SIMDEGA,Potato,Rabi,2010,0.3047,12
+Jharkhand,SIMDEGA,Rapeseed &Mustard,Rabi,2010,0.3047,12
+Jharkhand,SIMDEGA,Wheat,Rabi,2010,0.3047,12
+Jharkhand,WEST SINGHBHUM,Arhar/Tur,Rabi,2010,0.3071,12
+Jharkhand,WEST SINGHBHUM,Gram,Rabi,2010,0.3071,12
+Jharkhand,WEST SINGHBHUM,Potato,Rabi,2010,0.3071,12
+Jharkhand,WEST SINGHBHUM,Rapeseed &Mustard,Rabi,2010,0.3071,12
+Jharkhand,WEST SINGHBHUM,Wheat,Rabi,2010,0.3071,12
+Jharkhand,BOKARO,Arhar/Tur,Rabi,2011,0.3084,12
+Jharkhand,BOKARO,Gram,Rabi,2011,0.3084,12
+Jharkhand,BOKARO,Maize,Autumn,2011,0.452,12
+Jharkhand,BOKARO,Onion,Rabi,2011,0.3084,12
+Jharkhand,BOKARO,Potato,Rabi,2011,0.3084,12
+Jharkhand,BOKARO,Potato,Winter,2011,0.452,12
+Jharkhand,BOKARO,Rapeseed &Mustard,Rabi,2011,0.3084,12
+Jharkhand,BOKARO,Rice,Autumn,2011,0.452,12
+Jharkhand,BOKARO,Rice,Winter,2011,0.452,12
+Jharkhand,BOKARO,Wheat,Rabi,2011,0.3084,12
+Jharkhand,CHATRA,Arhar/Tur,Rabi,2011,0.357,12
+Jharkhand,CHATRA,Gram,Rabi,2011,0.357,12
+Jharkhand,CHATRA,Maize,Autumn,2011,0.4386,12
+Jharkhand,CHATRA,Onion,Rabi,2011,0.357,12
+Jharkhand,CHATRA,Potato,Rabi,2011,0.357,12
+Jharkhand,CHATRA,Potato,Winter,2011,0.4386,12
+Jharkhand,CHATRA,Rapeseed &Mustard,Rabi,2011,0.357,12
+Jharkhand,CHATRA,Rice,Autumn,2011,0.4386,12
+Jharkhand,CHATRA,Rice,Winter,2011,0.4386,12
+Jharkhand,CHATRA,Sugarcane,Whole Year,2011,0.4386,12
+Jharkhand,CHATRA,Wheat,Rabi,2011,0.357,12
+Jharkhand,DEOGHAR,Arhar/Tur,Rabi,2011,0.3099,12
+Jharkhand,DEOGHAR,Gram,Rabi,2011,0.3099,12
+Jharkhand,DEOGHAR,Maize,Autumn,2011,0.379,12
+Jharkhand,DEOGHAR,Onion,Rabi,2011,0.3099,12
+Jharkhand,DEOGHAR,Potato,Rabi,2011,0.3099,12
+Jharkhand,DEOGHAR,Potato,Winter,2011,0.379,12
+Jharkhand,DEOGHAR,Rapeseed &Mustard,Rabi,2011,0.3099,12
+Jharkhand,DEOGHAR,Rice,Autumn,2011,0.379,12
+Jharkhand,DEOGHAR,Rice,Winter,2011,0.379,12
+Jharkhand,DEOGHAR,Wheat,Rabi,2011,0.3099,12
+Jharkhand,DHANBAD,Gram,Rabi,2011,0.3364,12
+Jharkhand,DHANBAD,Maize,Autumn,2011,0.4183,12
+Jharkhand,DHANBAD,Onion,Rabi,2011,0.3364,12
+Jharkhand,DHANBAD,Potato,Rabi,2011,0.3364,12
+Jharkhand,DHANBAD,Potato,Winter,2011,0.4183,12
+Jharkhand,DHANBAD,Rapeseed &Mustard,Rabi,2011,0.3364,12
+Jharkhand,DHANBAD,Rice,Winter,2011,0.4183,12
+Jharkhand,DHANBAD,Wheat,Rabi,2011,0.3364,12
+Jharkhand,DUMKA,Arhar/Tur,Rabi,2011,0.3108,12
+Jharkhand,DUMKA,Gram,Rabi,2011,0.3108,12
+Jharkhand,DUMKA,Maize,Autumn,2011,0.4091,12
+Jharkhand,DUMKA,Onion,Rabi,2011,0.3108,12
+Jharkhand,DUMKA,Potato,Rabi,2011,0.3108,12
+Jharkhand,DUMKA,Potato,Winter,2011,0.4091,12
+Jharkhand,DUMKA,Rapeseed &Mustard,Rabi,2011,0.3108,12
+Jharkhand,DUMKA,Rice,Autumn,2011,0.4091,12
+Jharkhand,DUMKA,Rice,Winter,2011,0.4091,12
+Jharkhand,DUMKA,Wheat,Rabi,2011,0.3108,12
+Jharkhand,EAST SINGHBUM,Arhar/Tur,Rabi,2011,0.2223,12
+Jharkhand,EAST SINGHBUM,Gram,Rabi,2011,0.2223,12
+Jharkhand,EAST SINGHBUM,Maize,Autumn,2011,0.2755,12
+Jharkhand,EAST SINGHBUM,Potato,Rabi,2011,0.2223,12
+Jharkhand,EAST SINGHBUM,Potato,Winter,2011,0.2755,12
+Jharkhand,EAST SINGHBUM,Rapeseed &Mustard,Rabi,2011,0.2223,12
+Jharkhand,EAST SINGHBUM,Rice,Autumn,2011,0.2755,12
+Jharkhand,EAST SINGHBUM,Rice,Winter,2011,0.2755,12
+Jharkhand,EAST SINGHBUM,Wheat,Rabi,2011,0.2223,12
+Jharkhand,GARHWA,Arhar/Tur,Rabi,2011,0.2845,12
+Jharkhand,GARHWA,Gram,Rabi,2011,0.2845,12
+Jharkhand,GARHWA,Maize,Autumn,2011,0.3565,12
+Jharkhand,GARHWA,Onion,Rabi,2011,0.2845,12
+Jharkhand,GARHWA,Potato,Rabi,2011,0.2845,12
+Jharkhand,GARHWA,Potato,Winter,2011,0.3565,12
+Jharkhand,GARHWA,Rapeseed &Mustard,Rabi,2011,0.2845,12
+Jharkhand,GARHWA,Rice,Autumn,2011,0.3565,12
+Jharkhand,GARHWA,Rice,Winter,2011,0.3565,12
+Jharkhand,GARHWA,Sugarcane,Whole Year,2011,0.3565,12
+Jharkhand,GARHWA,Wheat,Rabi,2011,0.2845,12
+Jharkhand,GIRIDIH,Arhar/Tur,Rabi,2011,0.305,12
+Jharkhand,GIRIDIH,Gram,Rabi,2011,0.305,12
+Jharkhand,GIRIDIH,Maize,Autumn,2011,0.3864,12
+Jharkhand,GIRIDIH,Onion,Rabi,2011,0.305,12
+Jharkhand,GIRIDIH,Potato,Rabi,2011,0.305,12
+Jharkhand,GIRIDIH,Potato,Winter,2011,0.3864,12
+Jharkhand,GIRIDIH,Rapeseed &Mustard,Rabi,2011,0.305,12
+Jharkhand,GIRIDIH,Rice,Autumn,2011,0.3864,12
+Jharkhand,GIRIDIH,Rice,Winter,2011,0.3864,12
+Jharkhand,GIRIDIH,Wheat,Rabi,2011,0.305,12
+Jharkhand,GODDA,Arhar/Tur,Rabi,2011,0.2917,12
+Jharkhand,GODDA,Gram,Rabi,2011,0.2917,12
+Jharkhand,GODDA,Maize,Autumn,2011,0.365,12
+Jharkhand,GODDA,Onion,Rabi,2011,0.2917,12
+Jharkhand,GODDA,Potato,Rabi,2011,0.2917,12
+Jharkhand,GODDA,Potato,Winter,2011,0.365,12
+Jharkhand,GODDA,Rapeseed &Mustard,Rabi,2011,0.2917,12
+Jharkhand,GODDA,Rice,Autumn,2011,0.365,12
+Jharkhand,GODDA,Rice,Winter,2011,0.365,12
+Jharkhand,GODDA,Sugarcane,Whole Year,2011,0.365,12
+Jharkhand,GODDA,Wheat,Rabi,2011,0.2917,12
+Jharkhand,GUMLA,Arhar/Tur,Rabi,2011,0.3499,12
+Jharkhand,GUMLA,Gram,Rabi,2011,0.3499,12
+Jharkhand,GUMLA,Maize,Autumn,2011,0.449,12
+Jharkhand,GUMLA,Onion,Rabi,2011,0.3499,12
+Jharkhand,GUMLA,Potato,Rabi,2011,0.3499,12
+Jharkhand,GUMLA,Potato,Winter,2011,0.449,12
+Jharkhand,GUMLA,Rapeseed &Mustard,Rabi,2011,0.3499,12
+Jharkhand,GUMLA,Rice,Autumn,2011,0.449,12
+Jharkhand,GUMLA,Rice,Winter,2011,0.449,12
+Jharkhand,GUMLA,Sugarcane,Whole Year,2011,0.449,12
+Jharkhand,GUMLA,Wheat,Rabi,2011,0.3499,12
+Jharkhand,HAZARIBAGH,Arhar/Tur,Rabi,2011,0.2912,12
+Jharkhand,HAZARIBAGH,Gram,Rabi,2011,0.2912,12
+Jharkhand,HAZARIBAGH,Maize,Autumn,2011,0.3617,12
+Jharkhand,HAZARIBAGH,Onion,Rabi,2011,0.2912,12
+Jharkhand,HAZARIBAGH,Potato,Rabi,2011,0.2912,12
+Jharkhand,HAZARIBAGH,Potato,Winter,2011,0.3617,12
+Jharkhand,HAZARIBAGH,Rapeseed &Mustard,Rabi,2011,0.2912,12
+Jharkhand,HAZARIBAGH,Rice,Autumn,2011,0.3617,12
+Jharkhand,HAZARIBAGH,Rice,Winter,2011,0.3617,12
+Jharkhand,HAZARIBAGH,Sugarcane,Whole Year,2011,0.3617,12
+Jharkhand,HAZARIBAGH,Wheat,Rabi,2011,0.2912,12
+Jharkhand,JAMTARA,Arhar/Tur,Rabi,2011,0.3474,12
+Jharkhand,JAMTARA,Gram,Rabi,2011,0.3474,12
+Jharkhand,JAMTARA,Maize,Autumn,2011,0.4339,12
+Jharkhand,JAMTARA,Onion,Rabi,2011,0.3474,12
+Jharkhand,JAMTARA,Potato,Rabi,2011,0.3474,12
+Jharkhand,JAMTARA,Potato,Winter,2011,0.4339,12
+Jharkhand,JAMTARA,Rapeseed &Mustard,Rabi,2011,0.3474,12
+Jharkhand,JAMTARA,Rice,Autumn,2011,0.4339,12
+Jharkhand,JAMTARA,Rice,Winter,2011,0.4339,12
+Jharkhand,JAMTARA,Wheat,Rabi,2011,0.3474,12
+Jharkhand,KHUNTI,Arhar/Tur,Rabi,2011,0.3691,12
+Jharkhand,KHUNTI,Gram,Rabi,2011,0.3691,12
+Jharkhand,KHUNTI,Maize,Autumn,2011,0.4528,12
+Jharkhand,KHUNTI,Onion,Rabi,2011,0.3691,12
+Jharkhand,KHUNTI,Potato,Rabi,2011,0.3691,12
+Jharkhand,KHUNTI,Potato,Winter,2011,0.4528,12
+Jharkhand,KHUNTI,Rapeseed &Mustard,Rabi,2011,0.3691,12
+Jharkhand,KHUNTI,Rice,Autumn,2011,0.4528,12
+Jharkhand,KHUNTI,Rice,Winter,2011,0.4528,12
+Jharkhand,KHUNTI,Wheat,Rabi,2011,0.3691,12
+Jharkhand,KODERMA,Arhar/Tur,Rabi,2011,0.3431,12
+Jharkhand,KODERMA,Gram,Rabi,2011,0.3431,12
+Jharkhand,KODERMA,Maize,Autumn,2011,0.468,12
+Jharkhand,KODERMA,Onion,Rabi,2011,0.3431,12
+Jharkhand,KODERMA,Potato,Rabi,2011,0.3431,12
+Jharkhand,KODERMA,Potato,Winter,2011,0.468,12
+Jharkhand,KODERMA,Rapeseed &Mustard,Rabi,2011,0.3431,12
+Jharkhand,KODERMA,Rice,Autumn,2011,0.468,12
+Jharkhand,KODERMA,Rice,Winter,2011,0.468,12
+Jharkhand,KODERMA,Sugarcane,Whole Year,2011,0.468,12
+Jharkhand,KODERMA,Wheat,Rabi,2011,0.3431,12
+Jharkhand,LATEHAR,Arhar/Tur,Rabi,2011,0.3424,12
+Jharkhand,LATEHAR,Gram,Rabi,2011,0.3424,12
+Jharkhand,LATEHAR,Maize,Autumn,2011,0.4238,12
+Jharkhand,LATEHAR,Onion,Rabi,2011,0.3424,12
+Jharkhand,LATEHAR,Potato,Rabi,2011,0.3424,12
+Jharkhand,LATEHAR,Potato,Winter,2011,0.4238,12
+Jharkhand,LATEHAR,Rapeseed &Mustard,Rabi,2011,0.3424,12
+Jharkhand,LATEHAR,Rice,Autumn,2011,0.4238,12
+Jharkhand,LATEHAR,Rice,Winter,2011,0.4238,12
+Jharkhand,LATEHAR,Wheat,Rabi,2011,0.3424,12
+Jharkhand,LOHARDAGA,Arhar/Tur,Rabi,2011,0.3416,12
+Jharkhand,LOHARDAGA,Gram,Rabi,2011,0.3416,12
+Jharkhand,LOHARDAGA,Maize,Autumn,2011,0.4427,12
+Jharkhand,LOHARDAGA,Onion,Rabi,2011,0.3416,12
+Jharkhand,LOHARDAGA,Potato,Rabi,2011,0.3416,12
+Jharkhand,LOHARDAGA,Potato,Winter,2011,0.4427,12
+Jharkhand,LOHARDAGA,Rapeseed &Mustard,Rabi,2011,0.3416,12
+Jharkhand,LOHARDAGA,Rice,Autumn,2011,0.4427,12
+Jharkhand,LOHARDAGA,Rice,Winter,2011,0.4427,12
+Jharkhand,LOHARDAGA,Sugarcane,Whole Year,2011,0.4427,12
+Jharkhand,LOHARDAGA,Wheat,Rabi,2011,0.3416,12
+Jharkhand,PAKUR,Arhar/Tur,Rabi,2011,0.293,12
+Jharkhand,PAKUR,Gram,Rabi,2011,0.293,12
+Jharkhand,PAKUR,Maize,Autumn,2011,0.4013,12
+Jharkhand,PAKUR,Potato,Rabi,2011,0.293,12
+Jharkhand,PAKUR,Rapeseed &Mustard,Rabi,2011,0.293,12
+Jharkhand,PAKUR,Rice,Autumn,2011,0.4013,12
+Jharkhand,PAKUR,Rice,Winter,2011,0.4013,12
+Jharkhand,PAKUR,Wheat,Rabi,2011,0.293,12
+Jharkhand,PALAMU,Arhar/Tur,Rabi,2011,0.2479,12
+Jharkhand,PALAMU,Gram,Rabi,2011,0.2479,12
+Jharkhand,PALAMU,Maize,Autumn,2011,0.3123,12
+Jharkhand,PALAMU,Onion,Rabi,2011,0.2479,12
+Jharkhand,PALAMU,Potato,Rabi,2011,0.2479,12
+Jharkhand,PALAMU,Potato,Winter,2011,0.3123,12
+Jharkhand,PALAMU,Rapeseed &Mustard,Rabi,2011,0.2479,12
+Jharkhand,PALAMU,Rice,Autumn,2011,0.3123,12
+Jharkhand,PALAMU,Rice,Winter,2011,0.3123,12
+Jharkhand,PALAMU,Sugarcane,Whole Year,2011,0.3123,12
+Jharkhand,PALAMU,Wheat,Rabi,2011,0.2479,12
+Jharkhand,RAMGARH,Arhar/Tur,Rabi,2011,0.3591,12
+Jharkhand,RAMGARH,Gram,Rabi,2011,0.3591,12
+Jharkhand,RAMGARH,Maize,Autumn,2011,0.4794,12
+Jharkhand,RAMGARH,Onion,Rabi,2011,0.3591,12
+Jharkhand,RAMGARH,Potato,Rabi,2011,0.3591,12
+Jharkhand,RAMGARH,Potato,Winter,2011,0.4794,12
+Jharkhand,RAMGARH,Rapeseed &Mustard,Rabi,2011,0.3591,12
+Jharkhand,RAMGARH,Rice,Autumn,2011,0.4794,12
+Jharkhand,RAMGARH,Rice,Winter,2011,0.4794,12
+Jharkhand,RAMGARH,Wheat,Rabi,2011,0.3591,12
+Jharkhand,RANCHI,Arhar/Tur,Rabi,2011,0.3308,12
+Jharkhand,RANCHI,Gram,Rabi,2011,0.3308,12
+Jharkhand,RANCHI,Maize,Autumn,2011,0.3894,12
+Jharkhand,RANCHI,Onion,Rabi,2011,0.3308,12
+Jharkhand,RANCHI,Potato,Rabi,2011,0.3308,12
+Jharkhand,RANCHI,Potato,Winter,2011,0.3894,12
+Jharkhand,RANCHI,Rapeseed &Mustard,Rabi,2011,0.3308,12
+Jharkhand,RANCHI,Rice,Autumn,2011,0.3894,12
+Jharkhand,RANCHI,Rice,Winter,2011,0.3894,12
+Jharkhand,RANCHI,Wheat,Rabi,2011,0.3308,12
+Jharkhand,SAHEBGANJ,Arhar/Tur,Rabi,2011,0.3817,12
+Jharkhand,SAHEBGANJ,Gram,Rabi,2011,0.3817,12
+Jharkhand,SAHEBGANJ,Maize,Autumn,2011,0.3681,12
+Jharkhand,SAHEBGANJ,Potato,Rabi,2011,0.3817,12
+Jharkhand,SAHEBGANJ,Potato,Winter,2011,0.3681,12
+Jharkhand,SAHEBGANJ,Rapeseed &Mustard,Rabi,2011,0.3817,12
+Jharkhand,SAHEBGANJ,Rice,Autumn,2011,0.3681,12
+Jharkhand,SAHEBGANJ,Rice,Winter,2011,0.3681,12
+Jharkhand,SAHEBGANJ,Sugarcane,Whole Year,2011,0.3681,12
+Jharkhand,SAHEBGANJ,Wheat,Rabi,2011,0.3817,12
+Jharkhand,SARAIKELA KHARSAWAN,Arhar/Tur,Rabi,2011,0.3101,12
+Jharkhand,SARAIKELA KHARSAWAN,Gram,Rabi,2011,0.3101,12
+Jharkhand,SARAIKELA KHARSAWAN,Maize,Autumn,2011,0.3787,12
+Jharkhand,SARAIKELA KHARSAWAN,Onion,Rabi,2011,0.3101,12
+Jharkhand,SARAIKELA KHARSAWAN,Potato,Rabi,2011,0.3101,12
+Jharkhand,SARAIKELA KHARSAWAN,Potato,Winter,2011,0.3787,12
+Jharkhand,SARAIKELA KHARSAWAN,Rapeseed &Mustard,Rabi,2011,0.3101,12
+Jharkhand,SARAIKELA KHARSAWAN,Rice,Autumn,2011,0.3787,12
+Jharkhand,SARAIKELA KHARSAWAN,Rice,Winter,2011,0.3787,12
+Jharkhand,SARAIKELA KHARSAWAN,Wheat,Rabi,2011,0.3101,12
+Jharkhand,SIMDEGA,Arhar/Tur,Rabi,2011,0.3194,12
+Jharkhand,SIMDEGA,Gram,Rabi,2011,0.3194,12
+Jharkhand,SIMDEGA,Maize,Autumn,2011,0.4023,12
+Jharkhand,SIMDEGA,Onion,Rabi,2011,0.3194,12
+Jharkhand,SIMDEGA,Potato,Rabi,2011,0.3194,12
+Jharkhand,SIMDEGA,Potato,Winter,2011,0.4023,12
+Jharkhand,SIMDEGA,Rapeseed &Mustard,Rabi,2011,0.3194,12
+Jharkhand,SIMDEGA,Rice,Autumn,2011,0.4023,12
+Jharkhand,SIMDEGA,Rice,Winter,2011,0.4023,12
+Jharkhand,SIMDEGA,Wheat,Rabi,2011,0.3194,12
+Jharkhand,WEST SINGHBHUM,Arhar/Tur,Rabi,2011,0.3198,12
+Jharkhand,WEST SINGHBHUM,Gram,Rabi,2011,0.3198,12
+Jharkhand,WEST SINGHBHUM,Maize,Autumn,2011,0.4479,12
+Jharkhand,WEST SINGHBHUM,Potato,Rabi,2011,0.3198,12
+Jharkhand,WEST SINGHBHUM,Rapeseed &Mustard,Rabi,2011,0.3198,12
+Jharkhand,WEST SINGHBHUM,Rice,Autumn,2011,0.4479,12
+Jharkhand,WEST SINGHBHUM,Rice,Winter,2011,0.4479,12
+Jharkhand,WEST SINGHBHUM,Wheat,Rabi,2011,0.3198,12
+Jharkhand,BOKARO,Arhar/Tur,Rabi,2012,0.3298,12
+Jharkhand,BOKARO,Gram,Rabi,2012,0.3298,12
+Jharkhand,BOKARO,Maize,Autumn,2012,0.4168,12
+Jharkhand,BOKARO,Onion,Rabi,2012,0.3298,12
+Jharkhand,BOKARO,Potato,Rabi,2012,0.3298,12
+Jharkhand,BOKARO,Potato,Winter,2012,0.4168,12
+Jharkhand,BOKARO,Rapeseed &Mustard,Rabi,2012,0.3298,12
+Jharkhand,BOKARO,Rice,Autumn,2012,0.4168,12
+Jharkhand,BOKARO,Rice,Winter,2012,0.4168,12
+Jharkhand,BOKARO,Wheat,Rabi,2012,0.3298,12
+Jharkhand,CHATRA,Arhar/Tur,Rabi,2012,0.3752,12
+Jharkhand,CHATRA,Gram,Rabi,2012,0.3752,12
+Jharkhand,CHATRA,Maize,Autumn,2012,0.4441,12
+Jharkhand,CHATRA,Onion,Rabi,2012,0.3752,12
+Jharkhand,CHATRA,Potato,Rabi,2012,0.3752,12
+Jharkhand,CHATRA,Potato,Winter,2012,0.4441,12
+Jharkhand,CHATRA,Rapeseed &Mustard,Rabi,2012,0.3752,12
+Jharkhand,CHATRA,Rice,Autumn,2012,0.4441,12
+Jharkhand,CHATRA,Rice,Winter,2012,0.4441,12
+Jharkhand,CHATRA,Sugarcane,Whole Year,2012,0.4441,12
+Jharkhand,CHATRA,Wheat,Rabi,2012,0.3752,12
+Jharkhand,DEOGHAR,Arhar/Tur,Rabi,2012,0.3093,12
+Jharkhand,DEOGHAR,Gram,Rabi,2012,0.3093,12
+Jharkhand,DEOGHAR,Maize,Autumn,2012,0.3936,12
+Jharkhand,DEOGHAR,Onion,Rabi,2012,0.3093,12
+Jharkhand,DEOGHAR,Potato,Rabi,2012,0.3093,12
+Jharkhand,DEOGHAR,Potato,Winter,2012,0.3936,12
+Jharkhand,DEOGHAR,Rapeseed &Mustard,Rabi,2012,0.3093,12
+Jharkhand,DEOGHAR,Rice,Autumn,2012,0.3936,12
+Jharkhand,DEOGHAR,Rice,Winter,2012,0.3936,12
+Jharkhand,DEOGHAR,Wheat,Rabi,2012,0.3093,12
+Jharkhand,DHANBAD,Arhar/Tur,Rabi,2012,0.3239,12
+Jharkhand,DHANBAD,Gram,Rabi,2012,0.3239,12
+Jharkhand,DHANBAD,Maize,Autumn,2012,0.4081,12
+Jharkhand,DHANBAD,Onion,Rabi,2012,0.3239,12
+Jharkhand,DHANBAD,Potato,Rabi,2012,0.3239,12
+Jharkhand,DHANBAD,Potato,Winter,2012,0.4081,12
+Jharkhand,DHANBAD,Rapeseed &Mustard,Rabi,2012,0.3239,12
+Jharkhand,DHANBAD,Rice,Winter,2012,0.4081,12
+Jharkhand,DHANBAD,Wheat,Rabi,2012,0.3239,12
+Jharkhand,DUMKA,Arhar/Tur,Rabi,2012,0.2922,12
+Jharkhand,DUMKA,Gram,Rabi,2012,0.2922,12
+Jharkhand,DUMKA,Maize,Autumn,2012,0.389,12
+Jharkhand,DUMKA,Onion,Rabi,2012,0.2922,12
+Jharkhand,DUMKA,Potato,Rabi,2012,0.2922,12
+Jharkhand,DUMKA,Potato,Winter,2012,0.389,12
+Jharkhand,DUMKA,Rapeseed &Mustard,Rabi,2012,0.2922,12
+Jharkhand,DUMKA,Rice,Autumn,2012,0.389,12
+Jharkhand,DUMKA,Rice,Winter,2012,0.389,12
+Jharkhand,DUMKA,Wheat,Rabi,2012,0.2922,12
+Jharkhand,EAST SINGHBUM,Arhar/Tur,Rabi,2012,0.2435,12
+Jharkhand,EAST SINGHBUM,Gram,Rabi,2012,0.2435,12
+Jharkhand,EAST SINGHBUM,Maize,Autumn,2012,0.2689,12
+Jharkhand,EAST SINGHBUM,Onion,Rabi,2012,0.2435,12
+Jharkhand,EAST SINGHBUM,Potato,Rabi,2012,0.2435,12
+Jharkhand,EAST SINGHBUM,Potato,Winter,2012,0.2689,12
+Jharkhand,EAST SINGHBUM,Rapeseed &Mustard,Rabi,2012,0.2435,12
+Jharkhand,EAST SINGHBUM,Rice,Autumn,2012,0.2689,12
+Jharkhand,EAST SINGHBUM,Rice,Winter,2012,0.2689,12
+Jharkhand,EAST SINGHBUM,Wheat,Rabi,2012,0.2435,12
+Jharkhand,GARHWA,Arhar/Tur,Rabi,2012,0.3148,12
+Jharkhand,GARHWA,Gram,Rabi,2012,0.3148,12
+Jharkhand,GARHWA,Maize,Autumn,2012,0.3857,12
+Jharkhand,GARHWA,Onion,Rabi,2012,0.3148,12
+Jharkhand,GARHWA,Potato,Rabi,2012,0.3148,12
+Jharkhand,GARHWA,Potato,Winter,2012,0.3857,12
+Jharkhand,GARHWA,Rapeseed &Mustard,Rabi,2012,0.3148,12
+Jharkhand,GARHWA,Rice,Autumn,2012,0.3857,12
+Jharkhand,GARHWA,Rice,Winter,2012,0.3857,12
+Jharkhand,GARHWA,Sugarcane,Whole Year,2012,0.3857,12
+Jharkhand,GARHWA,Wheat,Rabi,2012,0.3148,12
+Jharkhand,GIRIDIH,Arhar/Tur,Rabi,2012,0.2994,12
+Jharkhand,GIRIDIH,Gram,Rabi,2012,0.2994,12
+Jharkhand,GIRIDIH,Maize,Autumn,2012,0.377,12
+Jharkhand,GIRIDIH,Onion,Rabi,2012,0.2994,12
+Jharkhand,GIRIDIH,Potato,Rabi,2012,0.2994,12
+Jharkhand,GIRIDIH,Potato,Winter,2012,0.377,12
+Jharkhand,GIRIDIH,Rapeseed &Mustard,Rabi,2012,0.2994,12
+Jharkhand,GIRIDIH,Rice,Autumn,2012,0.377,12
+Jharkhand,GIRIDIH,Rice,Winter,2012,0.377,12
+Jharkhand,GIRIDIH,Wheat,Rabi,2012,0.2994,12
+Jharkhand,GODDA,Arhar/Tur,Rabi,2012,0.2942,12
+Jharkhand,GODDA,Gram,Rabi,2012,0.2942,12
+Jharkhand,GODDA,Maize,Autumn,2012,0.3754,12
+Jharkhand,GODDA,Onion,Rabi,2012,0.2942,12
+Jharkhand,GODDA,Potato,Rabi,2012,0.2942,12
+Jharkhand,GODDA,Potato,Winter,2012,0.3754,12
+Jharkhand,GODDA,Rapeseed &Mustard,Rabi,2012,0.2942,12
+Jharkhand,GODDA,Rice,Autumn,2012,0.3754,12
+Jharkhand,GODDA,Rice,Winter,2012,0.3754,12
+Jharkhand,GODDA,Sugarcane,Whole Year,2012,0.3754,12
+Jharkhand,GODDA,Wheat,Rabi,2012,0.2942,12
+Jharkhand,GUMLA,Arhar/Tur,Rabi,2012,0.3628,12
+Jharkhand,GUMLA,Gram,Rabi,2012,0.3628,12
+Jharkhand,GUMLA,Maize,Autumn,2012,0.4276,12
+Jharkhand,GUMLA,Onion,Rabi,2012,0.3628,12
+Jharkhand,GUMLA,Potato,Rabi,2012,0.3628,12
+Jharkhand,GUMLA,Potato,Winter,2012,0.4276,12
+Jharkhand,GUMLA,Rapeseed &Mustard,Rabi,2012,0.3628,12
+Jharkhand,GUMLA,Rice,Autumn,2012,0.4276,12
+Jharkhand,GUMLA,Rice,Winter,2012,0.4276,12
+Jharkhand,GUMLA,Sugarcane,Whole Year,2012,0.4276,12
+Jharkhand,GUMLA,Wheat,Rabi,2012,0.3628,12
+Jharkhand,HAZARIBAGH,Arhar/Tur,Rabi,2012,0.3079,12
+Jharkhand,HAZARIBAGH,Gram,Rabi,2012,0.3079,12
+Jharkhand,HAZARIBAGH,Maize,Autumn,2012,0.3668,12
+Jharkhand,HAZARIBAGH,Onion,Rabi,2012,0.3079,12
+Jharkhand,HAZARIBAGH,Potato,Rabi,2012,0.3079,12
+Jharkhand,HAZARIBAGH,Potato,Winter,2012,0.3668,12
+Jharkhand,HAZARIBAGH,Rapeseed &Mustard,Rabi,2012,0.3079,12
+Jharkhand,HAZARIBAGH,Rice,Autumn,2012,0.3668,12
+Jharkhand,HAZARIBAGH,Rice,Winter,2012,0.3668,12
+Jharkhand,HAZARIBAGH,Sugarcane,Whole Year,2012,0.3668,12
+Jharkhand,HAZARIBAGH,Wheat,Rabi,2012,0.3079,12
+Jharkhand,JAMTARA,Arhar/Tur,Rabi,2012,0.338,12
+Jharkhand,JAMTARA,Gram,Rabi,2012,0.338,12
+Jharkhand,JAMTARA,Maize,Autumn,2012,0.4618,12
+Jharkhand,JAMTARA,Onion,Rabi,2012,0.338,12
+Jharkhand,JAMTARA,Potato,Rabi,2012,0.338,12
+Jharkhand,JAMTARA,Potato,Winter,2012,0.4618,12
+Jharkhand,JAMTARA,Rapeseed &Mustard,Rabi,2012,0.338,12
+Jharkhand,JAMTARA,Rice,Autumn,2012,0.4618,12
+Jharkhand,JAMTARA,Rice,Winter,2012,0.4618,12
+Jharkhand,JAMTARA,Wheat,Rabi,2012,0.338,12
+Jharkhand,KHUNTI,Arhar/Tur,Rabi,2012,0.3819,12
+Jharkhand,KHUNTI,Gram,Rabi,2012,0.3819,12
+Jharkhand,KHUNTI,Maize,Autumn,2012,0.4678,12
+Jharkhand,KHUNTI,Onion,Rabi,2012,0.3819,12
+Jharkhand,KHUNTI,Potato,Rabi,2012,0.3819,12
+Jharkhand,KHUNTI,Potato,Winter,2012,0.4678,12
+Jharkhand,KHUNTI,Rapeseed &Mustard,Rabi,2012,0.3819,12
+Jharkhand,KHUNTI,Rice,Autumn,2012,0.4678,12
+Jharkhand,KHUNTI,Rice,Winter,2012,0.4678,12
+Jharkhand,KHUNTI,Wheat,Rabi,2012,0.3819,12
+Jharkhand,KODERMA,Arhar/Tur,Rabi,2012,0.3797,12
+Jharkhand,KODERMA,Gram,Rabi,2012,0.3797,12
+Jharkhand,KODERMA,Maize,Autumn,2012,0.424,12
+Jharkhand,KODERMA,Onion,Rabi,2012,0.3797,12
+Jharkhand,KODERMA,Potato,Rabi,2012,0.3797,12
+Jharkhand,KODERMA,Potato,Winter,2012,0.424,12
+Jharkhand,KODERMA,Rapeseed &Mustard,Rabi,2012,0.3797,12
+Jharkhand,KODERMA,Rice,Autumn,2012,0.424,12
+Jharkhand,KODERMA,Rice,Winter,2012,0.424,12
+Jharkhand,KODERMA,Sugarcane,Whole Year,2012,0.424,12
+Jharkhand,KODERMA,Wheat,Rabi,2012,0.3797,12
+Jharkhand,LATEHAR,Arhar/Tur,Rabi,2012,0.3546,12
+Jharkhand,LATEHAR,Gram,Rabi,2012,0.3546,12
+Jharkhand,LATEHAR,Maize,Autumn,2012,0.4204,12
+Jharkhand,LATEHAR,Onion,Rabi,2012,0.3546,12
+Jharkhand,LATEHAR,Potato,Rabi,2012,0.3546,12
+Jharkhand,LATEHAR,Potato,Winter,2012,0.4204,12
+Jharkhand,LATEHAR,Rapeseed &Mustard,Rabi,2012,0.3546,12
+Jharkhand,LATEHAR,Rice,Autumn,2012,0.4204,12
+Jharkhand,LATEHAR,Rice,Winter,2012,0.4204,12
+Jharkhand,LATEHAR,Wheat,Rabi,2012,0.3546,12
+Jharkhand,LOHARDAGA,Arhar/Tur,Rabi,2012,0.3467,12
+Jharkhand,LOHARDAGA,Gram,Rabi,2012,0.3467,12
+Jharkhand,LOHARDAGA,Maize,Autumn,2012,0.4002,12
+Jharkhand,LOHARDAGA,Onion,Rabi,2012,0.3467,12
+Jharkhand,LOHARDAGA,Potato,Rabi,2012,0.3467,12
+Jharkhand,LOHARDAGA,Potato,Winter,2012,0.4002,12
+Jharkhand,LOHARDAGA,Rapeseed &Mustard,Rabi,2012,0.3467,12
+Jharkhand,LOHARDAGA,Rice,Autumn,2012,0.4002,12
+Jharkhand,LOHARDAGA,Rice,Winter,2012,0.4002,12
+Jharkhand,LOHARDAGA,Sugarcane,Whole Year,2012,0.4002,12
+Jharkhand,LOHARDAGA,Wheat,Rabi,2012,0.3467,12
+Jharkhand,PAKUR,Arhar/Tur,Rabi,2012,0.2937,12
+Jharkhand,PAKUR,Gram,Rabi,2012,0.2937,12
+Jharkhand,PAKUR,Maize,Autumn,2012,0.3999,12
+Jharkhand,PAKUR,Potato,Rabi,2012,0.2937,12
+Jharkhand,PAKUR,Rapeseed &Mustard,Rabi,2012,0.2937,12
+Jharkhand,PAKUR,Rice,Autumn,2012,0.3999,12
+Jharkhand,PAKUR,Rice,Winter,2012,0.3999,12
+Jharkhand,PAKUR,Wheat,Rabi,2012,0.2937,12
+Jharkhand,PALAMU,Arhar/Tur,Rabi,2012,0.2468,12
+Jharkhand,PALAMU,Gram,Rabi,2012,0.2468,12
+Jharkhand,PALAMU,Maize,Autumn,2012,0.2908,12
+Jharkhand,PALAMU,Onion,Rabi,2012,0.2468,12
+Jharkhand,PALAMU,Potato,Rabi,2012,0.2468,12
+Jharkhand,PALAMU,Potato,Winter,2012,0.2908,12
+Jharkhand,PALAMU,Rapeseed &Mustard,Rabi,2012,0.2468,12
+Jharkhand,PALAMU,Rice,Autumn,2012,0.2908,12
+Jharkhand,PALAMU,Rice,Winter,2012,0.2908,12
+Jharkhand,PALAMU,Sugarcane,Whole Year,2012,0.2908,12
+Jharkhand,PALAMU,Wheat,Rabi,2012,0.2468,12
+Jharkhand,RAMGARH,Arhar/Tur,Rabi,2012,0.4216,12
+Jharkhand,RAMGARH,Gram,Rabi,2012,0.4216,12
+Jharkhand,RAMGARH,Maize,Autumn,2012,0.5188,12
+Jharkhand,RAMGARH,Onion,Rabi,2012,0.4216,12
+Jharkhand,RAMGARH,Potato,Rabi,2012,0.4216,12
+Jharkhand,RAMGARH,Potato,Winter,2012,0.5188,12
+Jharkhand,RAMGARH,Rapeseed &Mustard,Rabi,2012,0.4216,12
+Jharkhand,RAMGARH,Rice,Autumn,2012,0.5188,12
+Jharkhand,RAMGARH,Rice,Winter,2012,0.5188,12
+Jharkhand,RAMGARH,Wheat,Rabi,2012,0.4216,12
+Jharkhand,RANCHI,Arhar/Tur,Rabi,2012,0.3266,12
+Jharkhand,RANCHI,Gram,Rabi,2012,0.3266,12
+Jharkhand,RANCHI,Maize,Autumn,2012,0.3601,12
+Jharkhand,RANCHI,Onion,Rabi,2012,0.3266,12
+Jharkhand,RANCHI,Potato,Rabi,2012,0.3266,12
+Jharkhand,RANCHI,Potato,Winter,2012,0.3601,12
+Jharkhand,RANCHI,Rapeseed &Mustard,Rabi,2012,0.3266,12
+Jharkhand,RANCHI,Rice,Autumn,2012,0.3601,12
+Jharkhand,RANCHI,Rice,Winter,2012,0.3601,12
+Jharkhand,RANCHI,Wheat,Rabi,2012,0.3266,12
+Jharkhand,SAHEBGANJ,Arhar/Tur,Rabi,2012,0.383,12
+Jharkhand,SAHEBGANJ,Gram,Rabi,2012,0.383,12
+Jharkhand,SAHEBGANJ,Maize,Autumn,2012,0.371,12
+Jharkhand,SAHEBGANJ,Onion,Rabi,2012,0.383,12
+Jharkhand,SAHEBGANJ,Potato,Rabi,2012,0.383,12
+Jharkhand,SAHEBGANJ,Potato,Winter,2012,0.371,12
+Jharkhand,SAHEBGANJ,Rapeseed &Mustard,Rabi,2012,0.383,12
+Jharkhand,SAHEBGANJ,Rice,Autumn,2012,0.371,12
+Jharkhand,SAHEBGANJ,Rice,Winter,2012,0.371,12
+Jharkhand,SAHEBGANJ,Sugarcane,Whole Year,2012,0.371,12
+Jharkhand,SAHEBGANJ,Wheat,Rabi,2012,0.383,12
+Jharkhand,SARAIKELA KHARSAWAN,Arhar/Tur,Rabi,2012,0.31,12
+Jharkhand,SARAIKELA KHARSAWAN,Gram,Rabi,2012,0.31,12
+Jharkhand,SARAIKELA KHARSAWAN,Maize,Autumn,2012,0.3938,12
+Jharkhand,SARAIKELA KHARSAWAN,Onion,Rabi,2012,0.31,12
+Jharkhand,SARAIKELA KHARSAWAN,Potato,Rabi,2012,0.31,12
+Jharkhand,SARAIKELA KHARSAWAN,Potato,Winter,2012,0.3938,12
+Jharkhand,SARAIKELA KHARSAWAN,Rapeseed &Mustard,Rabi,2012,0.31,12
+Jharkhand,SARAIKELA KHARSAWAN,Rice,Autumn,2012,0.3938,12
+Jharkhand,SARAIKELA KHARSAWAN,Rice,Winter,2012,0.3938,12
+Jharkhand,SARAIKELA KHARSAWAN,Sugarcane,Whole Year,2012,0.3938,12
+Jharkhand,SARAIKELA KHARSAWAN,Wheat,Rabi,2012,0.31,12
+Jharkhand,SIMDEGA,Arhar/Tur,Rabi,2012,0.3371,12
+Jharkhand,SIMDEGA,Gram,Rabi,2012,0.3371,12
+Jharkhand,SIMDEGA,Maize,Autumn,2012,0.4121,12
+Jharkhand,SIMDEGA,Onion,Rabi,2012,0.3371,12
+Jharkhand,SIMDEGA,Potato,Rabi,2012,0.3371,12
+Jharkhand,SIMDEGA,Potato,Winter,2012,0.4121,12
+Jharkhand,SIMDEGA,Rapeseed &Mustard,Rabi,2012,0.3371,12
+Jharkhand,SIMDEGA,Rice,Autumn,2012,0.4121,12
+Jharkhand,SIMDEGA,Rice,Winter,2012,0.4121,12
+Jharkhand,SIMDEGA,Wheat,Rabi,2012,0.3371,12
+Jharkhand,WEST SINGHBHUM,Arhar/Tur,Rabi,2012,0.3447,12
+Jharkhand,WEST SINGHBHUM,Gram,Rabi,2012,0.3447,12
+Jharkhand,WEST SINGHBHUM,Maize,Autumn,2012,0.4721,12
+Jharkhand,WEST SINGHBHUM,Onion,Rabi,2012,0.3447,12
+Jharkhand,WEST SINGHBHUM,Potato,Rabi,2012,0.3447,12
+Jharkhand,WEST SINGHBHUM,Potato,Winter,2012,0.4721,12
+Jharkhand,WEST SINGHBHUM,Rapeseed &Mustard,Rabi,2012,0.3447,12
+Jharkhand,WEST SINGHBHUM,Rice,Autumn,2012,0.4721,12
+Jharkhand,WEST SINGHBHUM,Rice,Winter,2012,0.4721,12
+Jharkhand,WEST SINGHBHUM,Wheat,Rabi,2012,0.3447,12
+Jharkhand,BOKARO,Arhar/Tur,Rabi,2013,0.3079,12
+Jharkhand,BOKARO,Gram,Rabi,2013,0.3079,12
+Jharkhand,BOKARO,Maize,Autumn,2013,0.4905,12
+Jharkhand,BOKARO,Onion,Rabi,2013,0.3079,12
+Jharkhand,BOKARO,Potato,Rabi,2013,0.3079,12
+Jharkhand,BOKARO,Potato,Winter,2013,0.4905,12
+Jharkhand,BOKARO,Rapeseed &Mustard,Rabi,2013,0.3079,12
+Jharkhand,BOKARO,Rice,Autumn,2013,0.4905,12
+Jharkhand,BOKARO,Rice,Winter,2013,0.4905,12
+Jharkhand,BOKARO,Wheat,Rabi,2013,0.3079,12
+Jharkhand,CHATRA,Arhar/Tur,Rabi,2013,0.3825,12
+Jharkhand,CHATRA,Gram,Rabi,2013,0.3825,12
+Jharkhand,CHATRA,Maize,Autumn,2013,0.4565,12
+Jharkhand,CHATRA,Onion,Rabi,2013,0.3825,12
+Jharkhand,CHATRA,Potato,Rabi,2013,0.3825,12
+Jharkhand,CHATRA,Potato,Winter,2013,0.4565,12
+Jharkhand,CHATRA,Rapeseed &Mustard,Rabi,2013,0.3825,12
+Jharkhand,CHATRA,Rice,Autumn,2013,0.4565,12
+Jharkhand,CHATRA,Rice,Winter,2013,0.4565,12
+Jharkhand,CHATRA,Sugarcane,Whole Year,2013,0.4565,12
+Jharkhand,CHATRA,Wheat,Rabi,2013,0.3825,12
+Jharkhand,DEOGHAR,Arhar/Tur,Rabi,2013,0.3175,12
+Jharkhand,DEOGHAR,Gram,Rabi,2013,0.3175,12
+Jharkhand,DEOGHAR,Maize,Autumn,2013,0.4084,12
+Jharkhand,DEOGHAR,Onion,Rabi,2013,0.3175,12
+Jharkhand,DEOGHAR,Potato,Rabi,2013,0.3175,12
+Jharkhand,DEOGHAR,Potato,Winter,2013,0.4084,12
+Jharkhand,DEOGHAR,Rapeseed &Mustard,Rabi,2013,0.3175,12
+Jharkhand,DEOGHAR,Rice,Autumn,2013,0.4084,12
+Jharkhand,DEOGHAR,Rice,Winter,2013,0.4084,12
+Jharkhand,DEOGHAR,Wheat,Rabi,2013,0.3175,12
+Jharkhand,DHANBAD,Gram,Rabi,2013,0.3297,12
+Jharkhand,DHANBAD,Maize,Autumn,2013,0.4109,12
+Jharkhand,DHANBAD,Onion,Rabi,2013,0.3297,12
+Jharkhand,DHANBAD,Potato,Rabi,2013,0.3297,12
+Jharkhand,DHANBAD,Potato,Winter,2013,0.4109,12
+Jharkhand,DHANBAD,Rice,Winter,2013,0.4109,12
+Jharkhand,DHANBAD,Wheat,Rabi,2013,0.3297,12
+Jharkhand,DUMKA,Arhar/Tur,Rabi,2013,0.3082,12
+Jharkhand,DUMKA,Gram,Rabi,2013,0.3082,12
+Jharkhand,DUMKA,Maize,Autumn,2013,0.4146,12
+Jharkhand,DUMKA,Onion,Rabi,2013,0.3082,12
+Jharkhand,DUMKA,Potato,Rabi,2013,0.3082,12
+Jharkhand,DUMKA,Potato,Winter,2013,0.4146,12
+Jharkhand,DUMKA,Rapeseed &Mustard,Rabi,2013,0.3082,12
+Jharkhand,DUMKA,Rice,Autumn,2013,0.4146,12
+Jharkhand,DUMKA,Rice,Winter,2013,0.4146,12
+Jharkhand,DUMKA,Wheat,Rabi,2013,0.3082,12
+Jharkhand,EAST SINGHBUM,Arhar/Tur,Rabi,2013,0.204,12
+Jharkhand,EAST SINGHBUM,Gram,Rabi,2013,0.204,12
+Jharkhand,EAST SINGHBUM,Maize,Autumn,2013,0.3031,12
+Jharkhand,EAST SINGHBUM,Onion,Rabi,2013,0.204,12
+Jharkhand,EAST SINGHBUM,Potato,Rabi,2013,0.204,12
+Jharkhand,EAST SINGHBUM,Potato,Winter,2013,0.3031,12
+Jharkhand,EAST SINGHBUM,Rapeseed &Mustard,Rabi,2013,0.204,12
+Jharkhand,EAST SINGHBUM,Rice,Autumn,2013,0.3031,12
+Jharkhand,EAST SINGHBUM,Rice,Winter,2013,0.3031,12
+Jharkhand,EAST SINGHBUM,Sugarcane,Whole Year,2013,0.3031,12
+Jharkhand,EAST SINGHBUM,Wheat,Rabi,2013,0.204,12
+Jharkhand,GARHWA,Arhar/Tur,Rabi,2013,0.3257,12
+Jharkhand,GARHWA,Gram,Rabi,2013,0.3257,12
+Jharkhand,GARHWA,Maize,Autumn,2013,0.4099,12
+Jharkhand,GARHWA,Onion,Rabi,2013,0.3257,12
+Jharkhand,GARHWA,Potato,Rabi,2013,0.3257,12
+Jharkhand,GARHWA,Potato,Winter,2013,0.4099,12
+Jharkhand,GARHWA,Rapeseed &Mustard,Rabi,2013,0.3257,12
+Jharkhand,GARHWA,Rice,Autumn,2013,0.4099,12
+Jharkhand,GARHWA,Rice,Winter,2013,0.4099,12
+Jharkhand,GARHWA,Sugarcane,Whole Year,2013,0.4099,12
+Jharkhand,GARHWA,Wheat,Rabi,2013,0.3257,12
+Jharkhand,GIRIDIH,Arhar/Tur,Rabi,2013,0.3083,12
+Jharkhand,GIRIDIH,Gram,Rabi,2013,0.3083,12
+Jharkhand,GIRIDIH,Maize,Autumn,2013,0.4532,12
+Jharkhand,GIRIDIH,Onion,Rabi,2013,0.3083,12
+Jharkhand,GIRIDIH,Potato,Rabi,2013,0.3083,12
+Jharkhand,GIRIDIH,Potato,Winter,2013,0.4532,12
+Jharkhand,GIRIDIH,Rapeseed &Mustard,Rabi,2013,0.3083,12
+Jharkhand,GIRIDIH,Rice,Autumn,2013,0.4532,12
+Jharkhand,GIRIDIH,Rice,Winter,2013,0.4532,12
+Jharkhand,GIRIDIH,Wheat,Rabi,2013,0.3083,12
+Jharkhand,GODDA,Arhar/Tur,Rabi,2013,0.2959,12
+Jharkhand,GODDA,Gram,Rabi,2013,0.2959,12
+Jharkhand,GODDA,Maize,Autumn,2013,0.386,12
+Jharkhand,GODDA,Onion,Rabi,2013,0.2959,12
+Jharkhand,GODDA,Potato,Rabi,2013,0.2959,12
+Jharkhand,GODDA,Potato,Winter,2013,0.386,12
+Jharkhand,GODDA,Rapeseed &Mustard,Rabi,2013,0.2959,12
+Jharkhand,GODDA,Rice,Autumn,2013,0.386,12
+Jharkhand,GODDA,Rice,Winter,2013,0.386,12
+Jharkhand,GODDA,Sugarcane,Whole Year,2013,0.386,12
+Jharkhand,GODDA,Wheat,Rabi,2013,0.2959,12
+Jharkhand,GUMLA,Arhar/Tur,Rabi,2013,0.3478,12
+Jharkhand,GUMLA,Gram,Rabi,2013,0.3478,12
+Jharkhand,GUMLA,Maize,Autumn,2013,0.4169,12
+Jharkhand,GUMLA,Onion,Rabi,2013,0.3478,12
+Jharkhand,GUMLA,Potato,Rabi,2013,0.3478,12
+Jharkhand,GUMLA,Potato,Winter,2013,0.4169,12
+Jharkhand,GUMLA,Rapeseed &Mustard,Rabi,2013,0.3478,12
+Jharkhand,GUMLA,Rice,Autumn,2013,0.4169,12
+Jharkhand,GUMLA,Rice,Winter,2013,0.4169,12
+Jharkhand,GUMLA,Sugarcane,Whole Year,2013,0.4169,12
+Jharkhand,GUMLA,Wheat,Rabi,2013,0.3478,12
+Jharkhand,HAZARIBAGH,Arhar/Tur,Rabi,2013,0.31,12
+Jharkhand,HAZARIBAGH,Gram,Rabi,2013,0.31,12
+Jharkhand,HAZARIBAGH,Maize,Autumn,2013,0.3915,12
+Jharkhand,HAZARIBAGH,Onion,Rabi,2013,0.31,12
+Jharkhand,HAZARIBAGH,Potato,Rabi,2013,0.31,12
+Jharkhand,HAZARIBAGH,Potato,Winter,2013,0.3915,12
+Jharkhand,HAZARIBAGH,Rapeseed &Mustard,Rabi,2013,0.31,12
+Jharkhand,HAZARIBAGH,Rice,Autumn,2013,0.3915,12
+Jharkhand,HAZARIBAGH,Rice,Winter,2013,0.3915,12
+Jharkhand,HAZARIBAGH,Sugarcane,Whole Year,2013,0.3915,12
+Jharkhand,HAZARIBAGH,Wheat,Rabi,2013,0.31,12
+Jharkhand,JAMTARA,Arhar/Tur,Rabi,2013,0.3565,12
+Jharkhand,JAMTARA,Gram,Rabi,2013,0.3565,12
+Jharkhand,JAMTARA,Maize,Autumn,2013,0.4582,12
+Jharkhand,JAMTARA,Onion,Rabi,2013,0.3565,12
+Jharkhand,JAMTARA,Potato,Rabi,2013,0.3565,12
+Jharkhand,JAMTARA,Potato,Winter,2013,0.4582,12
+Jharkhand,JAMTARA,Rapeseed &Mustard,Rabi,2013,0.3565,12
+Jharkhand,JAMTARA,Rice,Autumn,2013,0.4582,12
+Jharkhand,JAMTARA,Rice,Winter,2013,0.4582,12
+Jharkhand,JAMTARA,Wheat,Rabi,2013,0.3565,12
+Jharkhand,KHUNTI,Arhar/Tur,Rabi,2013,0.3789,12
+Jharkhand,KHUNTI,Gram,Rabi,2013,0.3789,12
+Jharkhand,KHUNTI,Maize,Autumn,2013,0.4808,12
+Jharkhand,KHUNTI,Onion,Rabi,2013,0.3789,12
+Jharkhand,KHUNTI,Potato,Rabi,2013,0.3789,12
+Jharkhand,KHUNTI,Potato,Winter,2013,0.4808,12
+Jharkhand,KHUNTI,Rapeseed &Mustard,Rabi,2013,0.3789,12
+Jharkhand,KHUNTI,Rice,Autumn,2013,0.4808,12
+Jharkhand,KHUNTI,Rice,Winter,2013,0.4808,12
+Jharkhand,KHUNTI,Wheat,Rabi,2013,0.3789,12
+Jharkhand,KODERMA,Arhar/Tur,Rabi,2013,0.3809,12
+Jharkhand,KODERMA,Gram,Rabi,2013,0.3809,12
+Jharkhand,KODERMA,Maize,Autumn,2013,0.4852,12
+Jharkhand,KODERMA,Onion,Rabi,2013,0.3809,12
+Jharkhand,KODERMA,Potato,Rabi,2013,0.3809,12
+Jharkhand,KODERMA,Potato,Winter,2013,0.4852,12
+Jharkhand,KODERMA,Rapeseed &Mustard,Rabi,2013,0.3809,12
+Jharkhand,KODERMA,Rice,Autumn,2013,0.4852,12
+Jharkhand,KODERMA,Rice,Winter,2013,0.4852,12
+Jharkhand,KODERMA,Sugarcane,Whole Year,2013,0.4852,12
+Jharkhand,KODERMA,Wheat,Rabi,2013,0.3809,12
+Jharkhand,LATEHAR,Arhar/Tur,Rabi,2013,0.3513,12
+Jharkhand,LATEHAR,Gram,Rabi,2013,0.3513,12
+Jharkhand,LATEHAR,Maize,Autumn,2013,0.4447,12
+Jharkhand,LATEHAR,Onion,Rabi,2013,0.3513,12
+Jharkhand,LATEHAR,Potato,Rabi,2013,0.3513,12
+Jharkhand,LATEHAR,Potato,Winter,2013,0.4447,12
+Jharkhand,LATEHAR,Rapeseed &Mustard,Rabi,2013,0.3513,12
+Jharkhand,LATEHAR,Rice,Autumn,2013,0.4447,12
+Jharkhand,LATEHAR,Rice,Winter,2013,0.4447,12
+Jharkhand,LATEHAR,Wheat,Rabi,2013,0.3513,12
+Jharkhand,LOHARDAGA,Arhar/Tur,Rabi,2013,0.3215,12
+Jharkhand,LOHARDAGA,Gram,Rabi,2013,0.3215,12
+Jharkhand,LOHARDAGA,Maize,Autumn,2013,0.4742,12
+Jharkhand,LOHARDAGA,Onion,Rabi,2013,0.3215,12
+Jharkhand,LOHARDAGA,Potato,Rabi,2013,0.3215,12
+Jharkhand,LOHARDAGA,Potato,Winter,2013,0.4742,12
+Jharkhand,LOHARDAGA,Rapeseed &Mustard,Rabi,2013,0.3215,12
+Jharkhand,LOHARDAGA,Rice,Autumn,2013,0.4742,12
+Jharkhand,LOHARDAGA,Rice,Winter,2013,0.4742,12
+Jharkhand,LOHARDAGA,Sugarcane,Whole Year,2013,0.4742,12
+Jharkhand,LOHARDAGA,Wheat,Rabi,2013,0.3215,12
+Jharkhand,PAKUR,Arhar/Tur,Rabi,2013,0.3059,12
+Jharkhand,PAKUR,Gram,Rabi,2013,0.3059,12
+Jharkhand,PAKUR,Maize,Autumn,2013,0.4071,12
+Jharkhand,PAKUR,Potato,Rabi,2013,0.3059,12
+Jharkhand,PAKUR,Rapeseed &Mustard,Rabi,2013,0.3059,12
+Jharkhand,PAKUR,Rice,Autumn,2013,0.4071,12
+Jharkhand,PAKUR,Rice,Winter,2013,0.4071,12
+Jharkhand,PAKUR,Wheat,Rabi,2013,0.3059,12
+Jharkhand,PALAMU,Arhar/Tur,Rabi,2013,0.2758,12
+Jharkhand,PALAMU,Gram,Rabi,2013,0.2758,12
+Jharkhand,PALAMU,Maize,Autumn,2013,0.3618,12
+Jharkhand,PALAMU,Onion,Rabi,2013,0.2758,12
+Jharkhand,PALAMU,Potato,Rabi,2013,0.2758,12
+Jharkhand,PALAMU,Potato,Winter,2013,0.3618,12
+Jharkhand,PALAMU,Rapeseed &Mustard,Rabi,2013,0.2758,12
+Jharkhand,PALAMU,Rice,Autumn,2013,0.3618,12
+Jharkhand,PALAMU,Rice,Winter,2013,0.3618,12
+Jharkhand,PALAMU,Sugarcane,Whole Year,2013,0.3618,12
+Jharkhand,PALAMU,Wheat,Rabi,2013,0.2758,12
+Jharkhand,RAMGARH,Arhar/Tur,Rabi,2013,0.425,12
+Jharkhand,RAMGARH,Gram,Rabi,2013,0.425,12
+Jharkhand,RAMGARH,Maize,Autumn,2013,0.5314,12
+Jharkhand,RAMGARH,Onion,Rabi,2013,0.425,12
+Jharkhand,RAMGARH,Potato,Rabi,2013,0.425,12
+Jharkhand,RAMGARH,Potato,Winter,2013,0.5314,12
+Jharkhand,RAMGARH,Rapeseed &Mustard,Rabi,2013,0.425,12
+Jharkhand,RAMGARH,Rice,Autumn,2013,0.5314,12
+Jharkhand,RAMGARH,Rice,Winter,2013,0.5314,12
+Jharkhand,RAMGARH,Wheat,Rabi,2013,0.425,12
+Jharkhand,RANCHI,Arhar/Tur,Rabi,2013,0.3219,12
+Jharkhand,RANCHI,Gram,Rabi,2013,0.3219,12
+Jharkhand,RANCHI,Maize,Autumn,2013,0.3686,12
+Jharkhand,RANCHI,Onion,Rabi,2013,0.3219,12
+Jharkhand,RANCHI,Potato,Rabi,2013,0.3219,12
+Jharkhand,RANCHI,Potato,Winter,2013,0.3686,12
+Jharkhand,RANCHI,Rapeseed &Mustard,Rabi,2013,0.3219,12
+Jharkhand,RANCHI,Rice,Autumn,2013,0.3686,12
+Jharkhand,RANCHI,Rice,Winter,2013,0.3686,12
+Jharkhand,RANCHI,Wheat,Rabi,2013,0.3219,12
+Jharkhand,SAHEBGANJ,Arhar/Tur,Rabi,2013,0.3677,12
+Jharkhand,SAHEBGANJ,Gram,Rabi,2013,0.3677,12
+Jharkhand,SAHEBGANJ,Maize,Autumn,2013,0.3863,12
+Jharkhand,SAHEBGANJ,Onion,Rabi,2013,0.3677,12
+Jharkhand,SAHEBGANJ,Potato,Rabi,2013,0.3677,12
+Jharkhand,SAHEBGANJ,Potato,Winter,2013,0.3863,12
+Jharkhand,SAHEBGANJ,Rapeseed &Mustard,Rabi,2013,0.3677,12
+Jharkhand,SAHEBGANJ,Rice,Autumn,2013,0.3863,12
+Jharkhand,SAHEBGANJ,Rice,Winter,2013,0.3863,12
+Jharkhand,SAHEBGANJ,Sugarcane,Whole Year,2013,0.3863,12
+Jharkhand,SAHEBGANJ,Wheat,Rabi,2013,0.3677,12
+Jharkhand,SARAIKELA KHARSAWAN,Arhar/Tur,Rabi,2013,0.3367,12
+Jharkhand,SARAIKELA KHARSAWAN,Gram,Rabi,2013,0.3367,12
+Jharkhand,SARAIKELA KHARSAWAN,Maize,Autumn,2013,0.4247,12
+Jharkhand,SARAIKELA KHARSAWAN,Onion,Rabi,2013,0.3367,12
+Jharkhand,SARAIKELA KHARSAWAN,Potato,Rabi,2013,0.3367,12
+Jharkhand,SARAIKELA KHARSAWAN,Potato,Winter,2013,0.4247,12
+Jharkhand,SARAIKELA KHARSAWAN,Rapeseed &Mustard,Rabi,2013,0.3367,12
+Jharkhand,SARAIKELA KHARSAWAN,Rice,Autumn,2013,0.4247,12
+Jharkhand,SARAIKELA KHARSAWAN,Rice,Winter,2013,0.4247,12
+Jharkhand,SARAIKELA KHARSAWAN,Wheat,Rabi,2013,0.3367,12
+Jharkhand,SIMDEGA,Arhar/Tur,Rabi,2013,0.3424,12
+Jharkhand,SIMDEGA,Gram,Rabi,2013,0.3424,12
+Jharkhand,SIMDEGA,Maize,Autumn,2013,0.4573,12
+Jharkhand,SIMDEGA,Onion,Rabi,2013,0.3424,12
+Jharkhand,SIMDEGA,Potato,Rabi,2013,0.3424,12
+Jharkhand,SIMDEGA,Potato,Winter,2013,0.4573,12
+Jharkhand,SIMDEGA,Rapeseed &Mustard,Rabi,2013,0.3424,12
+Jharkhand,SIMDEGA,Rice,Autumn,2013,0.4573,12
+Jharkhand,SIMDEGA,Rice,Winter,2013,0.4573,12
+Jharkhand,SIMDEGA,Wheat,Rabi,2013,0.3424,12
+Jharkhand,WEST SINGHBHUM,Arhar/Tur,Rabi,2013,0.3509,12
+Jharkhand,WEST SINGHBHUM,Gram,Rabi,2013,0.3509,12
+Jharkhand,WEST SINGHBHUM,Maize,Autumn,2013,0.5206,12
+Jharkhand,WEST SINGHBHUM,Onion,Rabi,2013,0.3509,12
+Jharkhand,WEST SINGHBHUM,Potato,Rabi,2013,0.3509,12
+Jharkhand,WEST SINGHBHUM,Rapeseed &Mustard,Rabi,2013,0.3509,12
+Jharkhand,WEST SINGHBHUM,Rice,Autumn,2013,0.5206,12
+Jharkhand,WEST SINGHBHUM,Rice,Winter,2013,0.5206,12
+Jharkhand,WEST SINGHBHUM,Wheat,Rabi,2013,0.3509,12
+Jharkhand,BOKARO,Arhar/Tur,Rabi,2014,0.344,12
+Jharkhand,BOKARO,Gram,Rabi,2014,0.344,12
+Jharkhand,BOKARO,Maize,Autumn,2014,0.4524,12
+Jharkhand,BOKARO,Onion,Rabi,2014,0.344,12
+Jharkhand,BOKARO,Potato,Rabi,2014,0.344,12
+Jharkhand,BOKARO,Potato,Winter,2014,0.4524,12
+Jharkhand,BOKARO,Rapeseed &Mustard,Rabi,2014,0.344,12
+Jharkhand,BOKARO,Rice,Autumn,2014,0.4524,12
+Jharkhand,BOKARO,Rice,Winter,2014,0.4524,12
+Jharkhand,BOKARO,Wheat,Rabi,2014,0.344,12
+Jharkhand,BOKARO,Wheat,Winter,2014,0.4524,12
+Jharkhand,CHATRA,Arhar/Tur,Rabi,2014,0.4089,12
+Jharkhand,CHATRA,Gram,Rabi,2014,0.4089,12
+Jharkhand,CHATRA,Maize,Autumn,2014,0.4704,12
+Jharkhand,CHATRA,Onion,Rabi,2014,0.4089,12
+Jharkhand,CHATRA,Potato,Rabi,2014,0.4089,12
+Jharkhand,CHATRA,Potato,Winter,2014,0.4704,12
+Jharkhand,CHATRA,Rapeseed &Mustard,Rabi,2014,0.4089,12
+Jharkhand,CHATRA,Rice,Winter,2014,0.4704,12
+Jharkhand,CHATRA,Sugarcane,Whole Year,2014,0.4704,12
+Jharkhand,CHATRA,Wheat,Rabi,2014,0.4089,12
+Jharkhand,CHATRA,Wheat,Winter,2014,0.4704,12
+Jharkhand,DEOGHAR,Arhar/Tur,Rabi,2014,0.3262,12
+Jharkhand,DEOGHAR,Gram,Rabi,2014,0.3262,12
+Jharkhand,DEOGHAR,Maize,Autumn,2014,0.3918,12
+Jharkhand,DEOGHAR,Onion,Rabi,2014,0.3262,12
+Jharkhand,DEOGHAR,Potato,Rabi,2014,0.3262,12
+Jharkhand,DEOGHAR,Potato,Winter,2014,0.3918,12
+Jharkhand,DEOGHAR,Rapeseed &Mustard,Rabi,2014,0.3262,12
+Jharkhand,DEOGHAR,Rice,Autumn,2014,0.3918,12
+Jharkhand,DEOGHAR,Rice,Winter,2014,0.3918,12
+Jharkhand,DEOGHAR,Wheat,Rabi,2014,0.3262,12
+Jharkhand,DHANBAD,Gram,Rabi,2014,0.3591,12
+Jharkhand,DHANBAD,Maize,Autumn,2014,0.4073,12
+Jharkhand,DHANBAD,Onion,Rabi,2014,0.3591,12
+Jharkhand,DHANBAD,Potato,Rabi,2014,0.3591,12
+Jharkhand,DHANBAD,Potato,Winter,2014,0.4073,12
+Jharkhand,DHANBAD,Rapeseed &Mustard,Rabi,2014,0.3591,12
+Jharkhand,DHANBAD,Rice,Winter,2014,0.4073,12
+Jharkhand,DHANBAD,Wheat,Rabi,2014,0.3591,12
+Jharkhand,DUMKA,Arhar/Tur,Rabi,2014,0.2877,12
+Jharkhand,DUMKA,Gram,Rabi,2014,0.2877,12
+Jharkhand,DUMKA,Maize,Autumn,2014,0.3804,12
+Jharkhand,DUMKA,Onion,Rabi,2014,0.2877,12
+Jharkhand,DUMKA,Potato,Rabi,2014,0.2877,12
+Jharkhand,DUMKA,Potato,Winter,2014,0.3804,12
+Jharkhand,DUMKA,Rapeseed &Mustard,Rabi,2014,0.2877,12
+Jharkhand,DUMKA,Rice,Autumn,2014,0.3804,12
+Jharkhand,DUMKA,Rice,Winter,2014,0.3804,12
+Jharkhand,DUMKA,Wheat,Rabi,2014,0.2877,12
+Jharkhand,EAST SINGHBUM,Arhar/Tur,Rabi,2014,0.2526,12
+Jharkhand,EAST SINGHBUM,Gram,Rabi,2014,0.2526,12
+Jharkhand,EAST SINGHBUM,Maize,Autumn,2014,0.2937,12
+Jharkhand,EAST SINGHBUM,Onion,Rabi,2014,0.2526,12
+Jharkhand,EAST SINGHBUM,Potato,Rabi,2014,0.2526,12
+Jharkhand,EAST SINGHBUM,Potato,Winter,2014,0.2937,12
+Jharkhand,EAST SINGHBUM,Rapeseed &Mustard,Rabi,2014,0.2526,12
+Jharkhand,EAST SINGHBUM,Rice,Autumn,2014,0.2937,12
+Jharkhand,EAST SINGHBUM,Rice,Winter,2014,0.2937,12
+Jharkhand,EAST SINGHBUM,Sugarcane,Whole Year,2014,0.2937,12
+Jharkhand,EAST SINGHBUM,Wheat,Rabi,2014,0.2526,12
+Jharkhand,EAST SINGHBUM,Wheat,Winter,2014,0.2937,12
+Jharkhand,GARHWA,Arhar/Tur,Rabi,2014,0.3509,12
+Jharkhand,GARHWA,Gram,Rabi,2014,0.3509,12
+Jharkhand,GARHWA,Maize,Autumn,2014,0.3798,12
+Jharkhand,GARHWA,Onion,Rabi,2014,0.3509,12
+Jharkhand,GARHWA,Potato,Rabi,2014,0.3509,12
+Jharkhand,GARHWA,Potato,Winter,2014,0.3798,12
+Jharkhand,GARHWA,Rapeseed &Mustard,Rabi,2014,0.3509,12
+Jharkhand,GARHWA,Rice,Autumn,2014,0.3798,12
+Jharkhand,GARHWA,Rice,Winter,2014,0.3798,12
+Jharkhand,GARHWA,Sugarcane,Whole Year,2014,0.3798,12
+Jharkhand,GARHWA,Wheat,Rabi,2014,0.3509,12
+Jharkhand,GIRIDIH,Arhar/Tur,Rabi,2014,0.3342,12
+Jharkhand,GIRIDIH,Gram,Rabi,2014,0.3342,12
+Jharkhand,GIRIDIH,Maize,Autumn,2014,0.3968,12
+Jharkhand,GIRIDIH,Onion,Rabi,2014,0.3342,12
+Jharkhand,GIRIDIH,Potato,Rabi,2014,0.3342,12
+Jharkhand,GIRIDIH,Potato,Winter,2014,0.3968,12
+Jharkhand,GIRIDIH,Rapeseed &Mustard,Rabi,2014,0.3342,12
+Jharkhand,GIRIDIH,Rice,Autumn,2014,0.3968,12
+Jharkhand,GIRIDIH,Rice,Winter,2014,0.3968,12
+Jharkhand,GIRIDIH,Wheat,Rabi,2014,0.3342,12
+Jharkhand,GIRIDIH,Wheat,Winter,2014,0.3968,12
+Jharkhand,GODDA,Arhar/Tur,Rabi,2014,0.3193,12
+Jharkhand,GODDA,Gram,Rabi,2014,0.3193,12
+Jharkhand,GODDA,Maize,Autumn,2014,0.3907,12
+Jharkhand,GODDA,Onion,Rabi,2014,0.3193,12
+Jharkhand,GODDA,Potato,Rabi,2014,0.3193,12
+Jharkhand,GODDA,Potato,Winter,2014,0.3907,12
+Jharkhand,GODDA,Rapeseed &Mustard,Rabi,2014,0.3193,12
+Jharkhand,GODDA,Rice,Autumn,2014,0.3907,12
+Jharkhand,GODDA,Rice,Winter,2014,0.3907,12
+Jharkhand,GODDA,Sugarcane,Whole Year,2014,0.3907,12
+Jharkhand,GODDA,Wheat,Rabi,2014,0.3193,12
+Jharkhand,GUMLA,Arhar/Tur,Rabi,2014,0.3544,12
+Jharkhand,GUMLA,Gram,Rabi,2014,0.3544,12
+Jharkhand,GUMLA,Maize,Autumn,2014,0.4153,12
+Jharkhand,GUMLA,Onion,Rabi,2014,0.3544,12
+Jharkhand,GUMLA,Potato,Rabi,2014,0.3544,12
+Jharkhand,GUMLA,Potato,Winter,2014,0.4153,12
+Jharkhand,GUMLA,Rapeseed &Mustard,Rabi,2014,0.3544,12
+Jharkhand,GUMLA,Rice,Autumn,2014,0.4153,12
+Jharkhand,GUMLA,Rice,Winter,2014,0.4153,12
+Jharkhand,GUMLA,Sugarcane,Whole Year,2014,0.4153,12
+Jharkhand,GUMLA,Wheat,Rabi,2014,0.3544,12
+Jharkhand,GUMLA,Wheat,Winter,2014,0.4153,12
+Jharkhand,HAZARIBAGH,Arhar/Tur,Rabi,2014,0.3188,12
+Jharkhand,HAZARIBAGH,Gram,Rabi,2014,0.3188,12
+Jharkhand,HAZARIBAGH,Maize,Autumn,2014,0.391,12
+Jharkhand,HAZARIBAGH,Onion,Rabi,2014,0.3188,12
+Jharkhand,HAZARIBAGH,Potato,Rabi,2014,0.3188,12
+Jharkhand,HAZARIBAGH,Potato,Winter,2014,0.391,12
+Jharkhand,HAZARIBAGH,Rapeseed &Mustard,Rabi,2014,0.3188,12
+Jharkhand,HAZARIBAGH,Rice,Autumn,2014,0.391,12
+Jharkhand,HAZARIBAGH,Rice,Winter,2014,0.391,12
+Jharkhand,HAZARIBAGH,Sugarcane,Whole Year,2014,0.391,12
+Jharkhand,HAZARIBAGH,Wheat,Rabi,2014,0.3188,12
+Jharkhand,HAZARIBAGH,Wheat,Winter,2014,0.391,12
+Jharkhand,JAMTARA,Arhar/Tur,Rabi,2014,0.3656,12
+Jharkhand,JAMTARA,Gram,Rabi,2014,0.3656,12
+Jharkhand,JAMTARA,Maize,Autumn,2014,0.4368,12
+Jharkhand,JAMTARA,Onion,Rabi,2014,0.3656,12
+Jharkhand,JAMTARA,Potato,Rabi,2014,0.3656,12
+Jharkhand,JAMTARA,Potato,Winter,2014,0.4368,12
+Jharkhand,JAMTARA,Rapeseed &Mustard,Rabi,2014,0.3656,12
+Jharkhand,JAMTARA,Rice,Autumn,2014,0.4368,12
+Jharkhand,JAMTARA,Rice,Winter,2014,0.4368,12
+Jharkhand,JAMTARA,Wheat,Rabi,2014,0.3656,12
+Jharkhand,KHUNTI,Arhar/Tur,Rabi,2014,0.3985,12
+Jharkhand,KHUNTI,Gram,Rabi,2014,0.3985,12
+Jharkhand,KHUNTI,Maize,Autumn,2014,0.477,12
+Jharkhand,KHUNTI,Onion,Rabi,2014,0.3985,12
+Jharkhand,KHUNTI,Potato,Rabi,2014,0.3985,12
+Jharkhand,KHUNTI,Potato,Winter,2014,0.477,12
+Jharkhand,KHUNTI,Rapeseed &Mustard,Rabi,2014,0.3985,12
+Jharkhand,KHUNTI,Rice,Autumn,2014,0.477,12
+Jharkhand,KHUNTI,Rice,Winter,2014,0.477,12
+Jharkhand,KHUNTI,Wheat,Rabi,2014,0.3985,12
+Jharkhand,KHUNTI,Wheat,Winter,2014,0.477,12
+Jharkhand,KODERMA,Arhar/Tur,Rabi,2014,0.4305,12
+Jharkhand,KODERMA,Gram,Rabi,2014,0.4305,12
+Jharkhand,KODERMA,Maize,Autumn,2014,0.4601,12
+Jharkhand,KODERMA,Onion,Rabi,2014,0.4305,12
+Jharkhand,KODERMA,Potato,Rabi,2014,0.4305,12
+Jharkhand,KODERMA,Potato,Winter,2014,0.4601,12
+Jharkhand,KODERMA,Rapeseed &Mustard,Rabi,2014,0.4305,12
+Jharkhand,KODERMA,Rice,Autumn,2014,0.4601,12
+Jharkhand,KODERMA,Rice,Winter,2014,0.4601,12
+Jharkhand,KODERMA,Sugarcane,Whole Year,2014,0.4601,12
+Jharkhand,KODERMA,Wheat,Rabi,2014,0.4305,12
+Jharkhand,KODERMA,Wheat,Winter,2014,0.4601,12
+Jharkhand,LATEHAR,Arhar/Tur,Rabi,2014,0.374,12
+Jharkhand,LATEHAR,Gram,Rabi,2014,0.374,12
+Jharkhand,LATEHAR,Maize,Autumn,2014,0.4359,12
+Jharkhand,LATEHAR,Onion,Rabi,2014,0.374,12
+Jharkhand,LATEHAR,Potato,Rabi,2014,0.374,12
+Jharkhand,LATEHAR,Potato,Winter,2014,0.4359,12
+Jharkhand,LATEHAR,Rapeseed &Mustard,Rabi,2014,0.374,12
+Jharkhand,LATEHAR,Rice,Autumn,2014,0.4359,12
+Jharkhand,LATEHAR,Rice,Winter,2014,0.4359,12
+Jharkhand,LATEHAR,Sugarcane,Whole Year,2014,0.4359,12
+Jharkhand,LATEHAR,Wheat,Rabi,2014,0.374,12
+Jharkhand,LOHARDAGA,Arhar/Tur,Rabi,2014,0.3723,12
+Jharkhand,LOHARDAGA,Gram,Rabi,2014,0.3723,12
+Jharkhand,LOHARDAGA,Maize,Autumn,2014,0.4375,12
+Jharkhand,LOHARDAGA,Onion,Rabi,2014,0.3723,12
+Jharkhand,LOHARDAGA,Potato,Rabi,2014,0.3723,12
+Jharkhand,LOHARDAGA,Potato,Winter,2014,0.4375,12
+Jharkhand,LOHARDAGA,Rapeseed &Mustard,Rabi,2014,0.3723,12
+Jharkhand,LOHARDAGA,Rice,Autumn,2014,0.4375,12
+Jharkhand,LOHARDAGA,Rice,Winter,2014,0.4375,12
+Jharkhand,LOHARDAGA,Sugarcane,Whole Year,2014,0.4375,12
+Jharkhand,LOHARDAGA,Wheat,Rabi,2014,0.3723,12
+Jharkhand,LOHARDAGA,Wheat,Winter,2014,0.4375,12
+Jharkhand,PAKUR,Arhar/Tur,Rabi,2014,0.3261,12
+Jharkhand,PAKUR,Gram,Rabi,2014,0.3261,12
+Jharkhand,PAKUR,Maize,Autumn,2014,0.4169,12
+Jharkhand,PAKUR,Onion,Rabi,2014,0.3261,12
+Jharkhand,PAKUR,Potato,Rabi,2014,0.3261,12
+Jharkhand,PAKUR,Potato,Winter,2014,0.4169,12
+Jharkhand,PAKUR,Rapeseed &Mustard,Rabi,2014,0.3261,12
+Jharkhand,PAKUR,Rice,Autumn,2014,0.4169,12
+Jharkhand,PAKUR,Rice,Winter,2014,0.4169,12
+Jharkhand,PAKUR,Wheat,Rabi,2014,0.3261,12
+Jharkhand,PALAMU,Arhar/Tur,Rabi,2014,0.2846,12
+Jharkhand,PALAMU,Gram,Rabi,2014,0.2846,12
+Jharkhand,PALAMU,Maize,Autumn,2014,0.3086,12
+Jharkhand,PALAMU,Onion,Rabi,2014,0.2846,12
+Jharkhand,PALAMU,Potato,Rabi,2014,0.2846,12
+Jharkhand,PALAMU,Potato,Winter,2014,0.3086,12
+Jharkhand,PALAMU,Rapeseed &Mustard,Rabi,2014,0.2846,12
+Jharkhand,PALAMU,Rice,Autumn,2014,0.3086,12
+Jharkhand,PALAMU,Rice,Winter,2014,0.3086,12
+Jharkhand,PALAMU,Sugarcane,Whole Year,2014,0.3086,12
+Jharkhand,PALAMU,Wheat,Rabi,2014,0.2846,12
+Jharkhand,RAMGARH,Arhar/Tur,Rabi,2014,0.3957,12
+Jharkhand,RAMGARH,Gram,Rabi,2014,0.3957,12
+Jharkhand,RAMGARH,Maize,Autumn,2014,0.5086,12
+Jharkhand,RAMGARH,Onion,Rabi,2014,0.3957,12
+Jharkhand,RAMGARH,Potato,Rabi,2014,0.3957,12
+Jharkhand,RAMGARH,Potato,Winter,2014,0.5086,12
+Jharkhand,RAMGARH,Rapeseed &Mustard,Rabi,2014,0.3957,12
+Jharkhand,RAMGARH,Rice,Autumn,2014,0.5086,12
+Jharkhand,RAMGARH,Rice,Winter,2014,0.5086,12
+Jharkhand,RAMGARH,Wheat,Rabi,2014,0.3957,12
+Jharkhand,RAMGARH,Wheat,Winter,2014,0.5086,12
+Jharkhand,RANCHI,Arhar/Tur,Rabi,2014,0.3435,12
+Jharkhand,RANCHI,Gram,Rabi,2014,0.3435,12
+Jharkhand,RANCHI,Maize,Autumn,2014,0.3792,12
+Jharkhand,RANCHI,Onion,Rabi,2014,0.3435,12
+Jharkhand,RANCHI,Potato,Rabi,2014,0.3435,12
+Jharkhand,RANCHI,Potato,Winter,2014,0.3792,12
+Jharkhand,RANCHI,Rapeseed &Mustard,Rabi,2014,0.3435,12
+Jharkhand,RANCHI,Rice,Autumn,2014,0.3792,12
+Jharkhand,RANCHI,Rice,Winter,2014,0.3792,12
+Jharkhand,RANCHI,Wheat,Rabi,2014,0.3435,12
+Jharkhand,RANCHI,Wheat,Winter,2014,0.3792,12
+Jharkhand,SAHEBGANJ,Arhar/Tur,Rabi,2014,0.4086,12
+Jharkhand,SAHEBGANJ,Gram,Rabi,2014,0.4086,12
+Jharkhand,SAHEBGANJ,Maize,Autumn,2014,0.3944,12
+Jharkhand,SAHEBGANJ,Onion,Rabi,2014,0.4086,12
+Jharkhand,SAHEBGANJ,Potato,Rabi,2014,0.4086,12
+Jharkhand,SAHEBGANJ,Potato,Winter,2014,0.3944,12
+Jharkhand,SAHEBGANJ,Rapeseed &Mustard,Rabi,2014,0.4086,12
+Jharkhand,SAHEBGANJ,Rice,Autumn,2014,0.3944,12
+Jharkhand,SAHEBGANJ,Rice,Winter,2014,0.3944,12
+Jharkhand,SAHEBGANJ,Wheat,Rabi,2014,0.4086,12
+Jharkhand,SARAIKELA KHARSAWAN,Arhar/Tur,Rabi,2014,0.3343,12
+Jharkhand,SARAIKELA KHARSAWAN,Gram,Rabi,2014,0.3343,12
+Jharkhand,SARAIKELA KHARSAWAN,Maize,Autumn,2014,0.3989,12
+Jharkhand,SARAIKELA KHARSAWAN,Onion,Rabi,2014,0.3343,12
+Jharkhand,SARAIKELA KHARSAWAN,Potato,Rabi,2014,0.3343,12
+Jharkhand,SARAIKELA KHARSAWAN,Potato,Winter,2014,0.3989,12
+Jharkhand,SARAIKELA KHARSAWAN,Rapeseed &Mustard,Rabi,2014,0.3343,12
+Jharkhand,SARAIKELA KHARSAWAN,Rice,Autumn,2014,0.3989,12
+Jharkhand,SARAIKELA KHARSAWAN,Rice,Winter,2014,0.3989,12
+Jharkhand,SARAIKELA KHARSAWAN,Wheat,Rabi,2014,0.3343,12
+Jharkhand,SARAIKELA KHARSAWAN,Wheat,Winter,2014,0.3989,12
+Jharkhand,SIMDEGA,Arhar/Tur,Rabi,2014,0.3578,12
+Jharkhand,SIMDEGA,Gram,Rabi,2014,0.3578,12
+Jharkhand,SIMDEGA,Maize,Autumn,2014,0.4291,12
+Jharkhand,SIMDEGA,Onion,Rabi,2014,0.3578,12
+Jharkhand,SIMDEGA,Potato,Rabi,2014,0.3578,12
+Jharkhand,SIMDEGA,Potato,Winter,2014,0.4291,12
+Jharkhand,SIMDEGA,Rapeseed &Mustard,Rabi,2014,0.3578,12
+Jharkhand,SIMDEGA,Rice,Autumn,2014,0.4291,12
+Jharkhand,SIMDEGA,Rice,Winter,2014,0.4291,12
+Jharkhand,SIMDEGA,Wheat,Rabi,2014,0.3578,12
+Jharkhand,SIMDEGA,Wheat,Winter,2014,0.4291,12
+Jharkhand,WEST SINGHBHUM,Arhar/Tur,Rabi,2014,0.3775,12
+Jharkhand,WEST SINGHBHUM,Gram,Rabi,2014,0.3775,12
+Jharkhand,WEST SINGHBHUM,Maize,Autumn,2014,0.4567,12
+Jharkhand,WEST SINGHBHUM,Onion,Rabi,2014,0.3775,12
+Jharkhand,WEST SINGHBHUM,Potato,Rabi,2014,0.3775,12
+Jharkhand,WEST SINGHBHUM,Rapeseed &Mustard,Rabi,2014,0.3775,12
+Jharkhand,WEST SINGHBHUM,Rice,Autumn,2014,0.4567,12
+Jharkhand,WEST SINGHBHUM,Rice,Winter,2014,0.4567,12
+Jharkhand,WEST SINGHBHUM,Wheat,Rabi,2014,0.3775,12
+Jharkhand,WEST SINGHBHUM,Wheat,Winter,2014,0.4567,12
+Jharkhand,BOKARO,Arhar/Tur,Rabi,2015,0.3083,12
+Jharkhand,BOKARO,Gram,Rabi,2015,0.3083,12
+Jharkhand,BOKARO,Maize,Autumn,2015,0.4327,12
+Jharkhand,BOKARO,Onion,Rabi,2015,0.3083,12
+Jharkhand,BOKARO,Potato,Rabi,2015,0.3083,12
+Jharkhand,BOKARO,Potato,Winter,2015,0.4327,12
+Jharkhand,BOKARO,Rapeseed &Mustard,Rabi,2015,0.3083,12
+Jharkhand,BOKARO,Rice,Autumn,2015,0.4327,12
+Jharkhand,BOKARO,Rice,Winter,2015,0.4327,12
+Jharkhand,BOKARO,Urad,Autumn,2015,0.4327,12
+Jharkhand,BOKARO,Wheat,Rabi,2015,0.3083,12
+Jharkhand,CHATRA,Arhar/Tur,Rabi,2015,0.373,12
+Jharkhand,CHATRA,Gram,Rabi,2015,0.373,12
+Jharkhand,CHATRA,Maize,Autumn,2015,0.4411,12
+Jharkhand,CHATRA,Onion,Rabi,2015,0.373,12
+Jharkhand,CHATRA,Potato,Rabi,2015,0.373,12
+Jharkhand,CHATRA,Potato,Winter,2015,0.4411,12
+Jharkhand,CHATRA,Rapeseed &Mustard,Rabi,2015,0.373,12
+Jharkhand,CHATRA,Rice,Winter,2015,0.4411,12
+Jharkhand,CHATRA,Urad,Autumn,2015,0.4411,12
+Jharkhand,CHATRA,Wheat,Rabi,2015,0.373,12
+Jharkhand,DEOGHAR,Gram,Rabi,2015,0.3269,12
+Jharkhand,DEOGHAR,Maize,Autumn,2015,0.3896,12
+Jharkhand,DEOGHAR,Potato,Rabi,2015,0.3269,12
+Jharkhand,DEOGHAR,Potato,Winter,2015,0.3896,12
+Jharkhand,DEOGHAR,Rapeseed &Mustard,Rabi,2015,0.3269,12
+Jharkhand,DEOGHAR,Rice,Autumn,2015,0.3896,12
+Jharkhand,DEOGHAR,Rice,Winter,2015,0.3896,12
+Jharkhand,DEOGHAR,Wheat,Rabi,2015,0.3269,12
+Jharkhand,DHANBAD,Maize,Autumn,2015,0.4238,12
+Jharkhand,DHANBAD,Onion,Rabi,2015,0.363,12
+Jharkhand,DHANBAD,Potato,Rabi,2015,0.363,12
+Jharkhand,DHANBAD,Potato,Winter,2015,0.4238,12
+Jharkhand,DHANBAD,Rice,Autumn,2015,0.4238,12
+Jharkhand,DHANBAD,Rice,Winter,2015,0.4238,12
+Jharkhand,DHANBAD,Wheat,Rabi,2015,0.363,12
+Jharkhand,DUMKA,Arhar/Tur,Rabi,2015,0.3009,12
+Jharkhand,DUMKA,Gram,Rabi,2015,0.3009,12
+Jharkhand,DUMKA,Maize,Autumn,2015,0.387,12
+Jharkhand,DUMKA,Onion,Rabi,2015,0.3009,12
+Jharkhand,DUMKA,Potato,Rabi,2015,0.3009,12
+Jharkhand,DUMKA,Potato,Winter,2015,0.387,12
+Jharkhand,DUMKA,Rapeseed &Mustard,Rabi,2015,0.3009,12
+Jharkhand,DUMKA,Rice,Autumn,2015,0.387,12
+Jharkhand,DUMKA,Rice,Winter,2015,0.387,12
+Jharkhand,DUMKA,Urad,Autumn,2015,0.387,12
+Jharkhand,DUMKA,Wheat,Rabi,2015,0.3009,12
+Jharkhand,EAST SINGHBUM,Arhar/Tur,Rabi,2015,0.2217,12
+Jharkhand,EAST SINGHBUM,Gram,Rabi,2015,0.2217,12
+Jharkhand,EAST SINGHBUM,Maize,Autumn,2015,0.3079,12
+Jharkhand,EAST SINGHBUM,Onion,Rabi,2015,0.2217,12
+Jharkhand,EAST SINGHBUM,Potato,Rabi,2015,0.2217,12
+Jharkhand,EAST SINGHBUM,Potato,Winter,2015,0.3079,12
+Jharkhand,EAST SINGHBUM,Rapeseed &Mustard,Rabi,2015,0.2217,12
+Jharkhand,EAST SINGHBUM,Rice,Autumn,2015,0.3079,12
+Jharkhand,EAST SINGHBUM,Rice,Winter,2015,0.3079,12
+Jharkhand,EAST SINGHBUM,Urad,Autumn,2015,0.3079,12
+Jharkhand,EAST SINGHBUM,Wheat,Rabi,2015,0.2217,12
+Jharkhand,GARHWA,Arhar/Tur,Rabi,2015,0.2936,12
+Jharkhand,GARHWA,Gram,Rabi,2015,0.2936,12
+Jharkhand,GARHWA,Maize,Autumn,2015,0.3578,12
+Jharkhand,GARHWA,Onion,Rabi,2015,0.2936,12
+Jharkhand,GARHWA,Potato,Rabi,2015,0.2936,12
+Jharkhand,GARHWA,Potato,Winter,2015,0.3578,12
+Jharkhand,GARHWA,Rapeseed &Mustard,Rabi,2015,0.2936,12
+Jharkhand,GARHWA,Rice,Autumn,2015,0.3578,12
+Jharkhand,GARHWA,Rice,Winter,2015,0.3578,12
+Jharkhand,GARHWA,Urad,Autumn,2015,0.3578,12
+Jharkhand,GARHWA,Wheat,Rabi,2015,0.2936,12
+Jharkhand,GIRIDIH,Arhar/Tur,Rabi,2015,0.2993,12
+Jharkhand,GIRIDIH,Gram,Rabi,2015,0.2993,12
+Jharkhand,GIRIDIH,Maize,Autumn,2015,0.3864,12
+Jharkhand,GIRIDIH,Onion,Rabi,2015,0.2993,12
+Jharkhand,GIRIDIH,Potato,Rabi,2015,0.2993,12
+Jharkhand,GIRIDIH,Potato,Winter,2015,0.3864,12
+Jharkhand,GIRIDIH,Rapeseed &Mustard,Rabi,2015,0.2993,12
+Jharkhand,GIRIDIH,Rice,Autumn,2015,0.3864,12
+Jharkhand,GIRIDIH,Rice,Winter,2015,0.3864,12
+Jharkhand,GIRIDIH,Urad,Autumn,2015,0.3864,12
+Jharkhand,GIRIDIH,Wheat,Rabi,2015,0.2993,12
+Jharkhand,GODDA,Arhar/Tur,Rabi,2015,0.3156,12
+Jharkhand,GODDA,Gram,Rabi,2015,0.3156,12
+Jharkhand,GODDA,Maize,Autumn,2015,0.3868,12
+Jharkhand,GODDA,Onion,Rabi,2015,0.3156,12
+Jharkhand,GODDA,Potato,Rabi,2015,0.3156,12
+Jharkhand,GODDA,Potato,Winter,2015,0.3868,12
+Jharkhand,GODDA,Rapeseed &Mustard,Rabi,2015,0.3156,12
+Jharkhand,GODDA,Rice,Autumn,2015,0.3868,12
+Jharkhand,GODDA,Rice,Winter,2015,0.3868,12
+Jharkhand,GODDA,Wheat,Rabi,2015,0.3156,12
+Jharkhand,GUMLA,Arhar/Tur,Rabi,2015,0.3326,12
+Jharkhand,GUMLA,Gram,Rabi,2015,0.3326,12
+Jharkhand,GUMLA,Maize,Autumn,2015,0.3979,12
+Jharkhand,GUMLA,Onion,Rabi,2015,0.3326,12
+Jharkhand,GUMLA,Potato,Rabi,2015,0.3326,12
+Jharkhand,GUMLA,Potato,Winter,2015,0.3979,12
+Jharkhand,GUMLA,Rapeseed &Mustard,Rabi,2015,0.3326,12
+Jharkhand,GUMLA,Rice,Autumn,2015,0.3979,12
+Jharkhand,GUMLA,Rice,Winter,2015,0.3979,12
+Jharkhand,GUMLA,Urad,Autumn,2015,0.3979,12
+Jharkhand,GUMLA,Wheat,Rabi,2015,0.3326,12
+Jharkhand,HAZARIBAGH,Arhar/Tur,Rabi,2015,0.2908,12
+Jharkhand,HAZARIBAGH,Gram,Rabi,2015,0.2908,12
+Jharkhand,HAZARIBAGH,Maize,Autumn,2015,0.3818,12
+Jharkhand,HAZARIBAGH,Onion,Rabi,2015,0.2908,12
+Jharkhand,HAZARIBAGH,Potato,Rabi,2015,0.2908,12
+Jharkhand,HAZARIBAGH,Potato,Winter,2015,0.3818,12
+Jharkhand,HAZARIBAGH,Rapeseed &Mustard,Rabi,2015,0.2908,12
+Jharkhand,HAZARIBAGH,Rice,Autumn,2015,0.3818,12
+Jharkhand,HAZARIBAGH,Rice,Winter,2015,0.3818,12
+Jharkhand,HAZARIBAGH,Urad,Autumn,2015,0.3818,12
+Jharkhand,HAZARIBAGH,Wheat,Rabi,2015,0.2908,12
+Jharkhand,JAMTARA,Arhar/Tur,Rabi,2015,0.3374,12
+Jharkhand,JAMTARA,Gram,Rabi,2015,0.3374,12
+Jharkhand,JAMTARA,Maize,Autumn,2015,0.4323,12
+Jharkhand,JAMTARA,Onion,Rabi,2015,0.3374,12
+Jharkhand,JAMTARA,Potato,Rabi,2015,0.3374,12
+Jharkhand,JAMTARA,Potato,Winter,2015,0.4323,12
+Jharkhand,JAMTARA,Rapeseed &Mustard,Rabi,2015,0.3374,12
+Jharkhand,JAMTARA,Rice,Autumn,2015,0.4323,12
+Jharkhand,JAMTARA,Rice,Winter,2015,0.4323,12
+Jharkhand,JAMTARA,Wheat,Rabi,2015,0.3374,12
+Jharkhand,KHUNTI,Arhar/Tur,Rabi,2015,0.3417,12
+Jharkhand,KHUNTI,Gram,Rabi,2015,0.3417,12
+Jharkhand,KHUNTI,Maize,Autumn,2015,0.4572,12
+Jharkhand,KHUNTI,Onion,Rabi,2015,0.3417,12
+Jharkhand,KHUNTI,Potato,Rabi,2015,0.3417,12
+Jharkhand,KHUNTI,Potato,Winter,2015,0.4572,12
+Jharkhand,KHUNTI,Rapeseed &Mustard,Rabi,2015,0.3417,12
+Jharkhand,KHUNTI,Rice,Autumn,2015,0.4572,12
+Jharkhand,KHUNTI,Rice,Winter,2015,0.4572,12
+Jharkhand,KHUNTI,Urad,Autumn,2015,0.4572,12
+Jharkhand,KHUNTI,Wheat,Rabi,2015,0.3417,12
+Jharkhand,KODERMA,Arhar/Tur,Rabi,2015,0.3635,12
+Jharkhand,KODERMA,Gram,Rabi,2015,0.3635,12
+Jharkhand,KODERMA,Maize,Autumn,2015,0.4494,12
+Jharkhand,KODERMA,Onion,Rabi,2015,0.3635,12
+Jharkhand,KODERMA,Potato,Rabi,2015,0.3635,12
+Jharkhand,KODERMA,Potato,Winter,2015,0.4494,12
+Jharkhand,KODERMA,Rapeseed &Mustard,Rabi,2015,0.3635,12
+Jharkhand,KODERMA,Rice,Autumn,2015,0.4494,12
+Jharkhand,KODERMA,Rice,Winter,2015,0.4494,12
+Jharkhand,KODERMA,Urad,Autumn,2015,0.4494,12
+Jharkhand,KODERMA,Wheat,Rabi,2015,0.3635,12
+Jharkhand,LATEHAR,Arhar/Tur,Rabi,2015,0.3087,12
+Jharkhand,LATEHAR,Gram,Rabi,2015,0.3087,12
+Jharkhand,LATEHAR,Maize,Autumn,2015,0.4042,12
+Jharkhand,LATEHAR,Onion,Rabi,2015,0.3087,12
+Jharkhand,LATEHAR,Potato,Rabi,2015,0.3087,12
+Jharkhand,LATEHAR,Potato,Winter,2015,0.4042,12
+Jharkhand,LATEHAR,Rapeseed &Mustard,Rabi,2015,0.3087,12
+Jharkhand,LATEHAR,Rice,Autumn,2015,0.4042,12
+Jharkhand,LATEHAR,Rice,Winter,2015,0.4042,12
+Jharkhand,LATEHAR,Urad,Autumn,2015,0.4042,12
+Jharkhand,LATEHAR,Wheat,Rabi,2015,0.3087,12
+Jharkhand,LOHARDAGA,Arhar/Tur,Rabi,2015,0.3133,12
+Jharkhand,LOHARDAGA,Gram,Rabi,2015,0.3133,12
+Jharkhand,LOHARDAGA,Maize,Autumn,2015,0.4012,12
+Jharkhand,LOHARDAGA,Onion,Rabi,2015,0.3133,12
+Jharkhand,LOHARDAGA,Potato,Rabi,2015,0.3133,12
+Jharkhand,LOHARDAGA,Potato,Winter,2015,0.4012,12
+Jharkhand,LOHARDAGA,Rapeseed &Mustard,Rabi,2015,0.3133,12
+Jharkhand,LOHARDAGA,Rice,Autumn,2015,0.4012,12
+Jharkhand,LOHARDAGA,Rice,Winter,2015,0.4012,12
+Jharkhand,LOHARDAGA,Urad,Autumn,2015,0.4012,12
+Jharkhand,LOHARDAGA,Wheat,Rabi,2015,0.3133,12
+Jharkhand,PAKUR,Arhar/Tur,Rabi,2015,0.3216,12
+Jharkhand,PAKUR,Gram,Rabi,2015,0.3216,12
+Jharkhand,PAKUR,Maize,Autumn,2015,0.4176,12
+Jharkhand,PAKUR,Onion,Rabi,2015,0.3216,12
+Jharkhand,PAKUR,Potato,Rabi,2015,0.3216,12
+Jharkhand,PAKUR,Potato,Winter,2015,0.4176,12
+Jharkhand,PAKUR,Rapeseed &Mustard,Rabi,2015,0.3216,12
+Jharkhand,PAKUR,Rice,Autumn,2015,0.4176,12
+Jharkhand,PAKUR,Rice,Winter,2015,0.4176,12
+Jharkhand,PAKUR,Wheat,Rabi,2015,0.3216,12
+Jharkhand,PALAMU,Arhar/Tur,Rabi,2015,0.2472,12
+Jharkhand,PALAMU,Gram,Rabi,2015,0.2472,12
+Jharkhand,PALAMU,Maize,Autumn,2015,0.2827,12
+Jharkhand,PALAMU,Onion,Rabi,2015,0.2472,12
+Jharkhand,PALAMU,Potato,Rabi,2015,0.2472,12
+Jharkhand,PALAMU,Potato,Winter,2015,0.2827,12
+Jharkhand,PALAMU,Rapeseed &Mustard,Rabi,2015,0.2472,12
+Jharkhand,PALAMU,Rice,Autumn,2015,0.2827,12
+Jharkhand,PALAMU,Rice,Winter,2015,0.2827,12
+Jharkhand,PALAMU,Urad,Autumn,2015,0.2827,12
+Jharkhand,PALAMU,Wheat,Rabi,2015,0.2472,12
+Jharkhand,RAMGARH,Arhar/Tur,Rabi,2015,0.4066,12
+Jharkhand,RAMGARH,Gram,Rabi,2015,0.4066,12
+Jharkhand,RAMGARH,Maize,Autumn,2015,0.5121,12
+Jharkhand,RAMGARH,Onion,Rabi,2015,0.4066,12
+Jharkhand,RAMGARH,Potato,Rabi,2015,0.4066,12
+Jharkhand,RAMGARH,Potato,Winter,2015,0.5121,12
+Jharkhand,RAMGARH,Rice,Autumn,2015,0.5121,12
+Jharkhand,RAMGARH,Rice,Winter,2015,0.5121,12
+Jharkhand,RAMGARH,Wheat,Rabi,2015,0.4066,12
+Jharkhand,RANCHI,Arhar/Tur,Rabi,2015,0.3152,12
+Jharkhand,RANCHI,Gram,Rabi,2015,0.3152,12
+Jharkhand,RANCHI,Maize,Autumn,2015,0.3881,12
+Jharkhand,RANCHI,Onion,Rabi,2015,0.3152,12
+Jharkhand,RANCHI,Potato,Rabi,2015,0.3152,12
+Jharkhand,RANCHI,Potato,Winter,2015,0.3881,12
+Jharkhand,RANCHI,Rapeseed &Mustard,Rabi,2015,0.3152,12
+Jharkhand,RANCHI,Rice,Autumn,2015,0.3881,12
+Jharkhand,RANCHI,Rice,Winter,2015,0.3881,12
+Jharkhand,RANCHI,Urad,Autumn,2015,0.3881,12
+Jharkhand,RANCHI,Wheat,Rabi,2015,0.3152,12
+Jharkhand,SAHEBGANJ,Arhar/Tur,Rabi,2015,0.4272,12
+Jharkhand,SAHEBGANJ,Gram,Rabi,2015,0.4272,12
+Jharkhand,SAHEBGANJ,Maize,Autumn,2015,0.4208,12
+Jharkhand,SAHEBGANJ,Onion,Rabi,2015,0.4272,12
+Jharkhand,SAHEBGANJ,Potato,Rabi,2015,0.4272,12
+Jharkhand,SAHEBGANJ,Potato,Winter,2015,0.4208,12
+Jharkhand,SAHEBGANJ,Rapeseed &Mustard,Rabi,2015,0.4272,12
+Jharkhand,SAHEBGANJ,Rice,Autumn,2015,0.4208,12
+Jharkhand,SAHEBGANJ,Rice,Winter,2015,0.4208,12
+Jharkhand,SAHEBGANJ,Urad,Autumn,2015,0.4208,12
+Jharkhand,SAHEBGANJ,Wheat,Rabi,2015,0.4272,12
+Jharkhand,SARAIKELA KHARSAWAN,Arhar/Tur,Rabi,2015,0.3308,12
+Jharkhand,SARAIKELA KHARSAWAN,Gram,Rabi,2015,0.3308,12
+Jharkhand,SARAIKELA KHARSAWAN,Maize,Autumn,2015,0.3819,12
+Jharkhand,SARAIKELA KHARSAWAN,Onion,Rabi,2015,0.3308,12
+Jharkhand,SARAIKELA KHARSAWAN,Potato,Rabi,2015,0.3308,12
+Jharkhand,SARAIKELA KHARSAWAN,Potato,Winter,2015,0.3819,12
+Jharkhand,SARAIKELA KHARSAWAN,Rapeseed &Mustard,Rabi,2015,0.3308,12
+Jharkhand,SARAIKELA KHARSAWAN,Rice,Autumn,2015,0.3819,12
+Jharkhand,SARAIKELA KHARSAWAN,Rice,Winter,2015,0.3819,12
+Jharkhand,SARAIKELA KHARSAWAN,Urad,Autumn,2015,0.3819,12
+Jharkhand,SARAIKELA KHARSAWAN,Wheat,Rabi,2015,0.3308,12
+Jharkhand,SIMDEGA,Arhar/Tur,Rabi,2015,0.3275,12
+Jharkhand,SIMDEGA,Gram,Rabi,2015,0.3275,12
+Jharkhand,SIMDEGA,Maize,Autumn,2015,0.4167,12
+Jharkhand,SIMDEGA,Onion,Rabi,2015,0.3275,12
+Jharkhand,SIMDEGA,Potato,Rabi,2015,0.3275,12
+Jharkhand,SIMDEGA,Potato,Winter,2015,0.4167,12
+Jharkhand,SIMDEGA,Rapeseed &Mustard,Rabi,2015,0.3275,12
+Jharkhand,SIMDEGA,Rice,Autumn,2015,0.4167,12
+Jharkhand,SIMDEGA,Rice,Winter,2015,0.4167,12
+Jharkhand,SIMDEGA,Urad,Autumn,2015,0.4167,12
+Jharkhand,SIMDEGA,Wheat,Rabi,2015,0.3275,12
+Jharkhand,WEST SINGHBHUM,Arhar/Tur,Rabi,2015,0.3126,12
+Jharkhand,WEST SINGHBHUM,Gram,Rabi,2015,0.3126,12
+Jharkhand,WEST SINGHBHUM,Maize,Autumn,2015,0.4677,12
+Jharkhand,WEST SINGHBHUM,Rapeseed &Mustard,Rabi,2015,0.3126,12
+Jharkhand,WEST SINGHBHUM,Rice,Autumn,2015,0.4677,12
+Jharkhand,WEST SINGHBHUM,Rice,Winter,2015,0.4677,12
+Jharkhand,WEST SINGHBHUM,Wheat,Rabi,2015,0.3126,12
+Jharkhand,BOKARO,Arhar/Tur,Rabi,2016,0.2782,12
+Jharkhand,BOKARO,Gram,Rabi,2016,0.2782,12
+Jharkhand,BOKARO,Maize,Autumn,2016,0.4383,12
+Jharkhand,BOKARO,Onion,Rabi,2016,0.2782,12
+Jharkhand,BOKARO,Potato,Rabi,2016,0.2782,12
+Jharkhand,BOKARO,Potato,Winter,2016,0.4383,12
+Jharkhand,BOKARO,Rapeseed &Mustard,Rabi,2016,0.2782,12
+Jharkhand,BOKARO,Rice,Autumn,2016,0.4383,12
+Jharkhand,BOKARO,Rice,Winter,2016,0.4383,12
+Jharkhand,BOKARO,Urad,Autumn,2016,0.4383,12
+Jharkhand,BOKARO,Wheat,Rabi,2016,0.2782,12
+Jharkhand,CHATRA,Arhar/Tur,Rabi,2016,0.3428,12
+Jharkhand,CHATRA,Gram,Rabi,2016,0.3428,12
+Jharkhand,CHATRA,Maize,Autumn,2016,0.4547,12
+Jharkhand,CHATRA,Onion,Rabi,2016,0.3428,12
+Jharkhand,CHATRA,Potato,Rabi,2016,0.3428,12
+Jharkhand,CHATRA,Potato,Winter,2016,0.4547,12
+Jharkhand,CHATRA,Rapeseed &Mustard,Rabi,2016,0.3428,12
+Jharkhand,CHATRA,Rice,Winter,2016,0.4547,12
+Jharkhand,CHATRA,Urad,Autumn,2016,0.4547,12
+Jharkhand,CHATRA,Wheat,Rabi,2016,0.3428,12
+Jharkhand,DEOGHAR,Gram,Rabi,2016,0.3194,12
+Jharkhand,DEOGHAR,Maize,Autumn,2016,0.4106,12
+Jharkhand,DEOGHAR,Potato,Rabi,2016,0.3194,12
+Jharkhand,DEOGHAR,Rapeseed &Mustard,Rabi,2016,0.3194,12
+Jharkhand,DEOGHAR,Rice,Autumn,2016,0.4106,12
+Jharkhand,DEOGHAR,Rice,Winter,2016,0.4106,12
+Jharkhand,DEOGHAR,Wheat,Rabi,2016,0.3194,12
+Jharkhand,DHANBAD,Gram,Rabi,2016,0.3431,12
+Jharkhand,DHANBAD,Maize,Autumn,2016,0.4184,12
+Jharkhand,DHANBAD,Onion,Rabi,2016,0.3431,12
+Jharkhand,DHANBAD,Potato,Rabi,2016,0.3431,12
+Jharkhand,DHANBAD,Potato,Winter,2016,0.4184,12
+Jharkhand,DHANBAD,Rice,Winter,2016,0.4184,12
+Jharkhand,DHANBAD,Wheat,Rabi,2016,0.3431,12
+Jharkhand,DUMKA,Arhar/Tur,Rabi,2016,0.2746,12
+Jharkhand,DUMKA,Gram,Rabi,2016,0.2746,12
+Jharkhand,DUMKA,Maize,Autumn,2016,0.3666,12
+Jharkhand,DUMKA,Onion,Rabi,2016,0.2746,12
+Jharkhand,DUMKA,Potato,Rabi,2016,0.2746,12
+Jharkhand,DUMKA,Potato,Winter,2016,0.3666,12
+Jharkhand,DUMKA,Rapeseed &Mustard,Rabi,2016,0.2746,12
+Jharkhand,DUMKA,Rice,Autumn,2016,0.3666,12
+Jharkhand,DUMKA,Rice,Winter,2016,0.3666,12
+Jharkhand,DUMKA,Urad,Autumn,2016,0.3666,12
+Jharkhand,DUMKA,Wheat,Rabi,2016,0.2746,12
+Jharkhand,EAST SINGHBUM,Arhar/Tur,Rabi,2016,0.2575,12
+Jharkhand,EAST SINGHBUM,Gram,Rabi,2016,0.2575,12
+Jharkhand,EAST SINGHBUM,Maize,Autumn,2016,0.3086,12
+Jharkhand,EAST SINGHBUM,Onion,Rabi,2016,0.2575,12
+Jharkhand,EAST SINGHBUM,Potato,Rabi,2016,0.2575,12
+Jharkhand,EAST SINGHBUM,Potato,Winter,2016,0.3086,12
+Jharkhand,EAST SINGHBUM,Rapeseed &Mustard,Rabi,2016,0.2575,12
+Jharkhand,EAST SINGHBUM,Rice,Autumn,2016,0.3086,12
+Jharkhand,EAST SINGHBUM,Rice,Winter,2016,0.3086,12
+Jharkhand,EAST SINGHBUM,Urad,Autumn,2016,0.3086,12
+Jharkhand,EAST SINGHBUM,Wheat,Rabi,2016,0.2575,12
+Jharkhand,GARHWA,Arhar/Tur,Rabi,2016,0.2964,12
+Jharkhand,GARHWA,Gram,Rabi,2016,0.2964,12
+Jharkhand,GARHWA,Maize,Autumn,2016,0.3847,12
+Jharkhand,GARHWA,Onion,Rabi,2016,0.2964,12
+Jharkhand,GARHWA,Potato,Rabi,2016,0.2964,12
+Jharkhand,GARHWA,Potato,Winter,2016,0.3847,12
+Jharkhand,GARHWA,Rapeseed &Mustard,Rabi,2016,0.2964,12
+Jharkhand,GARHWA,Rice,Autumn,2016,0.3847,12
+Jharkhand,GARHWA,Rice,Winter,2016,0.3847,12
+Jharkhand,GARHWA,Urad,Autumn,2016,0.3847,12
+Jharkhand,GARHWA,Wheat,Rabi,2016,0.2964,12
+Jharkhand,GIRIDIH,Arhar/Tur,Rabi,2016,0.2961,12
+Jharkhand,GIRIDIH,Gram,Rabi,2016,0.2961,12
+Jharkhand,GIRIDIH,Maize,Autumn,2016,0.3778,12
+Jharkhand,GIRIDIH,Onion,Rabi,2016,0.2961,12
+Jharkhand,GIRIDIH,Potato,Rabi,2016,0.2961,12
+Jharkhand,GIRIDIH,Potato,Winter,2016,0.3778,12
+Jharkhand,GIRIDIH,Rapeseed &Mustard,Rabi,2016,0.2961,12
+Jharkhand,GIRIDIH,Rice,Autumn,2016,0.3778,12
+Jharkhand,GIRIDIH,Rice,Winter,2016,0.3778,12
+Jharkhand,GIRIDIH,Urad,Autumn,2016,0.3778,12
+Jharkhand,GIRIDIH,Wheat,Rabi,2016,0.2961,12
+Jharkhand,GODDA,Arhar/Tur,Rabi,2016,0.2776,12
+Jharkhand,GODDA,Gram,Rabi,2016,0.2776,12
+Jharkhand,GODDA,Maize,Autumn,2016,0.368,12
+Jharkhand,GODDA,Onion,Rabi,2016,0.2776,12
+Jharkhand,GODDA,Potato,Rabi,2016,0.2776,12
+Jharkhand,GODDA,Potato,Winter,2016,0.368,12
+Jharkhand,GODDA,Rapeseed &Mustard,Rabi,2016,0.2776,12
+Jharkhand,GODDA,Rice,Autumn,2016,0.368,12
+Jharkhand,GODDA,Rice,Winter,2016,0.368,12
+Jharkhand,GODDA,Wheat,Rabi,2016,0.2776,12
+Jharkhand,GUMLA,Arhar/Tur,Rabi,2016,0.3216,12
+Jharkhand,GUMLA,Gram,Rabi,2016,0.3216,12
+Jharkhand,GUMLA,Maize,Autumn,2016,0.4063,12
+Jharkhand,GUMLA,Onion,Rabi,2016,0.3216,12
+Jharkhand,GUMLA,Potato,Rabi,2016,0.3216,12
+Jharkhand,GUMLA,Potato,Winter,2016,0.4063,12
+Jharkhand,GUMLA,Rapeseed &Mustard,Rabi,2016,0.3216,12
+Jharkhand,GUMLA,Rice,Autumn,2016,0.4063,12
+Jharkhand,GUMLA,Rice,Winter,2016,0.4063,12
+Jharkhand,GUMLA,Urad,Autumn,2016,0.4063,12
+Jharkhand,GUMLA,Wheat,Rabi,2016,0.3216,12
+Jharkhand,HAZARIBAGH,Arhar/Tur,Rabi,2016,0.2947,12
+Jharkhand,HAZARIBAGH,Gram,Rabi,2016,0.2947,12
+Jharkhand,HAZARIBAGH,Maize,Autumn,2016,0.3638,12
+Jharkhand,HAZARIBAGH,Onion,Rabi,2016,0.2947,12
+Jharkhand,HAZARIBAGH,Potato,Rabi,2016,0.2947,12
+Jharkhand,HAZARIBAGH,Potato,Winter,2016,0.3638,12
+Jharkhand,HAZARIBAGH,Rapeseed &Mustard,Rabi,2016,0.2947,12
+Jharkhand,HAZARIBAGH,Rice,Autumn,2016,0.3638,12
+Jharkhand,HAZARIBAGH,Rice,Winter,2016,0.3638,12
+Jharkhand,HAZARIBAGH,Urad,Autumn,2016,0.3638,12
+Jharkhand,HAZARIBAGH,Wheat,Rabi,2016,0.2947,12
+Jharkhand,JAMTARA,Arhar/Tur,Rabi,2016,0.3076,12
+Jharkhand,JAMTARA,Gram,Rabi,2016,0.3076,12
+Jharkhand,JAMTARA,Maize,Autumn,2016,0.414,12
+Jharkhand,JAMTARA,Onion,Rabi,2016,0.3076,12
+Jharkhand,JAMTARA,Potato,Rabi,2016,0.3076,12
+Jharkhand,JAMTARA,Potato,Winter,2016,0.414,12
+Jharkhand,JAMTARA,Rapeseed &Mustard,Rabi,2016,0.3076,12
+Jharkhand,JAMTARA,Rice,Winter,2016,0.414,12
+Jharkhand,JAMTARA,Wheat,Rabi,2016,0.3076,12
+Jharkhand,KHUNTI,Arhar/Tur,Rabi,2016,0.3617,12
+Jharkhand,KHUNTI,Gram,Rabi,2016,0.3617,12
+Jharkhand,KHUNTI,Maize,Autumn,2016,0.427,12
+Jharkhand,KHUNTI,Onion,Rabi,2016,0.3617,12
+Jharkhand,KHUNTI,Potato,Rabi,2016,0.3617,12
+Jharkhand,KHUNTI,Potato,Winter,2016,0.427,12
+Jharkhand,KHUNTI,Rapeseed &Mustard,Rabi,2016,0.3617,12
+Jharkhand,KHUNTI,Rice,Autumn,2016,0.427,12
+Jharkhand,KHUNTI,Rice,Winter,2016,0.427,12
+Jharkhand,KHUNTI,Urad,Autumn,2016,0.427,12
+Jharkhand,KHUNTI,Wheat,Rabi,2016,0.3617,12
+Jharkhand,KODERMA,Arhar/Tur,Rabi,2016,0.3246,12
+Jharkhand,KODERMA,Gram,Rabi,2016,0.3246,12
+Jharkhand,KODERMA,Maize,Autumn,2016,0.4316,12
+Jharkhand,KODERMA,Onion,Rabi,2016,0.3246,12
+Jharkhand,KODERMA,Potato,Rabi,2016,0.3246,12
+Jharkhand,KODERMA,Potato,Winter,2016,0.4316,12
+Jharkhand,KODERMA,Rapeseed &Mustard,Rabi,2016,0.3246,12
+Jharkhand,KODERMA,Rice,Autumn,2016,0.4316,12
+Jharkhand,KODERMA,Rice,Winter,2016,0.4316,12
+Jharkhand,KODERMA,Urad,Autumn,2016,0.4316,12
+Jharkhand,KODERMA,Wheat,Rabi,2016,0.3246,12
+Jharkhand,LATEHAR,Arhar/Tur,Rabi,2016,0.3058,12
+Jharkhand,LATEHAR,Gram,Rabi,2016,0.3058,12
+Jharkhand,LATEHAR,Maize,Autumn,2016,0.4107,12
+Jharkhand,LATEHAR,Onion,Rabi,2016,0.3058,12
+Jharkhand,LATEHAR,Potato,Rabi,2016,0.3058,12
+Jharkhand,LATEHAR,Potato,Winter,2016,0.4107,12
+Jharkhand,LATEHAR,Rapeseed &Mustard,Rabi,2016,0.3058,12
+Jharkhand,LATEHAR,Rice,Autumn,2016,0.4107,12
+Jharkhand,LATEHAR,Rice,Winter,2016,0.4107,12
+Jharkhand,LATEHAR,Urad,Autumn,2016,0.4107,12
+Jharkhand,LATEHAR,Wheat,Rabi,2016,0.3058,12
+Jharkhand,LOHARDAGA,Arhar/Tur,Rabi,2016,0.3002,12
+Jharkhand,LOHARDAGA,Gram,Rabi,2016,0.3002,12
+Jharkhand,LOHARDAGA,Maize,Autumn,2016,0.4206,12
+Jharkhand,LOHARDAGA,Onion,Rabi,2016,0.3002,12
+Jharkhand,LOHARDAGA,Potato,Rabi,2016,0.3002,12
+Jharkhand,LOHARDAGA,Potato,Winter,2016,0.4206,12
+Jharkhand,LOHARDAGA,Rapeseed &Mustard,Rabi,2016,0.3002,12
+Jharkhand,LOHARDAGA,Rice,Autumn,2016,0.4206,12
+Jharkhand,LOHARDAGA,Rice,Winter,2016,0.4206,12
+Jharkhand,LOHARDAGA,Urad,Autumn,2016,0.4206,12
+Jharkhand,LOHARDAGA,Wheat,Rabi,2016,0.3002,12
+Jharkhand,PAKUR,Arhar/Tur,Rabi,2016,0.3149,12
+Jharkhand,PAKUR,Gram,Rabi,2016,0.3149,12
+Jharkhand,PAKUR,Maize,Autumn,2016,0.418,12
+Jharkhand,PAKUR,Onion,Rabi,2016,0.3149,12
+Jharkhand,PAKUR,Potato,Rabi,2016,0.3149,12
+Jharkhand,PAKUR,Potato,Winter,2016,0.418,12
+Jharkhand,PAKUR,Rapeseed &Mustard,Rabi,2016,0.3149,12
+Jharkhand,PAKUR,Rice,Autumn,2016,0.418,12
+Jharkhand,PAKUR,Rice,Winter,2016,0.418,12
+Jharkhand,PAKUR,Urad,Autumn,2016,0.418,12
+Jharkhand,PAKUR,Wheat,Rabi,2016,0.3149,12
+Jharkhand,PALAMU,Arhar/Tur,Rabi,2016,0.2453,12
+Jharkhand,PALAMU,Gram,Rabi,2016,0.2453,12
+Jharkhand,PALAMU,Maize,Autumn,2016,0.3004,12
+Jharkhand,PALAMU,Onion,Rabi,2016,0.2453,12
+Jharkhand,PALAMU,Potato,Rabi,2016,0.2453,12
+Jharkhand,PALAMU,Potato,Winter,2016,0.3004,12
+Jharkhand,PALAMU,Rapeseed &Mustard,Rabi,2016,0.2453,12
+Jharkhand,PALAMU,Rice,Autumn,2016,0.3004,12
+Jharkhand,PALAMU,Rice,Winter,2016,0.3004,12
+Jharkhand,PALAMU,Urad,Autumn,2016,0.3004,12
+Jharkhand,PALAMU,Wheat,Rabi,2016,0.2453,12
+Jharkhand,RAMGARH,Arhar/Tur,Rabi,2016,0.3505,12
+Jharkhand,RAMGARH,Gram,Rabi,2016,0.3505,12
+Jharkhand,RAMGARH,Maize,Autumn,2016,0.5071,12
+Jharkhand,RAMGARH,Potato,Rabi,2016,0.3505,12
+Jharkhand,RAMGARH,Potato,Winter,2016,0.5071,12
+Jharkhand,RAMGARH,Rapeseed &Mustard,Rabi,2016,0.3505,12
+Jharkhand,RAMGARH,Rice,Winter,2016,0.5071,12
+Jharkhand,RAMGARH,Wheat,Rabi,2016,0.3505,12
+Jharkhand,RANCHI,Arhar/Tur,Rabi,2016,0.3733,12
+Jharkhand,RANCHI,Gram,Rabi,2016,0.3733,12
+Jharkhand,RANCHI,Maize,Autumn,2016,0.3909,12
+Jharkhand,RANCHI,Onion,Rabi,2016,0.3733,12
+Jharkhand,RANCHI,Potato,Rabi,2016,0.3733,12
+Jharkhand,RANCHI,Potato,Winter,2016,0.3909,12
+Jharkhand,RANCHI,Rapeseed &Mustard,Rabi,2016,0.3733,12
+Jharkhand,RANCHI,Rice,Autumn,2016,0.3909,12
+Jharkhand,RANCHI,Rice,Winter,2016,0.3909,12
+Jharkhand,RANCHI,Urad,Autumn,2016,0.3909,12
+Jharkhand,RANCHI,Wheat,Rabi,2016,0.3733,12
+Jharkhand,SAHEBGANJ,Arhar/Tur,Rabi,2016,0.3893,12
+Jharkhand,SAHEBGANJ,Gram,Rabi,2016,0.3893,12
+Jharkhand,SAHEBGANJ,Maize,Autumn,2016,0.3867,12
+Jharkhand,SAHEBGANJ,Onion,Rabi,2016,0.3893,12
+Jharkhand,SAHEBGANJ,Potato,Rabi,2016,0.3893,12
+Jharkhand,SAHEBGANJ,Potato,Winter,2016,0.3867,12
+Jharkhand,SAHEBGANJ,Rapeseed &Mustard,Rabi,2016,0.3893,12
+Jharkhand,SAHEBGANJ,Rice,Autumn,2016,0.3867,12
+Jharkhand,SAHEBGANJ,Rice,Winter,2016,0.3867,12
+Jharkhand,SAHEBGANJ,Urad,Autumn,2016,0.3867,12
+Jharkhand,SAHEBGANJ,Wheat,Rabi,2016,0.3893,12
+Jharkhand,SARAIKELA KHARSAWAN,Arhar/Tur,Rabi,2016,0.3137,12
+Jharkhand,SARAIKELA KHARSAWAN,Gram,Rabi,2016,0.3137,12
+Jharkhand,SARAIKELA KHARSAWAN,Maize,Autumn,2016,0.3651,12
+Jharkhand,SARAIKELA KHARSAWAN,Onion,Rabi,2016,0.3137,12
+Jharkhand,SARAIKELA KHARSAWAN,Potato,Rabi,2016,0.3137,12
+Jharkhand,SARAIKELA KHARSAWAN,Rapeseed &Mustard,Rabi,2016,0.3137,12
+Jharkhand,SARAIKELA KHARSAWAN,Rice,Autumn,2016,0.3651,12
+Jharkhand,SARAIKELA KHARSAWAN,Rice,Winter,2016,0.3651,12
+Jharkhand,SARAIKELA KHARSAWAN,Urad,Autumn,2016,0.3651,12
+Jharkhand,SARAIKELA KHARSAWAN,Wheat,Rabi,2016,0.3137,12
+Jharkhand,SIMDEGA,Arhar/Tur,Rabi,2016,0.3331,12
+Jharkhand,SIMDEGA,Gram,Rabi,2016,0.3331,12
+Jharkhand,SIMDEGA,Maize,Autumn,2016,0.4139,12
+Jharkhand,SIMDEGA,Onion,Rabi,2016,0.3331,12
+Jharkhand,SIMDEGA,Potato,Rabi,2016,0.3331,12
+Jharkhand,SIMDEGA,Potato,Winter,2016,0.4139,12
+Jharkhand,SIMDEGA,Rapeseed &Mustard,Rabi,2016,0.3331,12
+Jharkhand,SIMDEGA,Rice,Autumn,2016,0.4139,12
+Jharkhand,SIMDEGA,Rice,Winter,2016,0.4139,12
+Jharkhand,SIMDEGA,Urad,Autumn,2016,0.4139,12
+Jharkhand,SIMDEGA,Wheat,Rabi,2016,0.3331,12
+Jharkhand,WEST SINGHBHUM,Arhar/Tur,Rabi,2016,0.3567,12
+Jharkhand,WEST SINGHBHUM,Gram,Rabi,2016,0.3567,12
+Jharkhand,WEST SINGHBHUM,Potato,Rabi,2016,0.3567,12
+Jharkhand,WEST SINGHBHUM,Rapeseed &Mustard,Rabi,2016,0.3567,12
+Jharkhand,WEST SINGHBHUM,Rice,Autumn,2016,0.4472,12
+Jharkhand,WEST SINGHBHUM,Rice,Winter,2016,0.4472,12
+Jharkhand,WEST SINGHBHUM,Urad,Autumn,2016,0.4472,12
+Jharkhand,WEST SINGHBHUM,Wheat,Rabi,2016,0.3567,12
+Jharkhand,BOKARO,Arhar/Tur,Kharif,2017,0.5821,12
+Jharkhand,BOKARO,Bajra,Kharif,2017,0.5821,12
+Jharkhand,BOKARO,Gram,Rabi,2017,0.2982,12
+Jharkhand,BOKARO,Groundnut,Kharif,2017,0.5821,12
+Jharkhand,BOKARO,Jowar,Kharif,2017,0.5821,12
+Jharkhand,BOKARO,Maize,Kharif,2017,0.5821,12
+Jharkhand,BOKARO,Moong(Green Gram),Kharif,2017,0.5821,12
+Jharkhand,BOKARO,Rapeseed &Mustard,Rabi,2017,0.2982,12
+Jharkhand,BOKARO,Rice,Kharif,2017,0.5821,12
+Jharkhand,BOKARO,Soyabean,Kharif,2017,0.5821,12
+Jharkhand,BOKARO,Urad,Kharif,2017,0.5821,12
+Jharkhand,BOKARO,Wheat,Rabi,2017,0.2982,12
+Jharkhand,CHATRA,Arhar/Tur,Kharif,2017,0.5508,12
+Jharkhand,CHATRA,Gram,Rabi,2017,0.3778,12
+Jharkhand,CHATRA,Groundnut,Kharif,2017,0.5508,12
+Jharkhand,CHATRA,Jowar,Kharif,2017,0.5508,12
+Jharkhand,CHATRA,Maize,Kharif,2017,0.5508,12
+Jharkhand,CHATRA,Maize,Rabi,2017,0.3778,12
+Jharkhand,CHATRA,Moong(Green Gram),Kharif,2017,0.5508,12
+Jharkhand,CHATRA,Rapeseed &Mustard,Rabi,2017,0.3778,12
+Jharkhand,CHATRA,Rice,Kharif,2017,0.5508,12
+Jharkhand,CHATRA,Soyabean,Kharif,2017,0.5508,12
+Jharkhand,CHATRA,Urad,Kharif,2017,0.5508,12
+Jharkhand,CHATRA,Wheat,Rabi,2017,0.3778,12
+Jharkhand,DEOGHAR,Arhar/Tur,Kharif,2017,0.4708,12
+Jharkhand,DEOGHAR,Gram,Rabi,2017,0.3071,12
+Jharkhand,DEOGHAR,Groundnut,Kharif,2017,0.4708,12
+Jharkhand,DEOGHAR,Maize,Kharif,2017,0.4708,12
+Jharkhand,DEOGHAR,Maize,Rabi,2017,0.3071,12
+Jharkhand,DEOGHAR,Moong(Green Gram),Kharif,2017,0.4708,12
+Jharkhand,DEOGHAR,Rapeseed &Mustard,Rabi,2017,0.3071,12
+Jharkhand,DEOGHAR,Rice,Kharif,2017,0.4708,12
+Jharkhand,DEOGHAR,Soyabean,Kharif,2017,0.4708,12
+Jharkhand,DEOGHAR,Urad,Kharif,2017,0.4708,12
+Jharkhand,DEOGHAR,Wheat,Rabi,2017,0.3071,12
+Jharkhand,DHANBAD,Arhar/Tur,Kharif,2017,0.5054,12
+Jharkhand,DHANBAD,Bajra,Kharif,2017,0.5054,12
+Jharkhand,DHANBAD,Gram,Rabi,2017,0.3555,12
+Jharkhand,DHANBAD,Groundnut,Kharif,2017,0.5054,12
+Jharkhand,DHANBAD,Jowar,Kharif,2017,0.5054,12
+Jharkhand,DHANBAD,Maize,Kharif,2017,0.5054,12
+Jharkhand,DHANBAD,Moong(Green Gram),Kharif,2017,0.5054,12
+Jharkhand,DHANBAD,Rapeseed &Mustard,Rabi,2017,0.3555,12
+Jharkhand,DHANBAD,Rice,Kharif,2017,0.5054,12
+Jharkhand,DHANBAD,Urad,Kharif,2017,0.5054,12
+Jharkhand,DHANBAD,Wheat,Rabi,2017,0.3555,12
+Jharkhand,DUMKA,Arhar/Tur,Kharif,2017,0.5253,12
+Jharkhand,DUMKA,Bajra,Kharif,2017,0.5253,12
+Jharkhand,DUMKA,Gram,Rabi,2017,0.2803,12
+Jharkhand,DUMKA,Groundnut,Kharif,2017,0.5253,12
+Jharkhand,DUMKA,Jowar,Kharif,2017,0.5253,12
+Jharkhand,DUMKA,Maize,Kharif,2017,0.5253,12
+Jharkhand,DUMKA,Maize,Rabi,2017,0.2803,12
+Jharkhand,DUMKA,Moong(Green Gram),Kharif,2017,0.5253,12
+Jharkhand,DUMKA,Rapeseed &Mustard,Rabi,2017,0.2803,12
+Jharkhand,DUMKA,Rice,Kharif,2017,0.5253,12
+Jharkhand,DUMKA,Soyabean,Kharif,2017,0.5253,12
+Jharkhand,DUMKA,Urad,Kharif,2017,0.5253,12
+Jharkhand,DUMKA,Wheat,Rabi,2017,0.2803,12
+Jharkhand,EAST SINGHBUM,Arhar/Tur,Kharif,2017,0.3478,12
+Jharkhand,EAST SINGHBUM,Bajra,Kharif,2017,0.3478,12
+Jharkhand,EAST SINGHBUM,Gram,Rabi,2017,0.2092,12
+Jharkhand,EAST SINGHBUM,Groundnut,Kharif,2017,0.3478,12
+Jharkhand,EAST SINGHBUM,Jowar,Kharif,2017,0.3478,12
+Jharkhand,EAST SINGHBUM,Maize,Kharif,2017,0.3478,12
+Jharkhand,EAST SINGHBUM,Maize,Rabi,2017,0.2092,12
+Jharkhand,EAST SINGHBUM,Moong(Green Gram),Kharif,2017,0.3478,12
+Jharkhand,EAST SINGHBUM,Rapeseed &Mustard,Rabi,2017,0.2092,12
+Jharkhand,EAST SINGHBUM,Rice,Kharif,2017,0.3478,12
+Jharkhand,EAST SINGHBUM,Soyabean,Kharif,2017,0.3478,12
+Jharkhand,EAST SINGHBUM,Urad,Kharif,2017,0.3478,12
+Jharkhand,EAST SINGHBUM,Wheat,Rabi,2017,0.2092,12
+Jharkhand,GARHWA,Arhar/Tur,Kharif,2017,0.4806,12
+Jharkhand,GARHWA,Gram,Rabi,2017,0.3336,12
+Jharkhand,GARHWA,Groundnut,Kharif,2017,0.4806,12
+Jharkhand,GARHWA,Jowar,Kharif,2017,0.4806,12
+Jharkhand,GARHWA,Maize,Kharif,2017,0.4806,12
+Jharkhand,GARHWA,Maize,Rabi,2017,0.3336,12
+Jharkhand,GARHWA,Moong(Green Gram),Kharif,2017,0.4806,12
+Jharkhand,GARHWA,Rapeseed &Mustard,Rabi,2017,0.3336,12
+Jharkhand,GARHWA,Rice,Kharif,2017,0.4806,12
+Jharkhand,GARHWA,Urad,Kharif,2017,0.4806,12
+Jharkhand,GARHWA,Wheat,Rabi,2017,0.3336,12
+Jharkhand,GIRIDIH,Arhar/Tur,Kharif,2017,0.4701,12
+Jharkhand,GIRIDIH,Bajra,Kharif,2017,0.4701,12
+Jharkhand,GIRIDIH,Gram,Rabi,2017,0.2988,12
+Jharkhand,GIRIDIH,Groundnut,Kharif,2017,0.4701,12
+Jharkhand,GIRIDIH,Jowar,Kharif,2017,0.4701,12
+Jharkhand,GIRIDIH,Maize,Kharif,2017,0.4701,12
+Jharkhand,GIRIDIH,Maize,Rabi,2017,0.2988,12
+Jharkhand,GIRIDIH,Moong(Green Gram),Kharif,2017,0.4701,12
+Jharkhand,GIRIDIH,Rapeseed &Mustard,Rabi,2017,0.2988,12
+Jharkhand,GIRIDIH,Rice,Kharif,2017,0.4701,12
+Jharkhand,GIRIDIH,Soyabean,Kharif,2017,0.4701,12
+Jharkhand,GIRIDIH,Urad,Kharif,2017,0.4701,12
+Jharkhand,GIRIDIH,Wheat,Rabi,2017,0.2988,12
+Jharkhand,GODDA,Arhar/Tur,Kharif,2017,0.4647,12
+Jharkhand,GODDA,Gram,Rabi,2017,0.2816,12
+Jharkhand,GODDA,Groundnut,Kharif,2017,0.4647,12
+Jharkhand,GODDA,Maize,Kharif,2017,0.4647,12
+Jharkhand,GODDA,Maize,Rabi,2017,0.2816,12
+Jharkhand,GODDA,Moong(Green Gram),Kharif,2017,0.4647,12
+Jharkhand,GODDA,Rapeseed &Mustard,Rabi,2017,0.2816,12
+Jharkhand,GODDA,Rice,Kharif,2017,0.4647,12
+Jharkhand,GODDA,Urad,Kharif,2017,0.4647,12
+Jharkhand,GODDA,Wheat,Rabi,2017,0.2816,12
+Jharkhand,GUMLA,Arhar/Tur,Kharif,2017,0.5294,12
+Jharkhand,GUMLA,Gram,Rabi,2017,0.2959,12
+Jharkhand,GUMLA,Groundnut,Kharif,2017,0.5294,12
+Jharkhand,GUMLA,Jowar,Kharif,2017,0.5294,12
+Jharkhand,GUMLA,Maize,Kharif,2017,0.5294,12
+Jharkhand,GUMLA,Maize,Rabi,2017,0.2959,12
+Jharkhand,GUMLA,Moong(Green Gram),Kharif,2017,0.5294,12
+Jharkhand,GUMLA,Rapeseed &Mustard,Rabi,2017,0.2959,12
+Jharkhand,GUMLA,Rice,Kharif,2017,0.5294,12
+Jharkhand,GUMLA,Urad,Kharif,2017,0.5294,12
+Jharkhand,GUMLA,Wheat,Rabi,2017,0.2959,12
+Jharkhand,HAZARIBAGH,Arhar/Tur,Kharif,2017,0.4416,12
+Jharkhand,HAZARIBAGH,Gram,Rabi,2017,0.2931,12
+Jharkhand,HAZARIBAGH,Groundnut,Kharif,2017,0.4416,12
+Jharkhand,HAZARIBAGH,Jowar,Kharif,2017,0.4416,12
+Jharkhand,HAZARIBAGH,Maize,Kharif,2017,0.4416,12
+Jharkhand,HAZARIBAGH,Moong(Green Gram),Kharif,2017,0.4416,12
+Jharkhand,HAZARIBAGH,Rapeseed &Mustard,Rabi,2017,0.2931,12
+Jharkhand,HAZARIBAGH,Rice,Kharif,2017,0.4416,12
+Jharkhand,HAZARIBAGH,Urad,Kharif,2017,0.4416,12
+Jharkhand,HAZARIBAGH,Wheat,Rabi,2017,0.2931,12
+Jharkhand,JAMTARA,Arhar/Tur,Kharif,2017,0.5026,12
+Jharkhand,JAMTARA,Gram,Rabi,2017,0.3302,12
+Jharkhand,JAMTARA,Groundnut,Kharif,2017,0.5026,12
+Jharkhand,JAMTARA,Jowar,Kharif,2017,0.5026,12
+Jharkhand,JAMTARA,Maize,Kharif,2017,0.5026,12
+Jharkhand,JAMTARA,Maize,Rabi,2017,0.3302,12
+Jharkhand,JAMTARA,Moong(Green Gram),Kharif,2017,0.5026,12
+Jharkhand,JAMTARA,Rapeseed &Mustard,Rabi,2017,0.3302,12
+Jharkhand,JAMTARA,Rice,Kharif,2017,0.5026,12
+Jharkhand,JAMTARA,Soyabean,Kharif,2017,0.5026,12
+Jharkhand,JAMTARA,Urad,Kharif,2017,0.5026,12
+Jharkhand,JAMTARA,Wheat,Rabi,2017,0.3302,12
+Jharkhand,KHUNTI,Arhar/Tur,Kharif,2017,0.5696,12
+Jharkhand,KHUNTI,Gram,Rabi,2017,0.3299,12
+Jharkhand,KHUNTI,Groundnut,Kharif,2017,0.5696,12
+Jharkhand,KHUNTI,Jowar,Kharif,2017,0.5696,12
+Jharkhand,KHUNTI,Maize,Kharif,2017,0.5696,12
+Jharkhand,KHUNTI,Maize,Rabi,2017,0.3299,12
+Jharkhand,KHUNTI,Moong(Green Gram),Kharif,2017,0.5696,12
+Jharkhand,KHUNTI,Rapeseed &Mustard,Rabi,2017,0.3299,12
+Jharkhand,KHUNTI,Rice,Kharif,2017,0.5696,12
+Jharkhand,KHUNTI,Soyabean,Kharif,2017,0.5696,12
+Jharkhand,KHUNTI,Urad,Kharif,2017,0.5696,12
+Jharkhand,KHUNTI,Wheat,Rabi,2017,0.3299,12
+Jharkhand,KODERMA,Arhar/Tur,Kharif,2017,0.5377,12
+Jharkhand,KODERMA,Gram,Rabi,2017,0.371,12
+Jharkhand,KODERMA,Groundnut,Kharif,2017,0.5377,12
+Jharkhand,KODERMA,Jowar,Kharif,2017,0.5377,12
+Jharkhand,KODERMA,Maize,Kharif,2017,0.5377,12
+Jharkhand,KODERMA,Maize,Rabi,2017,0.371,12
+Jharkhand,KODERMA,Moong(Green Gram),Kharif,2017,0.5377,12
+Jharkhand,KODERMA,Rapeseed &Mustard,Rabi,2017,0.371,12
+Jharkhand,KODERMA,Rice,Kharif,2017,0.5377,12
+Jharkhand,KODERMA,Soyabean,Kharif,2017,0.5377,12
+Jharkhand,KODERMA,Urad,Kharif,2017,0.5377,12
+Jharkhand,KODERMA,Wheat,Rabi,2017,0.371,12
+Jharkhand,LATEHAR,Arhar/Tur,Kharif,2017,0.5364,12
+Jharkhand,LATEHAR,Gram,Rabi,2017,0.3206,12
+Jharkhand,LATEHAR,Groundnut,Kharif,2017,0.5364,12
+Jharkhand,LATEHAR,Jowar,Kharif,2017,0.5364,12
+Jharkhand,LATEHAR,Maize,Kharif,2017,0.5364,12
+Jharkhand,LATEHAR,Moong(Green Gram),Kharif,2017,0.5364,12
+Jharkhand,LATEHAR,Rapeseed &Mustard,Rabi,2017,0.3206,12
+Jharkhand,LATEHAR,Rice,Kharif,2017,0.5364,12
+Jharkhand,LATEHAR,Soyabean,Kharif,2017,0.5364,12
+Jharkhand,LATEHAR,Urad,Kharif,2017,0.5364,12
+Jharkhand,LATEHAR,Wheat,Rabi,2017,0.3206,12
+Jharkhand,LOHARDAGA,Arhar/Tur,Kharif,2017,0.4737,12
+Jharkhand,LOHARDAGA,Gram,Rabi,2017,0.3151,12
+Jharkhand,LOHARDAGA,Groundnut,Kharif,2017,0.4737,12
+Jharkhand,LOHARDAGA,Jowar,Kharif,2017,0.4737,12
+Jharkhand,LOHARDAGA,Maize,Kharif,2017,0.4737,12
+Jharkhand,LOHARDAGA,Moong(Green Gram),Kharif,2017,0.4737,12
+Jharkhand,LOHARDAGA,Rapeseed &Mustard,Rabi,2017,0.3151,12
+Jharkhand,LOHARDAGA,Rice,Kharif,2017,0.4737,12
+Jharkhand,LOHARDAGA,Urad,Kharif,2017,0.4737,12
+Jharkhand,LOHARDAGA,Wheat,Rabi,2017,0.3151,12
+Jharkhand,PAKUR,Arhar/Tur,Kharif,2017,0.528,12
+Jharkhand,PAKUR,Gram,Rabi,2017,0.3032,12
+Jharkhand,PAKUR,Groundnut,Kharif,2017,0.528,12
+Jharkhand,PAKUR,Jowar,Kharif,2017,0.528,12
+Jharkhand,PAKUR,Maize,Kharif,2017,0.528,12
+Jharkhand,PAKUR,Maize,Rabi,2017,0.3032,12
+Jharkhand,PAKUR,Moong(Green Gram),Kharif,2017,0.528,12
+Jharkhand,PAKUR,Rapeseed &Mustard,Rabi,2017,0.3032,12
+Jharkhand,PAKUR,Rice,Kharif,2017,0.528,12
+Jharkhand,PAKUR,Urad,Kharif,2017,0.528,12
+Jharkhand,PAKUR,Wheat,Rabi,2017,0.3032,12
+Jharkhand,PALAMU,Arhar/Tur,Kharif,2017,0.3738,12
+Jharkhand,PALAMU,Gram,Rabi,2017,0.2356,12
+Jharkhand,PALAMU,Groundnut,Kharif,2017,0.3738,12
+Jharkhand,PALAMU,Maize,Kharif,2017,0.3738,12
+Jharkhand,PALAMU,Maize,Rabi,2017,0.2356,12
+Jharkhand,PALAMU,Moong(Green Gram),Kharif,2017,0.3738,12
+Jharkhand,PALAMU,Rapeseed &Mustard,Rabi,2017,0.2356,12
+Jharkhand,PALAMU,Rice,Kharif,2017,0.3738,12
+Jharkhand,PALAMU,Soyabean,Kharif,2017,0.3738,12
+Jharkhand,PALAMU,Urad,Kharif,2017,0.3738,12
+Jharkhand,PALAMU,Wheat,Rabi,2017,0.2356,12
+Jharkhand,RAMGARH,Arhar/Tur,Kharif,2017,0.5605,12
+Jharkhand,RAMGARH,Gram,Rabi,2017,0.3552,12
+Jharkhand,RAMGARH,Groundnut,Kharif,2017,0.5605,12
+Jharkhand,RAMGARH,Jowar,Kharif,2017,0.5605,12
+Jharkhand,RAMGARH,Maize,Kharif,2017,0.5605,12
+Jharkhand,RAMGARH,Moong(Green Gram),Kharif,2017,0.5605,12
+Jharkhand,RAMGARH,Rapeseed &Mustard,Rabi,2017,0.3552,12
+Jharkhand,RAMGARH,Rice,Kharif,2017,0.5605,12
+Jharkhand,RAMGARH,Urad,Kharif,2017,0.5605,12
+Jharkhand,RAMGARH,Wheat,Rabi,2017,0.3552,12
+Jharkhand,RANCHI,Arhar/Tur,Kharif,2017,0.436,12
+Jharkhand,RANCHI,Gram,Rabi,2017,0.2903,12
+Jharkhand,RANCHI,Groundnut,Kharif,2017,0.436,12
+Jharkhand,RANCHI,Jowar,Kharif,2017,0.436,12
+Jharkhand,RANCHI,Maize,Kharif,2017,0.436,12
+Jharkhand,RANCHI,Maize,Rabi,2017,0.2903,12
+Jharkhand,RANCHI,Moong(Green Gram),Kharif,2017,0.436,12
+Jharkhand,RANCHI,Rapeseed &Mustard,Rabi,2017,0.2903,12
+Jharkhand,RANCHI,Rice,Kharif,2017,0.436,12
+Jharkhand,RANCHI,Urad,Kharif,2017,0.436,12
+Jharkhand,RANCHI,Wheat,Rabi,2017,0.2903,12
+Jharkhand,SAHEBGANJ,Arhar/Tur,Kharif,2017,0.4738,12
+Jharkhand,SAHEBGANJ,Bajra,Kharif,2017,0.4738,12
+Jharkhand,SAHEBGANJ,Gram,Rabi,2017,0.3419,12
+Jharkhand,SAHEBGANJ,Groundnut,Kharif,2017,0.4738,12
+Jharkhand,SAHEBGANJ,Jowar,Kharif,2017,0.4738,12
+Jharkhand,SAHEBGANJ,Maize,Kharif,2017,0.4738,12
+Jharkhand,SAHEBGANJ,Maize,Rabi,2017,0.3419,12
+Jharkhand,SAHEBGANJ,Moong(Green Gram),Kharif,2017,0.4738,12
+Jharkhand,SAHEBGANJ,Rapeseed &Mustard,Rabi,2017,0.3419,12
+Jharkhand,SAHEBGANJ,Rice,Kharif,2017,0.4738,12
+Jharkhand,SAHEBGANJ,Soyabean,Kharif,2017,0.4738,12
+Jharkhand,SAHEBGANJ,Urad,Kharif,2017,0.4738,12
+Jharkhand,SAHEBGANJ,Wheat,Rabi,2017,0.3419,12
+Jharkhand,SARAIKELA KHARSAWAN,Arhar/Tur,Kharif,2017,0.5419,12
+Jharkhand,SARAIKELA KHARSAWAN,Bajra,Kharif,2017,0.5419,12
+Jharkhand,SARAIKELA KHARSAWAN,Gram,Rabi,2017,0.2833,12
+Jharkhand,SARAIKELA KHARSAWAN,Groundnut,Kharif,2017,0.5419,12
+Jharkhand,SARAIKELA KHARSAWAN,Jowar,Kharif,2017,0.5419,12
+Jharkhand,SARAIKELA KHARSAWAN,Maize,Kharif,2017,0.5419,12
+Jharkhand,SARAIKELA KHARSAWAN,Maize,Rabi,2017,0.2833,12
+Jharkhand,SARAIKELA KHARSAWAN,Moong(Green Gram),Kharif,2017,0.5419,12
+Jharkhand,SARAIKELA KHARSAWAN,Rapeseed &Mustard,Rabi,2017,0.2833,12
+Jharkhand,SARAIKELA KHARSAWAN,Rice,Kharif,2017,0.5419,12
+Jharkhand,SARAIKELA KHARSAWAN,Urad,Kharif,2017,0.5419,12
+Jharkhand,SARAIKELA KHARSAWAN,Wheat,Rabi,2017,0.2833,12
+Jharkhand,SIMDEGA,Arhar/Tur,Kharif,2017,0.4969,12
+Jharkhand,SIMDEGA,Bajra,Kharif,2017,0.4969,12
+Jharkhand,SIMDEGA,Gram,Rabi,2017,0.2958,12
+Jharkhand,SIMDEGA,Groundnut,Kharif,2017,0.4969,12
+Jharkhand,SIMDEGA,Jowar,Kharif,2017,0.4969,12
+Jharkhand,SIMDEGA,Maize,Kharif,2017,0.4969,12
+Jharkhand,SIMDEGA,Maize,Rabi,2017,0.2958,12
+Jharkhand,SIMDEGA,Moong(Green Gram),Kharif,2017,0.4969,12
+Jharkhand,SIMDEGA,Rapeseed &Mustard,Rabi,2017,0.2958,12
+Jharkhand,SIMDEGA,Rice,Kharif,2017,0.4969,12
+Jharkhand,SIMDEGA,Soyabean,Kharif,2017,0.4969,12
+Jharkhand,SIMDEGA,Urad,Kharif,2017,0.4969,12
+Jharkhand,SIMDEGA,Wheat,Rabi,2017,0.2958,12
+Jharkhand,WEST SINGHBHUM,Arhar/Tur,Kharif,2017,0.5731,12
+Jharkhand,WEST SINGHBHUM,Bajra,Kharif,2017,0.5731,12
+Jharkhand,WEST SINGHBHUM,Gram,Rabi,2017,0.307,12
+Jharkhand,WEST SINGHBHUM,Groundnut,Kharif,2017,0.5731,12
+Jharkhand,WEST SINGHBHUM,Jowar,Kharif,2017,0.5731,12
+Jharkhand,WEST SINGHBHUM,Maize,Kharif,2017,0.5731,12
+Jharkhand,WEST SINGHBHUM,Maize,Rabi,2017,0.307,12
+Jharkhand,WEST SINGHBHUM,Moong(Green Gram),Kharif,2017,0.5731,12
+Jharkhand,WEST SINGHBHUM,Rapeseed &Mustard,Rabi,2017,0.307,12
+Jharkhand,WEST SINGHBHUM,Rice,Kharif,2017,0.5731,12
+Jharkhand,WEST SINGHBHUM,Urad,Kharif,2017,0.5731,12
+Jharkhand,WEST SINGHBHUM,Wheat,Rabi,2017,0.307,12
+Jharkhand,BOKARO,Arhar/Tur,Kharif,2018,0.6036,12
+Jharkhand,BOKARO,Bajra,Kharif,2018,0.6036,12
+Jharkhand,BOKARO,Gram,Rabi,2018,0.3033,12
+Jharkhand,BOKARO,Groundnut,Kharif,2018,0.6036,12
+Jharkhand,BOKARO,Jowar,Kharif,2018,0.6036,12
+Jharkhand,BOKARO,Maize,Kharif,2018,0.6036,12
+Jharkhand,BOKARO,Moong(Green Gram),Kharif,2018,0.6036,12
+Jharkhand,BOKARO,Rapeseed &Mustard,Rabi,2018,0.3033,12
+Jharkhand,BOKARO,Rice,Kharif,2018,0.6036,12
+Jharkhand,BOKARO,Soyabean,Kharif,2018,0.6036,12
+Jharkhand,BOKARO,Urad,Kharif,2018,0.6036,12
+Jharkhand,BOKARO,Wheat,Rabi,2018,0.3033,12
+Jharkhand,CHATRA,Arhar/Tur,Kharif,2018,0.4974,12
+Jharkhand,CHATRA,Gram,Rabi,2018,0.3607,12
+Jharkhand,CHATRA,Groundnut,Kharif,2018,0.4974,12
+Jharkhand,CHATRA,Jowar,Kharif,2018,0.4974,12
+Jharkhand,CHATRA,Maize,Kharif,2018,0.4974,12
+Jharkhand,CHATRA,Maize,Rabi,2018,0.3607,12
+Jharkhand,CHATRA,Moong(Green Gram),Kharif,2018,0.4974,12
+Jharkhand,CHATRA,Rapeseed &Mustard,Rabi,2018,0.3607,12
+Jharkhand,CHATRA,Rice,Kharif,2018,0.4974,12
+Jharkhand,CHATRA,Soyabean,Kharif,2018,0.4974,12
+Jharkhand,CHATRA,Urad,Kharif,2018,0.4974,12
+Jharkhand,CHATRA,Wheat,Rabi,2018,0.3607,12
+Jharkhand,DEOGHAR,Arhar/Tur,Kharif,2018,0.4229,12
+Jharkhand,DEOGHAR,Gram,Rabi,2018,0.2996,12
+Jharkhand,DEOGHAR,Groundnut,Kharif,2018,0.4229,12
+Jharkhand,DEOGHAR,Maize,Kharif,2018,0.4229,12
+Jharkhand,DEOGHAR,Maize,Rabi,2018,0.2996,12
+Jharkhand,DEOGHAR,Moong(Green Gram),Kharif,2018,0.4229,12
+Jharkhand,DEOGHAR,Rapeseed &Mustard,Rabi,2018,0.2996,12
+Jharkhand,DEOGHAR,Rice,Kharif,2018,0.4229,12
+Jharkhand,DEOGHAR,Soyabean,Kharif,2018,0.4229,12
+Jharkhand,DEOGHAR,Urad,Kharif,2018,0.4229,12
+Jharkhand,DEOGHAR,Wheat,Rabi,2018,0.2996,12
+Jharkhand,DHANBAD,Arhar/Tur,Kharif,2018,0.4953,12
+Jharkhand,DHANBAD,Gram,Rabi,2018,0.323,12
+Jharkhand,DHANBAD,Groundnut,Kharif,2018,0.4953,12
+Jharkhand,DHANBAD,Jowar,Kharif,2018,0.4953,12
+Jharkhand,DHANBAD,Maize,Kharif,2018,0.4953,12
+Jharkhand,DHANBAD,Moong(Green Gram),Kharif,2018,0.4953,12
+Jharkhand,DHANBAD,Rapeseed &Mustard,Rabi,2018,0.323,12
+Jharkhand,DHANBAD,Rice,Kharif,2018,0.4953,12
+Jharkhand,DHANBAD,Urad,Kharif,2018,0.4953,12
+Jharkhand,DHANBAD,Wheat,Rabi,2018,0.323,12
+Jharkhand,DUMKA,Arhar/Tur,Kharif,2018,0.4149,12
+Jharkhand,DUMKA,Bajra,Kharif,2018,0.4149,12
+Jharkhand,DUMKA,Gram,Rabi,2018,0.2652,12
+Jharkhand,DUMKA,Groundnut,Kharif,2018,0.4149,12
+Jharkhand,DUMKA,Jowar,Kharif,2018,0.4149,12
+Jharkhand,DUMKA,Maize,Kharif,2018,0.4149,12
+Jharkhand,DUMKA,Maize,Rabi,2018,0.2652,12
+Jharkhand,DUMKA,Moong(Green Gram),Kharif,2018,0.4149,12
+Jharkhand,DUMKA,Rapeseed &Mustard,Rabi,2018,0.2652,12
+Jharkhand,DUMKA,Rice,Kharif,2018,0.4149,12
+Jharkhand,DUMKA,Soyabean,Kharif,2018,0.4149,12
+Jharkhand,DUMKA,Urad,Kharif,2018,0.4149,12
+Jharkhand,DUMKA,Wheat,Rabi,2018,0.2652,12
+Jharkhand,EAST SINGHBUM,Arhar/Tur,Kharif,2018,0.3551,12
+Jharkhand,EAST SINGHBUM,Gram,Rabi,2018,0.205,12
+Jharkhand,EAST SINGHBUM,Groundnut,Kharif,2018,0.3551,12
+Jharkhand,EAST SINGHBUM,Jowar,Kharif,2018,0.3551,12
+Jharkhand,EAST SINGHBUM,Maize,Kharif,2018,0.3551,12
+Jharkhand,EAST SINGHBUM,Maize,Rabi,2018,0.205,12
+Jharkhand,EAST SINGHBUM,Moong(Green Gram),Kharif,2018,0.3551,12
+Jharkhand,EAST SINGHBUM,Rapeseed &Mustard,Rabi,2018,0.205,12
+Jharkhand,EAST SINGHBUM,Rice,Kharif,2018,0.3551,12
+Jharkhand,EAST SINGHBUM,Soyabean,Kharif,2018,0.3551,12
+Jharkhand,EAST SINGHBUM,Urad,Kharif,2018,0.3551,12
+Jharkhand,EAST SINGHBUM,Wheat,Rabi,2018,0.205,12
+Jharkhand,GARHWA,Arhar/Tur,Kharif,2018,0.4785,12
+Jharkhand,GARHWA,Gram,Rabi,2018,0.2843,12
+Jharkhand,GARHWA,Groundnut,Kharif,2018,0.4785,12
+Jharkhand,GARHWA,Maize,Kharif,2018,0.4785,12
+Jharkhand,GARHWA,Maize,Rabi,2018,0.2843,12
+Jharkhand,GARHWA,Moong(Green Gram),Kharif,2018,0.4785,12
+Jharkhand,GARHWA,Rapeseed &Mustard,Rabi,2018,0.2843,12
+Jharkhand,GARHWA,Rice,Kharif,2018,0.4785,12
+Jharkhand,GARHWA,Soyabean,Kharif,2018,0.4785,12
+Jharkhand,GARHWA,Urad,Kharif,2018,0.4785,12
+Jharkhand,GARHWA,Wheat,Rabi,2018,0.2843,12
+Jharkhand,GIRIDIH,Arhar/Tur,Kharif,2018,0.4893,12
+Jharkhand,GIRIDIH,Bajra,Kharif,2018,0.4893,12
+Jharkhand,GIRIDIH,Gram,Rabi,2018,0.283,12
+Jharkhand,GIRIDIH,Groundnut,Kharif,2018,0.4893,12
+Jharkhand,GIRIDIH,Jowar,Kharif,2018,0.4893,12
+Jharkhand,GIRIDIH,Maize,Kharif,2018,0.4893,12
+Jharkhand,GIRIDIH,Maize,Rabi,2018,0.283,12
+Jharkhand,GIRIDIH,Moong(Green Gram),Kharif,2018,0.4893,12
+Jharkhand,GIRIDIH,Rapeseed &Mustard,Rabi,2018,0.283,12
+Jharkhand,GIRIDIH,Rice,Kharif,2018,0.4893,12
+Jharkhand,GIRIDIH,Soyabean,Kharif,2018,0.4893,12
+Jharkhand,GIRIDIH,Urad,Kharif,2018,0.4893,12
+Jharkhand,GIRIDIH,Wheat,Rabi,2018,0.283,12
+Jharkhand,GODDA,Arhar/Tur,Kharif,2018,0.4209,12
+Jharkhand,GODDA,Gram,Rabi,2018,0.2896,12
+Jharkhand,GODDA,Groundnut,Kharif,2018,0.4209,12
+Jharkhand,GODDA,Maize,Kharif,2018,0.4209,12
+Jharkhand,GODDA,Maize,Rabi,2018,0.2896,12
+Jharkhand,GODDA,Moong(Green Gram),Kharif,2018,0.4209,12
+Jharkhand,GODDA,Rapeseed &Mustard,Rabi,2018,0.2896,12
+Jharkhand,GODDA,Rice,Kharif,2018,0.4209,12
+Jharkhand,GODDA,Soyabean,Kharif,2018,0.4209,12
+Jharkhand,GODDA,Urad,Kharif,2018,0.4209,12
+Jharkhand,GODDA,Wheat,Rabi,2018,0.2896,12
+Jharkhand,GUMLA,Arhar/Tur,Kharif,2018,0.4977,12
+Jharkhand,GUMLA,Gram,Rabi,2018,0.2846,12
+Jharkhand,GUMLA,Groundnut,Kharif,2018,0.4977,12
+Jharkhand,GUMLA,Maize,Kharif,2018,0.4977,12
+Jharkhand,GUMLA,Maize,Rabi,2018,0.2846,12
+Jharkhand,GUMLA,Moong(Green Gram),Kharif,2018,0.4977,12
+Jharkhand,GUMLA,Rapeseed &Mustard,Rabi,2018,0.2846,12
+Jharkhand,GUMLA,Rice,Kharif,2018,0.4977,12
+Jharkhand,GUMLA,Urad,Kharif,2018,0.4977,12
+Jharkhand,GUMLA,Wheat,Rabi,2018,0.2846,12
+Jharkhand,HAZARIBAGH,Arhar/Tur,Kharif,2018,0.4079,12
+Jharkhand,HAZARIBAGH,Gram,Rabi,2018,0.2781,12
+Jharkhand,HAZARIBAGH,Groundnut,Kharif,2018,0.4079,12
+Jharkhand,HAZARIBAGH,Jowar,Kharif,2018,0.4079,12
+Jharkhand,HAZARIBAGH,Maize,Kharif,2018,0.4079,12
+Jharkhand,HAZARIBAGH,Maize,Rabi,2018,0.2781,12
+Jharkhand,HAZARIBAGH,Moong(Green Gram),Kharif,2018,0.4079,12
+Jharkhand,HAZARIBAGH,Rapeseed &Mustard,Rabi,2018,0.2781,12
+Jharkhand,HAZARIBAGH,Rice,Kharif,2018,0.4079,12
+Jharkhand,HAZARIBAGH,Soyabean,Kharif,2018,0.4079,12
+Jharkhand,HAZARIBAGH,Urad,Kharif,2018,0.4079,12
+Jharkhand,HAZARIBAGH,Wheat,Rabi,2018,0.2781,12
+Jharkhand,JAMTARA,Arhar/Tur,Kharif,2018,0.5082,12
+Jharkhand,JAMTARA,Gram,Rabi,2018,0.3313,12
+Jharkhand,JAMTARA,Groundnut,Kharif,2018,0.5082,12
+Jharkhand,JAMTARA,Jowar,Kharif,2018,0.5082,12
+Jharkhand,JAMTARA,Maize,Kharif,2018,0.5082,12
+Jharkhand,JAMTARA,Maize,Rabi,2018,0.3313,12
+Jharkhand,JAMTARA,Moong(Green Gram),Kharif,2018,0.5082,12
+Jharkhand,JAMTARA,Rapeseed &Mustard,Rabi,2018,0.3313,12
+Jharkhand,JAMTARA,Rice,Kharif,2018,0.5082,12
+Jharkhand,JAMTARA,Urad,Kharif,2018,0.5082,12
+Jharkhand,JAMTARA,Wheat,Rabi,2018,0.3313,12
+Jharkhand,KHUNTI,Arhar/Tur,Kharif,2018,0.5464,12
+Jharkhand,KHUNTI,Gram,Rabi,2018,0.3329,12
+Jharkhand,KHUNTI,Groundnut,Kharif,2018,0.5464,12
+Jharkhand,KHUNTI,Jowar,Kharif,2018,0.5464,12
+Jharkhand,KHUNTI,Maize,Kharif,2018,0.5464,12
+Jharkhand,KHUNTI,Moong(Green Gram),Kharif,2018,0.5464,12
+Jharkhand,KHUNTI,Rapeseed &Mustard,Rabi,2018,0.3329,12
+Jharkhand,KHUNTI,Rice,Kharif,2018,0.5464,12
+Jharkhand,KHUNTI,Soyabean,Kharif,2018,0.5464,12
+Jharkhand,KHUNTI,Urad,Kharif,2018,0.5464,12
+Jharkhand,KHUNTI,Wheat,Rabi,2018,0.3329,12
+Jharkhand,KODERMA,Arhar/Tur,Kharif,2018,0.5337,12
+Jharkhand,KODERMA,Bajra,Kharif,2018,0.5337,12
+Jharkhand,KODERMA,Gram,Rabi,2018,0.3571,12
+Jharkhand,KODERMA,Groundnut,Kharif,2018,0.5337,12
+Jharkhand,KODERMA,Jowar,Kharif,2018,0.5337,12
+Jharkhand,KODERMA,Maize,Kharif,2018,0.5337,12
+Jharkhand,KODERMA,Maize,Rabi,2018,0.3571,12
+Jharkhand,KODERMA,Moong(Green Gram),Kharif,2018,0.5337,12
+Jharkhand,KODERMA,Rapeseed &Mustard,Rabi,2018,0.3571,12
+Jharkhand,KODERMA,Rice,Kharif,2018,0.5337,12
+Jharkhand,KODERMA,Soyabean,Kharif,2018,0.5337,12
+Jharkhand,KODERMA,Urad,Kharif,2018,0.5337,12
+Jharkhand,KODERMA,Wheat,Rabi,2018,0.3571,12
+Jharkhand,LATEHAR,Arhar/Tur,Kharif,2018,0.5743,12
+Jharkhand,LATEHAR,Gram,Rabi,2018,0.2886,12
+Jharkhand,LATEHAR,Groundnut,Kharif,2018,0.5743,12
+Jharkhand,LATEHAR,Jowar,Kharif,2018,0.5743,12
+Jharkhand,LATEHAR,Maize,Kharif,2018,0.5743,12
+Jharkhand,LATEHAR,Moong(Green Gram),Kharif,2018,0.5743,12
+Jharkhand,LATEHAR,Rapeseed &Mustard,Rabi,2018,0.2886,12
+Jharkhand,LATEHAR,Rice,Kharif,2018,0.5743,12
+Jharkhand,LATEHAR,Soyabean,Kharif,2018,0.5743,12
+Jharkhand,LATEHAR,Urad,Kharif,2018,0.5743,12
+Jharkhand,LATEHAR,Wheat,Rabi,2018,0.2886,12
+Jharkhand,LOHARDAGA,Arhar/Tur,Kharif,2018,0.5282,12
+Jharkhand,LOHARDAGA,Gram,Rabi,2018,0.2982,12
+Jharkhand,LOHARDAGA,Groundnut,Kharif,2018,0.5282,12
+Jharkhand,LOHARDAGA,Jowar,Kharif,2018,0.5282,12
+Jharkhand,LOHARDAGA,Maize,Kharif,2018,0.5282,12
+Jharkhand,LOHARDAGA,Maize,Rabi,2018,0.2982,12
+Jharkhand,LOHARDAGA,Moong(Green Gram),Kharif,2018,0.5282,12
+Jharkhand,LOHARDAGA,Rapeseed &Mustard,Rabi,2018,0.2982,12
+Jharkhand,LOHARDAGA,Rice,Kharif,2018,0.5282,12
+Jharkhand,LOHARDAGA,Soyabean,Kharif,2018,0.5282,12
+Jharkhand,LOHARDAGA,Urad,Kharif,2018,0.5282,12
+Jharkhand,LOHARDAGA,Wheat,Rabi,2018,0.2982,12
+Jharkhand,PAKUR,Arhar/Tur,Kharif,2018,0.4876,12
+Jharkhand,PAKUR,Gram,Rabi,2018,0.3097,12
+Jharkhand,PAKUR,Groundnut,Kharif,2018,0.4876,12
+Jharkhand,PAKUR,Jowar,Kharif,2018,0.4876,12
+Jharkhand,PAKUR,Maize,Kharif,2018,0.4876,12
+Jharkhand,PAKUR,Maize,Rabi,2018,0.3097,12
+Jharkhand,PAKUR,Moong(Green Gram),Kharif,2018,0.4876,12
+Jharkhand,PAKUR,Rapeseed &Mustard,Rabi,2018,0.3097,12
+Jharkhand,PAKUR,Rice,Kharif,2018,0.4876,12
+Jharkhand,PAKUR,Soyabean,Kharif,2018,0.4876,12
+Jharkhand,PAKUR,Urad,Kharif,2018,0.4876,12
+Jharkhand,PAKUR,Wheat,Rabi,2018,0.3097,12
+Jharkhand,PALAMU,Arhar/Tur,Kharif,2018,0.3715,12
+Jharkhand,PALAMU,Gram,Rabi,2018,0.2301,12
+Jharkhand,PALAMU,Groundnut,Kharif,2018,0.3715,12
+Jharkhand,PALAMU,Maize,Kharif,2018,0.3715,12
+Jharkhand,PALAMU,Maize,Rabi,2018,0.2301,12
+Jharkhand,PALAMU,Moong(Green Gram),Kharif,2018,0.3715,12
+Jharkhand,PALAMU,Rapeseed &Mustard,Rabi,2018,0.2301,12
+Jharkhand,PALAMU,Rice,Kharif,2018,0.3715,12
+Jharkhand,PALAMU,Soyabean,Kharif,2018,0.3715,12
+Jharkhand,PALAMU,Urad,Kharif,2018,0.3715,12
+Jharkhand,PALAMU,Wheat,Rabi,2018,0.2301,12
+Jharkhand,RAMGARH,Arhar/Tur,Kharif,2018,0.6066,12
+Jharkhand,RAMGARH,Gram,Rabi,2018,0.3641,12
+Jharkhand,RAMGARH,Groundnut,Kharif,2018,0.6066,12
+Jharkhand,RAMGARH,Jowar,Kharif,2018,0.6066,12
+Jharkhand,RAMGARH,Maize,Kharif,2018,0.6066,12
+Jharkhand,RAMGARH,Maize,Rabi,2018,0.3641,12
+Jharkhand,RAMGARH,Moong(Green Gram),Kharif,2018,0.6066,12
+Jharkhand,RAMGARH,Rapeseed &Mustard,Rabi,2018,0.3641,12
+Jharkhand,RAMGARH,Rice,Kharif,2018,0.6066,12
+Jharkhand,RAMGARH,Soyabean,Kharif,2018,0.6066,12
+Jharkhand,RAMGARH,Urad,Kharif,2018,0.6066,12
+Jharkhand,RAMGARH,Wheat,Rabi,2018,0.3641,12
+Jharkhand,RANCHI,Arhar/Tur,Kharif,2018,0.4908,12
+Jharkhand,RANCHI,Gram,Rabi,2018,0.2991,12
+Jharkhand,RANCHI,Groundnut,Kharif,2018,0.4908,12
+Jharkhand,RANCHI,Maize,Kharif,2018,0.4908,12
+Jharkhand,RANCHI,Maize,Rabi,2018,0.2991,12
+Jharkhand,RANCHI,Moong(Green Gram),Kharif,2018,0.4908,12
+Jharkhand,RANCHI,Rapeseed &Mustard,Rabi,2018,0.2991,12
+Jharkhand,RANCHI,Rice,Kharif,2018,0.4908,12
+Jharkhand,RANCHI,Soyabean,Kharif,2018,0.4908,12
+Jharkhand,RANCHI,Urad,Kharif,2018,0.4908,12
+Jharkhand,RANCHI,Wheat,Rabi,2018,0.2991,12
+Jharkhand,SAHEBGANJ,Arhar/Tur,Kharif,2018,0.4741,12
+Jharkhand,SAHEBGANJ,Bajra,Kharif,2018,0.4741,12
+Jharkhand,SAHEBGANJ,Gram,Rabi,2018,0.3382,12
+Jharkhand,SAHEBGANJ,Groundnut,Kharif,2018,0.4741,12
+Jharkhand,SAHEBGANJ,Jowar,Kharif,2018,0.4741,12
+Jharkhand,SAHEBGANJ,Maize,Kharif,2018,0.4741,12
+Jharkhand,SAHEBGANJ,Maize,Rabi,2018,0.3382,12
+Jharkhand,SAHEBGANJ,Moong(Green Gram),Kharif,2018,0.4741,12
+Jharkhand,SAHEBGANJ,Rapeseed &Mustard,Rabi,2018,0.3382,12
+Jharkhand,SAHEBGANJ,Rice,Kharif,2018,0.4741,12
+Jharkhand,SAHEBGANJ,Soyabean,Kharif,2018,0.4741,12
+Jharkhand,SAHEBGANJ,Urad,Kharif,2018,0.4741,12
+Jharkhand,SAHEBGANJ,Wheat,Rabi,2018,0.3382,12
+Jharkhand,SARAIKELA KHARSAWAN,Arhar/Tur,Kharif,2018,0.4598,12
+Jharkhand,SARAIKELA KHARSAWAN,Bajra,Kharif,2018,0.4598,12
+Jharkhand,SARAIKELA KHARSAWAN,Gram,Rabi,2018,0.2987,12
+Jharkhand,SARAIKELA KHARSAWAN,Groundnut,Kharif,2018,0.4598,12
+Jharkhand,SARAIKELA KHARSAWAN,Jowar,Kharif,2018,0.4598,12
+Jharkhand,SARAIKELA KHARSAWAN,Maize,Kharif,2018,0.4598,12
+Jharkhand,SARAIKELA KHARSAWAN,Maize,Rabi,2018,0.2987,12
+Jharkhand,SARAIKELA KHARSAWAN,Moong(Green Gram),Kharif,2018,0.4598,12
+Jharkhand,SARAIKELA KHARSAWAN,Rapeseed &Mustard,Rabi,2018,0.2987,12
+Jharkhand,SARAIKELA KHARSAWAN,Rice,Kharif,2018,0.4598,12
+Jharkhand,SARAIKELA KHARSAWAN,Soyabean,Kharif,2018,0.4598,12
+Jharkhand,SARAIKELA KHARSAWAN,Urad,Kharif,2018,0.4598,12
+Jharkhand,SARAIKELA KHARSAWAN,Wheat,Rabi,2018,0.2987,12
+Jharkhand,SIMDEGA,Arhar/Tur,Kharif,2018,0.4979,12
+Jharkhand,SIMDEGA,Bajra,Kharif,2018,0.4979,12
+Jharkhand,SIMDEGA,Gram,Rabi,2018,0.2943,12
+Jharkhand,SIMDEGA,Groundnut,Kharif,2018,0.4979,12
+Jharkhand,SIMDEGA,Jowar,Kharif,2018,0.4979,12
+Jharkhand,SIMDEGA,Maize,Kharif,2018,0.4979,12
+Jharkhand,SIMDEGA,Maize,Rabi,2018,0.2943,12
+Jharkhand,SIMDEGA,Moong(Green Gram),Kharif,2018,0.4979,12
+Jharkhand,SIMDEGA,Rapeseed &Mustard,Rabi,2018,0.2943,12
+Jharkhand,SIMDEGA,Rice,Kharif,2018,0.4979,12
+Jharkhand,SIMDEGA,Soyabean,Kharif,2018,0.4979,12
+Jharkhand,SIMDEGA,Urad,Kharif,2018,0.4979,12
+Jharkhand,SIMDEGA,Wheat,Rabi,2018,0.2943,12
+Jharkhand,WEST SINGHBHUM,Arhar/Tur,Kharif,2018,0.571,12
+Jharkhand,WEST SINGHBHUM,Bajra,Kharif,2018,0.571,12
+Jharkhand,WEST SINGHBHUM,Gram,Rabi,2018,0.3163,12
+Jharkhand,WEST SINGHBHUM,Groundnut,Kharif,2018,0.571,12
+Jharkhand,WEST SINGHBHUM,Jowar,Kharif,2018,0.571,12
+Jharkhand,WEST SINGHBHUM,Maize,Kharif,2018,0.571,12
+Jharkhand,WEST SINGHBHUM,Moong(Green Gram),Kharif,2018,0.571,12
+Jharkhand,WEST SINGHBHUM,Rapeseed &Mustard,Rabi,2018,0.3163,12
+Jharkhand,WEST SINGHBHUM,Rice,Kharif,2018,0.571,12
+Jharkhand,WEST SINGHBHUM,Soyabean,Kharif,2018,0.571,12
+Jharkhand,WEST SINGHBHUM,Urad,Kharif,2018,0.571,12
+Jharkhand,WEST SINGHBHUM,Wheat,Rabi,2018,0.3163,12
+Jharkhand,BOKARO,Arhar/Tur,Kharif,2019,0.6659,12
+Jharkhand,BOKARO,Bajra,Kharif,2019,0.6659,12
+Jharkhand,BOKARO,Gram,Rabi,2019,0.3302,12
+Jharkhand,BOKARO,Groundnut,Kharif,2019,0.6659,12
+Jharkhand,BOKARO,Jowar,Kharif,2019,0.6659,12
+Jharkhand,BOKARO,Maize,Kharif,2019,0.6659,12
+Jharkhand,BOKARO,Moong(Green Gram),Kharif,2019,0.6659,12
+Jharkhand,BOKARO,Rapeseed &Mustard,Rabi,2019,0.3302,12
+Jharkhand,BOKARO,Rice,Kharif,2019,0.6659,12
+Jharkhand,BOKARO,Soyabean,Kharif,2019,0.6659,12
+Jharkhand,BOKARO,Urad,Kharif,2019,0.6659,12
+Jharkhand,BOKARO,Wheat,Rabi,2019,0.3302,12
+Jharkhand,CHATRA,Arhar/Tur,Kharif,2019,0.5335,12
+Jharkhand,CHATRA,Gram,Rabi,2019,0.3528,12
+Jharkhand,CHATRA,Groundnut,Kharif,2019,0.5335,12
+Jharkhand,CHATRA,Jowar,Kharif,2019,0.5335,12
+Jharkhand,CHATRA,Maize,Kharif,2019,0.5335,12
+Jharkhand,CHATRA,Maize,Rabi,2019,0.3528,12
+Jharkhand,CHATRA,Moong(Green Gram),Kharif,2019,0.5335,12
+Jharkhand,CHATRA,Rapeseed &Mustard,Rabi,2019,0.3528,12
+Jharkhand,CHATRA,Rice,Kharif,2019,0.5335,12
+Jharkhand,CHATRA,Soyabean,Kharif,2019,0.5335,12
+Jharkhand,CHATRA,Urad,Kharif,2019,0.5335,12
+Jharkhand,CHATRA,Wheat,Rabi,2019,0.3528,12
+Jharkhand,DEOGHAR,Arhar/Tur,Kharif,2019,0.48,12
+Jharkhand,DEOGHAR,Gram,Rabi,2019,0.3007,12
+Jharkhand,DEOGHAR,Groundnut,Kharif,2019,0.48,12
+Jharkhand,DEOGHAR,Maize,Kharif,2019,0.48,12
+Jharkhand,DEOGHAR,Maize,Rabi,2019,0.3007,12
+Jharkhand,DEOGHAR,Moong(Green Gram),Kharif,2019,0.48,12
+Jharkhand,DEOGHAR,Rapeseed &Mustard,Rabi,2019,0.3007,12
+Jharkhand,DEOGHAR,Rice,Kharif,2019,0.48,12
+Jharkhand,DEOGHAR,Urad,Kharif,2019,0.48,12
+Jharkhand,DEOGHAR,Wheat,Rabi,2019,0.3007,12
+Jharkhand,DHANBAD,Arhar/Tur,Kharif,2019,0.5104,12
+Jharkhand,DHANBAD,Gram,Rabi,2019,0.3539,12
+Jharkhand,DHANBAD,Groundnut,Kharif,2019,0.5104,12
+Jharkhand,DHANBAD,Maize,Kharif,2019,0.5104,12
+Jharkhand,DHANBAD,Moong(Green Gram),Kharif,2019,0.5104,12
+Jharkhand,DHANBAD,Rapeseed &Mustard,Rabi,2019,0.3539,12
+Jharkhand,DHANBAD,Rice,Kharif,2019,0.5104,12
+Jharkhand,DHANBAD,Urad,Kharif,2019,0.5104,12
+Jharkhand,DHANBAD,Wheat,Rabi,2019,0.3539,12
+Jharkhand,DUMKA,Arhar/Tur,Kharif,2019,0.4621,12
+Jharkhand,DUMKA,Bajra,Kharif,2019,0.4621,12
+Jharkhand,DUMKA,Gram,Rabi,2019,0.2843,12
+Jharkhand,DUMKA,Groundnut,Kharif,2019,0.4621,12
+Jharkhand,DUMKA,Jowar,Kharif,2019,0.4621,12
+Jharkhand,DUMKA,Maize,Kharif,2019,0.4621,12
+Jharkhand,DUMKA,Maize,Rabi,2019,0.2843,12
+Jharkhand,DUMKA,Moong(Green Gram),Kharif,2019,0.4621,12
+Jharkhand,DUMKA,Rapeseed &Mustard,Rabi,2019,0.2843,12
+Jharkhand,DUMKA,Rice,Kharif,2019,0.4621,12
+Jharkhand,DUMKA,Soyabean,Kharif,2019,0.4621,12
+Jharkhand,DUMKA,Urad,Kharif,2019,0.4621,12
+Jharkhand,DUMKA,Wheat,Rabi,2019,0.2843,12
+Jharkhand,EAST SINGHBUM,Arhar/Tur,Kharif,2019,0.3773,12
+Jharkhand,EAST SINGHBUM,Gram,Rabi,2019,0.2212,12
+Jharkhand,EAST SINGHBUM,Groundnut,Kharif,2019,0.3773,12
+Jharkhand,EAST SINGHBUM,Jowar,Kharif,2019,0.3773,12
+Jharkhand,EAST SINGHBUM,Maize,Kharif,2019,0.3773,12
+Jharkhand,EAST SINGHBUM,Maize,Rabi,2019,0.2212,12
+Jharkhand,EAST SINGHBUM,Moong(Green Gram),Kharif,2019,0.3773,12
+Jharkhand,EAST SINGHBUM,Rapeseed &Mustard,Rabi,2019,0.2212,12
+Jharkhand,EAST SINGHBUM,Rice,Kharif,2019,0.3773,12
+Jharkhand,EAST SINGHBUM,Soyabean,Kharif,2019,0.3773,12
+Jharkhand,EAST SINGHBUM,Urad,Kharif,2019,0.3773,12
+Jharkhand,EAST SINGHBUM,Wheat,Rabi,2019,0.2212,12
+Jharkhand,GARHWA,Arhar/Tur,Kharif,2019,0.5221,12
+Jharkhand,GARHWA,Gram,Rabi,2019,0.3003,12
+Jharkhand,GARHWA,Groundnut,Kharif,2019,0.5221,12
+Jharkhand,GARHWA,Maize,Kharif,2019,0.5221,12
+Jharkhand,GARHWA,Maize,Rabi,2019,0.3003,12
+Jharkhand,GARHWA,Moong(Green Gram),Kharif,2019,0.5221,12
+Jharkhand,GARHWA,Rapeseed &Mustard,Rabi,2019,0.3003,12
+Jharkhand,GARHWA,Rice,Kharif,2019,0.5221,12
+Jharkhand,GARHWA,Urad,Kharif,2019,0.5221,12
+Jharkhand,GARHWA,Wheat,Rabi,2019,0.3003,12
+Jharkhand,GIRIDIH,Arhar/Tur,Kharif,2019,0.5075,12
+Jharkhand,GIRIDIH,Bajra,Kharif,2019,0.5075,12
+Jharkhand,GIRIDIH,Gram,Rabi,2019,0.3027,12
+Jharkhand,GIRIDIH,Groundnut,Kharif,2019,0.5075,12
+Jharkhand,GIRIDIH,Jowar,Kharif,2019,0.5075,12
+Jharkhand,GIRIDIH,Maize,Kharif,2019,0.5075,12
+Jharkhand,GIRIDIH,Maize,Rabi,2019,0.3027,12
+Jharkhand,GIRIDIH,Moong(Green Gram),Kharif,2019,0.5075,12
+Jharkhand,GIRIDIH,Rapeseed &Mustard,Rabi,2019,0.3027,12
+Jharkhand,GIRIDIH,Rice,Kharif,2019,0.5075,12
+Jharkhand,GIRIDIH,Soyabean,Kharif,2019,0.5075,12
+Jharkhand,GIRIDIH,Urad,Kharif,2019,0.5075,12
+Jharkhand,GIRIDIH,Wheat,Rabi,2019,0.3027,12
+Jharkhand,GODDA,Arhar/Tur,Kharif,2019,0.4265,12
+Jharkhand,GODDA,Bajra,Kharif,2019,0.4265,12
+Jharkhand,GODDA,Gram,Rabi,2019,0.2937,12
+Jharkhand,GODDA,Groundnut,Kharif,2019,0.4265,12
+Jharkhand,GODDA,Jowar,Kharif,2019,0.4265,12
+Jharkhand,GODDA,Maize,Kharif,2019,0.4265,12
+Jharkhand,GODDA,Maize,Rabi,2019,0.2937,12
+Jharkhand,GODDA,Moong(Green Gram),Kharif,2019,0.4265,12
+Jharkhand,GODDA,Rapeseed &Mustard,Rabi,2019,0.2937,12
+Jharkhand,GODDA,Rice,Kharif,2019,0.4265,12
+Jharkhand,GODDA,Soyabean,Kharif,2019,0.4265,12
+Jharkhand,GODDA,Urad,Kharif,2019,0.4265,12
+Jharkhand,GODDA,Wheat,Rabi,2019,0.2937,12
+Jharkhand,GUMLA,Arhar/Tur,Kharif,2019,0.4742,12
+Jharkhand,GUMLA,Gram,Rabi,2019,0.3028,12
+Jharkhand,GUMLA,Groundnut,Kharif,2019,0.4742,12
+Jharkhand,GUMLA,Maize,Kharif,2019,0.4742,12
+Jharkhand,GUMLA,Maize,Rabi,2019,0.3028,12
+Jharkhand,GUMLA,Moong(Green Gram),Kharif,2019,0.4742,12
+Jharkhand,GUMLA,Rapeseed &Mustard,Rabi,2019,0.3028,12
+Jharkhand,GUMLA,Rice,Kharif,2019,0.4742,12
+Jharkhand,GUMLA,Urad,Kharif,2019,0.4742,12
+Jharkhand,GUMLA,Wheat,Rabi,2019,0.3028,12
+Jharkhand,HAZARIBAGH,Arhar/Tur,Kharif,2019,0.4501,12
+Jharkhand,HAZARIBAGH,Bajra,Kharif,2019,0.4501,12
+Jharkhand,HAZARIBAGH,Gram,Rabi,2019,0.2879,12
+Jharkhand,HAZARIBAGH,Groundnut,Kharif,2019,0.4501,12
+Jharkhand,HAZARIBAGH,Jowar,Kharif,2019,0.4501,12
+Jharkhand,HAZARIBAGH,Maize,Kharif,2019,0.4501,12
+Jharkhand,HAZARIBAGH,Maize,Rabi,2019,0.2879,12
+Jharkhand,HAZARIBAGH,Moong(Green Gram),Kharif,2019,0.4501,12
+Jharkhand,HAZARIBAGH,Rapeseed &Mustard,Rabi,2019,0.2879,12
+Jharkhand,HAZARIBAGH,Rice,Kharif,2019,0.4501,12
+Jharkhand,HAZARIBAGH,Urad,Kharif,2019,0.4501,12
+Jharkhand,HAZARIBAGH,Wheat,Rabi,2019,0.2879,12
+Jharkhand,JAMTARA,Arhar/Tur,Kharif,2019,0.5153,12
+Jharkhand,JAMTARA,Bajra,Kharif,2019,0.5153,12
+Jharkhand,JAMTARA,Gram,Rabi,2019,0.3279,12
+Jharkhand,JAMTARA,Groundnut,Kharif,2019,0.5153,12
+Jharkhand,JAMTARA,Jowar,Kharif,2019,0.5153,12
+Jharkhand,JAMTARA,Maize,Kharif,2019,0.5153,12
+Jharkhand,JAMTARA,Maize,Rabi,2019,0.3279,12
+Jharkhand,JAMTARA,Moong(Green Gram),Kharif,2019,0.5153,12
+Jharkhand,JAMTARA,Rapeseed &Mustard,Rabi,2019,0.3279,12
+Jharkhand,JAMTARA,Rice,Kharif,2019,0.5153,12
+Jharkhand,JAMTARA,Soyabean,Kharif,2019,0.5153,12
+Jharkhand,JAMTARA,Urad,Kharif,2019,0.5153,12
+Jharkhand,JAMTARA,Wheat,Rabi,2019,0.3279,12
+Jharkhand,KHUNTI,Arhar/Tur,Kharif,2019,0.5127,12
+Jharkhand,KHUNTI,Bajra,Kharif,2019,0.5127,12
+Jharkhand,KHUNTI,Gram,Rabi,2019,0.3878,12
+Jharkhand,KHUNTI,Groundnut,Kharif,2019,0.5127,12
+Jharkhand,KHUNTI,Jowar,Kharif,2019,0.5127,12
+Jharkhand,KHUNTI,Maize,Kharif,2019,0.5127,12
+Jharkhand,KHUNTI,Maize,Rabi,2019,0.3878,12
+Jharkhand,KHUNTI,Moong(Green Gram),Kharif,2019,0.5127,12
+Jharkhand,KHUNTI,Rapeseed &Mustard,Rabi,2019,0.3878,12
+Jharkhand,KHUNTI,Rice,Kharif,2019,0.5127,12
+Jharkhand,KHUNTI,Urad,Kharif,2019,0.5127,12
+Jharkhand,KHUNTI,Wheat,Rabi,2019,0.3878,12
+Jharkhand,KODERMA,Arhar/Tur,Kharif,2019,0.5337,12
+Jharkhand,KODERMA,Gram,Rabi,2019,0.34,12
+Jharkhand,KODERMA,Groundnut,Kharif,2019,0.5337,12
+Jharkhand,KODERMA,Jowar,Kharif,2019,0.5337,12
+Jharkhand,KODERMA,Maize,Kharif,2019,0.5337,12
+Jharkhand,KODERMA,Maize,Rabi,2019,0.34,12
+Jharkhand,KODERMA,Moong(Green Gram),Kharif,2019,0.5337,12
+Jharkhand,KODERMA,Rapeseed &Mustard,Rabi,2019,0.34,12
+Jharkhand,KODERMA,Rice,Kharif,2019,0.5337,12
+Jharkhand,KODERMA,Urad,Kharif,2019,0.5337,12
+Jharkhand,KODERMA,Wheat,Rabi,2019,0.34,12
+Jharkhand,LATEHAR,Arhar/Tur,Kharif,2019,0.5382,12
+Jharkhand,LATEHAR,Gram,Rabi,2019,0.2944,12
+Jharkhand,LATEHAR,Groundnut,Kharif,2019,0.5382,12
+Jharkhand,LATEHAR,Maize,Kharif,2019,0.5382,12
+Jharkhand,LATEHAR,Moong(Green Gram),Kharif,2019,0.5382,12
+Jharkhand,LATEHAR,Rapeseed &Mustard,Rabi,2019,0.2944,12
+Jharkhand,LATEHAR,Rice,Kharif,2019,0.5382,12
+Jharkhand,LATEHAR,Urad,Kharif,2019,0.5382,12
+Jharkhand,LATEHAR,Wheat,Rabi,2019,0.2944,12
+Jharkhand,LOHARDAGA,Arhar/Tur,Kharif,2019,0.5687,12
+Jharkhand,LOHARDAGA,Gram,Rabi,2019,0.2915,12
+Jharkhand,LOHARDAGA,Groundnut,Kharif,2019,0.5687,12
+Jharkhand,LOHARDAGA,Maize,Kharif,2019,0.5687,12
+Jharkhand,LOHARDAGA,Maize,Rabi,2019,0.2915,12
+Jharkhand,LOHARDAGA,Moong(Green Gram),Kharif,2019,0.5687,12
+Jharkhand,LOHARDAGA,Rapeseed &Mustard,Rabi,2019,0.2915,12
+Jharkhand,LOHARDAGA,Rice,Kharif,2019,0.5687,12
+Jharkhand,LOHARDAGA,Urad,Kharif,2019,0.5687,12
+Jharkhand,LOHARDAGA,Wheat,Rabi,2019,0.2915,12
+Jharkhand,PAKUR,Arhar/Tur,Kharif,2019,0.5237,12
+Jharkhand,PAKUR,Gram,Rabi,2019,0.329,12
+Jharkhand,PAKUR,Groundnut,Kharif,2019,0.5237,12
+Jharkhand,PAKUR,Jowar,Kharif,2019,0.5237,12
+Jharkhand,PAKUR,Maize,Kharif,2019,0.5237,12
+Jharkhand,PAKUR,Maize,Rabi,2019,0.329,12
+Jharkhand,PAKUR,Rapeseed &Mustard,Rabi,2019,0.329,12
+Jharkhand,PAKUR,Rice,Kharif,2019,0.5237,12
+Jharkhand,PAKUR,Soyabean,Kharif,2019,0.5237,12
+Jharkhand,PAKUR,Urad,Kharif,2019,0.5237,12
+Jharkhand,PAKUR,Wheat,Rabi,2019,0.329,12
+Jharkhand,PALAMU,Arhar/Tur,Kharif,2019,0.4168,12
+Jharkhand,PALAMU,Bajra,Kharif,2019,0.4168,12
+Jharkhand,PALAMU,Gram,Rabi,2019,0.2397,12
+Jharkhand,PALAMU,Groundnut,Kharif,2019,0.4168,12
+Jharkhand,PALAMU,Jowar,Kharif,2019,0.4168,12
+Jharkhand,PALAMU,Maize,Kharif,2019,0.4168,12
+Jharkhand,PALAMU,Maize,Rabi,2019,0.2397,12
+Jharkhand,PALAMU,Moong(Green Gram),Kharif,2019,0.4168,12
+Jharkhand,PALAMU,Rapeseed &Mustard,Rabi,2019,0.2397,12
+Jharkhand,PALAMU,Rice,Kharif,2019,0.4168,12
+Jharkhand,PALAMU,Soyabean,Kharif,2019,0.4168,12
+Jharkhand,PALAMU,Urad,Kharif,2019,0.4168,12
+Jharkhand,PALAMU,Wheat,Rabi,2019,0.2397,12
+Jharkhand,RAMGARH,Arhar/Tur,Kharif,2019,0.6397,12
+Jharkhand,RAMGARH,Bajra,Kharif,2019,0.6397,12
+Jharkhand,RAMGARH,Gram,Rabi,2019,0.4269,12
+Jharkhand,RAMGARH,Groundnut,Kharif,2019,0.6397,12
+Jharkhand,RAMGARH,Jowar,Kharif,2019,0.6397,12
+Jharkhand,RAMGARH,Maize,Kharif,2019,0.6397,12
+Jharkhand,RAMGARH,Maize,Rabi,2019,0.4269,12
+Jharkhand,RAMGARH,Moong(Green Gram),Kharif,2019,0.6397,12
+Jharkhand,RAMGARH,Rapeseed &Mustard,Rabi,2019,0.4269,12
+Jharkhand,RAMGARH,Rice,Kharif,2019,0.6397,12
+Jharkhand,RAMGARH,Urad,Kharif,2019,0.6397,12
+Jharkhand,RAMGARH,Wheat,Rabi,2019,0.4269,12
+Jharkhand,RANCHI,Arhar/Tur,Kharif,2019,0.3516,12
+Jharkhand,RANCHI,Gram,Rabi,2019,0.3439,12
+Jharkhand,RANCHI,Groundnut,Kharif,2019,0.3516,12
+Jharkhand,RANCHI,Maize,Kharif,2019,0.3516,12
+Jharkhand,RANCHI,Maize,Rabi,2019,0.3439,12
+Jharkhand,RANCHI,Moong(Green Gram),Kharif,2019,0.3516,12
+Jharkhand,RANCHI,Rapeseed &Mustard,Rabi,2019,0.3439,12
+Jharkhand,RANCHI,Rice,Kharif,2019,0.3516,12
+Jharkhand,RANCHI,Soyabean,Kharif,2019,0.3516,12
+Jharkhand,RANCHI,Urad,Kharif,2019,0.3516,12
+Jharkhand,RANCHI,Wheat,Rabi,2019,0.3439,12
+Jharkhand,SAHEBGANJ,Arhar/Tur,Kharif,2019,0.4585,12
+Jharkhand,SAHEBGANJ,Bajra,Kharif,2019,0.4585,12
+Jharkhand,SAHEBGANJ,Gram,Rabi,2019,0.3536,12
+Jharkhand,SAHEBGANJ,Groundnut,Kharif,2019,0.4585,12
+Jharkhand,SAHEBGANJ,Jowar,Kharif,2019,0.4585,12
+Jharkhand,SAHEBGANJ,Maize,Kharif,2019,0.4585,12
+Jharkhand,SAHEBGANJ,Maize,Rabi,2019,0.3536,12
+Jharkhand,SAHEBGANJ,Moong(Green Gram),Kharif,2019,0.4585,12
+Jharkhand,SAHEBGANJ,Rapeseed &Mustard,Rabi,2019,0.3536,12
+Jharkhand,SAHEBGANJ,Rice,Kharif,2019,0.4585,12
+Jharkhand,SAHEBGANJ,Urad,Kharif,2019,0.4585,12
+Jharkhand,SAHEBGANJ,Wheat,Rabi,2019,0.3536,12
+Jharkhand,SARAIKELA KHARSAWAN,Arhar/Tur,Kharif,2019,0.5122,12
+Jharkhand,SARAIKELA KHARSAWAN,Bajra,Kharif,2019,0.5122,12
+Jharkhand,SARAIKELA KHARSAWAN,Gram,Rabi,2019,0.3605,12
+Jharkhand,SARAIKELA KHARSAWAN,Groundnut,Kharif,2019,0.5122,12
+Jharkhand,SARAIKELA KHARSAWAN,Jowar,Kharif,2019,0.5122,12
+Jharkhand,SARAIKELA KHARSAWAN,Maize,Kharif,2019,0.5122,12
+Jharkhand,SARAIKELA KHARSAWAN,Maize,Rabi,2019,0.3605,12
+Jharkhand,SARAIKELA KHARSAWAN,Moong(Green Gram),Kharif,2019,0.5122,12
+Jharkhand,SARAIKELA KHARSAWAN,Rapeseed &Mustard,Rabi,2019,0.3605,12
+Jharkhand,SARAIKELA KHARSAWAN,Rice,Kharif,2019,0.5122,12
+Jharkhand,SARAIKELA KHARSAWAN,Soyabean,Kharif,2019,0.5122,12
+Jharkhand,SARAIKELA KHARSAWAN,Urad,Kharif,2019,0.5122,12
+Jharkhand,SARAIKELA KHARSAWAN,Wheat,Rabi,2019,0.3605,12
+Jharkhand,SIMDEGA,Arhar/Tur,Kharif,2019,0.4903,12
+Jharkhand,SIMDEGA,Bajra,Kharif,2019,0.4903,12
+Jharkhand,SIMDEGA,Gram,Rabi,2019,0.3422,12
+Jharkhand,SIMDEGA,Groundnut,Kharif,2019,0.4903,12
+Jharkhand,SIMDEGA,Jowar,Kharif,2019,0.4903,12
+Jharkhand,SIMDEGA,Maize,Kharif,2019,0.4903,12
+Jharkhand,SIMDEGA,Maize,Rabi,2019,0.3422,12
+Jharkhand,SIMDEGA,Moong(Green Gram),Kharif,2019,0.4903,12
+Jharkhand,SIMDEGA,Rapeseed &Mustard,Rabi,2019,0.3422,12
+Jharkhand,SIMDEGA,Rice,Kharif,2019,0.4903,12
+Jharkhand,SIMDEGA,Urad,Kharif,2019,0.4903,12
+Jharkhand,SIMDEGA,Wheat,Rabi,2019,0.3422,12
+Jharkhand,WEST SINGHBHUM,Arhar/Tur,Kharif,2019,0.6024,12
+Jharkhand,WEST SINGHBHUM,Bajra,Kharif,2019,0.6024,12
+Jharkhand,WEST SINGHBHUM,Gram,Rabi,2019,0.3677,12
+Jharkhand,WEST SINGHBHUM,Groundnut,Kharif,2019,0.6024,12
+Jharkhand,WEST SINGHBHUM,Jowar,Kharif,2019,0.6024,12
+Jharkhand,WEST SINGHBHUM,Maize,Kharif,2019,0.6024,12
+Jharkhand,WEST SINGHBHUM,Maize,Rabi,2019,0.3677,12
+Jharkhand,WEST SINGHBHUM,Moong(Green Gram),Kharif,2019,0.6024,12
+Jharkhand,WEST SINGHBHUM,Rapeseed &Mustard,Rabi,2019,0.3677,12
+Jharkhand,WEST SINGHBHUM,Rice,Kharif,2019,0.6024,12
+Jharkhand,WEST SINGHBHUM,Soyabean,Kharif,2019,0.6024,12
+Jharkhand,WEST SINGHBHUM,Urad,Kharif,2019,0.6024,12
+Jharkhand,WEST SINGHBHUM,Wheat,Rabi,2019,0.3677,12

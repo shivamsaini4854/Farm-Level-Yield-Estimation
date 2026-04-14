@@ -1,273 +1,183 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Farm Yield Dashboard</title>
-    <style>
-        body { font-family: Arial, sans-serif; background-color: #f4f9f4; color: #333; text-align: center; padding-top: 50px; }
-        h1 { color: #2e8b57; }
-        .btn { padding: 10px 20px; font-size: 16px; background-color: #2e8b57; color: white; border: none; border-radius: 5px; cursor: pointer; margin-top: 20px;}
-        .btn:hover { background-color: #246b43; }
-        .data-card { background: white; padding: 20px; border-radius: 10px; width: 300px; margin: 30px auto; box-shadow: 0 4px 8px rgba(0,0,0,0.1); text-align: left; border-left: 5px solid #2e8b57;}
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AgriYield | Farm Intelligence Platform</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 </head>
 <body>
-    <div class="data-card" style="width: 80%; max-width: 600px;">
-        <h3>Select Your Farm Location</h3>
-        <p style="font-size: 14px; color: #666;">Type your location or click the map to drop a pin.</p>
-        
-        <div style="display: flex; gap: 10px; margin-bottom: 10px;">
-            <input type="text" id="location-search" placeholder="Type a village, district, or city..." style="flex: 1; padding: 10px; border-radius: 5px; border: 1px solid #ccc;">
-            <button type="button" id="search-btn" class="btn" style="margin-top: 0; padding: 10px 15px;">Search</button>
+  <div
+    class="app"
+    data-submitted-lat="{{ submitted_lat if submitted_lat is not none else '' }}"
+    data-submitted-lon="{{ submitted_lon if submitted_lon is not none else '' }}"
+  >
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-mark"></div>
+        <div>
+          <h1>AgriYield</h1>
+          <p>Farm intelligence workspace for crop-aware yield estimation.</p>
         </div>
-        
-        <div id="farm-map" style="height: 350px; width: 100%; border-radius: 8px; border: 2px solid #2e8b57; margin-bottom: 15px;"></div>
+      </div>
+      <div class="meta">
+        <div class="pill">GEE + MODIS + NASA POWER</div>
+        <div class="pill live">ML analysis ready</div>
+      </div>
+    </header>
 
-        <form method="POST">
-            <input type="hidden" name="latitude" id="lat-input" required>
-            <input type="hidden" name="longitude" id="lon-input" required>
-            
-            <select id="crop-select" name="crop" class="btn w-100" style="background-color: white; color: #333; border: 1px solid #ccc; margin-bottom: 10px; text-align: center;">
-                <option value="Sugarcane">Sugarcane</option>
-                <option value="Wheat">Wheat</option>
-                <option value="Rice">Rice</option>
-                <option value="Maize">Maize</option>
-            </select>
-            
-            <button type="submit" class="btn w-100">Fetch Farm Weather</button>
-        </form>
-    </div>
+    <section class="hero-banner">
+      <div class="hero-kicker">Farm Decision Support</div>
+      <h2>Find a farm, pick a crop, and estimate seasonal yield in one place.</h2>
+      <p>Search a farm area, confirm the crop, and review satellite, climate, and yield signals in a cleaner workspace built for practical field selection.</p>
+    </section>
 
-    {% if weather %}
-    <div class="data-card">
-        <h3>Live Sensor Data</h3>
-        <p><strong>Temperature:</strong> {{ weather.temperature }} °C</p>
-        <p><strong>Rainfall:</strong> {{ weather.rainfall }} mm</p>
-        <p><strong>Humidity:</strong> {{ weather.humidity }} %</p>
-        <p><strong>Soil Moisture:</strong> {{ weather.soil_moisture }} %</p>
-        <p style="color: green; font-size: 12px; margin-top: 15px;">✓ Successfully logged to MySQL database</p>
-    </div>
-    {% endif %}
-    <div class="data-card" style="margin-top: 20px;">
-        <h3>Satellite Vegetation Data</h3>
-        <p>Sentinel-2 NDVI Analysis</p>
-        <button id="fetch-ndvi-btn" class="btn" style="background-color: #27ae60;">Analyze Farm Health</button>
-
-        <div class="data-card" style="margin-top: 20px; border-left: 5px solid #2ecc71; padding: 15px; background: #f9f9f9; border-radius: 8px;">
-            <h3 style="margin: 0; color: #333;">Estimated Yield Prediction</h3>
-            <p id="baseline-label" style="font-size: 0.8rem; color: #666; margin: 5px 0;">Based on Regional Baseline</p>
-            <div id="prediction-val" style="font-size: 2.2rem; font-weight: bold; color: #27ae60;">
-                -- T/Ha
+    <main class="workspace">
+      <aside class="sidebar">
+        <section class="panel controls">
+          <div class="section">
+            <div class="section-head">
+              <h3>Farm Location</h3>
+              <span>Search or click the map</span>
             </div>
-        </div>
-        
-        <div style="margin-top: 20px;">
-            <div id="gauge-label" style="font-size: 14px; font-weight: bold; margin-bottom: 5px;">Crop Health: Not analyzed</div>
-            <div style="width: 100%; background-color: #e0e0e0; border-radius: 10px; height: 20px; overflow: hidden; border: 1px solid #ccc;">
-                <div id="ndvi-fill" style="width: 0%; height: 100%; transition: width 0.8s ease-in-out, background-color 0.5s;"></div>
+            <div class="search-row">
+              <input id="location-search" class="input" type="text" placeholder="Search district, village, city, or taluk">
+              <button id="search-btn" class="ghost-btn" type="button">Search</button>
             </div>
-            <div style="margin-top: 8px;">
-                <strong>Latest NDVI Score: </strong> 
-                <span id="ndvi-display" style="font-weight: bold; color: #7f8c8d;">-</span>
+            <p class="helper">Searching a city or district often lands on the built-up center. After search, move the pin to the nearby farmland before running analysis.</p>
+          </div>
+
+          <div class="section">
+            <div class="section-head">
+              <h3>Select Crop</h3>
+              <span>Choose the active crop</span>
             </div>
-        </div>
-    </div>
-    <script>
-        // --- INTERACTIVE MAP LOGIC ---
-    // Center map on North India (roughly between Punjab/Haryana/UP)
-    var map = L.map('farm-map').setView([30.1, 76.5], 7); 
+            <div class="crop-grid">
+              <button class="crop-btn active" data-crop="Sugarcane" type="button"><strong>Sugarcane</strong><span>Year-round crop</span></button>
+              <button class="crop-btn" data-crop="Wheat" type="button"><strong>Wheat</strong><span>Rabi season</span></button>
+              <button class="crop-btn" data-crop="Rice" type="button"><strong>Rice</strong><span>Kharif season</span></button>
+              <button class="crop-btn" data-crop="Maize" type="button"><strong>Maize</strong><span>Kharif season</span></button>
+              <button class="crop-btn" data-crop="Potato" type="button"><strong>Potato</strong><span>Rabi season</span></button>
+              <button class="crop-btn" data-crop="Onion" type="button"><strong>Onion</strong><span>Rabi season</span></button>
+              <button class="crop-btn" data-crop="Groundnut" type="button"><strong>Groundnut</strong><span>Kharif season</span></button>
+              <button class="crop-btn" data-crop="Soyabean" type="button"><strong>Soyabean</strong><span>Kharif season</span></button>
+              <button class="crop-btn" data-crop="Gram" type="button"><strong>Gram</strong><span>Rabi season</span></button>
+              <button class="crop-btn" data-crop="Bajra" type="button"><strong>Bajra</strong><span>Kharif season</span></button>
+              <button class="crop-btn" data-crop="Jowar" type="button"><strong>Jowar</strong><span>Kharif season</span></button>
+              <button class="crop-btn" data-crop="Arhar/Tur" type="button"><strong>Arhar / Tur</strong><span>Kharif season</span></button>
+              <button class="crop-btn" data-crop="Rapeseed &Mustard" type="button"><strong>Mustard</strong><span>Rabi season</span></button>
+              <button class="crop-btn" data-crop="Dry chillies" type="button"><strong>Dry chillies</strong><span>Kharif season</span></button>
+              <button class="crop-btn" data-crop="Moong(Green Gram)" type="button"><strong>Moong</strong><span>Kharif season</span></button>
+              <button class="crop-btn" data-crop="Urad" type="button"><strong>Urad</strong><span>Kharif season</span></button>
+            </div>
+          </div>
 
-// Load the free OpenStreetMap tiles
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '© OpenStreetMap contributors'
-}).addTo(map);
+          <div class="section">
+            <div class="section-head">
+              <h3>Coordinates</h3>
+              <span>Selected farm pin</span>
+            </div>
+            <div class="coords">
+              <div class="coord-box">
+                <label>Latitude</label>
+                <strong id="lat-display">--</strong>
+              </div>
+              <div class="coord-box">
+                <label>Longitude</label>
+                <strong id="lon-display">--</strong>
+              </div>
+            </div>
+            <input id="lat-input" type="hidden">
+            <input id="lon-input" type="hidden">
+            <button id="analyze-btn" class="run-btn" type="button" disabled>Run yield analysis</button>
+            <p class="helper">Place the pin over the actual farm parcel you want to evaluate, not the nearest town center.</p>
+          </div>
+        </section>
 
-var currentPin;
+        <section class="panel controls">
+          <div class="section-head">
+            <h3>How To Use</h3>
+            <span>Quick workflow</span>
+          </div>
+          <div class="tips">
+            <div class="tip"><strong>1. Search first</strong>Look up the village, district, or nearby landmark and then shift the pin onto farmland.</div>
+            <div class="tip"><strong>2. Confirm the crop</strong>Select the crop that matches the field and season you want to assess.</div>
+            <div class="tip"><strong>3. Run the analysis</strong>Read yield, NDVI, and weather cards in the result area under the map.</div>
+          </div>
+        </section>
+      </aside>
 
-// --- NEW: MEMORY LOGIC ---
-// If the page just reloaded after fetching weather, Jinja will trigger this block
-{% if submitted_lat and submitted_lon %}
-    var savedLat = {{ submitted_lat }};
-    var savedLon = {{ submitted_lon }};
-    
-    // 1. Move the map back to where they searched
-    map.setView([savedLat, savedLon], 13);
-    
-    // 2. Re-drop the pin
-    currentPin = L.marker([savedLat, savedLon]).addTo(map)
-        .bindPopup("Saved Farm Location")
-        .openPopup();
-        
-    // 3. Put the coordinates BACK into the hidden inputs so the Satellite button works!
-    document.getElementById('lat-input').value = savedLat;
-    document.getElementById('lon-input').value = savedLon;
-{% endif %}
-// ---------------
+      <section class="main-column">
+        <section class="map-panel">
+          <div class="map-head">
+            <h3>Farm map workspace</h3>
+            <div class="map-chips">
+              <div class="chip">Field search</div>
+              <div class="chip">Season-aware model</div>
+              <div class="chip">Farm pin selection</div>
+            </div>
+          </div>
 
-// When the farmer clicks the map...
-map.on('click', function(e) {
-    var lat = e.latlng.lat;
-    var lng = e.latlng.lng;
+          <div class="map-stage">
+            <div id="farm-map"></div>
 
-    // Remove the old pin if they click somewhere else
-    if (currentPin) {
-        map.removeLayer(currentPin);
-    }
+            <div class="overlay-card overlay-top" data-overlay>
+              <div class="overlay-head">
+                <h4>Map help</h4>
+                <button class="overlay-close" type="button" aria-label="Close map help">&times;</button>
+              </div>
+              <p>Search a nearby place first, then click directly on the agricultural land you want to analyze.</p>
+              <div class="overlay-list">
+                <div>Use search to reach the right region</div>
+                <div>Move the pin from the town center to farmland</div>
+                <div>Run the crop analysis after pin placement</div>
+              </div>
+            </div>
 
-    // Drop a new pin
-    currentPin = L.marker([lat, lng]).addTo(map)
-        .bindPopup("Selected Farm Location")
-        .openPopup();
+            <div class="overlay-card overlay-bottom" data-overlay>
+              <div class="overlay-head">
+                <h4>Selected location</h4>
+                <button class="overlay-close" type="button" aria-label="Close selected location">&times;</button>
+              </div>
+              <p id="pin-status">Click anywhere on the map to place a farm pin.</p>
+              <div class="pin-readout" id="pin-coords">Awaiting coordinates</div>
+            </div>
+          </div>
+        </section>
 
-    // Secretly save these exact coordinates into our HTML form
-    document.getElementById('lat-input').value = lat;
-    document.getElementById('lon-input').value = lng;
-});
-document.getElementById('fetch-ndvi-btn').addEventListener('click', function() {
-    // Grab coordinates from the hidden map inputs AND the crop right when clicked
-    const lat = document.getElementById('lat-input').value;
-    const lon = document.getElementById('lon-input').value;
-    const selectedCrop = document.getElementById('crop-select').value; // <-- MOVED HERE
+        <section class="panel result-panel">
+          <div class="result-head">
+            <h3>Analysis output</h3>
+            <p>Results appear here after each run</p>
+          </div>
 
-    // Safety check
-    if (!lat || !lon) {
-        alert("Please drop a pin on the map or search for a location first!");
-        return;
-    }
-    // Call the free OpenStreetMap Geocoding API
-    fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${query}`)
-        .then(response => response.json())
-        .then(data => {
-            if (data.length > 0) {
-                // Get the coordinates of the first search result
-                var lat = parseFloat(data[0].lat);
-                var lng = parseFloat(data[0].lon);
+          <div class="empty-state" id="empty-state">
+            <h4>Ready for analysis</h4>
+            <p>Select a farm location on the map, confirm the crop, and run the model to populate this dashboard.</p>
+            <div class="empty-list">
+              <div>Search the area or click the map</div>
+              <div>Place the pin on actual farmland</div>
+              <div>Run the crop yield analysis</div>
+            </div>
+          </div>
 
-                // Fly the map to the searched location and zoom in!
-                map.flyTo([lat, lng], 13); // 13 is a good zoom level for cities/villages
+          <div class="loading-state" id="loading-state">
+            <div class="spinner"></div>
+            <div class="loading-title">Running farm analysis</div>
+            <div class="loading-msg" id="loading-msg">Preparing satellite and climate inputs...</div>
+          </div>
 
-                // Remove the old pin if there is one
-                if (currentPin) {
-                    map.removeLayer(currentPin);
-                }
+          <div class="result-grid" id="result-cards"></div>
+        </section>
+      </section>
+    </main>
+  </div>
 
-                // Drop a new pin at the searched location
-                currentPin = L.marker([lat, lng]).addTo(map)
-                    .bindPopup("Searched: " + data[0].display_name)
-                    .openPopup();
-
-                // Secretly save these exact coordinates into our HTML form for the Python backend
-                document.getElementById('lat-input').value = lat;
-                document.getElementById('lon-input').value = lng;
-            } else {
-                alert("Location not found. Try adding the state, like 'Ambala, Haryana'.");
-            }
-        })
-        .catch(err => console.error("Search error:", err));
-});
-// --- SEARCH BAR LOGIC ---
-document.getElementById('search-btn').addEventListener('click', function() {
-    var query = document.getElementById('location-search').value;
-    if (!query) return; // Do nothing if the box is empty
-
-    // Call the free OpenStreetMap Geocoding API
-    fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${query}`)
-        .then(response => response.json())
-        .then(data => {
-            if (data.length > 0) {
-                // Get the coordinates of the first search result
-                var lat = parseFloat(data[0].lat);
-                var lng = parseFloat(data[0].lon);
-
-                // Fly the map to the searched location and zoom in
-                map.flyTo([lat, lng], 13); 
-
-                // Remove the old pin if there is one
-                if (currentPin) {
-                    map.removeLayer(currentPin);
-                }
-
-                // Drop a new pin at the searched location
-                currentPin = L.marker([lat, lng]).addTo(map)
-                    .bindPopup("Searched: " + data[0].display_name)
-                    .openPopup();
-
-                // Secretly save these exact coordinates into our HTML form
-                document.getElementById('lat-input').value = lat;
-                document.getElementById('lon-input').value = lng;
-            } else {
-                alert("Location not found. Try adding the state, like 'Ambala, Haryana'.");
-            }
-        })
-        .catch(err => console.error("Search error:", err));
-});
-
-// --- SATELLITE & CROP PREDICTION LOGIC ---
-document.getElementById('fetch-ndvi-btn').addEventListener('click', function() {
-    // Grab coordinates from the hidden map inputs AND the crop right when clicked
-    const lat = document.getElementById('lat-input').value;
-    const lon = document.getElementById('lon-input').value;
-    const selectedCrop = document.getElementById('crop-select').value; 
-
-    // Safety check
-    if (!lat || !lon) {
-        alert("Please drop a pin on the map or search for a location first!");
-        return;
-    }
-
-    const displaySpan = document.getElementById('ndvi-display');
-    const fill = document.getElementById('ndvi-fill');
-    const label = document.getElementById('gauge-label');
-    
-    displaySpan.innerText = "Scanning Satellite Data...";
-    displaySpan.style.color = "#2980b9";
-
-    // Send POST request with the new coordinates and the specific crop!
-    fetch('/api/fetch_ndvi', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ lat: lat, lon: lon, crop: selectedCrop }) 
-    })
-    .then(response => response.json())               
-    .then(data => {
-        if (data.status === "success" || data.status === "partial_success") {
-            const ndvi = data.ndvi;
-            displaySpan.innerText = ndvi;
-            document.getElementById('prediction-val').innerText = data.prediction + " T/Ha";
-            
-            // --- HERE IS THE FIX: The text updates in the correct place! ---
-            document.getElementById('baseline-label').innerText = "Based on North India " + selectedCrop + " Baseline";
-            
-            // Logic for Gauge Movement and Colors
-            let percentage = Math.min(Math.max(ndvi * 100, 0), 100);
-            fill.style.width = percentage + "%";
-
-            if (ndvi < 0.2) {
-                fill.style.backgroundColor = "#e74c3c"; 
-                label.innerText = "Crop Health: Poor / Bare Soil";
-            } else if (ndvi < 0.4) {
-                fill.style.backgroundColor = "#f1c40f"; 
-                label.innerText = "Crop Health: Moderate / Low Growth";
-            } else {
-                fill.style.backgroundColor = "#2ecc71"; 
-                label.innerText = "Crop Health: Excellent";
-            }
-            displaySpan.style.color = "#27ae60";
-        } else {
-            displaySpan.innerText = "Error: " + data.error;
-            displaySpan.style.color = "#c0392b";
-        }
-    })
-    .catch(error => {
-        displaySpan.innerText = "Server Unreachable";
-        displaySpan.style.color = "#c0392b";
-    });
-});
-    </script>
+  <script src="{{ url_for('static', filename='js/app.js') }}"></script>
 </body>
 </html>
