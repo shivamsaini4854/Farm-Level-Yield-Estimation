@@ -188,9 +188,17 @@ def get_season_window(crop):
     return start, end, season, status
 
 
+def get_nasa_available_end(today=None):
+    today = today or datetime.date.today()
+    return today - datetime.timedelta(days=5)
+
+
 def fetch_season_weather_nasa(lat, lon, start_date, end_date):
     lat, lon = normalize_and_validate_coordinates(lat, lon)
-    safe_end  = min(end_date, datetime.date.today() - datetime.timedelta(days=5))
+    safe_end  = min(end_date, get_nasa_available_end())
+    if safe_end < start_date:
+        return None
+
     start_str = start_date.strftime("%Y%m%d")
     end_str   = safe_end.strftime("%Y%m%d")
 
@@ -340,11 +348,31 @@ def api_fetch_ndvi():
                 "season":  season_name,
             })
 
+        latest_nasa_date = get_nasa_available_end()
+        fetch_end = end_date if season_status == "completed" else datetime.date.today()
+        weather_end = min(fetch_end, latest_nasa_date)
+        if weather_end < start_date:
+            return jsonify({
+                "status": "data_pending",
+                "message": (
+                    f"{farm_crop} season ({season_name}) started on "
+                    f"{start_date.strftime('%B %d, %Y')}, but NASA POWER daily data "
+                    f"is currently available only through {latest_nasa_date.strftime('%B %d, %Y')}. "
+                    "Please run the analysis again after a few more days."
+                ),
+                "crop": farm_crop,
+                "season": season_name,
+                "season_status": season_status,
+                "season_window": {
+                    "start": start_date.strftime("%b %d, %Y"),
+                    "end": fetch_end.strftime("%b %d, %Y"),
+                }
+            }), 409
+
         ndvi_start = (datetime.datetime.now() - datetime.timedelta(days=90)).strftime('%Y-%m-%d')
         ndvi_end   = datetime.datetime.now().strftime('%Y-%m-%d')
         ndvi_val   = get_ndvi(farm_lon, farm_lat, ndvi_start, ndvi_end)
 
-        fetch_end = end_date if season_status == "completed" else datetime.date.today()
         weather   = fetch_season_weather_nasa(farm_lat, farm_lon, start_date, fetch_end)
 
         if weather is None:

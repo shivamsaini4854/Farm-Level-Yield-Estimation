@@ -298,6 +298,11 @@
       return;
     }
 
+    if (data.status === "data_pending") {
+      container.innerHTML = '<div class="message-card" style="grid-column: 1 / -1;"><h4>Weather data pending</h4><p>' + data.message + "</p></div>";
+      return;
+    }
+
     if (data.error) {
       container.innerHTML = '<div class="message-card" style="grid-column: 1 / -1; border-color: rgba(198, 79, 79, 0.24); background: linear-gradient(180deg, rgba(255, 246, 246, 0.98), rgba(255, 255, 255, 0.96));"><h4 style="color: var(--red);">Unable to complete analysis</h4><p>' + data.error + "</p></div>";
       return;
