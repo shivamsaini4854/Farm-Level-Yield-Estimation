@@ -1,0 +1,199 @@
+
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: var(--font-sans); }
+  .board { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; padding: 1rem 0; }
+  .semester { background: var(--color-background-primary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); overflow: hidden; }
+  .sem-header { padding: 14px 16px 10px; border-bottom: 0.5px solid var(--color-border-tertiary); }
+  .sem-label { font-size: 11px; font-weight: 500; letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: 4px; }
+  .sem-title { font-size: 15px; font-weight: 500; color: var(--color-text-primary); }
+  .sem-sub { font-size: 12px; color: var(--color-text-secondary); margin-top: 2px; }
+  .tasks { padding: 12px; display: flex; flex-direction: column; gap: 8px; }
+  .task { border-radius: var(--border-radius-md); padding: 10px 12px; border: 0.5px solid var(--color-border-tertiary); background: var(--color-background-secondary); cursor: pointer; transition: border-color 0.15s; }
+  .task:hover { border-color: var(--color-border-secondary); }
+  .task-top { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; }
+  .tag { font-size: 10px; font-weight: 500; padding: 2px 7px; border-radius: 99px; }
+  .tag-data { background: #E6F1FB; color: #0C447C; }
+  .tag-ml { background: #EEEDFE; color: #3C3489; }
+  .tag-backend { background: #E1F5EE; color: #085041; }
+  .tag-frontend { background: #FAEEDA; color: #633806; }
+  .tag-deploy { background: #EAF3DE; color: #27500A; }
+  .tag-research { background: #FBEAF0; color: #72243E; }
+  .task-name { font-size: 13px; font-weight: 500; color: var(--color-text-primary); }
+  .task-desc { font-size: 12px; color: var(--color-text-secondary); line-height: 1.5; }
+  .status-row { display: flex; align-items: center; gap: 6px; margin-top: 8px; }
+  .status-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+  .dot-todo { background: var(--color-border-secondary); }
+  .dot-active { background: #1D9E75; }
+  .dot-done { background: #639922; }
+  .status-text { font-size: 11px; color: var(--color-text-secondary); }
+  .progress-bar { height: 3px; background: var(--color-border-tertiary); border-radius: 99px; margin: 12px 12px 10px; overflow: hidden; }
+  .progress-fill { height: 100%; border-radius: 99px; transition: width 0.3s; }
+  .legend { display: flex; flex-wrap: wrap; gap: 8px; padding: 0 0 1rem; }
+  .legend-item { display: flex; align-items: center; gap: 5px; font-size: 12px; color: var(--color-text-secondary); }
+  .legend-dot { width: 8px; height: 8px; border-radius: 50%; }
+  .sem6-color { color: #185FA5; }
+  .sem7-color { color: #3C3489; }
+  .sem8-color { color: #3B6D11; }
+  .ask-btn { display: block; width: 100%; margin-top: 6px; padding: 8px; font-size: 12px; color: var(--color-text-secondary); background: transparent; border: 0.5px dashed var(--color-border-secondary); border-radius: var(--border-radius-md); cursor: pointer; text-align: center; }
+  .ask-btn:hover { background: var(--color-background-secondary); color: var(--color-text-primary); }
+</style>
+
+<h2 class="sr-only">Farm-Level Yield Estimation — B.Tech project roadmap across 6th, 7th, and 8th semesters</h2>
+
+<div class="legend">
+  <div class="legend-item"><div class="legend-dot" style="background:#B5D4F4"></div>Data</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#CECBF6"></div>ML</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#9FE1CB"></div>Backend</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#FAC775"></div>Frontend</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#C0DD97"></div>Deploy</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#F4C0D1"></div>Research</div>
+  <div style="margin-left:auto; display:flex; gap:12px;">
+    <div class="legend-item"><div class="legend-dot dot-todo"></div>To do</div>
+    <div class="legend-item"><div class="legend-dot dot-active"></div>In progress</div>
+    <div class="legend-item"><div class="legend-dot dot-done"></div>Done</div>
+  </div>
+</div>
+
+<div class="board">
+
+  <div class="semester">
+    <div class="sem-header">
+      <div class="sem-label sem6-color">Semester 6</div>
+      <div class="sem-title">Foundation & Data</div>
+      <div class="sem-sub">Jan – May 2026</div>
+    </div>
+    <div class="progress-bar"><div class="progress-fill" style="width: 15%; background: #378ADD;"></div></div>
+    <div class="tasks">
+      <div class="task">
+        <div class="task-top"><span class="tag tag-research">Research</span></div>
+        <div class="task-name">Literature review</div>
+        <div class="task-desc">Study existing crop yield estimation papers and methods</div>
+        <div class="status-row"><div class="status-dot dot-active"></div><span class="status-text">In progress</span></div>
+      </div>
+      <div class="task">
+        <div class="task-top"><span class="tag tag-data">Data</span></div>
+        <div class="task-name">Finalize dataset sources</div>
+        <div class="task-desc">Sentinel-2 / MODIS, IMD weather, NBSS soil data, data.gov.in yield records</div>
+        <div class="status-row"><div class="status-dot dot-todo"></div><span class="status-text">To do</span></div>
+      </div>
+      <div class="task">
+        <div class="task-top"><span class="tag tag-data">Data</span></div>
+        <div class="task-name">Set up Google Earth Engine</div>
+        <div class="task-desc">Learn GEE, access satellite imagery, export NDVI time series</div>
+        <div class="status-row"><div class="status-dot dot-todo"></div><span class="status-text">To do</span></div>
+      </div>
+      <div class="task">
+        <div class="task-top"><span class="tag tag-data">Data</span></div>
+        <div class="task-name">Data cleaning & EDA</div>
+        <div class="task-desc">Clean datasets using Pandas, explore correlations with yield</div>
+        <div class="status-row"><div class="status-dot dot-todo"></div><span class="status-text">To do</span></div>
+      </div>
+      <div class="task">
+        <div class="task-top"><span class="tag tag-ml">ML</span></div>
+        <div class="task-name">Baseline ML model</div>
+        <div class="task-desc">Train Random Forest on NDVI + weather → yield. Measure RMSE.</div>
+        <div class="status-row"><div class="status-dot dot-todo"></div><span class="status-text">To do</span></div>
+      </div>
+      <div class="task">
+        <div class="task-top"><span class="tag tag-backend">Backend</span></div>
+        <div class="task-name">Flask project skeleton</div>
+        <div class="task-desc">Set up Flask app, MySQL schema, folder structure, GitHub repo</div>
+        <div class="status-row"><div class="status-dot dot-todo"></div><span class="status-text">To do</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="semester">
+    <div class="sem-header">
+      <div class="sem-label sem7-color">Semester 7</div>
+      <div class="sem-title">ML & Backend</div>
+      <div class="sem-sub">Jul – Nov 2026</div>
+    </div>
+    <div class="progress-bar"><div class="progress-fill" style="width: 0%; background: #7F77DD;"></div></div>
+    <div class="tasks">
+      <div class="task">
+        <div class="task-top"><span class="tag tag-ml">ML</span></div>
+        <div class="task-name">Advanced ML models</div>
+        <div class="task-desc">Train XGBoost, LSTM (time-series), compare accuracy metrics</div>
+        <div class="status-row"><div class="status-dot dot-todo"></div><span class="status-text">To do</span></div>
+      </div>
+      <div class="task">
+        <div class="task-top"><span class="tag tag-data">Data</span></div>
+        <div class="task-name">Feature engineering</div>
+        <div class="task-desc">Add NDRE, EVI, Land Surface Temp, soil moisture as features</div>
+        <div class="status-row"><div class="status-dot dot-todo"></div><span class="status-text">To do</span></div>
+      </div>
+      <div class="task">
+        <div class="task-top"><span class="tag tag-backend">Backend</span></div>
+        <div class="task-name">REST API development</div>
+        <div class="task-desc">Prediction API, data ingestion endpoints, alert generation logic</div>
+        <div class="status-row"><div class="status-dot dot-todo"></div><span class="status-text">To do</span></div>
+      </div>
+      <div class="task">
+        <div class="task-top"><span class="tag tag-backend">Backend</span></div>
+        <div class="task-name">Database integration</div>
+        <div class="task-desc">Connect MySQL/PostgreSQL, store predictions and historical data</div>
+        <div class="status-row"><div class="status-dot dot-todo"></div><span class="status-text">To do</span></div>
+      </div>
+      <div class="task">
+        <div class="task-top"><span class="tag tag-frontend">Frontend</span></div>
+        <div class="task-name">Farmer dashboard (basic)</div>
+        <div class="task-desc">HTML/CSS/JS dashboard — enter field data, view yield prediction</div>
+        <div class="status-row"><div class="status-dot dot-todo"></div><span class="status-text">To do</span></div>
+      </div>
+      <div class="task">
+        <div class="task-top"><span class="tag tag-backend">Backend</span></div>
+        <div class="task-name">QGIS map integration</div>
+        <div class="task-desc">Visualize field boundaries and yield maps spatially</div>
+        <div class="status-row"><div class="status-dot dot-todo"></div><span class="status-text">To do</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="semester">
+    <div class="sem-header">
+      <div class="sem-label sem8-color">Semester 8</div>
+      <div class="sem-title">Integration & Launch</div>
+      <div class="sem-sub">Jan – May 2027</div>
+    </div>
+    <div class="progress-bar"><div class="progress-fill" style="width: 0%; background: #639922;"></div></div>
+    <div class="tasks">
+      <div class="task">
+        <div class="task-top"><span class="tag tag-frontend">Frontend</span></div>
+        <div class="task-name">Complete farmer UI</div>
+        <div class="task-desc">Polished frontend with alerts, reports, NDVI map view for farmer</div>
+        <div class="status-row"><div class="status-dot dot-todo"></div><span class="status-text">To do</span></div>
+      </div>
+      <div class="task">
+        <div class="task-top"><span class="tag tag-frontend">Frontend</span></div>
+        <div class="task-name">Govt/admin dashboard</div>
+        <div class="task-desc">Analytics view for authorities — district-level summaries, export reports</div>
+        <div class="status-row"><div class="status-dot dot-todo"></div><span class="status-text">To do</span></div>
+      </div>
+      <div class="task">
+        <div class="task-top"><span class="tag tag-ml">ML</span></div>
+        <div class="task-name">Model evaluation & tuning</div>
+        <div class="task-desc">Cross-validation, hyperparameter tuning, final accuracy benchmarking</div>
+        <div class="status-row"><div class="status-dot dot-todo"></div><span class="status-text">To do</span></div>
+      </div>
+      <div class="task">
+        <div class="task-top"><span class="tag tag-deploy">Deploy</span></div>
+        <div class="task-name">Cloud deployment</div>
+        <div class="task-desc">Deploy Flask + frontend on Render or Railway, live demo link</div>
+        <div class="status-row"><div class="status-dot dot-todo"></div><span class="status-text">To do</span></div>
+      </div>
+      <div class="task">
+        <div class="task-top"><span class="tag tag-research">Research</span></div>
+        <div class="task-name">Final report & presentation</div>
+        <div class="task-desc">Write complete project report, prepare demo for viva</div>
+        <div class="status-row"><div class="status-dot dot-todo"></div><span class="status-text">To do</span></div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<button class="ask-btn" onclick="sendPrompt('Help me start the first task: literature review for farm-level yield estimation')">Start with literature review ↗</button>
+<button class="ask-btn" onclick="sendPrompt('How do I set up Google Earth Engine for my yield estimation project?')" style="margin-top:6px;">Help me set up Google Earth Engine ↗</button>
+<button class="ask-btn" onclick="sendPrompt('Help me set up the Flask project skeleton and MySQL schema for farm yield estimation')" style="margin-top:6px;">Set up Flask + database skeleton ↗</button>

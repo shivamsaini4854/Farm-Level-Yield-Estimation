@@ -34,6 +34,8 @@ Output:
     ndvi_historical_all.csv       merged all-India file (after --merge)
 """
 
+from farm_yield.paths import RAW_DATA, NDVI_RAW, PROCESSED_DATA
+
 import ee
 import pandas as pd
 import numpy as np
@@ -370,7 +372,7 @@ def fetch_ndvi_for_year(year: int, districts: list) -> dict:
 def fetch_state(state_name: str, apy_df: pd.DataFrame):
     """Fetch NDVI for all districts in one state and save to CSV."""
 
-    out_file = f"ndvi_historical_{state_name.replace(' ', '_')}.csv"
+    out_file = NDVI_RAW / f"ndvi_historical_{state_name.replace(' ', '_')}.csv"
 
     # Load cache if exists (resume support)
     done_years = set()
@@ -431,7 +433,7 @@ def merge_all_states():
     """Merge all per-state CSVs into one all-India file."""
     frames = []
     for state in TARGET_STATES:
-        fname = f"ndvi_historical_{state.replace(' ', '_')}.csv"
+        fname = NDVI_RAW / f"ndvi_historical_{state.replace(' ', '_')}.csv"
         if os.path.exists(fname):
             df = pd.read_csv(fname)
             frames.append(df)
@@ -441,7 +443,7 @@ def merge_all_states():
 
     if frames:
         merged = pd.concat(frames, ignore_index=True)
-        merged.to_csv("ndvi_historical_all.csv", index=False)
+        merged.to_csv(NDVI_RAW / "ndvi_historical_all.csv", index=False)
         print(f"\n✅ Merged file: ndvi_historical_all.csv ({len(merged)} rows)")
         print(f"   States: {merged['State'].nunique()}")
         print(f"   Districts: {merged['District'].nunique()}")
@@ -471,7 +473,7 @@ def main():
     print("✅ GEE initialized\n")
 
     # Load APY
-    apy = pd.read_csv('APY.csv')
+    apy = pd.read_csv(RAW_DATA / 'APY.csv')
     apy.columns = apy.columns.str.strip()
     apy['District'] = apy['District'].str.strip()
     apy['State'] = apy['State'].str.strip()

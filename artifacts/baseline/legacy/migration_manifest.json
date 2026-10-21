@@ -1,0 +1,4265 @@
+{
+  "code_commit": "7a7a8b65e33c6dbfc66fa4d3b7096e8d1897748b",
+  "files": [
+    {
+      "source": "app.py",
+      "destination": "farm_yield/web.py",
+      "sha256": "2cabb16be3e92b411c8d5f287e63f6f475ef8ca973ddfbbb6e498424b3e157ae",
+      "bytes": 15966
+    },
+    {
+      "source": "merge_and_train.py",
+      "destination": "farm_yield/ml/train.py",
+      "sha256": "010af6d02cb50255a48831482c22bb35f66ce66288809282ee4a87eb35dcda40",
+      "bytes": 13758
+    },
+    {
+      "source": "setup_db.py",
+      "destination": "farm_yield/database.py",
+      "sha256": "45a612b7dee8cd3f601c02092b5998ac1deaf4eee467e81a8ebe7db71fbc6aa7",
+      "bytes": 2113
+    },
+    {
+      "source": "APY.csv",
+      "destination": "data/raw/APY.csv",
+      "sha256": "8da3428b4169b7aebfd043ff2d30afe34f9421a4b0949e40c4b375859e53843e",
+      "bytes": 21143323
+    },
+    {
+      "source": "nasa_power_raw/ADILABAD.csv",
+      "destination": "data/raw/nasa_power/ADILABAD.csv",
+      "sha256": "0bcd7e6d962bce7116de3d11932e476e0abbc42802a8e8b110710fe115457cdc",
+      "bytes": 510217
+    },
+    {
+      "source": "nasa_power_raw/AGAR_MALWA.csv",
+      "destination": "data/raw/nasa_power/AGAR_MALWA.csv",
+      "sha256": "54a1bf50773122528b3ae221f0c3902697ce868cd702f1518193b891d0fda38b",
+      "bytes": 507276
+    },
+    {
+      "source": "nasa_power_raw/AGRA.csv",
+      "destination": "data/raw/nasa_power/AGRA.csv",
+      "sha256": "fd751c798cfc4168992ea93f692b812148f0b206cfaf713db0c11d938097e64b",
+      "bytes": 507533
+    },
+    {
+      "source": "nasa_power_raw/AHMADABAD.csv",
+      "destination": "data/raw/nasa_power/AHMADABAD.csv",
+      "sha256": "d4d9e79afbe5c11068c929aad423a9fddf71046a2a25d7a136348904baa42569",
+      "bytes": 508333
+    },
+    {
+      "source": "nasa_power_raw/AHMEDNAGAR.csv",
+      "destination": "data/raw/nasa_power/AHMEDNAGAR.csv",
+      "sha256": "f13494c0dec325f7d11c9c4343b30b4083039ce4cd8a7c3493fa30859339cce4",
+      "bytes": 508955
+    },
+    {
+      "source": "nasa_power_raw/AIZAWL.csv",
+      "destination": "data/raw/nasa_power/AIZAWL.csv",
+      "sha256": "74e470abac1fff5c68888b3eff3f0b33c060aec168e86cff9f25b5b82a57fe67",
+      "bytes": 509724
+    },
+    {
+      "source": "nasa_power_raw/AJMER.csv",
+      "destination": "data/raw/nasa_power/AJMER.csv",
+      "sha256": "52f2492457a6417c50ebdebad469dbc74b005f9d6226d440096d03ea458a14f8",
+      "bytes": 507986
+    },
+    {
+      "source": "nasa_power_raw/AKOLA.csv",
+      "destination": "data/raw/nasa_power/AKOLA.csv",
+      "sha256": "59c5fb338e353c131625e8aab80c1cc8888e7365f8036bda2d0e4de40e6d0de6",
+      "bytes": 508438
+    },
+    {
+      "source": "nasa_power_raw/ALAPPUZHA.csv",
+      "destination": "data/raw/nasa_power/ALAPPUZHA.csv",
+      "sha256": "5464f1123b936b8cb3328a5f45512dcb2894b2439efcd3dbe9f8575c933fbbf6",
+      "bytes": 514136
+    },
+    {
+      "source": "nasa_power_raw/ALIGARH.csv",
+      "destination": "data/raw/nasa_power/ALIGARH.csv",
+      "sha256": "3a81afdb8fd2e63f62c71491c033aaf9d06186a9880c74f1727f184801d2fcd8",
+      "bytes": 507624
+    },
+    {
+      "source": "nasa_power_raw/ALIPURDUAR.csv",
+      "destination": "data/raw/nasa_power/ALIPURDUAR.csv",
+      "sha256": "b05b48d888cda9288ec494c1e59637619b1011745641f71ecfeaa2d30602a00f",
+      "bytes": 510908
+    },
+    {
+      "source": "nasa_power_raw/ALIRAJPUR.csv",
+      "destination": "data/raw/nasa_power/ALIRAJPUR.csv",
+      "sha256": "39cc97b79450354597679ab2742718b7ccd9cd1dc3437042818710f74519f83c",
+      "bytes": 509171
+    },
+    {
+      "source": "nasa_power_raw/ALLAHABAD.csv",
+      "destination": "data/raw/nasa_power/ALLAHABAD.csv",
+      "sha256": "540760b84efbb0c9ee8e7166ebb63c92f7daaae228267081836e35b3d8ced067",
+      "bytes": 507801
+    },
+    {
+      "source": "nasa_power_raw/ALMORA.csv",
+      "destination": "data/raw/nasa_power/ALMORA.csv",
+      "sha256": "b839eae9f4eaf642c72632a3471f25ebfbe85178a1455636e785670e4ea8e4d3",
+      "bytes": 507306
+    },
+    {
+      "source": "nasa_power_raw/ALWAR.csv",
+      "destination": "data/raw/nasa_power/ALWAR.csv",
+      "sha256": "cf1d3adde26bf9809609cc4e84a2b9530b276e138eca9e983fe68740c72de6a5",
+      "bytes": 507686
+    },
+    {
+      "source": "nasa_power_raw/AMBALA.csv",
+      "destination": "data/raw/nasa_power/AMBALA.csv",
+      "sha256": "a231bfcc9f8c0b19c30f81fffe801d40c01cdd55b1ffdd4b83aa25890bdb941d",
+      "bytes": 508265
+    },
+    {
+      "source": "nasa_power_raw/AMBEDKAR_NAGAR.csv",
+      "destination": "data/raw/nasa_power/AMBEDKAR_NAGAR.csv",
+      "sha256": "91bb42e7c9bb313947d1f45d202d1967a86371128f744633968abd768b415230",
+      "bytes": 508047
+    },
+    {
+      "source": "nasa_power_raw/AMETHI.csv",
+      "destination": "data/raw/nasa_power/AMETHI.csv",
+      "sha256": "d95a2e3c82630bf72193c10757ee1524738eb11b81529cdafe4aaf978ea2099f",
+      "bytes": 507910
+    },
+    {
+      "source": "nasa_power_raw/AMRAVATI.csv",
+      "destination": "data/raw/nasa_power/AMRAVATI.csv",
+      "sha256": "b5893e619a6ac3dfee670b5fe92acdc6748233c736211d99f4660c9f045e62b9",
+      "bytes": 508414
+    },
+    {
+      "source": "nasa_power_raw/AMRELI.csv",
+      "destination": "data/raw/nasa_power/AMRELI.csv",
+      "sha256": "c71c42b38f12f4764247962f90b14ddee368af9edb5e67422ee3217880cb5ab4",
+      "bytes": 507861
+    },
+    {
+      "source": "nasa_power_raw/AMRITSAR.csv",
+      "destination": "data/raw/nasa_power/AMRITSAR.csv",
+      "sha256": "a6974f9d353698680eef5bc43c5dde3d82385998d6a19f5e5b743d4bc5b2fde6",
+      "bytes": 507341
+    },
+    {
+      "source": "nasa_power_raw/AMROHA.csv",
+      "destination": "data/raw/nasa_power/AMROHA.csv",
+      "sha256": "1e1e8ceade620db8e9bdbb2405f13a04026ae1de363b6451580b282f194b8884",
+      "bytes": 507935
+    },
+    {
+      "source": "nasa_power_raw/ANAND.csv",
+      "destination": "data/raw/nasa_power/ANAND.csv",
+      "sha256": "bb42d28f752c48b7c4d865f8afa261fd4165097c2e905690007d50df7a227bdf",
+      "bytes": 508808
+    },
+    {
+      "source": "nasa_power_raw/ANANTAPUR.csv",
+      "destination": "data/raw/nasa_power/ANANTAPUR.csv",
+      "sha256": "a01165cb128e5c819b09bf7264017279db6e8297fa427d47db9eb076ab22ad35",
+      "bytes": 510675
+    },
+    {
+      "source": "nasa_power_raw/ANANTNAG.csv",
+      "destination": "data/raw/nasa_power/ANANTNAG.csv",
+      "sha256": "843e10d0626487ec8f552069b0aeb122ff1a93d8b8517ea75ed468a00152aff0",
+      "bytes": 500578
+    },
+    {
+      "source": "nasa_power_raw/ANJAW.csv",
+      "destination": "data/raw/nasa_power/ANJAW.csv",
+      "sha256": "6748fa8d8f8526ef4a7cc7681f5fd95717772dd84eb18939f71c31e25fe89b78",
+      "bytes": 507031
+    },
+    {
+      "source": "nasa_power_raw/ANUGUL.csv",
+      "destination": "data/raw/nasa_power/ANUGUL.csv",
+      "sha256": "73ae6c3f88bd02ca47d95d3afd176452e3ca0840dd322cccad140398c19939e3",
+      "bytes": 510558
+    },
+    {
+      "source": "nasa_power_raw/ANUPPUR.csv",
+      "destination": "data/raw/nasa_power/ANUPPUR.csv",
+      "sha256": "2e3f484767a8384066f689f6b5d790049d6019c550c8dc47e62c59ef13694c4e",
+      "bytes": 508924
+    },
+    {
+      "source": "nasa_power_raw/ARARIA.csv",
+      "destination": "data/raw/nasa_power/ARARIA.csv",
+      "sha256": "6f8015312516a81429cb1c09956d03973c712b0a681873480a2385ea3928c0ac",
+      "bytes": 510148
+    },
+    {
+      "source": "nasa_power_raw/ARAVALLI.csv",
+      "destination": "data/raw/nasa_power/ARAVALLI.csv",
+      "sha256": "b95f7b5bb61a36fa2405ee5f572936bd7e1826e8c378664c4d29f91945865003",
+      "bytes": 508405
+    },
+    {
+      "source": "nasa_power_raw/ARIYALUR.csv",
+      "destination": "data/raw/nasa_power/ARIYALUR.csv",
+      "sha256": "5239b25dbe405738a97666466fecb26addd992714c94071849b2a67cff0035c4",
+      "bytes": 513140
+    },
+    {
+      "source": "nasa_power_raw/ARWAL.csv",
+      "destination": "data/raw/nasa_power/ARWAL.csv",
+      "sha256": "461a08b32e9768d2fdaa0599be81de367de6bc640566fc89d20b55203e4ac847",
+      "bytes": 508789
+    },
+    {
+      "source": "nasa_power_raw/ASHOKNAGAR.csv",
+      "destination": "data/raw/nasa_power/ASHOKNAGAR.csv",
+      "sha256": "1b258117abfe4467a0bdf856a9b05a59ba545c8114f37694581ad10b7cf26a37",
+      "bytes": 508316
+    },
+    {
+      "source": "nasa_power_raw/AURAIYA.csv",
+      "destination": "data/raw/nasa_power/AURAIYA.csv",
+      "sha256": "3c9284884cf1fa40b4a94d9c95c4a00c424e245e32a51cfe81a09e7ffd34c838",
+      "bytes": 507983
+    },
+    {
+      "source": "nasa_power_raw/AURANGABAD.csv",
+      "destination": "data/raw/nasa_power/AURANGABAD.csv",
+      "sha256": "a424b338aadfa115dc8f507df15e2f4ce01547da6a8f7fc4ceeca24e3320441e",
+      "bytes": 509198
+    },
+    {
+      "source": "nasa_power_raw/AZAMGARH.csv",
+      "destination": "data/raw/nasa_power/AZAMGARH.csv",
+      "sha256": "3e64eacf76caf087899be0263d46c997124ef87e653a7b2a4e46a45789239a23",
+      "bytes": 508196
+    },
+    {
+      "source": "nasa_power_raw/BAGALKOTE.csv",
+      "destination": "data/raw/nasa_power/BAGALKOTE.csv",
+      "sha256": "c4a2d8fd3f040d3019209fa51783517c0890441426a81629f2ad28eaeaad1075",
+      "bytes": 509440
+    },
+    {
+      "source": "nasa_power_raw/BAGESHWAR.csv",
+      "destination": "data/raw/nasa_power/BAGESHWAR.csv",
+      "sha256": "4d1a6b539e708a9398dc6d023e1fe881afb8a09b1877884b78952fe9866e68db",
+      "bytes": 502797
+    },
+    {
+      "source": "nasa_power_raw/BAGHPAT.csv",
+      "destination": "data/raw/nasa_power/BAGHPAT.csv",
+      "sha256": "22236c701fc004cc76be86768878eeea1f0c89aeb02eac7a8135f23525f5d24f",
+      "bytes": 507768
+    },
+    {
+      "source": "nasa_power_raw/BAHRAICH.csv",
+      "destination": "data/raw/nasa_power/BAHRAICH.csv",
+      "sha256": "46e40a9e4036e12530d3cbb5b259fcc4ed3cf7cbe40c7a92b16b848af2fbab0d",
+      "bytes": 508627
+    },
+    {
+      "source": "nasa_power_raw/BAKSA.csv",
+      "destination": "data/raw/nasa_power/BAKSA.csv",
+      "sha256": "a84db3f17ac49ce668391d3141116f8ff6a3c99d09c85ea8018e8338ab278d78",
+      "bytes": 510907
+    },
+    {
+      "source": "nasa_power_raw/BALAGHAT.csv",
+      "destination": "data/raw/nasa_power/BALAGHAT.csv",
+      "sha256": "dd57f189c4f6cdb2c6ed80fec95dea2855cda959b21e5b34d91e47364fd6d1cb",
+      "bytes": 509677
+    },
+    {
+      "source": "nasa_power_raw/BALANGIR.csv",
+      "destination": "data/raw/nasa_power/BALANGIR.csv",
+      "sha256": "4ba2d038cbf2082a140dc7a009d3bd86adf7c1aa47b813416a3f183b9376ad16",
+      "bytes": 511054
+    },
+    {
+      "source": "nasa_power_raw/BALESHWAR.csv",
+      "destination": "data/raw/nasa_power/BALESHWAR.csv",
+      "sha256": "141bc8552fcbf8f6b4611a9ea06e30291b10e3ed7a0437c51af26f15f8060913",
+      "bytes": 511278
+    },
+    {
+      "source": "nasa_power_raw/BALLARI.csv",
+      "destination": "data/raw/nasa_power/BALLARI.csv",
+      "sha256": "50509df54f540ed14cb42f3f403e8227e94aa98f3ca5188b6188e17d282fccc0",
+      "bytes": 509311
+    },
+    {
+      "source": "nasa_power_raw/BALLIA.csv",
+      "destination": "data/raw/nasa_power/BALLIA.csv",
+      "sha256": "4cec8a4d88ced56c0dc14266fda9b6d62c390843f3b35ebc8eb968994d47db9d",
+      "bytes": 508852
+    },
+    {
+      "source": "nasa_power_raw/BALOD.csv",
+      "destination": "data/raw/nasa_power/BALOD.csv",
+      "sha256": "c6133f0f7517037bc180ca4563ce203fa7e7a501d16b7ea04ede47fe38a2bfd9",
+      "bytes": 510060
+    },
+    {
+      "source": "nasa_power_raw/BALODA_BAZAR.csv",
+      "destination": "data/raw/nasa_power/BALODA_BAZAR.csv",
+      "sha256": "9916443534e8332d13cbf8b2e0ec9f9c2c35fe5f1f9fc8146c6a92826abf3e52",
+      "bytes": 509784
+    },
+    {
+      "source": "nasa_power_raw/BALRAMPUR.csv",
+      "destination": "data/raw/nasa_power/BALRAMPUR.csv",
+      "sha256": "7e06229f5f41cf26493bd764b0385937080781c0d8f2fb12be7d4a5c4d8702a4",
+      "bytes": 509268
+    },
+    {
+      "source": "nasa_power_raw/BANAS_KANTHA.csv",
+      "destination": "data/raw/nasa_power/BANAS_KANTHA.csv",
+      "sha256": "bbb8f0a5a99232321db62f58711bd36c86fbb31396a14b7b05c46b276d3f78a7",
+      "bytes": 508176
+    },
+    {
+      "source": "nasa_power_raw/BANDA.csv",
+      "destination": "data/raw/nasa_power/BANDA.csv",
+      "sha256": "83c03a67bf2551ea41e66be31db38f0f28f13a50b04cdade096d809769bae2d7",
+      "bytes": 508179
+    },
+    {
+      "source": "nasa_power_raw/BANDIPORA.csv",
+      "destination": "data/raw/nasa_power/BANDIPORA.csv",
+      "sha256": "39fa6a76696ea2b247ee62fa9eddabfe188a007bfc16178f26213a105c94395f",
+      "bytes": 501098
+    },
+    {
+      "source": "nasa_power_raw/BANGALORE_RURAL.csv",
+      "destination": "data/raw/nasa_power/BANGALORE_RURAL.csv",
+      "sha256": "f34cd2df43bbba7559d3eb8b6a57b279c6b2ac474af8b681c567be1c6f54f811",
+      "bytes": 511085
+    },
+    {
+      "source": "nasa_power_raw/BANKA.csv",
+      "destination": "data/raw/nasa_power/BANKA.csv",
+      "sha256": "2d141d1975f94d0b3d505301bc09e00f8380779e72cf585dd0be95ad6f6ce750",
+      "bytes": 508557
+    },
+    {
+      "source": "nasa_power_raw/BANKURA.csv",
+      "destination": "data/raw/nasa_power/BANKURA.csv",
+      "sha256": "59d0af2618697f9040ea4cdf712ff3d95cf053561ff83bfaef4dd65d539c34d0",
+      "bytes": 510234
+    },
+    {
+      "source": "nasa_power_raw/BANSWARA.csv",
+      "destination": "data/raw/nasa_power/BANSWARA.csv",
+      "sha256": "599f11c22e3e209d2befd62a0996d1da84f74442ede8c399dd53064eaf613cd0",
+      "bytes": 508881
+    },
+    {
+      "source": "nasa_power_raw/BARABANKI.csv",
+      "destination": "data/raw/nasa_power/BARABANKI.csv",
+      "sha256": "80e21d2c343618dab95b8fa254cc6353c0ca9df4d4ebd57627e8e5f45a8450ad",
+      "bytes": 508010
+    },
+    {
+      "source": "nasa_power_raw/BARAMULLA.csv",
+      "destination": "data/raw/nasa_power/BARAMULLA.csv",
+      "sha256": "2f84c27db67f4e612df74adcdcd5d06476e6f9e23c21369a4bed2d48a71be4c4",
+      "bytes": 500901
+    },
+    {
+      "source": "nasa_power_raw/BARAN.csv",
+      "destination": "data/raw/nasa_power/BARAN.csv",
+      "sha256": "b6a8a0760695ed3bda8cfa6f917d8b2475aeb8c61a22f5388ba6f5493b2210cc",
+      "bytes": 507990
+    },
+    {
+      "source": "nasa_power_raw/BAREILLY.csv",
+      "destination": "data/raw/nasa_power/BAREILLY.csv",
+      "sha256": "50cbca3ef1c0657f9c99fba31291761590bd1ecb9dc86c89297210ea69f2079b",
+      "bytes": 507825
+    },
+    {
+      "source": "nasa_power_raw/BARGARH.csv",
+      "destination": "data/raw/nasa_power/BARGARH.csv",
+      "sha256": "f3bd459e9038e2f1d6d40e781aaeae6e79ce1c87369eb74ed06b04e8e9f790d1",
+      "bytes": 510207
+    },
+    {
+      "source": "nasa_power_raw/BARMER.csv",
+      "destination": "data/raw/nasa_power/BARMER.csv",
+      "sha256": "64b2bfa38a6c9fa9a9271b7a3bd1bef84b6c155c665ba9204d4885440f758584",
+      "bytes": 506822
+    },
+    {
+      "source": "nasa_power_raw/BARNALA.csv",
+      "destination": "data/raw/nasa_power/BARNALA.csv",
+      "sha256": "5aaac328a7ea035b99a00fd6e005d0ea78675603a7a1ec46055bf11d4c9d202b",
+      "bytes": 507348
+    },
+    {
+      "source": "nasa_power_raw/BARPETA.csv",
+      "destination": "data/raw/nasa_power/BARPETA.csv",
+      "sha256": "a84db3f17ac49ce668391d3141116f8ff6a3c99d09c85ea8018e8338ab278d78",
+      "bytes": 510907
+    },
+    {
+      "source": "nasa_power_raw/BARWANI.csv",
+      "destination": "data/raw/nasa_power/BARWANI.csv",
+      "sha256": "9127fc8e16594ba013502088d2580762e73252057c73cca67d7328e0741d69bf",
+      "bytes": 508138
+    },
+    {
+      "source": "nasa_power_raw/BASTAR.csv",
+      "destination": "data/raw/nasa_power/BASTAR.csv",
+      "sha256": "7e5e1da17e768e3894bd24b830a7c0c2d5481e3198e542b58fa20a13888f32a6",
+      "bytes": 510162
+    },
+    {
+      "source": "nasa_power_raw/BASTI.csv",
+      "destination": "data/raw/nasa_power/BASTI.csv",
+      "sha256": "4a317e7601569c3ebaf0fbebed947c78ae9b87c8fa97b86d64b757c921990763",
+      "bytes": 508284
+    },
+    {
+      "source": "nasa_power_raw/BATHINDA.csv",
+      "destination": "data/raw/nasa_power/BATHINDA.csv",
+      "sha256": "99e622446427d774983e90a6c65b245c3ee7b94abcd99489acbc4cbf7bf33dcd",
+      "bytes": 507388
+    },
+    {
+      "source": "nasa_power_raw/BEED.csv",
+      "destination": "data/raw/nasa_power/BEED.csv",
+      "sha256": "0487708240b26c47da2ab1001d54c797c9c52fb460ba5ef9386a3f1dc9e6e0c5",
+      "bytes": 508902
+    },
+    {
+      "source": "nasa_power_raw/BEGUSARAI.csv",
+      "destination": "data/raw/nasa_power/BEGUSARAI.csv",
+      "sha256": "364427781f7a9d9bb6c69993a7381876b1fe9ad4fa9e3e669f5c7f21281f55be",
+      "bytes": 509212
+    },
+    {
+      "source": "nasa_power_raw/BELAGAVI.csv",
+      "destination": "data/raw/nasa_power/BELAGAVI.csv",
+      "sha256": "fee60606fc301a47cc678670551448b34e63eeb4a9f338ea983b5b6c3f073ec1",
+      "bytes": 510278
+    },
+    {
+      "source": "nasa_power_raw/BEMETARA.csv",
+      "destination": "data/raw/nasa_power/BEMETARA.csv",
+      "sha256": "c4c3eacbf286ca58a6a0a2c80957780799760e6bc20065d0dfd6661ad2eb311c",
+      "bytes": 509808
+    },
+    {
+      "source": "nasa_power_raw/BENGALURU_URBAN.csv",
+      "destination": "data/raw/nasa_power/BENGALURU_URBAN.csv",
+      "sha256": "1692b5a6df21ec312c9a06d847da7d0e002efe31580b5b1e774f71f35859f08d",
+      "bytes": 511046
+    },
+    {
+      "source": "nasa_power_raw/BETUL.csv",
+      "destination": "data/raw/nasa_power/BETUL.csv",
+      "sha256": "3afbe0e8001d7cf09c95271b048160b53a7a8418ab573ad0e0bc4ad4da7f1080",
+      "bytes": 509268
+    },
+    {
+      "source": "nasa_power_raw/BHADRADRI.csv",
+      "destination": "data/raw/nasa_power/BHADRADRI.csv",
+      "sha256": "6aa0e1bdb0faa0f093b0b8bde065bf1082e433ba12424d62edbd2e05148e0b29",
+      "bytes": 510907
+    },
+    {
+      "source": "nasa_power_raw/BHADRAK.csv",
+      "destination": "data/raw/nasa_power/BHADRAK.csv",
+      "sha256": "a7d252f3a155ec8ecc8102d83ba51e6920e1133c8969879041a30285b017ed4a",
+      "bytes": 510553
+    },
+    {
+      "source": "nasa_power_raw/BHAGALPUR.csv",
+      "destination": "data/raw/nasa_power/BHAGALPUR.csv",
+      "sha256": "1ac797a63363224d57a99463404438ff4783daa22e7fa56f656420d6696ed2d4",
+      "bytes": 508331
+    },
+    {
+      "source": "nasa_power_raw/BHANDARA.csv",
+      "destination": "data/raw/nasa_power/BHANDARA.csv",
+      "sha256": "8598b0873be403e357b739c718c24c7b481f2433c39d2547d6213746c0d4c4e4",
+      "bytes": 509278
+    },
+    {
+      "source": "nasa_power_raw/BHARATPUR.csv",
+      "destination": "data/raw/nasa_power/BHARATPUR.csv",
+      "sha256": "318eb766b7a10a2bf26c40c3c7a71f2ee45581c23707afc758e12efa3c3263bf",
+      "bytes": 507647
+    },
+    {
+      "source": "nasa_power_raw/BHARUCH.csv",
+      "destination": "data/raw/nasa_power/BHARUCH.csv",
+      "sha256": "cf75339134db2bb7e43fc9927533cfd3b83772ebb295138d48c0b5203c37dc18",
+      "bytes": 508978
+    },
+    {
+      "source": "nasa_power_raw/BHAVNAGAR.csv",
+      "destination": "data/raw/nasa_power/BHAVNAGAR.csv",
+      "sha256": "9ff9ecee3fc00def245c6bf90e0ca5cca024ba4772571371dc6b27acd061c0be",
+      "bytes": 507920
+    },
+    {
+      "source": "nasa_power_raw/BHILWARA.csv",
+      "destination": "data/raw/nasa_power/BHILWARA.csv",
+      "sha256": "8bcc90342ec011018bb5b607f1985144d421d11441f37035f893cbcd874b2e1b",
+      "bytes": 507798
+    },
+    {
+      "source": "nasa_power_raw/BHIND.csv",
+      "destination": "data/raw/nasa_power/BHIND.csv",
+      "sha256": "9aa4f11a7648cfffd93848ebdcfd2fb093476d4e2883e62000a6d2d810638b8f",
+      "bytes": 507906
+    },
+    {
+      "source": "nasa_power_raw/BHIWANI.csv",
+      "destination": "data/raw/nasa_power/BHIWANI.csv",
+      "sha256": "e5308f822269bf314b192ce8f2c5feb7a7f44bbd41eafb0cea3469aaeaf1a82d",
+      "bytes": 505449
+    },
+    {
+      "source": "nasa_power_raw/BHOJPUR.csv",
+      "destination": "data/raw/nasa_power/BHOJPUR.csv",
+      "sha256": "461a08b32e9768d2fdaa0599be81de367de6bc640566fc89d20b55203e4ac847",
+      "bytes": 508789
+    },
+    {
+      "source": "nasa_power_raw/BHOPAL.csv",
+      "destination": "data/raw/nasa_power/BHOPAL.csv",
+      "sha256": "de6b536991e39bafd72f2a3a1bbda558cb43861266cd82c2ba4916f0b375b181",
+      "bytes": 508214
+    },
+    {
+      "source": "nasa_power_raw/BIDAR.csv",
+      "destination": "data/raw/nasa_power/BIDAR.csv",
+      "sha256": "711775ce155ade809ca93287c338e50b12cb640fd4a0f4256af79ec066bfff8f",
+      "bytes": 510209
+    },
+    {
+      "source": "nasa_power_raw/BIJAPUR.csv",
+      "destination": "data/raw/nasa_power/BIJAPUR.csv",
+      "sha256": "b193b837d5cca2c3b0ab2734d7f4449437809442b2694d41d754b89c3821adb5",
+      "bytes": 510470
+    },
+    {
+      "source": "nasa_power_raw/BIJNOR.csv",
+      "destination": "data/raw/nasa_power/BIJNOR.csv",
+      "sha256": "2c261ab2b2c5e5438a0340b09162edccd6fde288713caff69da8c6bf4ceb2496",
+      "bytes": 508252
+    },
+    {
+      "source": "nasa_power_raw/BIKANER.csv",
+      "destination": "data/raw/nasa_power/BIKANER.csv",
+      "sha256": "6fbfeaa3696f4b93ddad32109f0c31dd115481a89d0475bde2ff29e1416d7650",
+      "bytes": 507233
+    },
+    {
+      "source": "nasa_power_raw/BILASPUR.csv",
+      "destination": "data/raw/nasa_power/BILASPUR.csv",
+      "sha256": "983ed45762e8ddff3a352eec81d0159a6b972c39a7fe929e4af51a1e28765cc8",
+      "bytes": 508826
+    },
+    {
+      "source": "nasa_power_raw/BIRBHUM.csv",
+      "destination": "data/raw/nasa_power/BIRBHUM.csv",
+      "sha256": "eda9ac3c13678b98de254fd3b6956c7ba51cda163ec4b0b029eaa5610234532d",
+      "bytes": 509980
+    },
+    {
+      "source": "nasa_power_raw/BISHNUPUR.csv",
+      "destination": "data/raw/nasa_power/BISHNUPUR.csv",
+      "sha256": "efae845318f48f79e3a0eb625a87922d1e59c36d165b4af1952e6f8eefbca86f",
+      "bytes": 509393
+    },
+    {
+      "source": "nasa_power_raw/BOKARO.csv",
+      "destination": "data/raw/nasa_power/BOKARO.csv",
+      "sha256": "746515061bc0e21a619b5734fd40bf75c0a7be07658d91f7ae2d441fe1b1a909",
+      "bytes": 509531
+    },
+    {
+      "source": "nasa_power_raw/BONGAIGAON.csv",
+      "destination": "data/raw/nasa_power/BONGAIGAON.csv",
+      "sha256": "c3b20aa5cad18a0772a662ede2da73638c24aaaabb50d1c68c645eac07a698df",
+      "bytes": 511063
+    },
+    {
+      "source": "nasa_power_raw/BOTAD.csv",
+      "destination": "data/raw/nasa_power/BOTAD.csv",
+      "sha256": "e13dd931b6676390735c3f2eeb3f4adb03ce9291a0f56b303be930c495198e21",
+      "bytes": 507983
+    },
+    {
+      "source": "nasa_power_raw/BOUDH.csv",
+      "destination": "data/raw/nasa_power/BOUDH.csv",
+      "sha256": "75897e283fda0c795d266e76b18eaee32ccf6ed266bebcfe1506ac0923f58cdb",
+      "bytes": 509945
+    },
+    {
+      "source": "nasa_power_raw/BUDAUN.csv",
+      "destination": "data/raw/nasa_power/BUDAUN.csv",
+      "sha256": "ba41e7e5f2196aa56047fdee657783d5daeef3313437c019d83e01c3553d6433",
+      "bytes": 507803
+    },
+    {
+      "source": "nasa_power_raw/BULANDSHAHR.csv",
+      "destination": "data/raw/nasa_power/BULANDSHAHR.csv",
+      "sha256": "add68edbd96f94fa049753dad9d98030343a6364079aea947abb0d70af7d5569",
+      "bytes": 507588
+    },
+    {
+      "source": "nasa_power_raw/BULDHANA.csv",
+      "destination": "data/raw/nasa_power/BULDHANA.csv",
+      "sha256": "c4b8f1329ac4a9dae7a453c809062f051ffd0a64cfa71f6bcd2e2eae206d25f0",
+      "bytes": 508509
+    },
+    {
+      "source": "nasa_power_raw/BUNDI.csv",
+      "destination": "data/raw/nasa_power/BUNDI.csv",
+      "sha256": "a802e344b5a7544be367e95051fe69ca975c02fa0b8fb7b8ae4f436ab5ecf9fd",
+      "bytes": 507680
+    },
+    {
+      "source": "nasa_power_raw/BURHANPUR.csv",
+      "destination": "data/raw/nasa_power/BURHANPUR.csv",
+      "sha256": "bfac358430ffbcf463158be911812596a2918deea76b8e1c243f9f03d3c635d0",
+      "bytes": 508249
+    },
+    {
+      "source": "nasa_power_raw/BUXAR.csv",
+      "destination": "data/raw/nasa_power/BUXAR.csv",
+      "sha256": "999a8aaa4a6be6c325d518247b1fb2e4d7614fe2fa4a748d56cfc7ce61cd6303",
+      "bytes": 508594
+    },
+    {
+      "source": "nasa_power_raw/CACHAR.csv",
+      "destination": "data/raw/nasa_power/CACHAR.csv",
+      "sha256": "1e04d9ed7a64273b052900899d09c05849adfad758d61a506aef608fef2175d5",
+      "bytes": 512150
+    },
+    {
+      "source": "nasa_power_raw/CHAMARAJANAGARA.csv",
+      "destination": "data/raw/nasa_power/CHAMARAJANAGARA.csv",
+      "sha256": "f9bc4265de482b7c03ece005d2c7605fb8c0019c19a81c715a725dac6f202742",
+      "bytes": 511649
+    },
+    {
+      "source": "nasa_power_raw/CHAMBA.csv",
+      "destination": "data/raw/nasa_power/CHAMBA.csv",
+      "sha256": "a25e99a5a5b45a5a392b832c745600a631d37e6fc5fc6bb44870c1945f9e6b6e",
+      "bytes": 501339
+    },
+    {
+      "source": "nasa_power_raw/CHAMOLI.csv",
+      "destination": "data/raw/nasa_power/CHAMOLI.csv",
+      "sha256": "a759968825bfb1139f79b934efe37a39b30800f0f0d243e27a3032521deb612f",
+      "bytes": 499236
+    },
+    {
+      "source": "nasa_power_raw/CHAMPAWAT.csv",
+      "destination": "data/raw/nasa_power/CHAMPAWAT.csv",
+      "sha256": "a4047108b50dd561d19de1524f875773c041360da656b2c64c8441ef2338f3dd",
+      "bytes": 506008
+    },
+    {
+      "source": "nasa_power_raw/CHAMPHAI.csv",
+      "destination": "data/raw/nasa_power/CHAMPHAI.csv",
+      "sha256": "fee98c05adc04e20e3dfc8f47663fc633c5d76b70169ae05e7224d8426552fd6",
+      "bytes": 509333
+    },
+    {
+      "source": "nasa_power_raw/CHANDAULI.csv",
+      "destination": "data/raw/nasa_power/CHANDAULI.csv",
+      "sha256": "3bb3b5bca1fdc6d10e22cd8b20bdb6920df494016b0ecaaad77872a627dfb837",
+      "bytes": 507405
+    },
+    {
+      "source": "nasa_power_raw/CHANDEL.csv",
+      "destination": "data/raw/nasa_power/CHANDEL.csv",
+      "sha256": "32033e22f79088181d9634ad1ff3703e0db144f044b62d1b080ce905b317f346",
+      "bytes": 509231
+    },
+    {
+      "source": "nasa_power_raw/CHANDIGARH.csv",
+      "destination": "data/raw/nasa_power/CHANDIGARH.csv",
+      "sha256": "a231bfcc9f8c0b19c30f81fffe801d40c01cdd55b1ffdd4b83aa25890bdb941d",
+      "bytes": 508265
+    },
+    {
+      "source": "nasa_power_raw/CHANDRAPUR.csv",
+      "destination": "data/raw/nasa_power/CHANDRAPUR.csv",
+      "sha256": "704752669a62f4ef44f903657e288e4e99813078335b48d5c9521165588f1ca5",
+      "bytes": 509855
+    },
+    {
+      "source": "nasa_power_raw/CHANGLANG.csv",
+      "destination": "data/raw/nasa_power/CHANGLANG.csv",
+      "sha256": "dd7070ea043665d834e73b6dd4305be1b71ce5374da18f20ad1358c724661c4d",
+      "bytes": 509021
+    },
+    {
+      "source": "nasa_power_raw/CHARKI_DADRI.csv",
+      "destination": "data/raw/nasa_power/CHARKI_DADRI.csv",
+      "sha256": "53d9b47666c4755738d426e251ad7ef48029b0d89dcdb15e539fbaa55d1bd320",
+      "bytes": 507615
+    },
+    {
+      "source": "nasa_power_raw/CHATRA.csv",
+      "destination": "data/raw/nasa_power/CHATRA.csv",
+      "sha256": "7d453fe1b9a83541213773457288bdfb196dc4e1eddd85446428669e9eb46526",
+      "bytes": 508847
+    },
+    {
+      "source": "nasa_power_raw/CHENGALPATTU.csv",
+      "destination": "data/raw/nasa_power/CHENGALPATTU.csv",
+      "sha256": "2a29f331ce1e724f5cc5ba195df5fbef5b9ad005cc8d1029960db29bad69635d",
+      "bytes": 512733
+    },
+    {
+      "source": "nasa_power_raw/CHHATARPUR.csv",
+      "destination": "data/raw/nasa_power/CHHATARPUR.csv",
+      "sha256": "f736e7ee6cfbf84ddb40e4d77521111b0b50a8c90a1d2b3707b354a61ecabb17",
+      "bytes": 508832
+    },
+    {
+      "source": "nasa_power_raw/CHHINDWARA.csv",
+      "destination": "data/raw/nasa_power/CHHINDWARA.csv",
+      "sha256": "7a8ff3c4a5bfddb9b38d983b82fd23744384f5593cc3f1b610e2e83588e20bcc",
+      "bytes": 508650
+    },
+    {
+      "source": "nasa_power_raw/CHHOTAUDEPUR.csv",
+      "destination": "data/raw/nasa_power/CHHOTAUDEPUR.csv",
+      "sha256": "826bc6a0391222bf78341d52834fae65ec60274506d317b2f50c19387a0d1ad4",
+      "bytes": 509235
+    },
+    {
+      "source": "nasa_power_raw/CHIKKABALLAPURA.csv",
+      "destination": "data/raw/nasa_power/CHIKKABALLAPURA.csv",
+      "sha256": "f82df310c2b6f9fdc5dd53c6e2279747819bab55e9eb80f87f57aec0cfbb37ce",
+      "bytes": 511083
+    },
+    {
+      "source": "nasa_power_raw/CHIKKAMAGALURU.csv",
+      "destination": "data/raw/nasa_power/CHIKKAMAGALURU.csv",
+      "sha256": "429b748c0048507442fa099046d0f269947b60756ebd374aca1da6bc4a0646d2",
+      "bytes": 511990
+    },
+    {
+      "source": "nasa_power_raw/CHIRANG.csv",
+      "destination": "data/raw/nasa_power/CHIRANG.csv",
+      "sha256": "c3b20aa5cad18a0772a662ede2da73638c24aaaabb50d1c68c645eac07a698df",
+      "bytes": 511063
+    },
+    {
+      "source": "nasa_power_raw/CHITRADURGA.csv",
+      "destination": "data/raw/nasa_power/CHITRADURGA.csv",
+      "sha256": "960bc6845cc2b83bb30f08fd53428e817e93150197d4cd260521ebf44dba3fda",
+      "bytes": 510970
+    },
+    {
+      "source": "nasa_power_raw/CHITRAKOOT.csv",
+      "destination": "data/raw/nasa_power/CHITRAKOOT.csv",
+      "sha256": "df585fcdf48001ca4420aafee858a2900a810f206b7a8ee4ead7cf9bedb06dad",
+      "bytes": 508701
+    },
+    {
+      "source": "nasa_power_raw/CHITTOOR.csv",
+      "destination": "data/raw/nasa_power/CHITTOOR.csv",
+      "sha256": "29d35eb7d5bcbf666ebd7c2a22b48d00cc22a4449a433ff29444a86c019ca441",
+      "bytes": 511187
+    },
+    {
+      "source": "nasa_power_raw/CHITTORGARH.csv",
+      "destination": "data/raw/nasa_power/CHITTORGARH.csv",
+      "sha256": "203c097b7edc2c9c16fcbb981dc9071c7f4763c1459036c72ebe33bd8df62641",
+      "bytes": 507883
+    },
+    {
+      "source": "nasa_power_raw/CHURACHANDPUR.csv",
+      "destination": "data/raw/nasa_power/CHURACHANDPUR.csv",
+      "sha256": "efae845318f48f79e3a0eb625a87922d1e59c36d165b4af1952e6f8eefbca86f",
+      "bytes": 509393
+    },
+    {
+      "source": "nasa_power_raw/CHURU.csv",
+      "destination": "data/raw/nasa_power/CHURU.csv",
+      "sha256": "c65b845e65e47ef7792f9aa22edbad66fb107db430988ab879926555ca4ed0be",
+      "bytes": 507181
+    },
+    {
+      "source": "nasa_power_raw/COIMBATORE.csv",
+      "destination": "data/raw/nasa_power/COIMBATORE.csv",
+      "sha256": "249a59e667191b2dceff12e04dd679465abb31807202aaa64110d78927ec0223",
+      "bytes": 512364
+    },
+    {
+      "source": "nasa_power_raw/COOCHBEHAR.csv",
+      "destination": "data/raw/nasa_power/COOCHBEHAR.csv",
+      "sha256": "b05b48d888cda9288ec494c1e59637619b1011745641f71ecfeaa2d30602a00f",
+      "bytes": 510908
+    },
+    {
+      "source": "nasa_power_raw/CUDDALORE.csv",
+      "destination": "data/raw/nasa_power/CUDDALORE.csv",
+      "sha256": "a4d77e2243dcabd8757a074dce0fcb4652103250da4f0233fa585486192c2c25",
+      "bytes": 512158
+    },
+    {
+      "source": "nasa_power_raw/CUTTACK.csv",
+      "destination": "data/raw/nasa_power/CUTTACK.csv",
+      "sha256": "02337975bec9aa625be32126b9d84bb8031e94347eb3adf702c84663169a3044",
+      "bytes": 510809
+    },
+    {
+      "source": "nasa_power_raw/DAKSHINA_KANNADA.csv",
+      "destination": "data/raw/nasa_power/DAKSHINA_KANNADA.csv",
+      "sha256": "56aad9d0835115ff86f2136a87de212ab4d58a6162d65e6bf81a54a0b8b5cb1b",
+      "bytes": 513443
+    },
+    {
+      "source": "nasa_power_raw/DAMAN.csv",
+      "destination": "data/raw/nasa_power/DAMAN.csv",
+      "sha256": "a5bd0b85139bc5802ccdfe291868d775e1660ae530cd58631ee359a74552f78e",
+      "bytes": 509567
+    },
+    {
+      "source": "nasa_power_raw/DAMOH.csv",
+      "destination": "data/raw/nasa_power/DAMOH.csv",
+      "sha256": "c400475c800b9d0ea6c7ade0a51c9169b94b5662e8454b1841c29af0278fe14f",
+      "bytes": 508775
+    },
+    {
+      "source": "nasa_power_raw/DANG.csv",
+      "destination": "data/raw/nasa_power/DANG.csv",
+      "sha256": "fafa1c3ea6564f7cf28e9cac4493c38bb54b9e854afc26c01967b18b9816f227",
+      "bytes": 509501
+    },
+    {
+      "source": "nasa_power_raw/DANTEWADA.csv",
+      "destination": "data/raw/nasa_power/DANTEWADA.csv",
+      "sha256": "9adc0c3b16fbb7347b436964d15bce36956b0d727ac99a93ead652317c494d4a",
+      "bytes": 509692
+    },
+    {
+      "source": "nasa_power_raw/DARBHANGA.csv",
+      "destination": "data/raw/nasa_power/DARBHANGA.csv",
+      "sha256": "bfce5d3aa66142e97e92a3fa2fd31468485ee67badea10c3a507ef430e1e39da",
+      "bytes": 509150
+    },
+    {
+      "source": "nasa_power_raw/DARJEELING.csv",
+      "destination": "data/raw/nasa_power/DARJEELING.csv",
+      "sha256": "cfea35a77081f7672d6e12cd45dddb7ae2ed2ee0a3b97553863b95a9810a67f5",
+      "bytes": 508797
+    },
+    {
+      "source": "nasa_power_raw/DARRANG.csv",
+      "destination": "data/raw/nasa_power/DARRANG.csv",
+      "sha256": "3c65a0270398b0ebf6d21c0085c38a580c879f21573ee15478f3e5d275e99dd3",
+      "bytes": 511318
+    },
+    {
+      "source": "nasa_power_raw/DATIA.csv",
+      "destination": "data/raw/nasa_power/DATIA.csv",
+      "sha256": "54757f84ca012e183f3b0bed059ed7ca80313204b41d923f577e1666fea07276",
+      "bytes": 508191
+    },
+    {
+      "source": "nasa_power_raw/DAUSA.csv",
+      "destination": "data/raw/nasa_power/DAUSA.csv",
+      "sha256": "e501402280e4c795d8876552066982a99e2d5397f1e48766ad4f1ce5e65ea2ae",
+      "bytes": 508178
+    },
+    {
+      "source": "nasa_power_raw/DAVANGERE.csv",
+      "destination": "data/raw/nasa_power/DAVANGERE.csv",
+      "sha256": "43d87a8f0292af0c465fddd523a34e3a0462d56040b18fd4ee278674599c35a2",
+      "bytes": 511441
+    },
+    {
+      "source": "nasa_power_raw/DEHRADUN.csv",
+      "destination": "data/raw/nasa_power/DEHRADUN.csv",
+      "sha256": "e98c66d4afcb559af162c7dc23e77649e225cee92a42b5ec24e8f67f43d383d4",
+      "bytes": 505572
+    },
+    {
+      "source": "nasa_power_raw/DEOGARH.csv",
+      "destination": "data/raw/nasa_power/DEOGARH.csv",
+      "sha256": "b1ca251075d50d985205b3b423ccf70255e97c8a07d5a4d87a24cafa55997e40",
+      "bytes": 509850
+    },
+    {
+      "source": "nasa_power_raw/DEOGHAR.csv",
+      "destination": "data/raw/nasa_power/DEOGHAR.csv",
+      "sha256": "cb0a30774c46cc7768ac4662d9781758f5704e9af98df45d941d63210da0c11f",
+      "bytes": 509813
+    },
+    {
+      "source": "nasa_power_raw/DEORIA.csv",
+      "destination": "data/raw/nasa_power/DEORIA.csv",
+      "sha256": "58dc096fe73c5f56a8e58132219e7543733cbdd6dc2b887396a0b95e311a5a0e",
+      "bytes": 508544
+    },
+    {
+      "source": "nasa_power_raw/DEVBHUMI_DWARKA.csv",
+      "destination": "data/raw/nasa_power/DEVBHUMI_DWARKA.csv",
+      "sha256": "e36f3629ed8fed9b32437e862734135eba4ae95bdd8f8709a7746873c98bf94e",
+      "bytes": 509091
+    },
+    {
+      "source": "nasa_power_raw/DEWAS.csv",
+      "destination": "data/raw/nasa_power/DEWAS.csv",
+      "sha256": "0120f4ebe78d7a762194789f70496d8b41fc7b13a3f465acec1f8e874e697cfb",
+      "bytes": 507535
+    },
+    {
+      "source": "nasa_power_raw/DHAMTARI.csv",
+      "destination": "data/raw/nasa_power/DHAMTARI.csv",
+      "sha256": "c6133f0f7517037bc180ca4563ce203fa7e7a501d16b7ea04ede47fe38a2bfd9",
+      "bytes": 510060
+    },
+    {
+      "source": "nasa_power_raw/DHANBAD.csv",
+      "destination": "data/raw/nasa_power/DHANBAD.csv",
+      "sha256": "8289479c6d3bdb5a069bbea80fef9b911cbdbe319467ebc2a24bea7bab267ded",
+      "bytes": 509984
+    },
+    {
+      "source": "nasa_power_raw/DHAR.csv",
+      "destination": "data/raw/nasa_power/DHAR.csv",
+      "sha256": "c660ad046ac4f7d22e88131061d83a7df9de5fb491f9ff7256e6bfd4998bb3d9",
+      "bytes": 508149
+    },
+    {
+      "source": "nasa_power_raw/DHARMAPURI.csv",
+      "destination": "data/raw/nasa_power/DHARMAPURI.csv",
+      "sha256": "25f531afa556441eae789b82c7fd4ba980eb6b6f5e3bdba67076c7710bcfb5da",
+      "bytes": 511488
+    },
+    {
+      "source": "nasa_power_raw/DHARWAD.csv",
+      "destination": "data/raw/nasa_power/DHARWAD.csv",
+      "sha256": "f5c72eeb65419dcfd5d76a404b67521c95817a1ebe074d8edcdd59b20abdcabe",
+      "bytes": 511039
+    },
+    {
+      "source": "nasa_power_raw/DHEMAJI.csv",
+      "destination": "data/raw/nasa_power/DHEMAJI.csv",
+      "sha256": "57f91e982eb4e181c7ab9ff46b7fb2cf4ccd351ec17cae61591244a5943a6f6d",
+      "bytes": 510725
+    },
+    {
+      "source": "nasa_power_raw/DHENKANAL.csv",
+      "destination": "data/raw/nasa_power/DHENKANAL.csv",
+      "sha256": "02337975bec9aa625be32126b9d84bb8031e94347eb3adf702c84663169a3044",
+      "bytes": 510809
+    },
+    {
+      "source": "nasa_power_raw/DHOLPUR.csv",
+      "destination": "data/raw/nasa_power/DHOLPUR.csv",
+      "sha256": "2b1385297accd76971f0504418400055033019987aaf06297c27fb5ceaf50dba",
+      "bytes": 508036
+    },
+    {
+      "source": "nasa_power_raw/DHUBRI.csv",
+      "destination": "data/raw/nasa_power/DHUBRI.csv",
+      "sha256": "49f43c89e9a16c135bd68ac3cf565a0ecd7db012ef01a8db5febcf6d9a2bbc2d",
+      "bytes": 510876
+    },
+    {
+      "source": "nasa_power_raw/DHULE.csv",
+      "destination": "data/raw/nasa_power/DHULE.csv",
+      "sha256": "23386ef2b4f56ec77c545e19a465efd021e54c2bf55a141fe43e2b8392b14966",
+      "bytes": 508437
+    },
+    {
+      "source": "nasa_power_raw/DIBANG_VALLEY.csv",
+      "destination": "data/raw/nasa_power/DIBANG_VALLEY.csv",
+      "sha256": "5b8694d28a40b9ed46fe11601100e8b9bf1a694706e6e69cec9ca6a074114018",
+      "bytes": 499808
+    },
+    {
+      "source": "nasa_power_raw/DIBRUGARH.csv",
+      "destination": "data/raw/nasa_power/DIBRUGARH.csv",
+      "sha256": "efbc7126b3f585dcd5dfdcfaa1f1174e0d5d4c482d6fb314005591218ab78e4c",
+      "bytes": 511072
+    },
+    {
+      "source": "nasa_power_raw/DIMA_HASAO.csv",
+      "destination": "data/raw/nasa_power/DIMA_HASAO.csv",
+      "sha256": "118810f68daefae51a6b0dbdd4f783cc0d1020fddc6a1444ac6904a5e52b7803",
+      "bytes": 510311
+    },
+    {
+      "source": "nasa_power_raw/DIMAPUR.csv",
+      "destination": "data/raw/nasa_power/DIMAPUR.csv",
+      "sha256": "b38fe37fdff7e8d86d56ce7cb0a05fe307e71d866f7d590c293f5c5a92d9cf65",
+      "bytes": 510513
+    },
+    {
+      "source": "nasa_power_raw/DINAJPUR_DAKSHIN.csv",
+      "destination": "data/raw/nasa_power/DINAJPUR_DAKSHIN.csv",
+      "sha256": "0ab557734dddf7616e24d634cc69fe6e3397d9b08fdbaeb7cce21d5c52e5906c",
+      "bytes": 510320
+    },
+    {
+      "source": "nasa_power_raw/DINAJPUR_UTTAR.csv",
+      "destination": "data/raw/nasa_power/DINAJPUR_UTTAR.csv",
+      "sha256": "0ab557734dddf7616e24d634cc69fe6e3397d9b08fdbaeb7cce21d5c52e5906c",
+      "bytes": 510320
+    },
+    {
+      "source": "nasa_power_raw/DINDIGUL.csv",
+      "destination": "data/raw/nasa_power/DINDIGUL.csv",
+      "sha256": "608b125229f5266339c66f8ecae31a2c0f03b38013e58dde92023c43cc1a72b7",
+      "bytes": 511753
+    },
+    {
+      "source": "nasa_power_raw/DINDORI.csv",
+      "destination": "data/raw/nasa_power/DINDORI.csv",
+      "sha256": "c74c85ccdb5998f1385323b4bff14e2c7ec0ab915eb99b9de18fe20193d98e47",
+      "bytes": 508889
+    },
+    {
+      "source": "nasa_power_raw/DIU.csv",
+      "destination": "data/raw/nasa_power/DIU.csv",
+      "sha256": "6d9ab0dbc2166bffee3ece34e352eabddaff451c768aef0f08fe3ec310f268e7",
+      "bytes": 510236
+    },
+    {
+      "source": "nasa_power_raw/DODA.csv",
+      "destination": "data/raw/nasa_power/DODA.csv",
+      "sha256": "3f097767bf64979d35378932a882010ae7a58b11b6838055d48c148d4e8d1cb1",
+      "bytes": 501761
+    },
+    {
+      "source": "nasa_power_raw/DOHAD.csv",
+      "destination": "data/raw/nasa_power/DOHAD.csv",
+      "sha256": "2f5b464852128ba6c87331138652a006265f9c67b65c83f077c26927026872b0",
+      "bytes": 509092
+    },
+    {
+      "source": "nasa_power_raw/DUMKA.csv",
+      "destination": "data/raw/nasa_power/DUMKA.csv",
+      "sha256": "4bc0395d66a1e8bc4bd86d13768ff6a3d2caa58b4a26181ce7b0d8fea3b7c8c9",
+      "bytes": 510037
+    },
+    {
+      "source": "nasa_power_raw/DUNGARPUR.csv",
+      "destination": "data/raw/nasa_power/DUNGARPUR.csv",
+      "sha256": "1cce3e98bc105a302d3c56c1efcd4127a732a93be6582a893f709ae9a48c88b9",
+      "bytes": 508369
+    },
+    {
+      "source": "nasa_power_raw/DURG.csv",
+      "destination": "data/raw/nasa_power/DURG.csv",
+      "sha256": "958826d35c290cfe9c48f4b14dc41a7af021a3034861256a550468563d98cf58",
+      "bytes": 510153
+    },
+    {
+      "source": "nasa_power_raw/EAST_GARO_HILLS.csv",
+      "destination": "data/raw/nasa_power/EAST_GARO_HILLS.csv",
+      "sha256": "c5d3dbf8beeade112e6d15552afe968b60b7d65a91cfbb905e3b0ad1101a8457",
+      "bytes": 511494
+    },
+    {
+      "source": "nasa_power_raw/EAST_GODAVARI.csv",
+      "destination": "data/raw/nasa_power/EAST_GODAVARI.csv",
+      "sha256": "3a9549b67ec9b1307c1455b1abdfb0b7b5364462ee3f8669671e45e54cbe6ddd",
+      "bytes": 510631
+    },
+    {
+      "source": "nasa_power_raw/EAST_JAINTIA_HILLS.csv",
+      "destination": "data/raw/nasa_power/EAST_JAINTIA_HILLS.csv",
+      "sha256": "b4a3900d913a2adb1315c2dcb936763220cf80d0401db2d9a2b88fed1f6bfc51",
+      "bytes": 510205
+    },
+    {
+      "source": "nasa_power_raw/EAST_KAMENG.csv",
+      "destination": "data/raw/nasa_power/EAST_KAMENG.csv",
+      "sha256": "51e60c2729559c1ae2693c9467ac346e725b75815bb06150e6d871f8acf82dec",
+      "bytes": 509662
+    },
+    {
+      "source": "nasa_power_raw/EAST_KHASI_HILLS.csv",
+      "destination": "data/raw/nasa_power/EAST_KHASI_HILLS.csv",
+      "sha256": "e82e0387f83a82c0a016ff30d2a78a81a9359e1413e304ee4fef8938420dc9a5",
+      "bytes": 509238
+    },
+    {
+      "source": "nasa_power_raw/EAST_SIANG.csv",
+      "destination": "data/raw/nasa_power/EAST_SIANG.csv",
+      "sha256": "da4c3363413aff8c3b0fc0380e3759c7e2c3a0444066ca7b9dcb86c0d2af9e95",
+      "bytes": 508821
+    },
+    {
+      "source": "nasa_power_raw/EAST_SINGHBUM.csv",
+      "destination": "data/raw/nasa_power/EAST_SINGHBUM.csv",
+      "sha256": "4a3931df6218252c5c4490c6b5aa8f08d858e291dde7fe3c761ff10d7bff9eb0",
+      "bytes": 509853
+    },
+    {
+      "source": "nasa_power_raw/ERNAKULAM.csv",
+      "destination": "data/raw/nasa_power/ERNAKULAM.csv",
+      "sha256": "d1f4fd658f4ffbb2eebb0fdd016c5593c1d5978b819a9775352997b2f628b465",
+      "bytes": 513867
+    },
+    {
+      "source": "nasa_power_raw/ERODE.csv",
+      "destination": "data/raw/nasa_power/ERODE.csv",
+      "sha256": "f0786513fcc90b0d708c40303cc0668023b7b9dd75c17a07b9bb3e8721a8c806",
+      "bytes": 511473
+    },
+    {
+      "source": "nasa_power_raw/ETAH.csv",
+      "destination": "data/raw/nasa_power/ETAH.csv",
+      "sha256": "2e0dadf575f23065fa080569890eef725e6970136274306737aadee793807562",
+      "bytes": 507610
+    },
+    {
+      "source": "nasa_power_raw/ETAWAH.csv",
+      "destination": "data/raw/nasa_power/ETAWAH.csv",
+      "sha256": "6730d0ab694c63781bfdaf991f1e7d4dab533aceb7afb238c27f69d9b66a680a",
+      "bytes": 507861
+    },
+    {
+      "source": "nasa_power_raw/FAIZABAD.csv",
+      "destination": "data/raw/nasa_power/FAIZABAD.csv",
+      "sha256": "6469941b7cb9a02f7cbf06e8510b7f310a47589dfe8dec267ab15f5e69fe3d63",
+      "bytes": 508112
+    },
+    {
+      "source": "nasa_power_raw/FARIDABAD.csv",
+      "destination": "data/raw/nasa_power/FARIDABAD.csv",
+      "sha256": "d0b6abd92b49f12579915794e326b18c7b54de88dd155e6572bda2f28854e9dd",
+      "bytes": 507491
+    },
+    {
+      "source": "nasa_power_raw/FARIDKOT.csv",
+      "destination": "data/raw/nasa_power/FARIDKOT.csv",
+      "sha256": "fd3bfbdfd178c87736acb2dcf09d5bdcf3280b05003eb25247d52f84fdaaeac9",
+      "bytes": 503991
+    },
+    {
+      "source": "nasa_power_raw/FARRUKHABAD.csv",
+      "destination": "data/raw/nasa_power/FARRUKHABAD.csv",
+      "sha256": "eca08210b68822544d507483a04fc897919b989a2e4fd9f1cc4b6a599af81ad3",
+      "bytes": 507602
+    },
+    {
+      "source": "nasa_power_raw/FATEHABAD.csv",
+      "destination": "data/raw/nasa_power/FATEHABAD.csv",
+      "sha256": "426eaa00cfcec9ee788de7e91081d66e3514f5ab107edb96c050ea8749ee213c",
+      "bytes": 507486
+    },
+    {
+      "source": "nasa_power_raw/FATEHGARH_SAHIB.csv",
+      "destination": "data/raw/nasa_power/FATEHGARH_SAHIB.csv",
+      "sha256": "1a9c4b418cde7eefde34771856b533af7f7f98a1bf34941555656052b479a1fb",
+      "bytes": 507969
+    },
+    {
+      "source": "nasa_power_raw/FATEHPUR.csv",
+      "destination": "data/raw/nasa_power/FATEHPUR.csv",
+      "sha256": "93cb549b26a209c6c9576197a63d13432211e77bac78a3592e37f31230c5c80f",
+      "bytes": 508143
+    },
+    {
+      "source": "nasa_power_raw/FAZILKA.csv",
+      "destination": "data/raw/nasa_power/FAZILKA.csv",
+      "sha256": "52749bb360486f6370e92a2138afda98fa516080ed7bf4412ae2e2b63bdb6894",
+      "bytes": 507292
+    },
+    {
+      "source": "nasa_power_raw/FIROZABAD.csv",
+      "destination": "data/raw/nasa_power/FIROZABAD.csv",
+      "sha256": "fd751c798cfc4168992ea93f692b812148f0b206cfaf713db0c11d938097e64b",
+      "bytes": 507533
+    },
+    {
+      "source": "nasa_power_raw/GADAG.csv",
+      "destination": "data/raw/nasa_power/GADAG.csv",
+      "sha256": "f950158c6963126356ba7d34553f8a41593f9bc5ee8e9ed344d155117cac15da",
+      "bytes": 509880
+    },
+    {
+      "source": "nasa_power_raw/GADCHIROLI.csv",
+      "destination": "data/raw/nasa_power/GADCHIROLI.csv",
+      "sha256": "0d054cb8bb1ccb91e8f99226694a6fd6fd534e5b827769a55921ed88ec0bdcff",
+      "bytes": 510353
+    },
+    {
+      "source": "nasa_power_raw/GAJAPATI.csv",
+      "destination": "data/raw/nasa_power/GAJAPATI.csv",
+      "sha256": "4fa0da0ca50899a35bf0fcf117e4f456e90f0c622fa9a5f23c3f4c903cb4ad75",
+      "bytes": 511200
+    },
+    {
+      "source": "nasa_power_raw/GANDERBAL.csv",
+      "destination": "data/raw/nasa_power/GANDERBAL.csv",
+      "sha256": "f0c89f3271f52d0d299677b8107fa8150e3e6d2fc2fb202fe97bfa2d687956be",
+      "bytes": 500323
+    },
+    {
+      "source": "nasa_power_raw/GANDHINAGAR.csv",
+      "destination": "data/raw/nasa_power/GANDHINAGAR.csv",
+      "sha256": "d4d9e79afbe5c11068c929aad423a9fddf71046a2a25d7a136348904baa42569",
+      "bytes": 508333
+    },
+    {
+      "source": "nasa_power_raw/GANGANAGAR.csv",
+      "destination": "data/raw/nasa_power/GANGANAGAR.csv",
+      "sha256": "589e8db1aa57297d0b16326d5d574c7d42f5601f93232cf70969e11bb8b95e10",
+      "bytes": 507261
+    },
+    {
+      "source": "nasa_power_raw/GANJAM.csv",
+      "destination": "data/raw/nasa_power/GANJAM.csv",
+      "sha256": "c5cafd19ef4f840d8457f47e687cb56e75448b0dea441f12d8b74d051a36123c",
+      "bytes": 511057
+    },
+    {
+      "source": "nasa_power_raw/GARHWA.csv",
+      "destination": "data/raw/nasa_power/GARHWA.csv",
+      "sha256": "43b33fba9dea89a7d55472d07b0ae3f2fe31b782637260bebc0cf4676724ce25",
+      "bytes": 509299
+    },
+    {
+      "source": "nasa_power_raw/GAURELLA-PENDRA-MARWAHI.csv",
+      "destination": "data/raw/nasa_power/GAURELLA-PENDRA-MARWAHI.csv",
+      "sha256": "574834f7270b62b65651f996a004c0a3062cb7a2228d3a958d4002715ff9a59b",
+      "bytes": 508850
+    },
+    {
+      "source": "nasa_power_raw/GAUTAM_BUDDHA_NAGAR.csv",
+      "destination": "data/raw/nasa_power/GAUTAM_BUDDHA_NAGAR.csv",
+      "sha256": "d0b6abd92b49f12579915794e326b18c7b54de88dd155e6572bda2f28854e9dd",
+      "bytes": 507491
+    },
+    {
+      "source": "nasa_power_raw/GAYA.csv",
+      "destination": "data/raw/nasa_power/GAYA.csv",
+      "sha256": "40dc3485ab5b7855eedbb289f9e96956b8c3b1e60e98b35a3f131494a75e85fa",
+      "bytes": 509149
+    },
+    {
+      "source": "nasa_power_raw/GHAZIABAD.csv",
+      "destination": "data/raw/nasa_power/GHAZIABAD.csv",
+      "sha256": "d0b6abd92b49f12579915794e326b18c7b54de88dd155e6572bda2f28854e9dd",
+      "bytes": 507491
+    },
+    {
+      "source": "nasa_power_raw/GHAZIPUR.csv",
+      "destination": "data/raw/nasa_power/GHAZIPUR.csv",
+      "sha256": "999a8aaa4a6be6c325d518247b1fb2e4d7614fe2fa4a748d56cfc7ce61cd6303",
+      "bytes": 508594
+    },
+    {
+      "source": "nasa_power_raw/GIR_SOMNATH.csv",
+      "destination": "data/raw/nasa_power/GIR_SOMNATH.csv",
+      "sha256": "b51c26a0b79f5233f7ca82fdfc27034cd632c96e38c2e3beec27a8b7b5bf0d8d",
+      "bytes": 508845
+    },
+    {
+      "source": "nasa_power_raw/GIRIDIH.csv",
+      "destination": "data/raw/nasa_power/GIRIDIH.csv",
+      "sha256": "12126a9971d9d73ea6bf05259432ca0a3ed740e0f999f5b5206797dfabd4a4a4",
+      "bytes": 509948
+    },
+    {
+      "source": "nasa_power_raw/GOALPARA.csv",
+      "destination": "data/raw/nasa_power/GOALPARA.csv",
+      "sha256": "48ebc335d0605986939fc5854178576a34ccef321badb8ad443d3a76a8b8a85c",
+      "bytes": 510928
+    },
+    {
+      "source": "nasa_power_raw/GODDA.csv",
+      "destination": "data/raw/nasa_power/GODDA.csv",
+      "sha256": "1593a9070c23aa60da9d78dcfa175b9f4b2d1fc3f0876f802f1004c6afde6e1c",
+      "bytes": 509604
+    },
+    {
+      "source": "nasa_power_raw/GOLAGHAT.csv",
+      "destination": "data/raw/nasa_power/GOLAGHAT.csv",
+      "sha256": "a1a03ab94840b3ccf3adfac87f9186939665806d5d57451f5b544d360105b2a1",
+      "bytes": 511246
+    },
+    {
+      "source": "nasa_power_raw/GOMATI.csv",
+      "destination": "data/raw/nasa_power/GOMATI.csv",
+      "sha256": "d886490a1cb8ce12da2fbb5b8b179d01fb8150d2b8de1f67d0b8625e95830e58",
+      "bytes": 510475
+    },
+    {
+      "source": "nasa_power_raw/GONDA.csv",
+      "destination": "data/raw/nasa_power/GONDA.csv",
+      "sha256": "f7bf653a7780b40f01ca1310c9f136148b65869e6d89088a91f3453cc9e975fb",
+      "bytes": 508151
+    },
+    {
+      "source": "nasa_power_raw/GONDIA.csv",
+      "destination": "data/raw/nasa_power/GONDIA.csv",
+      "sha256": "9f39b865478f63b77a730cce031b06bc41f43e0e3910c3bbe7117845906446fe",
+      "bytes": 510037
+    },
+    {
+      "source": "nasa_power_raw/GOPALGANJ.csv",
+      "destination": "data/raw/nasa_power/GOPALGANJ.csv",
+      "sha256": "978f259877678ee86043dfc56b3b687f0ed9168fdea927467c00dc1aa0046cb7",
+      "bytes": 508843
+    },
+    {
+      "source": "nasa_power_raw/GORAKHPUR.csv",
+      "destination": "data/raw/nasa_power/GORAKHPUR.csv",
+      "sha256": "7f513403e496d619a344675d2cd9a0d57d2589fd955e6904af5d1a8c425557f6",
+      "bytes": 508628
+    },
+    {
+      "source": "nasa_power_raw/GUMLA.csv",
+      "destination": "data/raw/nasa_power/GUMLA.csv",
+      "sha256": "dc2e4723e2ced6b2f11ed94595b2d0a660146028103b4254c33f7f72d70b1fae",
+      "bytes": 509644
+    },
+    {
+      "source": "nasa_power_raw/GUNA.csv",
+      "destination": "data/raw/nasa_power/GUNA.csv",
+      "sha256": "1b258117abfe4467a0bdf856a9b05a59ba545c8114f37694581ad10b7cf26a37",
+      "bytes": 508316
+    },
+    {
+      "source": "nasa_power_raw/GUNTUR.csv",
+      "destination": "data/raw/nasa_power/GUNTUR.csv",
+      "sha256": "b26ba10b1bd73613e7440f2846199f25a3845bfc29897052a8487d4f1fe7495b",
+      "bytes": 510754
+    },
+    {
+      "source": "nasa_power_raw/GURDASPUR.csv",
+      "destination": "data/raw/nasa_power/GURDASPUR.csv",
+      "sha256": "1ac554d354afa2af7c9c64586d4230330f0f03bc99ed965644e49fed2e55110b",
+      "bytes": 508430
+    },
+    {
+      "source": "nasa_power_raw/GURGAON.csv",
+      "destination": "data/raw/nasa_power/GURGAON.csv",
+      "sha256": "b51317e7e61f1df65e23f32ce03eb220fd4d6d1191ff3c22aa93880125af741a",
+      "bytes": 507403
+    },
+    {
+      "source": "nasa_power_raw/GWALIOR.csv",
+      "destination": "data/raw/nasa_power/GWALIOR.csv",
+      "sha256": "8f6496b246ea8c0bc0b39576b4d0c241644a4fb72691cc57d3051803bb7920e0",
+      "bytes": 507900
+    },
+    {
+      "source": "nasa_power_raw/HAILAKANDI.csv",
+      "destination": "data/raw/nasa_power/HAILAKANDI.csv",
+      "sha256": "ca2618879d6b1741795c6f441fc96595352b2ec8f8ffd69240e616cf6d5ed646",
+      "bytes": 511624
+    },
+    {
+      "source": "nasa_power_raw/HAMIRPUR.csv",
+      "destination": "data/raw/nasa_power/HAMIRPUR.csv",
+      "sha256": "6f36ac54c1b4663dd635ffa40af0b7a7cef69af105849c6eb571f2eeee143458",
+      "bytes": 507974
+    },
+    {
+      "source": "nasa_power_raw/HANUMAKONDA.csv",
+      "destination": "data/raw/nasa_power/HANUMAKONDA.csv",
+      "sha256": "b8a3b85c3c1eecd6199ace9eaec0259c63007491928369a86a1c43f562a0cfaf",
+      "bytes": 510383
+    },
+    {
+      "source": "nasa_power_raw/HANUMANGARH.csv",
+      "destination": "data/raw/nasa_power/HANUMANGARH.csv",
+      "sha256": "0a2dc0bba7376515ec4db304f8fd56897b4ca60b2c08732d454e3756e7ae3360",
+      "bytes": 507446
+    },
+    {
+      "source": "nasa_power_raw/HAPUR.csv",
+      "destination": "data/raw/nasa_power/HAPUR.csv",
+      "sha256": "d0b6abd92b49f12579915794e326b18c7b54de88dd155e6572bda2f28854e9dd",
+      "bytes": 507491
+    },
+    {
+      "source": "nasa_power_raw/HARDA.csv",
+      "destination": "data/raw/nasa_power/HARDA.csv",
+      "sha256": "a541198d96dc4433e072aad6a457d5106e2fd264a20c2df959b32a830db199f5",
+      "bytes": 508057
+    },
+    {
+      "source": "nasa_power_raw/HARDOI.csv",
+      "destination": "data/raw/nasa_power/HARDOI.csv",
+      "sha256": "0cd1d6f1b964d9743e04782ccf212a74c15e174ddf4e1d73125c19f5101902ab",
+      "bytes": 507836
+    },
+    {
+      "source": "nasa_power_raw/HARIDWAR.csv",
+      "destination": "data/raw/nasa_power/HARIDWAR.csv",
+      "sha256": "a9760364a0c1f2ee1660860463666d39102da69f244a6d096c58adff78831889",
+      "bytes": 508289
+    },
+    {
+      "source": "nasa_power_raw/HASSAN.csv",
+      "destination": "data/raw/nasa_power/HASSAN.csv",
+      "sha256": "e64c3c19aee5684c4ba5ab08377771c6077d9e5fe3d9f99fc0db9d0bce0f7f1b",
+      "bytes": 512111
+    },
+    {
+      "source": "nasa_power_raw/HATHRAS.csv",
+      "destination": "data/raw/nasa_power/HATHRAS.csv",
+      "sha256": "6c67d750c39ae3a32ce950db452f6faf239000ab7128ac73a276b40c6a3dd325",
+      "bytes": 507618
+    },
+    {
+      "source": "nasa_power_raw/HAVERI.csv",
+      "destination": "data/raw/nasa_power/HAVERI.csv",
+      "sha256": "3f506d04afc8906e0da1560a8d4f07270430ef89c5c3d435b17113b637bb6ac8",
+      "bytes": 510719
+    },
+    {
+      "source": "nasa_power_raw/HAZARIBAGH.csv",
+      "destination": "data/raw/nasa_power/HAZARIBAGH.csv",
+      "sha256": "6de23b0c37d9d840a20000aa597c0de3fb4b5ca3516d73254451d45f5f67ab1a",
+      "bytes": 509619
+    },
+    {
+      "source": "nasa_power_raw/HINGOLI.csv",
+      "destination": "data/raw/nasa_power/HINGOLI.csv",
+      "sha256": "11493527982c7168dfa801794fe359c06610d5d03d11a7b11d984ffaf98115dc",
+      "bytes": 509990
+    },
+    {
+      "source": "nasa_power_raw/HISAR.csv",
+      "destination": "data/raw/nasa_power/HISAR.csv",
+      "sha256": "73238bec27d1a6f187fb39a0c35380a6874afeaef59c0754f05c48691560b99e",
+      "bytes": 507594
+    },
+    {
+      "source": "nasa_power_raw/HOOGHLY.csv",
+      "destination": "data/raw/nasa_power/HOOGHLY.csv",
+      "sha256": "42e6415d7186c762f066d85753b87b6f17a3575facefd9323065759e5926ff2d",
+      "bytes": 510097
+    },
+    {
+      "source": "nasa_power_raw/HOSHANGABAD.csv",
+      "destination": "data/raw/nasa_power/HOSHANGABAD.csv",
+      "sha256": "067006a0c837b4ff65bea3109b611e7e7527173cf7f9a0f73c1b4deada69db88",
+      "bytes": 508063
+    },
+    {
+      "source": "nasa_power_raw/HOSHIARPUR.csv",
+      "destination": "data/raw/nasa_power/HOSHIARPUR.csv",
+      "sha256": "4577b58fd13f631b79ec945091cb7131b9f32614d951ca2c256e3834701b5385",
+      "bytes": 507656
+    },
+    {
+      "source": "nasa_power_raw/HOWRAH.csv",
+      "destination": "data/raw/nasa_power/HOWRAH.csv",
+      "sha256": "4f9f9d1534aed65ea67e62d83738c9235129d2015c891146c6ccd5e9f210b872",
+      "bytes": 510039
+    },
+    {
+      "source": "nasa_power_raw/HYDERABAD.csv",
+      "destination": "data/raw/nasa_power/HYDERABAD.csv",
+      "sha256": "d2defe3660de0e303ecad66870946d440023beed494846152649a8dd66bdad01",
+      "bytes": 510498
+    },
+    {
+      "source": "nasa_power_raw/IDUKKI.csv",
+      "destination": "data/raw/nasa_power/IDUKKI.csv",
+      "sha256": "511871f55928fe72f6d06cbedbe374f4fbeaba758b72742484aa982107622cc2",
+      "bytes": 512905
+    },
+    {
+      "source": "nasa_power_raw/IMPHAL_EAST.csv",
+      "destination": "data/raw/nasa_power/IMPHAL_EAST.csv",
+      "sha256": "6275c3c97f1e3522c48b623d1be06dd41d003f7b4ba37a7b19a08b6200c5f6f0",
+      "bytes": 510022
+    },
+    {
+      "source": "nasa_power_raw/IMPHAL_WEST.csv",
+      "destination": "data/raw/nasa_power/IMPHAL_WEST.csv",
+      "sha256": "6275c3c97f1e3522c48b623d1be06dd41d003f7b4ba37a7b19a08b6200c5f6f0",
+      "bytes": 510022
+    },
+    {
+      "source": "nasa_power_raw/INDORE.csv",
+      "destination": "data/raw/nasa_power/INDORE.csv",
+      "sha256": "38299b24519c3e439f6a83ccf1b9833a6b2783bd625349c8a0ed0969e7f75b3f",
+      "bytes": 507919
+    },
+    {
+      "source": "nasa_power_raw/JABALPUR.csv",
+      "destination": "data/raw/nasa_power/JABALPUR.csv",
+      "sha256": "f9d24b60f44d9218d46b3880286e5b2d5d016b36979c4b285f24c62eabb902b4",
+      "bytes": 507711
+    },
+    {
+      "source": "nasa_power_raw/JAIPUR.csv",
+      "destination": "data/raw/nasa_power/JAIPUR.csv",
+      "sha256": "a6267bbc2448778bd0484fc742f1313a7f9145117412446b8486697dcefecc5f",
+      "bytes": 507723
+    },
+    {
+      "source": "nasa_power_raw/JAISALMER.csv",
+      "destination": "data/raw/nasa_power/JAISALMER.csv",
+      "sha256": "5aa1e6c3e43cf11abc116d86a1d1860a28bb91f44a7cb14e6625744e3815ed73",
+      "bytes": 503773
+    },
+    {
+      "source": "nasa_power_raw/JALANDHAR.csv",
+      "destination": "data/raw/nasa_power/JALANDHAR.csv",
+      "sha256": "4577b58fd13f631b79ec945091cb7131b9f32614d951ca2c256e3834701b5385",
+      "bytes": 507656
+    },
+    {
+      "source": "nasa_power_raw/JALAUN.csv",
+      "destination": "data/raw/nasa_power/JALAUN.csv",
+      "sha256": "c9fa88aa1d1247428667a87654cb6a9787080f4dac61dc597a985c553ffe52cf",
+      "bytes": 507922
+    },
+    {
+      "source": "nasa_power_raw/JALGAON.csv",
+      "destination": "data/raw/nasa_power/JALGAON.csv",
+      "sha256": "f997b9744a619900e12ebb595cf0fd7e5949d826b581fd9ceaa6cf7bdd8e44a4",
+      "bytes": 508599
+    },
+    {
+      "source": "nasa_power_raw/JALNA.csv",
+      "destination": "data/raw/nasa_power/JALNA.csv",
+      "sha256": "a36eb4956206bcfaf81e5937028b88a1d956acfaff81cb5ecee9654103dcd613",
+      "bytes": 508640
+    },
+    {
+      "source": "nasa_power_raw/JALPAIGURI.csv",
+      "destination": "data/raw/nasa_power/JALPAIGURI.csv",
+      "sha256": "b6edb7756844934958efdd9d75ab0f2c12ec7321587a81680a64ed69a59338cb",
+      "bytes": 511040
+    },
+    {
+      "source": "nasa_power_raw/JAMMU.csv",
+      "destination": "data/raw/nasa_power/JAMMU.csv",
+      "sha256": "0e03be277611ffe417c33428a7d31ff5df5615905f3a6203a4e4e71e4066114f",
+      "bytes": 508234
+    },
+    {
+      "source": "nasa_power_raw/JAMNAGAR.csv",
+      "destination": "data/raw/nasa_power/JAMNAGAR.csv",
+      "sha256": "33288e6481c252b5a058e1ed361e32b5fa100bfe15a1c9f04aead2630bd8474d",
+      "bytes": 508346
+    },
+    {
+      "source": "nasa_power_raw/JAMTARA.csv",
+      "destination": "data/raw/nasa_power/JAMTARA.csv",
+      "sha256": "ab6f8ef67d02bb6e75e225bd5a24b54937fa1bec44e51704efdefb981aad0a8b",
+      "bytes": 510103
+    },
+    {
+      "source": "nasa_power_raw/JAMUI.csv",
+      "destination": "data/raw/nasa_power/JAMUI.csv",
+      "sha256": "ea5e4a9ea17400ff2c43703d7b26924460f1d25f93e62180975d87d1efc15926",
+      "bytes": 509329
+    },
+    {
+      "source": "nasa_power_raw/JANGOAN.csv",
+      "destination": "data/raw/nasa_power/JANGOAN.csv",
+      "sha256": "59eb5e74a6370c3ee7b53d7786b7601597b63f896932514d105910dee70b1d79",
+      "bytes": 510502
+    },
+    {
+      "source": "nasa_power_raw/JANJGIR-CHAMPA.csv",
+      "destination": "data/raw/nasa_power/JANJGIR-CHAMPA.csv",
+      "sha256": "e576208bf1116aaa270a944d2c50c42f938664c2e023702ab05368ab5f6d5ac4",
+      "bytes": 509538
+    },
+    {
+      "source": "nasa_power_raw/JASHPUR.csv",
+      "destination": "data/raw/nasa_power/JASHPUR.csv",
+      "sha256": "dbbd6e4bdca5fb0866ef6a69e18ba753cd3460fdea07d81068fd0914fb78be88",
+      "bytes": 509651
+    },
+    {
+      "source": "nasa_power_raw/JAUNPUR.csv",
+      "destination": "data/raw/nasa_power/JAUNPUR.csv",
+      "sha256": "0dcf9597eaac52dc0138761184006f2e30690507b9f62dfdc8ba70e67a762afc",
+      "bytes": 508261
+    },
+    {
+      "source": "nasa_power_raw/JAYASHANKAR.csv",
+      "destination": "data/raw/nasa_power/JAYASHANKAR.csv",
+      "sha256": "b91349769e203c957e156db7d8d297d4cdaa16b7a64ed296d9c5dc3a6f36c571",
+      "bytes": 508338
+    },
+    {
+      "source": "nasa_power_raw/JEHANABAD.csv",
+      "destination": "data/raw/nasa_power/JEHANABAD.csv",
+      "sha256": "c18a32c9856c4ca233456dd37a7d9e156a53b92c7d579520411a8e3a44ce517d",
+      "bytes": 508921
+    },
+    {
+      "source": "nasa_power_raw/JHABUA.csv",
+      "destination": "data/raw/nasa_power/JHABUA.csv",
+      "sha256": "2f5b464852128ba6c87331138652a006265f9c67b65c83f077c26927026872b0",
+      "bytes": 509092
+    },
+    {
+      "source": "nasa_power_raw/JHAJJAR.csv",
+      "destination": "data/raw/nasa_power/JHAJJAR.csv",
+      "sha256": "18a5ce8cc4646781aa8c9137da995f9f6c595df49aa5964eb8c51c536a40d61f",
+      "bytes": 507375
+    },
+    {
+      "source": "nasa_power_raw/JHALAWAR.csv",
+      "destination": "data/raw/nasa_power/JHALAWAR.csv",
+      "sha256": "f464a095ec4a402fdcdca26ed1a50c1e7afb35e627d0c89e91d7977a43a32f44",
+      "bytes": 507739
+    },
+    {
+      "source": "nasa_power_raw/JHANSI.csv",
+      "destination": "data/raw/nasa_power/JHANSI.csv",
+      "sha256": "54757f84ca012e183f3b0bed059ed7ca80313204b41d923f577e1666fea07276",
+      "bytes": 508191
+    },
+    {
+      "source": "nasa_power_raw/JHARGRAM.csv",
+      "destination": "data/raw/nasa_power/JHARGRAM.csv",
+      "sha256": "40181d98dba66c92d861756b2ba604b7d2ade7b47a31313cdaf2165e39515ffe",
+      "bytes": 510209
+    },
+    {
+      "source": "nasa_power_raw/JHARSUGUDA.csv",
+      "destination": "data/raw/nasa_power/JHARSUGUDA.csv",
+      "sha256": "98a086012fe4d3d4db66b73846d0fa61ea8b47892ac31c7c2a64fee5c344ee34",
+      "bytes": 509907
+    },
+    {
+      "source": "nasa_power_raw/JHUNJHUNU.csv",
+      "destination": "data/raw/nasa_power/JHUNJHUNU.csv",
+      "sha256": "5b686487ef9ce066d23262d9fa1bb17d26eb7d0d72508e549f8865734b38fbfb",
+      "bytes": 507606
+    },
+    {
+      "source": "nasa_power_raw/JIND.csv",
+      "destination": "data/raw/nasa_power/JIND.csv",
+      "sha256": "2ae082e32db5f56a0fd9c5997fab197e691e06879b10f0e4d9227d45324f90eb",
+      "bytes": 507132
+    },
+    {
+      "source": "nasa_power_raw/JODHPUR.csv",
+      "destination": "data/raw/nasa_power/JODHPUR.csv",
+      "sha256": "60010a67002330f9d3e25ffcff431a9559b8b238a8921a3f33a09a3806e4eaf4",
+      "bytes": 503765
+    },
+    {
+      "source": "nasa_power_raw/JOGULAMBA.csv",
+      "destination": "data/raw/nasa_power/JOGULAMBA.csv",
+      "sha256": "4f6a99b8bd61d88c493a5f9619f14339d3388f297961111f83e6307420c136e8",
+      "bytes": 509238
+    },
+    {
+      "source": "nasa_power_raw/JORHAT.csv",
+      "destination": "data/raw/nasa_power/JORHAT.csv",
+      "sha256": "2525d92f04f619549250e0512ed4d411b44b53fa4512c2c46e711aacad0ad17a",
+      "bytes": 511784
+    },
+    {
+      "source": "nasa_power_raw/JUNAGADH.csv",
+      "destination": "data/raw/nasa_power/JUNAGADH.csv",
+      "sha256": "92080f211a6867c97a2064a67ef22c475b2ffb356a1d3b78419bbe28eeba6903",
+      "bytes": 508482
+    },
+    {
+      "source": "nasa_power_raw/KABIRDHAM.csv",
+      "destination": "data/raw/nasa_power/KABIRDHAM.csv",
+      "sha256": "ea9ddb83a3b2097a946c9dfb9fdd38243717b65dd3a89bca6a6478e4b94489db",
+      "bytes": 509877
+    },
+    {
+      "source": "nasa_power_raw/KACHCHH.csv",
+      "destination": "data/raw/nasa_power/KACHCHH.csv",
+      "sha256": "a6c76924078097c9c0a3b9c63d6225739309a131f9a6de418bf7b9233c8e8fda",
+      "bytes": 507633
+    },
+    {
+      "source": "nasa_power_raw/KADAPA.csv",
+      "destination": "data/raw/nasa_power/KADAPA.csv",
+      "sha256": "b36331e7c741be0c3388cc0b5c7c711e34878af614f129e9f79ad0514815f646",
+      "bytes": 510818
+    },
+    {
+      "source": "nasa_power_raw/KAIMUR_(BHABUA).csv",
+      "destination": "data/raw/nasa_power/KAIMUR_(BHABUA).csv",
+      "sha256": "14bb64d03aa5da79640c2babd1e6806c8752894407ae9dbeaa8104409944804b",
+      "bytes": 508722
+    },
+    {
+      "source": "nasa_power_raw/KAITHAL.csv",
+      "destination": "data/raw/nasa_power/KAITHAL.csv",
+      "sha256": "b0f0021daff589b14d73e0a7cf651babc5fa891f561be43a6be4e52e44f7aa20",
+      "bytes": 507393
+    },
+    {
+      "source": "nasa_power_raw/KALABURAGI.csv",
+      "destination": "data/raw/nasa_power/KALABURAGI.csv",
+      "sha256": "1a014d7bed9aacfa7166761b4d3ca8577039deec50b68357655c6cd6e3fc4a80",
+      "bytes": 509187
+    },
+    {
+      "source": "nasa_power_raw/KALAHANDI.csv",
+      "destination": "data/raw/nasa_power/KALAHANDI.csv",
+      "sha256": "d79bef5b1fd938eb7aef0d5ac24efed686de922c50d7b0cd7b353bdc1021cba7",
+      "bytes": 510504
+    },
+    {
+      "source": "nasa_power_raw/KALIMPONG.csv",
+      "destination": "data/raw/nasa_power/KALIMPONG.csv",
+      "sha256": "b51a0ed0ebbe075c3cba9a1c64b266ef48fe271f7c4733539de1129e5b74cea7",
+      "bytes": 509432
+    },
+    {
+      "source": "nasa_power_raw/KAMAREDDY.csv",
+      "destination": "data/raw/nasa_power/KAMAREDDY.csv",
+      "sha256": "86a63080d935265699ba0f263bda343a79e5221422b38e7bec0ea42f808f12d0",
+      "bytes": 510190
+    },
+    {
+      "source": "nasa_power_raw/KAMLE.csv",
+      "destination": "data/raw/nasa_power/KAMLE.csv",
+      "sha256": "86a6cd952dcdac45358526d4f0733e65123bbb395185cc4a361cbecef4ea4aa0",
+      "bytes": 507498
+    },
+    {
+      "source": "nasa_power_raw/KAMRUP.csv",
+      "destination": "data/raw/nasa_power/KAMRUP.csv",
+      "sha256": "cc4bd4c64037e624359c91ef1b8073ad99c598ec636447c9cca0b3a99176ad43",
+      "bytes": 511285
+    },
+    {
+      "source": "nasa_power_raw/KAMRUP_METRO.csv",
+      "destination": "data/raw/nasa_power/KAMRUP_METRO.csv",
+      "sha256": "a0052567416fe7bb1ad1d9e0759b589983f4370ae8ad0e39757b73772dabaaf6",
+      "bytes": 510442
+    },
+    {
+      "source": "nasa_power_raw/KANCHIPURAM.csv",
+      "destination": "data/raw/nasa_power/KANCHIPURAM.csv",
+      "sha256": "99cab858be2014715ff94814546124aecc331ffc42175580789b3c43c5b69cc1",
+      "bytes": 512163
+    },
+    {
+      "source": "nasa_power_raw/KANDHAMAL.csv",
+      "destination": "data/raw/nasa_power/KANDHAMAL.csv",
+      "sha256": "90151578b42bea92ed7b15bcc07404a94d3b2605a936202c16d050f7ac23aff6",
+      "bytes": 510601
+    },
+    {
+      "source": "nasa_power_raw/KANGRA.csv",
+      "destination": "data/raw/nasa_power/KANGRA.csv",
+      "sha256": "cb73c5ea7ba960de69008f11e8555ef9a2b2264023eaf27b4b8851f6248209f1",
+      "bytes": 506731
+    },
+    {
+      "source": "nasa_power_raw/KANKER.csv",
+      "destination": "data/raw/nasa_power/KANKER.csv",
+      "sha256": "c6133f0f7517037bc180ca4563ce203fa7e7a501d16b7ea04ede47fe38a2bfd9",
+      "bytes": 510060
+    },
+    {
+      "source": "nasa_power_raw/KANNAUJ.csv",
+      "destination": "data/raw/nasa_power/KANNAUJ.csv",
+      "sha256": "d9bbdca9c3114c528213324245d151cc6e0803abe3bb910ece0cae2f198bb949",
+      "bytes": 507759
+    },
+    {
+      "source": "nasa_power_raw/KANNIYAKUMARI.csv",
+      "destination": "data/raw/nasa_power/KANNIYAKUMARI.csv",
+      "sha256": "75b8195d00aa8104ce2cb85c95532276b9e16dc855cf6c21e31bb5ebbb5f3475",
+      "bytes": 512491
+    },
+    {
+      "source": "nasa_power_raw/KANNUR.csv",
+      "destination": "data/raw/nasa_power/KANNUR.csv",
+      "sha256": "9352b248cf14550e39cb664393038b8da6097bcab5e2ee5d77eeea67936fdfae",
+      "bytes": 512566
+    },
+    {
+      "source": "nasa_power_raw/KANPUR_DEHAT.csv",
+      "destination": "data/raw/nasa_power/KANPUR_DEHAT.csv",
+      "sha256": "48a09287fffb8515c5423329d2bfa682ccec21a8f8caf8c4366789ec7b202671",
+      "bytes": 507969
+    },
+    {
+      "source": "nasa_power_raw/KANPUR_NAGAR.csv",
+      "destination": "data/raw/nasa_power/KANPUR_NAGAR.csv",
+      "sha256": "3a9779b256dec3a249fd3fbbd766366b36fbbfd81a1c36acf202aa9237f26c40",
+      "bytes": 508003
+    },
+    {
+      "source": "nasa_power_raw/KAPURTHALA.csv",
+      "destination": "data/raw/nasa_power/KAPURTHALA.csv",
+      "sha256": "4577b58fd13f631b79ec945091cb7131b9f32614d951ca2c256e3834701b5385",
+      "bytes": 507656
+    },
+    {
+      "source": "nasa_power_raw/KARAIKAL.csv",
+      "destination": "data/raw/nasa_power/KARAIKAL.csv",
+      "sha256": "e92c4ec830ab0493b16a2a43737299ce0b1348967be98994b888614c4f6b0bf9",
+      "bytes": 512781
+    },
+    {
+      "source": "nasa_power_raw/KARAULI.csv",
+      "destination": "data/raw/nasa_power/KARAULI.csv",
+      "sha256": "b7c42deaa269b386ddd959ebb53bdd9a5f8f0474ce8f7b90819afd0e50721a5b",
+      "bytes": 508108
+    },
+    {
+      "source": "nasa_power_raw/KARBI_ANGLONG.csv",
+      "destination": "data/raw/nasa_power/KARBI_ANGLONG.csv",
+      "sha256": "aaba2a44c57ac4f52768115e5e4789159c115fb8fb4da82993cd9985bf78bfd0",
+      "bytes": 510427
+    },
+    {
+      "source": "nasa_power_raw/KARGIL.csv",
+      "destination": "data/raw/nasa_power/KARGIL.csv",
+      "sha256": "4c59ef7ca7fddfa3944b3d3a28f689d49601dc269dc466e29cd5eb996a7c5c98",
+      "bytes": 505395
+    },
+    {
+      "source": "nasa_power_raw/KARIMGANJ.csv",
+      "destination": "data/raw/nasa_power/KARIMGANJ.csv",
+      "sha256": "1e04d9ed7a64273b052900899d09c05849adfad758d61a506aef608fef2175d5",
+      "bytes": 512150
+    },
+    {
+      "source": "nasa_power_raw/KARIMNAGAR.csv",
+      "destination": "data/raw/nasa_power/KARIMNAGAR.csv",
+      "sha256": "7031c3b2650cee78c3fabec828893872d861c966a66c365e73a8583443516792",
+      "bytes": 510592
+    },
+    {
+      "source": "nasa_power_raw/KARNAL.csv",
+      "destination": "data/raw/nasa_power/KARNAL.csv",
+      "sha256": "903a8a5704a3cec78cb543122e063bbbafb94fe6cf7bca39b28f68e72b243a62",
+      "bytes": 507574
+    },
+    {
+      "source": "nasa_power_raw/KARUR.csv",
+      "destination": "data/raw/nasa_power/KARUR.csv",
+      "sha256": "a27e09d30b33c42f816a7cc485847cc3ba127380398c9a88426fee8132589f6b",
+      "bytes": 511416
+    },
+    {
+      "source": "nasa_power_raw/KASARAGOD.csv",
+      "destination": "data/raw/nasa_power/KASARAGOD.csv",
+      "sha256": "a742eff47aa63c1bb163f7ceea9a4ba0a36eb0f1de56cc168fa7875dbfcd3705",
+      "bytes": 514017
+    },
+    {
+      "source": "nasa_power_raw/KASGANJ.csv",
+      "destination": "data/raw/nasa_power/KASGANJ.csv",
+      "sha256": "a6339acfe6badc9ab9af082cc96eb7b90b44320be0f51a22624e6dd50acdc7d4",
+      "bytes": 507862
+    },
+    {
+      "source": "nasa_power_raw/KATHUA.csv",
+      "destination": "data/raw/nasa_power/KATHUA.csv",
+      "sha256": "c783a6b4979bc83db6cbef9aca29152a7e1a67200708aeea0e7184aa656d57b4",
+      "bytes": 506740
+    },
+    {
+      "source": "nasa_power_raw/KATIHAR.csv",
+      "destination": "data/raw/nasa_power/KATIHAR.csv",
+      "sha256": "0c8a6665636510b6112fb040384781a4cb8a59f774ae2595271ae42c33835b0e",
+      "bytes": 509775
+    },
+    {
+      "source": "nasa_power_raw/KATNI.csv",
+      "destination": "data/raw/nasa_power/KATNI.csv",
+      "sha256": "67ea5ab4285981aecf59cc8ea0832d49c83b2150ec36632b7424b52632ba2254",
+      "bytes": 508830
+    },
+    {
+      "source": "nasa_power_raw/KAUSHAMBI.csv",
+      "destination": "data/raw/nasa_power/KAUSHAMBI.csv",
+      "sha256": "2da0dc7604d07664c98ddbb1796465efb129a6861d01784ea12aa87558b8256a",
+      "bytes": 508182
+    },
+    {
+      "source": "nasa_power_raw/KENDRAPARA.csv",
+      "destination": "data/raw/nasa_power/KENDRAPARA.csv",
+      "sha256": "95fdbe0793787e3d77187284a5d5570e270ad7bb3bb71d1e955d4d6efa332c8c",
+      "bytes": 510206
+    },
+    {
+      "source": "nasa_power_raw/KENDUJHAR.csv",
+      "destination": "data/raw/nasa_power/KENDUJHAR.csv",
+      "sha256": "1abdfd426b7964d6cf2e641a0eadf7acffea8a9ca9763404956eddb2fbf862c0",
+      "bytes": 510741
+    },
+    {
+      "source": "nasa_power_raw/KHAGARIA.csv",
+      "destination": "data/raw/nasa_power/KHAGARIA.csv",
+      "sha256": "364427781f7a9d9bb6c69993a7381876b1fe9ad4fa9e3e669f5c7f21281f55be",
+      "bytes": 509212
+    },
+    {
+      "source": "nasa_power_raw/KHAMMAM.csv",
+      "destination": "data/raw/nasa_power/KHAMMAM.csv",
+      "sha256": "473fdb691ec0a3aaa5dadf046f91a4804d3afc190bbb528f2b8ef36f606a9292",
+      "bytes": 510197
+    },
+    {
+      "source": "nasa_power_raw/KHANDWA.csv",
+      "destination": "data/raw/nasa_power/KHANDWA.csv",
+      "sha256": "3412072467dc436e4692cac3221ba0db3b4b34d8661a23ec41ddedee5dd65795",
+      "bytes": 508084
+    },
+    {
+      "source": "nasa_power_raw/KHARGONE.csv",
+      "destination": "data/raw/nasa_power/KHARGONE.csv",
+      "sha256": "600f3f768a53e77ba7e6a44a955c7113e14fcfd65724187e611f5c1006035ab7",
+      "bytes": 508085
+    },
+    {
+      "source": "nasa_power_raw/KHEDA.csv",
+      "destination": "data/raw/nasa_power/KHEDA.csv",
+      "sha256": "bb0e4afb9fe37555e2cb35787744a1c26851d1ed19e1d941600a0e9cef532574",
+      "bytes": 508368
+    },
+    {
+      "source": "nasa_power_raw/KHERI.csv",
+      "destination": "data/raw/nasa_power/KHERI.csv",
+      "sha256": "1c4ca33f44031b177db43c24f27e3cc893af6156e9ad953c7d37f3ba547ecdc6",
+      "bytes": 508458
+    },
+    {
+      "source": "nasa_power_raw/KHORDHA.csv",
+      "destination": "data/raw/nasa_power/KHORDHA.csv",
+      "sha256": "8c3483cd8c3f76659f0bd2d56cbe5d709dfdb595939915b2ccd87cfd4976fca8",
+      "bytes": 511072
+    },
+    {
+      "source": "nasa_power_raw/KHOWAI.csv",
+      "destination": "data/raw/nasa_power/KHOWAI.csv",
+      "sha256": "6f0003561696e190ab6e9b925265e7bad6c6c6b6fca48f9e0ce4acd05918ee95",
+      "bytes": 511814
+    },
+    {
+      "source": "nasa_power_raw/KHUNTI.csv",
+      "destination": "data/raw/nasa_power/KHUNTI.csv",
+      "sha256": "53654a6c39a3bb4060ef66c45fcf13153621c6130303853d2b65ab3c1cd0e6ca",
+      "bytes": 509532
+    },
+    {
+      "source": "nasa_power_raw/KINNAUR.csv",
+      "destination": "data/raw/nasa_power/KINNAUR.csv",
+      "sha256": "0036068fca6af38d0f5505e7ebfefde7c9bfa17bf24cac239d4de5d4be82badb",
+      "bytes": 508774
+    },
+    {
+      "source": "nasa_power_raw/KIPHIRE.csv",
+      "destination": "data/raw/nasa_power/KIPHIRE.csv",
+      "sha256": "7f53bec289163f023bd195916ea38eeca0cfec6fcafd68e8be1f0d0ae4f91a8f",
+      "bytes": 508693
+    },
+    {
+      "source": "nasa_power_raw/KISHANGANJ.csv",
+      "destination": "data/raw/nasa_power/KISHANGANJ.csv",
+      "sha256": "48e4a5b24881da6dce359d7b585ee5460537eb55047bc3cc8ef49208211b23e0",
+      "bytes": 510441
+    },
+    {
+      "source": "nasa_power_raw/KISHTWAR.csv",
+      "destination": "data/raw/nasa_power/KISHTWAR.csv",
+      "sha256": "3e0399d259b2c75c0bde8262d7f00d928a9a83d2fe56c01d92a9c48031452ff1",
+      "bytes": 499883
+    },
+    {
+      "source": "nasa_power_raw/KODAGU.csv",
+      "destination": "data/raw/nasa_power/KODAGU.csv",
+      "sha256": "9c906375e0b4f3a4b77b42933e485c1a7b94ec68e51cba6ac92a24cdf55374d8",
+      "bytes": 512747
+    },
+    {
+      "source": "nasa_power_raw/KODERMA.csv",
+      "destination": "data/raw/nasa_power/KODERMA.csv",
+      "sha256": "be1003837a5bcf60bcdfa2ccbeff179687e2f2678b863965554ce9381735d5ab",
+      "bytes": 509304
+    },
+    {
+      "source": "nasa_power_raw/KOHIMA.csv",
+      "destination": "data/raw/nasa_power/KOHIMA.csv",
+      "sha256": "e09ba5e1f4bd838206337b08618cb910bb423ab375896a916496250dad05bda1",
+      "bytes": 508334
+    },
+    {
+      "source": "nasa_power_raw/KOKRAJHAR.csv",
+      "destination": "data/raw/nasa_power/KOKRAJHAR.csv",
+      "sha256": "6854d8fd9f266c9f7baf9c356e76d2cdc1ccd4392f53c054cf1570cba06ae0ec",
+      "bytes": 510864
+    },
+    {
+      "source": "nasa_power_raw/KOLAR.csv",
+      "destination": "data/raw/nasa_power/KOLAR.csv",
+      "sha256": "5f50f18e58cd23fe974bcb182a01ad7116e24c10dc8d29b3f23276120564c418",
+      "bytes": 510558
+    },
+    {
+      "source": "nasa_power_raw/KOLASIB.csv",
+      "destination": "data/raw/nasa_power/KOLASIB.csv",
+      "sha256": "ec4334ca6a0053a23137ab66f8865b81d70b385622173284dcfc4551ef87649a",
+      "bytes": 510888
+    },
+    {
+      "source": "nasa_power_raw/KOLHAPUR.csv",
+      "destination": "data/raw/nasa_power/KOLHAPUR.csv",
+      "sha256": "bd61fe1332df39a093ba1a24172c787c30e1ed3d0efb5e0bf1e761c475e79fbe",
+      "bytes": 508977
+    },
+    {
+      "source": "nasa_power_raw/KOLLAM.csv",
+      "destination": "data/raw/nasa_power/KOLLAM.csv",
+      "sha256": "02bba126823b701ea3c4bcb90787e92689a6a2300b6fc4cc4cad2dbc8769503b",
+      "bytes": 513319
+    },
+    {
+      "source": "nasa_power_raw/KOMARAM_BHEEM_ASIFABAD.csv",
+      "destination": "data/raw/nasa_power/KOMARAM_BHEEM_ASIFABAD.csv",
+      "sha256": "fa92be2967078995ae65c55d840541200a5a913d6fac04c3b29bdfe8688c861a",
+      "bytes": 510237
+    },
+    {
+      "source": "nasa_power_raw/KONDAGAON.csv",
+      "destination": "data/raw/nasa_power/KONDAGAON.csv",
+      "sha256": "ba01c334f3e2bf8481604a97ab06df982786ac1d5336db9144f31ddea867e3c8",
+      "bytes": 510070
+    },
+    {
+      "source": "nasa_power_raw/KOPPAL.csv",
+      "destination": "data/raw/nasa_power/KOPPAL.csv",
+      "sha256": "d98f0ae05253e7707c1eb59f40a1963fcb1552bdf02f73ec940893ba2a986bc8",
+      "bytes": 509320
+    },
+    {
+      "source": "nasa_power_raw/KORAPUT.csv",
+      "destination": "data/raw/nasa_power/KORAPUT.csv",
+      "sha256": "6872523285ab1499b84bc467cbcfc2e492aeeaf2650e74f5eb626f5fc5f47bb5",
+      "bytes": 509990
+    },
+    {
+      "source": "nasa_power_raw/KORBA.csv",
+      "destination": "data/raw/nasa_power/KORBA.csv",
+      "sha256": "94c4e2a0b0005bed959f54891618b1c13907f693ec525e04dfb047046d6859df",
+      "bytes": 509385
+    },
+    {
+      "source": "nasa_power_raw/KOREA.csv",
+      "destination": "data/raw/nasa_power/KOREA.csv",
+      "sha256": "18398e6096a032d609156bff0ff6b0b8f9441cd7000448f47d34bec0c1e66483",
+      "bytes": 509366
+    },
+    {
+      "source": "nasa_power_raw/KOTA.csv",
+      "destination": "data/raw/nasa_power/KOTA.csv",
+      "sha256": "a0f32d90f27ee4e99367a492b9bd47face43a30ec897c8eef523ea833f0b4179",
+      "bytes": 508223
+    },
+    {
+      "source": "nasa_power_raw/KOTTAYAM.csv",
+      "destination": "data/raw/nasa_power/KOTTAYAM.csv",
+      "sha256": "5464f1123b936b8cb3328a5f45512dcb2894b2439efcd3dbe9f8575c933fbbf6",
+      "bytes": 514136
+    },
+    {
+      "source": "nasa_power_raw/KOZHIKODE.csv",
+      "destination": "data/raw/nasa_power/KOZHIKODE.csv",
+      "sha256": "4b4846634e8ea66cafbaa4fce1b615b2e5c2ea35f90d9f24387a25bb6137397f",
+      "bytes": 513492
+    },
+    {
+      "source": "nasa_power_raw/KRA_DAADI.csv",
+      "destination": "data/raw/nasa_power/KRA_DAADI.csv",
+      "sha256": "b53089f8ffb00423ebd153985b407328f7448b5be8cda7aa8d140ff4f883d929",
+      "bytes": 504612
+    },
+    {
+      "source": "nasa_power_raw/KRISHNA.csv",
+      "destination": "data/raw/nasa_power/KRISHNA.csv",
+      "sha256": "b26ba10b1bd73613e7440f2846199f25a3845bfc29897052a8487d4f1fe7495b",
+      "bytes": 510754
+    },
+    {
+      "source": "nasa_power_raw/KRISHNAGIRI.csv",
+      "destination": "data/raw/nasa_power/KRISHNAGIRI.csv",
+      "sha256": "a6796d9022aca80c4d67d514fafadfb3b46e319231fa6e7fddc1adf653699e69",
+      "bytes": 511291
+    },
+    {
+      "source": "nasa_power_raw/KULGAM.csv",
+      "destination": "data/raw/nasa_power/KULGAM.csv",
+      "sha256": "843e10d0626487ec8f552069b0aeb122ff1a93d8b8517ea75ed468a00152aff0",
+      "bytes": 500578
+    },
+    {
+      "source": "nasa_power_raw/KULLU.csv",
+      "destination": "data/raw/nasa_power/KULLU.csv",
+      "sha256": "7607941097c3c0d3638b048cfde3ed4d63ee53b4a8cf97abb59bf958f46efbb4",
+      "bytes": 502464
+    },
+    {
+      "source": "nasa_power_raw/KUPWARA.csv",
+      "destination": "data/raw/nasa_power/KUPWARA.csv",
+      "sha256": "39fa6a76696ea2b247ee62fa9eddabfe188a007bfc16178f26213a105c94395f",
+      "bytes": 501098
+    },
+    {
+      "source": "nasa_power_raw/KURNOOL.csv",
+      "destination": "data/raw/nasa_power/KURNOOL.csv",
+      "sha256": "a07fa1b0dd58c0df3ab661abef51a7a615c3e4c37944d76996347faf6e01bc4b",
+      "bytes": 510240
+    },
+    {
+      "source": "nasa_power_raw/KURUKSHETRA.csv",
+      "destination": "data/raw/nasa_power/KURUKSHETRA.csv",
+      "sha256": "4b53d591a12cc6ba6d6fc7ccfa3b7ff879c3d7584045d3536947af742d3fafa2",
+      "bytes": 507878
+    },
+    {
+      "source": "nasa_power_raw/KURUNG_KUMEY.csv",
+      "destination": "data/raw/nasa_power/KURUNG_KUMEY.csv",
+      "sha256": "6630c494e71600d88e160a2b3c085d93f0293b9f643e4cedc72249303ac4a8c2",
+      "bytes": 499660
+    },
+    {
+      "source": "nasa_power_raw/KUSHI_NAGAR.csv",
+      "destination": "data/raw/nasa_power/KUSHI_NAGAR.csv",
+      "sha256": "58dc096fe73c5f56a8e58132219e7543733cbdd6dc2b887396a0b95e311a5a0e",
+      "bytes": 508544
+    },
+    {
+      "source": "nasa_power_raw/LAKHIMPUR.csv",
+      "destination": "data/raw/nasa_power/LAKHIMPUR.csv",
+      "sha256": "b4868e3a4a3b5b9b4756a120ffc137f87cc4fb79a81332fd11abee2065b005be",
+      "bytes": 511021
+    },
+    {
+      "source": "nasa_power_raw/LAKHISARAI.csv",
+      "destination": "data/raw/nasa_power/LAKHISARAI.csv",
+      "sha256": "aa46f8f721dc76f93186752d195f963530c6b74789f4d31e209adfda364c491a",
+      "bytes": 509103
+    },
+    {
+      "source": "nasa_power_raw/LALITPUR.csv",
+      "destination": "data/raw/nasa_power/LALITPUR.csv",
+      "sha256": "03b2113b5053105d3a8c0d0d3394e108fc90800c3ddb0f7e71b201fb12013471",
+      "bytes": 508423
+    },
+    {
+      "source": "nasa_power_raw/LATEHAR.csv",
+      "destination": "data/raw/nasa_power/LATEHAR.csv",
+      "sha256": "3f23af783201614cb2dd0bdd5dc5db0c7505434215bdbd5a26a640bd8f638215",
+      "bytes": 509518
+    },
+    {
+      "source": "nasa_power_raw/LATUR.csv",
+      "destination": "data/raw/nasa_power/LATUR.csv",
+      "sha256": "5b8df904e7ef95eb5423616b409a9ede5fdefce7bbadfb0c6fd0214922168ca9",
+      "bytes": 509101
+    },
+    {
+      "source": "nasa_power_raw/LAWNGTLAI.csv",
+      "destination": "data/raw/nasa_power/LAWNGTLAI.csv",
+      "sha256": "22847fefe23c5a6a6b5f6e0f13c509b649e65d68d59f055531bc5e5ea9bb763e",
+      "bytes": 510297
+    },
+    {
+      "source": "nasa_power_raw/LEH_LADAKH.csv",
+      "destination": "data/raw/nasa_power/LEH_LADAKH.csv",
+      "sha256": "27e0522802503b0bc70160f3927dc34f731c2fb35ec8385be72283dff535419e",
+      "bytes": 506311
+    },
+    {
+      "source": "nasa_power_raw/LOHARDAGA.csv",
+      "destination": "data/raw/nasa_power/LOHARDAGA.csv",
+      "sha256": "3f23af783201614cb2dd0bdd5dc5db0c7505434215bdbd5a26a640bd8f638215",
+      "bytes": 509518
+    },
+    {
+      "source": "nasa_power_raw/LOHIT.csv",
+      "destination": "data/raw/nasa_power/LOHIT.csv",
+      "sha256": "6748fa8d8f8526ef4a7cc7681f5fd95717772dd84eb18939f71c31e25fe89b78",
+      "bytes": 507031
+    },
+    {
+      "source": "nasa_power_raw/LONGDING.csv",
+      "destination": "data/raw/nasa_power/LONGDING.csv",
+      "sha256": "7e7535b719c5d797fd3d814a894a25cb47870d3b110377582f9d70513bd0111a",
+      "bytes": 509427
+    },
+    {
+      "source": "nasa_power_raw/LONGLENG.csv",
+      "destination": "data/raw/nasa_power/LONGLENG.csv",
+      "sha256": "21537543424b61322f7abae1a9f76576d6e2200a46333bb1988d0171e8fe7608",
+      "bytes": 511032
+    },
+    {
+      "source": "nasa_power_raw/LOWER_DIBANG_VALLEY.csv",
+      "destination": "data/raw/nasa_power/LOWER_DIBANG_VALLEY.csv",
+      "sha256": "ab1d4f482258407fc54c6baf920867e3d1e979b41569415c66040066fa4f1063",
+      "bytes": 510024
+    },
+    {
+      "source": "nasa_power_raw/LUCKNOW.csv",
+      "destination": "data/raw/nasa_power/LUCKNOW.csv",
+      "sha256": "bf765471bb9ea172f2f1aad0852533ca5b6cdb927613ff07242cadc399dd3cf2",
+      "bytes": 508062
+    },
+    {
+      "source": "nasa_power_raw/LUDHIANA.csv",
+      "destination": "data/raw/nasa_power/LUDHIANA.csv",
+      "sha256": "fdc6e14474d43e7608546d9c426f886f4135162fc1fe0f5227b593caef6938b3",
+      "bytes": 507621
+    },
+    {
+      "source": "nasa_power_raw/LUNGLEI.csv",
+      "destination": "data/raw/nasa_power/LUNGLEI.csv",
+      "sha256": "3e13d7d31b4af4ca2df46246cf7a808ee3811d74520ec01fb0618b638b683e66",
+      "bytes": 511288
+    },
+    {
+      "source": "nasa_power_raw/MADHEPURA.csv",
+      "destination": "data/raw/nasa_power/MADHEPURA.csv",
+      "sha256": "5138fcd4ad0870f003da7a2c9fb489782ae44f86192698c29a4a41263b905c9e",
+      "bytes": 509728
+    },
+    {
+      "source": "nasa_power_raw/MADHUBANI.csv",
+      "destination": "data/raw/nasa_power/MADHUBANI.csv",
+      "sha256": "abcb55ae34087aeb9889e4bd8278159074a0b75ba7070c5e6cb2b80c4b2789b3",
+      "bytes": 509902
+    },
+    {
+      "source": "nasa_power_raw/MADURAI.csv",
+      "destination": "data/raw/nasa_power/MADURAI.csv",
+      "sha256": "35e03aa753b6033c7327836245f70f97aba1cb1d3c46b04a17f37cd1f752fabe",
+      "bytes": 510895
+    },
+    {
+      "source": "nasa_power_raw/MAHABUBABAD.csv",
+      "destination": "data/raw/nasa_power/MAHABUBABAD.csv",
+      "sha256": "6f741a31db81df81e43075835ee6c30f5d452baf31aef621233670f709a9c1a0",
+      "bytes": 510643
+    },
+    {
+      "source": "nasa_power_raw/MAHARAJGANJ.csv",
+      "destination": "data/raw/nasa_power/MAHARAJGANJ.csv",
+      "sha256": "a1225a31197426b13797e049f7c77ab166b1832851885f23d5436b60499ef531",
+      "bytes": 509154
+    },
+    {
+      "source": "nasa_power_raw/MAHASAMUND.csv",
+      "destination": "data/raw/nasa_power/MAHASAMUND.csv",
+      "sha256": "67caf138b010402c47d7e4b236a7fa41d15d526bf4ec2575127ef275f1b5d777",
+      "bytes": 510131
+    },
+    {
+      "source": "nasa_power_raw/MAHBUBNAGAR.csv",
+      "destination": "data/raw/nasa_power/MAHBUBNAGAR.csv",
+      "sha256": "6d2d9daaa7d6f630daaff051658b88409cee2997455264d76f7a198de60c0fe2",
+      "bytes": 510510
+    },
+    {
+      "source": "nasa_power_raw/MAHE.csv",
+      "destination": "data/raw/nasa_power/MAHE.csv",
+      "sha256": "4b4846634e8ea66cafbaa4fce1b615b2e5c2ea35f90d9f24387a25bb6137397f",
+      "bytes": 513492
+    },
+    {
+      "source": "nasa_power_raw/MAHENDRAGARH.csv",
+      "destination": "data/raw/nasa_power/MAHENDRAGARH.csv",
+      "sha256": "53d9b47666c4755738d426e251ad7ef48029b0d89dcdb15e539fbaa55d1bd320",
+      "bytes": 507615
+    },
+    {
+      "source": "nasa_power_raw/MAHESANA.csv",
+      "destination": "data/raw/nasa_power/MAHESANA.csv",
+      "sha256": "94170d6cd82fa228a84e1e1afcece6c5bb94dc7a32ff04011c44cb7283286083",
+      "bytes": 508126
+    },
+    {
+      "source": "nasa_power_raw/MAHISAGAR.csv",
+      "destination": "data/raw/nasa_power/MAHISAGAR.csv",
+      "sha256": "d16321403f1966e28c909107afeeea2a30174b2f551065140e2cecd6bf9fa92a",
+      "bytes": 508847
+    },
+    {
+      "source": "nasa_power_raw/MAHOBA.csv",
+      "destination": "data/raw/nasa_power/MAHOBA.csv",
+      "sha256": "e2fb2aa1795edfdfd3b9a1b250646f1e4eee87694fe4529553ca3368dcbb44c6",
+      "bytes": 508061
+    },
+    {
+      "source": "nasa_power_raw/MAINPURI.csv",
+      "destination": "data/raw/nasa_power/MAINPURI.csv",
+      "sha256": "3fe01aca10c7b8f2f122bf12fe87cf21c217d4db697f26ec1014c25557366fa1",
+      "bytes": 507631
+    },
+    {
+      "source": "nasa_power_raw/MALAPPURAM.csv",
+      "destination": "data/raw/nasa_power/MALAPPURAM.csv",
+      "sha256": "a7b4c2b00a703b8b9f3393cfa3ad311f410bf615bf7b942c511423602c7cebc5",
+      "bytes": 513466
+    },
+    {
+      "source": "nasa_power_raw/MALDAH.csv",
+      "destination": "data/raw/nasa_power/MALDAH.csv",
+      "sha256": "8b9ae884956343bccd8a8f78efe7a1340033ad4b8496bf279217157bff26f225",
+      "bytes": 509930
+    },
+    {
+      "source": "nasa_power_raw/MALKANGIRI.csv",
+      "destination": "data/raw/nasa_power/MALKANGIRI.csv",
+      "sha256": "f504931fedaad25eb3b201dd2d716fbe5e351ef13f6b399cc1301b264087fb0a",
+      "bytes": 510433
+    },
+    {
+      "source": "nasa_power_raw/MAMIT.csv",
+      "destination": "data/raw/nasa_power/MAMIT.csv",
+      "sha256": "4910db856f496508ec60ad3dc2ec22e670d9789ec132d7967147cd256d3bd5c1",
+      "bytes": 511001
+    },
+    {
+      "source": "nasa_power_raw/MANCHERIAL.csv",
+      "destination": "data/raw/nasa_power/MANCHERIAL.csv",
+      "sha256": "3975fcb1b6b98a051889aa517b220709965f30a95a754c7547b49d131322defc",
+      "bytes": 510447
+    },
+    {
+      "source": "nasa_power_raw/MANDI.csv",
+      "destination": "data/raw/nasa_power/MANDI.csv",
+      "sha256": "7e3f1f81cedc676b4147e8771f675d348996fa6e1032cde20c39bd620e9b8cc7",
+      "bytes": 506378
+    },
+    {
+      "source": "nasa_power_raw/MANDLA.csv",
+      "destination": "data/raw/nasa_power/MANDLA.csv",
+      "sha256": "94692eec00eea0945d37055cca8e1a630dfac2a3d59224ea0f9d92910c117589",
+      "bytes": 509102
+    },
+    {
+      "source": "nasa_power_raw/MANDSAUR.csv",
+      "destination": "data/raw/nasa_power/MANDSAUR.csv",
+      "sha256": "2b2e39334b159a5bbd7f6f20024a52f704cf7d381ded8831ce5336c825d82002",
+      "bytes": 508471
+    },
+    {
+      "source": "nasa_power_raw/MANDYA.csv",
+      "destination": "data/raw/nasa_power/MANDYA.csv",
+      "sha256": "53953c994dc22fef6697eba1ff23ea3ea48ded35b35c742d63a87c9d4d7502d0",
+      "bytes": 510719
+    },
+    {
+      "source": "nasa_power_raw/MANSA.csv",
+      "destination": "data/raw/nasa_power/MANSA.csv",
+      "sha256": "7b3cb840a60f7e218c1d9af98fd905d085f71e2b6182908289ac6825432b0d27",
+      "bytes": 506694
+    },
+    {
+      "source": "nasa_power_raw/MARIGAON.csv",
+      "destination": "data/raw/nasa_power/MARIGAON.csv",
+      "sha256": "b729280f00023ff1998268aa7cb40e56b7f6123801553643f1f19a822379aef5",
+      "bytes": 511149
+    },
+    {
+      "source": "nasa_power_raw/MATHURA.csv",
+      "destination": "data/raw/nasa_power/MATHURA.csv",
+      "sha256": "86ceda30c26c61f54fbd30334803ab4892a7f34c0e4b31e66ee415371c0e72ba",
+      "bytes": 507706
+    },
+    {
+      "source": "nasa_power_raw/MAU.csv",
+      "destination": "data/raw/nasa_power/MAU.csv",
+      "sha256": "4d53b3d61ce573d0dc848ae305cbafe60f6ea55e927378f240dc0e273328be19",
+      "bytes": 508541
+    },
+    {
+      "source": "nasa_power_raw/MAYURBHANJ.csv",
+      "destination": "data/raw/nasa_power/MAYURBHANJ.csv",
+      "sha256": "f83214074db22b038ab542860648897173a0209d9ccbe88931d70671c87422e0",
+      "bytes": 510499
+    },
+    {
+      "source": "nasa_power_raw/MEDAK.csv",
+      "destination": "data/raw/nasa_power/MEDAK.csv",
+      "sha256": "7b6c654662b2294da4e2430fdbf15c937f7cda0360ec887e7b34ac89dffb3ce9",
+      "bytes": 510129
+    },
+    {
+      "source": "nasa_power_raw/MEDCHAL_MALKAJGIRI.csv",
+      "destination": "data/raw/nasa_power/MEDCHAL_MALKAJGIRI.csv",
+      "sha256": "d2defe3660de0e303ecad66870946d440023beed494846152649a8dd66bdad01",
+      "bytes": 510498
+    },
+    {
+      "source": "nasa_power_raw/MEDINIPUR_EAST.csv",
+      "destination": "data/raw/nasa_power/MEDINIPUR_EAST.csv",
+      "sha256": "7671246baeb5670d95525fc7386a59108d1f67927e70099e25167fb7e11408bc",
+      "bytes": 510884
+    },
+    {
+      "source": "nasa_power_raw/MEDINIPUR_WEST.csv",
+      "destination": "data/raw/nasa_power/MEDINIPUR_WEST.csv",
+      "sha256": "88a883c4a6982219924ad752adb7bff0ba05277d9da8cbba6408aaf738b14aa7",
+      "bytes": 510023
+    },
+    {
+      "source": "nasa_power_raw/MEERUT.csv",
+      "destination": "data/raw/nasa_power/MEERUT.csv",
+      "sha256": "22236c701fc004cc76be86768878eeea1f0c89aeb02eac7a8135f23525f5d24f",
+      "bytes": 507768
+    },
+    {
+      "source": "nasa_power_raw/MEWAT.csv",
+      "destination": "data/raw/nasa_power/MEWAT.csv",
+      "sha256": "01a696af7f75b789c829c8657b5c5538fd30810d4f857addbb947c7d0beaa5f9",
+      "bytes": 506744
+    },
+    {
+      "source": "nasa_power_raw/MIRZAPUR.csv",
+      "destination": "data/raw/nasa_power/MIRZAPUR.csv",
+      "sha256": "973e1c2da15cb636b43a623c1d9c35b941e2337a0d406548cf1022c2231948fb",
+      "bytes": 508565
+    },
+    {
+      "source": "nasa_power_raw/MOGA.csv",
+      "destination": "data/raw/nasa_power/MOGA.csv",
+      "sha256": "4a13eb847425429c8c71a400f1b37248bb103e67f06da283d7880eac408c28a0",
+      "bytes": 507078
+    },
+    {
+      "source": "nasa_power_raw/MOKOKCHUNG.csv",
+      "destination": "data/raw/nasa_power/MOKOKCHUNG.csv",
+      "sha256": "21537543424b61322f7abae1a9f76576d6e2200a46333bb1988d0171e8fe7608",
+      "bytes": 511032
+    },
+    {
+      "source": "nasa_power_raw/MON.csv",
+      "destination": "data/raw/nasa_power/MON.csv",
+      "sha256": "7bb733b3e9b1e8270692c8e100dc4d2a6879e637a28facdc51f48bb85f132f63",
+      "bytes": 509731
+    },
+    {
+      "source": "nasa_power_raw/MORADABAD.csv",
+      "destination": "data/raw/nasa_power/MORADABAD.csv",
+      "sha256": "1e1e8ceade620db8e9bdbb2405f13a04026ae1de363b6451580b282f194b8884",
+      "bytes": 507935
+    },
+    {
+      "source": "nasa_power_raw/MORBI.csv",
+      "destination": "data/raw/nasa_power/MORBI.csv",
+      "sha256": "ec8696358ba40083cc9a651eacfefb739b9a2f71c65152ffa02e6f5ff5eba964",
+      "bytes": 508011
+    },
+    {
+      "source": "nasa_power_raw/MORENA.csv",
+      "destination": "data/raw/nasa_power/MORENA.csv",
+      "sha256": "2b1385297accd76971f0504418400055033019987aaf06297c27fb5ceaf50dba",
+      "bytes": 508036
+    },
+    {
+      "source": "nasa_power_raw/MUKTSAR.csv",
+      "destination": "data/raw/nasa_power/MUKTSAR.csv",
+      "sha256": "9042129ebe14c4c211900536740906e52fe13428d259bdf1486c6734d6096ed8",
+      "bytes": 507484
+    },
+    {
+      "source": "nasa_power_raw/MULUGU.csv",
+      "destination": "data/raw/nasa_power/MULUGU.csv",
+      "sha256": "8bde1d340cd8dd5c24bc9d9b87be23f70278a7a4d6349d2e49320cc1badc846f",
+      "bytes": 510397
+    },
+    {
+      "source": "nasa_power_raw/MUMBAI.csv",
+      "destination": "data/raw/nasa_power/MUMBAI.csv",
+      "sha256": "561063e01d0dbb8b7d54a4e04cbcfe3eddac2a7bf0691d69bb15be632aa465de",
+      "bytes": 510155
+    },
+    {
+      "source": "nasa_power_raw/MUMBAI_SUBURBAN.csv",
+      "destination": "data/raw/nasa_power/MUMBAI_SUBURBAN.csv",
+      "sha256": "561063e01d0dbb8b7d54a4e04cbcfe3eddac2a7bf0691d69bb15be632aa465de",
+      "bytes": 510155
+    },
+    {
+      "source": "nasa_power_raw/MUNGELI.csv",
+      "destination": "data/raw/nasa_power/MUNGELI.csv",
+      "sha256": "06bf473e38607f3b9ca59f8fb94f1c4a03590c5667a2d15a5620fa0a8596f241",
+      "bytes": 508750
+    },
+    {
+      "source": "nasa_power_raw/MUNGER.csv",
+      "destination": "data/raw/nasa_power/MUNGER.csv",
+      "sha256": "364427781f7a9d9bb6c69993a7381876b1fe9ad4fa9e3e669f5c7f21281f55be",
+      "bytes": 509212
+    },
+    {
+      "source": "nasa_power_raw/MURSHIDABAD.csv",
+      "destination": "data/raw/nasa_power/MURSHIDABAD.csv",
+      "sha256": "159bfe4fd1ae33888dda39c7a13ec582a82727bf3c0a42ae581646a10ac061a7",
+      "bytes": 509696
+    },
+    {
+      "source": "nasa_power_raw/MUZAFFARNAGAR.csv",
+      "destination": "data/raw/nasa_power/MUZAFFARNAGAR.csv",
+      "sha256": "8e6b3c4cad20e8b98284ee18952b5ad933dabe843f61e9b16e083684f9901a25",
+      "bytes": 507843
+    },
+    {
+      "source": "nasa_power_raw/MUZAFFARPUR.csv",
+      "destination": "data/raw/nasa_power/MUZAFFARPUR.csv",
+      "sha256": "bfce5d3aa66142e97e92a3fa2fd31468485ee67badea10c3a507ef430e1e39da",
+      "bytes": 509150
+    },
+    {
+      "source": "nasa_power_raw/MYSURU.csv",
+      "destination": "data/raw/nasa_power/MYSURU.csv",
+      "sha256": "53953c994dc22fef6697eba1ff23ea3ea48ded35b35c742d63a87c9d4d7502d0",
+      "bytes": 510719
+    },
+    {
+      "source": "nasa_power_raw/NABARANGPUR.csv",
+      "destination": "data/raw/nasa_power/NABARANGPUR.csv",
+      "sha256": "b56c9051bf6ac574786312e012fe96a7e0a96523feb64ab09fc85f7bc8ed4f69",
+      "bytes": 510132
+    },
+    {
+      "source": "nasa_power_raw/NADIA.csv",
+      "destination": "data/raw/nasa_power/NADIA.csv",
+      "sha256": "e3fca49c3fb1e994b86246c42ea84b4ef5c219f70a1996ce5383c7a4e1301b18",
+      "bytes": 510437
+    },
+    {
+      "source": "nasa_power_raw/NAGAON.csv",
+      "destination": "data/raw/nasa_power/NAGAON.csv",
+      "sha256": "b729280f00023ff1998268aa7cb40e56b7f6123801553643f1f19a822379aef5",
+      "bytes": 511149
+    },
+    {
+      "source": "nasa_power_raw/NAGAPATTINAM.csv",
+      "destination": "data/raw/nasa_power/NAGAPATTINAM.csv",
+      "sha256": "e92c4ec830ab0493b16a2a43737299ce0b1348967be98994b888614c4f6b0bf9",
+      "bytes": 512781
+    },
+    {
+      "source": "nasa_power_raw/NAGARKURNOOL.csv",
+      "destination": "data/raw/nasa_power/NAGARKURNOOL.csv",
+      "sha256": "006b4f2376d1afeef2a36e0acfbc9eaaab3f00425a37ef1d9057fa4a24b63401",
+      "bytes": 510433
+    },
+    {
+      "source": "nasa_power_raw/NAGAUR.csv",
+      "destination": "data/raw/nasa_power/NAGAUR.csv",
+      "sha256": "c0a84020800ab65d80ddc3309083c3a941b24553b6dff492a0487d60e7765e81",
+      "bytes": 507358
+    },
+    {
+      "source": "nasa_power_raw/NAGPUR.csv",
+      "destination": "data/raw/nasa_power/NAGPUR.csv",
+      "sha256": "8598b0873be403e357b739c718c24c7b481f2433c39d2547d6213746c0d4c4e4",
+      "bytes": 509278
+    },
+    {
+      "source": "nasa_power_raw/NAINITAL.csv",
+      "destination": "data/raw/nasa_power/NAINITAL.csv",
+      "sha256": "b839eae9f4eaf642c72632a3471f25ebfbe85178a1455636e785670e4ea8e4d3",
+      "bytes": 507306
+    },
+    {
+      "source": "nasa_power_raw/NALANDA.csv",
+      "destination": "data/raw/nasa_power/NALANDA.csv",
+      "sha256": "9eeb047e9e6ab0e2a7245e8542392dbc88fe9d51e0d847eaad8270e6d5a79913",
+      "bytes": 509294
+    },
+    {
+      "source": "nasa_power_raw/NALBARI.csv",
+      "destination": "data/raw/nasa_power/NALBARI.csv",
+      "sha256": "a84db3f17ac49ce668391d3141116f8ff6a3c99d09c85ea8018e8338ab278d78",
+      "bytes": 510907
+    },
+    {
+      "source": "nasa_power_raw/NALGONDA.csv",
+      "destination": "data/raw/nasa_power/NALGONDA.csv",
+      "sha256": "a37c7c04caf12cb0c2d0c14c2c4f628178a009b326cad5dfc2675dd30a211972",
+      "bytes": 510273
+    },
+    {
+      "source": "nasa_power_raw/NAMAKKAL.csv",
+      "destination": "data/raw/nasa_power/NAMAKKAL.csv",
+      "sha256": "86d4d868082edeff09dc113fefd12c5ffd0f03db660046158f613653671f3b1f",
+      "bytes": 511394
+    },
+    {
+      "source": "nasa_power_raw/NAMSAI.csv",
+      "destination": "data/raw/nasa_power/NAMSAI.csv",
+      "sha256": "774e373c01466d4deb68da7aeb9c292e520d61ed3b04d9359e786e2105e9ffca",
+      "bytes": 510703
+    },
+    {
+      "source": "nasa_power_raw/NANDED.csv",
+      "destination": "data/raw/nasa_power/NANDED.csv",
+      "sha256": "0e4555cf9d9b6973b95166ecf25896e5008e9370a349cbbdb33361ba8ceadada",
+      "bytes": 510204
+    },
+    {
+      "source": "nasa_power_raw/NANDURBAR.csv",
+      "destination": "data/raw/nasa_power/NANDURBAR.csv",
+      "sha256": "6ef8186aae53d8bc18a955aae7e577ef122ed9443f86eeb164de3099c5ebbf79",
+      "bytes": 508971
+    },
+    {
+      "source": "nasa_power_raw/NARAYANPUR.csv",
+      "destination": "data/raw/nasa_power/NARAYANPUR.csv",
+      "sha256": "9228384857f59ede1a6cad057713168574bfa3ad96822507eea687291c09e12a",
+      "bytes": 510436
+    },
+    {
+      "source": "nasa_power_raw/NARMADA.csv",
+      "destination": "data/raw/nasa_power/NARMADA.csv",
+      "sha256": "c5140404d58fe2ddf5c43d3d927b3967619ec89f874fc2b2e86d16d94fa2f435",
+      "bytes": 509313
+    },
+    {
+      "source": "nasa_power_raw/NARSINGHPUR.csv",
+      "destination": "data/raw/nasa_power/NARSINGHPUR.csv",
+      "sha256": "205961be71572fdbf9c0a6adbfeab406dde81686cc4481136d65542713004716",
+      "bytes": 507954
+    },
+    {
+      "source": "nasa_power_raw/NASHIK.csv",
+      "destination": "data/raw/nasa_power/NASHIK.csv",
+      "sha256": "833582883dfefe8d71c4c02e8f807368b929463d24947b8ba6a5d749aff69844",
+      "bytes": 509723
+    },
+    {
+      "source": "nasa_power_raw/NAVSARI.csv",
+      "destination": "data/raw/nasa_power/NAVSARI.csv",
+      "sha256": "e236fe463dc99a7baa6ada329206c808de3a520d3ab2ce83439742047ade1209",
+      "bytes": 509197
+    },
+    {
+      "source": "nasa_power_raw/NAWADA.csv",
+      "destination": "data/raw/nasa_power/NAWADA.csv",
+      "sha256": "c5f9cc02c66eafd49dc2897be12db7fe6e43181b785efea5e65d5c304246e688",
+      "bytes": 509445
+    },
+    {
+      "source": "nasa_power_raw/NAYAGARH.csv",
+      "destination": "data/raw/nasa_power/NAYAGARH.csv",
+      "sha256": "7a32945cb1023c05cb3b48a46fe7d73cad155c37a9f62b8e37e9fcc4626e9619",
+      "bytes": 510666
+    },
+    {
+      "source": "nasa_power_raw/NEEMUCH.csv",
+      "destination": "data/raw/nasa_power/NEEMUCH.csv",
+      "sha256": "9d28beb1aa71fe721df1b3cce84d949b2c553d81e66957cb4e9c527064fa9597",
+      "bytes": 507977
+    },
+    {
+      "source": "nasa_power_raw/NIRMAL.csv",
+      "destination": "data/raw/nasa_power/NIRMAL.csv",
+      "sha256": "d4e0bcc94aea158616cdb91f182671acef6df0b63b3a758d5425b0cff7a80e02",
+      "bytes": 509960
+    },
+    {
+      "source": "nasa_power_raw/NIWARI.csv",
+      "destination": "data/raw/nasa_power/NIWARI.csv",
+      "sha256": "98c2a3598e90771bd8ec1c3d1f8682063bb42ed2c2a4b485cc0f045049e0b0fd",
+      "bytes": 508456
+    },
+    {
+      "source": "nasa_power_raw/NIZAMABAD.csv",
+      "destination": "data/raw/nasa_power/NIZAMABAD.csv",
+      "sha256": "86a63080d935265699ba0f263bda343a79e5221422b38e7bec0ea42f808f12d0",
+      "bytes": 510190
+    },
+    {
+      "source": "nasa_power_raw/NORTH_GARO_HILLS.csv",
+      "destination": "data/raw/nasa_power/NORTH_GARO_HILLS.csv",
+      "sha256": "aa7047302fd490fd439cc2687cce34d041340fff4328a22918c5051beec64eb8",
+      "bytes": 511050
+    },
+    {
+      "source": "nasa_power_raw/NORTH_GOA.csv",
+      "destination": "data/raw/nasa_power/NORTH_GOA.csv",
+      "sha256": "f7ecb3a858a719c0b334953713cf55e6c365b01417b38abe19dc882d75547e85",
+      "bytes": 511455
+    },
+    {
+      "source": "nasa_power_raw/NORTH_TRIPURA.csv",
+      "destination": "data/raw/nasa_power/NORTH_TRIPURA.csv",
+      "sha256": "ec4334ca6a0053a23137ab66f8865b81d70b385622173284dcfc4551ef87649a",
+      "bytes": 510888
+    },
+    {
+      "source": "nasa_power_raw/NUAPADA.csv",
+      "destination": "data/raw/nasa_power/NUAPADA.csv",
+      "sha256": "2768ecfb0544cb40421c6d693079808782e6d5604734af7938381c9de2da59a0",
+      "bytes": 508864
+    },
+    {
+      "source": "nasa_power_raw/OSMANABAD.csv",
+      "destination": "data/raw/nasa_power/OSMANABAD.csv",
+      "sha256": "1ea4343cab73a88a119736584660497c269417373eb6127c4240bd8f1cf6ab1e",
+      "bytes": 509066
+    },
+    {
+      "source": "nasa_power_raw/PAKKE_KESSANG.csv",
+      "destination": "data/raw/nasa_power/PAKKE_KESSANG.csv",
+      "sha256": "51e60c2729559c1ae2693c9467ac346e725b75815bb06150e6d871f8acf82dec",
+      "bytes": 509662
+    },
+    {
+      "source": "nasa_power_raw/PAKUR.csv",
+      "destination": "data/raw/nasa_power/PAKUR.csv",
+      "sha256": "dac1f07e199c2e4b124bc6afe7aae76c79cb58fe8edb1b0d3a794058a2ce092c",
+      "bytes": 509895
+    },
+    {
+      "source": "nasa_power_raw/PALAKKAD.csv",
+      "destination": "data/raw/nasa_power/PALAKKAD.csv",
+      "sha256": "f5a1fe7f286a545fdc60a1df5c8646e19a39b2e926c3e276179bb24978c4a439",
+      "bytes": 512240
+    },
+    {
+      "source": "nasa_power_raw/PALAMU.csv",
+      "destination": "data/raw/nasa_power/PALAMU.csv",
+      "sha256": "3cf2ea8bf2e6c152e64e85d085c9d533aefc1fa9d1da7ed8f47580033601cca7",
+      "bytes": 509801
+    },
+    {
+      "source": "nasa_power_raw/PALGHAR.csv",
+      "destination": "data/raw/nasa_power/PALGHAR.csv",
+      "sha256": "7489abf2fdfd332038965577b01e7b4f5335fca610945822c130089a13727d3a",
+      "bytes": 510762
+    },
+    {
+      "source": "nasa_power_raw/PALI.csv",
+      "destination": "data/raw/nasa_power/PALI.csv",
+      "sha256": "49d67c1acd221d990ba99ae8adebcfbacd097400ce0e0a1ac85e63731331e0b1",
+      "bytes": 503728
+    },
+    {
+      "source": "nasa_power_raw/PALWAL.csv",
+      "destination": "data/raw/nasa_power/PALWAL.csv",
+      "sha256": "8d7b45f6d292b108110cad00c8cb6056a295a83ded08ea702c9f5e7873dc0558",
+      "bytes": 507602
+    },
+    {
+      "source": "nasa_power_raw/PANCH_MAHALS.csv",
+      "destination": "data/raw/nasa_power/PANCH_MAHALS.csv",
+      "sha256": "968709e261b7c9bd51e5a1809536c3fbf1b113621da38c39cd9949910b90e99c",
+      "bytes": 508850
+    },
+    {
+      "source": "nasa_power_raw/PANCHKULA.csv",
+      "destination": "data/raw/nasa_power/PANCHKULA.csv",
+      "sha256": "a231bfcc9f8c0b19c30f81fffe801d40c01cdd55b1ffdd4b83aa25890bdb941d",
+      "bytes": 508265
+    },
+    {
+      "source": "nasa_power_raw/PANIPAT.csv",
+      "destination": "data/raw/nasa_power/PANIPAT.csv",
+      "sha256": "903a8a5704a3cec78cb543122e063bbbafb94fe6cf7bca39b28f68e72b243a62",
+      "bytes": 507574
+    },
+    {
+      "source": "nasa_power_raw/PANNA.csv",
+      "destination": "data/raw/nasa_power/PANNA.csv",
+      "sha256": "0f7cecad0744b9cff1eb3656ec6e829aef6b3f6c123d42cc77e705f70288497d",
+      "bytes": 508734
+    },
+    {
+      "source": "nasa_power_raw/PAPUM_PARE.csv",
+      "destination": "data/raw/nasa_power/PAPUM_PARE.csv",
+      "sha256": "a27fec1ae27c04cea4edf449e0ee1bc458d441ddae085b89cd1a6adf1bd8a0fb",
+      "bytes": 509879
+    },
+    {
+      "source": "nasa_power_raw/PARAGANAS_NORTH.csv",
+      "destination": "data/raw/nasa_power/PARAGANAS_NORTH.csv",
+      "sha256": "4f9f9d1534aed65ea67e62d83738c9235129d2015c891146c6ccd5e9f210b872",
+      "bytes": 510039
+    },
+    {
+      "source": "nasa_power_raw/PARAGANAS_SOUTH.csv",
+      "destination": "data/raw/nasa_power/PARAGANAS_SOUTH.csv",
+      "sha256": "c5f3096dfde123e8fb158ec0973e92f9a05772c8b30377818dfe2e8621e8fc66",
+      "bytes": 509935
+    },
+    {
+      "source": "nasa_power_raw/PARBHANI.csv",
+      "destination": "data/raw/nasa_power/PARBHANI.csv",
+      "sha256": "ce7930bcd4595cd23ce4d7fa132d6da0b8544508a4ad14d5e9d051d50c3ea2b6",
+      "bytes": 510010
+    },
+    {
+      "source": "nasa_power_raw/PASCHIM_BARDHAMAN.csv",
+      "destination": "data/raw/nasa_power/PASCHIM_BARDHAMAN.csv",
+      "sha256": "59d0af2618697f9040ea4cdf712ff3d95cf053561ff83bfaef4dd65d539c34d0",
+      "bytes": 510234
+    },
+    {
+      "source": "nasa_power_raw/PASHCHIM_CHAMPARAN.csv",
+      "destination": "data/raw/nasa_power/PASHCHIM_CHAMPARAN.csv",
+      "sha256": "f3968b7cb1f3aeaed7fe0ed34f51f0e25e105ed81845a9af3df258cc23f761fd",
+      "bytes": 509610
+    },
+    {
+      "source": "nasa_power_raw/PATAN.csv",
+      "destination": "data/raw/nasa_power/PATAN.csv",
+      "sha256": "63822379805f625fa196d9df7f628f25edd0e18f30812b44a8e43e647a056b40",
+      "bytes": 507667
+    },
+    {
+      "source": "nasa_power_raw/PATHANAMTHITTA.csv",
+      "destination": "data/raw/nasa_power/PATHANAMTHITTA.csv",
+      "sha256": "0f60de76a9cba1abd4b261faee1e2cb7393a5a4cf223e0640ba25a3647e948d4",
+      "bytes": 512912
+    },
+    {
+      "source": "nasa_power_raw/PATHANKOT.csv",
+      "destination": "data/raw/nasa_power/PATHANKOT.csv",
+      "sha256": "c783a6b4979bc83db6cbef9aca29152a7e1a67200708aeea0e7184aa656d57b4",
+      "bytes": 506740
+    },
+    {
+      "source": "nasa_power_raw/PATIALA.csv",
+      "destination": "data/raw/nasa_power/PATIALA.csv",
+      "sha256": "1a9c4b418cde7eefde34771856b533af7f7f98a1bf34941555656052b479a1fb",
+      "bytes": 507969
+    },
+    {
+      "source": "nasa_power_raw/PATNA.csv",
+      "destination": "data/raw/nasa_power/PATNA.csv",
+      "sha256": "ef50f6bffc0b3b4c7c0179720c172d67432152efc00d0d3bb4a265c6fb555e19",
+      "bytes": 508741
+    },
+    {
+      "source": "nasa_power_raw/PAURI_GARHWAL.csv",
+      "destination": "data/raw/nasa_power/PAURI_GARHWAL.csv",
+      "sha256": "c84829b4e71940f557de507a78c644c141173fa1449557146be963755b59f664",
+      "bytes": 508520
+    },
+    {
+      "source": "nasa_power_raw/PEDDAPALLI.csv",
+      "destination": "data/raw/nasa_power/PEDDAPALLI.csv",
+      "sha256": "7031c3b2650cee78c3fabec828893872d861c966a66c365e73a8583443516792",
+      "bytes": 510592
+    },
+    {
+      "source": "nasa_power_raw/PERAMBALUR.csv",
+      "destination": "data/raw/nasa_power/PERAMBALUR.csv",
+      "sha256": "5737b2c1db7c843226e3d5b4037170e35126c8b784d14c29f966620874b679f9",
+      "bytes": 511035
+    },
+    {
+      "source": "nasa_power_raw/PEREN.csv",
+      "destination": "data/raw/nasa_power/PEREN.csv",
+      "sha256": "b1be7abb7902c0b94c957083ae26298dd444f99f0f3226c81144a28f6e6fafdf",
+      "bytes": 509466
+    },
+    {
+      "source": "nasa_power_raw/PHEK.csv",
+      "destination": "data/raw/nasa_power/PHEK.csv",
+      "sha256": "e09ba5e1f4bd838206337b08618cb910bb423ab375896a916496250dad05bda1",
+      "bytes": 508334
+    },
+    {
+      "source": "nasa_power_raw/PILIBHIT.csv",
+      "destination": "data/raw/nasa_power/PILIBHIT.csv",
+      "sha256": "cb1f855d45cbfae4efc48dc4deaf99cb09aca9826983515913e5dd62d698d680",
+      "bytes": 508325
+    },
+    {
+      "source": "nasa_power_raw/PITHORAGARH.csv",
+      "destination": "data/raw/nasa_power/PITHORAGARH.csv",
+      "sha256": "a4047108b50dd561d19de1524f875773c041360da656b2c64c8441ef2338f3dd",
+      "bytes": 506008
+    },
+    {
+      "source": "nasa_power_raw/POONCH.csv",
+      "destination": "data/raw/nasa_power/POONCH.csv",
+      "sha256": "3b219aea18041c779b25d9d0cd81181a395253e7e7a464041b8dcf323b3a8385",
+      "bytes": 501155
+    },
+    {
+      "source": "nasa_power_raw/PORBANDAR.csv",
+      "destination": "data/raw/nasa_power/PORBANDAR.csv",
+      "sha256": "17ccecf85cce0bad0ca246804578205d3c5293911f8121ac60c9fbfd96417667",
+      "bytes": 508885
+    },
+    {
+      "source": "nasa_power_raw/PRAKASAM.csv",
+      "destination": "data/raw/nasa_power/PRAKASAM.csv",
+      "sha256": "207727d730584d8574dde4caff4e20f1638fe0b0c4436f0b9ae8ec60afe3f226",
+      "bytes": 509150
+    },
+    {
+      "source": "nasa_power_raw/PRATAPGARH.csv",
+      "destination": "data/raw/nasa_power/PRATAPGARH.csv",
+      "sha256": "0c0a908bc2eee7690cdfe23d449d4c3316df62507314eca58478f9690a2a9285",
+      "bytes": 508068
+    },
+    {
+      "source": "nasa_power_raw/PUDUKKOTTAI.csv",
+      "destination": "data/raw/nasa_power/PUDUKKOTTAI.csv",
+      "sha256": "1a678aeb7710f184e2866a2812f9193ab2b24672e69be0658f0475340c3c460e",
+      "bytes": 512005
+    },
+    {
+      "source": "nasa_power_raw/PULWAMA.csv",
+      "destination": "data/raw/nasa_power/PULWAMA.csv",
+      "sha256": "59a7c01a052a91c233121dcda4265d1f6191c4b4ce228097623902ef18167ce1",
+      "bytes": 500577
+    },
+    {
+      "source": "nasa_power_raw/PUNE.csv",
+      "destination": "data/raw/nasa_power/PUNE.csv",
+      "sha256": "fdf9508b56544d3aadd964849f753a40362787272a38b5a2898275773fea2baa",
+      "bytes": 509883
+    },
+    {
+      "source": "nasa_power_raw/PURBA_BARDHAMAN.csv",
+      "destination": "data/raw/nasa_power/PURBA_BARDHAMAN.csv",
+      "sha256": "48c34a4b13928c67ccc55147878715290bf307d52249a28c35e8ba9a91734bc6",
+      "bytes": 510009
+    },
+    {
+      "source": "nasa_power_raw/PURBI_CHAMPARAN.csv",
+      "destination": "data/raw/nasa_power/PURBI_CHAMPARAN.csv",
+      "sha256": "8b10651b7b6c4d9183dc83f2bc46a423bfa3e720b03e961af1285dadb0847a95",
+      "bytes": 508792
+    },
+    {
+      "source": "nasa_power_raw/PURI.csv",
+      "destination": "data/raw/nasa_power/PURI.csv",
+      "sha256": "0522c4e89994392ba77d6b8d5d9aeed51ac50ed6e82c68c63659aa289f941587",
+      "bytes": 510862
+    },
+    {
+      "source": "nasa_power_raw/PURNIA.csv",
+      "destination": "data/raw/nasa_power/PURNIA.csv",
+      "sha256": "99a7f20689ff252d5d4d6128c9ed9f85239932bfe031e3bc91af3dad98e68335",
+      "bytes": 510116
+    },
+    {
+      "source": "nasa_power_raw/PURULIA.csv",
+      "destination": "data/raw/nasa_power/PURULIA.csv",
+      "sha256": "c7c222d4d86057e6c3ce6426aaef13796d1d08e762451c0c3c766e00850b5e67",
+      "bytes": 509562
+    },
+    {
+      "source": "nasa_power_raw/RAE_BARELI.csv",
+      "destination": "data/raw/nasa_power/RAE_BARELI.csv",
+      "sha256": "756bf636f1f452b02af5b6644c20d447dad55d8967636a51661899ebfc21cb1e",
+      "bytes": 507971
+    },
+    {
+      "source": "nasa_power_raw/RAICHUR.csv",
+      "destination": "data/raw/nasa_power/RAICHUR.csv",
+      "sha256": "b8ed26673130f2c353171649720211011ce6aac4f60e09ad5837926eaea7c26d",
+      "bytes": 509146
+    },
+    {
+      "source": "nasa_power_raw/RAIGAD.csv",
+      "destination": "data/raw/nasa_power/RAIGAD.csv",
+      "sha256": "6c18a73c0dfc267dbeb5b6f3f354dc96e2eccd226ed74eae5547959381dab6c0",
+      "bytes": 510549
+    },
+    {
+      "source": "nasa_power_raw/RAIGARH.csv",
+      "destination": "data/raw/nasa_power/RAIGARH.csv",
+      "sha256": "5c67c6c0b1d7eb42fdfb8ce091e4c885e5e31a19b479c6fed4d6ae1fa6224b0d",
+      "bytes": 509971
+    },
+    {
+      "source": "nasa_power_raw/RAIPUR.csv",
+      "destination": "data/raw/nasa_power/RAIPUR.csv",
+      "sha256": "bc5d9a5b9eb38dabe967ee964af632827ca4de95c88fd9f59ce4aa1c6a2e1a88",
+      "bytes": 509746
+    },
+    {
+      "source": "nasa_power_raw/RAISEN.csv",
+      "destination": "data/raw/nasa_power/RAISEN.csv",
+      "sha256": "de6b536991e39bafd72f2a3a1bbda558cb43861266cd82c2ba4916f0b375b181",
+      "bytes": 508214
+    },
+    {
+      "source": "nasa_power_raw/RAJANNA.csv",
+      "destination": "data/raw/nasa_power/RAJANNA.csv",
+      "sha256": "f685e51837b1650c005eb5552498f58edad8680ba16790e94ff938bd15137d17",
+      "bytes": 510454
+    },
+    {
+      "source": "nasa_power_raw/RAJGARH.csv",
+      "destination": "data/raw/nasa_power/RAJGARH.csv",
+      "sha256": "dcaf545ec3034f0166b33339e8e3873a3889c885b1a290ff38351ffc45f48c35",
+      "bytes": 507233
+    },
+    {
+      "source": "nasa_power_raw/RAJKOT.csv",
+      "destination": "data/raw/nasa_power/RAJKOT.csv",
+      "sha256": "ddbc90151d1fa25149f5381c39eaee71d20ad9acc9947ae11e75cf3d75c1b41d",
+      "bytes": 508513
+    },
+    {
+      "source": "nasa_power_raw/RAJNANDGAON.csv",
+      "destination": "data/raw/nasa_power/RAJNANDGAON.csv",
+      "sha256": "958826d35c290cfe9c48f4b14dc41a7af021a3034861256a550468563d98cf58",
+      "bytes": 510153
+    },
+    {
+      "source": "nasa_power_raw/RAJSAMAND.csv",
+      "destination": "data/raw/nasa_power/RAJSAMAND.csv",
+      "sha256": "ae8ba065d319a250c8958a64ac745701c6eb173048fc391796286a9f4d5f80b1",
+      "bytes": 507818
+    },
+    {
+      "source": "nasa_power_raw/RAMANAGARA.csv",
+      "destination": "data/raw/nasa_power/RAMANAGARA.csv",
+      "sha256": "05831d27f6c181ab43121499193e56f6da533a9198d57348e58596276efb64ef",
+      "bytes": 511300
+    },
+    {
+      "source": "nasa_power_raw/RAMANATHAPURAM.csv",
+      "destination": "data/raw/nasa_power/RAMANATHAPURAM.csv",
+      "sha256": "144465bf3adc6a12ebeb7c12cb09f916363e271feb308dfcc2f0410cc4a533b8",
+      "bytes": 512284
+    },
+    {
+      "source": "nasa_power_raw/RAMBAN.csv",
+      "destination": "data/raw/nasa_power/RAMBAN.csv",
+      "sha256": "102f9d3bf875de3c3eb125aa2708aa23f5ecfc1c735aa233e9b7fe942d102280",
+      "bytes": 504859
+    },
+    {
+      "source": "nasa_power_raw/RAMGARH.csv",
+      "destination": "data/raw/nasa_power/RAMGARH.csv",
+      "sha256": "e239aa177ff282cc8cf6e6f4811e750f38ea59b6444c9cb319f562a495c93614",
+      "bytes": 509903
+    },
+    {
+      "source": "nasa_power_raw/RAMPUR.csv",
+      "destination": "data/raw/nasa_power/RAMPUR.csv",
+      "sha256": "2ca64aead78bfb9eb519297f3a9d411481f129e1618520db49125ed774b5dbb7",
+      "bytes": 507904
+    },
+    {
+      "source": "nasa_power_raw/RANCHI.csv",
+      "destination": "data/raw/nasa_power/RANCHI.csv",
+      "sha256": "007eaf13597b1d3ef4781fb7ac830fe938b393081d49845f888341655dad0880",
+      "bytes": 509409
+    },
+    {
+      "source": "nasa_power_raw/RANGAREDDI.csv",
+      "destination": "data/raw/nasa_power/RANGAREDDI.csv",
+      "sha256": "efc8b8ba32b6885e4d0ef9bb117976b53e0081b4c092dd6c5eb602216f029f6f",
+      "bytes": 510155
+    },
+    {
+      "source": "nasa_power_raw/RATLAM.csv",
+      "destination": "data/raw/nasa_power/RATLAM.csv",
+      "sha256": "4101180e4064cd89f1b631c61e63c65e19005356721d8fc92a4cfc51dfc5102b",
+      "bytes": 507519
+    },
+    {
+      "source": "nasa_power_raw/RATNAGIRI.csv",
+      "destination": "data/raw/nasa_power/RATNAGIRI.csv",
+      "sha256": "9a49b6fcb30463c79ee273d096fcca1c908252d580a5f1280e677431eb9d07d9",
+      "bytes": 511455
+    },
+    {
+      "source": "nasa_power_raw/RAYAGADA.csv",
+      "destination": "data/raw/nasa_power/RAYAGADA.csv",
+      "sha256": "6e6057156463853225317d622c6b2e0ddfeec6b40c047c765600e76ed7e80573",
+      "bytes": 510176
+    },
+    {
+      "source": "nasa_power_raw/REASI.csv",
+      "destination": "data/raw/nasa_power/REASI.csv",
+      "sha256": "1ed6930f1ffd7baef71dfc98b83ee62daa82125f99b1e7ffc2345d4164642e91",
+      "bytes": 505106
+    },
+    {
+      "source": "nasa_power_raw/REWA.csv",
+      "destination": "data/raw/nasa_power/REWA.csv",
+      "sha256": "c2a0b60d926e5999991a6b970a570830c1fc7a53976789c0f42968377582690d",
+      "bytes": 507976
+    },
+    {
+      "source": "nasa_power_raw/REWARI.csv",
+      "destination": "data/raw/nasa_power/REWARI.csv",
+      "sha256": "619868be9d37004455fecd71c5ab620c0bad0d900365b5ec0e99549996cf4d3d",
+      "bytes": 506716
+    },
+    {
+      "source": "nasa_power_raw/RI_BHOI.csv",
+      "destination": "data/raw/nasa_power/RI_BHOI.csv",
+      "sha256": "e24f989b7a15d1f2bb7a1a6e78aee99e708526bb2b17897b1d3f1521e5ea61e7",
+      "bytes": 510354
+    },
+    {
+      "source": "nasa_power_raw/ROHTAK.csv",
+      "destination": "data/raw/nasa_power/ROHTAK.csv",
+      "sha256": "8d6fabbf09bbd936e62f9b2b1108dfd48c5f695d76ee7f7c13e3ee32d3f0cfcb",
+      "bytes": 507470
+    },
+    {
+      "source": "nasa_power_raw/ROHTAS.csv",
+      "destination": "data/raw/nasa_power/ROHTAS.csv",
+      "sha256": "78bfd6a24188bd2c40c32ee8b56476bc0300f771d29de24669766719f1d459bc",
+      "bytes": 509017
+    },
+    {
+      "source": "nasa_power_raw/RUDRA_PRAYAG.csv",
+      "destination": "data/raw/nasa_power/RUDRA_PRAYAG.csv",
+      "sha256": "dfcd6047d543e8b09b9562bc5717457a41b059857cc7a673c2c53a9e31ac3256",
+      "bytes": 502924
+    },
+    {
+      "source": "nasa_power_raw/RUPNAGAR.csv",
+      "destination": "data/raw/nasa_power/RUPNAGAR.csv",
+      "sha256": "de95c9f412440256c3b05f7c1de786d2841c6060556e000881c86da482393c65",
+      "bytes": 508359
+    },
+    {
+      "source": "nasa_power_raw/S_NAGAR.csv",
+      "destination": "data/raw/nasa_power/S_NAGAR.csv",
+      "sha256": "2a20cfcb77ccce78dc899266e93cc2b392a5dd9b17e86e13175da2e5623c0bbd",
+      "bytes": 508249
+    },
+    {
+      "source": "nasa_power_raw/SABAR_KANTHA.csv",
+      "destination": "data/raw/nasa_power/SABAR_KANTHA.csv",
+      "sha256": "b95f7b5bb61a36fa2405ee5f572936bd7e1826e8c378664c4d29f91945865003",
+      "bytes": 508405
+    },
+    {
+      "source": "nasa_power_raw/SAGAR.csv",
+      "destination": "data/raw/nasa_power/SAGAR.csv",
+      "sha256": "d80742611d87848e9e1279160fda088affd8e0acba145dcf5af4e8901ee22140",
+      "bytes": 508384
+    },
+    {
+      "source": "nasa_power_raw/SAHARANPUR.csv",
+      "destination": "data/raw/nasa_power/SAHARANPUR.csv",
+      "sha256": "f99dcab4bcc6dce578437ecf788acbb85a0464328ebc5d78aebe45b3cdec3fac",
+      "bytes": 507915
+    },
+    {
+      "source": "nasa_power_raw/SAHARSA.csv",
+      "destination": "data/raw/nasa_power/SAHARSA.csv",
+      "sha256": "5138fcd4ad0870f003da7a2c9fb489782ae44f86192698c29a4a41263b905c9e",
+      "bytes": 509728
+    },
+    {
+      "source": "nasa_power_raw/SAHEBGANJ.csv",
+      "destination": "data/raw/nasa_power/SAHEBGANJ.csv",
+      "sha256": "5590a002a846de14dcdac24fef2eb49bd3880e0bd14052c1372128216f362a0d",
+      "bytes": 509518
+    },
+    {
+      "source": "nasa_power_raw/SALEM.csv",
+      "destination": "data/raw/nasa_power/SALEM.csv",
+      "sha256": "cf575f86918f541b7fa26edbb4894be51035cbda73c114ea04d9aeb29c05dfba",
+      "bytes": 510942
+    },
+    {
+      "source": "nasa_power_raw/SAMASTIPUR.csv",
+      "destination": "data/raw/nasa_power/SAMASTIPUR.csv",
+      "sha256": "da7d236d6fa67a35eedce7310e99bb6dbd8e7511753efe99d4b5d0d8d79fcfc8",
+      "bytes": 509301
+    },
+    {
+      "source": "nasa_power_raw/SAMBA.csv",
+      "destination": "data/raw/nasa_power/SAMBA.csv",
+      "sha256": "cfa9a964dc21a23cc5714ad6b81196c0a212e0bb037236370acbaf560daba1b6",
+      "bytes": 508126
+    },
+    {
+      "source": "nasa_power_raw/SAMBALPUR.csv",
+      "destination": "data/raw/nasa_power/SAMBALPUR.csv",
+      "sha256": "f3bd459e9038e2f1d6d40e781aaeae6e79ce1c87369eb74ed06b04e8e9f790d1",
+      "bytes": 510207
+    },
+    {
+      "source": "nasa_power_raw/SAMBHAL.csv",
+      "destination": "data/raw/nasa_power/SAMBHAL.csv",
+      "sha256": "c90da8230fe2d303b221f62ae1c6e32d53414a62fb38f6285202c5d261ec218c",
+      "bytes": 507722
+    },
+    {
+      "source": "nasa_power_raw/SANGAREDDY.csv",
+      "destination": "data/raw/nasa_power/SANGAREDDY.csv",
+      "sha256": "efc8b8ba32b6885e4d0ef9bb117976b53e0081b4c092dd6c5eb602216f029f6f",
+      "bytes": 510155
+    },
+    {
+      "source": "nasa_power_raw/SANGLI.csv",
+      "destination": "data/raw/nasa_power/SANGLI.csv",
+      "sha256": "edb57336f8703ccae83f8a22fd6dbc8128205f1c42a4adb1cc6dcc7df46c678c",
+      "bytes": 510719
+    },
+    {
+      "source": "nasa_power_raw/SANGRUR.csv",
+      "destination": "data/raw/nasa_power/SANGRUR.csv",
+      "sha256": "dba135f08e21871004e0269c32a0d9382cfc2c4ea37d55d92eb27e7e4511cb22",
+      "bytes": 506713
+    },
+    {
+      "source": "nasa_power_raw/SANT_KABEER_NAGAR.csv",
+      "destination": "data/raw/nasa_power/SANT_KABEER_NAGAR.csv",
+      "sha256": "7f513403e496d619a344675d2cd9a0d57d2589fd955e6904af5d1a8c425557f6",
+      "bytes": 508628
+    },
+    {
+      "source": "nasa_power_raw/SANT_RAVIDAS_NAGAR.csv",
+      "destination": "data/raw/nasa_power/SANT_RAVIDAS_NAGAR.csv",
+      "sha256": "0dcf9597eaac52dc0138761184006f2e30690507b9f62dfdc8ba70e67a762afc",
+      "bytes": 508261
+    },
+    {
+      "source": "nasa_power_raw/SARAIKELA_KHARSAWAN.csv",
+      "destination": "data/raw/nasa_power/SARAIKELA_KHARSAWAN.csv",
+      "sha256": "ecae3e0fe5c097c4a312359498b8bdbf7e66b919fdd396affbd117f079d6fed1",
+      "bytes": 509646
+    },
+    {
+      "source": "nasa_power_raw/SARAN.csv",
+      "destination": "data/raw/nasa_power/SARAN.csv",
+      "sha256": "e0700d890d74b6cdfa2012a15965853ca9e65914737298dfc013d2ed3521bf09",
+      "bytes": 508943
+    },
+    {
+      "source": "nasa_power_raw/SATARA.csv",
+      "destination": "data/raw/nasa_power/SATARA.csv",
+      "sha256": "ba2f2686ea1d4f4674a23c686170c366322e65001cb41b6dc13273ef49a8ff34",
+      "bytes": 511234
+    },
+    {
+      "source": "nasa_power_raw/SATNA.csv",
+      "destination": "data/raw/nasa_power/SATNA.csv",
+      "sha256": "bbd699dede2f2f88b5bfcd65c4a6e67de4862cfd4214de0f249ee100ae82be1d",
+      "bytes": 508814
+    },
+    {
+      "source": "nasa_power_raw/SAWAI_MADHOPUR.csv",
+      "destination": "data/raw/nasa_power/SAWAI_MADHOPUR.csv",
+      "sha256": "8bc1ffe72b29e4ba3a9039f0662522d08ce0e77abff0cb8f08149bc5dc012853",
+      "bytes": 507986
+    },
+    {
+      "source": "nasa_power_raw/SEHORE.csv",
+      "destination": "data/raw/nasa_power/SEHORE.csv",
+      "sha256": "03e419158af271bd887dbe32d4094a900c9d3917edd0878d8dc9712ac3259d42",
+      "bytes": 507703
+    },
+    {
+      "source": "nasa_power_raw/SENAPATI.csv",
+      "destination": "data/raw/nasa_power/SENAPATI.csv",
+      "sha256": "51c1dc329543bc8027fe9ed844b3d91f5a2294b873eeebd9310927400513cc9f",
+      "bytes": 509353
+    },
+    {
+      "source": "nasa_power_raw/SEONI.csv",
+      "destination": "data/raw/nasa_power/SEONI.csv",
+      "sha256": "cfa93abfe47e162a04d33646aa42b72e56220ab6013c75377170ba7c9cd8232a",
+      "bytes": 509331
+    },
+    {
+      "source": "nasa_power_raw/SEPAHIJALA.csv",
+      "destination": "data/raw/nasa_power/SEPAHIJALA.csv",
+      "sha256": "9687ec7ef28be627abd57c4a067809c9acbacbfa5917f30c03795874f63d0a58",
+      "bytes": 511367
+    },
+    {
+      "source": "nasa_power_raw/SERCHHIP.csv",
+      "destination": "data/raw/nasa_power/SERCHHIP.csv",
+      "sha256": "d9871fd7b4ea1c899d41ed23fc5b0d08b3f9c018d415470e8cbaa8bab82e9871",
+      "bytes": 509262
+    },
+    {
+      "source": "nasa_power_raw/SHAHDOL.csv",
+      "destination": "data/raw/nasa_power/SHAHDOL.csv",
+      "sha256": "fd8ee7f5f9e9609d5834b1a169eb95e344c67d8bb086aa8e4f06a1712e05c2fc",
+      "bytes": 508540
+    },
+    {
+      "source": "nasa_power_raw/SHAHID_BHAGAT_SINGH_NAGAR.csv",
+      "destination": "data/raw/nasa_power/SHAHID_BHAGAT_SINGH_NAGAR.csv",
+      "sha256": "2a20cfcb77ccce78dc899266e93cc2b392a5dd9b17e86e13175da2e5623c0bbd",
+      "bytes": 508249
+    },
+    {
+      "source": "nasa_power_raw/SHAHJAHANPUR.csv",
+      "destination": "data/raw/nasa_power/SHAHJAHANPUR.csv",
+      "sha256": "2c8ceb4513f279e3180b2ad71f3386f8c722d9be7cae22a34e50de8f4fb0fc05",
+      "bytes": 508159
+    },
+    {
+      "source": "nasa_power_raw/SHAJAPUR.csv",
+      "destination": "data/raw/nasa_power/SHAJAPUR.csv",
+      "sha256": "54a1bf50773122528b3ae221f0c3902697ce868cd702f1518193b891d0fda38b",
+      "bytes": 507276
+    },
+    {
+      "source": "nasa_power_raw/SHAMLI.csv",
+      "destination": "data/raw/nasa_power/SHAMLI.csv",
+      "sha256": "8e6b3c4cad20e8b98284ee18952b5ad933dabe843f61e9b16e083684f9901a25",
+      "bytes": 507843
+    },
+    {
+      "source": "nasa_power_raw/SHEIKHPURA.csv",
+      "destination": "data/raw/nasa_power/SHEIKHPURA.csv",
+      "sha256": "9eeb047e9e6ab0e2a7245e8542392dbc88fe9d51e0d847eaad8270e6d5a79913",
+      "bytes": 509294
+    },
+    {
+      "source": "nasa_power_raw/SHEOHAR.csv",
+      "destination": "data/raw/nasa_power/SHEOHAR.csv",
+      "sha256": "7ce140b2a40710c832416147810f26eaa700d42dde4639f10965f6ea23b54355",
+      "bytes": 508922
+    },
+    {
+      "source": "nasa_power_raw/SHEOPUR.csv",
+      "destination": "data/raw/nasa_power/SHEOPUR.csv",
+      "sha256": "88fbcd2259379d1a850220a789d1cae5e1383f46e67406372e8d246a67e5718a",
+      "bytes": 507919
+    },
+    {
+      "source": "nasa_power_raw/SHI_YOMI.csv",
+      "destination": "data/raw/nasa_power/SHI_YOMI.csv",
+      "sha256": "1f23ee59d505da8b9ccfe5186506e8cd187c41875c1eb54692b4e42b7a82fdf8",
+      "bytes": 497001
+    },
+    {
+      "source": "nasa_power_raw/SHIMLA.csv",
+      "destination": "data/raw/nasa_power/SHIMLA.csv",
+      "sha256": "d9726824ab71994bf4905fbb32be671d29219d9869b867f75014b14a220e2f33",
+      "bytes": 506986
+    },
+    {
+      "source": "nasa_power_raw/SHIVAMOGGA.csv",
+      "destination": "data/raw/nasa_power/SHIVAMOGGA.csv",
+      "sha256": "762d2b62a7766412403cb6ec74df2edd422396845ef21ac4535c6a549dd07742",
+      "bytes": 511601
+    },
+    {
+      "source": "nasa_power_raw/SHIVPURI.csv",
+      "destination": "data/raw/nasa_power/SHIVPURI.csv",
+      "sha256": "2e8bee53324873f269c48c34baee7ad842f7b74cb958c7cb6c2971e84b3ba421",
+      "bytes": 507450
+    },
+    {
+      "source": "nasa_power_raw/SHOPIAN.csv",
+      "destination": "data/raw/nasa_power/SHOPIAN.csv",
+      "sha256": "6bbc722f485ca0092f30c72058cddb8e29dd20d52426bb430699a7eab0c182e3",
+      "bytes": 500825
+    },
+    {
+      "source": "nasa_power_raw/SHRAVASTI.csv",
+      "destination": "data/raw/nasa_power/SHRAVASTI.csv",
+      "sha256": "46e40a9e4036e12530d3cbb5b259fcc4ed3cf7cbe40c7a92b16b848af2fbab0d",
+      "bytes": 508627
+    },
+    {
+      "source": "nasa_power_raw/SIANG.csv",
+      "destination": "data/raw/nasa_power/SIANG.csv",
+      "sha256": "da4c3363413aff8c3b0fc0380e3759c7e2c3a0444066ca7b9dcb86c0d2af9e95",
+      "bytes": 508821
+    },
+    {
+      "source": "nasa_power_raw/SIDDHARTH_NAGAR.csv",
+      "destination": "data/raw/nasa_power/SIDDHARTH_NAGAR.csv",
+      "sha256": "38c8a708576623ea53c550db358c1687a3163974d44b50eb19d83f3baa95a52c",
+      "bytes": 509562
+    },
+    {
+      "source": "nasa_power_raw/SIDDIPET.csv",
+      "destination": "data/raw/nasa_power/SIDDIPET.csv",
+      "sha256": "7fb8172809f09e81a0938ad6630558434405ac8fb4db9da9656d98dc2c907c1d",
+      "bytes": 510225
+    },
+    {
+      "source": "nasa_power_raw/SIDHI.csv",
+      "destination": "data/raw/nasa_power/SIDHI.csv",
+      "sha256": "7908fa8f4d370517e69d7f4a4212ba14d4068d93fad23da4347011768189e7d9",
+      "bytes": 508313
+    },
+    {
+      "source": "nasa_power_raw/SIKAR.csv",
+      "destination": "data/raw/nasa_power/SIKAR.csv",
+      "sha256": "47905650b1845bb5676a14411a839b1d7cb734420e2a1a7d5c5d39e1cc6efc57",
+      "bytes": 507722
+    },
+    {
+      "source": "nasa_power_raw/SIMDEGA.csv",
+      "destination": "data/raw/nasa_power/SIMDEGA.csv",
+      "sha256": "882b30d75b131b226432721d802d65990f2c6842e88ca52db48c14be9789ae11",
+      "bytes": 509486
+    },
+    {
+      "source": "nasa_power_raw/SINDHUDURG.csv",
+      "destination": "data/raw/nasa_power/SINDHUDURG.csv",
+      "sha256": "62eacee529616406bfcdd8fd2958e8baa0e9f618ee56e32f9fc8b0b4a3cbb3ca",
+      "bytes": 510885
+    },
+    {
+      "source": "nasa_power_raw/SINGRAULI.csv",
+      "destination": "data/raw/nasa_power/SINGRAULI.csv",
+      "sha256": "b6e59ffb58891905363863809f10bc6e8cf7c4ae9daa9ab302680430e9b5f80f",
+      "bytes": 509146
+    },
+    {
+      "source": "nasa_power_raw/SIRMAUR.csv",
+      "destination": "data/raw/nasa_power/SIRMAUR.csv",
+      "sha256": "e4d3a4948c505010d9e62f4e37f444662aaf6e6ef41015a4610504beacb6f2f3",
+      "bytes": 507363
+    },
+    {
+      "source": "nasa_power_raw/SIROHI.csv",
+      "destination": "data/raw/nasa_power/SIROHI.csv",
+      "sha256": "20ebb1ded4a4f01d798d26984e7e68b54caaf2868d7bb064d83ac4d84c5812d1",
+      "bytes": 504559
+    },
+    {
+      "source": "nasa_power_raw/SIRSA.csv",
+      "destination": "data/raw/nasa_power/SIRSA.csv",
+      "sha256": "4ad4a62cc03fe05be8b30a964c329b1303b1b387dfde021daf247ed1d707670c",
+      "bytes": 507416
+    },
+    {
+      "source": "nasa_power_raw/SITAMARHI.csv",
+      "destination": "data/raw/nasa_power/SITAMARHI.csv",
+      "sha256": "494bb06a2b346bebab8c474b4af34ae00ea84a0d0c4ab601b1fb7f147dbb1d96",
+      "bytes": 509362
+    },
+    {
+      "source": "nasa_power_raw/SITAPUR.csv",
+      "destination": "data/raw/nasa_power/SITAPUR.csv",
+      "sha256": "67ab772d3d0ec32c8b7c53ca0183325ce5abff55d3041d374a5842c2b60b54db",
+      "bytes": 507985
+    },
+    {
+      "source": "nasa_power_raw/SIVAGANGA.csv",
+      "destination": "data/raw/nasa_power/SIVAGANGA.csv",
+      "sha256": "4232bacec277260f8782cecab5a72241e12f497a6f89fb3e5712faa75c9f28a7",
+      "bytes": 511863
+    },
+    {
+      "source": "nasa_power_raw/SIVASAGAR.csv",
+      "destination": "data/raw/nasa_power/SIVASAGAR.csv",
+      "sha256": "3cf8e882535fa8e08ae29cc4acba4507d0fee5c8b9ff522bdc385156f1a8c94c",
+      "bytes": 511645
+    },
+    {
+      "source": "nasa_power_raw/SIWAN.csv",
+      "destination": "data/raw/nasa_power/SIWAN.csv",
+      "sha256": "a5cb3114f17ec80aceb8a894911c84903e704339cfed4dbdd00aace99727cb65",
+      "bytes": 508648
+    },
+    {
+      "source": "nasa_power_raw/SOLAN.csv",
+      "destination": "data/raw/nasa_power/SOLAN.csv",
+      "sha256": "ab10a9ef3a1f1e217ac8d041fe148c4d1cde5735206280cb7c600db60b2551a7",
+      "bytes": 507257
+    },
+    {
+      "source": "nasa_power_raw/SOLAPUR.csv",
+      "destination": "data/raw/nasa_power/SOLAPUR.csv",
+      "sha256": "e7901cfe89aa269e5ced52dc38fac3460c676d66234b109d991871debe5a3689",
+      "bytes": 509179
+    },
+    {
+      "source": "nasa_power_raw/SONBHADRA.csv",
+      "destination": "data/raw/nasa_power/SONBHADRA.csv",
+      "sha256": "1e81d970520be2039bb2aeb54a9dc51e7d50e46421e1752a54b586e7b1938803",
+      "bytes": 509099
+    },
+    {
+      "source": "nasa_power_raw/SONEPUR.csv",
+      "destination": "data/raw/nasa_power/SONEPUR.csv",
+      "sha256": "9af2fe47f116a86c579ea1cbe51ab7d449700ec9cd3fbbe9d35f2d6679843d6b",
+      "bytes": 510455
+    },
+    {
+      "source": "nasa_power_raw/SONIPAT.csv",
+      "destination": "data/raw/nasa_power/SONIPAT.csv",
+      "sha256": "10c297ac470c75ed7f4ea80c275e241376a14045cac0b98f8456ad1a0f0466fd",
+      "bytes": 507498
+    },
+    {
+      "source": "nasa_power_raw/SONITPUR.csv",
+      "destination": "data/raw/nasa_power/SONITPUR.csv",
+      "sha256": "b729280f00023ff1998268aa7cb40e56b7f6123801553643f1f19a822379aef5",
+      "bytes": 511149
+    },
+    {
+      "source": "nasa_power_raw/SOUTH_GARO_HILLS.csv",
+      "destination": "data/raw/nasa_power/SOUTH_GARO_HILLS.csv",
+      "sha256": "60030e30936e7fd14bb2abe93e47d4396382b472f4125aaee6ddf3b0a2e83d64",
+      "bytes": 511656
+    },
+    {
+      "source": "nasa_power_raw/SOUTH_GOA.csv",
+      "destination": "data/raw/nasa_power/SOUTH_GOA.csv",
+      "sha256": "a53aa407af12f14ff01fb6486148ad05f90facddbd793a3d266f1d406837a2cd",
+      "bytes": 512761
+    },
+    {
+      "source": "nasa_power_raw/SOUTH_TRIPURA.csv",
+      "destination": "data/raw/nasa_power/SOUTH_TRIPURA.csv",
+      "sha256": "d886490a1cb8ce12da2fbb5b8b179d01fb8150d2b8de1f67d0b8625e95830e58",
+      "bytes": 510475
+    },
+    {
+      "source": "nasa_power_raw/SPSR_NELLORE.csv",
+      "destination": "data/raw/nasa_power/SPSR_NELLORE.csv",
+      "sha256": "84c5382270d6afca6457a932a092b55ee17c837da1fe8130627465963bc6f804",
+      "bytes": 511058
+    },
+    {
+      "source": "nasa_power_raw/SRIKAKULAM.csv",
+      "destination": "data/raw/nasa_power/SRIKAKULAM.csv",
+      "sha256": "1e984590d4358a676d9ea62472d40840bd753e787168bbe4d1fc02b4c8b20433",
+      "bytes": 510827
+    },
+    {
+      "source": "nasa_power_raw/SRINAGAR.csv",
+      "destination": "data/raw/nasa_power/SRINAGAR.csv",
+      "sha256": "f0c89f3271f52d0d299677b8107fa8150e3e6d2fc2fb202fe97bfa2d687956be",
+      "bytes": 500323
+    },
+    {
+      "source": "nasa_power_raw/SUKMA.csv",
+      "destination": "data/raw/nasa_power/SUKMA.csv",
+      "sha256": "f504931fedaad25eb3b201dd2d716fbe5e351ef13f6b399cc1301b264087fb0a",
+      "bytes": 510433
+    },
+    {
+      "source": "nasa_power_raw/SULTANPUR.csv",
+      "destination": "data/raw/nasa_power/SULTANPUR.csv",
+      "sha256": "0d4b5b1d0beb5ac7dce70a4b36cd9610c36a839af30c7165bd487e2c566bfef8",
+      "bytes": 507959
+    },
+    {
+      "source": "nasa_power_raw/SUNDARGARH.csv",
+      "destination": "data/raw/nasa_power/SUNDARGARH.csv",
+      "sha256": "2c6fd31578480c2480e53d32df09a3b9ba8a57aff4bfd311ab426712962f3abc",
+      "bytes": 509989
+    },
+    {
+      "source": "nasa_power_raw/SUPAUL.csv",
+      "destination": "data/raw/nasa_power/SUPAUL.csv",
+      "sha256": "a6af2a646c5f85fc2423099e4000c15e5777f47c6518b03fc974307df6901ebf",
+      "bytes": 509695
+    },
+    {
+      "source": "nasa_power_raw/SURAJPUR.csv",
+      "destination": "data/raw/nasa_power/SURAJPUR.csv",
+      "sha256": "318005b1358d87e2c1f61e2b022c63fc33ba2cd41020f37c76e35ae4db6d08b2",
+      "bytes": 509216
+    },
+    {
+      "source": "nasa_power_raw/SURAT.csv",
+      "destination": "data/raw/nasa_power/SURAT.csv",
+      "sha256": "5119f7b9b7832a88923d2127b454c28918b92bb18969ba9f8e0aac2856e3ea1b",
+      "bytes": 509337
+    },
+    {
+      "source": "nasa_power_raw/SURENDRANAGAR.csv",
+      "destination": "data/raw/nasa_power/SURENDRANAGAR.csv",
+      "sha256": "7a108095ade5e87ee678aa287531c92ddcb49c11cf9b1c08425437ca49610a78",
+      "bytes": 508247
+    },
+    {
+      "source": "nasa_power_raw/SURGUJA.csv",
+      "destination": "data/raw/nasa_power/SURGUJA.csv",
+      "sha256": "ca3caf3c605de69f166e8fe0323d5779057c7f619fc406eb5b0bce4212941b86",
+      "bytes": 509211
+    },
+    {
+      "source": "nasa_power_raw/SURYAPET.csv",
+      "destination": "data/raw/nasa_power/SURYAPET.csv",
+      "sha256": "a37c7c04caf12cb0c2d0c14c2c4f628178a009b326cad5dfc2675dd30a211972",
+      "bytes": 510273
+    },
+    {
+      "source": "nasa_power_raw/TAMENGLONG.csv",
+      "destination": "data/raw/nasa_power/TAMENGLONG.csv",
+      "sha256": "6275c3c97f1e3522c48b623d1be06dd41d003f7b4ba37a7b19a08b6200c5f6f0",
+      "bytes": 510022
+    },
+    {
+      "source": "nasa_power_raw/TAPI.csv",
+      "destination": "data/raw/nasa_power/TAPI.csv",
+      "sha256": "52459b2659dce537e28b802b1c5a624cbf6c3a62e868e8a4552e3eae61f2f3c2",
+      "bytes": 509176
+    },
+    {
+      "source": "nasa_power_raw/TARN_TARAN.csv",
+      "destination": "data/raw/nasa_power/TARN_TARAN.csv",
+      "sha256": "a6974f9d353698680eef5bc43c5dde3d82385998d6a19f5e5b743d4bc5b2fde6",
+      "bytes": 507341
+    },
+    {
+      "source": "nasa_power_raw/TAWANG.csv",
+      "destination": "data/raw/nasa_power/TAWANG.csv",
+      "sha256": "554556f9875c28ea157314d58c5bbe33ed58044114ac91c8b72d65078e2d094a",
+      "bytes": 499532
+    },
+    {
+      "source": "nasa_power_raw/TEHRI_GARHWAL.csv",
+      "destination": "data/raw/nasa_power/TEHRI_GARHWAL.csv",
+      "sha256": "dfcd6047d543e8b09b9562bc5717457a41b059857cc7a673c2c53a9e31ac3256",
+      "bytes": 502924
+    },
+    {
+      "source": "nasa_power_raw/THANE.csv",
+      "destination": "data/raw/nasa_power/THANE.csv",
+      "sha256": "561063e01d0dbb8b7d54a4e04cbcfe3eddac2a7bf0691d69bb15be632aa465de",
+      "bytes": 510155
+    },
+    {
+      "source": "nasa_power_raw/THANJAVUR.csv",
+      "destination": "data/raw/nasa_power/THANJAVUR.csv",
+      "sha256": "ed73176396252ed5db308a46115c6b30f1a3d5c7589438f5c1fc866a905d665f",
+      "bytes": 513072
+    },
+    {
+      "source": "nasa_power_raw/THE_NILGIRIS.csv",
+      "destination": "data/raw/nasa_power/THE_NILGIRIS.csv",
+      "sha256": "51f6abcf19617e8f1ff1521a462c3cd0513e7af119188bf91125631568e7946e",
+      "bytes": 511870
+    },
+    {
+      "source": "nasa_power_raw/THENI.csv",
+      "destination": "data/raw/nasa_power/THENI.csv",
+      "sha256": "917f4d3f6ff2c421793827782599964570bf5b544d10ec5cf206bf9c45a68e81",
+      "bytes": 511900
+    },
+    {
+      "source": "nasa_power_raw/THIRUVALLUR.csv",
+      "destination": "data/raw/nasa_power/THIRUVALLUR.csv",
+      "sha256": "ead9a6f81816bc2951af8c786dcb2b6921087fef7f3bd2a9e15ece24acefbe78",
+      "bytes": 512151
+    },
+    {
+      "source": "nasa_power_raw/THIRUVANANTHAPURAM.csv",
+      "destination": "data/raw/nasa_power/THIRUVANANTHAPURAM.csv",
+      "sha256": "c3383aca5940b23af58614f35595c4bffa13cef5b2e3b4ed181150ed2e5198d3",
+      "bytes": 512987
+    },
+    {
+      "source": "nasa_power_raw/THIRUVARUR.csv",
+      "destination": "data/raw/nasa_power/THIRUVARUR.csv",
+      "sha256": "ed73176396252ed5db308a46115c6b30f1a3d5c7589438f5c1fc866a905d665f",
+      "bytes": 513072
+    },
+    {
+      "source": "nasa_power_raw/THOUBAL.csv",
+      "destination": "data/raw/nasa_power/THOUBAL.csv",
+      "sha256": "32033e22f79088181d9634ad1ff3703e0db144f044b62d1b080ce905b317f346",
+      "bytes": 509231
+    },
+    {
+      "source": "nasa_power_raw/THRISSUR.csv",
+      "destination": "data/raw/nasa_power/THRISSUR.csv",
+      "sha256": "6714d54368658524bb508c3883d4435f5aa64e4420cb7d8fadb17472e7a725e5",
+      "bytes": 513674
+    },
+    {
+      "source": "nasa_power_raw/TIKAMGARH.csv",
+      "destination": "data/raw/nasa_power/TIKAMGARH.csv",
+      "sha256": "a3cc3211c719fe9dd9ec327a0de2c8a9dc60ff82ce8750774c063feb8dd4ae05",
+      "bytes": 508268
+    },
+    {
+      "source": "nasa_power_raw/TINSUKIA.csv",
+      "destination": "data/raw/nasa_power/TINSUKIA.csv",
+      "sha256": "774e373c01466d4deb68da7aeb9c292e520d61ed3b04d9359e786e2105e9ffca",
+      "bytes": 510703
+    },
+    {
+      "source": "nasa_power_raw/TIRAP.csv",
+      "destination": "data/raw/nasa_power/TIRAP.csv",
+      "sha256": "6020959133422c70f88e3943fede04ada494e4e18915080d26dae475d157e843",
+      "bytes": 510061
+    },
+    {
+      "source": "nasa_power_raw/TIRUCHIRAPPALLI.csv",
+      "destination": "data/raw/nasa_power/TIRUCHIRAPPALLI.csv",
+      "sha256": "ba341d138eeb5ac41d408b41ef9e89ce9889691aacb2888d1dcf3bd941cd6080",
+      "bytes": 511057
+    },
+    {
+      "source": "nasa_power_raw/TIRUNELVELI.csv",
+      "destination": "data/raw/nasa_power/TIRUNELVELI.csv",
+      "sha256": "d1aeaaef56f913bdcdbb4ae3727e8a6f87548a0bc2547f35c91a7002ca9e3225",
+      "bytes": 512278
+    },
+    {
+      "source": "nasa_power_raw/TIRUPPUR.csv",
+      "destination": "data/raw/nasa_power/TIRUPPUR.csv",
+      "sha256": "4a48575a181cc0c3829a0f27deec71cded0c4a8ccee6d7a43be473ccae3ffd3e",
+      "bytes": 511713
+    },
+    {
+      "source": "nasa_power_raw/TIRUVANNAMALAI.csv",
+      "destination": "data/raw/nasa_power/TIRUVANNAMALAI.csv",
+      "sha256": "730cbf446fb3c07039dac8a05239e9b496c91b234ac8cd8267420f4762ef305a",
+      "bytes": 512487
+    },
+    {
+      "source": "nasa_power_raw/TONK.csv",
+      "destination": "data/raw/nasa_power/TONK.csv",
+      "sha256": "cdcfa006e611d01af79de55a9f3e0acacd220c72fffd9c5f8b19f4d46da4fa2d",
+      "bytes": 507961
+    },
+    {
+      "source": "nasa_power_raw/TUENSANG.csv",
+      "destination": "data/raw/nasa_power/TUENSANG.csv",
+      "sha256": "f4e99d532b8235e80d9f1bf33f76dbf519ed28f167f4e2f48f577d796636a5fd",
+      "bytes": 510110
+    },
+    {
+      "source": "nasa_power_raw/TUMAKURU.csv",
+      "destination": "data/raw/nasa_power/TUMAKURU.csv",
+      "sha256": "8ccef82bab524ced2edeef6da2f0f245297ed4c4d2c349e4214725aaa4b6c063",
+      "bytes": 510369
+    },
+    {
+      "source": "nasa_power_raw/TUTICORIN.csv",
+      "destination": "data/raw/nasa_power/TUTICORIN.csv",
+      "sha256": "a4f746e9688dec14023a39b93d210ea2bef97f37795ed274b06f49010fd77945",
+      "bytes": 511637
+    },
+    {
+      "source": "nasa_power_raw/UDAIPUR.csv",
+      "destination": "data/raw/nasa_power/UDAIPUR.csv",
+      "sha256": "6d3091a83b57b67ccaea0fac94923a43860ba5ef23c1f7c09040c68632b5cace",
+      "bytes": 508059
+    },
+    {
+      "source": "nasa_power_raw/UDALGURI.csv",
+      "destination": "data/raw/nasa_power/UDALGURI.csv",
+      "sha256": "7a5b43e37bc4f45c5d98785d73ca269ad6fb32474c701134539baa36776d75db",
+      "bytes": 508938
+    },
+    {
+      "source": "nasa_power_raw/UDAM_SINGH_NAGAR.csv",
+      "destination": "data/raw/nasa_power/UDAM_SINGH_NAGAR.csv",
+      "sha256": "8522edc7f073e5d9d0ac2f56fd9c24a77f18083614262ff24ef80389d5c098cf",
+      "bytes": 508646
+    },
+    {
+      "source": "nasa_power_raw/UDHAMPUR.csv",
+      "destination": "data/raw/nasa_power/UDHAMPUR.csv",
+      "sha256": "7a745bfd3845d3f5880c878db4ebf42c51dd6e93798ecca21c21009ab557f00d",
+      "bytes": 505331
+    },
+    {
+      "source": "nasa_power_raw/UDUPI.csv",
+      "destination": "data/raw/nasa_power/UDUPI.csv",
+      "sha256": "459f0b747d86b94d50cfa234c9049cb59a0274422d065f27b1c6bf523aa35b90",
+      "bytes": 512264
+    },
+    {
+      "source": "nasa_power_raw/UJJAIN.csv",
+      "destination": "data/raw/nasa_power/UJJAIN.csv",
+      "sha256": "235d84645a5b167180dccfac1692d247b6df3df68f8ce3214baf89cf9d6df470",
+      "bytes": 507655
+    },
+    {
+      "source": "nasa_power_raw/UKHRUL.csv",
+      "destination": "data/raw/nasa_power/UKHRUL.csv",
+      "sha256": "2c395078bb6b111451d3c459ac4fac9d2afe93e873ad8943d33212c41bed0730",
+      "bytes": 508920
+    },
+    {
+      "source": "nasa_power_raw/UMARIA.csv",
+      "destination": "data/raw/nasa_power/UMARIA.csv",
+      "sha256": "451db72cbd9450b31ec29e96ebf4fa217dd10078b81039dcc9a21f1bcd4a182c",
+      "bytes": 508378
+    },
+    {
+      "source": "nasa_power_raw/UNA.csv",
+      "destination": "data/raw/nasa_power/UNA.csv",
+      "sha256": "a3812895832f0dc4a40e4aabfc70224510af7bb21a938be0de4097374a287d28",
+      "bytes": 508660
+    },
+    {
+      "source": "nasa_power_raw/UNAKOTI.csv",
+      "destination": "data/raw/nasa_power/UNAKOTI.csv",
+      "sha256": "f95cf907910e10182330543d7a63112bcffa6d542ec5f46e8c1c2f36e4013f7e",
+      "bytes": 511868
+    },
+    {
+      "source": "nasa_power_raw/UNNAO.csv",
+      "destination": "data/raw/nasa_power/UNNAO.csv",
+      "sha256": "3a9779b256dec3a249fd3fbbd766366b36fbbfd81a1c36acf202aa9237f26c40",
+      "bytes": 508003
+    },
+    {
+      "source": "nasa_power_raw/UPPER_SIANG.csv",
+      "destination": "data/raw/nasa_power/UPPER_SIANG.csv",
+      "sha256": "b3243de783b63c9edf35efa41540ce7c7eca3fe081da9fb0e8ae42c290ad711e",
+      "bytes": 505357
+    },
+    {
+      "source": "nasa_power_raw/UPPER_SUBANSIRI.csv",
+      "destination": "data/raw/nasa_power/UPPER_SUBANSIRI.csv",
+      "sha256": "efc98fb2921f7335ca1e03b9a94ab2550e19702f6a9998219ed354bb08e4fd0a",
+      "bytes": 507203
+    },
+    {
+      "source": "nasa_power_raw/UTTAR_KASHI.csv",
+      "destination": "data/raw/nasa_power/UTTAR_KASHI.csv",
+      "sha256": "e98c66d4afcb559af162c7dc23e77649e225cee92a42b5ec24e8f67f43d383d4",
+      "bytes": 505572
+    },
+    {
+      "source": "nasa_power_raw/UTTARA_KANNADA.csv",
+      "destination": "data/raw/nasa_power/UTTARA_KANNADA.csv",
+      "sha256": "a45041c78629d5be1cb842b77620278a4e4cd74d6eab7ba86afedc3674d7297f",
+      "bytes": 510800
+    },
+    {
+      "source": "nasa_power_raw/VADODARA.csv",
+      "destination": "data/raw/nasa_power/VADODARA.csv",
+      "sha256": "e2ff514510b26f572d3c5622b544bb08041d9df11dc35c4b60d7094ea1401ff8",
+      "bytes": 508735
+    },
+    {
+      "source": "nasa_power_raw/VAISHALI.csv",
+      "destination": "data/raw/nasa_power/VAISHALI.csv",
+      "sha256": "ef50f6bffc0b3b4c7c0179720c172d67432152efc00d0d3bb4a265c6fb555e19",
+      "bytes": 508741
+    },
+    {
+      "source": "nasa_power_raw/VALSAD.csv",
+      "destination": "data/raw/nasa_power/VALSAD.csv",
+      "sha256": "a5bd0b85139bc5802ccdfe291868d775e1660ae530cd58631ee359a74552f78e",
+      "bytes": 509567
+    },
+    {
+      "source": "nasa_power_raw/VARANASI.csv",
+      "destination": "data/raw/nasa_power/VARANASI.csv",
+      "sha256": "f2f0fa1eaa39871abd9db2a77ec1e63f3fc5e52e17c7f01c3972d21574a036db",
+      "bytes": 507409
+    },
+    {
+      "source": "nasa_power_raw/VELLORE.csv",
+      "destination": "data/raw/nasa_power/VELLORE.csv",
+      "sha256": "baf2975b2c63dc2341b41d098a04bb22e2bb60e8249dc3fc5b3a7e2e38fb3bda",
+      "bytes": 511199
+    },
+    {
+      "source": "nasa_power_raw/VIDISHA.csv",
+      "destination": "data/raw/nasa_power/VIDISHA.csv",
+      "sha256": "de6b536991e39bafd72f2a3a1bbda558cb43861266cd82c2ba4916f0b375b181",
+      "bytes": 508214
+    },
+    {
+      "source": "nasa_power_raw/VIJAYAPURA.csv",
+      "destination": "data/raw/nasa_power/VIJAYAPURA.csv",
+      "sha256": "e45b1027f7a917890562799e9b6b8a8807ec41cd64e3d18d5361313cb812f17c",
+      "bytes": 509111
+    },
+    {
+      "source": "nasa_power_raw/VIKARABAD.csv",
+      "destination": "data/raw/nasa_power/VIKARABAD.csv",
+      "sha256": "7f4df03b9dc32ea1ed60d4b0aa517612149cd5506c65b254a4ff31563922b38c",
+      "bytes": 510175
+    },
+    {
+      "source": "nasa_power_raw/VILLUPURAM.csv",
+      "destination": "data/raw/nasa_power/VILLUPURAM.csv",
+      "sha256": "a6cb2dc262d6963970fd1c7d3713c6a380325323e38992315b73a8157053c737",
+      "bytes": 512467
+    },
+    {
+      "source": "nasa_power_raw/VIRUDHUNAGAR.csv",
+      "destination": "data/raw/nasa_power/VIRUDHUNAGAR.csv",
+      "sha256": "5ffeac81dc9c3416ad8f2a329b640b5b51f82b0ba9aadf45ea46f4a6dca298e7",
+      "bytes": 512180
+    },
+    {
+      "source": "nasa_power_raw/VIZIANAGARAM.csv",
+      "destination": "data/raw/nasa_power/VIZIANAGARAM.csv",
+      "sha256": "567dd2e44204976be321806bd9939afde687726c9ebae545f5c8a04f77e5b74b",
+      "bytes": 511393
+    },
+    {
+      "source": "nasa_power_raw/WANAPARTHY.csv",
+      "destination": "data/raw/nasa_power/WANAPARTHY.csv",
+      "sha256": "006b4f2376d1afeef2a36e0acfbc9eaaab3f00425a37ef1d9057fa4a24b63401",
+      "bytes": 510433
+    },
+    {
+      "source": "nasa_power_raw/WARANGAL.csv",
+      "destination": "data/raw/nasa_power/WARANGAL.csv",
+      "sha256": "b8a3b85c3c1eecd6199ace9eaec0259c63007491928369a86a1c43f562a0cfaf",
+      "bytes": 510383
+    },
+    {
+      "source": "nasa_power_raw/WARDHA.csv",
+      "destination": "data/raw/nasa_power/WARDHA.csv",
+      "sha256": "ceb4714a5aeee0f11188d7766ddb4503a7bf3561c9c34658adbe70519e9c8f11",
+      "bytes": 509789
+    },
+    {
+      "source": "nasa_power_raw/WASHIM.csv",
+      "destination": "data/raw/nasa_power/WASHIM.csv",
+      "sha256": "86c6ae406f32d46dc844e6725c17cbc35f589c81c23f170536a768b651e04a43",
+      "bytes": 509888
+    },
+    {
+      "source": "nasa_power_raw/WAYANAD.csv",
+      "destination": "data/raw/nasa_power/WAYANAD.csv",
+      "sha256": "c5c2b882ea094cb8d992d00dfc8a8b1d63f0fd7e3b809375c90c1c896817690a",
+      "bytes": 512903
+    },
+    {
+      "source": "nasa_power_raw/WEST_GARO_HILLS.csv",
+      "destination": "data/raw/nasa_power/WEST_GARO_HILLS.csv",
+      "sha256": "ac78e016da9970536c48a01307a5f002213664e5961ca2dbb6ad4c9a6c16a8ab",
+      "bytes": 510954
+    },
+    {
+      "source": "nasa_power_raw/WEST_GODAVARI.csv",
+      "destination": "data/raw/nasa_power/WEST_GODAVARI.csv",
+      "sha256": "232dc8bee8ec4dbb121b88d3247354aca118a85db2d2492edb588fd83538d064",
+      "bytes": 510144
+    },
+    {
+      "source": "nasa_power_raw/WEST_JAINTIA_HILLS.csv",
+      "destination": "data/raw/nasa_power/WEST_JAINTIA_HILLS.csv",
+      "sha256": "b4a3900d913a2adb1315c2dcb936763220cf80d0401db2d9a2b88fed1f6bfc51",
+      "bytes": 510205
+    },
+    {
+      "source": "nasa_power_raw/WEST_KAMENG.csv",
+      "destination": "data/raw/nasa_power/WEST_KAMENG.csv",
+      "sha256": "722b9fa734134b442a756a1d1840fe857013145e8f44229b5fdca9211dbc1d01",
+      "bytes": 509102
+    },
+    {
+      "source": "nasa_power_raw/WEST_KHASI_HILLS.csv",
+      "destination": "data/raw/nasa_power/WEST_KHASI_HILLS.csv",
+      "sha256": "96b2abc89f44f37540fec7fa6490e979734e54875093e401ef990e0652e35f72",
+      "bytes": 510177
+    },
+    {
+      "source": "nasa_power_raw/WEST_SIANG.csv",
+      "destination": "data/raw/nasa_power/WEST_SIANG.csv",
+      "sha256": "efc98fb2921f7335ca1e03b9a94ab2550e19702f6a9998219ed354bb08e4fd0a",
+      "bytes": 507203
+    },
+    {
+      "source": "nasa_power_raw/WEST_SINGHBHUM.csv",
+      "destination": "data/raw/nasa_power/WEST_SINGHBHUM.csv",
+      "sha256": "3e88943c05ee9004155688aaa29eb7459d367c8fcfdf76da93bc3d86f8972e73",
+      "bytes": 509285
+    },
+    {
+      "source": "nasa_power_raw/WEST_TRIPURA.csv",
+      "destination": "data/raw/nasa_power/WEST_TRIPURA.csv",
+      "sha256": "9687ec7ef28be627abd57c4a067809c9acbacbfa5917f30c03795874f63d0a58",
+      "bytes": 511367
+    },
+    {
+      "source": "nasa_power_raw/WOKHA.csv",
+      "destination": "data/raw/nasa_power/WOKHA.csv",
+      "sha256": "beb3d079a8471913679614e4cea77d8588cd6f412697f80d963c0616e7a8c587",
+      "bytes": 509623
+    },
+    {
+      "source": "nasa_power_raw/YADADRI.csv",
+      "destination": "data/raw/nasa_power/YADADRI.csv",
+      "sha256": "01bc1f986e24d25208d0aee1fa70b9dab93bde536235377016f64f2dacdbe082",
+      "bytes": 510405
+    },
+    {
+      "source": "nasa_power_raw/YADAGIRI.csv",
+      "destination": "data/raw/nasa_power/YADAGIRI.csv",
+      "sha256": "595f0590a383bb657bb660d41ffe3a500b7a54e7e95a7df76cc6620c9ba6fbb5",
+      "bytes": 509359
+    },
+    {
+      "source": "nasa_power_raw/YAMUNANAGAR.csv",
+      "destination": "data/raw/nasa_power/YAMUNANAGAR.csv",
+      "sha256": "b486056d6e0155ed91ac80999a5edb119837c26c9d3282b0504b699f6fd5c0a3",
+      "bytes": 508324
+    },
+    {
+      "source": "nasa_power_raw/YANAM.csv",
+      "destination": "data/raw/nasa_power/YANAM.csv",
+      "sha256": "33b9a61322216e781380507ce40ee14537a0e25b32f44eb399ddcababe1be4fc",
+      "bytes": 511293
+    },
+    {
+      "source": "nasa_power_raw/YAVATMAL.csv",
+      "destination": "data/raw/nasa_power/YAVATMAL.csv",
+      "sha256": "83e22e282f52d5b55cfff038116159feeb4ff5b92a5c501d0a34a713f39a2fad",
+      "bytes": 509501
+    },
+    {
+      "source": "nasa_power_raw/ZUNHEBOTO.csv",
+      "destination": "data/raw/nasa_power/ZUNHEBOTO.csv",
+      "sha256": "76a2591fbbd120f5174e627c7f5df4b87737ca332ee91652eaa3651b74b08a31",
+      "bytes": 509664
+    },
+    {
+      "source": "NDVI DATASETS HIST/ndvi_historical_Andhra_Pradesh.csv",
+      "destination": "data/raw/ndvi/ndvi_historical_Andhra_Pradesh.csv",
+      "sha256": "bff165c11188e93bf02cc6ab165dcffb5a231f7f738932fe5a42016a20d6950b",
+      "bytes": 416797
+    },
+    {
+      "source": "NDVI DATASETS HIST/ndvi_historical_Assam.csv",
+      "destination": "data/raw/ndvi/ndvi_historical_Assam.csv",
+      "sha256": "7b25940659083a975949115536d4242ae25d21626239b3ba27d8bbcc892dc8fb",
+      "bytes": 335843
+    },
+    {
+      "source": "NDVI DATASETS HIST/ndvi_historical_batch2.csv",
+      "destination": "data/raw/ndvi/ndvi_historical_batch2.csv",
+      "sha256": "56b216d507f3d7b64ab6de88124f794a34eb25bee7e9045f48dbc35097ef39d1",
+      "bytes": 3866992
+    },
+    {
+      "source": "NDVI DATASETS HIST/ndvi_historical_Bihar.csv",
+      "destination": "data/raw/ndvi/ndvi_historical_Bihar.csv",
+      "sha256": "c411380faac1df711b84bc44cff7f137b103afdb9cb5e0d78cbf6d6d915e9411",
+      "bytes": 518408
+    },
+    {
+      "source": "NDVI DATASETS HIST/ndvi_historical_Chhattisgarh.csv",
+      "destination": "data/raw/ndvi/ndvi_historical_Chhattisgarh.csv",
+      "sha256": "6bddbadc26153115f5c7cfe5db49b5f2c46300c1ebb6322375c4f8ffd90293b0",
+      "bytes": 400378
+    },
+    {
+      "source": "NDVI DATASETS HIST/ndvi_historical_Gujarat.csv",
+      "destination": "data/raw/ndvi/ndvi_historical_Gujarat.csv",
+      "sha256": "2abfa79e8a9ee4d99a1b4acae5918b7cbd2ae892cbf335bd3bd7029d74ac9298",
+      "bytes": 412134
+    },
+    {
+      "source": "NDVI DATASETS HIST/ndvi_historical_Haryana.csv",
+      "destination": "data/raw/ndvi/ndvi_historical_Haryana.csv",
+      "sha256": "4ae0e68ef6d4c2852f36fc644f3edb05db4f29f9ea2cdde956b5926851b23abf",
+      "bytes": 224848
+    },
+    {
+      "source": "NDVI DATASETS HIST/ndvi_historical_Jharkhand.csv",
+      "destination": "data/raw/ndvi/ndvi_historical_Jharkhand.csv",
+      "sha256": "3a0e5f102389a28a460c00a635ab4d780f31269d3e32dbae21a25714b5322d88",
+      "bytes": 191737
+    },
+    {
+      "source": "NDVI DATASETS HIST/ndvi_historical_Karnataka.csv",
+      "destination": "data/raw/ndvi/ndvi_historical_Karnataka.csv",
+      "sha256": "2b26d3fdd9c9199e692b24b94398a98db1293e8bb6ef9ca45d0efe58452cbaae",
+      "bytes": 628598
+    },
+    {
+      "source": "NDVI DATASETS HIST/ndvi_historical_Madhya_Pradesh.csv",
+      "destination": "data/raw/ndvi/ndvi_historical_Madhya_Pradesh.csv",
+      "sha256": "f5742ce6fdd6653ce479fa00a7f0f4a2a5da5cdfff9e0459d59d7f82b5cc3939",
+      "bytes": 807698
+    },
+    {
+      "source": "NDVI DATASETS HIST/ndvi_historical_Maharashtra.csv",
+      "destination": "data/raw/ndvi/ndvi_historical_Maharashtra.csv",
+      "sha256": "7314dae9917921479dd5ce219920e692109e38db34e88d97263486b4b7e4446a",
+      "bytes": 480754
+    },
+    {
+      "source": "NDVI DATASETS HIST/ndvi_historical_Odisha.csv",
+      "destination": "data/raw/ndvi/ndvi_historical_Odisha.csv",
+      "sha256": "a4b7eb953b17a3a0214b2f6f8431b99cf2e796968cd34a80538f43949e61ab7a",
+      "bytes": 410184
+    },
+    {
+      "source": "NDVI DATASETS HIST/ndvi_historical_Punjab.csv",
+      "destination": "data/raw/ndvi/ndvi_historical_Punjab.csv",
+      "sha256": "43373bf4e7b95ae9e1317ab255eb4ea8440bc146278350db60ee47f180f7cabf",
+      "bytes": 121478
+    },
+    {
+      "source": "NDVI DATASETS HIST/ndvi_historical_Rajasthan.csv",
+      "destination": "data/raw/ndvi/ndvi_historical_Rajasthan.csv",
+      "sha256": "601ca3e3a1229b67a940927899af81c29c4598dfb22b0a0c6c8368923f653ae4",
+      "bytes": 454283
+    },
+    {
+      "source": "NDVI DATASETS HIST/ndvi_historical_Tamil_Nadu.csv",
+      "destination": "data/raw/ndvi/ndvi_historical_Tamil_Nadu.csv",
+      "sha256": "f181586619683c3388ad386ea618c43c74583c5f8478c15afc3d3d9cc14b8476",
+      "bytes": 424364
+    },
+    {
+      "source": "NDVI DATASETS HIST/ndvi_historical_Telangana.csv",
+      "destination": "data/raw/ndvi/ndvi_historical_Telangana.csv",
+      "sha256": "4f86c307224a78b0bbf91addf6da689dda25c312ae4c43a72562ccfe54135618",
+      "bytes": 143769
+    },
+    {
+      "source": "NDVI DATASETS HIST/ndvi_historical_top5.csv",
+      "destination": "data/raw/ndvi/ndvi_historical_top5.csv",
+      "sha256": "f319ad7734e604d4a81fb699206fbe2da644be07e047afa3280e8a68b0699fad",
+      "bytes": 3779517
+    },
+    {
+      "source": "NDVI DATASETS HIST/ndvi_historical_Uttar_Pradesh.csv",
+      "destination": "data/raw/ndvi/ndvi_historical_Uttar_Pradesh.csv",
+      "sha256": "11b106bfe16a20d4abbb13e35afd42bd522c1866751b2f85f48faec1de7ed06b",
+      "bytes": 1344347
+    },
+    {
+      "source": "NDVI DATASETS HIST/ndvi_historical_West_Bengal.csv",
+      "destination": "data/raw/ndvi/ndvi_historical_West_Bengal.csv",
+      "sha256": "c3bd080256c25e2a1516284a2ad766b82c0bfd819985e340a68c1c7671007ed1",
+      "bytes": 331969
+    },
+    {
+      "source": "nasa_power_seasonal.csv",
+      "destination": "data/processed/nasa_power_seasonal.csv",
+      "sha256": "a2d7fd028d287a5ca571d550fdcd983be70b37ba42a77771925beb43d17c5c32",
+      "bytes": 4770954
+    },
+    {
+      "source": "ndvi_historical_all_india.csv",
+      "destination": "data/processed/ndvi_historical_all_india.csv",
+      "sha256": "56625c33d6f9792bc86c4cb2806ab8dae98e75571c1a29bb29b6399b05e122f1",
+      "bytes": 7646437
+    },
+    {
+      "source": "merged_dataset.csv",
+      "destination": "artifacts/baseline/legacy/merged_dataset.csv",
+      "sha256": "ff868f308fab9529cd92bc917b0e9145855039b3cedf2d8f69b798e5528128dc",
+      "bytes": 24129918
+    },
+    {
+      "source": "yield_model.pkl",
+      "destination": "artifacts/baseline/legacy/yield_model.pkl",
+      "sha256": "f2886f180c964e841919663d27c5df00f5787f5fd608fe34a0d5d1d2ae721ca6",
+      "bytes": 2658170
+    },
+    {
+      "source": "scaler.pkl",
+      "destination": "artifacts/baseline/legacy/scaler.pkl",
+      "sha256": "28a8fd4ddc9ba667805c4552b8fb271033b8f5ca0f5b880d8518696df6c76238",
+      "bytes": 1551
+    },
+    {
+      "source": "model_metadata.json",
+      "destination": "artifacts/baseline/legacy/model_metadata.json",
+      "sha256": "25efc2c83c2ebc7d6ca5627449078079e17df4c83f06c78d913dd59f7fa8c99d",
+      "bytes": 7703
+    },
+    {
+      "source": "training_report.txt",
+      "destination": "artifacts/baseline/legacy/training_report.txt",
+      "sha256": "c75c88aebf8d2c8329934d6630914a4e854589c56ee9da092f507fde2af0b2d1",
+      "bytes": 4317
+    },
+    {
+      "source": "templates/index.html",
+      "destination": "farm_yield/templates/index.html",
+      "sha256": "2c51d5a52a4f9441afefc5000ce0b507a8648f9d061e3242a4a848d6cbf141e0",
+      "bytes": 9150
+    },
+    {
+      "source": "static/css/styles.css",
+      "destination": "farm_yield/static/css/styles.css",
+      "sha256": "756d34953cbfef0bbecbb1a0fe69b70c577561e5079089331ad7a62b3b482bab",
+      "bytes": 17234
+    },
+    {
+      "source": "static/js/app.js",
+      "destination": "farm_yield/static/js/app.js",
+      "sha256": "6ac8ea3dc72960f1b320e43a6ec15f8f30075fdad51c531bcfe9b2c9d4abb45e",
+      "bytes": 13932
+    },
+    {
+      "source": "farm_yield_project_roadmap.html",
+      "destination": "docs/farm_yield_project_roadmap.html",
+      "sha256": "da6e83ecbcebb7e0dae062bc68cb92407814dd84fcc770e211e14e8647642b9b",
+      "bytes": 12563
+    },
+    {
+      "source": "project_state.txt",
+      "destination": "docs/archive/project_state_2026_04.txt",
+      "sha256": "30ea8a38a2ca69441cffb377b4bc4ff7e6d59f7447b57634ddc5b8072da714bc",
+      "bytes": 12139
+    },
+    {
+      "source": "isrgrootx1.pem",
+      "destination": "certs/isrgrootx1.pem",
+      "sha256": "22b557a27055b33606b6559f37703928d3e4ad79f110b407d04986e1843543d1",
+      "bytes": 1939
+    },
+    {
+      "source": "fetch_nasa_power.py",
+      "destination": "farm_yield/acquisition/fetch_nasa_power.py",
+      "sha256": "21f96e5e12f5c38967d27c477ba4caf98ef3947229ed85544ec14aa02b4a2576",
+      "bytes": 40503
+    },
+    {
+      "source": "fetch_ndvi_batch2.py",
+      "destination": "farm_yield/acquisition/fetch_ndvi_batch2.py",
+      "sha256": "1c45f6bd9f5fadde90d29a6974b901d8a73795c6f347b709a61023c476385e72",
+      "bytes": 29006
+    },
+    {
+      "source": "fetch_ndvi_historical.py",
+      "destination": "farm_yield/acquisition/fetch_ndvi_historical.py",
+      "sha256": "5399e18cc19242ca82d0e3ce30647550643ed67b3203d9d4de6c355c5beb5282",
+      "bytes": 24932
+    },
+    {
+      "source": "fetch_satellite.py",
+      "destination": "farm_yield/acquisition/fetch_satellite.py",
+      "sha256": "dfa337905598713f2b9227cd0d6d4383adae6a1d16689cb787999ca4a896e998",
+      "bytes": 3024
+    },
+    {
+      "source": "fetch_soil_smap.py",
+      "destination": "farm_yield/acquisition/fetch_soil_smap.py",
+      "sha256": "93f3722f940c3443cca177dd2c7c8d836407b029bc54eafd62507f5a0f14e052",
+      "bytes": 7628
+    },
+    {
+      "source": "fetch_weather.py",
+      "destination": "farm_yield/acquisition/fetch_weather.py",
+      "sha256": "e99d5eaaa4a0f3e40221906f58e4c4d2b62ba170aefc50de3c8de92f50556257",
+      "bytes": 4481
+    }
+  ]
+}

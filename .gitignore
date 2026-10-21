@@ -6,3 +6,7 @@ isrgrootx1.pem
 # Ignore environment variables or secret keys (for later)
 .env
 
+
+.venv/
+*.pyc
+artifacts/runs/*/checkpoints/

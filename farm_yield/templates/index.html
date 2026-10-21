@@ -22,19 +22,19 @@
         <div class="brand-mark"></div>
         <div>
           <h1>AgriYield</h1>
-          <p>Farm intelligence workspace for crop-aware yield estimation.</p>
+          <p>Completed-season yield research using district-level labels.</p>
         </div>
       </div>
       <div class="meta">
         <div class="pill">GEE + MODIS + NASA POWER</div>
-        <div class="pill live">ML analysis ready</div>
+        <div class="pill{{ ' live' if model_ready else '' }}">{{ 'Verified model loaded' if model_ready else 'Model verification pending' }}</div>
       </div>
     </header>
 
     <section class="hero-banner">
-      <div class="hero-kicker">Farm Decision Support</div>
+      <div class="hero-kicker">Crop Yield Research</div>
       <h2>Find a farm, pick a crop, and estimate seasonal yield in one place.</h2>
-      <p>Search a farm area, confirm the crop, and review satellite, climate, and yield signals in a cleaner workspace built for practical field selection.</p>
+      <p>Review completed-season satellite, climate, and yield signals. The model is evaluated against district yields; accuracy for individual fields is unverified.</p>
     </section>
 
     <main class="workspace">
@@ -55,7 +55,7 @@
           <div class="section">
             <div class="section-head">
               <h3>Select Crop</h3>
-              <span>Choose the active crop</span>
+              <span>Latest completed season</span>
             </div>
             <div class="crop-grid">
               <button class="crop-btn active" data-crop="Sugarcane" type="button"><strong>Sugarcane</strong><span>Year-round crop</span></button>

@@ -2,12 +2,13 @@ import requests
 import datetime
 import mysql.connector
 from mysql.connector import Error
-from fetch_soil_smap import get_blended_soil_report
+from farm_yield.acquisition.fetch_soil_smap import get_blended_soil_report
 import os
 
 from dotenv import load_dotenv
+from farm_yield.paths import ENV_FILE
 
-load_dotenv()  # loads the .env file
+load_dotenv(ENV_FILE)  # loads the .env file
 
 DB_CONFIG = {
     'host': os.getenv('DB_HOST'),

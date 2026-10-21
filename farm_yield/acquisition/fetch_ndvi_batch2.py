@@ -30,6 +30,8 @@ Output:
     ndvi_historical_all_india.csv     batch 1 + batch 2 combined
 """
 
+from farm_yield.paths import RAW_DATA, NDVI_RAW, PROCESSED_DATA
+
 import ee
 import pandas as pd
 import numpy as np
@@ -377,7 +379,7 @@ def fetch_ndvi_for_year(year, districts):
 
 # ── FETCH ONE STATE ───────────────────────────────────────────────────────────
 def fetch_state(state_name, apy_df):
-    out_file   = f"ndvi_historical_{state_name.replace(' ', '_')}.csv"
+    out_file   = NDVI_RAW / f"ndvi_historical_{state_name.replace(' ', '_')}.csv"
     done_years = set()
     cached     = []
 
@@ -430,7 +432,7 @@ def merge_batch2():
     """Merge all batch 2 state files into ndvi_historical_batch2.csv"""
     frames = []
     for state in BATCH2_STATES:
-        fname = f"ndvi_historical_{state.replace(' ', '_')}.csv"
+        fname = NDVI_RAW / f"ndvi_historical_{state.replace(' ', '_')}.csv"
         if os.path.exists(fname):
             df = pd.read_csv(fname)
             frames.append(df)
@@ -440,14 +442,14 @@ def merge_batch2():
 
     if frames:
         merged = pd.concat(frames, ignore_index=True)
-        merged.to_csv("ndvi_historical_batch2.csv", index=False)
+        merged.to_csv(NDVI_RAW / "ndvi_historical_batch2.csv", index=False)
         print(f"\n✅ ndvi_historical_batch2.csv saved ({len(merged)} rows)")
     else:
         print("No batch 2 files found.")
 
 
-def merge_all_india(batch1_file="ndvi_historical_all.csv",
-                    batch2_file="ndvi_historical_batch2.csv"):
+def merge_all_india(batch1_file=NDVI_RAW / "ndvi_historical_top5.csv",
+                    batch2_file=NDVI_RAW / "ndvi_historical_batch2.csv"):
     """
     Merge batch 1 CSV (from fetch_ndvi_historical.py --merge)
     with batch 2 CSV into final ndvi_historical_all_india.csv
@@ -464,7 +466,7 @@ def merge_all_india(batch1_file="ndvi_historical_all.csv",
     if len(frames) == 2:
         merged = pd.concat(frames, ignore_index=True)
         merged = merged.drop_duplicates(subset=['State','District','Crop','Season','year'])
-        merged.to_csv("ndvi_historical_all_india.csv", index=False)
+        merged.to_csv(PROCESSED_DATA / "ndvi_historical_all_india.csv", index=False)
         print(f"\n✅ ndvi_historical_all_india.csv saved")
         print(f"   Total rows:   {len(merged)}")
         print(f"   States:       {merged['State'].nunique()}")
@@ -498,7 +500,7 @@ def main():
     ee.Initialize(project=GEE_PROJECT)
     print("✅ GEE initialized\n")
 
-    apy = pd.read_csv('APY.csv')
+    apy = pd.read_csv(RAW_DATA / 'APY.csv')
     apy.columns = apy.columns.str.strip()
     apy['District'] = apy['District'].str.strip()
     apy['State']    = apy['State'].str.strip()

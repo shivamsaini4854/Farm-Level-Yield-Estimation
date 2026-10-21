@@ -52,9 +52,11 @@ from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 
 # ── CONFIG ────────────────────────────────────────────────────────────────────
-RAW_DIR        = "nasa_power_raw"
-OUTPUT_FILE    = "nasa_power_seasonal.csv"
-APY_PATH       = "APY.csv"
+from farm_yield.paths import RAW_DATA, PROCESSED_DATA
+
+RAW_DIR        = RAW_DATA / "nasa_power"
+OUTPUT_FILE    = PROCESSED_DATA / "nasa_power_seasonal.csv"
+APY_PATH       = RAW_DATA / "APY.csv"
 START_DATE     = "19970101"
 END_DATE       = "20191231"
 MAX_WORKERS    = 20       # parallel threads — NASA POWER handles this fine

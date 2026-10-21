@@ -19,6 +19,10 @@ Usage:
     python merge_and_train.py
 """
 
+from farm_yield.paths import RAW_DATA, PROCESSED_DATA, RUNS
+
+OUTPUT_DIR = RUNS / "legacy-rebuild"
+
 import pandas as pd
 import numpy as np
 import json
@@ -60,7 +64,7 @@ TARGET = 'yield_t_ha'
 def load_and_merge():
     print("[1/5] Loading data...")
 
-    apy = pd.read_csv('APY.csv')
+    apy = pd.read_csv(RAW_DATA / 'APY.csv')
     apy.columns = apy.columns.str.strip()
     apy['District'] = apy['District'].str.strip()
     apy['State']    = apy['State'].str.strip()
@@ -73,13 +77,13 @@ def load_and_merge():
     })
     print(f"   APY: {len(apy)} rows")
 
-    nasa = pd.read_csv('nasa_power_seasonal.csv')
+    nasa = pd.read_csv(PROCESSED_DATA / 'nasa_power_seasonal.csv')
     # Drop et0_mm — 100% null
     if 'et0_mm' in nasa.columns:
         nasa = nasa.drop(columns=['et0_mm'])
     print(f"   NASA POWER: {len(nasa)} rows, {nasa['District'].nunique()} districts")
 
-    ndvi = pd.read_csv('ndvi_historical_all_india.csv')
+    ndvi = pd.read_csv(PROCESSED_DATA / 'ndvi_historical_all_india.csv')
     ndvi = ndvi.rename(columns={'year': 'Crop_Year'})
     print(f"   NDVI: {len(ndvi)} rows, {ndvi['District'].nunique()} districts")
 
@@ -120,7 +124,7 @@ def clean(df):
     print(f"   Rows before: {before}, after cleaning: {after} ({100*after/before:.1f}% kept)")
     print(f"   Crop distribution:\n{df['Crop'].value_counts().to_string()}")
 
-    df.to_csv('merged_dataset.csv', index=False)
+    df.to_csv(PROCESSED_DATA / 'merged_dataset.csv', index=False)
     print(f"   Saved: merged_dataset.csv")
     return df
 
@@ -284,8 +288,8 @@ def train(df, feature_cols):
 def save(model, model_name, scaler, results, feature_cols, test_years, train_years, report):
     print("\n[5/5] Saving artifacts...")
 
-    joblib.dump(model, 'yield_model.pkl')
-    joblib.dump(scaler, 'scaler.pkl')
+    joblib.dump(model, OUTPUT_DIR / 'yield_model.pkl')
+    joblib.dump(scaler, OUTPUT_DIR / 'scaler.pkl')
     print("   yield_model.pkl ✅")
     print("   scaler.pkl ✅")
 
@@ -306,11 +310,11 @@ def save(model, model_name, scaler, results, feature_cols, test_years, train_yea
             'indicates whether real NDVI was used for that row.'
         ),
     }
-    with open('model_metadata.json', 'w') as f:
+    with open(OUTPUT_DIR / 'model_metadata.json', 'w') as f:
         json.dump(metadata, f, indent=2)
     print("   model_metadata.json ✅")
 
-    with open('training_report.txt', 'w', encoding='utf-8') as f:
+    with open(OUTPUT_DIR / 'training_report.txt', 'w', encoding='utf-8') as f:
         f.write('\n'.join(report))
     print("   training_report.txt ✅")
 
@@ -327,6 +331,8 @@ def save(model, model_name, scaler, results, feature_cols, test_years, train_yea
 
 # ── MAIN ──────────────────────────────────────────────────────────────────────
 def main():
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    PROCESSED_DATA.mkdir(parents=True, exist_ok=True)
     print("=" * 55)
     print("  MERGE + TRAIN PIPELINE")
     print("=" * 55)
