@@ -6,6 +6,7 @@ import logging
 import os
 import re
 import secrets
+from datetime import timedelta
 from uuid import uuid4
 
 from dotenv import load_dotenv
@@ -13,12 +14,13 @@ from flask import Flask, jsonify, render_template, request, session
 from werkzeug.exceptions import HTTPException
 
 from farm_yield import database
-from farm_yield.acquisition.live import ObservationsUnavailable, fetch_weather
+from farm_yield.acquisition.live import ObservationsUnavailable
 from farm_yield.coordinates import normalize_and_validate_coordinates
 from farm_yield.features import SATELLITE_COLUMNS, validate_monthly_record, weather_summary
+from farm_yield.geography import districts, resolve_district
 from farm_yield.ml.artifacts import ModelUnavailable, load_current, predict
 from farm_yield.paths import ENV_FILE, GEO_DATA
-from farm_yield.seasons import CROPS, completed_season
+from farm_yield.seasons import CROPS, completed_season, season_months
 
 load_dotenv(ENV_FILE)
 logger = logging.getLogger(__name__)
@@ -53,7 +55,12 @@ def create_app(config=None):
     @application.get('/ready')
     def ready():
         checks = {'model': application.extensions['yield_bundle'] is not None,
-                  'session_key': application.config['SESSION_KEY_CONFIGURED'], 'database': False}
+                  'session_key': application.config['SESSION_KEY_CONFIGURED'], 'database': False,
+                  'geography': False}
+        try:
+            checks['geography'] = bool(districts())
+        except (OSError, ValueError, KeyError, TypeError):
+            logger.error('District geography is unavailable.')
         try:
             checks['database'] = database.check_ready()
         except database.DatabaseUnavailable:
@@ -70,7 +77,9 @@ def create_app(config=None):
             except ValueError:
                 pass
         return render_template('index.html', weather=None, submitted_lat=lat, submitted_lon=lon,
-                               model_ready=application.extensions['yield_bundle'] is not None)
+                               model_ready=application.extensions['yield_bundle'] is not None,
+                               supported_year=max(application.extensions['yield_bundle']['metadata']['harvest_years'])
+                               if application.extensions['yield_bundle'] else None)
 
     @application.post('/api/fetch_ndvi')
     def fetch_ndvi():
@@ -84,18 +93,18 @@ def create_app(config=None):
         bundle = application.extensions['yield_bundle']
         if bundle is None:
             raise ModelUnavailable(application.extensions['model_error'])
-        start, end, season, harvest_year = completed_season(crop)
-        records = fetch_weather(lat, lon, start, end)
-        from farm_yield.acquisition.satellite_features import fetch_point_season
-        satellite = fetch_point_season(lat, lon, start, end)
-        if {r['month'] for r in records} != set(satellite):
-            raise ObservationsUnavailable('Satellite response does not match the requested season.')
-        for record in records:
-            record.update(satellite[record['month']])
+        start, end, season, harvest_year = completed_season(crop, supported_years=bundle['metadata']['harvest_years'])
+        district = resolve_district(lat, lon)
+        observed = bundle['observations'].get(district['shape_id'], {})
+        months = [month.isoformat() for month in season_months(start, end)]
+        if any(month not in observed for month in months):
+            raise ObservationsUnavailable('Verified historical observations are unavailable for this district and season.')
+        records = [observed[month] for month in months]
         prediction = predict(bundle, records, crop, start, end)
         available = {column: sum(r.get(column) is not None for r in records) for column in SATELLITE_COLUMNS}
         ndvi = [r['ndvi'] for r in records if r.get('ndvi') is not None]
         alerts = [{'code': 'district_labels', 'message': 'Evaluation uses district yields; accuracy for individual fields is unverified.'}]
+        alerts.append({'code': 'retrospective_window', 'message': 'Satellite composites may extend up to 15 days past the reporting season; this is a historical completed-season analysis.'})
         if any(count < len(records) for count in available.values()):
             alerts.append({'code': 'missing_satellite', 'message': 'Some satellite inputs were unavailable; the saved training imputer was used.'})
         payload = {
@@ -103,9 +112,12 @@ def create_app(config=None):
             'crop': crop, 'season': season, 'harvest_year': harvest_year,
             'season_status': 'completed', 'model': bundle['metadata']['model_name'],
             'model_version': bundle['metadata']['run_id'], 'evaluation_unit': 'district',
+            'district': district['district'], 'observation_source': 'verified historical district reference-point cache',
+            'analysis_mode': 'historical_replay',
             'ndvi': round(sum(ndvi) / len(ndvi), 4) if ndvi else None,
             'weather': weather_summary(records), 'feature_availability': available,
             'season_window': {'start': start.isoformat(), 'end': end.isoformat()},
+            'satellite_temporal_support': {'start': start.isoformat(), 'latest_possible_end': (end + timedelta(days=15)).isoformat()},
             'alerts': alerts, 'evidence_limits': bundle['metadata']['evidence_limits'],
         }
         session.setdefault('visitor_id', secrets.token_hex(24))
@@ -145,10 +157,15 @@ def create_app(config=None):
         crop = request.args.get('crop', 'Wheat')
         if crop not in CROPS:
             raise ValueError('Unsupported crop.')
-        path = GEO_DATA / 'yield_map.geojson'
+        path = GEO_DATA / f'yield_map_{CROPS.index(crop)}.geojson'
+        bundle = application.extensions['yield_bundle']
+        if bundle is None:
+            raise ModelUnavailable('No verified model bundle is available.')
         if not path.exists():
             return jsonify(error='Verified district yield map is not available.'), 503
         collection = json.loads(path.read_text(encoding='utf-8'))
+        if any(f['properties']['model_version'] != bundle['metadata']['run_id'] for f in collection['features']):
+            return jsonify(error='District map does not match the loaded model version.'), 503
         collection['features'] = [f for f in collection['features'] if f['properties']['crop'] == crop]
         return jsonify(collection)
 

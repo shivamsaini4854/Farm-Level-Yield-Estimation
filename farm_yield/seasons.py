@@ -20,13 +20,17 @@ def season_dates(season, harvest_year):
     if season == 'Kharif':
         return date(harvest_year, 6, 1), date(harvest_year, 11, 30)
     if season == 'Whole Year':
-        return date(harvest_year, 1, 1), date(harvest_year, 12, 31)
+        return date(harvest_year - 1, 7, 1), date(harvest_year, 6, 30)
     if season == 'Summer':
         return date(harvest_year, 3, 1), date(harvest_year, 6, 30)
     raise ValueError('Unsupported season; its dates must be verified before use.')
 
 
-def completed_season(crop, today=None):
+def label_harvest_year(crop_year, season):
+    return int(crop_year) + int(season in ('Rabi', 'Whole Year', 'Summer'))
+
+
+def completed_season(crop, today=None, supported_years=None):
     if crop not in CROP_SEASONS:
         raise ValueError('Unsupported crop.')
     available = (today or date.today()) - timedelta(days=5)
@@ -35,6 +39,12 @@ def completed_season(crop, today=None):
     start, end = season_dates(season, year)
     if end > available:
         year -= 1
+        start, end = season_dates(season, year)
+    if supported_years is not None:
+        candidates = [y for y in supported_years if y <= year]
+        if not candidates:
+            raise ValueError('No supported completed season is available.')
+        year = max(candidates)
         start, end = season_dates(season, year)
     return start, end, season, year
 

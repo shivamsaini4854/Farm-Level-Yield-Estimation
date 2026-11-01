@@ -35,9 +35,16 @@
     { minLat: 8.0, maxLat: 13.8, minLon: 72.0, maxLon: 74.0 }
   ];
 
-  let selectedCrop = "Sugarcane";
+  let selectedCrop = "Wheat";
   let currentPin = null;
-  let fallbackTilesLoaded = false;
+  let analysisGeneration = 0;
+  let analysisController = null;
+  let loadingInterval = null;
+  let drawing = false;
+  let outlinePoints = [];
+  let outlineLayer = null;
+  let districtLayer = null;
+  let layerGeneration = 0;
 
   const indiaBounds = L.latLngBounds(
     [INDIA_LIMITS.minLat, INDIA_LIMITS.minLon],
@@ -56,21 +63,14 @@
   L.control.zoom({ position: "topright" }).addTo(map);
   map.fitBounds(indiaBounds);
 
-  const primaryTiles = L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
-    attribution: "&copy; OpenStreetMap &copy; CARTO",
-    subdomains: "abcd",
-    maxZoom: 20,
+  const primaryTiles = L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>',
+    maxZoom: 19,
     noWrap: true
   }).addTo(map);
 
   primaryTiles.on("tileerror", function () {
-    if (fallbackTilesLoaded) return;
-    fallbackTilesLoaded = true;
-    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-      attribution: "&copy; OpenStreetMap contributors",
-      maxZoom: 19,
-      noWrap: true
-    }).addTo(map);
+    document.getElementById("map-tool-status").textContent = "Base map tiles could not be loaded. Check your connection before drawing a field.";
   });
 
   const pinIcon = L.divIcon({
@@ -170,6 +170,15 @@
   }
 
   map.on("click", function (event) {
+    if (drawing) {
+      if (!isWithinIndia(event.latlng.lat, event.latlng.lng)) return;
+      outlinePoints.push([event.latlng.lat, event.latlng.lng]);
+      if (outlineLayer) map.removeLayer(outlineLayer);
+      outlineLayer = L.polygon(outlinePoints, {color: "#8a5d12"}).addTo(map);
+      document.getElementById("finish-outline").disabled = outlinePoints.length < 3;
+      document.getElementById("map-tool-status").textContent = `${outlinePoints.length} outline vertices; click Finish outline when ready.`;
+      return;
+    }
     placePin(event.latlng.lat, event.latlng.lng, Math.max(map.getZoom(), 12), false);
   });
 
@@ -241,127 +250,179 @@
 
   document.getElementById("analyze-btn").addEventListener("click", runAnalysis);
 
+  function element(tag, className, text) {
+    const node = document.createElement(tag);
+    if (className) node.className = className;
+    if (text !== undefined) node.textContent = String(text);
+    return node;
+  }
+
   function runAnalysis() {
     const lat = document.getElementById("lat-input").value;
     const lon = document.getElementById("lon-input").value;
     if (!lat || !lon) return;
-
+    clearResults();
+    const generation = analysisGeneration;
+    const controller = new AbortController();
+    analysisController = controller;
     showLoading();
-
-    const messages = [
-      "Fetching satellite vegetation data...",
-      "Pulling seasonal weather from NASA POWER...",
-      "Building crop-season features...",
-      "Running the yield prediction model..."
-    ];
-
-    let index = 0;
-    const intervalId = setInterval(function () {
-      index = (index + 1) % messages.length;
-      const loadingElement = document.getElementById("loading-msg");
-      if (loadingElement) {
-        loadingElement.textContent = messages[index];
-      }
-    }, 1900);
-
+    const timeout = setTimeout(() => controller.abort(), 180000);
     fetch("/api/fetch_ndvi", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ lat, lon, crop: selectedCrop })
-    })
-      .then(async function (response) {
-        const data = await response.json();
-        if (!response.ok) {
-          throw data;
-        }
-        return data;
-      })
-      .then(function (data) {
-        clearInterval(intervalId);
-        hideLoading();
-        renderResults(data);
-      })
-      .catch(function (error) {
-        clearInterval(intervalId);
-        hideLoading();
-        renderResults(error && typeof error === "object" ? error : { error: "Analysis failed. Please try again." });
-      });
+      method: "POST", headers: {"Content-Type": "application/json"},
+      signal: controller.signal, body: JSON.stringify({lat, lon, crop: selectedCrop})
+    }).then(async response => {
+      const data = await response.json();
+      if (!response.ok) throw data;
+      return data;
+    }).then(data => {
+      if (generation !== analysisGeneration) return;
+      renderResults(data);
+      loadHistory();
+    }).catch(error => {
+      if (generation !== analysisGeneration) return;
+      renderResults({error: error.name === "AbortError" ? "Analysis timed out. Please try again." : (error.error || "Analysis could not be completed.")});
+    }).finally(() => {
+      clearTimeout(timeout);
+      if (generation === analysisGeneration) hideLoading();
+    });
   }
 
   function renderResults(data) {
     const container = document.getElementById("result-cards");
-    container.innerHTML = "";
+    container.replaceChildren();
     container.style.display = "grid";
-
-    if (data.status === "not_started") {
-      container.innerHTML = '<div class="message-card" style="grid-column: 1 / -1;"><h4>Season not started</h4><p>' + data.message + "</p></div>";
-      return;
-    }
-
-    if (data.status === "data_pending") {
-      container.innerHTML = '<div class="message-card" style="grid-column: 1 / -1;"><h4>Weather data pending</h4><p>' + data.message + "</p></div>";
-      return;
-    }
-
+    document.getElementById("empty-state").style.display = "none";
     if (data.error) {
-      container.innerHTML = '<div class="message-card" style="grid-column: 1 / -1; border-color: rgba(198, 79, 79, 0.24); background: linear-gradient(180deg, rgba(255, 246, 246, 0.98), rgba(255, 255, 255, 0.96));"><h4 style="color: var(--red);">Unable to complete analysis</h4><p>' + data.error + "</p></div>";
+      const card = element("div", "message-card");
+      card.style.gridColumn = "1 / -1";
+      card.append(element("h4", "", "Unable to complete analysis"), element("p", "", data.error));
+      container.append(card);
       return;
     }
-
-    const tags = [
-      data.crop,
-      data.season,
-      data.season_status ? data.season_status.replace("_", " ").toUpperCase() : null,
-      data.model || null
-    ]
-      .filter(Boolean)
-      .map(function (tag) {
-        return '<div class="tag">' + tag + "</div>";
-      })
-      .join("");
-
-    container.innerHTML += '<article class="result-card"><div class="result-kicker">Predicted Yield</div><div class="prediction-row"><div class="prediction-value">' + (data.prediction ?? "--") + '</div><div class="prediction-unit">T / Ha</div></div><div class="tag-row">' + tags + "</div></article>";
-
-    if (data.ndvi !== null && data.ndvi !== undefined) {
-      const ndvi = data.ndvi;
-      const pct = Math.min(Math.max(ndvi * 100, 0), 100);
-      let color = "var(--accent-dark)";
-      let healthClass = "health-good";
-      let healthText = "Healthy canopy";
-
-      if (ndvi < 0.2) {
-        color = "var(--red)";
-        healthClass = "health-poor";
-        healthText = "Low vegetation signal";
-      } else if (ndvi < 0.4) {
-        color = "var(--gold)";
-        healthClass = "health-moderate";
-        healthText = "Moderate crop vigor";
-      }
-
-      container.innerHTML += '<article class="result-card"><div class="result-kicker">Vegetation Health</div><div class="ndvi-row"><div class="ndvi-value" style="color: ' + color + ';">' + ndvi.toFixed(4) + '</div><div class="health-pill ' + healthClass + '">' + healthText + '</div></div><div class="track"><div class="fill" id="ndvi-fill" style="background: ' + color + ';"></div></div></article>';
-
-      setTimeout(function () {
-        const fill = document.getElementById("ndvi-fill");
-        if (fill) fill.style.width = pct + "%";
-      }, 80);
-    } else {
-      container.innerHTML += '<article class="result-card"><div class="result-kicker">Vegetation Health</div><p style="color: var(--text-soft); font-size: 0.92rem; line-height: 1.6;">NDVI was not available for this run, so the prediction used fallback seasonal behavior.</p></article>';
-    }
-
+    const prediction = element("article", "result-card");
+    prediction.append(element("div", "result-kicker", "Completed-season district research estimate"),
+      element("div", "prediction-value", `${data.prediction} t/ha`));
+    const tags = element("div", "tag-row");
+    [data.crop, data.season, data.model].forEach(text => tags.append(element("div", "tag", text)));
+    prediction.append(tags);
+    container.append(prediction);
+    const vegetation = element("article", "result-card");
+    vegetation.append(element("div", "result-kicker", "Observed vegetation signal"),
+      element("div", "ndvi-value", data.ndvi == null ? "Unavailable" : Number(data.ndvi).toFixed(4)),
+      element("p", "", "NDVI describes vegetation; it is not a diagnosis of field health."));
+    container.append(vegetation);
     if (data.weather) {
-      const weather = data.weather;
-      const seasonRange = data.season_window ? data.season_window.start + " to " + data.season_window.end : "Season window unavailable";
+      const card = element("article", "result-card wide");
+      card.append(element("div", "result-kicker", "Completed-season weather"));
+      const grid = element("div", "metric-grid");
+      [["Average temperature", `${data.weather.temp} °C`], ["Rainfall", `${data.weather.rainfall} mm`],
+       ["Humidity", `${data.weather.humidity} %`], ["Root soil wetness", `${data.weather.soil} %`]].forEach(([name, value]) => {
+        const item = element("div", "metric");
+        item.append(element("span", "", name), element("strong", "", value));
+        grid.append(item);
+      });
+      card.append(grid);
+      container.append(card);
+    }
+    const evidence = element("article", "result-card wide");
+    evidence.append(element("div", "result-kicker", "Provenance and limits"),
+      element("p", "", `Prediction ${data.prediction_id} · Model ${data.model_version}`),
+      element("p", "", `${data.season_window?.start} to ${data.season_window?.end} · ${data.evaluation_unit} evaluation`));
+    evidence.append(element("p", "", `${data.district || "District"} · ${data.observation_source || "Verified historical observations"}`));
+    if (data.satellite_temporal_support) evidence.append(element("p", "", `Satellite composite support may extend through ${data.satellite_temporal_support.latest_possible_end}.`));
+    Object.entries(data.feature_availability || {}).forEach(([name, count]) => evidence.append(element("p", "", `${name}: ${count} season months available`)));
+    (data.alerts || []).forEach(alert => evidence.append(element("p", "", alert.message)));
+    (data.evidence_limits || []).forEach(limit => evidence.append(element("p", "", limit)));
+    container.append(evidence);
+  }
 
-      container.innerHTML += '<article class="result-card wide"><div class="result-kicker">Season Weather Snapshot</div><div class="metric-grid"><div class="metric"><span>Average temperature</span><strong>' + weather.temp + ' C</strong></div><div class="metric"><span>Rainfall</span><strong>' + weather.rainfall + ' mm</strong></div><div class="metric"><span>Humidity</span><strong>' + weather.humidity + ' %</strong></div><div class="metric"><span>Root soil moisture</span><strong>' + weather.soil + ' %</strong></div></div><div class="season-row"><div>' + seasonRange + '</div><div>' + weather.days + ' days sampled</div></div><div class="track" style="margin-top: 12px;"><div class="fill" id="season-fill" style="background: linear-gradient(90deg, #79c996, #1f9d55);"></div></div></article>';
-
-      const maxDays = data.season === "Whole Year" ? 365 : 180;
-      setTimeout(function () {
-        const fill = document.getElementById("season-fill");
-        if (fill) fill.style.width = Math.min((weather.days / maxDays) * 100, 100) + "%";
-      }, 100);
+  async function loadHistory() {
+    const status = document.getElementById("history-status");
+    const list = document.getElementById("prediction-history");
+    try {
+      const response = await fetch("/api/predictions", {cache: "no-store"});
+      const data = await response.json();
+      if (!response.ok) throw new Error(data.error);
+      list.replaceChildren();
+      (data.predictions || []).forEach(item => {
+        const button = element("button", "history-entry", `${item.crop} · ${item.harvest_year} · ${item.prediction} t/ha`);
+        button.type = "button";
+        button.addEventListener("click", () => {clearResults(); renderResults(item);});
+        list.append(button);
+      });
+      status.textContent = data.predictions.length ? "Latest 20 predictions in this signed browser session." : "No saved predictions in this browser session.";
+    } catch (error) {
+      list.replaceChildren();
+      status.textContent = "History unavailable: " + error.message;
     }
   }
+  document.getElementById("refresh-history").addEventListener("click", loadHistory);
+  loadHistory();
+
+  const toolStatus = document.getElementById("map-tool-status");
+  document.getElementById("draw-outline").addEventListener("click", () => {
+    layerGeneration += 1;
+    if (districtLayer) {map.removeLayer(districtLayer); districtLayer = null;}
+    document.getElementById("district-layer").disabled = true;
+    drawing = true;
+    outlinePoints = [];
+    if (outlineLayer) map.removeLayer(outlineLayer);
+    document.getElementById("export-outline").disabled = true;
+    document.getElementById("finish-outline").disabled = true;
+    toolStatus.textContent = "Click at least three field corners on the map, then Finish outline. This does not change prediction evidence.";
+  });
+  document.getElementById("finish-outline").addEventListener("click", () => {
+    if (outlinePoints.length < 3) return;
+    drawing = false;
+    document.getElementById("district-layer").disabled = false;
+    document.getElementById("finish-outline").disabled = true;
+    document.getElementById("export-outline").disabled = false;
+    toolStatus.textContent = "Field outline ready to export. Its yield accuracy has not been validated.";
+  });
+  document.getElementById("clear-outline").addEventListener("click", () => {
+    drawing = false;
+    document.getElementById("district-layer").disabled = false;
+    outlinePoints = [];
+    if (outlineLayer) map.removeLayer(outlineLayer);
+    outlineLayer = null;
+    document.getElementById("finish-outline").disabled = true;
+    document.getElementById("export-outline").disabled = true;
+    toolStatus.textContent = "Field outline cleared.";
+  });
+  document.getElementById("export-outline").addEventListener("click", () => {
+    if (drawing || outlinePoints.length < 3) return;
+    const ring = outlinePoints.map(([lat, lon]) => [lon, lat]);
+    ring.push([...ring[0]]);
+    const feature = {type: "Feature", properties: {purpose: "user-drawn field outline", evidence: "District labels do not validate field-level accuracy."}, geometry: {type: "Polygon", coordinates: [ring]}};
+    const url = URL.createObjectURL(new Blob([JSON.stringify(feature)], {type: "application/geo+json"}));
+    const link = element("a");
+    link.href = url;
+    link.download = "field-outline.geojson";
+    link.click();
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+  });
+  document.getElementById("district-layer").addEventListener("click", async () => {
+    const generation = ++layerGeneration;
+    const crop = selectedCrop;
+    if (districtLayer) {map.removeLayer(districtLayer); districtLayer = null;}
+    toolStatus.textContent = `Loading ${crop} district backtest...`;
+    try {
+      const response = await fetch(`/api/yield-map?crop=${encodeURIComponent(crop)}`);
+      const data = await response.json();
+      if (generation !== layerGeneration) return;
+      if (!response.ok) throw new Error(data.error);
+      districtLayer = L.geoJSON(data, {attribution: 'Districts: geoBoundaries / Pathways Data / LG Directory (ODbL 1.0)',
+        style: feature => ({color: "#17623c", weight: 1, fillOpacity: .45,
+        fillColor: feature.properties.prediction_t_ha > 3 ? "#14733e" : "#b9d9a8"}),
+        onEachFeature: (feature, layer) => {
+          const p = feature.properties;
+          layer.bindPopup(element("p", "", `${p.district}: ${p.prediction_t_ha.toFixed(2)} t/ha, observed ${p.observed_t_ha.toFixed(2)}. ${p.harvest_year} district retrospective backtest.`));
+        }}).addTo(map);
+      toolStatus.textContent = `${data.features.length} ${crop} districts: 2019 retrospective backtest. Outlines remain separate user drawings.`;
+    } catch (error) {
+      if (generation === layerGeneration) toolStatus.textContent = error.message;
+    }
+  });
 
   function showLoading() {
     document.getElementById("empty-state").style.display = "none";
@@ -377,6 +438,12 @@
   }
 
   function clearResults() {
+    analysisGeneration += 1;
+    if (analysisController) analysisController.abort();
+    clearInterval(loadingInterval);
+    layerGeneration += 1;
+    if (districtLayer) {map.removeLayer(districtLayer); districtLayer = null;}
+    document.getElementById("analyze-btn").disabled = !currentPin;
     document.getElementById("result-cards").style.display = "none";
     document.getElementById("result-cards").innerHTML = "";
     document.getElementById("empty-state").style.display = "block";

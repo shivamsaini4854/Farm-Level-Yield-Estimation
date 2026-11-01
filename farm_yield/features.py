@@ -1,6 +1,7 @@
 """Monthly feature contract used by acquisition, training, and prediction."""
 
 from datetime import date
+import calendar
 import math
 
 import numpy as np
@@ -43,8 +44,8 @@ def validate_monthly_record(record):
     if month.day != 1:
         raise ValueError('month must be the first day of a month.')
     days = record.get('days')
-    if isinstance(days, bool) or not isinstance(days, int) or not 1 <= days <= 31:
-        raise ValueError('days must be an integer from 1 to 31.')
+    if isinstance(days, bool) or not isinstance(days, int) or not 1 <= days <= calendar.monthrange(month.year, month.month)[1]:
+        raise ValueError('days must fit the observation calendar month.')
     for column in MONTHLY_COLUMNS:
         value = record.get(column)
         if value is None and column in SATELLITE_COLUMNS:

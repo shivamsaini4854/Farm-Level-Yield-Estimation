@@ -3,11 +3,13 @@
 import hashlib
 import json
 import math
+import pickle
 
 import joblib
 
 from farm_yield.features import build_feature_row, feature_columns
 from farm_yield.paths import CURRENT, RUNS
+from farm_yield.seasons import CROPS
 
 
 class ModelUnavailable(RuntimeError):
@@ -27,12 +29,19 @@ def load_current():
             raise ValueError('Artifact hash mismatch.')
         bundle = joblib.load(path)
         metadata = bundle['metadata']
+        if metadata['run_id'] != manifest['run_id']:
+            raise ValueError('Artifact version mismatch.')
         if metadata['schema_version'] != 2 or metadata['feature_columns'] != feature_columns(metadata['monthly_columns']):
             raise ValueError('Artifact schema mismatch.')
         if not metadata['verified']:
             raise ValueError('Artifact has not passed promotion checks.')
+        if set(metadata['target_scales']) != set(CROPS) or any(
+                not math.isfinite(v) or v <= 0 for v in metadata['target_scales'].values()):
+            raise ValueError('Invalid crop target scales.')
+        if not bundle.get('observations') or not metadata.get('harvest_years'):
+            raise ValueError('Verified serving observations are missing.')
         return bundle
-    except (OSError, ValueError, KeyError, TypeError) as exc:
+    except (OSError, ValueError, KeyError, TypeError, EOFError, pickle.UnpicklingError, ImportError, AttributeError) as exc:
         raise ModelUnavailable('No verified model bundle is available.') from exc
 
 

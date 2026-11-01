@@ -1,0 +1,167 @@
+{
+  "checked": "2026-11-01",
+  "url": "https://farm-yield-demo.onrender.com",
+  "deployment": {
+    "id": "dep-dbjllt2vcj2c73f4c5t0",
+    "commit": "3457ef7dd5308f07c827d9a4ee9ef53df82427fb",
+    "status": "live",
+    "plan": "free"
+  },
+  "model": {
+    "run_id": "20261021T223804Z",
+    "bundle_sha256": "6b3d0c038d702879868492936a9c22c9d481b3cc8621cd142e1ed0d276ae1885"
+  },
+  "public_http_workflow": {
+    "checked": "2026-11-01",
+    "checks": [
+      {
+        "method": "GET",
+        "path": "/ready",
+        "status": 200,
+        "expected": 200,
+        "passed": true
+      },
+      {
+        "method": "GET",
+        "path": "/health",
+        "status": 200,
+        "expected": 200,
+        "passed": true
+      },
+      {
+        "method": "POST",
+        "path": "/api/fetch_ndvi",
+        "status": 200,
+        "expected": 200,
+        "passed": true
+      },
+      {
+        "method": "GET",
+        "path": "/api/predictions",
+        "status": 200,
+        "expected": 200,
+        "passed": true
+      },
+      {
+        "method": "POST",
+        "path": "/api/fetch_ndvi",
+        "status": 400,
+        "expected": 400,
+        "passed": true
+      },
+      {
+        "method": "POST",
+        "path": "/api/ingest",
+        "status": 401,
+        "expected": 401,
+        "passed": true
+      },
+      {
+        "method": "GET",
+        "path": "/api/yield-map?crop=Wheat",
+        "status": 200,
+        "expected": 200,
+        "passed": true
+      },
+      {
+        "method": "POST",
+        "path": "/api/ingest",
+        "status": 201,
+        "expected": 201,
+        "passed": true
+      },
+      {
+        "method": "POST",
+        "path": "/api/ingest",
+        "status": 201,
+        "expected": 201,
+        "passed": true
+      }
+    ],
+    "prediction_id": "d8e37c62-df87-4755-b0c6-a5a2c58402a8",
+    "model_version": "20261021T223804Z",
+    "prediction_t_ha": 3.1,
+    "history_isolated": true,
+    "ingestion_idempotent": true,
+    "observation_readback": true,
+    "wheat_map_districts": 381
+  },
+  "browser": {
+    "tested": "release candidate CSS/JS routed into the live demo before deployment",
+    "prediction_t_ha": 3.1,
+    "prediction_id": "d13cd875-9c7e-4a4f-992d-da078e153e99",
+    "history_saved": true,
+    "district_layer": "381 Wheat districts: 2019 retrospective backtest. Outlines remain separate user drawings.",
+    "downloaded_outline_valid": true,
+    "page_script_errors": [],
+    "viewports": [
+      {
+        "width": 1920,
+        "height": 1080,
+        "documentWidth": 1920,
+        "viewportWidth": 1920,
+        "mapWidth": 1492,
+        "mapHeight": 498,
+        "cropCount": 16,
+        "outsideControls": []
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "documentWidth": 1440,
+        "viewportWidth": 1440,
+        "mapWidth": 1012,
+        "mapHeight": 498,
+        "cropCount": 16,
+        "outsideControls": []
+      },
+      {
+        "width": 1366,
+        "height": 768,
+        "documentWidth": 1366,
+        "viewportWidth": 1366,
+        "mapWidth": 938,
+        "mapHeight": 498,
+        "cropCount": 16,
+        "outsideControls": []
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "documentWidth": 390,
+        "viewportWidth": 390,
+        "mapWidth": 330,
+        "mapHeight": 338,
+        "cropCount": 16,
+        "outsideControls": []
+      }
+    ],
+    "deployed_asset_verification": [
+      {
+        "path": "farm_yield/static/css/styles.css",
+        "sha256": "b9ae66fa79de6e22a480a5fd9f533149fe1a5ecd4db35ed18ed66ad09794fd13",
+        "matches_published_git_blob": true
+      },
+      {
+        "path": "farm_yield/static/js/app.js",
+        "sha256": "9f8cc714763369b18a283be0f69c2b952dbd37fa64d94103cf58179c55f22797",
+        "matches_published_git_blob": true
+      }
+    ]
+  },
+  "offline_checks": {
+    "python_tests": 25,
+    "python_tests_passed": true,
+    "python_ast_files": 29,
+    "node_syntax_passed": true,
+    "node_behavior_passed": true
+  },
+  "unverified": [
+    "TiDB account tier, monthly spending limit and charges",
+    "exact cleaned Kaggle version and cleaning lineage",
+    "207 unresolved geographic pairs",
+    "current-season and field-level accuracy",
+    "complete accessibility audit",
+    "final browser-control repeat: host and native pipe unavailable"
+  ]
+}

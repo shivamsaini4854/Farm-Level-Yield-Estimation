@@ -21,7 +21,7 @@ class SeasonTests(unittest.TestCase):
         self.assertEqual(completed_season('Wheat', date(2026, 4, 5))[3], 2026)
         self.assertEqual(completed_season('Rice', date(2026, 12, 2))[3], 2025)
         self.assertEqual(completed_season('Rice', date(2026, 12, 5))[3], 2026)
-        self.assertEqual(completed_season('Sugarcane', date(2026, 10, 22))[3], 2025)
+        self.assertEqual(completed_season('Sugarcane', date(2026, 10, 22))[3], 2026)
 
 
 class ApiTests(unittest.TestCase):
@@ -48,7 +48,7 @@ class ApiTests(unittest.TestCase):
                   {'lat': 100, 'lon': 77}, {'lat': 51.5, 'lon': -0.1},
                   {'lat': 30.02, 'lon': 77.14, 'crop': 'unknown'},
                   {'lat': 30.02, 'lon': 77.14, 'crop': []}]
-        with patch('farm_yield.web.fetch_weather') as weather:
+        with patch('farm_yield.web.resolve_district') as weather:
             for body in inputs:
                 with self.subTest(body=body):
                     self.assertEqual(self.client.post('/api/fetch_ndvi', json=body).status_code, 400)
@@ -62,7 +62,7 @@ class ApiTests(unittest.TestCase):
                                          content_type='application/json').status_code, 413)
 
     def test_model_unavailability_does_not_use_heuristic_or_fetch_data(self):
-        with patch('farm_yield.web.fetch_weather') as weather:
+        with patch('farm_yield.web.resolve_district') as weather:
             response = self.client.post('/api/fetch_ndvi', json={'lat': 30.02, 'lon': 77.14, 'crop': 'Wheat'})
         self.assertEqual(response.status_code, 503)
         self.assertEqual(response.json['status'], 'model_unavailable')

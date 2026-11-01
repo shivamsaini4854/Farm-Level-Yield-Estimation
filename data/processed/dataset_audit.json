@@ -1,0 +1,30 @@
+{
+  "apy_sha256": "8da3428b4169b7aebfd043ff2d30afe34f9421a4b0949e40c4b375859e53843e",
+  "accepted_labels": 17895,
+  "weather_months": 21519,
+  "quarantined_labels": 15148,
+  "exact_duplicates_removed": 0,
+  "unresolved_geographic_pairs": 207,
+  "incomplete_weather_labels": 0,
+  "accepted_districts": 480,
+  "crops": [
+    "Arhar/Tur",
+    "Bajra",
+    "Dry chillies",
+    "Gram",
+    "Groundnut",
+    "Jowar",
+    "Maize",
+    "Moong(Green Gram)",
+    "Onion",
+    "Potato",
+    "Rapeseed &Mustard",
+    "Rice",
+    "Soyabean",
+    "Sugarcane",
+    "Urad",
+    "Wheat"
+  ],
+  "year_semantics": "APY agricultural starting year; Rabi/Whole Year end in following year",
+  "whole_year_window": "July through June reporting year; planting dates unobserved"
+}

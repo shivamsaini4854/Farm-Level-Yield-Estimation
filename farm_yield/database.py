@@ -75,8 +75,9 @@ def initialize_schema():
 def check_ready():
     with connection() as conn:
         with conn.cursor() as cursor:
-            cursor.execute('SELECT 1 FROM Predictions LIMIT 1')
-            cursor.fetchall()
+            for table in ('Predictions', 'SeasonalObservations'):
+                cursor.execute(f'SELECT 1 FROM {table} LIMIT 1')
+                cursor.fetchall()
     return True
 
 

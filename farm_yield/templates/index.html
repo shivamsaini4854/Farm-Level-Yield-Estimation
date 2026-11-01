@@ -27,7 +27,7 @@
       </div>
       <div class="meta">
         <div class="pill">GEE + MODIS + NASA POWER</div>
-        <div class="pill{{ ' live' if model_ready else '' }}">{{ 'Verified model loaded' if model_ready else 'Model verification pending' }}</div>
+        <div class="pill{{ ' live' if model_ready else '' }}">{% if model_ready %}Verified historical model · {{ supported_year }}{% else %}Model verification pending{% endif %}</div>
       </div>
     </header>
 
@@ -55,11 +55,11 @@
           <div class="section">
             <div class="section-head">
               <h3>Select Crop</h3>
-              <span>Latest completed season</span>
+              <span>{% if supported_year %}Historical seasons through {{ supported_year }}{% else %}Historical model pending{% endif %}</span>
             </div>
             <div class="crop-grid">
-              <button class="crop-btn active" data-crop="Sugarcane" type="button"><strong>Sugarcane</strong><span>Year-round crop</span></button>
-              <button class="crop-btn" data-crop="Wheat" type="button"><strong>Wheat</strong><span>Rabi season</span></button>
+              <button class="crop-btn" data-crop="Sugarcane" type="button"><strong>Sugarcane</strong><span>Year-round crop</span></button>
+              <button class="crop-btn active" data-crop="Wheat" type="button"><strong>Wheat</strong><span>Rabi season</span></button>
               <button class="crop-btn" data-crop="Rice" type="button"><strong>Rice</strong><span>Kharif season</span></button>
               <button class="crop-btn" data-crop="Maize" type="button"><strong>Maize</strong><span>Kharif season</span></button>
               <button class="crop-btn" data-crop="Potato" type="button"><strong>Potato</strong><span>Rabi season</span></button>
@@ -95,7 +95,7 @@
             <input id="lat-input" type="hidden">
             <input id="lon-input" type="hidden">
             <button id="analyze-btn" class="run-btn" type="button" disabled>Run yield analysis</button>
-            <p class="helper">Place the pin over the actual farm parcel you want to evaluate, not the nearest town center.</p>
+            <p class="helper">The pin selects a district. Inputs use its saved 1 km reference-point buffer. Only verified historical seasons are supported; field accuracy is unverified.</p>
           </div>
         </section>
 
@@ -148,6 +148,14 @@
               <div class="pin-readout" id="pin-coords">Awaiting coordinates</div>
             </div>
           </div>
+          <div class="map-tools">
+            <button id="draw-outline" type="button">Draw field outline</button>
+            <button id="finish-outline" type="button" disabled>Finish outline</button>
+            <button id="export-outline" type="button" disabled>Export GeoJSON</button>
+            <button id="clear-outline" type="button">Clear outline</button>
+            <button id="district-layer" type="button">Show district backtest</button>
+            <p id="map-tool-status" role="status">Field outlines are user drawings, separate from district yield evidence.</p>
+          </div>
         </section>
 
         <section class="panel result-panel">
@@ -172,7 +180,12 @@
             <div class="loading-msg" id="loading-msg">Preparing satellite and climate inputs...</div>
           </div>
 
-          <div class="result-grid" id="result-cards"></div>
+          <div class="result-grid" id="result-cards" aria-live="polite"></div>
+        </section>
+        <section class="panel controls">
+          <div class="section-head"><h3>Your prediction history</h3><button id="refresh-history" type="button">Refresh</button></div>
+          <p id="history-status" role="status">History belongs to this browser session.</p>
+          <div id="prediction-history"></div>
         </section>
       </section>
     </main>

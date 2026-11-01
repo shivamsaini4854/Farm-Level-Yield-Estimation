@@ -22,5 +22,5 @@ tzdata==2026.1
 urllib3==2.6.3
 Werkzeug==3.1.8
 python-dotenv==1.1.0
-earthengine-api==1.7.21
 gunicorn==26.2.0
+xgboost-cpu==3.1.3

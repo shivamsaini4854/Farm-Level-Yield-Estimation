@@ -1,0 +1,3681 @@
+{
+  "run_id": "20261021T223804Z",
+  "seed": 42,
+  "unit": "tonnes/hectare",
+  "evaluation_unit": "district",
+  "train_years": [
+    2016,
+    2017
+  ],
+  "validation_year": 2018,
+  "retrospective_backtest_year": 2019,
+  "source_manifest": {
+    "satellite\\point-buffer-v1\\2015-07-01.json": "b6278e2ad519431f3e802bd6d6228982722603180719a3c2a30900cdde71d031",
+    "satellite\\point-buffer-v1\\2015-08-01.json": "20dab47c8007ae5d7b925f69ff1453900bd046a7875874318600140e205b09cb",
+    "satellite\\point-buffer-v1\\2015-09-01.json": "570231192131625832e252136597023d74f67627d1da0b4cfe2eb609f56bb7aa",
+    "satellite\\point-buffer-v1\\2015-10-01.json": "bc3eb42b93b0dff273d42e7a61d656b1b504dfa7fb34977dda5055b869eacf49",
+    "satellite\\point-buffer-v1\\2015-11-01.json": "6fdce5b825ea33d1881513b6f368f085a4f28e146576de0f98521434d4bcee9b",
+    "satellite\\point-buffer-v1\\2015-12-01.json": "4a4dfbe31e4eb55ed5c9f08dfe1a21b304e5d5f9fafb4a9e468b3d906f927497",
+    "satellite\\point-buffer-v1\\2016-01-01.json": "e1adb17a946cb2d6dad311f47bbe063197cb48bb1b7d3fe1e1217e5169d17465",
+    "satellite\\point-buffer-v1\\2016-02-01.json": "bed768ac15bf542659e5073f7474a5eec71c7ba7816282871b7a44ab781363d1",
+    "satellite\\point-buffer-v1\\2016-03-01.json": "7bffe192457f5e3b1cb9203b24db58cd9e41fc194d4d2080a52b3be62cb377c5",
+    "satellite\\point-buffer-v1\\2016-04-01.json": "ef89287db104a7e241783f1f7cf3ba446edde8d28d871c0d6268457179f9f0a7",
+    "satellite\\point-buffer-v1\\2016-05-01.json": "0ba924da367f4fd07d5ab7e47aafe0488845ab2d7ad5dd0698d29f5dfd0452c3",
+    "satellite\\point-buffer-v1\\2016-06-01.json": "a643dc2f3421b3415d9feff7c52855b78bc0fe2cb77e70fe7cac9c3998ed83de",
+    "satellite\\point-buffer-v1\\2016-07-01.json": "b007e49e16be22bc7a95476bd12a175176409f9626f2116ea1012fff821c38dd",
+    "satellite\\point-buffer-v1\\2016-08-01.json": "1d57c30a7c6c6f159a874a19c4ebc129282349fb3b9929bddb09ea394e541f8d",
+    "satellite\\point-buffer-v1\\2016-09-01.json": "5bdb0b2dcbfa249b5affe34cd2cc2100a5c5abcb4790bf0aa20d36f79aed88c0",
+    "satellite\\point-buffer-v1\\2016-10-01.json": "7bf0dfa629a60f561ba07a8f61e6721f24ce2dccb5713d7e0b54ef6492fcd9c6",
+    "satellite\\point-buffer-v1\\2016-11-01.json": "dd4f9608ccb6bd455817fbf5bb1a538dec1796896a561c628595bfc52919f6f8",
+    "satellite\\point-buffer-v1\\2016-12-01.json": "9083776a5043a65644a34ddc04066fc179f3cda10211536ad4ffc642f12ae43c",
+    "satellite\\point-buffer-v1\\2017-01-01.json": "8dfefa2cc2582cf9bc25ab53ae3a8b1b5ba457a76dd711ecd63215560442f383",
+    "satellite\\point-buffer-v1\\2017-02-01.json": "77f35d1975d775b6101d2c254e3b508879fe3600837ab98a3c15b7f10b919735",
+    "satellite\\point-buffer-v1\\2017-03-01.json": "6397f641f572641dbb04f139eb2f282d79bb377a7a5c7571b531e288cce26a06",
+    "satellite\\point-buffer-v1\\2017-04-01.json": "6720b2a2175c40c6df26147bb554e79c66735f826bf10a1efc2046b876095710",
+    "satellite\\point-buffer-v1\\2017-05-01.json": "eb0969d2abe8763e36971ce99a0fb8b6717f7bd59ed42bce5e52e979afd7e971",
+    "satellite\\point-buffer-v1\\2017-06-01.json": "598551a572bf8bf509eef58f0870981e004b93e8c37720bd4813187dd802a5d3",
+    "satellite\\point-buffer-v1\\2017-07-01.json": "2916d55bfcb23d6ccac92995b9eef3991c829ca9b1114869747b8017e54ba491",
+    "satellite\\point-buffer-v1\\2017-08-01.json": "f39e0021dffd6c3544805703fb02dd0b721ac9ad1b4ddcb0af5cf2662b19912f",
+    "satellite\\point-buffer-v1\\2017-09-01.json": "985ec92053c3cea3923251f4c02977ecd6e64c289957fa6b81b7ecfe196bfbe4",
+    "satellite\\point-buffer-v1\\2017-10-01.json": "74c7563686bb8442f9f4e5496ded6e1e04d3170de02fb5d878f2672501ddd86b",
+    "satellite\\point-buffer-v1\\2017-11-01.json": "28c20deaeec7db187918184320ec19e5db99e105c7e129e782aaa4bf57cde0c5",
+    "satellite\\point-buffer-v1\\2017-12-01.json": "c090ee7bb21b893a737bf7963ac7c02b90cda8cf248960ef773b08356e9ff88b",
+    "satellite\\point-buffer-v1\\2018-01-01.json": "5ce46b671c173fb18fe8da571a972a8de1a559cdf70b27a0d34c623e75138bce",
+    "satellite\\point-buffer-v1\\2018-02-01.json": "1bc9204bb3203a0ec4bf700fc1393eb039349e4e72ee25e4d4ad79b589820a31",
+    "satellite\\point-buffer-v1\\2018-03-01.json": "2712f0690df5d888db2494f8e88d26afb231119ad60f3c0a3c6812d31d333733",
+    "satellite\\point-buffer-v1\\2018-04-01.json": "8f697091ba48e6ad3758fb9af76c8061db60f07026f3d991aa86d24a13b00f6a",
+    "satellite\\point-buffer-v1\\2018-05-01.json": "ddb56c18a032bf09b06317bcdad6c18d7227352b170c7fef94eb6aecaa39e806",
+    "satellite\\point-buffer-v1\\2018-06-01.json": "725ae7e64f628d69c05fb4345ea8770148022939f3b1db44ef21dc77c18a76c6",
+    "satellite\\point-buffer-v1\\2018-07-01.json": "57ca7c906210f0cd757e1d585f6ab9d629917ef9f64bf229fa8393d70a011494",
+    "satellite\\point-buffer-v1\\2018-08-01.json": "c5c5a34d42bf656b9eba7f9a9ca7e3c50d8c6ad37581e18462f3308ce7aeb698",
+    "satellite\\point-buffer-v1\\2018-09-01.json": "c4231fb1314ecd7bb46d8cacb847380f49aee0f561aa610bb8a6c4935b484286",
+    "satellite\\point-buffer-v1\\2018-10-01.json": "05902a2b823e3067ef530d227ba90876b83a32980cdfbf9eb53f01089b9db651",
+    "satellite\\point-buffer-v1\\2018-11-01.json": "c1afb7a4fada9d8af32bad103a9005cf87ca106f604f12c56d15a53a4fdc9188",
+    "satellite\\point-buffer-v1\\2018-12-01.json": "7486a66909e123a17c80a795fa0e1d1383b50da3572e4d0267febad33f58b6b8",
+    "satellite\\point-buffer-v1\\2019-01-01.json": "50ea365452b48567e0eda6f179a1c6517ee38294078a2395794caa056d6f2f88",
+    "satellite\\point-buffer-v1\\2019-02-01.json": "161f442e3fd810a9360e8d66ea4bf16676225fc9185d4e199343623b27979cde",
+    "satellite\\point-buffer-v1\\2019-03-01.json": "c01d0e13d2c1ee1c7437a796644f0e77202f88de492617509fc8dff0c8cfdad1",
+    "satellite\\point-buffer-v1\\2019-04-01.json": "77ab9470bb0f076bdf702f58c788b0757dac5f39c0343e32a180463c82e17dc9",
+    "satellite\\point-buffer-v1\\2019-05-01.json": "dfef496556d695c10b70002483417b9323770688e7a6818a29e5f0a7edfc7569",
+    "satellite\\point-buffer-v1\\2019-06-01.json": "941ab96e46fdb6496c7001a910772ae13c702ca1e1145197fb5ce4e120b2cbf9",
+    "satellite\\point-buffer-v1\\2019-07-01.json": "888a5d72df1b3db65ec2ea35d45a4cc67bc5e8947a0c845f996f19f8646b79fd",
+    "satellite\\point-buffer-v1\\2019-08-01.json": "57666fa9cd3e30067f86148f6e4511323e360f4625aa89564bdf0a533f916ae7",
+    "satellite\\point-buffer-v1\\2019-09-01.json": "b93394839b6c7fa818192831b0c36632b7221869f6c14f96fedb9feb7ee2d648",
+    "satellite\\point-buffer-v1\\2019-10-01.json": "8914a3dab21fc45f4f336f1f3e4afd6b60900dbfa6f3dd9a7f1fd2eec24790ed",
+    "satellite\\point-buffer-v1\\2019-11-01.json": "35bd9e3aa48e986983ff473117ad06c655dc52e7b5ebd92b8025ed471a852e85",
+    "satellite\\point-buffer-v1\\2019-12-01.json": "261b38d241b820940249cde66a2e01ecbfbd802bbfa1c22cb4d008e21205aad1",
+    "labels.csv": "7673eb5c4dcb23851f9d25009d6abf53d33229590a4ea23c29fd1be81b6a5ee8",
+    "monthly_weather.csv": "bb2594c2189eda56cd34d6a64b203fca841e5763998ece0f2114ec71a9e1f728",
+    "dataset_audit.json": "28a425d7ea2bad29bc80b47a74041daf2cef85f0cd288e73a475c9b2302c13b1"
+  },
+  "models": {
+    "CropSeasonMedian": {
+      "validation": {
+        "crop_balanced_normalized_mae": 0.4426979119976012,
+        "count": 4583,
+        "per_crop": [
+          {
+            "crop": "Rice",
+            "count": 327,
+            "mae_t_ha": 0.7629051987767584,
+            "rmse_t_ha": 0.9642796110028038,
+            "r2": -0.00903044818233778,
+            "normalized_mae": 0.3192071961409031
+          },
+          {
+            "crop": "Maize",
+            "count": 359,
+            "mae_t_ha": 1.0680779944289696,
+            "rmse_t_ha": 1.7710746151642254,
+            "r2": -0.061175139640406995,
+            "normalized_mae": 0.4768205332272185
+          },
+          {
+            "crop": "Moong(Green Gram)",
+            "count": 351,
+            "mae_t_ha": 0.1916951566951567,
+            "rmse_t_ha": 0.24222246726248092,
+            "r2": -0.00036995855567401037,
+            "normalized_mae": 0.345396678730012
+          },
+          {
+            "crop": "Urad",
+            "count": 356,
+            "mae_t_ha": 0.21134831460674156,
+            "rmse_t_ha": 0.25070910669494095,
+            "r2": -0.012253839665364197,
+            "normalized_mae": 0.3154452456817038
+          },
+          {
+            "crop": "Groundnut",
+            "count": 299,
+            "mae_t_ha": 0.472675585284281,
+            "rmse_t_ha": 0.6509244776356811,
+            "r2": -0.041055298317793865,
+            "normalized_mae": 0.3842890937270577
+          },
+          {
+            "crop": "Wheat",
+            "count": 378,
+            "mae_t_ha": 1.016957671957672,
+            "rmse_t_ha": 1.230616376726178,
+            "r2": -0.075290908398014,
+            "normalized_mae": 0.4067830687830688
+          },
+          {
+            "crop": "Rapeseed &Mustard",
+            "count": 363,
+            "mae_t_ha": 0.4335812672176308,
+            "rmse_t_ha": 0.5914941159945705,
+            "r2": -0.02302250249219373,
+            "normalized_mae": 0.43796087597740485
+          },
+          {
+            "crop": "Sugarcane",
+            "count": 238,
+            "mae_t_ha": 21.11466386554622,
+            "rmse_t_ha": 25.848192572087076,
+            "r2": -0.001770838990310386,
+            "normalized_mae": 0.31411282156421033
+          },
+          {
+            "crop": "Arhar/Tur",
+            "count": 380,
+            "mae_t_ha": 0.3563421052631578,
+            "rmse_t_ha": 0.47565660988397485,
+            "r2": -0.0038336621369521318,
+            "normalized_mae": 0.3599415204678362
+          },
+          {
+            "crop": "Potato",
+            "count": 166,
+            "mae_t_ha": 7.560120481927711,
+            "rmse_t_ha": 9.926197721424819,
+            "r2": -0.16849052593909497,
+            "normalized_mae": 0.5546676802588195
+          },
+          {
+            "crop": "Onion",
+            "count": 183,
+            "mae_t_ha": 7.612295081967214,
+            "rmse_t_ha": 13.601712022585804,
+            "r2": -0.2096331193367733,
+            "normalized_mae": 0.6467540426480216
+          },
+          {
+            "crop": "Gram",
+            "count": 366,
+            "mae_t_ha": 0.31871584699453553,
+            "rmse_t_ha": 0.425470167447705,
+            "r2": -0.3210785793868869,
+            "normalized_mae": 0.33905941169631443
+          },
+          {
+            "crop": "Jowar",
+            "count": 247,
+            "mae_t_ha": 0.4380161943319838,
+            "rmse_t_ha": 0.6601941194100744,
+            "r2": -0.05049017518325338,
+            "normalized_mae": 0.4380161943319838
+          },
+          {
+            "crop": "Dry chillies",
+            "count": 103,
+            "mae_t_ha": 0.8820388349514564,
+            "rmse_t_ha": 1.5994292064382736,
+            "r2": -0.262065790542265,
+            "normalized_mae": 0.9484288547865122
+          },
+          {
+            "crop": "Bajra",
+            "count": 257,
+            "mae_t_ha": 0.6542023346303502,
+            "rmse_t_ha": 0.8056722547668917,
+            "r2": -0.03083286165983634,
+            "normalized_mae": 0.5032325651002694
+          },
+          {
+            "crop": "Soyabean",
+            "count": 210,
+            "mae_t_ha": 0.30623809523809525,
+            "rmse_t_ha": 0.39795219861304,
+            "r2": -0.04112853184796106,
+            "normalized_mae": 0.29305080884028256
+          }
+        ]
+      },
+      "backtest": {
+        "crop_balanced_normalized_mae": 0.4944693629705409,
+        "count": 4624,
+        "per_crop": [
+          {
+            "crop": "Rice",
+            "count": 320,
+            "mae_t_ha": 0.77128125,
+            "rmse_t_ha": 0.9712770266509962,
+            "r2": -0.009614220755387315,
+            "normalized_mae": 0.322711820083682
+          },
+          {
+            "crop": "Maize",
+            "count": 375,
+            "mae_t_ha": 1.3590933333333335,
+            "rmse_t_ha": 2.13150012901712,
+            "r2": -0.09125191212483186,
+            "normalized_mae": 0.6067380952380953
+          },
+          {
+            "crop": "Moong(Green Gram)",
+            "count": 342,
+            "mae_t_ha": 0.21830409356725144,
+            "rmse_t_ha": 0.2899483216708903,
+            "r2": -0.0011631744570781422,
+            "normalized_mae": 0.39334070913018276
+          },
+          {
+            "crop": "Urad",
+            "count": 341,
+            "mae_t_ha": 0.2498240469208211,
+            "rmse_t_ha": 0.2978786188269514,
+            "r2": -0.03223441702628316,
+            "normalized_mae": 0.37287171182212103
+          },
+          {
+            "crop": "Groundnut",
+            "count": 299,
+            "mae_t_ha": 0.6546822742474916,
+            "rmse_t_ha": 0.868252964695394,
+            "r2": -0.1715828245149773,
+            "normalized_mae": 0.5322620115833265
+          },
+          {
+            "crop": "Wheat",
+            "count": 381,
+            "mae_t_ha": 1.0603937007874016,
+            "rmse_t_ha": 1.2960046620246015,
+            "r2": -0.07808633996219938,
+            "normalized_mae": 0.42415748031496064
+          },
+          {
+            "crop": "Rapeseed &Mustard",
+            "count": 358,
+            "mae_t_ha": 0.4357821229050279,
+            "rmse_t_ha": 0.538562383889538,
+            "r2": -0.0141193196948739,
+            "normalized_mae": 0.4401839625303312
+          },
+          {
+            "crop": "Sugarcane",
+            "count": 255,
+            "mae_t_ha": 22.59647058823529,
+            "rmse_t_ha": 26.947283001751224,
+            "r2": -0.026985520882281344,
+            "normalized_mae": 0.336156956087999
+          },
+          {
+            "crop": "Arhar/Tur",
+            "count": 385,
+            "mae_t_ha": 0.3821818181818181,
+            "rmse_t_ha": 1.1937908624950284,
+            "r2": -0.001399186458786561,
+            "normalized_mae": 0.3860422405876951
+          },
+          {
+            "crop": "Potato",
+            "count": 165,
+            "mae_t_ha": 8.6929696969697,
+            "rmse_t_ha": 11.088857033212678,
+            "r2": -0.21889240871116433,
+            "normalized_mae": 0.6377820760799485
+          },
+          {
+            "crop": "Onion",
+            "count": 184,
+            "mae_t_ha": 8.948695652173912,
+            "rmse_t_ha": 18.490895997290362,
+            "r2": -0.09852728444535375,
+            "normalized_mae": 0.7602969967862288
+          },
+          {
+            "crop": "Gram",
+            "count": 361,
+            "mae_t_ha": 0.3578670360110804,
+            "rmse_t_ha": 0.4736201711097137,
+            "r2": -0.2961780557428997,
+            "normalized_mae": 0.3807096127777451
+          },
+          {
+            "crop": "Jowar",
+            "count": 263,
+            "mae_t_ha": 0.3567680608365019,
+            "rmse_t_ha": 0.46674220826210266,
+            "r2": -0.024307928015848024,
+            "normalized_mae": 0.3567680608365019
+          },
+          {
+            "crop": "Dry chillies",
+            "count": 129,
+            "mae_t_ha": 1.0036434108527135,
+            "rmse_t_ha": 2.021251243449781,
+            "r2": -0.22521556178649127,
+            "normalized_mae": 1.0791864632824875
+          },
+          {
+            "crop": "Bajra",
+            "count": 280,
+            "mae_t_ha": 0.6534642857142856,
+            "rmse_t_ha": 0.8148200940786167,
+            "r2": -0.049628907303183256,
+            "normalized_mae": 0.5026648351648351
+          },
+          {
+            "crop": "Soyabean",
+            "count": 186,
+            "mae_t_ha": 0.39672043010752683,
+            "rmse_t_ha": 0.48168415341997084,
+            "r2": -0.003511750029307148,
+            "normalized_mae": 0.37963677522251377
+          }
+        ]
+      },
+      "valid_predictions": true
+    },
+    "Ridge": {
+      "validation": {
+        "crop_balanced_normalized_mae": 0.47158294397785344,
+        "count": 4583,
+        "per_crop": [
+          {
+            "crop": "Rice",
+            "count": 327,
+            "mae_t_ha": 0.8005715221015007,
+            "rmse_t_ha": 1.0299558828966522,
+            "r2": -0.15115962390021465,
+            "normalized_mae": 0.3349671640592053
+          },
+          {
+            "crop": "Maize",
+            "count": 359,
+            "mae_t_ha": 1.1550619200704866,
+            "rmse_t_ha": 1.5478010449160777,
+            "r2": 0.1895175382781371,
+            "normalized_mae": 0.51565264288861
+          },
+          {
+            "crop": "Moong(Green Gram)",
+            "count": 351,
+            "mae_t_ha": 0.23751790211186805,
+            "rmse_t_ha": 0.28763582365239965,
+            "r2": -0.41064502951165416,
+            "normalized_mae": 0.4279601839853478
+          },
+          {
+            "crop": "Urad",
+            "count": 356,
+            "mae_t_ha": 0.24884507824643814,
+            "rmse_t_ha": 0.3004738751076354,
+            "r2": -0.4539941187250982,
+            "normalized_mae": 0.37141056454692256
+          },
+          {
+            "crop": "Groundnut",
+            "count": 299,
+            "mae_t_ha": 0.5316270572568345,
+            "rmse_t_ha": 0.6478295151557899,
+            "r2": -0.031178984604732563,
+            "normalized_mae": 0.43221711972100363
+          },
+          {
+            "crop": "Wheat",
+            "count": 378,
+            "mae_t_ha": 0.8295488811150317,
+            "rmse_t_ha": 1.0497279838773794,
+            "r2": 0.21759044945863293,
+            "normalized_mae": 0.3318195524460127
+          },
+          {
+            "crop": "Rapeseed &Mustard",
+            "count": 363,
+            "mae_t_ha": 0.38843516589113497,
+            "rmse_t_ha": 0.5396564989282541,
+            "r2": 0.14843235521450893,
+            "normalized_mae": 0.39235875342538884
+          },
+          {
+            "crop": "Sugarcane",
+            "count": 238,
+            "mae_t_ha": 22.9186932775887,
+            "rmse_t_ha": 29.74141006208879,
+            "r2": -0.32626752041107476,
+            "normalized_mae": 0.3409505099313999
+          },
+          {
+            "crop": "Arhar/Tur",
+            "count": 380,
+            "mae_t_ha": 0.42446175981418105,
+            "rmse_t_ha": 0.551850248498174,
+            "r2": -0.35119231809638896,
+            "normalized_mae": 0.4287492523375566
+          },
+          {
+            "crop": "Potato",
+            "count": 166,
+            "mae_t_ha": 7.153026190200992,
+            "rmse_t_ha": 8.594614058077015,
+            "r2": 0.1239838537662491,
+            "normalized_mae": 0.5248001606897279
+          },
+          {
+            "crop": "Onion",
+            "count": 183,
+            "mae_t_ha": 6.818539518567546,
+            "rmse_t_ha": 12.695855239684102,
+            "r2": -0.05387824992520551,
+            "normalized_mae": 0.5793151672529776
+          },
+          {
+            "crop": "Gram",
+            "count": 366,
+            "mae_t_ha": 0.2932786140481771,
+            "rmse_t_ha": 0.37285813520049726,
+            "r2": -0.014559843156823682,
+            "normalized_mae": 0.31199852558316715
+          },
+          {
+            "crop": "Jowar",
+            "count": 247,
+            "mae_t_ha": 0.5322461578594269,
+            "rmse_t_ha": 0.7255807008153943,
+            "r2": -0.2688787878795307,
+            "normalized_mae": 0.5322461578594269
+          },
+          {
+            "crop": "Dry chillies",
+            "count": 103,
+            "mae_t_ha": 1.1071476427633227,
+            "rmse_t_ha": 1.2503365276688394,
+            "r2": 0.22873115529459342,
+            "normalized_mae": 1.190481336304648
+          },
+          {
+            "crop": "Bajra",
+            "count": 257,
+            "mae_t_ha": 0.6582519438966178,
+            "rmse_t_ha": 0.7867552880857668,
+            "r2": 0.017006196243875116,
+            "normalized_mae": 0.5063476491512444
+          },
+          {
+            "crop": "Soyabean",
+            "count": 210,
+            "mae_t_ha": 0.3386347198188513,
+            "rmse_t_ha": 0.4258393161075854,
+            "r2": -0.19215861873067008,
+            "normalized_mae": 0.32405236346301564
+          }
+        ]
+      },
+      "backtest": {
+        "crop_balanced_normalized_mae": 0.5204983085114336,
+        "count": 4624,
+        "per_crop": [
+          {
+            "crop": "Rice",
+            "count": 320,
+            "mae_t_ha": 0.7860377275439946,
+            "rmse_t_ha": 1.0031507881926942,
+            "r2": -0.07696518312153966,
+            "normalized_mae": 0.3288860784702906
+          },
+          {
+            "crop": "Maize",
+            "count": 375,
+            "mae_t_ha": 1.479604630114275,
+            "rmse_t_ha": 1.9181199482401967,
+            "r2": 0.11629804636596464,
+            "normalized_mae": 0.6605377813010155
+          },
+          {
+            "crop": "Moong(Green Gram)",
+            "count": 342,
+            "mae_t_ha": 0.2859587509461166,
+            "rmse_t_ha": 0.3378014588610172,
+            "r2": -0.358897531928573,
+            "normalized_mae": 0.5152409926957056
+          },
+          {
+            "crop": "Urad",
+            "count": 341,
+            "mae_t_ha": 0.29988561806579256,
+            "rmse_t_ha": 0.363640910779636,
+            "r2": -0.5383145437636385,
+            "normalized_mae": 0.44759047472506347
+          },
+          {
+            "crop": "Groundnut",
+            "count": 299,
+            "mae_t_ha": 0.6376511988422675,
+            "rmse_t_ha": 0.7597408716167835,
+            "r2": 0.10296078763843686,
+            "normalized_mae": 0.5184156088148516
+          },
+          {
+            "crop": "Wheat",
+            "count": 381,
+            "mae_t_ha": 0.8689796827559939,
+            "rmse_t_ha": 1.0932078854791194,
+            "r2": 0.23291069621142702,
+            "normalized_mae": 0.3475918731023976
+          },
+          {
+            "crop": "Rapeseed &Mustard",
+            "count": 358,
+            "mae_t_ha": 0.36888899165549677,
+            "rmse_t_ha": 0.4603664652913255,
+            "r2": 0.258989461878405,
+            "normalized_mae": 0.3726151430863604
+          },
+          {
+            "crop": "Sugarcane",
+            "count": 255,
+            "mae_t_ha": 19.66248153904142,
+            "rmse_t_ha": 24.357471844898832,
+            "r2": 0.16092888192657318,
+            "normalized_mae": 0.2925093951062395
+          },
+          {
+            "crop": "Arhar/Tur",
+            "count": 385,
+            "mae_t_ha": 0.4311761060921576,
+            "rmse_t_ha": 1.2032963318258563,
+            "r2": -0.017409805730021155,
+            "normalized_mae": 0.4355314202951087
+          },
+          {
+            "crop": "Potato",
+            "count": 165,
+            "mae_t_ha": 7.606293614525334,
+            "rmse_t_ha": 9.393072427436824,
+            "r2": 0.1254046862855398,
+            "normalized_mae": 0.558055290867596
+          },
+          {
+            "crop": "Onion",
+            "count": 184,
+            "mae_t_ha": 7.530980968697389,
+            "rmse_t_ha": 17.818615892402633,
+            "r2": -0.020100283809100894,
+            "normalized_mae": 0.6398454518859295
+          },
+          {
+            "crop": "Gram",
+            "count": 361,
+            "mae_t_ha": 0.33376351614697825,
+            "rmse_t_ha": 0.437991509763739,
+            "r2": -0.10849992451961743,
+            "normalized_mae": 0.35506757036912584
+          },
+          {
+            "crop": "Jowar",
+            "count": 263,
+            "mae_t_ha": 0.42251439491162995,
+            "rmse_t_ha": 0.5358722494013967,
+            "r2": -0.35020252401742225,
+            "normalized_mae": 0.42251439491162995
+          },
+          {
+            "crop": "Dry chillies",
+            "count": 129,
+            "mae_t_ha": 1.3940027183479577,
+            "rmse_t_ha": 1.7909632171754386,
+            "r2": 0.03806608520880517,
+            "normalized_mae": 1.4989276541375889
+          },
+          {
+            "crop": "Bajra",
+            "count": 280,
+            "mae_t_ha": 0.5709790645162831,
+            "rmse_t_ha": 0.6754636676153775,
+            "r2": 0.27869937332356076,
+            "normalized_mae": 0.43921466501252543
+          },
+          {
+            "crop": "Soyabean",
+            "count": 186,
+            "mae_t_ha": 0.5177234527645778,
+            "rmse_t_ha": 0.612454857350561,
+            "r2": -0.6223550712707449,
+            "normalized_mae": 0.49542914140150984
+          }
+        ]
+      },
+      "valid_predictions": true
+    },
+    "RandomForest": {
+      "validation": {
+        "crop_balanced_normalized_mae": 0.3664262076892611,
+        "count": 4583,
+        "per_crop": [
+          {
+            "crop": "Rice",
+            "count": 327,
+            "mae_t_ha": 0.6937411037583933,
+            "rmse_t_ha": 0.8750804650312738,
+            "r2": 0.1690129011376038,
+            "normalized_mae": 0.29026824425037373
+          },
+          {
+            "crop": "Maize",
+            "count": 359,
+            "mae_t_ha": 0.9006709237383907,
+            "rmse_t_ha": 1.3269268326535484,
+            "r2": 0.40432783974598197,
+            "normalized_mae": 0.4020852338117816
+          },
+          {
+            "crop": "Moong(Green Gram)",
+            "count": 351,
+            "mae_t_ha": 0.18129007036226516,
+            "rmse_t_ha": 0.22411140341558433,
+            "r2": 0.14363343145192875,
+            "normalized_mae": 0.32664877542750476
+          },
+          {
+            "crop": "Urad",
+            "count": 356,
+            "mae_t_ha": 0.21276520971470395,
+            "rmse_t_ha": 0.25446665594610124,
+            "r2": -0.04282390742676023,
+            "normalized_mae": 0.3175600144995581
+          },
+          {
+            "crop": "Groundnut",
+            "count": 299,
+            "mae_t_ha": 0.4524647031540979,
+            "rmse_t_ha": 0.5941795963862609,
+            "r2": 0.1325427898353957,
+            "normalized_mae": 0.36785748223910403
+          },
+          {
+            "crop": "Wheat",
+            "count": 378,
+            "mae_t_ha": 0.5947174741035257,
+            "rmse_t_ha": 0.7317793747464512,
+            "r2": 0.6197747774903328,
+            "normalized_mae": 0.23788698964141028
+          },
+          {
+            "crop": "Rapeseed &Mustard",
+            "count": 363,
+            "mae_t_ha": 0.33674232497472384,
+            "rmse_t_ha": 0.48913873434774185,
+            "r2": 0.30040219204130436,
+            "normalized_mae": 0.34014376260073115
+          },
+          {
+            "crop": "Sugarcane",
+            "count": 238,
+            "mae_t_ha": 15.801819597314397,
+            "rmse_t_ha": 20.902761527224524,
+            "r2": 0.34488829962950307,
+            "normalized_mae": 0.23507616181663787
+          },
+          {
+            "crop": "Arhar/Tur",
+            "count": 380,
+            "mae_t_ha": 0.34120841685167747,
+            "rmse_t_ha": 0.4439847953333623,
+            "r2": 0.12539717117384797,
+            "normalized_mae": 0.3446549665168459
+          },
+          {
+            "crop": "Potato",
+            "count": 166,
+            "mae_t_ha": 5.887657340117464,
+            "rmse_t_ha": 8.070386388296852,
+            "r2": 0.2275897857660416,
+            "normalized_mae": 0.43196312106511103
+          },
+          {
+            "crop": "Onion",
+            "count": 183,
+            "mae_t_ha": 5.451504312101459,
+            "rmse_t_ha": 11.654460800306707,
+            "r2": 0.11192245568041648,
+            "normalized_mae": 0.46316944028049783
+          },
+          {
+            "crop": "Gram",
+            "count": 366,
+            "mae_t_ha": 0.2683149347220312,
+            "rmse_t_ha": 0.3641662225024941,
+            "r2": 0.032190803121222133,
+            "normalized_mae": 0.2854414199170545
+          },
+          {
+            "crop": "Jowar",
+            "count": 247,
+            "mae_t_ha": 0.43883894201317936,
+            "rmse_t_ha": 0.6212824616556071,
+            "r2": 0.06969173408060614,
+            "normalized_mae": 0.43883894201317936
+          },
+          {
+            "crop": "Dry chillies",
+            "count": 103,
+            "mae_t_ha": 0.5986689114436322,
+            "rmse_t_ha": 0.9656878372905723,
+            "r2": 0.5399283487800273,
+            "normalized_mae": 0.6437300123049808
+          },
+          {
+            "crop": "Bajra",
+            "count": 257,
+            "mae_t_ha": 0.5637658244425712,
+            "rmse_t_ha": 0.6862136141282326,
+            "r2": 0.2521920136780649,
+            "normalized_mae": 0.4336660188019778
+          },
+          {
+            "crop": "Soyabean",
+            "count": 210,
+            "mae_t_ha": 0.3175010310442927,
+            "rmse_t_ha": 0.39833940843633175,
+            "r2": -0.04315556586210212,
+            "normalized_mae": 0.30382873784142844
+          }
+        ]
+      },
+      "backtest": {
+        "crop_balanced_normalized_mae": 0.4475187313681348,
+        "count": 4624,
+        "per_crop": [
+          {
+            "crop": "Rice",
+            "count": 320,
+            "mae_t_ha": 0.6835550786464429,
+            "rmse_t_ha": 0.8821624346138011,
+            "r2": 0.16715085122869455,
+            "normalized_mae": 0.28600630905708907
+          },
+          {
+            "crop": "Maize",
+            "count": 375,
+            "mae_t_ha": 1.0951770512835024,
+            "rmse_t_ha": 1.4176307845596396,
+            "r2": 0.5172963727748243,
+            "normalized_mae": 0.48891832646584926
+          },
+          {
+            "crop": "Moong(Green Gram)",
+            "count": 342,
+            "mae_t_ha": 0.22993411322570728,
+            "rmse_t_ha": 0.2843241387462207,
+            "r2": 0.037299643168121954,
+            "normalized_mae": 0.4142956995057788
+          },
+          {
+            "crop": "Urad",
+            "count": 341,
+            "mae_t_ha": 0.2479381711846015,
+            "rmse_t_ha": 0.30531042903470484,
+            "r2": -0.08438362657317677,
+            "normalized_mae": 0.3700569719173157
+          },
+          {
+            "crop": "Groundnut",
+            "count": 299,
+            "mae_t_ha": 0.5764047835780657,
+            "rmse_t_ha": 0.7110131675519342,
+            "r2": 0.2143380259887756,
+            "normalized_mae": 0.46862177526672005
+          },
+          {
+            "crop": "Wheat",
+            "count": 381,
+            "mae_t_ha": 0.6931732957135729,
+            "rmse_t_ha": 0.9171230752959861,
+            "r2": 0.4601219668524966,
+            "normalized_mae": 0.27726931828542917
+          },
+          {
+            "crop": "Rapeseed &Mustard",
+            "count": 358,
+            "mae_t_ha": 0.368484836724932,
+            "rmse_t_ha": 0.46355764649351,
+            "r2": 0.24868074079674107,
+            "normalized_mae": 0.3722069057827596
+          },
+          {
+            "crop": "Sugarcane",
+            "count": 255,
+            "mae_t_ha": 17.241513259618756,
+            "rmse_t_ha": 21.048532857514424,
+            "r2": 0.3734178576778654,
+            "normalized_mae": 0.25649380035136504
+          },
+          {
+            "crop": "Arhar/Tur",
+            "count": 385,
+            "mae_t_ha": 0.3819300760820359,
+            "rmse_t_ha": 1.1730941766592071,
+            "r2": 0.033022227428159745,
+            "normalized_mae": 0.3857879556384201
+          },
+          {
+            "crop": "Potato",
+            "count": 165,
+            "mae_t_ha": 7.070015937048174,
+            "rmse_t_ha": 9.176305389804375,
+            "r2": 0.16530555938620095,
+            "normalized_mae": 0.5187099000035343
+          },
+          {
+            "crop": "Onion",
+            "count": 184,
+            "mae_t_ha": 6.799758967902839,
+            "rmse_t_ha": 16.9612449323631,
+            "r2": 0.07570545968671316,
+            "normalized_mae": 0.5777195384794256
+          },
+          {
+            "crop": "Gram",
+            "count": 361,
+            "mae_t_ha": 0.2900644385374257,
+            "rmse_t_ha": 0.4036692744870745,
+            "r2": 0.0584233671771438,
+            "normalized_mae": 0.3085791899334316
+          },
+          {
+            "crop": "Jowar",
+            "count": 263,
+            "mae_t_ha": 0.3499540333944865,
+            "rmse_t_ha": 0.45928315867918995,
+            "r2": 0.008169584482039416,
+            "normalized_mae": 0.3499540333944865
+          },
+          {
+            "crop": "Dry chillies",
+            "count": 129,
+            "mae_t_ha": 1.1787512908863158,
+            "rmse_t_ha": 1.9340477269916265,
+            "r2": -0.12177634621929956,
+            "normalized_mae": 1.2674745063293718
+          },
+          {
+            "crop": "Bajra",
+            "count": 280,
+            "mae_t_ha": 0.546900104443204,
+            "rmse_t_ha": 0.6567618005650174,
+            "r2": 0.3180883791161475,
+            "normalized_mae": 0.42069238803323383
+          },
+          {
+            "crop": "Soyabean",
+            "count": 186,
+            "mae_t_ha": 0.41540117220101397,
+            "rmse_t_ha": 0.4989054924508105,
+            "r2": -0.0765502699259184,
+            "normalized_mae": 0.39751308344594644
+          }
+        ]
+      },
+      "valid_predictions": true
+    },
+    "GradientBoosting": {
+      "validation": {
+        "crop_balanced_normalized_mae": 0.38739553036619356,
+        "count": 4583,
+        "per_crop": [
+          {
+            "crop": "Rice",
+            "count": 327,
+            "mae_t_ha": 0.7109694707159981,
+            "rmse_t_ha": 0.9018558088718972,
+            "r2": 0.11738253401212129,
+            "normalized_mae": 0.29747676598995737
+          },
+          {
+            "crop": "Maize",
+            "count": 359,
+            "mae_t_ha": 0.9710798378150416,
+            "rmse_t_ha": 1.446715820488879,
+            "r2": 0.2919241019899057,
+            "normalized_mae": 0.4335177847388578
+          },
+          {
+            "crop": "Moong(Green Gram)",
+            "count": 351,
+            "mae_t_ha": 0.18550647694248273,
+            "rmse_t_ha": 0.23034911110491196,
+            "r2": 0.09529940570398032,
+            "normalized_mae": 0.33424590440086976
+          },
+          {
+            "crop": "Urad",
+            "count": 356,
+            "mae_t_ha": 0.2161572792337069,
+            "rmse_t_ha": 0.25723308108088216,
+            "r2": -0.06562120297200202,
+            "normalized_mae": 0.3226228048264282
+          },
+          {
+            "crop": "Groundnut",
+            "count": 299,
+            "mae_t_ha": 0.4483279114723661,
+            "rmse_t_ha": 0.5884769808724011,
+            "r2": 0.1491136607787601,
+            "normalized_mae": 0.36449423696940336
+          },
+          {
+            "crop": "Wheat",
+            "count": 378,
+            "mae_t_ha": 0.7095053345344374,
+            "rmse_t_ha": 0.8849583909328912,
+            "r2": 0.443934057878551,
+            "normalized_mae": 0.28380213381377495
+          },
+          {
+            "crop": "Rapeseed &Mustard",
+            "count": 363,
+            "mae_t_ha": 0.35949799409327476,
+            "rmse_t_ha": 0.5078384847159799,
+            "r2": 0.24588852806328876,
+            "normalized_mae": 0.3631292869629038
+          },
+          {
+            "crop": "Sugarcane",
+            "count": 238,
+            "mae_t_ha": 15.373918190211072,
+            "rmse_t_ha": 20.13242967211009,
+            "r2": 0.39228437080768264,
+            "normalized_mae": 0.22871047590316976
+          },
+          {
+            "crop": "Arhar/Tur",
+            "count": 380,
+            "mae_t_ha": 0.34202037698225835,
+            "rmse_t_ha": 0.45216615652505293,
+            "r2": 0.09286736921025751,
+            "normalized_mae": 0.34547512826490745
+          },
+          {
+            "crop": "Potato",
+            "count": 166,
+            "mae_t_ha": 6.321969387442301,
+            "rmse_t_ha": 8.133689528042337,
+            "r2": 0.21542487655140952,
+            "normalized_mae": 0.4638275412650257
+          },
+          {
+            "crop": "Onion",
+            "count": 183,
+            "mae_t_ha": 6.439228037219804,
+            "rmse_t_ha": 12.089682114296544,
+            "r2": 0.044355683645881605,
+            "normalized_mae": 0.5470881934766189
+          },
+          {
+            "crop": "Gram",
+            "count": 366,
+            "mae_t_ha": 0.2922445010264514,
+            "rmse_t_ha": 0.381793862466496,
+            "r2": -0.06377139419597966,
+            "normalized_mae": 0.31089840534728874
+          },
+          {
+            "crop": "Jowar",
+            "count": 247,
+            "mae_t_ha": 0.4284489268155533,
+            "rmse_t_ha": 0.6251025906192174,
+            "r2": 0.05821604037209338,
+            "normalized_mae": 0.4284489268155533
+          },
+          {
+            "crop": "Dry chillies",
+            "count": 103,
+            "mae_t_ha": 0.6602554099621123,
+            "rmse_t_ha": 1.109014297521073,
+            "r2": 0.39322700922445475,
+            "normalized_mae": 0.7099520537227013
+          },
+          {
+            "crop": "Bajra",
+            "count": 257,
+            "mae_t_ha": 0.5839883726788774,
+            "rmse_t_ha": 0.7101238424670948,
+            "r2": 0.19917130226626956,
+            "normalized_mae": 0.44922182513759795
+          },
+          {
+            "crop": "Soyabean",
+            "count": 210,
+            "mae_t_ha": 0.32961078404412003,
+            "rmse_t_ha": 0.4195240458544331,
+            "r2": -0.1570609804828118,
+            "normalized_mae": 0.31541701822403834
+          }
+        ]
+      },
+      "backtest": {
+        "crop_balanced_normalized_mae": 0.4599879786109569,
+        "count": 4624,
+        "per_crop": [
+          {
+            "crop": "Rice",
+            "count": 320,
+            "mae_t_ha": 0.6796451327628681,
+            "rmse_t_ha": 0.8895546162357651,
+            "r2": 0.15313445973144535,
+            "normalized_mae": 0.28437034843634645
+          },
+          {
+            "crop": "Maize",
+            "count": 375,
+            "mae_t_ha": 1.1359023484110535,
+            "rmse_t_ha": 1.4546567727738466,
+            "r2": 0.49175237506518577,
+            "normalized_mae": 0.507099262683506
+          },
+          {
+            "crop": "Moong(Green Gram)",
+            "count": 342,
+            "mae_t_ha": 0.2359931282659932,
+            "rmse_t_ha": 0.2921005506562283,
+            "r2": -0.016081208585811302,
+            "normalized_mae": 0.4252128437225102
+          },
+          {
+            "crop": "Urad",
+            "count": 341,
+            "mae_t_ha": 0.2587189898775485,
+            "rmse_t_ha": 0.3110820333075198,
+            "r2": -0.12576963462026303,
+            "normalized_mae": 0.38614774608589325
+          },
+          {
+            "crop": "Groundnut",
+            "count": 299,
+            "mae_t_ha": 0.5765476429943923,
+            "rmse_t_ha": 0.7242229269435827,
+            "r2": 0.18487355137332184,
+            "normalized_mae": 0.4687379211336523
+          },
+          {
+            "crop": "Wheat",
+            "count": 381,
+            "mae_t_ha": 0.8065573807843542,
+            "rmse_t_ha": 1.0370471733893878,
+            "r2": 0.30970068900349024,
+            "normalized_mae": 0.3226229523137417
+          },
+          {
+            "crop": "Rapeseed &Mustard",
+            "count": 358,
+            "mae_t_ha": 0.3787792866209297,
+            "rmse_t_ha": 0.47344260501193425,
+            "r2": 0.21629665945177823,
+            "normalized_mae": 0.3826053400211411
+          },
+          {
+            "crop": "Sugarcane",
+            "count": 255,
+            "mae_t_ha": 17.541499074579576,
+            "rmse_t_ha": 21.308669462129085,
+            "r2": 0.35783442645095787,
+            "normalized_mae": 0.2609565467804162
+          },
+          {
+            "crop": "Arhar/Tur",
+            "count": 385,
+            "mae_t_ha": 0.393442672195911,
+            "rmse_t_ha": 1.1861473058820828,
+            "r2": 0.011383198539382966,
+            "normalized_mae": 0.39741684060193033
+          },
+          {
+            "crop": "Potato",
+            "count": 165,
+            "mae_t_ha": 6.980892224463245,
+            "rmse_t_ha": 9.057469447295652,
+            "r2": 0.18678466563708385,
+            "normalized_mae": 0.512171109645139
+          },
+          {
+            "crop": "Onion",
+            "count": 184,
+            "mae_t_ha": 7.072698038912876,
+            "rmse_t_ha": 16.897117160360132,
+            "r2": 0.08268146869769577,
+            "normalized_mae": 0.6009089242916633
+          },
+          {
+            "crop": "Gram",
+            "count": 361,
+            "mae_t_ha": 0.2979351323325886,
+            "rmse_t_ha": 0.4149444654398136,
+            "r2": 0.005088991060680392,
+            "normalized_mae": 0.3169522684389241
+          },
+          {
+            "crop": "Jowar",
+            "count": 263,
+            "mae_t_ha": 0.36912143796462593,
+            "rmse_t_ha": 0.4785351518989906,
+            "r2": -0.07672320199245841,
+            "normalized_mae": 0.36912143796462593
+          },
+          {
+            "crop": "Dry chillies",
+            "count": 129,
+            "mae_t_ha": 1.1855898180758362,
+            "rmse_t_ha": 1.8117745836415766,
+            "r2": 0.015580450184610073,
+            "normalized_mae": 1.2748277613718668
+          },
+          {
+            "crop": "Bajra",
+            "count": 280,
+            "mae_t_ha": 0.593604572031244,
+            "rmse_t_ha": 0.7040826657887266,
+            "r2": 0.21628235189213618,
+            "normalized_mae": 0.45661890156249535
+          },
+          {
+            "crop": "Soyabean",
+            "count": 186,
+            "mae_t_ha": 0.4117691380939249,
+            "rmse_t_ha": 0.4866533257969982,
+            "r2": -0.024323497509879832,
+            "normalized_mae": 0.39403745272145924
+          }
+        ]
+      },
+      "valid_predictions": true
+    },
+    "XGBoost": {
+      "validation": {
+        "crop_balanced_normalized_mae": 0.3784089735819035,
+        "count": 4583,
+        "per_crop": [
+          {
+            "crop": "Rice",
+            "count": 327,
+            "mae_t_ha": 0.7156800015184129,
+            "rmse_t_ha": 0.9102379117614157,
+            "r2": 0.10089969767475582,
+            "normalized_mae": 0.2994476993800891
+          },
+          {
+            "crop": "Maize",
+            "count": 359,
+            "mae_t_ha": 0.9190883915404423,
+            "rmse_t_ha": 1.3740993284369238,
+            "r2": 0.36122250765008057,
+            "normalized_mae": 0.41030731765198314
+          },
+          {
+            "crop": "Moong(Green Gram)",
+            "count": 351,
+            "mae_t_ha": 0.18393930031448347,
+            "rmse_t_ha": 0.22708552351381003,
+            "r2": 0.12075340990644567,
+            "normalized_mae": 0.331422162728799
+          },
+          {
+            "crop": "Urad",
+            "count": 356,
+            "mae_t_ha": 0.22250617161393166,
+            "rmse_t_ha": 0.26309060569790016,
+            "r2": -0.11470486229952948,
+            "normalized_mae": 0.33209876360288304
+          },
+          {
+            "crop": "Groundnut",
+            "count": 299,
+            "mae_t_ha": 0.4565776065360742,
+            "rmse_t_ha": 0.5931372983680656,
+            "r2": 0.1355834728763181,
+            "normalized_mae": 0.3712013061268896
+          },
+          {
+            "crop": "Wheat",
+            "count": 378,
+            "mae_t_ha": 0.7005322287259278,
+            "rmse_t_ha": 0.8733716662421062,
+            "r2": 0.45839983206202994,
+            "normalized_mae": 0.2802128914903711
+          },
+          {
+            "crop": "Rapeseed &Mustard",
+            "count": 363,
+            "mae_t_ha": 0.34227842665982966,
+            "rmse_t_ha": 0.4980140155499901,
+            "r2": 0.2747838623300368,
+            "normalized_mae": 0.34573578450487846
+          },
+          {
+            "crop": "Sugarcane",
+            "count": 238,
+            "mae_t_ha": 15.191057182675651,
+            "rmse_t_ha": 20.20466796948439,
+            "r2": 0.387915389647015,
+            "normalized_mae": 0.22599013958160744
+          },
+          {
+            "crop": "Arhar/Tur",
+            "count": 380,
+            "mae_t_ha": 0.3453022238235724,
+            "rmse_t_ha": 0.4586229408697408,
+            "r2": 0.06677528406102284,
+            "normalized_mae": 0.34879012507431556
+          },
+          {
+            "crop": "Potato",
+            "count": 166,
+            "mae_t_ha": 5.93360047686531,
+            "rmse_t_ha": 7.898221916073095,
+            "r2": 0.26019371604736063,
+            "normalized_mae": 0.4353338574369266
+          },
+          {
+            "crop": "Onion",
+            "count": 183,
+            "mae_t_ha": 5.768024995366082,
+            "rmse_t_ha": 11.838906634347493,
+            "r2": 0.08359023346181627,
+            "normalized_mae": 0.49006159688751755
+          },
+          {
+            "crop": "Gram",
+            "count": 366,
+            "mae_t_ha": 0.28753414799281163,
+            "rmse_t_ha": 0.37715073556889733,
+            "r2": -0.03805494224284378,
+            "normalized_mae": 0.3058873914817145
+          },
+          {
+            "crop": "Jowar",
+            "count": 247,
+            "mae_t_ha": 0.42800279759202414,
+            "rmse_t_ha": 0.6188652463387391,
+            "r2": 0.07691672730714783,
+            "normalized_mae": 0.42800279759202414
+          },
+          {
+            "crop": "Dry chillies",
+            "count": 103,
+            "mae_t_ha": 0.6429376197382085,
+            "rmse_t_ha": 1.170140649128905,
+            "r2": 0.3244957537271981,
+            "normalized_mae": 0.6913307739120521
+          },
+          {
+            "crop": "Bajra",
+            "count": 257,
+            "mae_t_ha": 0.597467726863312,
+            "rmse_t_ha": 0.7180885518973722,
+            "r2": 0.1811064600328831,
+            "normalized_mae": 0.4595905591256246
+          },
+          {
+            "crop": "Soyabean",
+            "count": 210,
+            "mae_t_ha": 0.3125912792157559,
+            "rmse_t_ha": 0.3912870720418932,
+            "r2": -0.0065457743625463305,
+            "normalized_mae": 0.2991304107327808
+          }
+        ]
+      },
+      "backtest": {
+        "crop_balanced_normalized_mae": 0.4569838402620961,
+        "count": 4624,
+        "per_crop": [
+          {
+            "crop": "Rice",
+            "count": 320,
+            "mae_t_ha": 0.6735811180956662,
+            "rmse_t_ha": 0.8754567244666265,
+            "r2": 0.17976444328558605,
+            "normalized_mae": 0.2818331038057181
+          },
+          {
+            "crop": "Maize",
+            "count": 375,
+            "mae_t_ha": 1.1229849891153971,
+            "rmse_t_ha": 1.4361763088955537,
+            "r2": 0.5045842516918888,
+            "normalized_mae": 0.5013325844265165
+          },
+          {
+            "crop": "Moong(Green Gram)",
+            "count": 342,
+            "mae_t_ha": 0.2398161818827802,
+            "rmse_t_ha": 0.29598190242651556,
+            "r2": -0.043263426797634175,
+            "normalized_mae": 0.43210122861762196
+          },
+          {
+            "crop": "Urad",
+            "count": 341,
+            "mae_t_ha": 0.25294035100866974,
+            "rmse_t_ha": 0.30705431187915305,
+            "r2": -0.09680664571378594,
+            "normalized_mae": 0.3775229119532384
+          },
+          {
+            "crop": "Groundnut",
+            "count": 299,
+            "mae_t_ha": 0.6078034579414987,
+            "rmse_t_ha": 0.7531262127868321,
+            "r2": 0.11851287436939284,
+            "normalized_mae": 0.49414915279796645
+          },
+          {
+            "crop": "Wheat",
+            "count": 381,
+            "mae_t_ha": 0.7707669933105078,
+            "rmse_t_ha": 0.9865790356926896,
+            "r2": 0.37525299751784,
+            "normalized_mae": 0.30830679732420313
+          },
+          {
+            "crop": "Rapeseed &Mustard",
+            "count": 358,
+            "mae_t_ha": 0.3622840615807299,
+            "rmse_t_ha": 0.45740288804867907,
+            "r2": 0.2684991620773639,
+            "normalized_mae": 0.3659434965461918
+          },
+          {
+            "crop": "Sugarcane",
+            "count": 255,
+            "mae_t_ha": 17.40343549374973,
+            "rmse_t_ha": 21.386311927227016,
+            "r2": 0.35314617930382286,
+            "normalized_mae": 0.25890264049017747
+          },
+          {
+            "crop": "Arhar/Tur",
+            "count": 385,
+            "mae_t_ha": 0.37339131778246387,
+            "rmse_t_ha": 1.1805816482929792,
+            "r2": 0.020639036468634298,
+            "normalized_mae": 0.37716294725501404
+          },
+          {
+            "crop": "Potato",
+            "count": 165,
+            "mae_t_ha": 6.7821205165891945,
+            "rmse_t_ha": 8.860778031157514,
+            "r2": 0.22172063045443258,
+            "normalized_mae": 0.49758771214887704
+          },
+          {
+            "crop": "Onion",
+            "count": 184,
+            "mae_t_ha": 7.29063853474091,
+            "rmse_t_ha": 17.55829041627141,
+            "r2": 0.009488795989393783,
+            "normalized_mae": 0.6194255339626942
+          },
+          {
+            "crop": "Gram",
+            "count": 361,
+            "mae_t_ha": 0.30253858469529826,
+            "rmse_t_ha": 0.4163593588891593,
+            "r2": -0.001707547702494816,
+            "normalized_mae": 0.3218495581864875
+          },
+          {
+            "crop": "Jowar",
+            "count": 263,
+            "mae_t_ha": 0.35565572647087473,
+            "rmse_t_ha": 0.47044577990851916,
+            "r2": -0.040628066706410504,
+            "normalized_mae": 0.35565572647087473
+          },
+          {
+            "crop": "Dry chillies",
+            "count": 129,
+            "mae_t_ha": 1.1890502893231636,
+            "rmse_t_ha": 1.8642716182986951,
+            "r2": -0.0422941012252076,
+            "normalized_mae": 1.27854869819695
+          },
+          {
+            "crop": "Bajra",
+            "count": 280,
+            "mae_t_ha": 0.5819439933598042,
+            "rmse_t_ha": 0.698929309366373,
+            "r2": 0.22771281642571017,
+            "normalized_mae": 0.4476492256613878
+          },
+          {
+            "crop": "Soyabean",
+            "count": 186,
+            "mae_t_ha": 0.4114897820353507,
+            "rmse_t_ha": 0.48522762224182997,
+            "r2": -0.018330555915776925,
+            "normalized_mae": 0.3937701263496179
+          }
+        ]
+      },
+      "valid_predictions": true
+    },
+    "LSTM": {
+      "validation": {
+        "crop_balanced_normalized_mae": 0.34673400056472237,
+        "count": 4583,
+        "per_crop": [
+          {
+            "crop": "Rice",
+            "count": 327,
+            "mae_t_ha": 0.6411040806387542,
+            "rmse_t_ha": 0.8076735555511744,
+            "r2": 0.2921030667963965,
+            "normalized_mae": 0.26824438520449967
+          },
+          {
+            "crop": "Maize",
+            "count": 359,
+            "mae_t_ha": 0.8245048198593693,
+            "rmse_t_ha": 1.1659507664312856,
+            "r2": 0.5400890234042668,
+            "normalized_mae": 0.3680825088657898
+          },
+          {
+            "crop": "Moong(Green Gram)",
+            "count": 351,
+            "mae_t_ha": 0.20424310428889053,
+            "rmse_t_ha": 0.24905413230722714,
+            "r2": -0.05759477883631203,
+            "normalized_mae": 0.3680055933133162
+          },
+          {
+            "crop": "Urad",
+            "count": 356,
+            "mae_t_ha": 0.20781834431578605,
+            "rmse_t_ha": 0.2546698055068109,
+            "r2": -0.044489617074998655,
+            "normalized_mae": 0.31017663330714335
+          },
+          {
+            "crop": "Groundnut",
+            "count": 299,
+            "mae_t_ha": 0.4459649523006235,
+            "rmse_t_ha": 0.5915470151778106,
+            "r2": 0.1402124997134413,
+            "normalized_mae": 0.3625731319517264
+          },
+          {
+            "crop": "Wheat",
+            "count": 378,
+            "mae_t_ha": 0.5110190323878218,
+            "rmse_t_ha": 0.6337516691927888,
+            "r2": 0.714820156917368,
+            "normalized_mae": 0.20440761295512871
+          },
+          {
+            "crop": "Rapeseed &Mustard",
+            "count": 363,
+            "mae_t_ha": 0.3278378210840721,
+            "rmse_t_ha": 0.4690156563263336,
+            "r2": 0.3567807851586955,
+            "normalized_mae": 0.3311493142263355
+          },
+          {
+            "crop": "Sugarcane",
+            "count": 238,
+            "mae_t_ha": 15.005235411812777,
+            "rmse_t_ha": 19.731593620323505,
+            "r2": 0.4162426669023006,
+            "normalized_mae": 0.22322575739084763
+          },
+          {
+            "crop": "Arhar/Tur",
+            "count": 380,
+            "mae_t_ha": 0.3183060223515096,
+            "rmse_t_ha": 0.40767894280013706,
+            "r2": 0.2625862305084131,
+            "normalized_mae": 0.3215212346984946
+          },
+          {
+            "crop": "Potato",
+            "count": 166,
+            "mae_t_ha": 6.149194654786443,
+            "rmse_t_ha": 7.591279780211878,
+            "r2": 0.3165773820044454,
+            "normalized_mae": 0.4511514787077361
+          },
+          {
+            "crop": "Onion",
+            "count": 183,
+            "mae_t_ha": 4.895189842190085,
+            "rmse_t_ha": 10.522585939300976,
+            "r2": 0.2760451522639342,
+            "normalized_mae": 0.4159039797952494
+          },
+          {
+            "crop": "Gram",
+            "count": 366,
+            "mae_t_ha": 0.28170431871720353,
+            "rmse_t_ha": 0.3637138908211487,
+            "r2": 0.03459354591388053,
+            "normalized_mae": 0.2996854454438336
+          },
+          {
+            "crop": "Jowar",
+            "count": 247,
+            "mae_t_ha": 0.43149911989084627,
+            "rmse_t_ha": 0.614120178838237,
+            "r2": 0.09101769863598663,
+            "normalized_mae": 0.43149911989084627
+          },
+          {
+            "crop": "Dry chillies",
+            "count": 103,
+            "mae_t_ha": 0.45117253022865184,
+            "rmse_t_ha": 0.6861852848515552,
+            "r2": 0.7677077335302243,
+            "normalized_mae": 0.4851317529340342
+          },
+          {
+            "crop": "Bajra",
+            "count": 257,
+            "mae_t_ha": 0.5668781445462415,
+            "rmse_t_ha": 0.7002904200178226,
+            "r2": 0.22119665270604494,
+            "normalized_mae": 0.43606011118941657
+          },
+          {
+            "crop": "Soyabean",
+            "count": 210,
+            "mae_t_ha": 0.28311761687341186,
+            "rmse_t_ha": 0.3696393996898118,
+            "r2": 0.10174623957367701,
+            "normalized_mae": 0.2709259491611597
+          }
+        ]
+      },
+      "backtest": {
+        "crop_balanced_normalized_mae": 0.4268819879155451,
+        "count": 4624,
+        "per_crop": [
+          {
+            "crop": "Rice",
+            "count": 320,
+            "mae_t_ha": 0.6756128965131938,
+            "rmse_t_ha": 0.8685849189416873,
+            "r2": 0.1925906116600895,
+            "normalized_mae": 0.2826832202984074
+          },
+          {
+            "crop": "Maize",
+            "count": 375,
+            "mae_t_ha": 1.1971743315633139,
+            "rmse_t_ha": 1.52067134945849,
+            "r2": 0.44457551839768716,
+            "normalized_mae": 0.5344528265907651
+          },
+          {
+            "crop": "Moong(Green Gram)",
+            "count": 342,
+            "mae_t_ha": 0.234948246553976,
+            "rmse_t_ha": 0.29437912280859113,
+            "r2": -0.03199521094998792,
+            "normalized_mae": 0.4233301739711279
+          },
+          {
+            "crop": "Urad",
+            "count": 341,
+            "mae_t_ha": 0.24159114828906803,
+            "rmse_t_ha": 0.30072556425242736,
+            "r2": -0.0520596619691065,
+            "normalized_mae": 0.3605838034165194
+          },
+          {
+            "crop": "Groundnut",
+            "count": 299,
+            "mae_t_ha": 0.5473684792385054,
+            "rmse_t_ha": 0.7235718739883205,
+            "r2": 0.18633843718894028,
+            "normalized_mae": 0.4450150237711426
+          },
+          {
+            "crop": "Wheat",
+            "count": 381,
+            "mae_t_ha": 0.6318378255870243,
+            "rmse_t_ha": 0.8179066669302849,
+            "r2": 0.5706139684880751,
+            "normalized_mae": 0.2527351302348097
+          },
+          {
+            "crop": "Rapeseed &Mustard",
+            "count": 358,
+            "mae_t_ha": 0.36610662488048307,
+            "rmse_t_ha": 0.45037778891603975,
+            "r2": 0.2907963664345222,
+            "normalized_mae": 0.36980467159644753
+          },
+          {
+            "crop": "Sugarcane",
+            "count": 255,
+            "mae_t_ha": 17.929140218869726,
+            "rmse_t_ha": 22.502710539251154,
+            "r2": 0.283849958568377,
+            "normalized_mae": 0.2667232998939263
+          },
+          {
+            "crop": "Arhar/Tur",
+            "count": 385,
+            "mae_t_ha": 0.39554956846268147,
+            "rmse_t_ha": 1.2224541625858136,
+            "r2": -0.050064317467281905,
+            "normalized_mae": 0.3995450186491732
+          },
+          {
+            "crop": "Potato",
+            "count": 165,
+            "mae_t_ha": 7.070782808377887,
+            "rmse_t_ha": 8.52440797496567,
+            "r2": 0.27968865134283116,
+            "normalized_mae": 0.518766163490674
+          },
+          {
+            "crop": "Onion",
+            "count": 184,
+            "mae_t_ha": 6.56043309831587,
+            "rmse_t_ha": 16.694657792407266,
+            "r2": 0.1045321893608806,
+            "normalized_mae": 0.5573859896615013
+          },
+          {
+            "crop": "Gram",
+            "count": 361,
+            "mae_t_ha": 0.26856203075095886,
+            "rmse_t_ha": 0.3630038426731415,
+            "r2": 0.23857570713705367,
+            "normalized_mae": 0.28570428803293496
+          },
+          {
+            "crop": "Jowar",
+            "count": 263,
+            "mae_t_ha": 0.3620944696642147,
+            "rmse_t_ha": 0.49041948719662587,
+            "r2": -0.1308677488563954,
+            "normalized_mae": 0.3620944696642147
+          },
+          {
+            "crop": "Dry chillies",
+            "count": 129,
+            "mae_t_ha": 0.979824994030849,
+            "rmse_t_ha": 1.4314397563499694,
+            "r2": 0.3855054236275549,
+            "normalized_mae": 1.0535752623987622
+          },
+          {
+            "crop": "Bajra",
+            "count": 280,
+            "mae_t_ha": 0.5089035492113658,
+            "rmse_t_ha": 0.6535839320950597,
+            "r2": 0.3246715349953626,
+            "normalized_mae": 0.39146426862412753
+          },
+          {
+            "crop": "Soyabean",
+            "count": 186,
+            "mae_t_ha": 0.34092936519012657,
+            "rmse_t_ha": 0.42416189759318346,
+            "r2": 0.22185406942939356,
+            "normalized_mae": 0.3262481963541881
+          }
+        ]
+      },
+      "epochs": [
+        {
+          "epoch": 1,
+          "validation_score": 0.4500756317205166
+        },
+        {
+          "epoch": 2,
+          "validation_score": 0.4290301632701115
+        },
+        {
+          "epoch": 3,
+          "validation_score": 0.41965947726913366
+        },
+        {
+          "epoch": 4,
+          "validation_score": 0.4113575959812777
+        },
+        {
+          "epoch": 5,
+          "validation_score": 0.40152235894078914
+        },
+        {
+          "epoch": 6,
+          "validation_score": 0.4000167672933812
+        },
+        {
+          "epoch": 7,
+          "validation_score": 0.38907359339722536
+        },
+        {
+          "epoch": 8,
+          "validation_score": 0.38729192720664046
+        },
+        {
+          "epoch": 9,
+          "validation_score": 0.3828359085305936
+        },
+        {
+          "epoch": 10,
+          "validation_score": 0.3755739597065392
+        },
+        {
+          "epoch": 11,
+          "validation_score": 0.37064039031822743
+        },
+        {
+          "epoch": 12,
+          "validation_score": 0.35707599201946477
+        },
+        {
+          "epoch": 13,
+          "validation_score": 0.3587238251735808
+        },
+        {
+          "epoch": 14,
+          "validation_score": 0.3571770684532585
+        },
+        {
+          "epoch": 15,
+          "validation_score": 0.3491569333171245
+        },
+        {
+          "epoch": 16,
+          "validation_score": 0.34673400056472237
+        },
+        {
+          "epoch": 17,
+          "validation_score": 0.34686944429401606
+        },
+        {
+          "epoch": 18,
+          "validation_score": 0.3540207112497712
+        },
+        {
+          "epoch": 19,
+          "validation_score": 0.35786959004864216
+        }
+      ]
+    }
+  },
+  "ablations": {
+    "weather_only": {
+      "validation": {
+        "crop_balanced_normalized_mae": 0.37085253493862247,
+        "count": 4583,
+        "per_crop": [
+          {
+            "crop": "Rice",
+            "count": 327,
+            "mae_t_ha": 0.6861106471427013,
+            "rmse_t_ha": 0.8635940887026329,
+            "r2": 0.19068493360250283,
+            "normalized_mae": 0.2870755845785361
+          },
+          {
+            "crop": "Maize",
+            "count": 359,
+            "mae_t_ha": 0.8941294178663421,
+            "rmse_t_ha": 1.2877043356706217,
+            "r2": 0.43902221109982453,
+            "normalized_mae": 0.39916491869033127
+          },
+          {
+            "crop": "Moong(Green Gram)",
+            "count": 351,
+            "mae_t_ha": 0.18012450940317,
+            "rmse_t_ha": 0.22333013191825213,
+            "r2": 0.14959375823599363,
+            "normalized_mae": 0.3245486655912973
+          },
+          {
+            "crop": "Urad",
+            "count": 356,
+            "mae_t_ha": 0.2137864728442849,
+            "rmse_t_ha": 0.25274564377936426,
+            "r2": -0.028765927107149203,
+            "normalized_mae": 0.31908428782729087
+          },
+          {
+            "crop": "Groundnut",
+            "count": 299,
+            "mae_t_ha": 0.4715615811520933,
+            "rmse_t_ha": 0.6076426317084538,
+            "r2": 0.09278741892475917,
+            "normalized_mae": 0.38338339931064497
+          },
+          {
+            "crop": "Wheat",
+            "count": 378,
+            "mae_t_ha": 0.6249555113462947,
+            "rmse_t_ha": 0.7673236196887089,
+            "r2": 0.5819408560240784,
+            "normalized_mae": 0.24998220453851788
+          },
+          {
+            "crop": "Rapeseed &Mustard",
+            "count": 363,
+            "mae_t_ha": 0.3400452330537397,
+            "rmse_t_ha": 0.49527366010176244,
+            "r2": 0.2827430047194288,
+            "normalized_mae": 0.34348003338761585
+          },
+          {
+            "crop": "Sugarcane",
+            "count": 238,
+            "mae_t_ha": 15.58354127857241,
+            "rmse_t_ha": 20.48657250453899,
+            "r2": 0.37071607996008227,
+            "normalized_mae": 0.23182893898501056
+          },
+          {
+            "crop": "Arhar/Tur",
+            "count": 380,
+            "mae_t_ha": 0.34814027257227914,
+            "rmse_t_ha": 0.4561893007882926,
+            "r2": 0.07665314708701854,
+            "normalized_mae": 0.35165684098210015
+          },
+          {
+            "crop": "Potato",
+            "count": 166,
+            "mae_t_ha": 6.155594653456746,
+            "rmse_t_ha": 8.246555982613987,
+            "r2": 0.1934996221231785,
+            "normalized_mae": 0.4516210310679931
+          },
+          {
+            "crop": "Onion",
+            "count": 183,
+            "mae_t_ha": 5.372737337173721,
+            "rmse_t_ha": 11.443682976863226,
+            "r2": 0.14375479193208562,
+            "normalized_mae": 0.4564772588932643
+          },
+          {
+            "crop": "Gram",
+            "count": 366,
+            "mae_t_ha": 0.275279693884072,
+            "rmse_t_ha": 0.3719115052215777,
+            "r2": -0.009414757122378381,
+            "normalized_mae": 0.29285073817454466
+          },
+          {
+            "crop": "Jowar",
+            "count": 247,
+            "mae_t_ha": 0.42249596362686515,
+            "rmse_t_ha": 0.6099941671890359,
+            "r2": 0.10319079694293365,
+            "normalized_mae": 0.42249596362686515
+          },
+          {
+            "crop": "Dry chillies",
+            "count": 103,
+            "mae_t_ha": 0.6293051456597795,
+            "rmse_t_ha": 0.989447372540844,
+            "r2": 0.517010877865839,
+            "normalized_mae": 0.6766721996341715
+          },
+          {
+            "crop": "Bajra",
+            "count": 257,
+            "mae_t_ha": 0.5640941542264429,
+            "rmse_t_ha": 0.6856364266741591,
+            "r2": 0.25344947594542644,
+            "normalized_mae": 0.4339185801741869
+          },
+          {
+            "crop": "Soyabean",
+            "count": 210,
+            "mae_t_ha": 0.32332290966559074,
+            "rmse_t_ha": 0.40190738440682355,
+            "r2": -0.06192660843198383,
+            "normalized_mae": 0.30939991355558927
+          }
+        ]
+      },
+      "backtest": {
+        "crop_balanced_normalized_mae": 0.45348119626336425,
+        "count": 4624,
+        "per_crop": [
+          {
+            "crop": "Rice",
+            "count": 320,
+            "mae_t_ha": 0.6596459523009738,
+            "rmse_t_ha": 0.8490007538430762,
+            "r2": 0.22858979895234943,
+            "normalized_mae": 0.2760024905024995
+          },
+          {
+            "crop": "Maize",
+            "count": 375,
+            "mae_t_ha": 1.0537291949813028,
+            "rmse_t_ha": 1.3406005218534247,
+            "r2": 0.5683288151251211,
+            "normalized_mae": 0.47041481918808153
+          },
+          {
+            "crop": "Moong(Green Gram)",
+            "count": 342,
+            "mae_t_ha": 0.2245544230469559,
+            "rmse_t_ha": 0.2807478929355148,
+            "r2": 0.061365140584107136,
+            "normalized_mae": 0.40460256404856915
+          },
+          {
+            "crop": "Urad",
+            "count": 341,
+            "mae_t_ha": 0.25018623887205227,
+            "rmse_t_ha": 0.30733739887271244,
+            "r2": -0.09882996739902916,
+            "normalized_mae": 0.3734122968239586
+          },
+          {
+            "crop": "Groundnut",
+            "count": 299,
+            "mae_t_ha": 0.5666289045926568,
+            "rmse_t_ha": 0.691940101607964,
+            "r2": 0.25592373996344564,
+            "normalized_mae": 0.4606739061728917
+          },
+          {
+            "crop": "Wheat",
+            "count": 381,
+            "mae_t_ha": 0.8129812831353017,
+            "rmse_t_ha": 1.0929560501735947,
+            "r2": 0.23326407441315877,
+            "normalized_mae": 0.3251925132541207
+          },
+          {
+            "crop": "Rapeseed &Mustard",
+            "count": 358,
+            "mae_t_ha": 0.40620957431480464,
+            "rmse_t_ha": 0.5155548206772755,
+            "r2": 0.07067691118053698,
+            "normalized_mae": 0.4103127013280855
+          },
+          {
+            "crop": "Sugarcane",
+            "count": 255,
+            "mae_t_ha": 17.503355078404912,
+            "rmse_t_ha": 21.213221619561292,
+            "r2": 0.36357444163212005,
+            "normalized_mae": 0.2603890966736821
+          },
+          {
+            "crop": "Arhar/Tur",
+            "count": 385,
+            "mae_t_ha": 0.3839019950054538,
+            "rmse_t_ha": 1.175102426776785,
+            "r2": 0.029708605236742125,
+            "normalized_mae": 0.3877797929348018
+          },
+          {
+            "crop": "Potato",
+            "count": 165,
+            "mae_t_ha": 7.466259710059454,
+            "rmse_t_ha": 9.736501837086609,
+            "r2": 0.06028165733892077,
+            "normalized_mae": 0.5477813433645967
+          },
+          {
+            "crop": "Onion",
+            "count": 184,
+            "mae_t_ha": 7.063435291507784,
+            "rmse_t_ha": 16.909148791384254,
+            "r2": 0.08137464607246603,
+            "normalized_mae": 0.6001219449029553
+          },
+          {
+            "crop": "Gram",
+            "count": 361,
+            "mae_t_ha": 0.2950011498795552,
+            "rmse_t_ha": 0.40737958330529694,
+            "r2": 0.04103489761797552,
+            "normalized_mae": 0.31383101051016515
+          },
+          {
+            "crop": "Jowar",
+            "count": 263,
+            "mae_t_ha": 0.3477067472517603,
+            "rmse_t_ha": 0.4584465513490668,
+            "r2": 0.011779631329940421,
+            "normalized_mae": 0.3477067472517603
+          },
+          {
+            "crop": "Dry chillies",
+            "count": 129,
+            "mae_t_ha": 1.163257248698326,
+            "rmse_t_ha": 1.9042382003636993,
+            "r2": -0.08746290241900412,
+            "normalized_mae": 1.2508142459121783
+          },
+          {
+            "crop": "Bajra",
+            "count": 280,
+            "mae_t_ha": 0.5549933139824974,
+            "rmse_t_ha": 0.6620231858497446,
+            "r2": 0.30711888948348565,
+            "normalized_mae": 0.4269179338326903
+          },
+          {
+            "crop": "Soyabean",
+            "count": 186,
+            "mae_t_ha": 0.4177342915208673,
+            "rmse_t_ha": 0.49881157962265216,
+            "r2": -0.07614501335352264,
+            "normalized_mae": 0.3997457335127917
+          }
+        ]
+      }
+    },
+    "weather_ndvi": {
+      "validation": {
+        "crop_balanced_normalized_mae": 0.36660684531713283,
+        "count": 4583,
+        "per_crop": [
+          {
+            "crop": "Rice",
+            "count": 327,
+            "mae_t_ha": 0.6922564603192538,
+            "rmse_t_ha": 0.8765090612329965,
+            "r2": 0.16629746161802428,
+            "normalized_mae": 0.28964705452688444
+          },
+          {
+            "crop": "Maize",
+            "count": 359,
+            "mae_t_ha": 0.8843248222596355,
+            "rmse_t_ha": 1.3130826867060919,
+            "r2": 0.4166925804202991,
+            "normalized_mae": 0.39478786708019437
+          },
+          {
+            "crop": "Moong(Green Gram)",
+            "count": 351,
+            "mae_t_ha": 0.18067556669817775,
+            "rmse_t_ha": 0.2230623357024982,
+            "r2": 0.15163198775784337,
+            "normalized_mae": 0.32554156161833825
+          },
+          {
+            "crop": "Urad",
+            "count": 356,
+            "mae_t_ha": 0.21327256174580692,
+            "rmse_t_ha": 0.2540894556241566,
+            "r2": -0.03973460698544429,
+            "normalized_mae": 0.31831725633702523
+          },
+          {
+            "crop": "Groundnut",
+            "count": 299,
+            "mae_t_ha": 0.44869186548919276,
+            "rmse_t_ha": 0.591706850678105,
+            "r2": 0.13974780924005858,
+            "normalized_mae": 0.3647901345440592
+          },
+          {
+            "crop": "Wheat",
+            "count": 378,
+            "mae_t_ha": 0.6052505287567845,
+            "rmse_t_ha": 0.7419603306959334,
+            "r2": 0.6091213357285794,
+            "normalized_mae": 0.24210021150271382
+          },
+          {
+            "crop": "Rapeseed &Mustard",
+            "count": 363,
+            "mae_t_ha": 0.3392585509591321,
+            "rmse_t_ha": 0.4923369901603177,
+            "r2": 0.2912235784002267,
+            "normalized_mae": 0.34268540500922434
+          },
+          {
+            "crop": "Sugarcane",
+            "count": 238,
+            "mae_t_ha": 15.726616160636352,
+            "rmse_t_ha": 20.834035123120604,
+            "r2": 0.34918911460339463,
+            "normalized_mae": 0.23395739602255805
+          },
+          {
+            "crop": "Arhar/Tur",
+            "count": 380,
+            "mae_t_ha": 0.3390649829123329,
+            "rmse_t_ha": 0.4431979443010379,
+            "r2": 0.12849444987058,
+            "normalized_mae": 0.3424898817296292
+          },
+          {
+            "crop": "Potato",
+            "count": 166,
+            "mae_t_ha": 5.919906763773204,
+            "rmse_t_ha": 8.107926284215075,
+            "r2": 0.22038724639633078,
+            "normalized_mae": 0.4343291829620839
+          },
+          {
+            "crop": "Onion",
+            "count": 183,
+            "mae_t_ha": 5.476637877751123,
+            "rmse_t_ha": 11.742599925935197,
+            "r2": 0.09843914449261093,
+            "normalized_mae": 0.46530483243425
+          },
+          {
+            "crop": "Gram",
+            "count": 366,
+            "mae_t_ha": 0.2694159478785585,
+            "rmse_t_ha": 0.36646798203098685,
+            "r2": 0.019917813363343195,
+            "normalized_mae": 0.2866127105091048
+          },
+          {
+            "crop": "Jowar",
+            "count": 247,
+            "mae_t_ha": 0.436290973615228,
+            "rmse_t_ha": 0.6221930221998341,
+            "r2": 0.06696278930686905,
+            "normalized_mae": 0.436290973615228
+          },
+          {
+            "crop": "Dry chillies",
+            "count": 103,
+            "mae_t_ha": 0.6033892796393848,
+            "rmse_t_ha": 0.9614061885834772,
+            "r2": 0.5439990186983225,
+            "normalized_mae": 0.6488056770315965
+          },
+          {
+            "crop": "Bajra",
+            "count": 257,
+            "mae_t_ha": 0.5661305116828037,
+            "rmse_t_ha": 0.6884874999826225,
+            "r2": 0.24722782381283315,
+            "normalized_mae": 0.43548500898677206
+          },
+          {
+            "crop": "Soyabean",
+            "count": 210,
+            "mae_t_ha": 0.31826976786686423,
+            "rmse_t_ha": 0.3994139488993291,
+            "r2": -0.04879108522165154,
+            "normalized_mae": 0.3045643711644634
+          }
+        ]
+      },
+      "backtest": {
+        "crop_balanced_normalized_mae": 0.44738092594134027,
+        "count": 4624,
+        "per_crop": [
+          {
+            "crop": "Rice",
+            "count": 320,
+            "mae_t_ha": 0.6746282591569854,
+            "rmse_t_ha": 0.8731164960041874,
+            "r2": 0.18414380992566848,
+            "normalized_mae": 0.2822712381409981
+          },
+          {
+            "crop": "Maize",
+            "count": 375,
+            "mae_t_ha": 1.0819671477800346,
+            "rmse_t_ha": 1.3991222373735475,
+            "r2": 0.5298184215347326,
+            "normalized_mae": 0.4830210481160868
+          },
+          {
+            "crop": "Moong(Green Gram)",
+            "count": 342,
+            "mae_t_ha": 0.22918723168148575,
+            "rmse_t_ha": 0.2844986924948723,
+            "r2": 0.03611722833865494,
+            "normalized_mae": 0.412949966993668
+          },
+          {
+            "crop": "Urad",
+            "count": 341,
+            "mae_t_ha": 0.2465886692707103,
+            "rmse_t_ha": 0.30496881533320297,
+            "r2": -0.0819583372587307,
+            "normalized_mae": 0.368042789956284
+          },
+          {
+            "crop": "Groundnut",
+            "count": 299,
+            "mae_t_ha": 0.5750709934057491,
+            "rmse_t_ha": 0.7062857660903851,
+            "r2": 0.2247507508239719,
+            "normalized_mae": 0.4675373930128041
+          },
+          {
+            "crop": "Wheat",
+            "count": 381,
+            "mae_t_ha": 0.7095986836787183,
+            "rmse_t_ha": 0.9463147726397468,
+            "r2": 0.42520675548573905,
+            "normalized_mae": 0.2838394734714873
+          },
+          {
+            "crop": "Rapeseed &Mustard",
+            "count": 358,
+            "mae_t_ha": 0.37091348071218616,
+            "rmse_t_ha": 0.46787471033470307,
+            "r2": 0.2346216636221201,
+            "normalized_mae": 0.3746600815274608
+          },
+          {
+            "crop": "Sugarcane",
+            "count": 255,
+            "mae_t_ha": 17.198232075703988,
+            "rmse_t_ha": 21.02016774437552,
+            "r2": 0.3751054905342396,
+            "normalized_mae": 0.25584992674358803
+          },
+          {
+            "crop": "Arhar/Tur",
+            "count": 385,
+            "mae_t_ha": 0.38245528298100556,
+            "rmse_t_ha": 1.176997457517828,
+            "r2": 0.026576598024556808,
+            "normalized_mae": 0.3863184676575814
+          },
+          {
+            "crop": "Potato",
+            "count": 165,
+            "mae_t_ha": 7.01509062625849,
+            "rmse_t_ha": 9.147712569849041,
+            "r2": 0.17049917139294757,
+            "normalized_mae": 0.514680163335179
+          },
+          {
+            "crop": "Onion",
+            "count": 184,
+            "mae_t_ha": 6.820923051441035,
+            "rmse_t_ha": 17.033449301755496,
+            "r2": 0.06781922758215675,
+            "normalized_mae": 0.5795176764180998
+          },
+          {
+            "crop": "Gram",
+            "count": 361,
+            "mae_t_ha": 0.293652557883298,
+            "rmse_t_ha": 0.40786335628628173,
+            "r2": 0.03875595736600601,
+            "normalized_mae": 0.3123963381737213
+          },
+          {
+            "crop": "Jowar",
+            "count": 263,
+            "mae_t_ha": 0.3493411574672608,
+            "rmse_t_ha": 0.4583060711596833,
+            "r2": 0.012385172430616098,
+            "normalized_mae": 0.3493411574672608
+          },
+          {
+            "crop": "Dry chillies",
+            "count": 129,
+            "mae_t_ha": 1.1791949480261452,
+            "rmse_t_ha": 1.922112980545642,
+            "r2": -0.10797440333099284,
+            "normalized_mae": 1.2679515570173603
+          },
+          {
+            "crop": "Bajra",
+            "count": 280,
+            "mae_t_ha": 0.5453561284152105,
+            "rmse_t_ha": 0.6548572626932253,
+            "r2": 0.32203758390602233,
+            "normalized_mae": 0.4195047141655465
+          },
+          {
+            "crop": "Soyabean",
+            "count": 186,
+            "mae_t_ha": 0.4182223998932114,
+            "rmse_t_ha": 0.5004796641189309,
+            "r2": -0.08335455860040009,
+            "normalized_mae": 0.4002128228643172
+          }
+        ]
+      }
+    }
+  },
+  "available_months": {
+    "temp_mean_c": 113124,
+    "temp_max_c": 113124,
+    "temp_min_c": 113124,
+    "rainfall_mm": 113124,
+    "humidity_pct": 113124,
+    "wind_speed_ms": 113124,
+    "solar_radiation_mj": 113124,
+    "soil_moisture_root": 113124,
+    "soil_moisture_surface": 113124,
+    "ndvi": 106227,
+    "evi": 106227,
+    "lst_day_c": 74128,
+    "ndre": 102315
+  },
+  "coverage_by_crop_year": [
+    {
+      "crop": "Arhar/Tur",
+      "harvest_year": 2016,
+      "labels": 353,
+      "season_months": 2118,
+      "available_months": {
+        "temp_mean_c": 2118,
+        "temp_max_c": 2118,
+        "temp_min_c": 2118,
+        "rainfall_mm": 2118,
+        "humidity_pct": 2118,
+        "wind_speed_ms": 2118,
+        "solar_radiation_mj": 2118,
+        "soil_moisture_root": 2118,
+        "soil_moisture_surface": 2118,
+        "ndvi": 1892,
+        "evi": 1892,
+        "lst_day_c": 1194,
+        "ndre": 1664
+      }
+    },
+    {
+      "crop": "Arhar/Tur",
+      "harvest_year": 2017,
+      "labels": 372,
+      "season_months": 2232,
+      "available_months": {
+        "temp_mean_c": 2232,
+        "temp_max_c": 2232,
+        "temp_min_c": 2232,
+        "rainfall_mm": 2232,
+        "humidity_pct": 2232,
+        "wind_speed_ms": 2232,
+        "solar_radiation_mj": 2232,
+        "soil_moisture_root": 2232,
+        "soil_moisture_surface": 2232,
+        "ndvi": 2029,
+        "evi": 2029,
+        "lst_day_c": 1346,
+        "ndre": 1979
+      }
+    },
+    {
+      "crop": "Arhar/Tur",
+      "harvest_year": 2018,
+      "labels": 380,
+      "season_months": 2280,
+      "available_months": {
+        "temp_mean_c": 2280,
+        "temp_max_c": 2280,
+        "temp_min_c": 2280,
+        "rainfall_mm": 2280,
+        "humidity_pct": 2280,
+        "wind_speed_ms": 2280,
+        "solar_radiation_mj": 2280,
+        "soil_moisture_root": 2280,
+        "soil_moisture_surface": 2280,
+        "ndvi": 1967,
+        "evi": 1967,
+        "lst_day_c": 1273,
+        "ndre": 2224
+      }
+    },
+    {
+      "crop": "Arhar/Tur",
+      "harvest_year": 2019,
+      "labels": 385,
+      "season_months": 2310,
+      "available_months": {
+        "temp_mean_c": 2310,
+        "temp_max_c": 2310,
+        "temp_min_c": 2310,
+        "rainfall_mm": 2310,
+        "humidity_pct": 2310,
+        "wind_speed_ms": 2310,
+        "solar_radiation_mj": 2310,
+        "soil_moisture_root": 2310,
+        "soil_moisture_surface": 2310,
+        "ndvi": 2137,
+        "evi": 2137,
+        "lst_day_c": 1281,
+        "ndre": 2286
+      }
+    },
+    {
+      "crop": "Bajra",
+      "harvest_year": 2016,
+      "labels": 213,
+      "season_months": 1278,
+      "available_months": {
+        "temp_mean_c": 1278,
+        "temp_max_c": 1278,
+        "temp_min_c": 1278,
+        "rainfall_mm": 1278,
+        "humidity_pct": 1278,
+        "wind_speed_ms": 1278,
+        "solar_radiation_mj": 1278,
+        "soil_moisture_root": 1278,
+        "soil_moisture_surface": 1278,
+        "ndvi": 1189,
+        "evi": 1189,
+        "lst_day_c": 708,
+        "ndre": 1033
+      }
+    },
+    {
+      "crop": "Bajra",
+      "harvest_year": 2017,
+      "labels": 228,
+      "season_months": 1368,
+      "available_months": {
+        "temp_mean_c": 1368,
+        "temp_max_c": 1368,
+        "temp_min_c": 1368,
+        "rainfall_mm": 1368,
+        "humidity_pct": 1368,
+        "wind_speed_ms": 1368,
+        "solar_radiation_mj": 1368,
+        "soil_moisture_root": 1368,
+        "soil_moisture_surface": 1368,
+        "ndvi": 1279,
+        "evi": 1279,
+        "lst_day_c": 767,
+        "ndre": 1247
+      }
+    },
+    {
+      "crop": "Bajra",
+      "harvest_year": 2018,
+      "labels": 257,
+      "season_months": 1542,
+      "available_months": {
+        "temp_mean_c": 1542,
+        "temp_max_c": 1542,
+        "temp_min_c": 1542,
+        "rainfall_mm": 1542,
+        "humidity_pct": 1542,
+        "wind_speed_ms": 1542,
+        "solar_radiation_mj": 1542,
+        "soil_moisture_root": 1542,
+        "soil_moisture_surface": 1542,
+        "ndvi": 1368,
+        "evi": 1368,
+        "lst_day_c": 823,
+        "ndre": 1510
+      }
+    },
+    {
+      "crop": "Bajra",
+      "harvest_year": 2019,
+      "labels": 280,
+      "season_months": 1680,
+      "available_months": {
+        "temp_mean_c": 1680,
+        "temp_max_c": 1680,
+        "temp_min_c": 1680,
+        "rainfall_mm": 1680,
+        "humidity_pct": 1680,
+        "wind_speed_ms": 1680,
+        "solar_radiation_mj": 1680,
+        "soil_moisture_root": 1680,
+        "soil_moisture_surface": 1680,
+        "ndvi": 1571,
+        "evi": 1571,
+        "lst_day_c": 953,
+        "ndre": 1665
+      }
+    },
+    {
+      "crop": "Dry chillies",
+      "harvest_year": 2016,
+      "labels": 108,
+      "season_months": 648,
+      "available_months": {
+        "temp_mean_c": 648,
+        "temp_max_c": 648,
+        "temp_min_c": 648,
+        "rainfall_mm": 648,
+        "humidity_pct": 648,
+        "wind_speed_ms": 648,
+        "solar_radiation_mj": 648,
+        "soil_moisture_root": 648,
+        "soil_moisture_surface": 648,
+        "ndvi": 592,
+        "evi": 592,
+        "lst_day_c": 382,
+        "ndre": 535
+      }
+    },
+    {
+      "crop": "Dry chillies",
+      "harvest_year": 2017,
+      "labels": 103,
+      "season_months": 618,
+      "available_months": {
+        "temp_mean_c": 618,
+        "temp_max_c": 618,
+        "temp_min_c": 618,
+        "rainfall_mm": 618,
+        "humidity_pct": 618,
+        "wind_speed_ms": 618,
+        "solar_radiation_mj": 618,
+        "soil_moisture_root": 618,
+        "soil_moisture_surface": 618,
+        "ndvi": 568,
+        "evi": 568,
+        "lst_day_c": 368,
+        "ndre": 557
+      }
+    },
+    {
+      "crop": "Dry chillies",
+      "harvest_year": 2018,
+      "labels": 103,
+      "season_months": 618,
+      "available_months": {
+        "temp_mean_c": 618,
+        "temp_max_c": 618,
+        "temp_min_c": 618,
+        "rainfall_mm": 618,
+        "humidity_pct": 618,
+        "wind_speed_ms": 618,
+        "solar_radiation_mj": 618,
+        "soil_moisture_root": 618,
+        "soil_moisture_surface": 618,
+        "ndvi": 551,
+        "evi": 551,
+        "lst_day_c": 354,
+        "ndre": 617
+      }
+    },
+    {
+      "crop": "Dry chillies",
+      "harvest_year": 2019,
+      "labels": 129,
+      "season_months": 774,
+      "available_months": {
+        "temp_mean_c": 774,
+        "temp_max_c": 774,
+        "temp_min_c": 774,
+        "rainfall_mm": 774,
+        "humidity_pct": 774,
+        "wind_speed_ms": 774,
+        "solar_radiation_mj": 774,
+        "soil_moisture_root": 774,
+        "soil_moisture_surface": 774,
+        "ndvi": 722,
+        "evi": 722,
+        "lst_day_c": 453,
+        "ndre": 772
+      }
+    },
+    {
+      "crop": "Gram",
+      "harvest_year": 2016,
+      "labels": 345,
+      "season_months": 2070,
+      "available_months": {
+        "temp_mean_c": 2070,
+        "temp_max_c": 2070,
+        "temp_min_c": 2070,
+        "rainfall_mm": 2070,
+        "humidity_pct": 2070,
+        "wind_speed_ms": 2070,
+        "solar_radiation_mj": 2070,
+        "soil_moisture_root": 2070,
+        "soil_moisture_surface": 2070,
+        "ndvi": 2065,
+        "evi": 2065,
+        "lst_day_c": 1641,
+        "ndre": 1355
+      }
+    },
+    {
+      "crop": "Gram",
+      "harvest_year": 2017,
+      "labels": 359,
+      "season_months": 2154,
+      "available_months": {
+        "temp_mean_c": 2154,
+        "temp_max_c": 2154,
+        "temp_min_c": 2154,
+        "rainfall_mm": 2154,
+        "humidity_pct": 2154,
+        "wind_speed_ms": 2154,
+        "solar_radiation_mj": 2154,
+        "soil_moisture_root": 2154,
+        "soil_moisture_surface": 2154,
+        "ndvi": 2150,
+        "evi": 2150,
+        "lst_day_c": 1750,
+        "ndre": 2090
+      }
+    },
+    {
+      "crop": "Gram",
+      "harvest_year": 2018,
+      "labels": 366,
+      "season_months": 2196,
+      "available_months": {
+        "temp_mean_c": 2196,
+        "temp_max_c": 2196,
+        "temp_min_c": 2196,
+        "rainfall_mm": 2196,
+        "humidity_pct": 2196,
+        "wind_speed_ms": 2196,
+        "solar_radiation_mj": 2196,
+        "soil_moisture_root": 2196,
+        "soil_moisture_surface": 2196,
+        "ndvi": 2181,
+        "evi": 2181,
+        "lst_day_c": 1760,
+        "ndre": 2191
+      }
+    },
+    {
+      "crop": "Gram",
+      "harvest_year": 2019,
+      "labels": 361,
+      "season_months": 2166,
+      "available_months": {
+        "temp_mean_c": 2166,
+        "temp_max_c": 2166,
+        "temp_min_c": 2166,
+        "rainfall_mm": 2166,
+        "humidity_pct": 2166,
+        "wind_speed_ms": 2166,
+        "solar_radiation_mj": 2166,
+        "soil_moisture_root": 2166,
+        "soil_moisture_surface": 2166,
+        "ndvi": 2166,
+        "evi": 2166,
+        "lst_day_c": 1729,
+        "ndre": 2165
+      }
+    },
+    {
+      "crop": "Groundnut",
+      "harvest_year": 2016,
+      "labels": 250,
+      "season_months": 1500,
+      "available_months": {
+        "temp_mean_c": 1500,
+        "temp_max_c": 1500,
+        "temp_min_c": 1500,
+        "rainfall_mm": 1500,
+        "humidity_pct": 1500,
+        "wind_speed_ms": 1500,
+        "solar_radiation_mj": 1500,
+        "soil_moisture_root": 1500,
+        "soil_moisture_surface": 1500,
+        "ndvi": 1367,
+        "evi": 1367,
+        "lst_day_c": 878,
+        "ndre": 1183
+      }
+    },
+    {
+      "crop": "Groundnut",
+      "harvest_year": 2017,
+      "labels": 279,
+      "season_months": 1674,
+      "available_months": {
+        "temp_mean_c": 1674,
+        "temp_max_c": 1674,
+        "temp_min_c": 1674,
+        "rainfall_mm": 1674,
+        "humidity_pct": 1674,
+        "wind_speed_ms": 1674,
+        "solar_radiation_mj": 1674,
+        "soil_moisture_root": 1674,
+        "soil_moisture_surface": 1674,
+        "ndvi": 1534,
+        "evi": 1534,
+        "lst_day_c": 1013,
+        "ndre": 1474
+      }
+    },
+    {
+      "crop": "Groundnut",
+      "harvest_year": 2018,
+      "labels": 299,
+      "season_months": 1794,
+      "available_months": {
+        "temp_mean_c": 1794,
+        "temp_max_c": 1794,
+        "temp_min_c": 1794,
+        "rainfall_mm": 1794,
+        "humidity_pct": 1794,
+        "wind_speed_ms": 1794,
+        "solar_radiation_mj": 1794,
+        "soil_moisture_root": 1794,
+        "soil_moisture_surface": 1794,
+        "ndvi": 1568,
+        "evi": 1568,
+        "lst_day_c": 1020,
+        "ndre": 1748
+      }
+    },
+    {
+      "crop": "Groundnut",
+      "harvest_year": 2019,
+      "labels": 299,
+      "season_months": 1794,
+      "available_months": {
+        "temp_mean_c": 1794,
+        "temp_max_c": 1794,
+        "temp_min_c": 1794,
+        "rainfall_mm": 1794,
+        "humidity_pct": 1794,
+        "wind_speed_ms": 1794,
+        "solar_radiation_mj": 1794,
+        "soil_moisture_root": 1794,
+        "soil_moisture_surface": 1794,
+        "ndvi": 1667,
+        "evi": 1667,
+        "lst_day_c": 1005,
+        "ndre": 1773
+      }
+    },
+    {
+      "crop": "Jowar",
+      "harvest_year": 2016,
+      "labels": 213,
+      "season_months": 1278,
+      "available_months": {
+        "temp_mean_c": 1278,
+        "temp_max_c": 1278,
+        "temp_min_c": 1278,
+        "rainfall_mm": 1278,
+        "humidity_pct": 1278,
+        "wind_speed_ms": 1278,
+        "solar_radiation_mj": 1278,
+        "soil_moisture_root": 1278,
+        "soil_moisture_surface": 1278,
+        "ndvi": 1168,
+        "evi": 1168,
+        "lst_day_c": 721,
+        "ndre": 1030
+      }
+    },
+    {
+      "crop": "Jowar",
+      "harvest_year": 2017,
+      "labels": 245,
+      "season_months": 1470,
+      "available_months": {
+        "temp_mean_c": 1470,
+        "temp_max_c": 1470,
+        "temp_min_c": 1470,
+        "rainfall_mm": 1470,
+        "humidity_pct": 1470,
+        "wind_speed_ms": 1470,
+        "solar_radiation_mj": 1470,
+        "soil_moisture_root": 1470,
+        "soil_moisture_surface": 1470,
+        "ndvi": 1349,
+        "evi": 1349,
+        "lst_day_c": 860,
+        "ndre": 1326
+      }
+    },
+    {
+      "crop": "Jowar",
+      "harvest_year": 2018,
+      "labels": 247,
+      "season_months": 1482,
+      "available_months": {
+        "temp_mean_c": 1482,
+        "temp_max_c": 1482,
+        "temp_min_c": 1482,
+        "rainfall_mm": 1482,
+        "humidity_pct": 1482,
+        "wind_speed_ms": 1482,
+        "solar_radiation_mj": 1482,
+        "soil_moisture_root": 1482,
+        "soil_moisture_surface": 1482,
+        "ndvi": 1298,
+        "evi": 1298,
+        "lst_day_c": 809,
+        "ndre": 1442
+      }
+    },
+    {
+      "crop": "Jowar",
+      "harvest_year": 2019,
+      "labels": 263,
+      "season_months": 1578,
+      "available_months": {
+        "temp_mean_c": 1578,
+        "temp_max_c": 1578,
+        "temp_min_c": 1578,
+        "rainfall_mm": 1578,
+        "humidity_pct": 1578,
+        "wind_speed_ms": 1578,
+        "solar_radiation_mj": 1578,
+        "soil_moisture_root": 1578,
+        "soil_moisture_surface": 1578,
+        "ndvi": 1463,
+        "evi": 1463,
+        "lst_day_c": 884,
+        "ndre": 1561
+      }
+    },
+    {
+      "crop": "Maize",
+      "harvest_year": 2016,
+      "labels": 342,
+      "season_months": 2052,
+      "available_months": {
+        "temp_mean_c": 2052,
+        "temp_max_c": 2052,
+        "temp_min_c": 2052,
+        "rainfall_mm": 2052,
+        "humidity_pct": 2052,
+        "wind_speed_ms": 2052,
+        "solar_radiation_mj": 2052,
+        "soil_moisture_root": 2052,
+        "soil_moisture_surface": 2052,
+        "ndvi": 1868,
+        "evi": 1868,
+        "lst_day_c": 1201,
+        "ndre": 1608
+      }
+    },
+    {
+      "crop": "Maize",
+      "harvest_year": 2017,
+      "labels": 363,
+      "season_months": 2178,
+      "available_months": {
+        "temp_mean_c": 2178,
+        "temp_max_c": 2178,
+        "temp_min_c": 2178,
+        "rainfall_mm": 2178,
+        "humidity_pct": 2178,
+        "wind_speed_ms": 2178,
+        "solar_radiation_mj": 2178,
+        "soil_moisture_root": 2178,
+        "soil_moisture_surface": 2178,
+        "ndvi": 1989,
+        "evi": 1989,
+        "lst_day_c": 1347,
+        "ndre": 1938
+      }
+    },
+    {
+      "crop": "Maize",
+      "harvest_year": 2018,
+      "labels": 359,
+      "season_months": 2154,
+      "available_months": {
+        "temp_mean_c": 2154,
+        "temp_max_c": 2154,
+        "temp_min_c": 2154,
+        "rainfall_mm": 2154,
+        "humidity_pct": 2154,
+        "wind_speed_ms": 2154,
+        "solar_radiation_mj": 2154,
+        "soil_moisture_root": 2154,
+        "soil_moisture_surface": 2154,
+        "ndvi": 1896,
+        "evi": 1896,
+        "lst_day_c": 1269,
+        "ndre": 2104
+      }
+    },
+    {
+      "crop": "Maize",
+      "harvest_year": 2019,
+      "labels": 375,
+      "season_months": 2250,
+      "available_months": {
+        "temp_mean_c": 2250,
+        "temp_max_c": 2250,
+        "temp_min_c": 2250,
+        "rainfall_mm": 2250,
+        "humidity_pct": 2250,
+        "wind_speed_ms": 2250,
+        "solar_radiation_mj": 2250,
+        "soil_moisture_root": 2250,
+        "soil_moisture_surface": 2250,
+        "ndvi": 2106,
+        "evi": 2106,
+        "lst_day_c": 1309,
+        "ndre": 2227
+      }
+    },
+    {
+      "crop": "Moong(Green Gram)",
+      "harvest_year": 2016,
+      "labels": 301,
+      "season_months": 1806,
+      "available_months": {
+        "temp_mean_c": 1806,
+        "temp_max_c": 1806,
+        "temp_min_c": 1806,
+        "rainfall_mm": 1806,
+        "humidity_pct": 1806,
+        "wind_speed_ms": 1806,
+        "solar_radiation_mj": 1806,
+        "soil_moisture_root": 1806,
+        "soil_moisture_surface": 1806,
+        "ndvi": 1629,
+        "evi": 1629,
+        "lst_day_c": 1024,
+        "ndre": 1440
+      }
+    },
+    {
+      "crop": "Moong(Green Gram)",
+      "harvest_year": 2017,
+      "labels": 343,
+      "season_months": 2058,
+      "available_months": {
+        "temp_mean_c": 2058,
+        "temp_max_c": 2058,
+        "temp_min_c": 2058,
+        "rainfall_mm": 2058,
+        "humidity_pct": 2058,
+        "wind_speed_ms": 2058,
+        "solar_radiation_mj": 2058,
+        "soil_moisture_root": 2058,
+        "soil_moisture_surface": 2058,
+        "ndvi": 1888,
+        "evi": 1888,
+        "lst_day_c": 1247,
+        "ndre": 1833
+      }
+    },
+    {
+      "crop": "Moong(Green Gram)",
+      "harvest_year": 2018,
+      "labels": 351,
+      "season_months": 2106,
+      "available_months": {
+        "temp_mean_c": 2106,
+        "temp_max_c": 2106,
+        "temp_min_c": 2106,
+        "rainfall_mm": 2106,
+        "humidity_pct": 2106,
+        "wind_speed_ms": 2106,
+        "solar_radiation_mj": 2106,
+        "soil_moisture_root": 2106,
+        "soil_moisture_surface": 2106,
+        "ndvi": 1850,
+        "evi": 1850,
+        "lst_day_c": 1176,
+        "ndre": 2060
+      }
+    },
+    {
+      "crop": "Moong(Green Gram)",
+      "harvest_year": 2019,
+      "labels": 342,
+      "season_months": 2052,
+      "available_months": {
+        "temp_mean_c": 2052,
+        "temp_max_c": 2052,
+        "temp_min_c": 2052,
+        "rainfall_mm": 2052,
+        "humidity_pct": 2052,
+        "wind_speed_ms": 2052,
+        "solar_radiation_mj": 2052,
+        "soil_moisture_root": 2052,
+        "soil_moisture_surface": 2052,
+        "ndvi": 1914,
+        "evi": 1914,
+        "lst_day_c": 1136,
+        "ndre": 2034
+      }
+    },
+    {
+      "crop": "Onion",
+      "harvest_year": 2016,
+      "labels": 156,
+      "season_months": 936,
+      "available_months": {
+        "temp_mean_c": 936,
+        "temp_max_c": 936,
+        "temp_min_c": 936,
+        "rainfall_mm": 936,
+        "humidity_pct": 936,
+        "wind_speed_ms": 936,
+        "solar_radiation_mj": 936,
+        "soil_moisture_root": 936,
+        "soil_moisture_surface": 936,
+        "ndvi": 934,
+        "evi": 934,
+        "lst_day_c": 693,
+        "ndre": 622
+      }
+    },
+    {
+      "crop": "Onion",
+      "harvest_year": 2017,
+      "labels": 189,
+      "season_months": 1134,
+      "available_months": {
+        "temp_mean_c": 1134,
+        "temp_max_c": 1134,
+        "temp_min_c": 1134,
+        "rainfall_mm": 1134,
+        "humidity_pct": 1134,
+        "wind_speed_ms": 1134,
+        "solar_radiation_mj": 1134,
+        "soil_moisture_root": 1134,
+        "soil_moisture_surface": 1134,
+        "ndvi": 1125,
+        "evi": 1125,
+        "lst_day_c": 894,
+        "ndre": 1078
+      }
+    },
+    {
+      "crop": "Onion",
+      "harvest_year": 2018,
+      "labels": 183,
+      "season_months": 1098,
+      "available_months": {
+        "temp_mean_c": 1098,
+        "temp_max_c": 1098,
+        "temp_min_c": 1098,
+        "rainfall_mm": 1098,
+        "humidity_pct": 1098,
+        "wind_speed_ms": 1098,
+        "solar_radiation_mj": 1098,
+        "soil_moisture_root": 1098,
+        "soil_moisture_surface": 1098,
+        "ndvi": 1075,
+        "evi": 1075,
+        "lst_day_c": 816,
+        "ndre": 1090
+      }
+    },
+    {
+      "crop": "Onion",
+      "harvest_year": 2019,
+      "labels": 184,
+      "season_months": 1104,
+      "available_months": {
+        "temp_mean_c": 1104,
+        "temp_max_c": 1104,
+        "temp_min_c": 1104,
+        "rainfall_mm": 1104,
+        "humidity_pct": 1104,
+        "wind_speed_ms": 1104,
+        "solar_radiation_mj": 1104,
+        "soil_moisture_root": 1104,
+        "soil_moisture_surface": 1104,
+        "ndvi": 1101,
+        "evi": 1101,
+        "lst_day_c": 840,
+        "ndre": 1103
+      }
+    },
+    {
+      "crop": "Potato",
+      "harvest_year": 2016,
+      "labels": 142,
+      "season_months": 852,
+      "available_months": {
+        "temp_mean_c": 852,
+        "temp_max_c": 852,
+        "temp_min_c": 852,
+        "rainfall_mm": 852,
+        "humidity_pct": 852,
+        "wind_speed_ms": 852,
+        "solar_radiation_mj": 852,
+        "soil_moisture_root": 852,
+        "soil_moisture_surface": 852,
+        "ndvi": 850,
+        "evi": 850,
+        "lst_day_c": 705,
+        "ndre": 551
+      }
+    },
+    {
+      "crop": "Potato",
+      "harvest_year": 2017,
+      "labels": 185,
+      "season_months": 1110,
+      "available_months": {
+        "temp_mean_c": 1110,
+        "temp_max_c": 1110,
+        "temp_min_c": 1110,
+        "rainfall_mm": 1110,
+        "humidity_pct": 1110,
+        "wind_speed_ms": 1110,
+        "solar_radiation_mj": 1110,
+        "soil_moisture_root": 1110,
+        "soil_moisture_surface": 1110,
+        "ndvi": 1101,
+        "evi": 1101,
+        "lst_day_c": 921,
+        "ndre": 1047
+      }
+    },
+    {
+      "crop": "Potato",
+      "harvest_year": 2018,
+      "labels": 166,
+      "season_months": 996,
+      "available_months": {
+        "temp_mean_c": 996,
+        "temp_max_c": 996,
+        "temp_min_c": 996,
+        "rainfall_mm": 996,
+        "humidity_pct": 996,
+        "wind_speed_ms": 996,
+        "solar_radiation_mj": 996,
+        "soil_moisture_root": 996,
+        "soil_moisture_surface": 996,
+        "ndvi": 974,
+        "evi": 974,
+        "lst_day_c": 804,
+        "ndre": 988
+      }
+    },
+    {
+      "crop": "Potato",
+      "harvest_year": 2019,
+      "labels": 165,
+      "season_months": 990,
+      "available_months": {
+        "temp_mean_c": 990,
+        "temp_max_c": 990,
+        "temp_min_c": 990,
+        "rainfall_mm": 990,
+        "humidity_pct": 990,
+        "wind_speed_ms": 990,
+        "solar_radiation_mj": 990,
+        "soil_moisture_root": 990,
+        "soil_moisture_surface": 990,
+        "ndvi": 988,
+        "evi": 988,
+        "lst_day_c": 805,
+        "ndre": 989
+      }
+    },
+    {
+      "crop": "Rapeseed &Mustard",
+      "harvest_year": 2016,
+      "labels": 335,
+      "season_months": 2010,
+      "available_months": {
+        "temp_mean_c": 2010,
+        "temp_max_c": 2010,
+        "temp_min_c": 2010,
+        "rainfall_mm": 2010,
+        "humidity_pct": 2010,
+        "wind_speed_ms": 2010,
+        "solar_radiation_mj": 2010,
+        "soil_moisture_root": 2010,
+        "soil_moisture_surface": 2010,
+        "ndvi": 2005,
+        "evi": 2005,
+        "lst_day_c": 1593,
+        "ndre": 1290
+      }
+    },
+    {
+      "crop": "Rapeseed &Mustard",
+      "harvest_year": 2017,
+      "labels": 352,
+      "season_months": 2112,
+      "available_months": {
+        "temp_mean_c": 2112,
+        "temp_max_c": 2112,
+        "temp_min_c": 2112,
+        "rainfall_mm": 2112,
+        "humidity_pct": 2112,
+        "wind_speed_ms": 2112,
+        "solar_radiation_mj": 2112,
+        "soil_moisture_root": 2112,
+        "soil_moisture_surface": 2112,
+        "ndvi": 2103,
+        "evi": 2103,
+        "lst_day_c": 1685,
+        "ndre": 2028
+      }
+    },
+    {
+      "crop": "Rapeseed &Mustard",
+      "harvest_year": 2018,
+      "labels": 363,
+      "season_months": 2178,
+      "available_months": {
+        "temp_mean_c": 2178,
+        "temp_max_c": 2178,
+        "temp_min_c": 2178,
+        "rainfall_mm": 2178,
+        "humidity_pct": 2178,
+        "wind_speed_ms": 2178,
+        "solar_radiation_mj": 2178,
+        "soil_moisture_root": 2178,
+        "soil_moisture_surface": 2178,
+        "ndvi": 2156,
+        "evi": 2156,
+        "lst_day_c": 1740,
+        "ndre": 2169
+      }
+    },
+    {
+      "crop": "Rapeseed &Mustard",
+      "harvest_year": 2019,
+      "labels": 358,
+      "season_months": 2148,
+      "available_months": {
+        "temp_mean_c": 2148,
+        "temp_max_c": 2148,
+        "temp_min_c": 2148,
+        "rainfall_mm": 2148,
+        "humidity_pct": 2148,
+        "wind_speed_ms": 2148,
+        "solar_radiation_mj": 2148,
+        "soil_moisture_root": 2148,
+        "soil_moisture_surface": 2148,
+        "ndvi": 2147,
+        "evi": 2147,
+        "lst_day_c": 1703,
+        "ndre": 2147
+      }
+    },
+    {
+      "crop": "Rice",
+      "harvest_year": 2016,
+      "labels": 326,
+      "season_months": 1956,
+      "available_months": {
+        "temp_mean_c": 1956,
+        "temp_max_c": 1956,
+        "temp_min_c": 1956,
+        "rainfall_mm": 1956,
+        "humidity_pct": 1956,
+        "wind_speed_ms": 1956,
+        "solar_radiation_mj": 1956,
+        "soil_moisture_root": 1956,
+        "soil_moisture_surface": 1956,
+        "ndvi": 1811,
+        "evi": 1811,
+        "lst_day_c": 1175,
+        "ndre": 1545
+      }
+    },
+    {
+      "crop": "Rice",
+      "harvest_year": 2017,
+      "labels": 325,
+      "season_months": 1950,
+      "available_months": {
+        "temp_mean_c": 1950,
+        "temp_max_c": 1950,
+        "temp_min_c": 1950,
+        "rainfall_mm": 1950,
+        "humidity_pct": 1950,
+        "wind_speed_ms": 1950,
+        "solar_radiation_mj": 1950,
+        "soil_moisture_root": 1950,
+        "soil_moisture_surface": 1950,
+        "ndvi": 1793,
+        "evi": 1793,
+        "lst_day_c": 1268,
+        "ndre": 1725
+      }
+    },
+    {
+      "crop": "Rice",
+      "harvest_year": 2018,
+      "labels": 327,
+      "season_months": 1962,
+      "available_months": {
+        "temp_mean_c": 1962,
+        "temp_max_c": 1962,
+        "temp_min_c": 1962,
+        "rainfall_mm": 1962,
+        "humidity_pct": 1962,
+        "wind_speed_ms": 1962,
+        "solar_radiation_mj": 1962,
+        "soil_moisture_root": 1962,
+        "soil_moisture_surface": 1962,
+        "ndvi": 1733,
+        "evi": 1733,
+        "lst_day_c": 1167,
+        "ndre": 1910
+      }
+    },
+    {
+      "crop": "Rice",
+      "harvest_year": 2019,
+      "labels": 320,
+      "season_months": 1920,
+      "available_months": {
+        "temp_mean_c": 1920,
+        "temp_max_c": 1920,
+        "temp_min_c": 1920,
+        "rainfall_mm": 1920,
+        "humidity_pct": 1920,
+        "wind_speed_ms": 1920,
+        "solar_radiation_mj": 1920,
+        "soil_moisture_root": 1920,
+        "soil_moisture_surface": 1920,
+        "ndvi": 1805,
+        "evi": 1805,
+        "lst_day_c": 1173,
+        "ndre": 1904
+      }
+    },
+    {
+      "crop": "Soyabean",
+      "harvest_year": 2016,
+      "labels": 183,
+      "season_months": 1098,
+      "available_months": {
+        "temp_mean_c": 1098,
+        "temp_max_c": 1098,
+        "temp_min_c": 1098,
+        "rainfall_mm": 1098,
+        "humidity_pct": 1098,
+        "wind_speed_ms": 1098,
+        "solar_radiation_mj": 1098,
+        "soil_moisture_root": 1098,
+        "soil_moisture_surface": 1098,
+        "ndvi": 996,
+        "evi": 996,
+        "lst_day_c": 654,
+        "ndre": 826
+      }
+    },
+    {
+      "crop": "Soyabean",
+      "harvest_year": 2017,
+      "labels": 191,
+      "season_months": 1146,
+      "available_months": {
+        "temp_mean_c": 1146,
+        "temp_max_c": 1146,
+        "temp_min_c": 1146,
+        "rainfall_mm": 1146,
+        "humidity_pct": 1146,
+        "wind_speed_ms": 1146,
+        "solar_radiation_mj": 1146,
+        "soil_moisture_root": 1146,
+        "soil_moisture_surface": 1146,
+        "ndvi": 1030,
+        "evi": 1030,
+        "lst_day_c": 733,
+        "ndre": 982
+      }
+    },
+    {
+      "crop": "Soyabean",
+      "harvest_year": 2018,
+      "labels": 210,
+      "season_months": 1260,
+      "available_months": {
+        "temp_mean_c": 1260,
+        "temp_max_c": 1260,
+        "temp_min_c": 1260,
+        "rainfall_mm": 1260,
+        "humidity_pct": 1260,
+        "wind_speed_ms": 1260,
+        "solar_radiation_mj": 1260,
+        "soil_moisture_root": 1260,
+        "soil_moisture_surface": 1260,
+        "ndvi": 1080,
+        "evi": 1080,
+        "lst_day_c": 753,
+        "ndre": 1213
+      }
+    },
+    {
+      "crop": "Soyabean",
+      "harvest_year": 2019,
+      "labels": 186,
+      "season_months": 1116,
+      "available_months": {
+        "temp_mean_c": 1116,
+        "temp_max_c": 1116,
+        "temp_min_c": 1116,
+        "rainfall_mm": 1116,
+        "humidity_pct": 1116,
+        "wind_speed_ms": 1116,
+        "solar_radiation_mj": 1116,
+        "soil_moisture_root": 1116,
+        "soil_moisture_surface": 1116,
+        "ndvi": 1044,
+        "evi": 1044,
+        "lst_day_c": 682,
+        "ndre": 1098
+      }
+    },
+    {
+      "crop": "Sugarcane",
+      "harvest_year": 2016,
+      "labels": 233,
+      "season_months": 2796,
+      "available_months": {
+        "temp_mean_c": 2796,
+        "temp_max_c": 2796,
+        "temp_min_c": 2796,
+        "rainfall_mm": 2796,
+        "humidity_pct": 2796,
+        "wind_speed_ms": 2796,
+        "solar_radiation_mj": 2796,
+        "soil_moisture_root": 2796,
+        "soil_moisture_surface": 2796,
+        "ndvi": 2711,
+        "evi": 2711,
+        "lst_day_c": 1932,
+        "ndre": 1466
+      }
+    },
+    {
+      "crop": "Sugarcane",
+      "harvest_year": 2017,
+      "labels": 233,
+      "season_months": 2796,
+      "available_months": {
+        "temp_mean_c": 2796,
+        "temp_max_c": 2796,
+        "temp_min_c": 2796,
+        "rainfall_mm": 2796,
+        "humidity_pct": 2796,
+        "wind_speed_ms": 2796,
+        "solar_radiation_mj": 2796,
+        "soil_moisture_root": 2796,
+        "soil_moisture_surface": 2796,
+        "ndvi": 2654,
+        "evi": 2654,
+        "lst_day_c": 1869,
+        "ndre": 2434
+      }
+    },
+    {
+      "crop": "Sugarcane",
+      "harvest_year": 2018,
+      "labels": 238,
+      "season_months": 2856,
+      "available_months": {
+        "temp_mean_c": 2856,
+        "temp_max_c": 2856,
+        "temp_min_c": 2856,
+        "rainfall_mm": 2856,
+        "humidity_pct": 2856,
+        "wind_speed_ms": 2856,
+        "solar_radiation_mj": 2856,
+        "soil_moisture_root": 2856,
+        "soil_moisture_surface": 2856,
+        "ndvi": 2714,
+        "evi": 2714,
+        "lst_day_c": 1895,
+        "ndre": 2739
+      }
+    },
+    {
+      "crop": "Sugarcane",
+      "harvest_year": 2019,
+      "labels": 255,
+      "season_months": 3060,
+      "available_months": {
+        "temp_mean_c": 3060,
+        "temp_max_c": 3060,
+        "temp_min_c": 3060,
+        "rainfall_mm": 3060,
+        "humidity_pct": 3060,
+        "wind_speed_ms": 3060,
+        "solar_radiation_mj": 3060,
+        "soil_moisture_root": 3060,
+        "soil_moisture_surface": 3060,
+        "ndvi": 2865,
+        "evi": 2865,
+        "lst_day_c": 2037,
+        "ndre": 3012
+      }
+    },
+    {
+      "crop": "Urad",
+      "harvest_year": 2016,
+      "labels": 323,
+      "season_months": 1938,
+      "available_months": {
+        "temp_mean_c": 1938,
+        "temp_max_c": 1938,
+        "temp_min_c": 1938,
+        "rainfall_mm": 1938,
+        "humidity_pct": 1938,
+        "wind_speed_ms": 1938,
+        "solar_radiation_mj": 1938,
+        "soil_moisture_root": 1938,
+        "soil_moisture_surface": 1938,
+        "ndvi": 1743,
+        "evi": 1743,
+        "lst_day_c": 1092,
+        "ndre": 1540
+      }
+    },
+    {
+      "crop": "Urad",
+      "harvest_year": 2017,
+      "labels": 351,
+      "season_months": 2106,
+      "available_months": {
+        "temp_mean_c": 2106,
+        "temp_max_c": 2106,
+        "temp_min_c": 2106,
+        "rainfall_mm": 2106,
+        "humidity_pct": 2106,
+        "wind_speed_ms": 2106,
+        "solar_radiation_mj": 2106,
+        "soil_moisture_root": 2106,
+        "soil_moisture_surface": 2106,
+        "ndvi": 1932,
+        "evi": 1932,
+        "lst_day_c": 1272,
+        "ndre": 1888
+      }
+    },
+    {
+      "crop": "Urad",
+      "harvest_year": 2018,
+      "labels": 356,
+      "season_months": 2136,
+      "available_months": {
+        "temp_mean_c": 2136,
+        "temp_max_c": 2136,
+        "temp_min_c": 2136,
+        "rainfall_mm": 2136,
+        "humidity_pct": 2136,
+        "wind_speed_ms": 2136,
+        "solar_radiation_mj": 2136,
+        "soil_moisture_root": 2136,
+        "soil_moisture_surface": 2136,
+        "ndvi": 1875,
+        "evi": 1875,
+        "lst_day_c": 1231,
+        "ndre": 2082
+      }
+    },
+    {
+      "crop": "Urad",
+      "harvest_year": 2019,
+      "labels": 341,
+      "season_months": 2046,
+      "available_months": {
+        "temp_mean_c": 2046,
+        "temp_max_c": 2046,
+        "temp_min_c": 2046,
+        "rainfall_mm": 2046,
+        "humidity_pct": 2046,
+        "wind_speed_ms": 2046,
+        "solar_radiation_mj": 2046,
+        "soil_moisture_root": 2046,
+        "soil_moisture_surface": 2046,
+        "ndvi": 1895,
+        "evi": 1895,
+        "lst_day_c": 1168,
+        "ndre": 2024
+      }
+    },
+    {
+      "crop": "Wheat",
+      "harvest_year": 2016,
+      "labels": 368,
+      "season_months": 2208,
+      "available_months": {
+        "temp_mean_c": 2208,
+        "temp_max_c": 2208,
+        "temp_min_c": 2208,
+        "rainfall_mm": 2208,
+        "humidity_pct": 2208,
+        "wind_speed_ms": 2208,
+        "solar_radiation_mj": 2208,
+        "soil_moisture_root": 2208,
+        "soil_moisture_surface": 2208,
+        "ndvi": 2203,
+        "evi": 2203,
+        "lst_day_c": 1720,
+        "ndre": 1414
+      }
+    },
+    {
+      "crop": "Wheat",
+      "harvest_year": 2017,
+      "labels": 379,
+      "season_months": 2274,
+      "available_months": {
+        "temp_mean_c": 2274,
+        "temp_max_c": 2274,
+        "temp_min_c": 2274,
+        "rainfall_mm": 2274,
+        "humidity_pct": 2274,
+        "wind_speed_ms": 2274,
+        "solar_radiation_mj": 2274,
+        "soil_moisture_root": 2274,
+        "soil_moisture_surface": 2274,
+        "ndvi": 2268,
+        "evi": 2268,
+        "lst_day_c": 1828,
+        "ndre": 2195
+      }
+    },
+    {
+      "crop": "Wheat",
+      "harvest_year": 2018,
+      "labels": 378,
+      "season_months": 2268,
+      "available_months": {
+        "temp_mean_c": 2268,
+        "temp_max_c": 2268,
+        "temp_min_c": 2268,
+        "rainfall_mm": 2268,
+        "humidity_pct": 2268,
+        "wind_speed_ms": 2268,
+        "solar_radiation_mj": 2268,
+        "soil_moisture_root": 2268,
+        "soil_moisture_surface": 2268,
+        "ndvi": 2250,
+        "evi": 2250,
+        "lst_day_c": 1791,
+        "ndre": 2260
+      }
+    },
+    {
+      "crop": "Wheat",
+      "harvest_year": 2019,
+      "labels": 381,
+      "season_months": 2286,
+      "available_months": {
+        "temp_mean_c": 2286,
+        "temp_max_c": 2286,
+        "temp_min_c": 2286,
+        "rainfall_mm": 2286,
+        "humidity_pct": 2286,
+        "wind_speed_ms": 2286,
+        "solar_radiation_mj": 2286,
+        "soil_moisture_root": 2286,
+        "soil_moisture_surface": 2286,
+        "ndvi": 2285,
+        "evi": 2285,
+        "lst_day_c": 1808,
+        "ndre": 2285
+      }
+    }
+  ],
+  "selected_tabular_model": "RandomForest",
+  "parity_passed": true
+}

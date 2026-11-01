@@ -1,347 +1,266 @@
-"""
-merge_and_train.py
-===================
-Final pipeline. Takes the three data sources and produces a trained model.
+"""Frozen-year model comparison with train-only preprocessing and serving parity."""
 
-Inputs (must be in same folder):
-    APY.csv                        - crop yield records
-    nasa_power_seasonal.csv        - weather + soil features
-    ndvi_historical_all_india.csv  - NDVI per district/crop/season/year
-
-Outputs:
-    merged_dataset.csv     - clean merged dataset (keep this)
-    yield_model.pkl        - trained model
-    scaler.pkl             - fitted scaler
-    model_metadata.json    - feature list + metrics (Flask needs this)
-    training_report.txt    - full evaluation report
-
-Usage:
-    python merge_and_train.py
-"""
-
-from farm_yield.paths import RAW_DATA, PROCESSED_DATA, RUNS
-
-OUTPUT_DIR = RUNS / "legacy-rebuild"
-
-import pandas as pd
-import numpy as np
+import argparse
+from datetime import date, datetime, timezone
+import hashlib
 import json
+import random
+
 import joblib
-import os
-
-from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
+import numpy as np
+import pandas as pd
+from sklearn.base import clone
+from sklearn.dummy import DummyRegressor
+from sklearn.ensemble import GradientBoostingRegressor, RandomForestRegressor
+from sklearn.impute import SimpleImputer
 from sklearn.linear_model import Ridge
-from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
+from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import StandardScaler
 
-# ── CONFIG ────────────────────────────────────────────────────────────────────
-TOP16_CROPS = [
-    'Rice', 'Maize', 'Moong(Green Gram)', 'Urad', 'Groundnut', 'Wheat',
-    'Rapeseed &Mustard', 'Sugarcane', 'Arhar/Tur', 'Potato', 'Onion',
-    'Gram', 'Jowar', 'Dry chillies', 'Bajra', 'Soyabean'
-]
-
-# Yield cap per crop (99th percentile from analysis — anything above is a data error)
-YIELD_CAPS = {
-    'Rice': 5.0, 'Maize': 8.5, 'Moong(Green Gram)': 1.4, 'Urad': 1.5,
-    'Groundnut': 4.0, 'Wheat': 5.5, 'Rapeseed &Mustard': 2.2,
-    'Sugarcane': 130.0, 'Arhar/Tur': 2.5, 'Potato': 35.0,
-    'Onion': 35.0, 'Gram': 2.1, 'Jowar': 3.5,
-    'Dry chillies': 8.0, 'Bajra': 44.0, 'Soyabean': 2.5
-}
-
-WEATHER_FEATURES = [
-    'temp_mean_c', 'temp_max_c', 'temp_min_c',
-    'rainfall_mm', 'humidity_pct', 'wind_speed_ms',
-    'solar_radiation_mj', 'soil_moisture_root', 'soil_moisture_surface',
-    'season_days'
-]
-
-TARGET = 'yield_t_ha'
+from farm_yield.features import MONTHLY_COLUMNS, WEATHER_COLUMNS, build_feature_row, feature_columns
+from farm_yield.ml.artifacts import predict
+from farm_yield.paths import CURRENT, GEO_DATA, PROCESSED_DATA, RAW_DATA, RUNS
+from farm_yield.seasons import CROPS, season_months
 
 
-# ── STEP 1: LOAD AND MERGE ────────────────────────────────────────────────────
-def load_and_merge():
-    print("[1/5] Loading data...")
-
-    apy = pd.read_csv(RAW_DATA / 'APY.csv')
-    apy.columns = apy.columns.str.strip()
-    apy['District'] = apy['District'].str.strip()
-    apy['State']    = apy['State'].str.strip()
-    apy['Season']   = apy['Season'].str.strip()
-    apy = apy[apy['Crop'].isin(TOP16_CROPS) & apy['Production'].notna()].copy()
-    apy = apy.rename(columns={
-        'Yield': 'yield_t_ha',
-        'Area': 'area_ha',
-        'Production': 'production_tonnes'
-    })
-    print(f"   APY: {len(apy)} rows")
-
-    nasa = pd.read_csv(PROCESSED_DATA / 'nasa_power_seasonal.csv')
-    # Drop et0_mm — 100% null
-    if 'et0_mm' in nasa.columns:
-        nasa = nasa.drop(columns=['et0_mm'])
-    print(f"   NASA POWER: {len(nasa)} rows, {nasa['District'].nunique()} districts")
-
-    ndvi = pd.read_csv(PROCESSED_DATA / 'ndvi_historical_all_india.csv')
-    ndvi = ndvi.rename(columns={'year': 'Crop_Year'})
-    print(f"   NDVI: {len(ndvi)} rows, {ndvi['District'].nunique()} districts")
-
-    # Merge APY + NASA (inner — only rows where weather data exists)
-    df = apy.merge(nasa, on=['State', 'District', 'Season', 'Crop_Year'], how='inner')
-    print(f"   After APY+NASA merge: {len(df)} rows ({100*len(df)/len(apy):.1f}% retained)")
-
-    # Merge NDVI (left join — keep all rows, NDVI will be NaN where unavailable)
-    df = df.merge(
-        ndvi[['State', 'District', 'Crop', 'Season', 'Crop_Year', 'ndvi_season_mean']],
-        on=['State', 'District', 'Crop', 'Season', 'Crop_Year'],
-        how='left'
-    )
-    ndvi_pct = df['ndvi_season_mean'].notna().mean() * 100
-    print(f"   NDVI coverage: {ndvi_pct:.1f}% of rows")
-    print(f"   Final merged: {df.shape}")
-
-    return df
+def file_hash(path):
+    with path.open('rb') as stream:
+        return hashlib.file_digest(stream, 'sha256').hexdigest()
 
 
-# ── STEP 2: CLEAN ─────────────────────────────────────────────────────────────
-def clean(df):
-    print("\n[2/5] Cleaning...")
-    before = len(df)
-
-    # Cap yield outliers per crop
-    for crop, cap in YIELD_CAPS.items():
-        mask = (df['Crop'] == crop) & (df['yield_t_ha'] > cap)
-        df = df[~mask]
-
-    # Drop rows where yield is 0 or negative
-    df = df[df['yield_t_ha'] > 0]
-
-    # Drop rows with nulls in weather features
-    df = df.dropna(subset=WEATHER_FEATURES)
-
-    after = len(df)
-    print(f"   Rows before: {before}, after cleaning: {after} ({100*after/before:.1f}% kept)")
-    print(f"   Crop distribution:\n{df['Crop'].value_counts().to_string()}")
-
-    df.to_csv(PROCESSED_DATA / 'merged_dataset.csv', index=False)
-    print(f"   Saved: merged_dataset.csv")
-    return df
-
-
-# ── STEP 3: FEATURE ENGINEERING ──────────────────────────────────────────────
-def engineer_features(df):
-    print("\n[3/5] Engineering features...")
-    df = df.copy()
-
-    # Temperature range
-    df['temp_range_c'] = df['temp_max_c'] - df['temp_min_c']
-
-    # Soil moisture composite (root zone weighted more — deeper = more relevant)
-    df['soil_moisture_composite'] = (
-        0.3 * df['soil_moisture_surface'] + 0.7 * df['soil_moisture_root']
-    )
-
-    # GDD proxy — Growing Degree Days (base 10°C, standard for most crops)
-    df['gdd_proxy'] = (df['temp_mean_c'] - 10).clip(lower=0) * df['season_days']
-
-    # Heat stress proxy
-    df['heat_stress'] = (df['temp_mean_c'] - 25).clip(lower=0)
-
-    # Aridity index — rainfall vs solar radiation (proxy for water balance)
-    safe_rad = df['solar_radiation_mj'].replace(0, np.nan)
-    df['aridity_index'] = df['rainfall_mm'] / safe_rad
-    df['aridity_index'] = df['aridity_index'].clip(0, 10).fillna(0)
-
-    # NDVI — fill NaN with crop-season median (not drop, to keep pre-2000 rows)
-    # This way the model learns from NDVI where available
-    ndvi_medians = df.groupby(['Crop', 'Season'])['ndvi_season_mean'].transform('median')
-    df['ndvi_season_mean'] = df['ndvi_season_mean'].fillna(ndvi_medians)
-    df['ndvi_available'] = (~df['ndvi_season_mean'].isna()).astype(int)
-    # Final fallback for any remaining NaN
-    df['ndvi_season_mean'] = df['ndvi_season_mean'].fillna(df['ndvi_season_mean'].median())
-
-    # One-hot encode Crop
-    crop_dummies = pd.get_dummies(df['Crop'], prefix='crop')
-    df = pd.concat([df, crop_dummies], axis=1)
-
-    # One-hot encode Season
-    season_dummies = pd.get_dummies(df['Season'], prefix='season')
-    df = pd.concat([df, season_dummies], axis=1)
-
-    # Get final feature columns
-    base = WEATHER_FEATURES.copy()
-    engineered = ['temp_range_c', 'soil_moisture_composite', 'gdd_proxy',
-                  'heat_stress', 'aridity_index', 'ndvi_season_mean', 'ndvi_available']
-    dummies = [c for c in df.columns if c.startswith('crop_') or c.startswith('season_')]
-    optional = ['area_ha']
-
-    feature_cols = base + engineered + dummies + optional
-    feature_cols = [f for f in feature_cols if f in df.columns]
-
-    print(f"   Total features: {len(feature_cols)}")
-    return df, feature_cols
+def load_dataset():
+    labels = pd.read_csv(PROCESSED_DATA / 'labels.csv')
+    weather = pd.read_csv(PROCESSED_DATA / 'monthly_weather.csv').set_index(['State', 'District', 'month'])
+    cache = RAW_DATA / 'satellite' / 'point-buffer-v1'
+    satellite, manifest = {}, {}
+    expected_ids = set(pd.read_csv(GEO_DATA / 'district_locations.csv').shape_id)
+    for month in season_months(date(2015, 7, 1), date(2019, 12, 31)):
+        path = cache / (month.isoformat() + '.json')
+        doc = json.loads(path.read_text(encoding='utf-8'))
+        records = doc['records']
+        if len(records) != len(expected_ids) or {r['location_id'] for r in records} != expected_ids:
+            raise ValueError('Satellite location accounting does not match the accepted geography.')
+        manifest[str(path.relative_to(RAW_DATA))] = file_hash(path)
+        for record in records:
+            key = (record['location_id'], record['month'])
+            if key in satellite:
+                raise ValueError('Duplicate satellite key.')
+            satellite[key] = record
+    frames, seasons = [], []
+    for row in labels.to_dict('records'):
+        start, end = date.fromisoformat(row['start']), date.fromisoformat(row['end'])
+        records = []
+        for month in season_months(start, end):
+            key = (row['State'], row['District'], month.isoformat())
+            record = weather.loc[key].to_dict()
+            record['days'] = int(record['days'])
+            record.update(satellite[(row['shape_id'], month.isoformat())])
+            records.append(record)
+        frames.append(build_feature_row(records, row['Crop'], start, end))
+        seasons.append(records)
+    features = pd.concat(frames, ignore_index=True)
+    assert features.columns.tolist() == feature_columns()
+    assert not labels.duplicated(['State', 'District', 'Crop', 'Season', 'harvest_year']).any()
+    for name in ('labels.csv', 'monthly_weather.csv', 'dataset_audit.json'):
+        manifest[name] = file_hash(PROCESSED_DATA / name)
+    return labels, features, seasons, manifest
 
 
-# ── STEP 4: TRAIN ─────────────────────────────────────────────────────────────
-def train(df, feature_cols):
-    print("\n[4/5] Training...")
+def preprocessing():
+    return Pipeline([('imputer', SimpleImputer(strategy='median', keep_empty_features=True)),
+                     ('scaler', StandardScaler())])
 
-    # Temporal split — last 3 years as test (simulates predicting future seasons)
-    all_years   = sorted(df['Crop_Year'].unique())
-    test_years  = all_years[-3:]
-    train_years = all_years[:-3]
 
-    train_df = df[df['Crop_Year'].isin(train_years)]
-    test_df  = df[df['Crop_Year'].isin(test_years)]
+def metrics(labels, predictions, scales):
+    rows = []
+    for crop in CROPS:
+        mask = labels.Crop.eq(crop).to_numpy()
+        y, p = labels.Yield.to_numpy()[mask], np.asarray(predictions)[mask]
+        if len(y) < 2:
+            raise ValueError(f'Insufficient evaluation coverage for {crop}.')
+        rows.append({'crop': crop, 'count': len(y), 'mae_t_ha': float(mean_absolute_error(y, p)),
+                     'rmse_t_ha': float(np.sqrt(mean_squared_error(y, p))), 'r2': float(r2_score(y, p)),
+                     'normalized_mae': float(mean_absolute_error(y, p) / scales[crop])})
+    return {'crop_balanced_normalized_mae': float(np.mean([r['normalized_mae'] for r in rows])),
+            'count': len(labels), 'per_crop': rows}
 
-    print(f"   Train: {len(train_df)} rows ({train_years[0]}–{train_years[-1]})")
-    print(f"   Test:  {len(test_df)} rows ({test_years[0]}–{test_years[-1]})")
 
-    X_train = train_df[feature_cols].values
-    y_train = train_df[TARGET].values
-    X_test  = test_df[feature_cols].values
-    y_test  = test_df[TARGET].values
+def lstm_predictions(x_train, x_valid, x_test, y_train, valid_labels, scales, directory):
+    import torch
+    from torch import nn
+    from torch.utils.data import DataLoader, TensorDataset
+    random.seed(42)
+    np.random.seed(42)
+    torch.manual_seed(42)
+    torch.set_num_threads(2)
+    torch.use_deterministic_algorithms(True)
+    prep = preprocessing().fit(x_train)
+    per_month = 2 * len(MONTHLY_COLUMNS) + 1
 
-    # Scale
-    scaler     = StandardScaler()
-    X_train_s  = scaler.fit_transform(X_train)
-    X_test_s   = scaler.transform(X_test)
+    def tensor(frame):
+        values = prep.transform(frame).astype('float32')
+        monthly = values[:, :12 * per_month].reshape(-1, 12, per_month)
+        context = np.repeat(values[:, None, 12 * per_month:], 12, axis=1)
+        lengths = frame[[f'm{m:02d}_in_season' for m in range(1, 13)]].sum(axis=1).to_numpy().astype('int64')
+        return torch.from_numpy(np.concatenate([monthly, context], axis=2)), torch.from_numpy(lengths)
 
-    # Train 3 models
-    candidates = {
-        'Ridge':             Ridge(alpha=1.0),
-        'Random Forest':     RandomForestRegressor(
-                                n_estimators=300, max_depth=20,
-                                min_samples_leaf=4, max_features='sqrt',
-                                random_state=42, n_jobs=-1),
-        'Gradient Boosting': GradientBoostingRegressor(
-                                n_estimators=400, learning_rate=0.05,
-                                max_depth=6, min_samples_leaf=4,
-                                subsample=0.8, random_state=42),
-    }
+    class SequenceModel(nn.Module):
+        def __init__(self):
+            super().__init__()
+            self.lstm = nn.LSTM(per_month + len(CROPS) + 3, 32, batch_first=True)
+            self.output = nn.Linear(32, 1)
 
-    results   = {}
-    report    = []
+        def forward(self, values, lengths):
+            hidden, _ = self.lstm(values)
+            return self.output(hidden[torch.arange(len(values)), lengths - 1]).squeeze(1)
 
-    best_name  = None
-    best_r2    = -np.inf
-    best_model = None
-
-    for name, model in candidates.items():
-        print(f"   Training {name}...", end=' ', flush=True)
-        if name == 'Ridge':
-            model.fit(X_train_s, y_train)
-            preds = model.predict(X_test_s)
+    train_values, train_lengths = tensor(x_train)
+    valid_values, valid_lengths = tensor(x_valid)
+    test_values, test_lengths = tensor(x_test)
+    model = SequenceModel()
+    optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
+    loader = DataLoader(TensorDataset(train_values, train_lengths, torch.tensor(y_train, dtype=torch.float32)),
+                        batch_size=128, shuffle=True, generator=torch.Generator().manual_seed(42))
+    best, stale, history = float('inf'), 0, []
+    checkpoint = directory / 'checkpoints'
+    checkpoint.mkdir()
+    for epoch in range(20):
+        model.train()
+        for values, lengths, targets in loader:
+            optimizer.zero_grad()
+            loss = nn.functional.mse_loss(model(values, lengths), targets)
+            loss.backward()
+            optimizer.step()
+        model.eval()
+        with torch.no_grad():
+            estimates = model(valid_values, valid_lengths).numpy() * valid_labels.Crop.map(scales).to_numpy()
+        score = metrics(valid_labels, estimates, scales)['crop_balanced_normalized_mae']
+        history.append({'epoch': epoch + 1, 'validation_score': score})
+        if score < best:
+            best, stale = score, 0
+            torch.save({'state_dict': model.state_dict(), 'hidden_size': 32, 'seed': 42,
+                        'input_size': per_month + len(CROPS) + 3, 'epoch': epoch + 1}, checkpoint / 'lstm.pt')
         else:
-            model.fit(X_train, y_train)
-            preds = model.predict(X_test)
-
-        mae  = mean_absolute_error(y_test, preds)
-        rmse = np.sqrt(mean_squared_error(y_test, preds))
-        r2   = r2_score(y_test, preds)
-
-        print(f"MAE={mae:.3f}  RMSE={rmse:.3f}  R²={r2:.4f}")
-        report.append(f"{name}: MAE={mae:.4f}  RMSE={rmse:.4f}  R²={r2:.4f}")
-
-        # Per-crop breakdown
-        report.append(f"  Per-crop breakdown:")
-        per_crop = {}
-        for crop in TOP16_CROPS:
-            mask = test_df['Crop'] == crop
-            if mask.sum() < 5:
-                continue
-            yc = y_test[mask.values]
-            pc = preds[mask.values]
-            c_mae = mean_absolute_error(yc, pc)
-            c_r2  = r2_score(yc, pc) if len(yc) > 1 else float('nan')
-            per_crop[crop] = {'mae': round(c_mae, 4), 'r2': round(c_r2, 4), 'n': int(mask.sum())}
-            report.append(f"    {crop:<25} MAE={c_mae:.3f}  R²={c_r2:.3f}  n={mask.sum()}")
-
-        results[name] = {
-            'overall_mae': round(mae, 4),
-            'overall_rmse': round(rmse, 4),
-            'overall_r2': round(r2, 4),
-            'per_crop': per_crop,
-        }
-
-        if r2 > best_r2:
-            best_r2    = r2
-            best_name  = name
-            best_model = model
-
-    print(f"\n   Best model: {best_name} (R²={best_r2:.4f})")
-
-    # Feature importance for RF
-    rf = candidates['Random Forest']
-    importances = rf.feature_importances_
-    indices     = np.argsort(importances)[::-1][:15]
-    report.append(f"\nTop 15 Feature Importances (Random Forest):")
-    for i in indices:
-        bar = '█' * int(importances[i] / importances[indices[0]] * 25)
-        report.append(f"  {feature_cols[i]:<35} {bar:<25} {importances[i]:.4f}")
-
-    return best_model, best_name, scaler, results, feature_cols, test_years, train_years, report
+            stale += 1
+            if stale >= 3:
+                break
+    model.load_state_dict(torch.load(checkpoint / 'lstm.pt', map_location='cpu', weights_only=True)['state_dict'])
+    model.eval()
+    with torch.no_grad():
+        valid, test = model(valid_values, valid_lengths).numpy(), model(test_values, test_lengths).numpy()
+    joblib.dump(prep, checkpoint / 'lstm_preprocessing.pkl')
+    return valid, test, history
 
 
-# ── STEP 5: SAVE ARTIFACTS ────────────────────────────────────────────────────
-def save(model, model_name, scaler, results, feature_cols, test_years, train_years, report):
-    print("\n[5/5] Saving artifacts...")
-
-    joblib.dump(model, OUTPUT_DIR / 'yield_model.pkl')
-    joblib.dump(scaler, OUTPUT_DIR / 'scaler.pkl')
-    print("   yield_model.pkl ✅")
-    print("   scaler.pkl ✅")
-
-    metadata = {
-        'model_name':     model_name,
-        'feature_columns': feature_cols,
-        'weather_features': WEATHER_FEATURES,
-        'crops':          TOP16_CROPS,
-        'target':         TARGET,
-        'uses_scaler':    model_name == 'Ridge',
-        'test_years':     [int(y) for y in test_years],
-        'train_years':    [int(y) for y in train_years],
-        'metrics':        results,
-        'ndvi_note':      (
-            'NDVI is included as a training feature. '
-            'Pre-2000 rows and states outside NDVI batch have NDVI '
-            'imputed with crop-season median. ndvi_available flag (0/1) '
-            'indicates whether real NDVI was used for that row.'
-        ),
-    }
-    with open(OUTPUT_DIR / 'model_metadata.json', 'w') as f:
-        json.dump(metadata, f, indent=2)
-    print("   model_metadata.json ✅")
-
-    with open(OUTPUT_DIR / 'training_report.txt', 'w', encoding='utf-8') as f:
-        f.write('\n'.join(report))
-    print("   training_report.txt ✅")
-
-    print(f"\n{'='*55}")
-    print(f"  BEST MODEL : {model_name}")
-    print(f"  Overall R² : {results[model_name]['overall_r2']}")
-    print(f"  Overall MAE: {results[model_name]['overall_mae']} T/Ha")
-    print(f"  Features   : {len(feature_cols)}")
-    print(f"  Training rows: {len([y for y in train_years])* 1} years of data")
-    print(f"{'='*55}")
-    print(f"\nNext: update app.py to load yield_model.pkl")
-    print(f"      use predict_yield.py for the Flask integration")
-
-
-# ── MAIN ──────────────────────────────────────────────────────────────────────
 def main():
-    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    PROCESSED_DATA.mkdir(parents=True, exist_ok=True)
-    print("=" * 55)
-    print("  MERGE + TRAIN PIPELINE")
-    print("=" * 55)
-
-    df                                              = load_and_merge()
-    df                                              = clean(df)
-    df, feature_cols                                = engineer_features(df)
-    model, name, scaler, results, fc, ty, tny, rep  = train(df, feature_cols)
-    save(model, name, scaler, results, fc, ty, tny, rep)
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--promote', action='store_true', help='Promote only after all comparison and parity gates pass.')
+    args = parser.parse_args()
+    labels, features, seasons, source_manifest = load_dataset()
+    train = labels.harvest_year.isin([2016, 2017]).to_numpy()
+    valid = labels.harvest_year.eq(2018).to_numpy()
+    test = labels.harvest_year.eq(2019).to_numpy()
+    assert (train.astype(int) + valid + test == 1).all()
+    scales = labels[train].groupby('Crop').Yield.median().to_dict()
+    if set(scales) != set(CROPS) or any(value <= 0 for value in scales.values()):
+        raise ValueError('Every crop requires positive training median coverage.')
+    y = labels.Yield.to_numpy() / labels.Crop.map(scales).to_numpy()
+    from xgboost import XGBRegressor
+    candidates = {
+        'CropSeasonMedian': DummyRegressor(strategy='constant', constant=1.0),
+        'Ridge': Ridge(alpha=10),
+        # Fixed accumulation order is required for exact serialized prediction parity.
+        'RandomForest': RandomForestRegressor(n_estimators=120, max_depth=14, min_samples_leaf=3, random_state=42, n_jobs=1),
+        'GradientBoosting': GradientBoostingRegressor(n_estimators=120, max_depth=3, random_state=42),
+        'XGBoost': XGBRegressor(n_estimators=180, max_depth=4, learning_rate=.05, random_state=42, n_jobs=2),
+    }
+    run_id = datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%SZ')
+    directory = RUNS / run_id
+    directory.mkdir(parents=True)
+    report = {'run_id': run_id, 'seed': 42, 'unit': 'tonnes/hectare', 'evaluation_unit': 'district',
+              'train_years': [2016, 2017], 'validation_year': 2018, 'retrospective_backtest_year': 2019,
+              'source_manifest': source_manifest, 'models': {}, 'ablations': {}}
+    predictions = labels[['State', 'District', 'shape_id', 'Crop', 'Season', 'harvest_year', 'Yield']].copy()
+    models = {}
+    for name, estimator in candidates.items():
+        pipeline = Pipeline([('preprocessing', preprocessing()), ('model', estimator)])
+        pipeline.fit(features[train], y[train])
+        raw = pipeline.predict(features) * labels.Crop.map(scales).to_numpy()
+        report['models'][name] = {'validation': metrics(labels[valid], raw[valid], scales),
+                                  'backtest': metrics(labels[test], raw[test], scales),
+                                  'valid_predictions': bool(np.isfinite(raw).all() and (raw >= 0).all())}
+        models[name] = pipeline
+        predictions[name] = raw
+        print(name, report['models'][name]['validation']['crop_balanced_normalized_mae'], flush=True)
+    lv, lt, history = lstm_predictions(features[train], features[valid], features[test], y[train], labels[valid], scales, directory)
+    report['models']['LSTM'] = {'validation': metrics(labels[valid], lv * labels[valid].Crop.map(scales), scales),
+                               'backtest': metrics(labels[test], lt * labels[test].Crop.map(scales), scales), 'epochs': history}
+    predictions['LSTM'] = np.nan
+    predictions.loc[valid, 'LSTM'] = lv * labels[valid].Crop.map(scales)
+    predictions.loc[test, 'LSTM'] = lt * labels[test].Crop.map(scales)
+    eligible = [name for name in candidates if report['models'][name]['valid_predictions']]
+    winner = min(eligible, key=lambda name: report['models'][name]['validation']['crop_balanced_normalized_mae'])
+    for name, columns in [('weather_only', WEATHER_COLUMNS), ('weather_ndvi', WEATHER_COLUMNS + ('ndvi',))]:
+        selected = feature_columns(columns)
+        reduced = features[selected]
+        model = Pipeline([('preprocessing', preprocessing()), ('model', clone(candidates[winner]))])
+        model.fit(reduced[train], y[train])
+        raw = model.predict(reduced) * labels.Crop.map(scales).to_numpy()
+        report['ablations'][name] = {'validation': metrics(labels[valid], raw[valid], scales),
+                                     'backtest': metrics(labels[test], raw[test], scales)}
+    availability = {column: int(features[[f'm{m:02d}_{column}_available' for m in range(1, 13)]].to_numpy().sum())
+                    for column in MONTHLY_COLUMNS}
+    report['available_months'] = availability
+    coverage = []
+    for (crop, year), group in labels.groupby(['Crop', 'harvest_year']):
+        subset = features.loc[group.index]
+        months = int(subset[[f'm{m:02d}_in_season' for m in range(1, 13)]].to_numpy().sum())
+        coverage.append({'crop': crop, 'harvest_year': int(year), 'labels': len(group), 'season_months': months,
+            'available_months': {column: int(subset[[f'm{m:02d}_{column}_available' for m in range(1, 13)]].to_numpy().sum())
+                                for column in MONTHLY_COLUMNS}})
+    report['coverage_by_crop_year'] = coverage
+    report['selected_tabular_model'] = winner
+    limits = ['District labels do not validate field-level accuracy.',
+              '2019 is a retrospective backtest; years were inspected in earlier experiments.',
+              'Fixed reporting seasons and district reference-point buffers are proxies, without crop masks.',
+              'Geographic exclusions limit national coverage; see dataset_audit.json.',
+              'Sentinel-2 TOA comparability, satellite missingness and present-day boundaries are experimental limits.',
+              '8/16-day satellite composites can extend up to 15 days beyond the reporting-season boundary; this is retrospective estimation.',
+              'Current-season and post-2019 performance have not been evaluated.']
+    metadata = {'schema_version': 2, 'monthly_columns': list(MONTHLY_COLUMNS),
+                'feature_columns': feature_columns(), 'target_scales': scales, 'model_name': winner,
+                'run_id': run_id, 'verified': False, 'evidence_limits': limits,
+                'harvest_years': [2016, 2017, 2018, 2019], 'unit': 'tonnes/hectare'}
+    observations = {}
+    for label, records in zip(labels.to_dict('records'), seasons):
+        observations.setdefault(label['shape_id'], {}).update({r['month']: r for r in records})
+    bundle = {'pipeline': models[winner], 'metadata': metadata, 'observations': observations}
+    # Verify the actual shared inference path and a serialized round trip on each crop.
+    for crop in CROPS:
+        index = labels.index[test & labels.Crop.eq(crop).to_numpy()][0]
+        row = labels.iloc[index]
+        actual = predict(bundle, seasons[index], crop, date.fromisoformat(row.start), date.fromisoformat(row.end))
+        assert actual == round(float(predictions.loc[index, winner]), 2)
+    report['parity_passed'] = False
+    (directory / 'evaluation.json').write_text(json.dumps(report, indent=2, allow_nan=False), encoding='utf-8')
+    (directory / 'metadata.json').write_text(json.dumps(metadata, indent=2, allow_nan=False), encoding='utf-8')
+    predictions.to_csv(directory / 'predictions.csv', index=False)
+    joblib.dump(bundle, directory / 'bundle.pkl')
+    restored = joblib.load(directory / 'bundle.pkl')
+    np.testing.assert_allclose(restored['pipeline'].predict(features[test]), models[winner].predict(features[test]), rtol=0, atol=0)
+    restored['metadata']['verified'] = True
+    metadata = restored['metadata']
+    joblib.dump(restored, directory / 'bundle.pkl')
+    report['parity_passed'] = True
+    (directory / 'evaluation.json').write_text(json.dumps(report, indent=2, allow_nan=False), encoding='utf-8')
+    (directory / 'metadata.json').write_text(json.dumps(metadata, indent=2, allow_nan=False), encoding='utf-8')
+    features.to_csv(PROCESSED_DATA / 'model_features.csv', index=False)
+    if args.promote:
+        temporary = CURRENT.with_suffix('.tmp')
+        temporary.write_text(json.dumps({'run_id': run_id, 'bundle_sha256': file_hash(directory / 'bundle.pkl')}, indent=2), encoding='utf-8')
+        temporary.replace(CURRENT)
+    print(f'PASS: {run_id}, selected {winner}; promotion={args.promote}', flush=True)
 
 
 if __name__ == '__main__':

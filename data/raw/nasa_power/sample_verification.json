@@ -1,0 +1,47 @@
+{
+  "district": "LUDHIANA",
+  "lat": 30.901,
+  "lon": 75.8573,
+  "start": "2019-01-01",
+  "end": "2019-01-31",
+  "checked": "2026-10-22",
+  "fresh_monthly": {
+    "month": "2019-01-01",
+    "days": 31,
+    "temp_mean_c": 11.244516129032261,
+    "temp_max_c": 18.94677419354839,
+    "temp_min_c": 5.730645161290322,
+    "rainfall_mm": 42.75000000000001,
+    "humidity_pct": 57.64419354838711,
+    "wind_speed_ms": 1.4303225806451614,
+    "solar_radiation_mj": 346.79999999999995,
+    "soil_moisture_root": 0.4325806451612905,
+    "soil_moisture_surface": 0.4119354838709677
+  },
+  "cached_monthly": {
+    "month": "2019-01-01",
+    "days": 31,
+    "temp_mean_c": 11.244516129032261,
+    "temp_max_c": 18.94677419354839,
+    "temp_min_c": 5.730645161290322,
+    "rainfall_mm": 42.75000000000001,
+    "humidity_pct": 57.64419354838711,
+    "wind_speed_ms": 1.4303225806451614,
+    "solar_radiation_mj": 346.79999999999995,
+    "soil_moisture_root": 0.4325806451612905,
+    "soil_moisture_surface": 0.4119354838709677
+  },
+  "differences": {
+    "temp_mean_c": 0.0,
+    "temp_max_c": 0.0,
+    "temp_min_c": 0.0,
+    "rainfall_mm": 0.0,
+    "humidity_pct": 0.0,
+    "wind_speed_ms": 0.0,
+    "solar_radiation_mj": 0.0,
+    "soil_moisture_root": 0.0,
+    "soil_moisture_surface": 0.0
+  },
+  "passed": true,
+  "tolerance": 0.005
+}

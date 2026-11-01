@@ -1,0 +1,31 @@
+{
+  "success": 1,
+  "failed": [],
+  "skipped": 0,
+  "expected_months": 1,
+  "locations": 3,
+  "sources": {
+    "vegetation": [
+      "MODIS/061/MOD13Q1",
+      [
+        "ndvi",
+        "evi"
+      ],
+      250
+    ],
+    "temperature": [
+      "MODIS/061/MOD11A2",
+      [
+        "lst_day_c"
+      ],
+      1000
+    ],
+    "red_edge": [
+      "COPERNICUS/S2_HARMONIZED",
+      [
+        "ndre"
+      ],
+      20
+    ]
+  }
+}

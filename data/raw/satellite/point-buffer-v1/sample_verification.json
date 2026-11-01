@@ -1,0 +1,23 @@
+{
+  "b5_scale_m": 20,
+  "b8a_scale_m": 20,
+  "lst_native_scale_m": 926.6254331387497,
+  "ndvi_native_scale_m": 231.65635826395828,
+  "pixel": {
+    "B5": 1196,
+    "B8A": 2349,
+    "cs_cdf": 0.8862745098039215,
+    "ndre": 0.32524682651622006
+  },
+  "scene": "20160130T052442_20160130T052444_T43PGS",
+  "passed": true,
+  "python_ndre": 0.32524682651622006,
+  "checked": "2026-10-22",
+  "source_sha256": "ec99f78e13df59eb945ca9b5e1c3fa9f4f09af55b17cb719f901f78a89b5db23",
+  "sample_missingness": {
+    "ndvi": 0,
+    "evi": 0,
+    "lst_day_c": 1,
+    "ndre": 1
+  }
+}

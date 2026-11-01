@@ -10,3 +10,4 @@ isrgrootx1.pem
 .venv/
 *.pyc
 artifacts/runs/*/checkpoints/
+!artifacts/runs/20261021T223804Z/checkpoints/
